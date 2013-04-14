@@ -365,6 +365,9 @@ public class Utils {
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
         String defaultClockStyle = context.getResources().getString(R.string.default_clock_style);
         String style = sharedPref.getString(clockStyleKey, defaultClockStyle);
+        String mDateFormat = context.getResources().getString(R.string.abbrev_wday_month_day_no_year);
+        String mDateFormatForAccessibility = context.getResources().
+            getString(R.string.full_wday_month_day_no_year);
         View returnView;
         if (style.equals(CLOCK_TYPE_ANALOG)) {
             digitalClock.setVisibility(View.GONE);
@@ -375,7 +378,7 @@ public class Utils {
             analogClock.setVisibility(View.GONE);
             returnView = digitalClock;
         }
-
+        updateDate(mDateFormat, mDateFormatForAccessibility, returnView);
         return returnView;
     }
 
