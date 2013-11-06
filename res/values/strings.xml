@@ -27,6 +27,9 @@
     <!-- Menu item on Alarm Clock screen: Add alarm -->
     <string name="add_alarm">Add alarm</string>
 
+    <!-- Title text for alarm timeline view [CHAR LIMIT=20] -->
+    <string name="alarm_timeline_title_text">NEXT ALARMS</string>
+
     <!-- Menu item on Alarm Clock screen: Desk clock -->
     <string name="menu_desk_clock">Desk clock</string>
 
@@ -79,10 +82,14 @@
     <!-- Button labels on the alarm dialog: Dismiss -->
     <string name="alarm_alert_dismiss_text">Dismiss</string>
 
+    <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+    <string name="alarm_alert_dismiss_now_text">Dismiss Now</string>
+
     <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
-    <string name="alarm_alert_alert_silenced">Alarm silenced after <xliff:g id="minutes">%d</xliff:g> minutes.</string>
+    <string name="alarm_missed_title">Missed alarm</string>
+    <string name="alarm_missed_text"><xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g></string>
 
     <!-- Button labels on the alarm dialog: Snooze -->
     <string name="alarm_alert_snooze_text">Snooze</string>
@@ -93,6 +100,12 @@
 
     <!-- Text to appear inside a notification while an alarm is snoozing. -->
     <string name="alarm_alert_snooze_until">Snoozing until <xliff:g id="time">%s</xliff:g></string>
+
+    <!-- Text to appear in the notification title while an alarm is about to go off. -->
+    <string name="alarm_alert_predismiss_title">Upcoming alarm</string>
+
+    <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+    <string name="missed_alarm_has_been_deleted">Your missed alarm has been deleted</string>
 
     <!-- 0: nothing
          1: days
@@ -309,6 +322,8 @@
     <string name="control_set_alarm_with_existing"><xliff:g id="time">%s</xliff:g></string>
 
     <!--  ActionBar strings -->
+    <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
+    <string name="menu_alarm">Alarm</string>
     <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
     <string name="menu_timer">Timer</string>
     <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
@@ -329,6 +344,13 @@
     <string name="menu_item_help">Help</string>
     <!-- Menu item on clock screen to enter night mode. -->
     <string name="menu_item_night_mode">Night mode</string>
+    <!-- Menu item on Cities screen to sort by GMT offset -->
+    <string name="menu_item_sort_by_gmt_offset">Sort by time</string>
+    <!-- Menu item on Cities screen to sort by alphabetical order -->
+    <string name="menu_item_sort_by_name">Sort by name</string>
+
+    <!-- Label for selected cities in Cities list view -->
+    <string name="selected_cities_label">Selected Cities</string>
 
     <!-- Stop Watch strings -->
     <!-- Describes the purpose of the button to resume running a stopwatch -->
@@ -437,7 +459,12 @@
     <string name="timer_delete">Delete</string>
     <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
     <string name="timer_plus_one">Add 1 Minute</string>
+    <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
+    <string name="timer_plus_1_min">Add 1 min</string>
+    <!-- Describes the purpose of the button to stop the timer. -->
     <string name="timer_stop">Stop</string>
+    <!-- Describes the purpose of the button to stop and delete the timer. -->
+    <string name="timer_done">Done</string>
     <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
     <string name="timer_reset">Reset</string>
     <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
@@ -600,6 +627,7 @@
         <item>"Auckland"</item>
         <item>"Fiji"</item>
         <item>"Tonga"</item>
+        <item>"Jakarta"</item>
     </string-array>
 
     <!-- Choices for timezones, must be kept in sync with timezone_values. -->
@@ -689,6 +717,7 @@
         <item>"Pacific/Auckland"</item>
         <item>"Pacific/Fiji"</item>
         <item>"Pacific/Tongatapu"</item>
+        <item>"Asia/Jakarta"</item>
     </string-array>
 
      <!-- Header in the preferences settings for the section pertaining to alarms -->
@@ -769,11 +798,21 @@
     <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
     <string name="digital_gadget">Digital clock</string>
 
-    <!-- format strings for widget clock -->
-    <string name="widget_12_hours_format_h" translatable="false">h</string>
-    <string name="widget_12_hours_format_no_ampm_m" translatable="false">:mm</string>
-    <string name="widget_12_hours_format_m" translatable="false">:mm<font size="15">aa</font></string>
-    <string name="widget_24_hours_format_h" translatable="false">kk</string>
-    <string name="widget_24_hours_format_m" translatable="false">:mm</string>
+    <!-- format strings for clocks -->
+    <string name="clock_24_hours_format" translatable="false">kk&#58;mm</string>
+    <string name="main_widget_12_hours_format" translatable="false">h&#58;mm</string>
+    <!-- Font size for AM/PM should match widget_label_font_size -->
+    <string name="wc_widget_12_hours_format" translatable="false">h&#58;mm&#8202;<b><font size="14" face="sans-serif-condensed">a</font></b></string>
+    <!-- Font size for AM/PM should match bottom_text_size -->
+    <string name="main_clock_12_hours_format" translatable="false">h&#58;mm&#8202;<b><font size="16" face="sans-serif-condensed">a</font></b></string>
+    <!-- Font size for AM/PM should match label_font_size -->
+    <string name="world_clock_12_hours_format" translatable="false">h&#58;mm&#8202;<b><font size="14" face="sans-serif-condensed">a</font></b></string>
+    <!-- Font size for AM/PM should match alarm_label_size -->
+    <string name="alarm_time_12_hours_format" translatable="false">h&#58;mm&#8202;<b><font size="14" face="sans-serif-condensed">a</font></b></string>
+
+    <!-- String for no alarms -->
+    <string name="no_alarms">No Alarms</string>
+    <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
+    <string name="no_upcoming_alarms">NO UPCOMING ALARMS</string>
 </resources>
 

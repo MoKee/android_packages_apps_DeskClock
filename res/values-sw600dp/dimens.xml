@@ -24,8 +24,11 @@
     <dimen name="ampm_text_size">54dip</dimen>
     <dimen name="date_text_size">15sp</dimen>
     <dimen name="next_alarm_text_size">15sp</dimen>
-    <dimen name="time_margin_right">8dip</dimen>
     <dimen name="time_margin_left">8dip</dimen>
+    <dimen name="time_margin_right">36dip</dimen>
+    <dimen name="small_time_margin_right">16dip</dimen>
+    <dimen name="mini_time_margin_right">12dip</dimen>
+    <dimen name="small_ampm_margin_left">10dip</dimen>
     <dimen name="time_margin_bottom">14dip</dimen>
     <dimen name="time_margin_top">48dip</dimen>
     <dimen name="digital_margin_bottom">36dip</dimen>
@@ -34,21 +37,41 @@
     <dimen name="font_margin_adjust">8dip</dimen>
     <dimen name="next_alarm_margin_top">-5dip</dimen>
     <dimen name="alarm_label_padding">64dip</dimen>
+    <dimen name="bottom_text_size">18sp</dimen>
+    <dimen name="bottom_text_spacing_digital">-14dp</dimen>
+    <dimen name="bottom_text_spacing_analog">18dp</dimen>
+    <dimen name="bottom_text_spacing_analog_small">10dp</dimen>
+    <dimen name="digital_world_clock_text_size">100dp</dimen>
+    <dimen name="digital_world_clock_ampm_text_size">18dp</dimen>
+    <dimen name="digital_main_clock_text_size">220dp</dimen>
 
     <dimen name="big_font_size">220dp</dimen>
     <dimen name="medium_font_size">100dp</dimen>
     <dimen name="label_font_size">18sp</dimen>
+    <dimen name="alarm_label_size">18sp</dimen>
     <dimen name="body_font_size">24sp</dimen>
+    <dimen name="main_ampm_font_size">33sp</dimen>
+    <dimen name="alarm_time_font_size">64sp</dimen>
+    <dimen name="no_alarms_font_size">48sp</dimen>
+    <dimen name="widget_label_font_size">16sp</dimen>
 
     <dimen name="body_font_padding">8dp</dimen>
     <dimen name="medium_font_padding">24dp</dimen>
 
     <dimen name="small_space">32dp</dimen>
-    <dimen name="medium_space_top">52dp</dimen>
-    <dimen name="medium_space_bottom">12dp</dimen>
+    <dimen name="medium_space_top">46dp</dimen>
+    <dimen name="medium_space_bottom">18dp</dimen>
+    <dimen name="main_clock_padding">40dp</dimen>
 
     <dimen name="label_margin_big">8dp</dimen>
     <dimen name="label_margin_small">4dp</dimen>
+
+    <dimen name="dialpad_font_size">56sp</dimen>
+    <dimen name="dialpad_digit_padding">34dip</dimen>
+    <dimen name="timer_setup_font_size">86sp</dimen>
+    <dimen name="timer_setup_button_size">36sp</dimen>
+    <dimen name="timer_setup_delete_start_margin">42sp</dimen>
+    <dimen name="timer_setup_label_size">28sp</dimen>
 
     <dimen name="timer_circle_diameter">480dip</dimen>
     <dimen name="timer_circle_width">500dip</dimen>
@@ -87,6 +110,8 @@
     <dimen name="widget_big_font_size">130dp</dimen>
     <dimen name="widget_medium_font_size">52dp</dimen>
     <dimen name="widget_24_medium_font_size">65dp</dimen>
+    <dimen name="widget_big_time_margin_right">12dip</dimen>
+    <dimen name="widget_medium_time_margin_right">8dip</dimen>
     <dimen name="min_digital_widget_width">335dp</dimen>
     <dimen name="min_digital_widget_height">207dp</dimen>
     <dimen name="min_digital_widget_resize_width">335dp</dimen>
@@ -94,5 +119,5 @@
     <dimen name="digital_widget_list_min_scaled_height">263dp</dimen>
     <dimen name="digital_widget_list_min_fixed_height">15dp</dimen>
     <dimen name="digital_widget_list_margin_top">15dp</dimen>
-
+    <dimen name="digital_widget_city_margin_bottom">15dp</dimen>
 </resources>

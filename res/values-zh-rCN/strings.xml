@@ -19,6 +19,7 @@
     <string name="app_label" msgid="6674495003718166674">"时钟"</string>
     <string name="alarm_list_title" msgid="7589940465292950600">"闹钟"</string>
     <string name="add_alarm" msgid="5976616107390962899">"添加闹钟"</string>
+    <string name="alarm_timeline_title_text" msgid="595912293949219821">"后续闹钟"</string>
     <string name="menu_desk_clock" msgid="3241995064554071588">"座钟"</string>
     <string name="menu_edit_alarm" msgid="7204602994918829751">"修改闹钟设置"</string>
     <string name="delete_alarm" msgid="3457780990646206817">"删除闹钟"</string>
@@ -36,10 +37,14 @@
     <string name="ringtone" msgid="9110746249688559579">"铃声"</string>
     <string name="time" msgid="8067216534232296518">"时间"</string>
     <string name="alarm_alert_dismiss_text" msgid="4942914605480888820">"取消"</string>
-    <string name="alarm_alert_alert_silenced" msgid="2704775170733835993">"闹钟响铃时长为 <xliff:g id="MINUTES">%d</xliff:g> 分钟。"</string>
+    <string name="alarm_alert_dismiss_now_text" msgid="3272183025444682500">"立即关闭"</string>
+    <string name="alarm_missed_title" msgid="3828345099754063392">"错过的闹钟"</string>
+    <string name="alarm_missed_text" msgid="6585658367289194023">"<xliff:g id="ALARM_TIME">%s</xliff:g> - <xliff:g id="ALARM_LABEL">%s</xliff:g>"</string>
     <string name="alarm_alert_snooze_text" msgid="1774416052207651584">"稍后再响"</string>
     <string name="alarm_alert_snooze_set" msgid="656470966696912087">"暂停 <xliff:g id="MINUTES">%d</xliff:g> 分钟。"</string>
     <string name="alarm_alert_snooze_until" msgid="6958013659168344550">"将勿扰时段设置到 <xliff:g id="TIME">%s</xliff:g>"</string>
+    <string name="alarm_alert_predismiss_title" msgid="5723945586913705445">"预定的闹钟"</string>
+    <string name="missed_alarm_has_been_deleted" msgid="5295473204045979335">"错过的闹钟已删除"</string>
   <string-array name="timer_notifications">
     <item msgid="7760558912503484257">"还剩不到 1 分钟"</item>
     <item msgid="83197792732433351">"还剩 <xliff:g id="HOURS">%1$s</xliff:g>"</item>
@@ -101,9 +106,9 @@
     <string name="volume_button_setting_title" msgid="6937131248843413357">"音量按钮"</string>
     <string name="volume_button_dialog_title" msgid="8768042543750036853">"按钮的作用"</string>
   <string-array name="volume_button_setting_entries">
-    <item msgid="7972756698723318690">"暂停闹钟"</item>
-    <item msgid="3450979320164769576">"关闭闹钟"</item>
-    <item msgid="6302517608411378024">"不产生任何作用"</item>
+    <item msgid="7972756698723318690">"暂停"</item>
+    <item msgid="3450979320164769576">"关闭"</item>
+    <item msgid="6302517608411378024">"不进行任何操作"</item>
   </string-array>
     <string name="default_ringtone_setting_title" msgid="4549726190682964245">"设置默认铃声"</string>
     <string name="alarm_button_description" msgid="740283647046258651">"闹钟"</string>
@@ -122,6 +127,7 @@
     <string name="control_set_alarm" msgid="2194676418924016327">"设置闹钟"</string>
     <!-- no translation found for control_set_alarm_with_existing (3359285346655630660) -->
     <skip />
+    <string name="menu_alarm" msgid="4772010125376647519">"闹钟"</string>
     <string name="menu_timer" msgid="6459070074762877114">"计时器"</string>
     <string name="menu_clock" msgid="5612760670606829805">"时钟"</string>
     <string name="menu_stopwatch" msgid="3396117705293574701">"秒表"</string>
@@ -131,6 +137,9 @@
     <string name="menu_item_settings" msgid="1413723516369078665">"设置"</string>
     <string name="menu_item_help" msgid="4570953476186849841">"帮助"</string>
     <string name="menu_item_night_mode" msgid="3486930302245398975">"夜间模式"</string>
+    <string name="menu_item_sort_by_gmt_offset" msgid="3120860422682721706">"按时间排序"</string>
+    <string name="menu_item_sort_by_name" msgid="1762931290495104106">"按名称排序"</string>
+    <string name="selected_cities_label" msgid="3607479399424246605">"所选城市"</string>
     <string name="sw_resume_button" msgid="2569360966002022248">"继续"</string>
     <string name="sw_start_button" msgid="8373422516681242270">"开始"</string>
     <string name="sw_stop_button" msgid="8322958613123274451">"停止"</string>
@@ -163,7 +172,9 @@
     <string name="timer_start" msgid="6158486445614356442">"开始"</string>
     <string name="timer_delete" msgid="8699122001991909302">"删除"</string>
     <string name="timer_plus_one" msgid="6631211310420106116">"增加 1 分钟"</string>
+    <string name="timer_plus_1_min" msgid="8645224089494875062">"加上1分钟"</string>
     <string name="timer_stop" msgid="3361154678667736722">"停止"</string>
+    <string name="timer_done" msgid="2375990511982914051">"完成"</string>
     <string name="timer_reset" msgid="7848424809190171640">"重置"</string>
     <string name="timer_cancel" msgid="3572868404230815644">"取消"</string>
     <string name="timer_times_up" msgid="9190440395938519009">"时间到"</string>
@@ -287,6 +298,7 @@
     <item msgid="8255615641810148152">"奥克兰"</item>
     <item msgid="3027153773466391728">"斐济"</item>
     <item msgid="5911600083231840181">"汤加"</item>
+    <item msgid="5176858645450908751">"雅加达"</item>
   </string-array>
     <string name="alarm_settings" msgid="6049627772103646753">"闹钟"</string>
     <string name="see_all" msgid="775983396630163739">"查看全部…"</string>
@@ -321,4 +333,6 @@
     <string name="timer_delete_confirmation" msgid="2815524107015816453">"是否删除此计时器？"</string>
     <string name="city_delete_confirmation" msgid="1783441538785676299">"是否删除此城市？"</string>
     <string name="digital_gadget" msgid="2326954556720571358">"数字时钟"</string>
+    <string name="no_alarms" msgid="6429431324842022917">"没有闹钟"</string>
+    <string name="no_upcoming_alarms" msgid="2889840988069436254">"没有预定的闹钟"</string>
 </resources>

@@ -24,14 +24,18 @@
     <dimen name="ampm_text_size">32dip</dimen>
     <dimen name="date_text_size">15sp</dimen>
     <dimen name="next_alarm_text_size">15sp</dimen>
-    <dimen name="time_margin_right">8dip</dimen>
     <dimen name="time_margin_bottom">14dip</dimen>
     <dimen name="time_margin_top">24dip</dimen>
     <dimen name="ampm_margin_top">16dip</dimen>
     <dimen name="font_margin_adjust">8dip</dimen>
     <dimen name="next_alarm_margin_top">-5dip</dimen>
+    <dimen name="digital_screensaver_clock_text_size">120dp</dimen>
 
     <dimen name="dialpad_font_size">24sp</dimen>
+    <dimen name="dialpad_digit_padding">14dip</dimen>
+    <dimen name="timer_setup_font_size">48sp</dimen>
+    <dimen name="timer_setup_delete_start_margin">24sp</dimen>
+    <dimen name="timer_setup_label_size">16sp</dimen>
 
     <dimen name="timer_circle_diameter">240dip</dimen>
     <dimen name="timer_circle_width">400dip</dimen>
@@ -39,11 +43,15 @@
 
     <!-- Size of margin for circles. -->
     <dimen name="circle_margin">8dp</dimen>
-    <dimen name="analog_clock_margin">200dp</dimen>
+    <dimen name="analog_clock_margin">70dp</dimen>
     <dimen name="timer_circle_margin">8dp</dimen>
+    <dimen name="main_clock_padding">0dp</dimen>
+    <dimen name="circle_margin_top">0dp</dimen>
+    <dimen name="top_text_spacing_digital">-25dp</dimen>
+    <dimen name="bottom_text_spacing_analog">5dp</dimen>
 
     <dimen name="world_clock_margin">8dp</dimen>
-    <dimen name="sw_right_margin">8dp</dimen>
+    <dimen name="sw_padding_end">8dp</dimen>
 
     <!-- Extra offset for timer button paddings. Only nonzero for non-tablets. -->
     <dimen name="timer_button_extra_offset">45dip</dimen>

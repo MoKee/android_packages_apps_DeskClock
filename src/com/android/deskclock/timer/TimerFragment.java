@@ -26,10 +26,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
+import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -37,14 +39,12 @@ import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
-import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
-import android.widget.ListView;
 import android.widget.TextView;
 
-import com.android.deskclock.CircleButtonsLinearLayout;
+import com.android.deskclock.CircleButtonsLayout;
 import com.android.deskclock.DeskClock;
 import com.android.deskclock.DeskClock.OnTapListener;
 import com.android.deskclock.DeskClockFragment;
@@ -58,6 +58,10 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
 
+import com.android.deskclock.widget.sgv.SgvAnimationHelper.AnimationIn;
+import com.android.deskclock.widget.sgv.SgvAnimationHelper.AnimationOut;
+import com.android.deskclock.widget.sgv.StaggeredGridView;
+import com.android.deskclock.widget.sgv.GridAdapter;
 
 public class TimerFragment extends DeskClockFragment
         implements OnClickListener, OnSharedPreferenceChangeListener {
@@ -65,10 +69,12 @@ public class TimerFragment extends DeskClockFragment
     private static final String TAG = "TimerFragment";
     private static final String KEY_SETUP_SELECTED = "_setup_selected";
     private static final String KEY_ENTRY_STATE = "entry_state";
+    public static final String GOTO_SETUP_VIEW = "deskclock.timers.gotosetup";
+
     private Bundle mViewState = null;
-    private ListView mTimersList;
-    private View mNewTimerPage;
+    private StaggeredGridView mTimersList;
     private View mTimersListPage;
+    private int mColumnCount;
     private Button mCancel, mStart;
     private View mSeperator;
     private ImageButton mAddTimer;
@@ -112,7 +118,7 @@ public class TimerFragment extends DeskClockFragment
         }
     }
 
-    class TimersListAdapter extends BaseAdapter {
+    class TimersListAdapter extends GridAdapter {
 
         ArrayList<TimerObj> mTimers = new ArrayList<TimerObj> ();
         Context mContext;
@@ -129,7 +135,12 @@ public class TimerFragment extends DeskClockFragment
         }
 
         @Override
-        public Object getItem(int p) {
+        public boolean hasStableIds() {
+            return true;
+        }
+
+        @Override
+        public TimerObj getItem(int p) {
             return mTimers.get(p);
         }
 
@@ -151,6 +162,16 @@ public class TimerFragment extends DeskClockFragment
                     }
                     t.deleteFromSharedPref(mmPrefs);
                     mTimers.remove(i);
+                    if (mTimers.size() == 1 && mColumnCount > 1) {
+                        // If we're going from two timers to one (in the same row), we don't want to
+                        // animate the translation because we're changing the layout params span
+                        // from 1 to 2, and the animation doesn't handle that very well. So instead,
+                        // just fade out and in.
+                        mTimersList.setAnimationMode(AnimationIn.FADE, AnimationOut.FADE);
+                    } else {
+                        mTimersList.setAnimationMode(
+                                AnimationIn.FLY_IN_NEW_VIEWS, AnimationOut.FADE);
+                    }
                     notifyDataSetChanged();
                     return;
                 }
@@ -213,17 +234,17 @@ public class TimerFragment extends DeskClockFragment
             ImageButton delete = (ImageButton)v.findViewById(R.id.timer_delete);
             delete.setOnClickListener(TimerFragment.this);
             delete.setTag(new ClickAction(ClickAction.ACTION_DELETE, o));
-            ImageButton plusOne = (ImageButton)v. findViewById(R.id.timer_plus_one);
-            plusOne.setOnClickListener(TimerFragment.this);
-            plusOne.setTag(new ClickAction(ClickAction.ACTION_PLUS_ONE, o));
+            ImageButton leftButton = (ImageButton)v. findViewById(R.id.timer_plus_one);
+            leftButton.setOnClickListener(TimerFragment.this);
+            leftButton.setTag(new ClickAction(ClickAction.ACTION_PLUS_ONE, o));
             TextView stop = (TextView)v. findViewById(R.id.timer_stop);
             stop.setTag(new ClickAction(ClickAction.ACTION_STOP, o));
             TimerFragment.this.setTimerButtons(o);
 
             v.setBackgroundColor(getResources().getColor(R.color.blackish));
             countingTimerView.registerStopTextView(stop);
-            CircleButtonsLinearLayout circleLayout =
-                    (CircleButtonsLinearLayout)v.findViewById(R.id.timer_circle);
+            CircleButtonsLayout circleLayout =
+                    (CircleButtonsLayout)v.findViewById(R.id.timer_circle);
             circleLayout.setCircleTimerViewIds(
                     R.id.timer_time, R.id.timer_plus_one, R.id.timer_delete, R.id.timer_stop,
                     R.dimen.plusone_reset_button_padding, R.dimen.delete_button_padding,
@@ -251,6 +272,17 @@ public class TimerFragment extends DeskClockFragment
                 labelIcon.setVisibility(View.INVISIBLE);
             }
             return v;
+        }
+
+        @Override
+        public int getItemColumnSpan(Object item, int position) {
+            // This returns the width for a specified position. If we only have one item, have it
+            // span all columns so that it's centered. Otherwise, all timers should just span one.
+            if (getCount() == 1) {
+                return mColumnCount;
+            } else {
+                return 1;
+            }
         }
 
         public void addTimer(TimerObj t) {
@@ -358,24 +390,30 @@ public class TimerFragment extends DeskClockFragment
             boolean toggle = mVisible != visible;
             mVisible = visible;
             for (int i = 0; i < mAdapter.getCount(); i ++) {
-                TimerObj t = (TimerObj) mAdapter.getItem(i);
+                TimerObj t = mAdapter.getItem(i);
                 if (t.mState == TimerObj.STATE_RUNNING || t.mState == TimerObj.STATE_TIMESUP) {
                     long timeLeft = t.updateTimeLeft(false);
-                    if ((TimerListItem)(t.mView) != null) {
+                    if (t.mView != null) {
                         ((TimerListItem)(t.mView)).setTime(timeLeft, false);
+                        // Update button every 1/2 second
+                        if (toggle) {
+                            ImageButton leftButton = (ImageButton)
+                                  t.mView.findViewById(R.id.timer_plus_one);
+                            leftButton.setEnabled(canAddMinute(t));
+                        }
                     }
                 }
                 if (t.mTimeLeft <= 0 && t.mState != TimerObj.STATE_DONE
                         && t.mState != TimerObj.STATE_RESTART) {
                     t.mState = TimerObj.STATE_TIMESUP;
                     TimerFragment.this.setTimerButtons(t);
-                    if ((TimerListItem)(t.mView) != null) {
+                    if (t.mView != null) {
                         ((TimerListItem)(t.mView)).timesUp();
                     }
                 }
 
                 // The blinking
-                if (toggle && (TimerListItem)(t.mView) != null) {
+                if (toggle && t.mView != null) {
                     if (t.mState == TimerObj.STATE_TIMESUP) {
                         ((TimerListItem)(t.mView)).setCircleBlink(mVisible);
                     }
@@ -416,30 +454,14 @@ public class TimerFragment extends DeskClockFragment
             }
         }
 
-        mTimersList = (ListView)v.findViewById(R.id.timers_list);
+        mTimersList = (StaggeredGridView) v.findViewById(R.id.timers_list);
+        // For tablets in landscape, the count will be 2. All else will be 1.
+        mColumnCount = getResources().getInteger(R.integer.timer_column_count);
+        mTimersList.setColumnCount(mColumnCount);
+        // Set this to true; otherwise adding new views to the end of the list won't cause
+        // everything above it to be filled in correctly.
+        mTimersList.setGuardAgainstJaggedEdges(true);
 
-        // Use light's out if this fragment is within the DeskClock
-        LayoutParams params;
-        float dividerHeight = getResources().getDimension(R.dimen.timer_divider_height);
-        if (getActivity() instanceof DeskClock) {
-            View footerView = inflater.inflate(R.layout.blank_footer_view, mTimersList, false);
-            params = footerView.getLayoutParams();
-            params.height -= dividerHeight;
-            footerView.setLayoutParams(params);
-            footerView.setBackgroundResource(R.color.blackish);
-            mTimersList.addFooterView(footerView);
-        } else {
-            mTimersList.setBackgroundColor(getResources().getColor(R.color.blackish));
-        }
-        // Make the top transparent header always visible so that the transition
-        // from the DeskClock app to the alert screen will be more pleasing visually.
-        View headerView = inflater.inflate(R.layout.blank_header_view, mTimersList, false);
-        params = headerView.getLayoutParams();
-        params.height -= dividerHeight;
-        headerView.setLayoutParams(params);
-        mTimersList.addHeaderView(headerView);
-
-        mNewTimerPage = v.findViewById(R.id.new_timer_page);
         mTimersListPage = v.findViewById(R.id.timers_list_page);
         mTimerSetup = (TimerSetupView)v.findViewById(R.id.timer_setup);
         mSeperator = v.findViewById(R.id.timer_button_sep);
@@ -468,7 +490,10 @@ public class TimerFragment extends DeskClockFragment
                 mAdapter.addTimer(t);
                 updateTimersState(t, Timers.START_TIMER);
                 gotoTimersView();
-                mTimersList.setSelection(mAdapter.findTimerPositionById(t.mTimerId));
+                mTimerSetup.reset(); // Make sure the setup is cleared for next time
+
+                mTimersList.setFirstPositionAndOffsets(
+                        mAdapter.findTimerPositionById(t.mTimerId), 0);
             }
 
         });
@@ -482,6 +507,17 @@ public class TimerFragment extends DeskClockFragment
             }
 
         });
+
+        // Put it on the right for landscape, left for portrait.
+        FrameLayout.LayoutParams layoutParams =
+                (FrameLayout.LayoutParams) mAddTimer.getLayoutParams();
+        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            layoutParams.gravity = Gravity.END;
+        } else {
+            layoutParams.gravity = Gravity.CENTER;
+        }
+        mAddTimer.setLayoutParams(layoutParams);
+
         mTimerFooter = v.findViewById(R.id.timer_footer);
         mTimerFooter.setVisibility(mOnEmptyListListener == null ? View.VISIBLE : View.GONE);
         mPrefs = PreferenceManager.getDefaultSharedPreferences(getActivity());
@@ -500,8 +536,12 @@ public class TimerFragment extends DeskClockFragment
 
     @Override
     public void onResume() {
+        Intent newIntent = null;
+
         if (getActivity() instanceof DeskClock) {
-            ((DeskClock)getActivity()).registerPageChangedListener(this);
+            DeskClock activity = (DeskClock) getActivity();
+            activity.registerPageChangedListener(this);
+            newIntent = activity.getIntent();
         }
         super.onResume();
         mPrefs.registerOnSharedPreferenceChangeListener(this);
@@ -509,24 +549,32 @@ public class TimerFragment extends DeskClockFragment
         mAdapter = createAdapter(getActivity(), mPrefs);
         mAdapter.onRestoreInstanceState(null);
 
+        LayoutParams params;
+        float dividerHeight = getResources().getDimension(R.dimen.timer_divider_height);
+        if (getActivity() instanceof DeskClock) {
+            // If this is a DeskClock fragment (i.e. not a FullScreenTimerAlert), add a footer to
+            // the bottom of the list so that it can scroll underneath the bottom button bar.
+            // StaggeredGridView doesn't support a footer view, but GridAdapter does, so this
+            // can't happen until the Adapter itself is instantiated.
+            View footerView = getActivity().getLayoutInflater().inflate(
+                    R.layout.blank_footer_view, mTimersList, false);
+            params = footerView.getLayoutParams();
+            params.height -= dividerHeight;
+            footerView.setLayoutParams(params);
+            footerView.setBackgroundResource(R.color.blackish);
+            mAdapter.setFooterView(footerView);
+        }
+
         if (mPrefs.getBoolean(Timers.FROM_NOTIFICATION, false)) {
-            // We need to know if this onresume is being called by the user clicking a
-            // buzzing timer notification. If so, we need to set that timer to have "stopped"
-            // at the moment the notification was hit.
-            long now = mPrefs.getLong(Timers.NOTIF_TIME, Utils.getTimeNow());
-            int timerId = mPrefs.getInt(Timers.NOTIF_ID, -1);
-            if (timerId != -1) {
-                TimerObj t = Timers.findTimer(mAdapter.mTimers, timerId);
-                t.mTimeLeft = t.mOriginalLength - (now - t.mStartTime);
-                cancelTimerNotification(timerId);
-            }
+            // Clear the flag set in the notification because the adapter was just
+            // created and is thus in sync with the database
             SharedPreferences.Editor editor = mPrefs.edit();
             editor.putBoolean(Timers.FROM_NOTIFICATION, false);
             editor.apply();
         }
         if (mPrefs.getBoolean(Timers.FROM_ALERT, false)) {
             // Clear the flag set in the alert because the adapter was just
-            // created and thusly in sync with the database
+            // created and is thus in sync with the database
             SharedPreferences.Editor editor = mPrefs.edit();
             editor.putBoolean(Timers.FROM_ALERT, false);
             editor.apply();
@@ -543,6 +591,10 @@ public class TimerFragment extends DeskClockFragment
         View v = getView();
         if (v != null) {
             getView().setVisibility(View.VISIBLE);
+        }
+
+        if (newIntent != null) {
+            processIntent(newIntent);
         }
     }
 
@@ -562,7 +614,7 @@ public class TimerFragment extends DeskClockFragment
         // a fraction of a second.
         View v = getView();
         if (v != null) {
-            getView().setVisibility(View.INVISIBLE);
+            v.setVisibility(View.INVISIBLE);
         }
     }
 
@@ -579,7 +631,7 @@ public class TimerFragment extends DeskClockFragment
         if (mAdapter != null) {
             mAdapter.onSaveInstanceState (outState);
         }
-        if (mNewTimerPage != null) {
+        if (mTimerSetup != null) {
             saveViewState(outState);
         } else if (mViewState != null) {
             outState.putAll(mViewState);
@@ -587,7 +639,7 @@ public class TimerFragment extends DeskClockFragment
     }
 
     private void saveViewState(Bundle outState) {
-        outState.putBoolean(KEY_SETUP_SELECTED, mNewTimerPage.getVisibility() == View.VISIBLE);
+        outState.putBoolean(KEY_SETUP_SELECTED, mTimerSetup.getVisibility() == View.VISIBLE);
         mTimerSetup.saveEntryState(outState, KEY_ENTRY_STATE);
     }
 
@@ -614,7 +666,7 @@ public class TimerFragment extends DeskClockFragment
         // then removed them one by one
         LinkedList<TimerObj> timesupTimers = new LinkedList<TimerObj>();
         for (int i = 0; i  < mAdapter.getCount(); i ++) {
-            TimerObj timerObj = (TimerObj) mAdapter.getItem(i);
+            TimerObj timerObj = mAdapter.getItem(i);
             if (timerObj.mState == TimerObj.STATE_TIMESUP) {
                 timesupTimers.addFirst(timerObj);
                 notifyChange = true;
@@ -633,9 +685,9 @@ public class TimerFragment extends DeskClockFragment
     }
 
     private void gotoSetupView() {
-        if (mLastVisibleView == null || mLastVisibleView.getId() == R.id.new_timer_page) {
-            mNewTimerPage.setVisibility(View.VISIBLE);
-            mNewTimerPage.setScaleX(1f);
+        if (mLastVisibleView == null || mLastVisibleView.getId() == R.id.timer_setup) {
+            mTimerSetup.setVisibility(View.VISIBLE);
+            mTimerSetup.setScaleX(1f);
             mTimersListPage.setVisibility(View.GONE);
         } else {
             // Animate
@@ -646,9 +698,9 @@ public class TimerFragment extends DeskClockFragment
                 @Override
                 public void onAnimationEnd(Animator animation) {
                     mTimersListPage.setVisibility(View.GONE);
-                    mNewTimerPage.setScaleX(0);
-                    mNewTimerPage.setVisibility(View.VISIBLE);
-                    ObjectAnimator b = ObjectAnimator.ofFloat(mNewTimerPage, View.SCALE_X, 0f, 1f);
+                    mTimerSetup.setScaleX(0);
+                    mTimerSetup.setVisibility(View.VISIBLE);
+                    ObjectAnimator b = ObjectAnimator.ofFloat(mTimerSetup, View.SCALE_X, 0f, 1f);
                     b.setInterpolator(new DecelerateInterpolator());
                     b.setDuration(225);
                     b.start();
@@ -665,23 +717,24 @@ public class TimerFragment extends DeskClockFragment
             mSeperator.setVisibility(View.VISIBLE);
             mCancel.setVisibility(View.VISIBLE);
         }
-        mTimerSetup.updateButtons();
-        mLastVisibleView = mNewTimerPage;
+        mTimerSetup.updateStartButton();
+        mTimerSetup.updateDeleteButton();
+        mLastVisibleView = mTimerSetup;
     }
     private void gotoTimersView() {
         if (mLastVisibleView == null || mLastVisibleView.getId() == R.id.timers_list_page) {
-            mNewTimerPage.setVisibility(View.GONE);
+            mTimerSetup.setVisibility(View.GONE);
             mTimersListPage.setVisibility(View.VISIBLE);
             mTimersListPage.setScaleX(1f);
         } else {
             // Animate
-            ObjectAnimator a = ObjectAnimator.ofFloat(mNewTimerPage, View.SCALE_X, 1f, 0f);
+            ObjectAnimator a = ObjectAnimator.ofFloat(mTimerSetup, View.SCALE_X, 1f, 0f);
             a.setInterpolator(new AccelerateInterpolator());
             a.setDuration(125);
             a.addListener(new AnimatorListenerAdapter() {
                 @Override
                 public void onAnimationEnd(Animator animation) {
-                    mNewTimerPage.setVisibility(View.GONE);
+                    mTimerSetup.setVisibility(View.GONE);
                     mTimersListPage.setScaleX(0);
                     mTimersListPage.setVisibility(View.VISIBLE);
                     ObjectAnimator b =
@@ -710,39 +763,11 @@ public class TimerFragment extends DeskClockFragment
                 if (t.mState == TimerObj.STATE_TIMESUP) {
                     cancelTimerNotification(t.mTimerId);
                 }
-                // Animate deletion, first alpha, then height
-                ObjectAnimator a = ObjectAnimator.ofFloat(t.mView, View.ALPHA, 1f, 0f);
-                a.setInterpolator(new AccelerateInterpolator());
-                a.setDuration(100);
-                a.addListener(new AnimatorListenerAdapter() {
-                    @Override
-                    public void onAnimationEnd(Animator animation) {
-                        ObjectAnimator b = ObjectAnimator.ofInt(
-                                t.mView, "animatedHeight", t.mView.getHeight(), 0);
-                        b.setInterpolator(new AccelerateInterpolator());
-                        b.setDuration(200);
-                        b.addListener(new AnimatorListenerAdapter() {
-                            @Override
-                            public void onAnimationEnd(Animator animation) {
-                                mAdapter.deleteTimer(t.mTimerId);
-                                if (mAdapter.getCount() == 0) {
-                                    if (mOnEmptyListListener == null) {
-                                        mTimerSetup.reset();
-                                        gotoSetupView();
-                                    } else {
-                                        mOnEmptyListListener.onEmptyList();
-                                    }
-                                }
-                                // Tell receiver the timer was deleted.
-                                // It will stop all activity related to the
-                                // timer
-                                updateTimersState(t, Timers.DELETE_TIMER);
-                            }
-                        });
-                        b.start();
-                    }
-                });
-                a.start();
+                // Tell receiver the timer was deleted.
+                // It will stop all activity related to the
+                // timer
+                t.mState = TimerObj.STATE_DELETED;
+                updateTimersState(t, Timers.DELETE_TIMER);
                 break;
             case ClickAction.ACTION_PLUS_ONE:
                 onPlusOneButtonPressed(clickAction.mTimer);
@@ -760,18 +785,18 @@ public class TimerFragment extends DeskClockFragment
     private void onPlusOneButtonPressed(TimerObj t) {
         switch(t.mState) {
             case TimerObj.STATE_RUNNING:
-                t.addTime(60000); //60 seconds in millis
-                long timeLeft = t.updateTimeLeft(false);
-                ((TimerListItem)(t.mView)).setTime(timeLeft, false);
-                ((TimerListItem)(t.mView)).setLength(timeLeft);
-                mAdapter.notifyDataSetChanged();
-                updateTimersState(t, Timers.TIMER_UPDATE);
+                 t.addTime(TimerObj.MINUTE_IN_MILLIS);
+                 long timeLeft = t.updateTimeLeft(false);
+                 ((TimerListItem)(t.mView)).setTime(timeLeft, false);
+                 ((TimerListItem)(t.mView)).setLength(timeLeft);
+                 mAdapter.notifyDataSetChanged();
+                 updateTimersState(t, Timers.TIMER_UPDATE);
                 break;
             case TimerObj.STATE_TIMESUP:
                 // +1 min when the time is up will restart the timer with 1 minute left.
                 t.mState = TimerObj.STATE_RUNNING;
                 t.mStartTime = Utils.getTimeNow();
-                t.mTimeLeft = t. mOriginalLength = 60000;
+                t.mTimeLeft = t. mOriginalLength = TimerObj.MINUTE_IN_MILLIS;
                 ((TimerListItem)t.mView).setTime(t.mTimeLeft, false);
                 ((TimerListItem)t.mView).set(t.mOriginalLength, t.mTimeLeft, true);
                 ((TimerListItem) t.mView).start();
@@ -794,9 +819,6 @@ public class TimerFragment extends DeskClockFragment
         }
     }
 
-
-
-
     private void onStopButtonPressed(TimerObj t) {
         switch(t.mState) {
             case TimerObj.STATE_RUNNING:
@@ -814,14 +836,23 @@ public class TimerFragment extends DeskClockFragment
                 updateTimersState(t, Timers.START_TIMER);
                 break;
             case TimerObj.STATE_TIMESUP:
-                t.mState = TimerObj.STATE_DONE;
-                // Used in a context where the timer could be off-screen and without a view
-                if (t.mView != null) {
-                    ((TimerListItem) t.mView).done();
+                if (t.mDeleteAfterUse) {
+                    cancelTimerNotification(t.mTimerId);
+                    // Tell receiver the timer was deleted.
+                    // It will stop all activity related to the
+                    // timer
+                    t.mState = TimerObj.STATE_DELETED;
+                    updateTimersState(t, Timers.DELETE_TIMER);
+                } else {
+                    t.mState = TimerObj.STATE_DONE;
+                    // Used in a context where the timer could be off-screen and without a view
+                    if (t.mView != null) {
+                        ((TimerListItem) t.mView).done();
+                    }
+                    updateTimersState(t, Timers.TIMER_DONE);
+                    cancelTimerNotification(t.mTimerId);
+                    updateTimesUpMode(t);
                 }
-                updateTimersState(t, Timers.TIMER_DONE);
-                cancelTimerNotification(t.mTimerId);
-                updateTimesUpMode(t);
                 break;
             case TimerObj.STATE_DONE:
                 break;
@@ -833,6 +864,19 @@ public class TimerFragment extends DeskClockFragment
                 break;
             default:
                 break;
+        }
+    }
+
+    private void deleteTimer(TimerObj t) {
+        mAdapter.deleteTimer(t.mTimerId);
+        mTimersList.setSelectionToTop();
+        if (mAdapter.getCount() == 0) {
+            if (mOnEmptyListListener == null) {
+                mTimerSetup.reset();
+                gotoSetupView();
+            } else {
+                mOnEmptyListListener.onEmptyList();
+            }
         }
     }
 
@@ -851,14 +895,10 @@ public class TimerFragment extends DeskClockFragment
     }
 
     public void setLabel(TimerObj timer, String label) {
-        ((TimerObj) mAdapter.getItem(
-                mAdapter.findTimerPositionById(timer.mTimerId))).mLabel = label;
-        if (timer.mState == TimerObj.STATE_TIMESUP) {
-            // Timer is in timesup mode.
-            TimerReceiver.showExpiredAlarmNotification(
-                    getActivity().getApplicationContext(), timer);
-        }
-        mTimersList.invalidateViews();
+        mAdapter.getItem(mAdapter.findTimerPositionById(timer.mTimerId)).mLabel = label;
+        updateTimersState(timer, Timers.TIMER_UPDATE);
+        // Make sure the new label is visible.
+        mAdapter.notifyDataSetChanged();
     }
 
     private void setTimerButtons(TimerObj t) {
@@ -866,46 +906,67 @@ public class TimerFragment extends DeskClockFragment
         if (a == null || t == null || t.mView == null) {
             return;
         }
-        ImageButton plusOne = (ImageButton) t.mView.findViewById(R.id.timer_plus_one);
+        ImageButton leftButton = (ImageButton) t.mView.findViewById(R.id.timer_plus_one);
         CountingTimerView countingTimerView = (CountingTimerView)
                 t.mView.findViewById(R.id.timer_time_text);
         TextView stop = (TextView) t.mView.findViewById(R.id.timer_stop);
+        ImageButton delete = (ImageButton) t.mView.findViewById(R.id.timer_delete);
+        // Make sure the delete button is visible in case the view is recycled.
+        delete.setVisibility(View.VISIBLE);
+
         Resources r = a.getResources();
         switch (t.mState) {
             case TimerObj.STATE_RUNNING:
-                plusOne.setVisibility(View.VISIBLE);
-                plusOne.setContentDescription(r.getString(R.string.timer_plus_one));
-                plusOne.setImageResource(R.drawable.ic_plusone);
+                // left button is +1m
+                leftButton.setVisibility(View.VISIBLE);
+                leftButton.setContentDescription(r.getString(R.string.timer_plus_one));
+                leftButton.setImageResource(R.drawable.ic_plusone);
+                leftButton.setEnabled(canAddMinute(t));
+                stop.setVisibility(View.VISIBLE);
                 stop.setContentDescription(r.getString(R.string.timer_stop));
                 stop.setText(R.string.timer_stop);
                 stop.setTextColor(getResources().getColor(R.color.clock_white));
                 countingTimerView.setVirtualButtonEnabled(true);
                 break;
             case TimerObj.STATE_STOPPED:
-                plusOne.setVisibility(View.VISIBLE);
-                plusOne.setContentDescription(r.getString(R.string.timer_reset));
-                plusOne.setImageResource(R.drawable.ic_reset);
+                // left button is reset
+                leftButton.setVisibility(View.VISIBLE);
+                leftButton.setContentDescription(r.getString(R.string.timer_reset));
+                leftButton.setImageResource(R.drawable.ic_reset);
+                leftButton.setEnabled(true);
+                stop.setVisibility(View.VISIBLE);
                 stop.setContentDescription(r.getString(R.string.timer_start));
                 stop.setText(R.string.timer_start);
                 stop.setTextColor(getResources().getColor(R.color.clock_white));
                 countingTimerView.setVirtualButtonEnabled(true);
                 break;
             case TimerObj.STATE_TIMESUP:
-                plusOne.setVisibility(View.VISIBLE);
-                plusOne.setImageResource(R.drawable.ic_plusone);
+                // left button is +1m
+                leftButton.setVisibility(View.VISIBLE);
+                leftButton.setContentDescription(r.getString(R.string.timer_plus_one));
+                leftButton.setImageResource(R.drawable.ic_plusone);
+                leftButton.setEnabled(true);
+                stop.setVisibility(View.VISIBLE);
                 stop.setContentDescription(r.getString(R.string.timer_stop));
+                // If the timer is deleted after use , show "done" instead of "stop" on the button
+                // and hide the delete button since pressing done will delete the timer
+                stop.setText(t.mDeleteAfterUse ? R.string.timer_done : R.string.timer_stop);
                 stop.setTextColor(getResources().getColor(R.color.clock_white));
+                delete.setVisibility(t.mDeleteAfterUse ? View.INVISIBLE : View.VISIBLE);
                 countingTimerView.setVirtualButtonEnabled(true);
                 break;
             case TimerObj.STATE_DONE:
-                plusOne.setVisibility(View.VISIBLE);
-                plusOne.setContentDescription(r.getString(R.string.timer_reset));
-                plusOne.setImageResource(R.drawable.ic_reset);
+                // left button is reset
+                leftButton.setVisibility(View.VISIBLE);
+                leftButton.setContentDescription(r.getString(R.string.timer_reset));
+                leftButton.setImageResource(R.drawable.ic_reset);
+                leftButton.setEnabled(true);
                 stop.setVisibility(View.INVISIBLE);
                 countingTimerView.setVirtualButtonEnabled(false);
                 break;
             case TimerObj.STATE_RESTART:
-                plusOne.setVisibility(View.INVISIBLE);
+                leftButton.setVisibility(View.INVISIBLE);
+                leftButton.setEnabled(true);
                 stop.setVisibility(View.VISIBLE);
                 stop.setContentDescription(r.getString(R.string.timer_start));
                 stop.setText(R.string.timer_start);
@@ -917,10 +978,13 @@ public class TimerFragment extends DeskClockFragment
         }
     }
 
+    // Starts the ticks that animate the timers.
     private void startClockTicks() {
         mTimersList.postDelayed(mClockTick, 20);
         mTicking = true;
     }
+
+    // Stops the ticks that animate the timers.
     private void stopClockTicks() {
         if (mTicking) {
             mTimersList.removeCallbacks(mClockTick);
@@ -928,13 +992,21 @@ public class TimerFragment extends DeskClockFragment
         }
     }
 
+    private boolean canAddMinute(TimerObj t) {
+        return TimerObj.MAX_TIMER_LENGTH - t.mTimeLeft > TimerObj.MINUTE_IN_MILLIS ? true : false;
+    }
+
     private void updateTimersState(TimerObj t, String action) {
-        if (!Timers.DELETE_TIMER.equals(action)) {
+        if (Timers.DELETE_TIMER.equals(action)) {
+            deleteTimer(t);
+        } else {
             t.writeToSharedPref(mPrefs);
         }
         Intent i = new Intent();
         i.setAction(action);
         i.putExtra(Timers.TIMER_INTENT_EXTRA, t.mTimerId);
+        // Make sure the receiver is getting the intent ASAP.
+        i.addFlags(Intent.FLAG_RECEIVER_FOREGROUND);
         getActivity().sendBroadcast(i);
     }
 
@@ -958,37 +1030,25 @@ public class TimerFragment extends DeskClockFragment
         mAdapter.onRestoreInstanceState(null);
     }
 
+    // Process extras that were sent to the app and were intended for the timer
+    // fragment
+    public void processIntent(Intent intent) {
+        // switch to timer setup view
+        if (intent.getBooleanExtra(GOTO_SETUP_VIEW, false)) {
+            gotoSetupView();
+        }
+    }
+
     @Override
     public void onSharedPreferenceChanged(SharedPreferences prefs, String key) {
         if (prefs.equals(mPrefs)) {
-            if ( (key.equals(Timers.FROM_NOTIFICATION) || key.equals(Timers.NOTIF_ID)
-                    || key.equals(Timers.NOTIF_TIME)) &&
-                    prefs.getBoolean(Timers.FROM_NOTIFICATION, false) ) {
-                // We need to know if the user has clicked the buzzing timer notification
-                // while the fragment is still open. If so, this listener will catch that event,
-                // and allow the timers to be re-instated based on the updated stop time.
-                // Because this method gets called with every change to the sharedprefs, we ensure
-                // that we only recalculate the timers if the change was specifically set by the
-                // user interacting with the notification.
-                long now = prefs.getLong(Timers.NOTIF_TIME, Utils.getTimeNow());
-                int timerId = prefs.getInt(Timers.NOTIF_ID, -1);
-                mAdapter = createAdapter(getActivity(), mPrefs);
-                mAdapter.onRestoreInstanceState(null);
-                if (timerId != -1) {
-                    TimerObj t = Timers.findTimer(mAdapter.mTimers, timerId);
-                    t.mTimeLeft = t.mOriginalLength - (now - t.mStartTime);
-                    cancelTimerNotification(timerId);
-                }
-                mTimersList.setAdapter(mAdapter);
-                SharedPreferences.Editor editor = prefs.edit();
-                editor.putBoolean(Timers.FROM_NOTIFICATION, false);
-                editor.apply();
-            }
-            if (key.equals(Timers.FROM_ALERT) && prefs.getBoolean(Timers.FROM_ALERT, false)) {
-                // The flag was set in the alert so the adapter needs to re-sync
-                // with the database
-                SharedPreferences.Editor editor = prefs.edit();
-                editor.putBoolean(Timers.FROM_ALERT, false);
+            if ((key.equals(Timers.FROM_ALERT) && prefs.getBoolean(Timers.FROM_ALERT, false))
+                    || (key.equals(Timers.FROM_NOTIFICATION)
+                    && prefs.getBoolean(Timers.FROM_NOTIFICATION, false))) {
+                // The data-changed flag was set in the alert or notification so the adapter needs
+                // to re-sync with the database
+                SharedPreferences.Editor editor = mPrefs.edit();
+                editor.putBoolean(key, false);
                 editor.apply();
                 mAdapter = createAdapter(getActivity(), mPrefs);
                 mAdapter.onRestoreInstanceState(null);

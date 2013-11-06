@@ -19,8 +19,6 @@ package com.android.deskclock;
 import android.app.Activity;
 import android.app.DialogFragment;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -32,6 +30,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 
+import com.android.deskclock.provider.Alarm;
 import com.android.deskclock.timer.TimerObj;
 
 /**
@@ -46,11 +45,12 @@ public class LabelDialogFragment extends DialogFragment {
 
     private EditText mLabelBox;
 
-    public static LabelDialogFragment newInstance(Alarm alarm, String label) {
+    public static LabelDialogFragment newInstance(Alarm alarm, String label, String tag) {
         final LabelDialogFragment frag = new LabelDialogFragment();
         Bundle args = new Bundle();
         args.putString(KEY_LABEL, label);
         args.putParcelable(KEY_ALARM, alarm);
+        args.putString(KEY_TAG, tag);
         frag.setArguments(args);
         return frag;
     }
@@ -123,10 +123,32 @@ public class LabelDialogFragment extends DialogFragment {
             // Don't allow user to input label with only whitespace.
             label = "";
         }
+
+        if (alarm != null) {
+            set(alarm, tag, label);
+        } else if (timer != null) {
+            set(timer, tag, label);
+        } else {
+            Log.e("No alarm or timer available.");
+        }
+    }
+
+    private void set(Alarm alarm, String tag, String label) {
         final Activity activity = getActivity();
+        // TODO just pass in a listener in newInstance()
         if (activity instanceof AlarmLabelDialogHandler) {
-            ((AlarmClock) getActivity()).onDialogLabelSet(alarm, label);
-        } else if (activity instanceof TimerLabelDialogHandler){
+            ((DeskClock) getActivity()).onDialogLabelSet(alarm, label, tag);
+        } else {
+            Log.e("Error! Activities that use LabelDialogFragment must implement "
+                    + "AlarmLabelDialogHandler");
+        }
+        dismiss();
+    }
+
+    private void set(TimerObj timer, String tag, String label) {
+        final Activity activity = getActivity();
+        // TODO just pass in a listener in newInstance()
+        if (activity instanceof TimerLabelDialogHandler){
             ((DeskClock) getActivity()).onDialogLabelSet(timer, label, tag);
         } else {
             Log.e("Error! Activities that use LabelDialogFragment must implement "
@@ -136,7 +158,7 @@ public class LabelDialogFragment extends DialogFragment {
     }
 
     interface AlarmLabelDialogHandler {
-        void onDialogLabelSet(Alarm alarm, String label);
+        void onDialogLabelSet(Alarm alarm, String label, String tag);
     }
 
     interface TimerLabelDialogHandler {

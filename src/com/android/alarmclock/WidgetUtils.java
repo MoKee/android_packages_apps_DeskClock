@@ -24,8 +24,11 @@ import android.os.Bundle;
 import android.util.Log;
 import android.util.TypedValue;
 import android.widget.RemoteViews;
+import android.widget.RemoteViews.RemoteView;
+import android.widget.TextClock;
 
 import com.android.deskclock.R;
+import com.android.deskclock.Utils;
 
 public class WidgetUtils {
     static final String TAG = "WidgetUtils";
@@ -33,9 +36,7 @@ public class WidgetUtils {
     public static void setClockSize(Context context, RemoteViews clock, float scale) {
         float fontSize = context.getResources().getDimension(R.dimen.widget_big_font_size);
         clock.setTextViewTextSize(
-                R.id.the_clock1, TypedValue.COMPLEX_UNIT_PX, fontSize * scale);
-        clock.setTextViewTextSize(
-                R.id.the_clock2, TypedValue.COMPLEX_UNIT_PX, fontSize * scale);
+                R.id.the_clock, TypedValue.COMPLEX_UNIT_PX, fontSize * scale);
     }
 
     // Calculate the scale factor of the fonts in the widget
@@ -129,6 +130,21 @@ public class WidgetUtils {
                 2 * lblBox +
                 scale * res.getDimension(R.dimen.digital_widget_list_min_scaled_height);
         return ((density * height) > neededSize);
+    }
+
+    /***
+     * Set the format of the time on the clock accrding to the locale
+     * @param clock - view to format
+     * @param amPmFontSize - size of am/pm label, zero size means no am/om label
+     * @param clockId - id of TextClock view as defined in the clock's layout.
+     */
+    public static void setTimeFormat(RemoteViews clock, int amPmFontSize, int clockId) {
+        if (clock != null) {
+            // Set the best format for 12 hours mode according to the locale
+            clock.setCharSequence(clockId, "setFormat12Hour", Utils.get12ModeFormat(amPmFontSize));
+            // Set the best format for 24 hours mode according to the locale
+            clock.setCharSequence(clockId, "setFormat24Hour", Utils.get24ModeFormat());
+        }
     }
 }
 

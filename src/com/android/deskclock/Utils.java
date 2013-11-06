@@ -33,39 +33,39 @@ import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffColorFilter;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
+import android.text.Spannable;
+import android.text.SpannableString;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
+import android.text.format.DateUtils;
+import android.text.format.Time;
+import android.text.style.AbsoluteSizeSpan;
+import android.text.style.StyleSpan;
+import android.text.style.TypefaceSpan;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
+import android.widget.TextClock;
 import android.widget.TextView;
 
 import com.android.deskclock.stopwatch.Stopwatches;
 import com.android.deskclock.timer.Timers;
 import com.android.deskclock.worldclock.CityObj;
-import com.android.deskclock.worldclock.db.DbCities;
-import com.android.deskclock.worldclock.db.DbCity;
 
-import java.text.Collator;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Calendar;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.Date;
-import java.util.List;
 import java.util.Locale;
+import java.util.TimeZone;
 
 
 public class Utils {
-    private final static String TAG = Utils.class.getName();
-
     private final static String PARAM_LANGUAGE_CODE = "hl";
 
     /**
@@ -78,22 +78,16 @@ public class Utils {
      */
     private static String sCachedVersionCode = null;
 
-    /**
-     * Intent to be used for checking if a clock's date has changed. Must be every fifteen
-     * minutes because not all time zones are hour-locked.
-     **/
-    public static final String ACTION_ON_QUARTER_HOUR = "com.android.deskclock.ON_QUARTER_HOUR";
-
     /** Types that may be used for clock displays. **/
     public static final String CLOCK_TYPE_DIGITAL = "digital";
     public static final String CLOCK_TYPE_ANALOG = "analog";
 
     /**
-     * time format constants
+     * Returns whether the SDK is KitKat or later
      */
-    public final static String HOURS_24 = "kk";
-    public final static String HOURS = "h";
-    public final static String MINUTES = ":mm";
+    public static boolean isKitKatOrLater() {
+        return Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN_MR2;
+    }
 
 
     public static void prepareHelpMenuItem(Context context, MenuItem helpMenuItem) {
@@ -121,7 +115,7 @@ public class Utils {
 
     /**
      * Adds two query parameters into the Uri, namely the language code and the version code
-     * of the app's package as gotten via the context.
+     * of the application's package as gotten via the context.
      * @return the uri with added query parameters
      */
     private static Uri uriWithAddedParameters(Context context, Uri baseUri) {
@@ -163,8 +157,23 @@ public class Utils {
      * of the extra painted objects.
      */
     public static float calculateRadiusOffset(
-            float strokeSize, float diamondStrokeSize, float markerStrokeSize) {
-        return Math.max(strokeSize, Math.max(diamondStrokeSize, markerStrokeSize));
+            float strokeSize, float dotStrokeSize, float markerStrokeSize) {
+        return Math.max(strokeSize, Math.max(dotStrokeSize, markerStrokeSize));
+    }
+
+    /**
+     * Uses {@link Utils#calculateRadiusOffset(float, float, float)} after fetching the values
+     * from the resources just as {@link CircleTimerView#init(android.content.Context)} does.
+     */
+    public static float calculateRadiusOffset(Resources resources) {
+        if (resources != null) {
+            float strokeSize = resources.getDimension(R.dimen.circletimer_circle_size);
+            float dotStrokeSize = resources.getDimension(R.dimen.circletimer_dot_size);
+            float markerStrokeSize = resources.getDimension(R.dimen.circletimer_marker_size);
+            return calculateRadiusOffset(strokeSize, dotStrokeSize, markerStrokeSize);
+        } else {
+            return 0f;
+        }
     }
 
     /**  The pressed color used throughout the app. If this method is changed, it will not have
@@ -204,6 +213,24 @@ public class Utils {
     public static void showInUseNotifications(Context context) {
         Intent timerIntent = new Intent();
         timerIntent.setAction(Timers.NOTIF_IN_USE_SHOW);
+        context.sendBroadcast(timerIntent);
+    }
+
+    /**
+     * Broadcast a message to show the in-use timers in the notifications
+     */
+    public static void showTimesUpNotifications(Context context) {
+        Intent timerIntent = new Intent();
+        timerIntent.setAction(Timers.NOTIF_TIMES_UP_SHOW);
+        context.sendBroadcast(timerIntent);
+    }
+
+    /**
+     * Broadcast a message to cancel the in-use timers in the notifications
+     */
+    public static void cancelTimesUpNotifications(Context context) {
+        Intent timerIntent = new Intent();
+        timerIntent.setAction(Timers.NOTIF_TIMES_UP_CANCEL);
         context.sendBroadcast(timerIntent);
     }
 
@@ -249,7 +276,6 @@ public class Utils {
 
             final float xrange = mContentView.getWidth() - mSaverView.getWidth();
             final float yrange = mContentView.getHeight() - mSaverView.getHeight();
-            Log.v("xrange: "+xrange+" yrange: "+yrange);
 
             if (xrange == 0 && yrange == 0) {
                 delay = 500; // back in a split second
@@ -322,7 +348,7 @@ public class Utils {
     }
 
     /** Setup to find out when the quarter-hour changes (e.g. Kathmandu is GMT+5:45) **/
-    private static long getAlarmOnQuarterHour() {
+    public static long getAlarmOnQuarterHour() {
         Calendar nextQuarter = Calendar.getInstance();
         //  Set 1 second to ensure quarter-hour threshold passed.
         nextQuarter.set(Calendar.SECOND, 1);
@@ -336,31 +362,51 @@ public class Utils {
         return alarmOnQuarterHour;
     }
 
-    /** Setup alarm refresh when the quarter-hour changes **/
-    public static PendingIntent startAlarmOnQuarterHour(Context context) {
-        if (context != null) {
-            PendingIntent quarterlyIntent = PendingIntent.getBroadcast(
-                    context, 0, new Intent(Utils.ACTION_ON_QUARTER_HOUR), 0);
-            ((AlarmManager) context.getSystemService(Context.ALARM_SERVICE)).setRepeating(
-                    AlarmManager.RTC, getAlarmOnQuarterHour(),
-                    AlarmManager.INTERVAL_FIFTEEN_MINUTES, quarterlyIntent);
-            return quarterlyIntent;
-        } else {
-            return null;
+    // Setup a thread that starts at midnight plus one second. The extra second is added to ensure
+    // the date has changed.
+    public static void setMidnightUpdater(Handler handler, Runnable runnable) {
+        String timezone = TimeZone.getDefault().getID();
+        if (handler == null || runnable == null || timezone == null) {
+            return;
         }
+        long now = System.currentTimeMillis();
+        Time time = new Time(timezone);
+        time.set(now);
+        long runInMillis = ((24 - time.hour) * 3600 - time.minute * 60 - time.second + 1) * 1000;
+        handler.removeCallbacks(runnable);
+        handler.postDelayed(runnable, runInMillis);
     }
 
-    public static void cancelAlarmOnQuarterHour(Context context, PendingIntent quarterlyIntent) {
-        if (quarterlyIntent != null && context != null) {
-            ((AlarmManager) context.getSystemService(Context.ALARM_SERVICE)).cancel(
-                    quarterlyIntent);
+    // Stop the midnight update thread
+    public static void cancelMidnightUpdater(Handler handler, Runnable runnable) {
+        if (handler == null || runnable == null) {
+            return;
         }
+        handler.removeCallbacks(runnable);
     }
 
-    public static PendingIntent refreshAlarmOnQuarterHour(
-            Context context, PendingIntent quarterlyIntent) {
-        cancelAlarmOnQuarterHour(context, quarterlyIntent);
-        return startAlarmOnQuarterHour(context);
+    // Setup a thread that starts at the quarter-hour plus one second. The extra second is added to
+    // ensure dates have changed.
+    public static void setQuarterHourUpdater(Handler handler, Runnable runnable) {
+        String timezone = TimeZone.getDefault().getID();
+        if (handler == null || runnable == null || timezone == null) {
+            return;
+        }
+        long runInMillis = getAlarmOnQuarterHour() - System.currentTimeMillis();
+        // Ensure the delay is at least one second.
+        if (runInMillis < 1000) {
+            runInMillis = 1000;
+        }
+        handler.removeCallbacks(runnable);
+        handler.postDelayed(runnable, runInMillis);
+    }
+
+    // Stop the quarter-hour update thread
+    public static void cancelQuarterHourUpdater(Handler handler, Runnable runnable) {
+        if (handler == null || runnable == null) {
+            return;
+        }
+        handler.removeCallbacks(runnable);
     }
 
     /**
@@ -372,9 +418,6 @@ public class Utils {
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
         String defaultClockStyle = context.getResources().getString(R.string.default_clock_style);
         String style = sharedPref.getString(clockStyleKey, defaultClockStyle);
-        String mDateFormat = context.getResources().getString(R.string.abbrev_wday_month_day_no_year);
-        String mDateFormatForAccessibility = context.getResources().
-            getString(R.string.full_wday_month_day_no_year);
         View returnView;
         if (style.equals(CLOCK_TYPE_ANALOG)) {
             digitalClock.setVisibility(View.GONE);
@@ -385,7 +428,7 @@ public class Utils {
             analogClock.setVisibility(View.GONE);
             returnView = digitalClock;
         }
-        updateDate(mDateFormat, mDateFormatForAccessibility, returnView);
+
         return returnView;
     }
 
@@ -396,7 +439,7 @@ public class Utils {
         Paint paint = new Paint();
         paint.setColor(Color.WHITE);
         paint.setColorFilter(new PorterDuffColorFilter(
-                        (dim ? 0x60FFFFFF : 0xC0FFFFFF),
+                        (dim ? 0x40FFFFFF : 0xC0FFFFFF),
                 PorterDuff.Mode.MULTIPLY));
         clockView.setLayerType(View.LAYER_TYPE_HARDWARE, paint);
     }
@@ -437,42 +480,97 @@ public class Utils {
         }
     }
 
-    public static CityObj[] loadCitiesDataBase(Context c) {
-        final Collator collator = Collator.getInstance();
-        Resources r = c.getResources();
+    /***
+     * Formats the time in the TextClock according to the Locale with a special
+     * formatting treatment for the am/pm label.
+     * @param clock - TextClock to format
+     * @param amPmFontSize - size of the am/pm label since it is usually smaller
+     *        than the clock time size.
+     */
+    public static void setTimeFormat(TextClock clock, int amPmFontSize) {
+        if (clock != null) {
+            // Get the best format for 12 hours mode according to the locale
+            clock.setFormat12Hour(get12ModeFormat(amPmFontSize));
+            // Get the best format for 24 hours mode according to the locale
+            clock.setFormat24Hour(get24ModeFormat());
+        }
+    }
+    /***
+     * @param amPmFontSize - size of am/pm label (label removed is size is 0).
+     * @return format string for 12 hours mode time
+     */
+    public static CharSequence get12ModeFormat(int amPmFontSize) {
+        String skeleton = "hma";
+        String pattern = DateFormat.getBestDateTimePattern(Locale.getDefault(), skeleton);
+        // Remove the am/pm
+        if (amPmFontSize <= 0) {
+            pattern.replaceAll("a", "").trim();
+        }
+        // Replace spaces with "Hair Space"
+        pattern = pattern.replaceAll(" ", "\u200A");
+        // Build a spannable so that the am/pm will be formatted
+        int amPmPos = pattern.indexOf('a');
+        if (amPmPos == -1) {
+            return pattern;
+        }
+        Spannable sp = new SpannableString(pattern);
+        sp.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), amPmPos, amPmPos + 1,
+                Spannable.SPAN_POINT_MARK);
+        sp.setSpan(new AbsoluteSizeSpan(amPmFontSize), amPmPos, amPmPos + 1,
+                Spannable.SPAN_POINT_MARK);
+        sp.setSpan(new TypefaceSpan("sans-serif-condensed"), amPmPos, amPmPos + 1,
+                Spannable.SPAN_POINT_MARK);
+        return sp;
+    }
 
-        // Get list of cities defined by the app (App-defined has the prefix C)
+    public static CharSequence get24ModeFormat() {
+        String skeleton = "Hm";
+        return DateFormat.getBestDateTimePattern(Locale.getDefault(), skeleton);
+    }
+
+    public static CityObj[] loadCitiesFromXml(Context c) {
+        Resources r = c.getResources();
         // Read strings array of name,timezone, id
         // make sure the list are the same length
         String[] cities = r.getStringArray(R.array.cities_names);
         String[] timezones = r.getStringArray(R.array.cities_tz);
         String[] ids = r.getStringArray(R.array.cities_id);
+        int minLength = cities.length;
         if (cities.length != timezones.length || ids.length != cities.length) {
-            Log.wtf("City lists sizes are not the same, cannot use the data");
-            return null;
+            minLength = Math.min(cities.length, Math.min(timezones.length, ids.length));
+            Log.e("City lists sizes are not the same, trancating");
         }
-        List<CityObj> tempList = new ArrayList<CityObj>(cities.length);
+        CityObj[] tempList = new CityObj[minLength];
         for (int i = 0; i < cities.length; i++) {
-            tempList.add(new CityObj(cities[i], timezones[i], ids[i]));
+            tempList[i] = new CityObj(cities[i], timezones[i], ids[i]);
         }
+        return tempList;
+    }
 
-        // Get the list of user-defined cities (User-defined has the prefix UD)
-        List<DbCity> dbcities = DbCities.getCities(c.getContentResolver());
-        for (int i = 0; i < dbcities.size(); i++) {
-            DbCity dbCity = dbcities.get(i);
-            CityObj city = new CityObj(dbCity.name, dbCity.tz, "UD" + dbCity.id);
-            city.mUserDefined = true;
-            tempList.add(city);
+    /**
+     * Returns string denoting the timezone hour offset (e.g. GMT-8:00)
+     */
+    public static String getGMTHourOffset(TimeZone timezone, boolean showMinutes) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("GMT");
+        int gmtOffset = timezone.getRawOffset();
+        if (gmtOffset < 0) {
+            sb.append('-');
+        } else {
+            sb.append('+');
         }
+        sb.append(Math.abs(gmtOffset) / DateUtils.HOUR_IN_MILLIS); // Hour
 
-        // Sort alphabetically
-        Collections.sort(tempList, new Comparator<CityObj> () {
-            @Override
-            public int compare(CityObj c1, CityObj c2) {
-                return collator.compare(c1.mCityName, c2.mCityName);
+        if (showMinutes) {
+            final int min = (Math.abs(gmtOffset) / (int) DateUtils.MINUTE_IN_MILLIS) % 60;
+            sb.append(':');
+            if (min < 10) {
+                sb.append('0');
             }
-        });
-        return tempList.toArray(new CityObj[tempList.size()]);
+            sb.append(min);
+        }
+
+        return sb.toString();
     }
 
     public static String getCityName(CityObj city, CityObj dbCity) {

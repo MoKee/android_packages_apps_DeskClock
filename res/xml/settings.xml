@@ -39,23 +39,6 @@
 
     <PreferenceCategory
         android:title="@string/alarm_settings">
-
-       <ListPreference
-            android:key="flip_action"
-            android:title="@string/flip_action_title"
-            android:dialogTitle="@string/flip_action_dialog_title"
-            android:entries="@array/volume_button_setting_entries"
-            android:entryValues="@array/volume_button_setting_values"
-            android:defaultValue="0" />
-
-        <ListPreference
-            android:key="shake_action"
-            android:title="@string/shake_action_title"
-            android:dialogTitle="@string/shake_action_dialog_title"
-            android:entries="@array/volume_button_setting_entries"
-            android:entryValues="@array/volume_button_setting_values"
-            android:defaultValue="1"/>
-
         <ListPreference
             android:key="auto_silence"
             android:title="@string/auto_silence_title"
@@ -70,9 +53,9 @@
             android:defaultValue="10"/>
 
         <VolumePreference
+            android:key="volume_setting"
             android:title="@string/alarm_volume_title"
             android:dialogTitle="@string/alarm_volume_title"
-            android:persistent="false"
             android:streamType="alarm" />
 
         <ListPreference
@@ -81,22 +64,6 @@
             android:dialogTitle="@string/volume_button_setting_title"
             android:entries="@array/volume_button_setting_entries"
             android:entryValues="@array/volume_button_setting_values"
-            android:defaultValue="1" />
-
-        <CheckBoxPreference
-            android:key="show_status_bar_icon"
-            android:title="@string/show_status_bar_icon_title"
-            android:summary="@string/show_status_bar_icon_summary"
-            android:defaultValue="true"  />
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="@string/stopwatch_settings">
-        <CheckBoxPreference
-            android:key="keep_display_on_stopwatch"
-            android:title="@string/keep_display_on_stopwatch"
-            android:summary="@string/keep_display_on_stopwatch_summary"
             android:defaultValue="0" />
     </PreferenceCategory>
-
 </PreferenceScreen>

@@ -16,12 +16,14 @@
 
 package com.android.deskclock.timer;
 
+import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.util.Log;
 import android.view.View;
 
+import com.android.deskclock.R;
 import com.android.deskclock.Utils;
 
 import java.util.ArrayList;
@@ -35,7 +37,8 @@ public class TimerObj implements Parcelable {
 
     private static final String TAG = "TimerObj";
     // Max timer length is 9 hours + 99 minutes + 9 seconds
-    private static final long MAX_TIMER_LENGTH = (9 * 3600 + 99 * 60  + 60) * 1000;
+    public static final long MAX_TIMER_LENGTH = (9 * 3600 + 99 * 60  + 99) * 1000;
+    public static final long MINUTE_IN_MILLIS = 60 * 1000;
 
     public int mTimerId;             // Unique id
     public long mStartTime;          // With mTimeLeft , used to calculate the correct time
@@ -45,12 +48,14 @@ public class TimerObj implements Parcelable {
     public View mView;
     public int mState;
     public String mLabel;
+    public boolean mDeleteAfterUse;
 
     public static final int STATE_RUNNING = 1;
     public static final int STATE_STOPPED = 2;
     public static final int STATE_TIMESUP = 3;
     public static final int STATE_DONE = 4;
     public static final int STATE_RESTART = 5;
+    public static final int STATE_DELETED = 6;
 
     private static final String PREF_TIMER_ID = "timer_id_";
     private static final String PREF_START_TIME  = "timer_start_time_";
@@ -59,6 +64,7 @@ public class TimerObj implements Parcelable {
     private static final String PREF_SETUP_TIME = "timer_setup_timet_";
     private static final String PREF_STATE = "timer_state_";
     private static final String PREF_LABEL = "timer_label_";
+    private static final String PREF_DELETE_AFTER_USE = "delete_after_use_";
 
     private static final String PREF_TIMERS_LIST = "timers_list";
 
@@ -94,6 +100,8 @@ public class TimerObj implements Parcelable {
         editor.putStringSet(PREF_TIMERS_LIST, timersList);
         key = PREF_LABEL + id;
         editor.putString(key, mLabel);
+        key = PREF_DELETE_AFTER_USE + id;
+        editor.putBoolean(key, mDeleteAfterUse);
         editor.apply();
     }
 
@@ -112,6 +120,8 @@ public class TimerObj implements Parcelable {
         mState = prefs.getInt(key, 0);
         key = PREF_LABEL + id;
         mLabel = prefs.getString(key, "");
+        key = PREF_DELETE_AFTER_USE + id;
+        mDeleteAfterUse = prefs.getBoolean(key, false);
     }
 
     public void deleteFromSharedPref(SharedPreferences prefs) {
@@ -125,12 +135,16 @@ public class TimerObj implements Parcelable {
         editor.remove (key);
         key = PREF_ORIGINAL_TIME + id;
         editor.remove (key);
+        key = PREF_SETUP_TIME + id;
+        editor.remove (key);
         key = PREF_STATE + id;
         editor.remove (key);
         Set <String> timersList = prefs.getStringSet(PREF_TIMERS_LIST, new HashSet<String>());
         timersList.remove(id);
         editor.putStringSet(PREF_TIMERS_LIST, timersList);
         key = PREF_LABEL + id;
+        editor.remove(key);
+        key = PREF_DELETE_AFTER_USE + id;
         editor.remove(key);
         editor.commit();
         //dumpTimersFromSharedPrefs(prefs);
@@ -164,14 +178,22 @@ public class TimerObj implements Parcelable {
     }
 
     public TimerObj() {
-        init(0);
+        this(0);
     }
 
     public TimerObj(long timerLength) {
       init(timerLength);
     }
 
+    public TimerObj(long length, String label) {
+        this(length);
+        mLabel = label != null ? label : "";
+    }
+
     private void init (long length) {
+        /* TODO: mTimerId must avoid StopwatchService.NOTIFICATION_ID,
+         * TimerReceiver.IN_USE_NOTIFICATION_ID, and alarm ID's (which seem to be 1, 2, ..)
+         */
         mTimerId = (int) Utils.getTimeNow();
         mStartTime = Utils.getTimeNow();
         mTimeLeft = mOriginalLength = mSetupLength = length;
@@ -184,6 +206,12 @@ public class TimerObj implements Parcelable {
             mTimeLeft = mOriginalLength - (millis - mStartTime);
         }
         return mTimeLeft;
+    }
+
+    public String getLabelOrDefault(Context context) {
+        return (mLabel == null || mLabel.length() == 0) ? context.getString(
+                R.string.timer_notification_label)
+                : mLabel;
     }
 
     public boolean isTicking() {
@@ -199,6 +227,10 @@ public class TimerObj implements Parcelable {
         if (mTimeLeft < MAX_TIMER_LENGTH - time) {
                 mOriginalLength += time;
         }
+    }
+
+    public boolean getDeleteAfterUse() {
+        return mDeleteAfterUse;
     }
 
     public long getTimesupTime() {

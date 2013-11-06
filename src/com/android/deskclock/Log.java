@@ -28,7 +28,11 @@ public class Log {
 
     /** This must be false for production.  If true, turns on logging,
      test code, etc. */
-    static final boolean LOGV = false;
+    public static final boolean LOGV = false;
+
+    public static void d(String logMe) {
+        android.util.Log.d(LOGTAG, logMe);
+    }
 
     public static void v(String logMe) {
         android.util.Log.v(LOGTAG, /* SystemClock.uptimeMillis() + " " + */ logMe);

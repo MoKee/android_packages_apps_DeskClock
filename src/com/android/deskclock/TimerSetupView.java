@@ -17,6 +17,7 @@
 package com.android.deskclock;
 
 import android.content.Context;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -51,11 +52,7 @@ public class TimerSetupView extends LinearLayout implements Button.OnClickListen
         mContext = context;
         LayoutInflater layoutInflater =
                 (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        layoutInflater.inflate(getLayoutId(), this);
-    }
-
-    protected int getLayoutId() {
-        return R.layout.time_setup_view;
+        layoutInflater.inflate(R.layout.time_setup_view, this);
     }
 
     @Override
@@ -86,17 +83,36 @@ public class TimerSetupView extends LinearLayout implements Button.OnClickListen
         mLeft = (Button)v4.findViewById(R.id.key_left);
         mNumbers[0] = (Button)v4.findViewById(R.id.key_middle);
         mRight = (Button)v4.findViewById(R.id.key_right);
+        setLeftRightEnabled(false);
 
         for (int i = 0; i < 10; i++) {
             mNumbers[i].setOnClickListener(this);
             mNumbers [i].setText(String.format("%d",i));
             mNumbers [i].setTag(R.id.numbers_key,new Integer(i));
         }
-        mLeft.setOnClickListener(this);
-        mLeft.setText("00");
-        mRight.setOnClickListener(this);
-        mRight.setText("30");
         updateTime();
+    }
+
+    @Override
+    public void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            setMarginsAfterMeasure();
+        }
+    }
+
+    /**
+     * To properly center the TimerView across from the dial pad, append a bottom margin that
+     * matches the measured height of the start button that is below the dial pad.
+     */
+    protected void setMarginsAfterMeasure() {
+        View timerStart = findViewById(R.id.timer_start);
+        View timerDisplay = findViewById(R.id.timer_time_display);
+        if (timerStart != null && timerDisplay != null) {
+            MarginLayoutParams marginLayoutParams =
+                    (MarginLayoutParams) timerDisplay.getLayoutParams();
+            marginLayoutParams.bottomMargin = timerStart.getMeasuredHeight();
+        }
     }
 
     public void registerStartButton(Button start) {
@@ -117,56 +133,11 @@ public class TimerSetupView extends LinearLayout implements Button.OnClickListen
         }
     }
 
-    public void updateZeroButton() {
-        boolean enabled = (mInputPointer != -1 && mInputPointer != 4);
-        if (mNumbers[0] != null) {
-            mNumbers[0].setEnabled(enabled);
-        }
-    }
-
-    public void updateDoubleZeroButton() {
-        boolean enabled = (mInputPointer != -1 && mInputPointer < 3);
-        if (mLeft != null) {
-            mLeft.setEnabled(enabled);
-        }
-    }
-    public void updateThirtyButton() {
-        boolean enabled = mInputPointer < 3;
-        if (mRight != null) {
-            mRight.setEnabled(enabled);
-        }
-    }
-
-    public void updateNumberButtons() {
-        boolean enabled = mInputPointer != 4;
-        for (int i = 1; i < 10; i++) {
-            if (mNumbers[i] != null) {
-                mNumbers[i].setEnabled(enabled);
-            }
-        }
-    }
-
-    public void updateButtons() {
-        updateStartButton();
-        updateDeleteButton();
-        updateNumberButtons();
-        updateZeroButton();
-        updateDoubleZeroButton();
-        updateThirtyButton();
-    }
-
     @Override
     public void onClick(View v) {
         doOnClick(v);
-        updateButtons();
-    }
-
-    protected void addDigit(Integer digit) {
-        for (int i = mInputPointer; i >= 0; i--) {
-            mInput[i+1] = mInput[i];
-        }
-        mInputPointer++;
-        mInput [0] = digit;
+        updateStartButton();
+        updateDeleteButton();
     }
 
     protected void doOnClick(View v) {
@@ -179,23 +150,11 @@ public class TimerSetupView extends LinearLayout implements Button.OnClickListen
                 return;
             }
             if (mInputPointer < mInputSize - 1) {
-                addDigit(val);
-                updateTime();
-            }
-            return;
-        }
-        if (v == mLeft || v == mRight) {
-            //pressing "00" as the first does nothing
-            if (mInputPointer == -1 && v == mLeft) {
-                return;
-            }
-            if (mInputPointer < mInputSize -2) {
-                if (v == mLeft) {
-                    addDigit(0);
-                } else {
-                    addDigit(3);
+                for (int i = mInputPointer; i >= 0; i--) {
+                    mInput[i+1] = mInput[i];
                 }
-                addDigit(0);
+                mInputPointer++;
+                mInput [0] = val;
                 updateTime();
             }
             return;
@@ -218,14 +177,15 @@ public class TimerSetupView extends LinearLayout implements Button.OnClickListen
     public boolean onLongClick(View v) {
         if (v == mDelete) {
             reset();
-            updateButtons();
+            updateStartButton();
+            updateDeleteButton();
             return true;
         }
         return false;
     }
 
     protected void updateTime() {
-        mEnteredTime.setTime(-1, mInput[4], mInput[3], mInput[2],
+        mEnteredTime.setTime(mInput[4], mInput[3], mInput[2],
                 mInput[1] * 10 + mInput[0]);
     }
 
@@ -255,6 +215,15 @@ public class TimerSetupView extends LinearLayout implements Button.OnClickListen
                 }
             }
             updateTime();
+        }
+    }
+
+    protected void setLeftRightEnabled(boolean enabled) {
+        mLeft.setEnabled(enabled);
+        mRight.setEnabled(enabled);
+        if (!enabled) {
+            mLeft.setContentDescription(null);
+            mRight.setContentDescription(null);
         }
     }
 }

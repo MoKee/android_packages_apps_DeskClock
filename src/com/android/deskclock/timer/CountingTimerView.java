@@ -33,32 +33,41 @@ import com.android.deskclock.R;
 import com.android.deskclock.Utils;
 
 
+/**
+ * Class to measure and draw the time in the {@link com.android.deskclock.CircleTimerView}.
+ * This class manages and sums the work of the four members mBigHours, mBigMinutes,
+ * mBigSeconds and mMedHundredths. Those members are each tasked with measuring, sizing and
+ * drawing digits (and optional label) of the time set in {@link #setTime(long, boolean, boolean)}
+ */
 public class CountingTimerView extends View {
     private static final String TWO_DIGITS = "%02d";
     private static final String ONE_DIGIT = "%01d";
     private static final String NEG_TWO_DIGITS = "-%02d";
     private static final String NEG_ONE_DIGIT = "-%01d";
-    private static final float TEXT_SIZE_TO_WIDTH_RATIO = 0.75f;
-    // This is the ratio of the font typeface we need to offset the font by vertically to align it
-    // vertically center.
+    private static final float TEXT_SIZE_TO_WIDTH_RATIO = 0.85f;
+    // This is the ratio of the font height needed to vertically offset the font for alignment
+    // from the center.
     private static final float FONT_VERTICAL_OFFSET = 0.14f;
+    // Ratio of the space trailing the Hours and Minutes
+    private static final float HOURS_MINUTES_SPACING = 0.4f;
+    // Ratio of the space leading the Hundredths
+    private static final float HUNDREDTHS_SPACING = 0.5f;
+    // Radial offset of the enclosing circle
+    private final float mRadiusOffset;
 
     private String mHours, mMinutes, mSeconds, mHundredths;
 
     private boolean mShowTimeStr = true;
-    private final Typeface mAndroidClockMonoThin, mAndroidClockMonoBold, mAndroidClockMonoLight;
-    private final Typeface mRobotoLabel;
-    private final Paint mPaintBig = new Paint();
     private final Paint mPaintBigThin = new Paint();
     private final Paint mPaintMed = new Paint();
-    private final Paint mPaintLabel = new Paint();
     private final float mBigFontSize, mSmallFontSize;
+    // Hours and minutes are signed for when a timer goes past the set time and thus negative
     private final SignedTime mBigHours, mBigMinutes;
-    private final UnsignedTime mBigThinSeconds;
+    // Seconds are always shown with minutes, so are never signed
+    private final UnsignedTime mBigSeconds;
     private final Hundredths mMedHundredths;
     private float mTextHeight = 0;
     private float mTotalTextWidth;
-    private static final String HUNDREDTH_SEPERATOR = ".";
     private boolean mRemeasureText = true;
 
     private int mDefaultColor;
@@ -83,17 +92,22 @@ public class CountingTimerView extends View {
 
     };
 
-    class UnsignedTime {
+    /**
+     * Class to measure and draw the digit pairs of hours, minutes, seconds or hundredths. Digits
+     * may have an optional label. for hours, minutes and seconds, this label trails the digits
+     * and for seconds, precedes the digits.
+     */
+    static class UnsignedTime {
         protected Paint mPaint;
         protected float mEm;
         protected float mWidth = 0;
         private final String mWidest;
-        protected String mLabel;
+        protected final float mSpacingRatio;
         private float mLabelWidth = 0;
 
-        public UnsignedTime(Paint paint, final String label, String allDigits) {
+        public UnsignedTime(Paint paint, float spacingRatio, String allDigits) {
             mPaint = paint;
-            mLabel = label;
+            mSpacingRatio = spacingRatio;
 
             if (TextUtils.isEmpty(allDigits)) {
                 Log.wtf("Locale digits missing - using English");
@@ -113,17 +127,17 @@ public class CountingTimerView extends View {
             mWidest = allDigits.substring(largest, largest + 1);
         }
 
-        public UnsignedTime(UnsignedTime unsignedTime, final String label) {
+        public UnsignedTime(UnsignedTime unsignedTime, float spacingRatio) {
             this.mPaint = unsignedTime.mPaint;
             this.mEm = unsignedTime.mEm;
             this.mWidth = unsignedTime.mWidth;
             this.mWidest = unsignedTime.mWidest;
-            this.mLabel = label;
+            this.mSpacingRatio = spacingRatio;
         }
 
         protected void updateWidth(final String time) {
             mEm = mPaint.measureText(mWidest);
-            mLabelWidth = mLabel == null ? 0 : mPaintLabel.measureText(mLabel);
+            mLabelWidth = mSpacingRatio * mEm;
             mWidth = time.length() * mEm;
         }
 
@@ -141,14 +155,19 @@ public class CountingTimerView extends View {
             }
         }
 
-        public float getWidth() {
-            return mWidth;
-        }
-
         public float getLabelWidth() {
             return mLabelWidth;
         }
 
+        /**
+         * Draws each character with a fixed spacing from time starting at ii.
+         * @param canvas the canvas on which the time segment will be drawn
+         * @param time time segment
+         * @param ii what character to start the draw
+         * @param x offset
+         * @param y offset
+         * @return X location for the next segment
+         */
         protected float drawTime(Canvas canvas, final String time, int ii, float x, float y) {
             float textEm  = mEm / 2f;
             while (ii < time.length()) {
@@ -160,38 +179,45 @@ public class CountingTimerView extends View {
             return x;
         }
 
-        public float draw(Canvas canvas, final String time, float x, float y, float yLabel) {
-            x = drawTime(canvas, time, 0, x, y);
-            if (mLabel != null ) {
-                canvas.drawText(mLabel, x, yLabel, mPaintLabel);
-            }
-            return x + getLabelWidth();
+        /**
+         * Draw this time segment and append the intra-segment spacing to the x
+         * @param canvas the canvas on which the time segment will be drawn
+         * @param time time segment
+         * @param x offset
+         * @param y offset
+         * @return X location for the next segment
+         */
+        public float draw(Canvas canvas, final String time, float x, float y) {
+            return drawTime(canvas, time, 0, x, y) + getLabelWidth();
         }
     }
 
-    class Hundredths extends UnsignedTime {
-        public Hundredths(Paint paint, final String label, final String allDigits) {
-            super(paint, label, allDigits);
+    /**
+     * Special derivation to handle the hundredths painting with the label in front.
+     */
+    static class Hundredths extends UnsignedTime {
+        public Hundredths(Paint paint, float spacingRatio, final String allDigits) {
+            super(paint, spacingRatio, allDigits);
         }
 
+        /**
+         * Draw this time segment after prepending the intra-segment spacing to the x location.
+         * {@link UnsignedTime#draw(android.graphics.Canvas, String, float, float)}
+         */
         @Override
-        public float draw(Canvas canvas, final String time, float x, float y, float yLabel) {
-            if (mLabel != null) {
-                canvas.drawText(mLabel, x, yLabel, mPaintLabel);
-            }
+        public float draw(Canvas canvas, final String time, float x, float y) {
             return drawTime(canvas, time, 0, x + getLabelWidth(), y);
         }
     }
 
-    class SignedTime extends UnsignedTime {
+    /**
+     * Special derivation to handle a negative number
+     */
+    static class SignedTime extends UnsignedTime {
         private float mMinusWidth = 0;
 
-        public SignedTime(Paint paint, final String label, final String allDigits) {
-            super(paint, label, allDigits);
-        }
-
-        public SignedTime (SignedTime signedTime, final String label) {
-            super(signedTime, label);
+        public SignedTime (UnsignedTime unsignedTime, float spacingRatio) {
+            super(unsignedTime, spacingRatio);
         }
 
         @Override
@@ -211,99 +237,95 @@ public class CountingTimerView extends View {
             mMinusWidth = 0;
         }
 
+        /**
+         * Draws each character with a fixed spacing from time, handling the special negative
+         * number case.
+         * {@link UnsignedTime#draw(android.graphics.Canvas, String, float, float)}
+         */
         @Override
-        public float draw(Canvas canvas, final String time, float x, float y, float yLabel) {
+        public float draw(Canvas canvas, final String time, float x, float y) {
             int ii = 0;
             if (mMinusWidth != 0f) {
                 float minusWidth = mMinusWidth / 2;
                 x += minusWidth;
-                canvas.drawText(time.substring(ii, ii + 1), x, y, mPaint);
+                //TODO:hyphen is too thick when painted
+                canvas.drawText(time.substring(0, 1), x, y, mPaint);
                 x += minusWidth;
                 ii++;
             }
-            x = drawTime(canvas, time, ii, x, y);
-            if (mLabel != null) {
-                canvas.drawText(mLabel, x, yLabel, mPaintLabel);
-            }
-            return x + getLabelWidth();
+            return drawTime(canvas, time, ii, x, y) + getLabelWidth();
         }
     }
 
+    @SuppressWarnings("unused")
     public CountingTimerView(Context context) {
         this(context, null);
     }
 
     public CountingTimerView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        mAndroidClockMonoThin = Typeface.createFromAsset(
-                context.getAssets(), "fonts/AndroidClockMono-Thin.ttf");
-        mAndroidClockMonoBold = Typeface.createFromAsset(
-                context.getAssets(), "fonts/AndroidClockMono-Bold.ttf");
-        mAndroidClockMonoLight = Typeface.createFromAsset(
-                context.getAssets(), "fonts/AndroidClockMono-Light.ttf");
         mAccessibilityManager =
                 (AccessibilityManager) context.getSystemService(Context.ACCESSIBILITY_SERVICE);
-        mRobotoLabel= Typeface.create("sans-serif-condensed", Typeface.BOLD);
         Resources r = context.getResources();
         mWhiteColor = r.getColor(R.color.clock_white);
         mDefaultColor = mWhiteColor;
         mPressedColor = r.getColor(Utils.getPressedColorId());
         mRedColor = r.getColor(R.color.clock_red);
-
-        mPaintBig.setAntiAlias(true);
-        mPaintBig.setStyle(Paint.Style.STROKE);
-        mPaintBig.setTextAlign(Paint.Align.CENTER);
-        mPaintBig.setTypeface(mAndroidClockMonoBold);
         mBigFontSize = r.getDimension(R.dimen.big_font_size);
         mSmallFontSize = r.getDimension(R.dimen.small_font_size);
 
+        Typeface androidClockMonoThin = Typeface.
+                createFromAsset(context.getAssets(), "fonts/AndroidClockMono-Thin.ttf");
         mPaintBigThin.setAntiAlias(true);
         mPaintBigThin.setStyle(Paint.Style.STROKE);
         mPaintBigThin.setTextAlign(Paint.Align.CENTER);
-        mPaintBigThin.setTypeface(mAndroidClockMonoThin);
+        mPaintBigThin.setTypeface(androidClockMonoThin);
 
+        Typeface androidClockMonoLight = Typeface.
+                createFromAsset(context.getAssets(), "fonts/AndroidClockMono-Light.ttf");
         mPaintMed.setAntiAlias(true);
         mPaintMed.setStyle(Paint.Style.STROKE);
         mPaintMed.setTextAlign(Paint.Align.CENTER);
-        mPaintMed.setTypeface(mAndroidClockMonoLight);
-
-        mPaintLabel.setAntiAlias(true);
-        mPaintLabel.setStyle(Paint.Style.STROKE);
-        mPaintLabel.setTextAlign(Paint.Align.LEFT);
-        mPaintLabel.setTypeface(mRobotoLabel);
-        mPaintLabel.setTextSize(r.getDimension(R.dimen.label_font_size));
+        mPaintMed.setTypeface(androidClockMonoLight);
 
         resetTextSize();
         setTextColor(mDefaultColor);
 
         // allDigits will contain ten digits: "0123456789" in the default locale
         final String allDigits = String.format("%010d", 123456789);
-        mBigHours = new SignedTime(mPaintBig,
-                r.getString(R.string.hours_label).toUpperCase(), allDigits);
-        mBigMinutes = new SignedTime(mBigHours,
-                r.getString(R.string.minutes_label).toUpperCase());
-        mBigThinSeconds = new UnsignedTime(mPaintBigThin,
-                r.getString(R.string.seconds_label).toUpperCase(), allDigits);
-        mMedHundredths = new Hundredths(mPaintMed, HUNDREDTH_SEPERATOR, allDigits);
+        mBigSeconds = new UnsignedTime(mPaintBigThin, 0.f, allDigits);
+        mBigHours = new SignedTime(mBigSeconds, HOURS_MINUTES_SPACING);
+        mBigMinutes = new SignedTime(mBigSeconds, HOURS_MINUTES_SPACING);
+        mMedHundredths = new Hundredths(mPaintMed, HUNDREDTHS_SPACING, allDigits);
+
+        mRadiusOffset = Utils.calculateRadiusOffset(r);
     }
 
     protected void resetTextSize() {
-        mPaintBig.setTextSize(mBigFontSize);
         mTextHeight = mBigFontSize;
         mPaintBigThin.setTextSize(mBigFontSize);
         mPaintMed.setTextSize(mSmallFontSize);
     }
 
     protected void setTextColor(int textColor) {
-        mPaintBig.setColor(textColor);
         mPaintBigThin.setColor(textColor);
         mPaintMed.setColor(textColor);
-        mPaintLabel.setColor(textColor);
     }
 
+    /**
+     * Update the time to display. Separates that time into the hours, minutes, seconds and
+     * hundredths. If update is true, the view is invalidated so that it will draw again.
+     *
+     * @param time new time to display - in milliseconds
+     * @param showHundredths flag to show hundredths resolution
+     * @param update to invalidate the view - otherwise the time is examined to see if it is within
+     *               100 milliseconds of zero seconds and when so, invalidate the view.
+     */
+    // TODO:showHundredths S/B attribute or setter - i.e. unchanging over object life
     public void setTime(long time, boolean showHundredths, boolean update) {
+        int oldLength = getDigitsLength();
         boolean neg = false, showNeg = false;
-        String format = null;
+        String format;
         if (time < 0) {
             time = -time;
             neg = showNeg = true;
@@ -318,12 +340,15 @@ public class CountingTimerView extends View {
         if (hours > 999) {
             hours = 0;
         }
-        // time may less than a second below zero, since we do not show fractions of seconds
+        // The time  can be between 0 and -1 seconds, but the "truncated" equivalent time of hours
+        // and minutes and seconds could be zero, so since we do not show fractions of seconds
         // when counting down, do not show the minus sign.
-        if (hours ==0 && minutes == 0 && seconds == 0) {
+        // TODO:does it matter that we do not look at showHundredths?
+        if (hours == 0 && minutes == 0 && seconds == 0) {
             showNeg = false;
         }
 
+        // Normalize and check if it is 'time' to invalidate
         if (!showHundredths) {
             if (!neg && hundreds != 0) {
                 seconds++;
@@ -341,8 +366,7 @@ public class CountingTimerView extends View {
             }
         }
 
-        int oldLength = getDigitsLength();
-
+        // Hours may be empty
         if (hours >= 10) {
             format = showNeg ? NEG_TWO_DIGITS : TWO_DIGITS;
             mHours = String.format(format, hours);
@@ -353,6 +377,7 @@ public class CountingTimerView extends View {
             mHours = null;
         }
 
+        // Minutes are never empty and when hours are non-empty, must be two digits
         if (minutes >= 10 || hours > 0) {
             format = (showNeg && hours == 0) ? NEG_TWO_DIGITS : TWO_DIGITS;
             mMinutes = String.format(format, minutes);
@@ -361,7 +386,10 @@ public class CountingTimerView extends View {
             mMinutes = String.format(format, minutes);
         }
 
+        // Seconds are always two digits
         mSeconds = String.format(TWO_DIGITS, seconds);
+
+        // Hundredths are optional and then two digits
         if (showHundredths) {
             mHundredths = String.format(TWO_DIGITS, hundreds);
         } else {
@@ -392,10 +420,14 @@ public class CountingTimerView extends View {
 
     private void calcTotalTextWidth() {
         mTotalTextWidth = mBigHours.calcTotalWidth(mHours) + mBigMinutes.calcTotalWidth(mMinutes)
-                + mBigThinSeconds.calcTotalWidth(mSeconds)
+                + mBigSeconds.calcTotalWidth(mSeconds)
                 + mMedHundredths.calcTotalWidth(mHundredths);
     }
 
+    /**
+     * Adjust the size of the fonts to fit within the the circle and painted object in
+     * {@link com.android.deskclock.CircleTimerView#onDraw(android.graphics.Canvas)}
+     */
     private void setTotalTextWidth() {
         calcTotalTextWidth();
         // To determine the maximum width, we find the minimum of the height and width (since the
@@ -403,28 +435,36 @@ public class CountingTimerView extends View {
         // two.
         int width = Math.min(getWidth(), getHeight());
         if (width != 0) {
-            float wantWidth = (int)(TEXT_SIZE_TO_WIDTH_RATIO * width);
-            // If the text is too wide, reduce all the paint text sizes
-            while (mTotalTextWidth > wantWidth) {
-                // Get fixed and variant parts of the total size
-                float fixedWidths = mBigHours.getLabelWidth() + mBigMinutes.getLabelWidth()
-                        + mBigThinSeconds.getLabelWidth() + mMedHundredths.getLabelWidth();
-                float varWidths = mBigHours.getWidth() + mBigMinutes.getWidth()
-                        + mBigThinSeconds.getWidth() + mMedHundredths.getWidth();
-                // Avoid divide by zero || sizeRatio == 1 || sizeRatio <= 0
-                if (varWidths == 0 || fixedWidths == 0 || fixedWidths >= wantWidth) {
-                    break;
-                }
-                // Variant-section reduction
-                float sizeRatio = (wantWidth - fixedWidths) / varWidths;
-                mPaintBig.setTextSize(mPaintBig.getTextSize() * sizeRatio);
+            // Shrink 'width' to account for circle stroke and other painted objects.
+            // Note on the "4 *": (1) To reduce divisions, using the diameter instead of the radius.
+            // (2) The radius of the enclosing circle is reduced by mRadiusOffset and the
+            // text needs to fit within a circle further reduced by mRadiusOffset.
+            width -= (int) (4 * mRadiusOffset + 0.5f);
+
+            final float wantDiameter2 = TEXT_SIZE_TO_WIDTH_RATIO * width * width;
+            float totalDiameter2 = getHypotenuseSquared();
+
+            // If the hypotenuse of the bounding box is too large, reduce all the paint text sizes
+            while (totalDiameter2 > wantDiameter2) {
+                // Convergence is slightly difficult due to quantization in the mTotalTextWidth
+                // calculation. Reducing the ratio by 1% converges more quickly without excessive
+                // loss of quality.
+                float sizeRatio = 0.99f * (float) Math.sqrt(wantDiameter2/totalDiameter2);
                 mPaintBigThin.setTextSize(mPaintBigThin.getTextSize() * sizeRatio);
                 mPaintMed.setTextSize(mPaintMed.getTextSize() * sizeRatio);
-                //recalculate the new total text width and half text height
-                mTextHeight = mPaintBig.getTextSize();
+                // Recalculate the new total text height and half-width
+                mTextHeight = mPaintBigThin.getTextSize();
                 calcTotalTextWidth();
+                totalDiameter2 = getHypotenuseSquared();
             }
         }
+    }
+
+    /**
+     * Calculate the square of the diameter to use in {@link CountingTimerView#setTotalTextWidth()}
+     */
+    private float getHypotenuseSquared() {
+        return mTotalTextWidth * mTotalTextWidth + mTextHeight * mTextHeight;
     }
 
     public void blinkTimeStr(boolean blink) {
@@ -583,11 +623,8 @@ public class CountingTimerView extends View {
         int xCenter = width / 2;
         int yCenter = getHeight() / 2;
 
-        float textXstart = xCenter - mTotalTextWidth / 2;
-        float textYstart = yCenter + mTextHeight/2 - (mTextHeight * FONT_VERTICAL_OFFSET);
-        // align the labels vertically to the top of the rest of the text
-        float labelYStart = textYstart - (mTextHeight * (1 - 2 * FONT_VERTICAL_OFFSET))
-                + (1 - 2 * FONT_VERTICAL_OFFSET) * mPaintLabel.getTextSize();
+        float xTextStart = xCenter - mTotalTextWidth / 2;
+        float yTextStart = yCenter + mTextHeight/2 - (mTextHeight * FONT_VERTICAL_OFFSET);
 
         // Text color differs based on pressed state.
         int textColor;
@@ -597,25 +634,28 @@ public class CountingTimerView extends View {
         } else {
             textColor = mDefaultColor;
         }
-        mPaintBig.setColor(textColor);
         mPaintBigThin.setColor(textColor);
-        mPaintLabel.setColor(textColor);
         mPaintMed.setColor(textColor);
 
         if (mHours != null) {
-            textXstart = mBigHours.draw(canvas, mHours, textXstart, textYstart, labelYStart);
+            xTextStart = mBigHours.draw(canvas, mHours, xTextStart, yTextStart);
         }
         if (mMinutes != null) {
-            textXstart = mBigMinutes.draw(canvas, mMinutes, textXstart, textYstart, labelYStart);
+            xTextStart = mBigMinutes.draw(canvas, mMinutes, xTextStart, yTextStart);
         }
         if (mSeconds != null) {
-            textXstart = mBigThinSeconds.draw(canvas, mSeconds,
-                    textXstart, textYstart, labelYStart);
+            xTextStart = mBigSeconds.draw(canvas, mSeconds, xTextStart, yTextStart);
         }
         if (mHundredths != null) {
-            textXstart = mMedHundredths.draw(canvas, mHundredths,
-                    textXstart, textYstart, textYstart);
+            mMedHundredths.draw(canvas, mHundredths, xTextStart, yTextStart);
         }
+    }
+
+    @Override
+    protected void onSizeChanged(int w, int h, int oldw, int oldh) {
+        super.onSizeChanged(w, h, oldw, oldh);
+        mRemeasureText = true;
+        resetTextSize();
     }
 
     public void registerStopTextView(TextView stopStartTextView) {

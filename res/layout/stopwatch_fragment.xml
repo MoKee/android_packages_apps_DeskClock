@@ -13,14 +13,21 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.deskclock.CircleButtonsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/stopwatch_circle"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingTop="?android:attr/actionBarSize" >
 
-    <FrameLayout
+    <Space
+            android:id="@+id/start_space"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"/>
+
+    <com.android.deskclock.CircleButtonsLayout
+        android:id="@+id/stopwatch_circle"
         android:layout_width="match_parent"
         android:layout_height="0dip"
         android:layout_marginLeft="@dimen/circle_margin"
@@ -32,8 +39,7 @@
         <com.android.deskclock.timer.CountingTimerView
             android:id="@+id/stopwatch_time_text"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"/>
+            android:layout_height="match_parent" />
         <com.android.deskclock.CircleTimerView
             android:id="@+id/stopwatch_time"
             android:layout_width="match_parent"
@@ -47,6 +53,7 @@
             android:layout_height="56dip"
             android:layout_gravity="bottom|start"
             android:background="@null"
+            android:contentDescription="@string/sw_lap_button"
             android:src="@drawable/ic_lap" />
 
         <TextView
@@ -77,11 +84,18 @@
             android:contentDescription="@string/sw_share_button"
             android:background="@null"
             android:src="@drawable/ic_share" />
-    </FrameLayout>
+    </com.android.deskclock.CircleButtonsLayout>
+
+    <Space
+            android:id="@+id/end_space"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"/>
 
     <ListView
         android:id="@+id/laps_list"
         android:layout_weight="2"
         android:layout_width="match_parent"
         android:layout_height="0dip" />
-</com.android.deskclock.CircleButtonsLinearLayout>
+</LinearLayout>

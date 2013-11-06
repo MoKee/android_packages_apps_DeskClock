@@ -21,7 +21,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/black">
+    android:background="#FF000000">
 
     <!--  Extra layout to let the clock float in the window -->
     <LinearLayout
@@ -36,53 +36,61 @@
         android:layout_marginTop="@dimen/time_margin_top"
         android:layout_marginBottom="@dimen/screensaver_margin">
 
-    <include layout="@layout/desk_clock_time_date"
-        android:id="@+id/digital_clock"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_gravity="center"
-        android:layout_marginBottom="@dimen/digital_margin_bottom"
-        />
-    <com.android.deskclock.AnalogClock
-        android:id="@+id/analog_clock"
-        android:layout_width="@dimen/analog_clock_diameter"
-        android:layout_height="@dimen/analog_clock_diameter"
-        android:layout_gravity="center"
-        dc:jewelRadius="5dp"
-        dc:jewelOffset="23dp"
-        dc:jewelColor="@color/clock_white"
-        android:dial="@drawable/clock_analog_dial_mipmap"
-        android:hand_hour="@drawable/clock_analog_hour_mipmap"
-        android:hand_minute="@drawable/clock_analog_minute_mipmap"
-        android:layout_marginBottom="@dimen/time_margin_bottom"/>
+        <TextClock
+            android:id="@+id/digital_clock"
+            android:format12Hour="@string/main_clock_12_hours_format"
+            android:format24Hour="@string/clock_24_hours_format"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="center"
+            android:ellipsize="none"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/bottom_text_spacing_digital"
+            style="@style/big_thin"
+            android:textSize="@dimen/digital_screensaver_clock_text_size"
+            android:textColor="@color/clock_white" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center" >
-        <TextView android:id="@+id/date"
+        <com.android.deskclock.AnalogClock
+            android:id="@+id/analog_clock"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/clock_white"
-            style="@style/label"
-            android:gravity="center"
-            android:visibility="gone"
-            />
-        <TextView android:id="@+id/nextAlarm"
+            android:layout_gravity="center_horizontal"
+            dc:jewelRadius="5dp"
+            dc:jewelOffset="23dp"
+            dc:jewelColor="@color/clock_white"
+            android:dial="@drawable/clock_analog_dial_mipmap"
+            android:hand_hour="@drawable/clock_analog_hour_mipmap"
+            android:hand_minute="@drawable/clock_analog_minute_mipmap"
+            android:layout_marginBottom="@dimen/bottom_text_spacing_analog" />
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:drawablePadding="2dip"
-            android:drawableLeft="@drawable/ic_alarm_small"
-            android:drawableStart="@drawable/ic_alarm_small"
-            android:textColor="@color/clock_gray"
-            style="@style/label"
-            android:layout_marginLeft="8dip"
-            android:layout_marginStart="8dip"
-            android:gravity="center"
-            android:visibility="gone"
-            />
-    </LinearLayout>
+            android:layout_gravity="center"
+            android:gravity="center" >
+            <TextView android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/clock_white"
+                style="@style/label"
+                android:textSize="@dimen/bottom_text_size"
+                android:gravity="center"
+                android:visibility="gone"
+                />
+            <TextView android:id="@+id/nextAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="2dip"
+                android:drawableLeft="@drawable/ic_alarm_small"
+                android:drawableStart="@drawable/ic_alarm_small"
+                android:textColor="@color/clock_gray"
+                style="@style/label"
+                android:textSize="@dimen/bottom_text_size"
+                android:layout_marginLeft="8dip"
+                android:layout_marginStart="8dip"
+                android:gravity="center"
+                android:visibility="gone"
+                />
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>
