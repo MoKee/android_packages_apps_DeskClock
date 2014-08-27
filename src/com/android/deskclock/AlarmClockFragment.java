@@ -28,6 +28,7 @@ import android.app.LoaderManager;
 import android.app.Profile;
 import android.app.ProfileManager;
 import android.content.ContentResolver;
+import android.content.ContentUris;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -48,6 +49,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.os.Vibrator;
+import android.provider.DocumentsContract;
+import android.provider.MediaStore;
 import android.provider.Settings;
 import android.text.format.DateFormat;
 import android.view.Gravity;
@@ -82,6 +85,7 @@ import com.android.deskclock.provider.DaysOfWeek;
 import com.android.deskclock.widget.ActionableToastBar;
 import com.android.deskclock.widget.TextTime;
 
+import java.io.File;
 import java.text.DateFormatSymbols;
 import java.util.Calendar;
 import java.util.HashSet;
@@ -109,9 +113,14 @@ public class AlarmClockFragment extends DeskClockFragment implements
     private static final String KEY_PREVIOUS_DAY_MAP = "previousDayMap";
     private static final String KEY_SELECTED_ALARM = "selectedAlarm";
     private static final String KEY_DELETE_CONFIRMATION = "deleteConfirmation";
+    private static final String KEY_SELECT_SOURCE = "selectedSource";
+
+    private static final String DOC_AUTHORITY = "com.android.providers.media.documents";
+    private static final String DOC_DOWNLOAD = "com.android.providers.downloads.documents";
 
     private static final int REQUEST_CODE_RINGTONE = 1;
     private static final int REQUEST_CODE_PROFILE = 2;
+    private static final int REQUEST_CODE_EXTERN_AUDIO = 3;
 
     // This extra is used when receiving an intent to create an alarm, but no alarm details
     // have been passed in, so the alarm page should start the process of creating a new alarm.
@@ -139,11 +148,17 @@ public class AlarmClockFragment extends DeskClockFragment implements
     private AlarmTimelineView mTimelineView;
     private View mFooterView;
 
+    private String mDisplayName;
+
     private Bundle mRingtoneTitleCache; // Key: ringtone uri, value: ringtone title
     private ActionableToastBar mUndoBar;
     private View mUndoFrame;
 
     private Alarm mSelectedAlarm;
+    private static final String SEL_AUDIO_SRC = "audio/*";
+    private static final int SEL_SRC_RINGTONE = 0;
+    private static final int SEL_SRC_EXTERNAL = 1;
+    private int mSelectSource = SEL_SRC_RINGTONE;
     private long mScrollToAlarmId = -1;
 
     private Loader mCursorLoader = null;
@@ -207,6 +222,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
             selectedAlarms = savedState.getLongArray(KEY_SELECTED_ALARMS);
             previousDayMap = savedState.getBundle(KEY_PREVIOUS_DAY_MAP);
             mSelectedAlarm = savedState.getParcelable(KEY_SELECTED_ALARM);
+            mSelectSource = savedState.getInt(KEY_SELECT_SOURCE);
         }
 
         // Register profiles status
@@ -585,6 +601,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
         outState.putBoolean(KEY_UNDO_SHOWING, mUndoShowing);
         outState.putBundle(KEY_PREVIOUS_DAY_MAP, mAdapter.getPreviousDaysOfWeekMap());
         outState.putParcelable(KEY_SELECTED_ALARM, mSelectedAlarm);
+        outState.putInt(KEY_SELECT_SOURCE, mSelectSource);
     }
 
     @Override
@@ -698,6 +715,50 @@ public class AlarmClockFragment extends DeskClockFragment implements
         mAdapter.swapCursor(null);
     }
 
+    private void sendPickIntent() {
+        if (mSelectSource == SEL_SRC_RINGTONE) {
+            Uri oldRingtone = Alarm.NO_RINGTONE_URI.equals(
+                AlarmClockFragment.this.mSelectedAlarm.alert) ? null : mSelectedAlarm.alert;
+            final Intent intent = new Intent(RingtoneManager.ACTION_RINGTONE_PICKER);
+            intent.putExtra(RingtoneManager.EXTRA_RINGTONE_EXISTING_URI,
+                oldRingtone);
+            intent.putExtra(RingtoneManager.EXTRA_RINGTONE_TYPE,
+                RingtoneManager.TYPE_ALARM);
+            intent.putExtra(RingtoneManager.EXTRA_RINGTONE_SHOW_DEFAULT,
+                false);
+            AlarmClockFragment.this.startActivityForResult(intent, REQUEST_CODE_RINGTONE);
+        } else {
+            final Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+            intent.putExtra(RingtoneManager.EXTRA_RINGTONE_EXISTING_URI,
+                AlarmClockFragment.this.mSelectedAlarm.alert);
+            intent.setType(SEL_AUDIO_SRC);
+            AlarmClockFragment.this.startActivityForResult(intent, REQUEST_CODE_EXTERN_AUDIO);
+        }
+    }
+
+    private class RingTonePickerDialogListener implements DialogInterface.OnClickListener {
+        private AlarmClockFragment alarm;
+
+        public RingTonePickerDialogListener(AlarmClockFragment clock) {
+            alarm = clock;
+        }
+
+        public void onClick(DialogInterface dialog, int which) {
+            switch (which) {
+                case SEL_SRC_RINGTONE:
+                case SEL_SRC_EXTERNAL:
+                    alarm.mSelectSource = which;
+                    break;
+                case DialogInterface.BUTTON_POSITIVE:
+                    alarm.sendPickIntent();
+                case DialogInterface.BUTTON_NEGATIVE:
+                default:
+                    dialog.dismiss();
+                    break;
+            }
+        }
+    }
+
     private void launchRingTonePicker(final Alarm alarm) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         builder.setTitle(R.string.alarm_picker_title).setItems(
@@ -724,12 +785,18 @@ public class AlarmClockFragment extends DeskClockFragment implements
 
     private void launchSingleRingTonePicker(Alarm alarm) {
         mSelectedAlarm = alarm;
-        Uri oldRingtone = Alarm.NO_RINGTONE_URI.equals(alarm.alert) ? null : alarm.alert;
-        final Intent intent = new Intent(RingtoneManager.ACTION_RINGTONE_PICKER);
-        intent.putExtra(RingtoneManager.EXTRA_RINGTONE_EXISTING_URI, oldRingtone);
-        intent.putExtra(RingtoneManager.EXTRA_RINGTONE_TYPE, RingtoneManager.TYPE_ALARM);
-        intent.putExtra(RingtoneManager.EXTRA_RINGTONE_SHOW_DEFAULT, false);
-        startActivityForResult(intent, REQUEST_CODE_RINGTONE);
+        RingTonePickerDialogListener listener = new RingTonePickerDialogListener(this);
+        new AlertDialog.Builder(getActivity())
+                .setTitle(getResources().getString(R.string.alarm_select))
+                .setSingleChoiceItems(
+                        new String[] {
+                                getResources().getString(R.string.alarm_select_ringtone),
+                                getResources().getString(R.string.alarm_select_external) },
+                        mSelectSource, listener)
+                .setPositiveButton(getResources().getString(R.string.alarm_select_ok),listener)
+                .setNegativeButton(getResources().getString(
+                        R.string.alarm_select_cancel),listener)
+                .show();
     }
 
     private void launchProfilePicker(Alarm alarm) {
@@ -741,11 +808,22 @@ public class AlarmClockFragment extends DeskClockFragment implements
         startActivityForResult(intent, REQUEST_CODE_PROFILE);
     }
 
-    private void saveRingtoneUri(Intent intent) {
-        Uri uri = intent.getParcelableExtra(RingtoneManager.EXTRA_RINGTONE_PICKED_URI);
+    private Uri getRingtoneUri(Intent intent) {
+        Uri uri;
+        if (mSelectSource == SEL_SRC_RINGTONE) {
+            uri = intent.getParcelableExtra(RingtoneManager.EXTRA_RINGTONE_PICKED_URI);
+        } else {
+            uri = intent.getData();
+        }
         if (uri == null) {
             uri = Alarm.NO_RINGTONE_URI;
         }
+        return uri;
+    }
+
+    private void saveRingtoneUri(Intent intent) {
+
+        Uri uri =  getRingtoneUri(intent);
         mSelectedAlarm.alert = uri;
 
         // Save the last selected ringtone as the default for new alarms
@@ -798,6 +876,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
         if (resultCode == Activity.RESULT_OK) {
             switch (requestCode) {
                 case REQUEST_CODE_RINGTONE:
+                case REQUEST_CODE_EXTERN_AUDIO:
                     saveRingtoneUri(data);
                     break;
                 case REQUEST_CODE_PROFILE:
@@ -1560,14 +1639,73 @@ public class AlarmClockFragment extends DeskClockFragment implements
                 if (uri.equals(MultiPlayer.RANDOM_URI)) {
                     title = mContext.getResources().getString(R.string.alarm_type_random);
                 } else {
-                    // This is slow because a media player is created during Ringtone object creation.
-                    Ringtone ringTone = RingtoneManager.getRingtone(mContext, uri);
-                    if (ringTone != null) {
-                        title = ringTone.getTitle(mContext);
+                    if (isRingToneUriValid(uri)) {
+                        if (uri.getAuthority().equals(DOC_AUTHORITY)
+                                || uri.getAuthority().equals(DOC_DOWNLOAD)) {
+                            title = getDisplayNameFromDatabase(mContext,uri);
+                        } else {
+                            Ringtone ringTone = RingtoneManager.getRingtone(mContext, uri);
+                            if (ringTone != null) {
+                                title = ringTone.getTitle(mContext);
+                            }
+                        }
                     }
                 }
                 if (title != null) {
                     mRingtoneTitleCache.putString(uri.toString(), title);
+                }
+            }
+            return title;
+        }
+
+        private boolean isRingToneUriValid(Uri uri) {
+            if (uri.getScheme().contentEquals("file")) {
+                File f = new File(uri.getPath());
+                if (f.exists()) {
+                    return true;
+                }
+            } else if (uri.getScheme().contentEquals("content")) {
+                return true;
+            }
+
+            return false;
+        }
+
+        private String getDisplayNameFromDatabase(Context context,Uri uri) {
+            String selection = null;
+            String[] selectionArgs = null;
+            String title = mContext.getString(R.string.ringtone_default);
+            // If restart Alarm,there is no permission to get the title from the uri.
+            // No matter in which database,the music has the same id.
+            // So we can only get the info of the music from other database by id in uri.
+            if (uri.getAuthority().equals(DOC_DOWNLOAD)) {
+                final String id = DocumentsContract.getDocumentId(uri);
+                uri = ContentUris.withAppendedId(
+                        Uri.parse("content://downloads/public_downloads"), Long.valueOf(id));
+            } else if (uri.getAuthority().equals(DOC_AUTHORITY)) {
+                final String docId = DocumentsContract.getDocumentId(uri);
+                final String[] split = docId.split(":");
+                uri = MediaStore.Audio.Media.EXTERNAL_CONTENT_URI;
+                selection = "_id=?";
+                selectionArgs = new String[] {
+                    split[1]
+                };
+            }
+            Cursor cursor = null;
+            try {
+                cursor = context.getContentResolver().query(uri,
+                        new String[] {
+                                MediaStore.Audio.Media.TITLE,
+                        }, selection, selectionArgs, null);
+                if (cursor != null && cursor.getCount() > 0) {
+                        cursor.moveToFirst();
+                    title = cursor.getString(0);
+                }
+            } catch (Exception e) {
+                Log.e("Get ringtone uri Exception: e.toString=" + e.toString());
+            } finally {
+                if (cursor != null) {
+                    cursor.close();
                 }
             }
             return title;
