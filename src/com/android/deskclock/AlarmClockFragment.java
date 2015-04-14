@@ -1082,7 +1082,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
                 final String labelText = isTomorrow(alarm) ?
                         resources.getString(R.string.alarm_tomorrow) :
                         resources.getString(R.string.alarm_today);
-                itemHolder.tomorrowLabel.setText(itemHolder.workday.isChecked() ? getString(R.string.alarm_workday) : labelText);
+                itemHolder.tomorrowLabel.setText(alarm.workday ? getString(R.string.alarm_workday) : labelText);
             }
             itemHolder.onoff.setOnCheckedChangeListener(onOffListener);
 
@@ -1115,8 +1115,8 @@ public class AlarmClockFragment extends DeskClockFragment implements
             final String daysOfWeekStr =
                     alarm.daysOfWeek.toString(AlarmClockFragment.this.getActivity(), false);
             if (daysOfWeekStr != null && daysOfWeekStr.length() != 0) {
-                itemHolder.daysOfWeek.setText(itemHolder.workday.isChecked() ? getString(R.string.alarm_workday) : daysOfWeekStr);
-                itemHolder.daysOfWeek.setContentDescription(itemHolder.workday.isChecked() ? getString(R.string.alarm_workday) : alarm.daysOfWeek.toAccessibilityString(
+                itemHolder.daysOfWeek.setText(alarm.workday ? getString(R.string.alarm_workday) : daysOfWeekStr);
+                itemHolder.daysOfWeek.setContentDescription(alarm.workday ? getString(R.string.alarm_workday) : alarm.daysOfWeek.toAccessibilityString(
                         AlarmClockFragment.this.getActivity()));
                 itemHolder.daysOfWeek.setVisibility(View.VISIBLE);
                 itemHolder.daysOfWeek.setOnClickListener(new View.OnClickListener() {
