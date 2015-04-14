@@ -120,7 +120,7 @@ public class HandleApiCalls extends Activity {
 
             // Delete all old instances and create a new one with updated values
             AlarmStateManager.deleteAllInstances(this, alarm.id);
-            setupInstance(alarm.createInstanceAfter(Calendar.getInstance()), skipUi);
+            setupInstance(alarm.createInstanceAfter(Calendar.getInstance(), this), skipUi);
             LogUtils.i("HandleApiCalls deleted old, created new alarm: %s", alarm);
             finish();
             return;
@@ -148,7 +148,7 @@ public class HandleApiCalls extends Activity {
         alarm.deleteAfterUse = !daysOfWeek.isRepeating() && skipUi;
 
         alarm = Alarm.addAlarm(cr, alarm);
-        setupInstance(alarm.createInstanceAfter(Calendar.getInstance()), skipUi);
+        setupInstance(alarm.createInstanceAfter(Calendar.getInstance(), this), skipUi);
         LogUtils.i("HandleApiCalls set up alarm: %s", alarm);
         finish();
     }

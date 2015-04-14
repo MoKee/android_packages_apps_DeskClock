@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2007 The Android Open Source Project
+ * Copyright (C) 2015 The MoKee OpenSource Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,6 +35,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.Loader;
+import android.content.SharedPreferences;
 import android.content.UriPermission;
 import android.content.res.Configuration;
 import android.content.res.Resources;
@@ -46,6 +48,7 @@ import android.graphics.Typeface;
 import android.media.AudioManager;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
+import android.mokee.utils.MoKeeUtils;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -199,6 +202,8 @@ public class AlarmClockFragment extends DeskClockFragment implements
         }
     };
 
+    private boolean isSupportLanguage;
+
     public AlarmClockFragment() {
         // Basic provider required by Fragment.java
     }
@@ -215,6 +220,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
         // Inflate the layout for this fragment
         final View v = inflater.inflate(R.layout.alarm_clock, container, false);
 
+        isSupportLanguage = MoKeeUtils.isSupportLanguage(true);
         long expandedId = INVALID_ID;
         long[] repeatCheckedIds = null;
         long[] selectedAlarms = null;
@@ -848,6 +854,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
             CheckBox increasingVolume;
             TextView ringtone;
             TextView profile;
+            CheckBox workday;
             View hairLine;
             View arrow;
             View collapseExpandArea;
@@ -994,6 +1001,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
             holder.increasingVolume = (CheckBox) view.findViewById(R.id.increasing_volume_onoff);
             holder.ringtone = (TextView) view.findViewById(R.id.choose_ringtone);
             holder.profile = (TextView) view.findViewById(R.id.choose_profile);
+            holder.workday = (CheckBox) view.findViewById(R.id.workday_onoff);
 
             view.setTag(holder);
         }
@@ -1074,7 +1082,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
                 final String labelText = isTomorrow(alarm) ?
                         resources.getString(R.string.alarm_tomorrow) :
                         resources.getString(R.string.alarm_today);
-                itemHolder.tomorrowLabel.setText(labelText);
+                itemHolder.tomorrowLabel.setText(itemHolder.workday.isChecked() ? getString(R.string.alarm_workday) : labelText);
             }
             itemHolder.onoff.setOnCheckedChangeListener(onOffListener);
 
@@ -1107,8 +1115,8 @@ public class AlarmClockFragment extends DeskClockFragment implements
             final String daysOfWeekStr =
                     alarm.daysOfWeek.toString(AlarmClockFragment.this.getActivity(), false);
             if (daysOfWeekStr != null && daysOfWeekStr.length() != 0) {
-                itemHolder.daysOfWeek.setText(daysOfWeekStr);
-                itemHolder.daysOfWeek.setContentDescription(alarm.daysOfWeek.toAccessibilityString(
+                itemHolder.daysOfWeek.setText(itemHolder.workday.isChecked() ? getString(R.string.alarm_workday) : daysOfWeekStr);
+                itemHolder.daysOfWeek.setContentDescription(itemHolder.workday.isChecked() ? getString(R.string.alarm_workday) : alarm.daysOfWeek.toAccessibilityString(
                         AlarmClockFragment.this.getActivity()));
                 itemHolder.daysOfWeek.setVisibility(View.VISIBLE);
                 itemHolder.daysOfWeek.setOnClickListener(new View.OnClickListener() {
@@ -1209,13 +1217,47 @@ public class AlarmClockFragment extends DeskClockFragment implements
                 }
             });
 
+            // Don't display workday option in other language.
+            SharedPreferences holidayPrefs = mContext.getSharedPreferences("ChineseHoliday", Context.MODE_PRIVATE);
+            SharedPreferences workdayPrefs = mContext.getSharedPreferences("ChineseWorkday", Context.MODE_PRIVATE);
+            Calendar cal = Calendar.getInstance();
+            int year = cal.get(Calendar.YEAR);
+            if (!isSupportLanguage || !holidayPrefs.getBoolean("has" + year, false) || !workdayPrefs.getBoolean("has" + year, false)) {
+                itemHolder.workday.setVisibility(View.GONE);
+            } else {
+                itemHolder.workday.setChecked(alarm.workday);
+                if (alarm.workday) {
+                    itemHolder.repeat.setVisibility(View.GONE);
+                }
+            }
+
             if (mRepeatChecked.contains(alarm.id) || itemHolder.alarm.daysOfWeek.isRepeating()) {
                 itemHolder.repeat.setChecked(true);
-                itemHolder.repeatDays.setVisibility(View.VISIBLE);
+                itemHolder.repeatDays.setVisibility(isSupportLanguage ? !alarm.workday ? View.VISIBLE : View.GONE : View.VISIBLE);
             } else {
                 itemHolder.repeat.setChecked(false);
                 itemHolder.repeatDays.setVisibility(View.GONE);
             }
+
+            itemHolder.workday.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    final boolean checked = ((CheckBox) view).isChecked();
+                    if (checked) {
+                        // Hide days
+                        itemHolder.repeat.setVisibility(View.GONE);
+                        itemHolder.repeatDays.setVisibility(View.GONE);
+                    } else {
+                        // Show days
+                        itemHolder.repeat.setVisibility(View.VISIBLE);
+                        if (itemHolder.repeat.isChecked()) {
+                            itemHolder.repeatDays.setVisibility(View.VISIBLE);
+                        }
+                    }
+                    alarm.workday = checked;
+                    asyncUpdateAlarm(alarm, false);
+                }
+            });
             itemHolder.repeat.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -1769,7 +1811,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
 
     private static AlarmInstance setupAlarmInstance(Context context, Alarm alarm) {
         ContentResolver cr = context.getContentResolver();
-        AlarmInstance newInstance = alarm.createInstanceAfter(Calendar.getInstance());
+        AlarmInstance newInstance = alarm.createInstanceAfter(Calendar.getInstance(), context);
         newInstance = AlarmInstance.addInstance(cr, newInstance);
         // Register instance to state manager
         AlarmStateManager.registerInstance(context, newInstance, true);

@@ -191,7 +191,7 @@ public final class AlarmStateManager extends BroadcastReceiver {
             return;
         }
 
-        if (!alarm.daysOfWeek.isRepeating()) {
+        if (!alarm.daysOfWeek.isRepeating() && !alarm.workday) {
             if (alarm.deleteAfterUse) {
                 LogUtils.i("Deleting parent alarm: " + alarm.id);
                 Alarm.deleteAlarm(cr, alarm.id);
@@ -208,7 +208,7 @@ public final class AlarmStateManager extends BroadcastReceiver {
             if (currentTime.after(alarmTime)) {
                 alarmTime = currentTime;
             }
-            AlarmInstance nextRepeatedInstance = alarm.createInstanceAfter(alarmTime);
+            AlarmInstance nextRepeatedInstance = alarm.createInstanceAfter(alarmTime, context);
             LogUtils.i("Creating new instance for repeating alarm " + alarm.id + " at " +
                     AlarmUtils.getFormattedTime(context, nextRepeatedInstance.getAlarmTime()));
             AlarmInstance.addInstance(cr, nextRepeatedInstance);

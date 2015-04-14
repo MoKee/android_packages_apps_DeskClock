@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2013 The Android Open Source Project
+ * Copyright (C) 2015 The MoKee OpenSource Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -67,6 +68,12 @@ public final class ClockContract {
          * <p>Type: BOOLEAN</p>
          */
         public static final String VIBRATE = "vibrate";
+
+        /**
+         * True if alarm in workday
+         * <p>Type: BOOLEAN</p>
+         */
+        public static final String WORKDAY = "workday";
 
         /**
          * Alarm label.
