@@ -99,8 +99,8 @@ class ClockDatabaseHelper extends SQLiteOpenHelper {
                 ClockContract.AlarmsColumns.DELETE_AFTER_USE + " INTEGER NOT NULL DEFAULT 0, " +
                 ClockContract.AlarmsColumns.INCREASING_VOLUME + " INTEGER NOT NULL DEFAULT 0, " +
                 ClockContract.AlarmsColumns.PROFILE + " TEXT NOT NULL DEFAULT '" +
-                    ProfileManager.NO_PROFILE.toString() +
-                ClockContract.AlarmsColumns.WORKDAY + " INTEGER NOT NULL, " + "');");
+                    ProfileManager.NO_PROFILE.toString() + "', " +
+                    ClockContract.AlarmsColumns.WORKDAY + " INTEGER NOT NULL);");
         LogUtils.i("Alarms Table created");
     }
 
