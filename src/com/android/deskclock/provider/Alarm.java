@@ -356,12 +356,7 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
             nextInstanceTime.add(Calendar.DAY_OF_YEAR, 1);
         }
 
-        if (workday) {
-            SharedPreferences holidayPrefs = context.getSharedPreferences("ChineseHoliday", Context.MODE_PRIVATE);
-            SharedPreferences workdayPrefs = context.getSharedPreferences("ChineseWorkday", Context.MODE_PRIVATE);
-            int addDays = ChineseCalendar.calculateDaysToNextAlarmWithoutHoliday(nextInstanceTime, workdayPrefs, holidayPrefs);
-            nextInstanceTime.add(Calendar.DAY_OF_YEAR, addDays);
-        } else {
+        if (!workday) {
             // The day of the week might be invalid, so find next valid one
             int addDays = daysOfWeek.calculateDaysToNextAlarm(nextInstanceTime);
             if (addDays > 0) {
@@ -369,7 +364,10 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
             }
         }
 
-        AlarmInstance result = new AlarmInstance(nextInstanceTime, id);
+        SharedPreferences holidayPrefs = context.getSharedPreferences("ChineseHoliday", Context.MODE_PRIVATE);
+        SharedPreferences workdayPrefs = context.getSharedPreferences("ChineseWorkday", Context.MODE_PRIVATE);
+
+        AlarmInstance result = new AlarmInstance(workday ? ChineseCalendar.calculateDaysToNextAlarmWithoutHoliday(nextInstanceTime, workdayPrefs, holidayPrefs) : nextInstanceTime, id);
         result.mVibrate = vibrate;
         result.mLabel = label;
         result.mRingtone = alert;
