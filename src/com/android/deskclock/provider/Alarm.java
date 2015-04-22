@@ -33,7 +33,7 @@ import android.os.ParcelUuid;
 import android.os.Parcelable;
 
 import com.android.deskclock.R;
-import com.mokee.cloud.ChineseCalendar;
+import com.mokee.cloud.calendar.ChineseCalendar;
 
 import java.util.Calendar;
 import java.util.LinkedList;
