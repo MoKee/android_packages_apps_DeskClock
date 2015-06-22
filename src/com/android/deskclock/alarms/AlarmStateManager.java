@@ -682,7 +682,7 @@ public final class AlarmStateManager extends BroadcastReceiver {
         ContentResolver contentResolver = context.getContentResolver();
         for (AlarmInstance instance : AlarmInstance.getInstances(contentResolver, null)) {
             final Alarm alarm = Alarm.getAlarm(contentResolver, instance.mAlarmId);
-            instance.setAlarmTime(alarm.getNextAlarmTime(Calendar.getInstance()));
+            instance.setAlarmTime(alarm.getNextAlarmTime(Calendar.getInstance(), context));
             AlarmInstance.updateInstance(contentResolver, instance);
             AlarmStateManager.registerInstance(context, instance, false);
         }
