@@ -19,6 +19,8 @@
 package com.android.deskclock.alarms;
 
 import android.app.PendingIntent;
+import android.app.Profile;
+import android.app.ProfileManager;
 import android.app.Service;
 import android.content.ContentResolver;
 import android.content.Context;
@@ -33,9 +35,6 @@ import android.preference.PreferenceManager;
 import android.provider.Settings;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
-
-import cyanogenmod.app.Profile;
-import cyanogenmod.app.ProfileManager;
 
 import com.android.deskclock.AlarmAlertWakeLock;
 import com.android.deskclock.LogUtils;
@@ -133,7 +132,8 @@ public class AlarmService extends Service {
             return;
         }
 
-        final ProfileManager profileManager = ProfileManager.getInstance(context);
+        final ProfileManager profileManager =
+                (ProfileManager) context.getSystemService(Context.PROFILE_SERVICE);
         boolean isProfilesEnabled = Settings.System.getInt(context.getContentResolver(),
                 Settings.System.SYSTEM_PROFILES_ENABLED, 1) == 1;
         if (!isProfilesEnabled) {
