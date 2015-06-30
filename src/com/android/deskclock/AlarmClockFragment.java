@@ -26,8 +26,6 @@ import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.app.LoaderManager;
-import android.app.Profile;
-import android.app.ProfileManager;
 import android.app.TimePickerDialog.OnTimeSetListener;
 import android.content.ContentResolver;
 import android.content.ContentUris;
@@ -87,6 +85,9 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
+
+import cyanogenmod.app.Profile;
+import cyanogenmod.app.ProfileManager;
 
 import com.android.deskclock.alarms.AlarmStateManager;
 import com.android.deskclock.provider.Alarm;
@@ -238,7 +239,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
         }
 
         // Register profiles status
-        mProfileManager = (ProfileManager) getActivity().getSystemService(Context.PROFILE_SERVICE);
+        mProfileManager = ProfileManager.getInstance(getActivity());
         mProfileObserver = new ProfilesObserver(mHandler);
 
         mExpandInterpolator = new DecelerateInterpolator(EXPAND_DECELERATION);
