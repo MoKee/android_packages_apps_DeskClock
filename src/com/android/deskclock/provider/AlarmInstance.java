@@ -19,7 +19,7 @@
 
 package com.android.deskclock.provider;
 
-import android.app.ProfileManager;
+import mokee.app.ProfileManager;
 import android.content.ContentResolver;
 import android.content.ContentUris;
 import android.content.ContentValues;
