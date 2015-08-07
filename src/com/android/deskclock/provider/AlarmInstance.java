@@ -19,6 +19,7 @@
 
 package com.android.deskclock.provider;
 
+import mokee.alarmclock.ClockContract;
 import mokee.app.ProfileManager;
 import android.content.ContentResolver;
 import android.content.ContentUris;

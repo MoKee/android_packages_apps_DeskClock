@@ -27,6 +27,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.net.Uri;
 import android.text.TextUtils;
 
+import mokee.alarmclock.ClockContract;
 import mokee.app.ProfileManager;
 
 import com.android.deskclock.LogUtils;
