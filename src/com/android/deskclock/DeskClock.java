@@ -71,6 +71,9 @@ import java.util.HashSet;
 import java.util.Locale;
 import java.util.TimeZone;
 
+import mokee.support.widget.snackbar.Snackbar;
+import mokee.support.widget.snackbar.SnackbarManager;
+
 /**
  * DeskClock clock view for desk docks.
  */
@@ -395,8 +398,7 @@ public class DeskClock extends Activity implements LabelDialogFragment.TimerLabe
                 try {
                     startActivity(wsi);
                 } catch (ActivityNotFoundException e) {
-                    Toast.makeText(this, getResources().getString(R.string.activity_not_found),
-                            Toast.LENGTH_SHORT).show();
+                    SnackbarManager.show(Snackbar.with(this).text(R.string.activity_not_found));
                     Log.w(LOG_TAG, "Cannot find the activity!");
                 }
                 return true;

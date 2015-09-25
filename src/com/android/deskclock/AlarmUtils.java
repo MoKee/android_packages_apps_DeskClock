@@ -16,6 +16,7 @@
 
 package com.android.deskclock;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -29,6 +30,10 @@ import com.android.deskclock.provider.AlarmInstance;
 
 import java.util.Calendar;
 import java.util.Locale;
+
+import mokee.support.widget.snackbar.Snackbar;
+import mokee.support.widget.snackbar.Snackbar.SnackbarDuration;
+import mokee.support.widget.snackbar.SnackbarManager;
 
 /**
  * Static utility methods for Alarms.
@@ -106,10 +111,8 @@ public class AlarmUtils {
         return String.format(formats[index], daySeq, hourSeq, minSeq);
     }
 
-    public static void popAlarmSetToast(Context context, long timeInMillis) {
-        String toastText = formatToast(context, timeInMillis);
-        Toast toast = Toast.makeText(context, toastText, Toast.LENGTH_LONG);
-        ToastMaster.setToast(toast);
-        toast.show();
+    public static void popAlarmSetToast(Activity activity, long timeInMillis) {
+        String toastText = formatToast(activity.getBaseContext(), timeInMillis);
+        SnackbarManager.show(Snackbar.with(activity).text(toastText).duration(SnackbarDuration.LENGTH_LONG));
     }
 }

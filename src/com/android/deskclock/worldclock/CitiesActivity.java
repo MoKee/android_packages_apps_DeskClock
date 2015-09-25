@@ -72,6 +72,9 @@ import java.util.List;
 import java.util.Locale;
 import java.util.TimeZone;
 
+import mokee.support.widget.snackbar.Snackbar;
+import mokee.support.widget.snackbar.SnackbarManager;
+
 /**
  * Cities chooser for the world clock
  */
@@ -785,8 +788,7 @@ public class CitiesActivity extends Activity implements OnCheckedChangeListener,
         CityObj city = mAdapter.getItem(name, tz);
         if (city != null) {
             // The city already exists
-            Toast.makeText(this, R.string.cities_add_already_exists,
-                    Toast.LENGTH_SHORT).show();
+            SnackbarManager.show(Snackbar.with(this).text(R.string.cities_add_already_exists));
             mCitiesList.setSelection(mAdapter.getPosition(city));
             return;
         }
@@ -797,8 +799,7 @@ public class CitiesActivity extends Activity implements OnCheckedChangeListener,
         long id = DbCities.addCity(this, dbCity);
         if (id < 0) {
           // Something went wrong
-          Toast.makeText(this, R.string.cities_add_city_failed,
-                  Toast.LENGTH_SHORT).show();
+          SnackbarManager.show(Snackbar.with(this).text(R.string.cities_add_city_failed));
         } else {
             CityObj o = new CityObj(name, tz, "UD" + id);
             mAdapter.loadCitiesDatabase(this, o);
@@ -829,8 +830,7 @@ public class CitiesActivity extends Activity implements OnCheckedChangeListener,
                     mCitiesList.invalidate();
                 } else {
                     // Something went wrong
-                    Toast.makeText(CitiesActivity.this, R.string.cities_delete_city_failed,
-                            Toast.LENGTH_SHORT).show();
+                    SnackbarManager.show(Snackbar.with(CitiesActivity.this).text(R.string.cities_delete_city_failed));
                 }
             }
         });

@@ -88,6 +88,9 @@ import android.widget.Toast;
 
 import mokee.app.Profile;
 import mokee.app.ProfileManager;
+import mokee.support.widget.snackbar.Snackbar;
+import mokee.support.widget.snackbar.SnackbarManager;
+import mokee.support.widget.snackbar.Snackbar.SnackbarDuration;
 
 import com.android.deskclock.alarms.AlarmStateManager;
 import com.android.deskclock.provider.Alarm;
@@ -440,7 +443,6 @@ public class AlarmClockFragment extends DeskClockFragment implements
     @Override
     public void onDestroy() {
         super.onDestroy();
-        ToastMaster.cancelToast();
     }
 
     @Override
@@ -536,11 +538,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
         } else {
             // Trying to display a deleted alarm should only happen from a missed notification for
             // an alarm that has been marked deleted after use.
-            Context context = getActivity().getApplicationContext();
-            Toast toast = Toast.makeText(context, R.string.missed_alarm_has_been_deleted,
-                    Toast.LENGTH_LONG);
-            ToastMaster.setToast(toast);
-            toast.show();
+            SnackbarManager.show(Snackbar.with(getActivity()).text(R.string.missed_alarm_has_been_deleted).duration(SnackbarDuration.LENGTH_LONG));
         }
     }
 
@@ -710,7 +708,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
                     LogUtils.e("Unable to take persistent grant permission for uri " + uri, ex);
                     uri = null;
                     final int msgId = R.string.take_persistent_grant_uri_permission_failed_msg;
-                    Toast.makeText(getActivity(), msgId, Toast.LENGTH_SHORT).show();
+                    SnackbarManager.show(Snackbar.with(getActivity()).text(msgId));
                 }
             }
         }
@@ -1860,7 +1858,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
                     @Override
                     protected void onPostExecute(AlarmInstance instance) {
                         if (instance != null) {
-                            AlarmUtils.popAlarmSetToast(context, instance.getAlarmTime().getTimeInMillis());
+                            AlarmUtils.popAlarmSetToast(AlarmClockFragment.this.getActivity(), instance.getAlarmTime().getTimeInMillis());
                         }
                     }
                 };
@@ -1883,7 +1881,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
                     @Override
                     protected void onPostExecute(AlarmInstance instance) {
                         if (popToast && instance != null) {
-                            AlarmUtils.popAlarmSetToast(context, instance.getAlarmTime().getTimeInMillis());
+                            AlarmUtils.popAlarmSetToast(AlarmClockFragment.this.getActivity(), instance.getAlarmTime().getTimeInMillis());
                         }
                     }
                 };

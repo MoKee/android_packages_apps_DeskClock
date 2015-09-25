@@ -8,3 +8,5 @@
 -keep class com.android.deskclock.widget.multiwaveview.* {
   *;
 }
+
+-dontwarn mokee.support.widget.snackbar.**
