@@ -33,6 +33,7 @@ import android.net.Uri;
 import android.os.Parcel;
 import android.os.ParcelUuid;
 import android.os.Parcelable;
+import android.util.Log;
 
 import com.android.deskclock.R;
 import com.mokee.cloud.calendar.ChineseCalendarUtils;
@@ -428,8 +429,14 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
         }
 
         if (workday) {
-            SharedPreferences holidayPrefs = context.getSharedPreferences("ChineseHoliday", Context.MODE_PRIVATE);
-            SharedPreferences workdayPrefs = context.getSharedPreferences("ChineseWorkday", Context.MODE_PRIVATE);
+            Context calendarContext = null;
+            try {
+                calendarContext = context.createPackageContext("com.android.calendar", Context.CONTEXT_IGNORE_SECURITY);
+            } catch (Exception e) {
+                Log.e(Alarm.class.getName(), "Create calendar context failed.");
+            }
+            SharedPreferences holidayPrefs = calendarContext.getSharedPreferences("ChineseHoliday", Context.MODE_WORLD_READABLE);
+            SharedPreferences workdayPrefs = calendarContext.getSharedPreferences("ChineseWorkday", Context.MODE_WORLD_READABLE);
             return ChineseCalendarUtils.calculateDaysToNextAlarmWithoutHoliday(nextInstanceTime, workdayPrefs, holidayPrefs);
         } else {
             // The day of the week might be invalid, so find next valid one

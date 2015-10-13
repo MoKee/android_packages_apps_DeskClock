@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2009 The Android Open Source Project
+ * Copyright (C) 2015 The MoKee OpenSource Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -32,7 +33,6 @@ import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.graphics.Outline;
 import android.media.AudioManager;
-import android.mokee.utils.MoKeeUtils;
 import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
@@ -60,13 +60,8 @@ import com.android.deskclock.stopwatch.Stopwatches;
 import com.android.deskclock.timer.TimerFragment;
 import com.android.deskclock.timer.TimerObj;
 import com.android.deskclock.timer.Timers;
-import com.mokee.cloud.misc.FetchChineseHolidayTask;
-import com.mokee.cloud.misc.FetchChineseWorkdayTask;
-import com.mokee.volley.RequestQueue;
-import com.mokee.volley.toolbox.Volley;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.HashSet;
 import java.util.Locale;
 import java.util.TimeZone;
@@ -276,21 +271,6 @@ public class DeskClock extends Activity implements LabelDialogFragment.TimerLabe
         // user might have clear our data.
         AlarmStateManager.updateNextAlarm(this);
         ExtensionsFactory.init(getAssets());
-
-        // Fetch Cloud Chinese Calendar
-        SharedPreferences holidayPrefs = getSharedPreferences("ChineseHoliday", MODE_PRIVATE);
-        SharedPreferences workdayPrefs = getSharedPreferences("ChineseWorkday", MODE_PRIVATE);
-        Calendar cal = Calendar.getInstance();
-        int year = cal.get(Calendar.YEAR);
-        if (MoKeeUtils.isSupportLanguage(true) && MoKeeUtils.isOnline(this)) {
-            RequestQueue mRequestQueue = Volley.newRequestQueue(this);
-            if (!holidayPrefs.getBoolean("has" + year, false)) {
-                new FetchChineseHolidayTask(holidayPrefs, mRequestQueue, year).execute();
-            }
-            if (!workdayPrefs.getBoolean("has" + year, false)) {
-                new FetchChineseWorkdayTask(workdayPrefs, mRequestQueue, year).execute();
-            }
-        }
     }
 
     @Override

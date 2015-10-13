@@ -58,6 +58,7 @@ import android.transition.Fade;
 import android.transition.Transition;
 import android.transition.TransitionManager;
 import android.transition.TransitionSet;
+import android.util.Log;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 import android.provider.Settings;
@@ -1217,8 +1218,14 @@ public class AlarmClockFragment extends DeskClockFragment implements
             });
 
             // Don't display workday option in other language.
-            SharedPreferences holidayPrefs = mContext.getSharedPreferences("ChineseHoliday", Context.MODE_PRIVATE);
-            SharedPreferences workdayPrefs = mContext.getSharedPreferences("ChineseWorkday", Context.MODE_PRIVATE);
+            Context calendarContext = null;
+            try {
+                calendarContext = mContext.createPackageContext("com.android.calendar", Context.CONTEXT_IGNORE_SECURITY);
+            } catch (Exception e) {
+                Log.e(AlarmClockFragment.class.getName(), "Create calendar context failed.");
+            }
+            SharedPreferences holidayPrefs = calendarContext.getSharedPreferences("ChineseHoliday", Context.MODE_WORLD_READABLE);
+            SharedPreferences workdayPrefs = calendarContext.getSharedPreferences("ChineseWorkday", Context.MODE_WORLD_READABLE);
             Calendar cal = Calendar.getInstance();
             int year = cal.get(Calendar.YEAR);
             if (!isSupportLanguage || !holidayPrefs.getBoolean("has" + year, false) || !workdayPrefs.getBoolean("has" + year, false)) {
