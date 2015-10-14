@@ -435,8 +435,8 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
             } catch (Exception e) {
                 Log.e(Alarm.class.getName(), "Create calendar context failed.");
             }
-            SharedPreferences holidayPrefs = calendarContext.getSharedPreferences("ChineseHoliday", Context.MODE_WORLD_READABLE);
-            SharedPreferences workdayPrefs = calendarContext.getSharedPreferences("ChineseWorkday", Context.MODE_WORLD_READABLE);
+            SharedPreferences holidayPrefs = calendarContext.getSharedPreferences("chinese_holiday", Context.MODE_WORLD_READABLE);
+            SharedPreferences workdayPrefs = calendarContext.getSharedPreferences("chinese_workday", Context.MODE_WORLD_READABLE);
             return ChineseCalendarUtils.calculateDaysToNextAlarmWithoutHoliday(nextInstanceTime, workdayPrefs, holidayPrefs);
         } else {
             // The day of the week might be invalid, so find next valid one

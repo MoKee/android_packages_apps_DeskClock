@@ -1224,8 +1224,8 @@ public class AlarmClockFragment extends DeskClockFragment implements
             } catch (Exception e) {
                 Log.e(AlarmClockFragment.class.getName(), "Create calendar context failed.");
             }
-            SharedPreferences holidayPrefs = calendarContext.getSharedPreferences("ChineseHoliday", Context.MODE_WORLD_READABLE);
-            SharedPreferences workdayPrefs = calendarContext.getSharedPreferences("ChineseWorkday", Context.MODE_WORLD_READABLE);
+            SharedPreferences holidayPrefs = calendarContext.getSharedPreferences("chinese_holiday", Context.MODE_WORLD_READABLE);
+            SharedPreferences workdayPrefs = calendarContext.getSharedPreferences("chinese_workday", Context.MODE_WORLD_READABLE);
             Calendar cal = Calendar.getInstance();
             int year = cal.get(Calendar.YEAR);
             if (!isSupportLanguage || !holidayPrefs.getBoolean("has" + year, false) || !workdayPrefs.getBoolean("has" + year, false)) {
