@@ -29,7 +29,7 @@ import android.preference.PreferenceManager;
 import com.android.deskclock.LogUtils;
 import com.android.deskclock.R;
 import com.android.deskclock.SettingsActivity;
-import cyanogenmod.app.ProfileManager;
+import mokee.app.ProfileManager;
 
 import java.util.Calendar;
 import java.util.LinkedList;

@@ -27,7 +27,7 @@ import android.net.Uri;
 import android.text.TextUtils;
 
 import com.android.deskclock.LogUtils;
-import cyanogenmod.app.ProfileManager;
+import mokee.app.ProfileManager;
 
 import java.util.Calendar;
 import java.util.UUID;

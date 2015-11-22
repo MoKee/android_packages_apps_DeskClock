@@ -30,7 +30,7 @@ import android.os.ParcelUuid;
 import android.os.Parcelable;
 
 import com.android.deskclock.R;
-import cyanogenmod.app.ProfileManager;
+import mokee.app.ProfileManager;
 
 import java.util.Calendar;
 import java.util.LinkedList;
