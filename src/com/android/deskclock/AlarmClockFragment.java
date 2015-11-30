@@ -1221,16 +1221,21 @@ public class AlarmClockFragment extends DeskClockFragment implements
 
             // Don't display workday option in other language.
             Context calendarContext = null;
+            boolean hasHolidayData = false;
+            boolean hasWorkdayData = false;
             try {
                 calendarContext = mContext.createPackageContext("com.android.calendar", Context.CONTEXT_IGNORE_SECURITY);
+                SharedPreferences holidayPrefs = calendarContext.getSharedPreferences("chinese_holiday", Context.MODE_WORLD_READABLE);
+                SharedPreferences workdayPrefs = calendarContext.getSharedPreferences("chinese_workday", Context.MODE_WORLD_READABLE);
+                Calendar cal = Calendar.getInstance();
+                int year = cal.get(Calendar.YEAR);
+                hasHolidayData = holidayPrefs.getBoolean("has" + year, false);
+                hasWorkdayData = workdayPrefs.getBoolean("has" + year, false);
             } catch (Exception e) {
                 Log.e(AlarmClockFragment.class.getName(), "Create calendar context failed.");
             }
-            SharedPreferences holidayPrefs = calendarContext.getSharedPreferences("chinese_holiday", Context.MODE_WORLD_READABLE);
-            SharedPreferences workdayPrefs = calendarContext.getSharedPreferences("chinese_workday", Context.MODE_WORLD_READABLE);
-            Calendar cal = Calendar.getInstance();
-            int year = cal.get(Calendar.YEAR);
-            if (!isSupportLanguage || !holidayPrefs.getBoolean("has" + year, false) || !workdayPrefs.getBoolean("has" + year, false)) {
+
+            if (!isSupportLanguage || !hasHolidayData || !hasWorkdayData) {
                 itemHolder.workday.setVisibility(View.GONE);
             } else {
                 itemHolder.workday.setChecked(alarm.workday);
