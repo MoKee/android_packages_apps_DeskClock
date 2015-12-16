@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2009 The Android Open Source Project
+ * Copyright (C) 2012-2015 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,15 +23,17 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.media.AudioManager;
 import android.os.Bundle;
-import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
+import android.preference.SwitchPreference;
 import android.text.format.DateUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.android.deskclock.worldclock.Cities;
+
+import mokee.providers.MKSettings;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -51,6 +54,7 @@ public class SettingsActivity extends BaseActivity {
     public static final String KEY_AUTO_HOME_CLOCK = "automatic_home_clock";
     public static final String KEY_VOLUME_BUTTONS = "volume_button_setting";
     public static final String KEY_WEEK_START = "week_start";
+    public static final String KEY_SHOW_ALARM_ICON = "show_status_bar_icon";
 
     public static final String DEFAULT_VOLUME_BEHAVIOR = "0";
     public static final String VOLUME_BEHAVIOR_SNOOZE = "1";
@@ -108,6 +112,11 @@ public class SettingsActivity extends BaseActivity {
             homeTimezonePref.setEntries(mTimezones[1]);
             homeTimezonePref.setSummary(homeTimezonePref.getEntry());
             homeTimezonePref.setOnPreferenceChangeListener(this);
+
+            final SwitchPreference showAlarmIconPref =
+                    (SwitchPreference) findPreference(KEY_SHOW_ALARM_ICON);
+            showAlarmIconPref.setChecked(MKSettings.System.getInt(
+                    getActivity().getContentResolver(), MKSettings.System.SHOW_ALARM_ICON, 1) == 1);
         }
 
         @Override
@@ -134,7 +143,7 @@ public class SettingsActivity extends BaseActivity {
                 homeTimezonePref.setSummary(homeTimezonePref.getEntries()[idx]);
                 notifyHomeTimeZoneChanged();
             } else if (KEY_AUTO_HOME_CLOCK.equals(pref.getKey())) {
-                final boolean autoHomeClockEnabled = ((CheckBoxPreference) pref).isChecked();
+                final boolean autoHomeClockEnabled = ((SwitchPreference) pref).isChecked();
                 final Preference homeTimeZonePref = findPreference(KEY_HOME_TZ);
                 homeTimeZonePref.setEnabled(!autoHomeClockEnabled);
                 notifyHomeTimeZoneChanged();
@@ -146,6 +155,9 @@ public class SettingsActivity extends BaseActivity {
                 final ListPreference weekStartPref = (ListPreference) findPreference(KEY_WEEK_START);
                 final int idx = weekStartPref.findIndexOfValue((String) newValue);
                 weekStartPref.setSummary(weekStartPref.getEntries()[idx]);
+            } else if (KEY_SHOW_ALARM_ICON.equals(pref.getKey())) {
+                MKSettings.System.putInt(getActivity().getContentResolver(),
+                        MKSettings.System.SHOW_ALARM_ICON, (Boolean) newValue ? 1 : 0);
             }
             // Set result so DeskClock knows to refresh itself
             getActivity().setResult(RESULT_OK);
@@ -214,7 +226,7 @@ public class SettingsActivity extends BaseActivity {
 
             final Preference autoHomeClockPref = findPreference(KEY_AUTO_HOME_CLOCK);
             final boolean autoHomeClockEnabled =
-                    ((CheckBoxPreference) autoHomeClockPref).isChecked();
+                    ((SwitchPreference) autoHomeClockPref).isChecked();
             autoHomeClockPref.setOnPreferenceChangeListener(this);
 
             final ListPreference homeTimezonePref = (ListPreference) findPreference(KEY_HOME_TZ);
@@ -242,6 +254,10 @@ public class SettingsActivity extends BaseActivity {
             weekStartPref.setValueIndex(idx);
             weekStartPref.setSummary(weekStartPref.getEntries()[idx]);
             weekStartPref.setOnPreferenceChangeListener(this);
+
+            final SwitchPreference showAlarmIconPref =
+                    (SwitchPreference) findPreference(KEY_SHOW_ALARM_ICON);
+            showAlarmIconPref.setOnPreferenceChangeListener(this);
         }
 
         private void updateAutoSnoozeSummary(ListPreference listPref, String delay) {
