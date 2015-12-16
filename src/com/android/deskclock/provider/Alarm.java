@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2013 The Android Open Source Project
+ * Copyright (C) 2015-2016 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,14 +23,18 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.content.CursorLoader;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Parcel;
 import android.os.ParcelUuid;
 import android.os.Parcelable;
+import android.util.Log;
 
 import com.android.deskclock.R;
+import com.mokee.cloud.calendar.ChineseCalendarUtils;
+
 import mokee.app.ProfileManager;
 
 import java.util.Calendar;
@@ -62,7 +67,8 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
             RINGTONE,
             DELETE_AFTER_USE,
             INCREASING_VOLUME,
-            PROFILE
+            PROFILE,
+            WORKDAY
     };
 
     /**
@@ -80,6 +86,7 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
     private static final int DELETE_AFTER_USE_INDEX = 8;
     private static final int INCREASING_VOLUME_INDEX = 9;
     private static final int PROFILE_INDEX = 10;
+    private static final int WORKDAY_INDEX = 11;
 
     private static final int COLUMN_COUNT = PROFILE_INDEX + 1;
 
@@ -104,6 +111,7 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
             values.put(RINGTONE, alarm.alert.toString());
         }
         values.put(PROFILE, alarm.profile.toString());
+        values.put(WORKDAY, alarm.workday ? 1 : 0);
 
         return values;
     }
@@ -245,6 +253,7 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
     public boolean deleteAfterUse;
     public boolean increasingVolume;
     public UUID profile;
+    public boolean workday;
 
     // Creates a default alarm at the current time.
     public Alarm() {
@@ -262,6 +271,7 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
         this.deleteAfterUse = false;
         this.increasingVolume = false;
         this.profile = ProfileManager.NO_PROFILE;
+        this.workday = false;
     }
 
     public Alarm(Cursor c) {
@@ -292,6 +302,12 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
                 profile = ProfileManager.NO_PROFILE;
             }
         }
+
+        if (c.isNull(WORKDAY_INDEX)) {
+            workday = false;
+        } else {
+            workday = c.getInt(WORKDAY_INDEX) == 1;
+        }
     }
 
     Alarm(Parcel p) {
@@ -306,6 +322,7 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
         deleteAfterUse = p.readInt() == 1;
         increasingVolume = p.readInt() == 1;
         profile = ParcelUuid.CREATOR.createFromParcel(p).getUuid();
+        workday = p.readInt() == 1;
     }
 
     public String getLabelOrDefault(Context context) {
@@ -327,14 +344,15 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
         p.writeInt(deleteAfterUse ? 1 : 0);
         p.writeInt(increasingVolume ? 1 : 0);
         p.writeParcelable(new ParcelUuid(profile), 0);
+        p.writeInt(workday ? 1 : 0);
     }
 
     public int describeContents() {
         return 0;
     }
 
-    public AlarmInstance createInstanceAfter(Calendar time) {
-        Calendar nextInstanceTime = getNextAlarmTime(time);
+    public AlarmInstance createInstanceAfter(Calendar time, Context context) {
+        Calendar nextInstanceTime = getNextAlarmTime(time, context);
         AlarmInstance result = new AlarmInstance(nextInstanceTime, id);
         result.mVibrate = vibrate;
         result.mLabel = label;
@@ -368,7 +386,7 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
         }
     }
 
-    public Calendar getNextAlarmTime(Calendar currentTime) {
+    public Calendar getNextAlarmTime(Calendar currentTime, Context context) {
         final Calendar nextInstanceTime = Calendar.getInstance();
         nextInstanceTime.set(Calendar.YEAR, currentTime.get(Calendar.YEAR));
         nextInstanceTime.set(Calendar.MONTH, currentTime.get(Calendar.MONTH));
@@ -383,11 +401,24 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
             nextInstanceTime.add(Calendar.DAY_OF_YEAR, 1);
         }
 
-        // The day of the week might be invalid, so find next valid one
-        int addDays = daysOfWeek.calculateDaysToNextAlarm(nextInstanceTime);
-        if (addDays > 0) {
-            nextInstanceTime.add(Calendar.DAY_OF_WEEK, addDays);
+        if (workday) {
+            Context calendarContext = null;
+            try {
+                calendarContext = context.createPackageContext("com.android.calendar", Context.CONTEXT_IGNORE_SECURITY);
+            } catch (Exception e) {
+                Log.e(Alarm.class.getName(), "Create calendar context failed.");
+            }
+            SharedPreferences holidayPrefs = calendarContext.getSharedPreferences("chinese_holiday", Context.MODE_WORLD_READABLE);
+            SharedPreferences workdayPrefs = calendarContext.getSharedPreferences("chinese_workday", Context.MODE_WORLD_READABLE);
+            return ChineseCalendarUtils.calculateDaysToNextAlarmWithoutHoliday(nextInstanceTime, workdayPrefs, holidayPrefs);
+        } else {
+            // The day of the week might be invalid, so find next valid one
+            int addDays = daysOfWeek.calculateDaysToNextAlarm(nextInstanceTime);
+            if (addDays > 0) {
+                nextInstanceTime.add(Calendar.DAY_OF_WEEK, addDays);
+            }
         }
+
         return nextInstanceTime;
     }
 
@@ -417,6 +448,7 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
                 ", deleteAfterUse=" + deleteAfterUse +
                 ", increasingVolume=" + increasingVolume +
                 ", profile=" + profile +
+                ", workday=" + workday +
                 '}';
     }
 }

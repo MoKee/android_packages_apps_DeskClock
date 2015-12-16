@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2007 The Android Open Source Project
+ * Copyright (C) 2015-2016 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -38,6 +39,7 @@ import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
+import android.mokee.utils.MoKeeUtils;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -49,6 +51,7 @@ import android.transition.Fade;
 import android.transition.Transition;
 import android.transition.TransitionManager;
 import android.transition.TransitionSet;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -176,6 +179,8 @@ public abstract class AlarmClockFragment extends DeskClockFragment implements
         }
     }
 
+    private boolean isSupportLanguage;
+
     public AlarmClockFragment() {
         // Basic provider required by Fragment.java
     }
@@ -191,6 +196,8 @@ public abstract class AlarmClockFragment extends DeskClockFragment implements
             Bundle savedState) {
         // Inflate the layout for this fragment
         final View v = inflater.inflate(R.layout.alarm_clock, container, false);
+
+        isSupportLanguage = MoKeeUtils.isSupportLanguage(true);
 
         long expandedId = INVALID_ID;
         long[] repeatCheckedIds = null;
@@ -574,6 +581,7 @@ public abstract class AlarmClockFragment extends DeskClockFragment implements
             CompoundButton[] dayButtons = new CompoundButton[7];
             CheckBox vibrate;
             TextView ringtone;
+            CheckBox workday;
             View hairLine;
             View arrow;
             View collapseExpandArea;
@@ -714,6 +722,7 @@ public abstract class AlarmClockFragment extends DeskClockFragment implements
             }
             holder.vibrate = (CheckBox) view.findViewById(R.id.vibrate_onoff);
             holder.ringtone = (TextView) view.findViewById(R.id.choose_ringtone);
+            holder.workday = (CheckBox) view.findViewById(R.id.workday_onoff);
 
             view.setTag(holder);
             return holder;
@@ -792,7 +801,7 @@ public abstract class AlarmClockFragment extends DeskClockFragment implements
                 final String labelText = Alarm.isTomorrow(alarm) ?
                         resources.getString(R.string.alarm_tomorrow) :
                         resources.getString(R.string.alarm_today);
-                itemHolder.tomorrowLabel.setText(labelText);
+                itemHolder.tomorrowLabel.setText(alarm.workday ? getString(R.string.alarm_workday) : labelText);
             }
             itemHolder.onoff.setOnCheckedChangeListener(onOffListener);
 
@@ -825,8 +834,8 @@ public abstract class AlarmClockFragment extends DeskClockFragment implements
             final String daysOfWeekStr =
                     alarm.daysOfWeek.toString(context, Utils.getFirstDayOfWeek(context));
             if (daysOfWeekStr != null && daysOfWeekStr.length() != 0) {
-                itemHolder.daysOfWeek.setText(daysOfWeekStr);
-                itemHolder.daysOfWeek.setContentDescription(alarm.daysOfWeek.toAccessibilityString(
+                itemHolder.daysOfWeek.setText(alarm.workday ? getString(R.string.alarm_workday) : daysOfWeekStr);
+                itemHolder.daysOfWeek.setContentDescription(alarm.workday ? getString(R.string.alarm_workday) : alarm.daysOfWeek.toAccessibilityString(
                         context, Utils.getFirstDayOfWeek(context)));
                 itemHolder.daysOfWeek.setVisibility(View.VISIBLE);
                 itemHolder.daysOfWeek.setOnClickListener(new View.OnClickListener() {
@@ -917,13 +926,57 @@ public abstract class AlarmClockFragment extends DeskClockFragment implements
                 }
             });
 
+            // Don't display workday option in other language.
+            Context calendarContext = null;
+            boolean hasHolidayData = false;
+            boolean hasWorkdayData = false;
+            try {
+                calendarContext = mContext.createPackageContext("com.android.calendar", Context.CONTEXT_IGNORE_SECURITY);
+                SharedPreferences holidayPrefs = calendarContext.getSharedPreferences("chinese_holiday", Context.MODE_WORLD_READABLE);
+                SharedPreferences workdayPrefs = calendarContext.getSharedPreferences("chinese_workday", Context.MODE_WORLD_READABLE);
+                Calendar cal = Calendar.getInstance();
+                int year = cal.get(Calendar.YEAR);
+                hasHolidayData = holidayPrefs.getBoolean("has" + year, false);
+                hasWorkdayData = workdayPrefs.getBoolean("has" + year, false);
+            } catch (Exception e) {
+                Log.e(AlarmClockFragment.class.getName(), "Create calendar context failed.");
+            }
+
+            if (!isSupportLanguage || !hasHolidayData || !hasWorkdayData) {
+                itemHolder.workday.setVisibility(View.GONE);
+            } else {
+                itemHolder.workday.setChecked(alarm.workday);
+                if (alarm.workday) {
+                    itemHolder.repeat.setVisibility(View.GONE);
+                }
+            }
+
             if (mRepeatChecked.contains(alarm.id) || itemHolder.alarm.daysOfWeek.isRepeating()) {
                 itemHolder.repeat.setChecked(true);
-                itemHolder.repeatDays.setVisibility(View.VISIBLE);
+                itemHolder.repeatDays.setVisibility(isSupportLanguage ? !alarm.workday ? View.VISIBLE : View.GONE : View.VISIBLE);
             } else {
                 itemHolder.repeat.setChecked(false);
                 itemHolder.repeatDays.setVisibility(View.GONE);
             }
+            itemHolder.workday.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    final boolean checked = ((CheckBox) view).isChecked();
+                    if (checked) {
+                        // Hide days
+                        itemHolder.repeat.setVisibility(View.GONE);
+                        itemHolder.repeatDays.setVisibility(View.GONE);
+                    } else {
+                        // Show days
+                        itemHolder.repeat.setVisibility(View.VISIBLE);
+                        if (itemHolder.repeat.isChecked()) {
+                            itemHolder.repeatDays.setVisibility(View.VISIBLE);
+                        }
+                    }
+                    alarm.workday = checked;
+                    asyncUpdateAlarm(alarm, false);
+                }
+            });
             itemHolder.repeat.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -933,7 +986,7 @@ public abstract class AlarmClockFragment extends DeskClockFragment implements
                     }
 
                     final Calendar now = Calendar.getInstance();
-                    final Calendar oldNextAlarmTime = alarm.getNextAlarmTime(now);
+                    final Calendar oldNextAlarmTime = alarm.getNextAlarmTime(now, mContext);
 
                     final boolean checked = ((CheckBox) view).isChecked();
                     if (checked) {
@@ -964,7 +1017,7 @@ public abstract class AlarmClockFragment extends DeskClockFragment implements
                     }
 
                     // if the change altered the next scheduled alarm time, tell the user
-                    final Calendar newNextAlarmTime = alarm.getNextAlarmTime(now);
+                    final Calendar newNextAlarmTime = alarm.getNextAlarmTime(now, mContext);
                     final boolean popupToast = !oldNextAlarmTime.equals(newNextAlarmTime);
 
                     asyncUpdateAlarm(alarm, popupToast);
@@ -982,7 +1035,7 @@ public abstract class AlarmClockFragment extends DeskClockFragment implements
                                 itemHolder.dayButtons[buttonIndex].isActivated();
 
                         final Calendar now = Calendar.getInstance();
-                        final Calendar oldNextAlarmTime = alarm.getNextAlarmTime(now);
+                        final Calendar oldNextAlarmTime = alarm.getNextAlarmTime(now, mContext);
                         alarm.daysOfWeek.setDaysOfWeek(!isActivated, mDayOrder[buttonIndex]);
 
                         if (!isActivated) {
@@ -1009,7 +1062,7 @@ public abstract class AlarmClockFragment extends DeskClockFragment implements
                         }
 
                         // if the change altered the next scheduled alarm time, tell the user
-                        final Calendar newNextAlarmTime = alarm.getNextAlarmTime(now);
+                        final Calendar newNextAlarmTime = alarm.getNextAlarmTime(now, mContext);
                         final boolean popupToast = !oldNextAlarmTime.equals(newNextAlarmTime);
 
                         asyncUpdateAlarm(alarm, popupToast);
@@ -1425,7 +1478,7 @@ public abstract class AlarmClockFragment extends DeskClockFragment implements
 
     private static AlarmInstance setupAlarmInstance(Context context, Alarm alarm) {
         ContentResolver cr = context.getContentResolver();
-        AlarmInstance newInstance = alarm.createInstanceAfter(Calendar.getInstance());
+        AlarmInstance newInstance = alarm.createInstanceAfter(Calendar.getInstance(), context);
         newInstance = AlarmInstance.addInstance(cr, newInstance);
         // Register instance to state manager
         AlarmStateManager.registerInstance(context, newInstance, true);

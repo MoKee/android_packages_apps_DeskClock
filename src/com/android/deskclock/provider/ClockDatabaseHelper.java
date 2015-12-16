@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2013 The Android Open Source Project
+ * Copyright (C) 2015-2016 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -27,6 +28,8 @@ import android.net.Uri;
 import android.text.TextUtils;
 
 import com.android.deskclock.LogUtils;
+
+import mokee.alarmclock.ClockContract;
 import mokee.app.ProfileManager;
 
 import java.util.Calendar;
@@ -65,13 +68,18 @@ class ClockDatabaseHelper extends SQLiteOpenHelper {
      */
     private static final int VERSION_9 = 11;
 
+    /**
+     * Added change workday
+     */
+    private static final int VERSION_10 = 12;
+
     // This creates a default alarm at 8:30 for every Mon,Tue,Wed,Thu,Fri
     private static final String DEFAULT_ALARM_1 = "(8, 30, 31, 0, 0, '', NULL, 0, 0, '" +
-            ProfileManager.NO_PROFILE.toString() + "');";
+            ProfileManager.NO_PROFILE.toString() + "', 0);";
 
     // This creates a default alarm at 9:30 for every Sat,Sun
     private static final String DEFAULT_ALARM_2 = "(9, 00, 96, 0, 0, '', NULL, 0, 0, '" +
-            ProfileManager.NO_PROFILE.toString() + "');";
+            ProfileManager.NO_PROFILE.toString() + "', 0);";
 
     // Database and table names
     static final String DATABASE_NAME = "alarms.db";
@@ -93,7 +101,8 @@ class ClockDatabaseHelper extends SQLiteOpenHelper {
                 ClockContract.AlarmsColumns.DELETE_AFTER_USE + " INTEGER NOT NULL DEFAULT 0, " +
                 ClockContract.AlarmsColumns.INCREASING_VOLUME + " INTEGER NOT NULL DEFAULT 0, " +
                 ClockContract.AlarmsColumns.PROFILE + " TEXT NOT NULL DEFAULT '" +
-                    ProfileManager.NO_PROFILE.toString() + "');");
+                    ProfileManager.NO_PROFILE.toString() + "', " +
+                ClockContract.AlarmsColumns.WORKDAY + " INTEGER NOT NULL);");
         LogUtils.i("Alarms Table created");
     }
 
@@ -130,7 +139,7 @@ class ClockDatabaseHelper extends SQLiteOpenHelper {
     private Context mContext;
 
     public ClockDatabaseHelper(Context context) {
-        super(context, DATABASE_NAME, null, VERSION_9);
+        super(context, DATABASE_NAME, null, VERSION_10);
         mContext = context;
     }
 
@@ -153,7 +162,8 @@ class ClockDatabaseHelper extends SQLiteOpenHelper {
                 ClockContract.AlarmsColumns.RINGTONE + cs +
                 ClockContract.AlarmsColumns.DELETE_AFTER_USE + cs +
                 ClockContract.AlarmsColumns.INCREASING_VOLUME + cs +
-                ClockContract.AlarmsColumns.PROFILE + ") VALUES ";
+                ClockContract.AlarmsColumns.PROFILE + cs +
+                ClockContract.AlarmsColumns.WORKDAY + ") VALUES ";
         db.execSQL(insertMe + DEFAULT_ALARM_1);
         db.execSQL(insertMe + DEFAULT_ALARM_2);
     }
@@ -184,7 +194,8 @@ class ClockDatabaseHelper extends SQLiteOpenHelper {
                     "message",
                     "alert",
                     "incvol",
-                    "profile"
+                    "profile",
+                    "workday"
             };
             Cursor cursor = db.query(OLD_ALARMS_TABLE_NAME, OLD_TABLE_COLUMNS,
                     null, null, null, null, null);
@@ -218,10 +229,16 @@ class ClockDatabaseHelper extends SQLiteOpenHelper {
                     }
                 }
 
+                if (cursor.isNull(10)) {
+                    alarm.workday = false;
+                } else {
+                    alarm.workday = cursor.getInt(10) == 1;
+                }
+
                 // Save new version of alarm and create alarminstance for it
                 db.insert(ALARMS_TABLE_NAME, null, Alarm.createContentValues(alarm));
                 if (alarm.enabled) {
-                    AlarmInstance newInstance = alarm.createInstanceAfter(currentTime);
+                    AlarmInstance newInstance = alarm.createInstanceAfter(currentTime, mContext);
                     db.insert(INSTANCES_TABLE_NAME, null,
                             AlarmInstance.createContentValues(newInstance));
                 }
@@ -249,6 +266,12 @@ class ClockDatabaseHelper extends SQLiteOpenHelper {
                 db.execSQL("ALTER TABLE " + INSTANCES_TABLE_NAME
                         + " ADD COLUMN " + ClockContract.InstancesColumns.PROFILE
                         + " TEXT NOT NULL DEFAULT '" + ProfileManager.NO_PROFILE + "';");
+            }
+
+            if (oldVersion < VERSION_10) {
+                db.execSQL("ALTER TABLE " + ALARMS_TABLE_NAME
+                        + " ADD COLUMN " + ClockContract.AlarmsColumns.WORKDAY
+                        + " INTEGER NOT NULL DEFAULT 0;");
             }
         }
     }

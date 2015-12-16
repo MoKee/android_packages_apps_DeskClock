@@ -95,6 +95,12 @@ public final class ClockContract {
          * <P>Type: STRING</P>
          */
         public static final String PROFILE = "profile";
+
+        /**
+         * True if alarm in workday
+         * <p>Type: BOOLEAN</p>
+         */
+        public static final String WORKDAY = "workday";
     }
 
     /**

@@ -311,7 +311,7 @@ public class HandleApiCalls extends Activity {
 
         final ContentResolver cr = getContentResolver();
         alarm = Alarm.addAlarm(cr, alarm);
-        final AlarmInstance alarmInstance = alarm.createInstanceAfter(Calendar.getInstance());
+        final AlarmInstance alarmInstance = alarm.createInstanceAfter(Calendar.getInstance(), this);
         setupInstance(alarmInstance, skipUi);
         final String time = DateFormat.getTimeFormat(mAppContext).format(
                 alarmInstance.getAlarmTime().getTime());
