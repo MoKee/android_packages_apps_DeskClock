@@ -18,6 +18,7 @@ package com.android.deskclock;
 
 import android.Manifest;
 import android.annotation.TargetApi;
+import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -32,6 +33,9 @@ import android.support.annotation.VisibleForTesting;
 import android.text.format.DateFormat;
 import android.text.format.DateUtils;
 import android.widget.Toast;
+import mokee.support.widget.snackbar.Snackbar;
+import mokee.support.widget.snackbar.Snackbar.SnackbarDuration;
+import mokee.support.widget.snackbar.SnackbarManager;
 
 import com.android.deskclock.provider.Alarm;
 import com.android.deskclock.provider.AlarmInstance;
@@ -188,11 +192,9 @@ public class AlarmUtils {
         return String.format(formats[index], daySeq, hourSeq, minSeq);
     }
 
-    public static void popAlarmSetToast(Context context, long alarmTime) {
+    public static void popAlarmSetToast(Activity activity, long alarmTime) {
         final long alarmTimeDelta = alarmTime - System.currentTimeMillis();
-        final String text = formatElapsedTimeUntilAlarm(context, alarmTimeDelta);
-        Toast toast = Toast.makeText(context, text, Toast.LENGTH_LONG);
-        ToastMaster.setToast(toast);
-        toast.show();
+        final String text = formatElapsedTimeUntilAlarm(activity, alarmTimeDelta);
+        SnackbarManager.show(Snackbar.with(activity).text(text).duration(SnackbarDuration.LENGTH_LONG));
     }
 }

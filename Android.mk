@@ -3,6 +3,7 @@ include $(CLEAR_VARS)
 
 LOCAL_RESOURCE_DIR := packages/apps/DeskClock/res
 LOCAL_RESOURCE_DIR += frameworks/opt/datetimepicker/res
+LOCAL_RESOURCE_DIR += frameworks/support/mk/widget/res
 
 ifeq ($(TARGET_BUILD_APPS),)
 LOCAL_RESOURCE_DIR += frameworks/support/v7/appcompat/res
@@ -27,11 +28,13 @@ LOCAL_STATIC_JAVA_LIBRARIES += android-support-v13
 LOCAL_STATIC_JAVA_LIBRARIES += android-support-v7-appcompat
 LOCAL_STATIC_JAVA_LIBRARIES += android-support-v7-gridlayout
 LOCAL_STATIC_JAVA_LIBRARIES += org.mokee.platform.sdk
+LOCAL_STATIC_JAVA_LIBRARIES += mokee-support-widget
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay
 LOCAL_AAPT_FLAGS += --extra-packages android.support.v7.appcompat
 LOCAL_AAPT_FLAGS += --extra-packages android.support.v7.gridlayout
 LOCAL_AAPT_FLAGS += --extra-packages com.android.datetimepicker
+LOCAL_AAPT_FLAGS += --extra-packages mokee.support.widget
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 

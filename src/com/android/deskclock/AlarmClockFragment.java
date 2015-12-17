@@ -69,7 +69,9 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
+import mokee.support.widget.snackbar.Snackbar;
+import mokee.support.widget.snackbar.Snackbar.SnackbarDuration;
+import mokee.support.widget.snackbar.SnackbarManager;
 
 import com.android.deskclock.alarms.AlarmStateManager;
 import com.android.deskclock.events.Events;
@@ -379,7 +381,6 @@ public abstract class AlarmClockFragment extends DeskClockFragment implements
     @Override
     public void onDestroy() {
         super.onDestroy();
-        ToastMaster.cancelToast();
     }
 
     @Override
@@ -446,11 +447,7 @@ public abstract class AlarmClockFragment extends DeskClockFragment implements
         } else {
             // Trying to display a deleted alarm should only happen from a missed notification for
             // an alarm that has been marked deleted after use.
-            Context context = getActivity().getApplicationContext();
-            Toast toast = Toast.makeText(context, R.string.missed_alarm_has_been_deleted,
-                    Toast.LENGTH_LONG);
-            ToastMaster.setToast(toast);
-            toast.show();
+            SnackbarManager.show(Snackbar.with(getActivity()).text(R.string.missed_alarm_has_been_deleted).duration(SnackbarDuration.LENGTH_LONG));
         }
     }
 
@@ -1543,7 +1540,7 @@ public abstract class AlarmClockFragment extends DeskClockFragment implements
             @Override
             protected void onPostExecute(AlarmInstance instance) {
                 if (instance != null) {
-                    AlarmUtils.popAlarmSetToast(context, instance.getAlarmTime().getTimeInMillis());
+                    AlarmUtils.popAlarmSetToast(getActivity(), instance.getAlarmTime().getTimeInMillis());
                 }
             }
         };
@@ -1574,7 +1571,7 @@ public abstract class AlarmClockFragment extends DeskClockFragment implements
             @Override
             protected void onPostExecute(AlarmInstance instance) {
                 if (popToast && instance != null) {
-                    AlarmUtils.popAlarmSetToast(context, instance.getAlarmTime().getTimeInMillis());
+                    AlarmUtils.popAlarmSetToast(getActivity(), instance.getAlarmTime().getTimeInMillis());
                 }
             }
         };
