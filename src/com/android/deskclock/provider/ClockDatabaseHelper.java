@@ -31,6 +31,7 @@ import com.android.deskclock.LogUtils;
 
 import mokee.alarmclock.ClockContract;
 import mokee.app.ProfileManager;
+import mokee.alarmclock.ClockContract;
 
 import java.util.Calendar;
 import java.util.UUID;
