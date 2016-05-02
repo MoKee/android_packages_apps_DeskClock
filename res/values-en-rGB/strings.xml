@@ -33,6 +33,7 @@
     <string name="alarm_vibrate" msgid="3476686921490362230">"Vibrate"</string>
     <string name="alarm_repeat" msgid="7242985466344233206">"Repeat"</string>
     <string name="alert" msgid="6506982899651975645">"Alarm Ringtone"</string>
+    <string name="custom_ringtone" msgid="3477418548382111184">"Customised Ringtone"</string>
     <string name="ringtone" msgid="9110746249688559579">"Ring tone"</string>
     <string name="time" msgid="8067216534232296518">"Time"</string>
     <string name="alarm_tomorrow" msgid="131356848787643420">"Tomorrow"</string>
@@ -332,6 +333,7 @@
     <string name="swn_stopped" msgid="783124901663086172">"Stopped"</string>
     <string name="description_direction_right" msgid="5709209043267548985">"Swipe right to dismiss"</string>
     <string name="description_direction_left" msgid="7448141043674998679">"Swipe left to snooze"</string>
+    <string name="description_direction_both" msgid="1841309486023845685">"Swipe left to snooze or right to dismiss"</string>
     <string name="timer_stopped" msgid="2730331837832462008">"Timer stopped"</string>
     <string name="timers_stopped" msgid="2393640808691864520">"<xliff:g id="NUMBER">%d</xliff:g> timers stopped"</string>
     <string name="all_timers_stopped_notif" msgid="278532320068394600">"Touch to see your timers"</string>
@@ -343,11 +345,10 @@
     <string name="expand_alarm" msgid="7392616528943305020">"Expand alarm"</string>
     <string name="collapse_alarm" msgid="3561772046433483980">"Collapse alarm"</string>
     <string name="alarm_undo" msgid="5710042601177655254">"Undo"</string>
-    <string name="alarm_deleted" msgid="5017075127290219443">"Alarm deleted."</string>
+    <string name="alarm_deleted" msgid="6131529309389084785">"Alarm deleted"</string>
     <string name="slash" msgid="2077577763821006919">"/"</string>
     <string name="world_day_of_week_label" msgid="5911196322328341288">"/ <xliff:g id="LABEL">%s</xliff:g>"</string>
     <string name="next_alarm_description" msgid="2650244835760747046">"Next alarm: <xliff:g id="ALARM_TIME">%s</xliff:g>"</string>
-    <string name="label_unlabeled" msgid="4699506713571930740"></string>
     <string name="alarms_selected" msgid="1075308195332888260">"<xliff:g id="ALARMS">%d</xliff:g> selected"</string>
     <string name="deleted_message" msgid="1220848140260509437">"Deleted"</string>
     <plurals name="alarm_delete_confirmation" formatted="false" msgid="3591262014329613293">
@@ -364,4 +365,39 @@
     <string name="time_format_24_mode" msgid="7998512313148074539">"k:mm"</string>
     <string name="weekday_time_format_12_mode" msgid="8648842975829470646">"EEE, h.mm a"</string>
     <string name="weekday_time_format_24_mode" msgid="152964494051478631">"EEE, k:mm"</string>
+    <string name="invalid_time" msgid="2782334750243998633">"Invalid time <xliff:g id="INVALID_HOUR">%d</xliff:g>:<xliff:g id="INVALID_MINUTES">%d</xliff:g> <xliff:g id="INVALID_AMPM">%s</xliff:g>"</string>
+    <string name="no_alarm_at" msgid="8140632482969193119">"No alarm at <xliff:g id="ALARM_TIME_HOUR">%d</xliff:g>:<xliff:g id="ALARM_TIME_MINUTES">%d</xliff:g>"</string>
+    <string name="no_scheduled_alarms" msgid="2115420148192753534">"No scheduled alarms"</string>
+    <string name="no_label_specified" msgid="2008482054428460626">"No label specified"</string>
+    <string name="no_alarms_with_label" msgid="6250998794542941665">"No alarms contain the label"</string>
+    <string name="stopwatch_already_running" msgid="6598258908106423672">"Stopwatch is already running"</string>
+    <string name="stopwatch_isnt_running" msgid="7147219965448204727">"Stopwatch isn\'t running"</string>
+    <string name="stopwatch_cant_be_reset_because_is_running" msgid="5713134605500796186">"Stopwatch cannot be reset because it is running"</string>
+    <string name="stopwatch_stopped" msgid="6927081018816192999">"Stopwatch stopped"</string>
+    <string name="stopwatch_reset" msgid="7585914953721021042">"Stopwatch reset"</string>
+    <string name="stopwatch_lapped" msgid="5844686448815550482">"Stopwatch lapped"</string>
+    <string name="stopwatch_started" msgid="7843882246387176304">"Stopwatch started"</string>
+    <string name="no_alarm_scheduled_for_this_time" msgid="4463069177414482818">"No alarm scheduled for this time"</string>
+    <string name="alarm_is_dismissed" msgid="5509897230565826642">"<xliff:g id="ALARM_TIME">%s</xliff:g> alarm dismissed"</string>
+    <string name="alarm_is_set" msgid="5503226382620011088">"Alarm is set for <xliff:g id="ALARM_TIME">%s</xliff:g>"</string>
+    <string name="no_timer_set" msgid="3326365650863016606">"No timer set"</string>
+    <string name="timer_deleted" msgid="9110322362460029392">"Timer deleted"</string>
+    <string name="timer_already_running" msgid="1259351124772803097">"Timer already running"</string>
+    <string name="multiple_timers_available" msgid="6722110840279707462">"Unable to complete your request, multiple timers available"</string>
+    <string name="timer_started" msgid="6715582052946641641">"Timer started"</string>
+    <string name="timer_created" msgid="4381027137335885547">"Timer created"</string>
+    <string name="invalid_timer_length" msgid="3104567893212932487">"Invalid timer length"</string>
+    <string name="timer_was_reset" msgid="6495796785185062631">"Timer reset"</string>
+    <string name="timer_cant_be_reset_because_its_running" msgid="7880015473706806640">"Timer can\'t be reset because it\'s still running. Stop timer to reset."</string>
+    <string name="timer_already_stopped" msgid="8865820275829449054">"Timer already stopped"</string>
+    <string name="no_city_selected" msgid="1007596865203283741">"No city selected"</string>
+    <string name="the_city_you_specified_is_not_available" msgid="1753597460426454543">"The city you specified is not available"</string>
+    <string name="the_city_already_added" msgid="3799050213771793020">"That city has already been added"</string>
+    <string name="city_added" msgid="1335509457349179514">"<xliff:g id="CITY_NAME">%s</xliff:g> added"</string>
+    <string name="city_deleted" msgid="3935141305276867838">"<xliff:g id="CITY_NAME">%s</xliff:g> deleted"</string>
+    <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away" msgid="8810520940995307437">"<xliff:g id="ALARM_TIME">%s</xliff:g> alarm can\'t be dismissed yet, still more than 24 hours away"</string>
+    <string name="dismiss_alarm" msgid="7204593078688533541">"Dismiss alarm"</string>
+    <string name="pick_alarm_to_dismiss" msgid="5408769235866082896">"Pick which alarm to dismiss"</string>
+    <string name="no_firing_alarms" msgid="4986161963178722289">"No firing alarms"</string>
+    <string name="alarm_is_snoozed" msgid="7044644119744928846">"<xliff:g id="ALARM_TIME">%s</xliff:g> alarm snoozed for 10 minutes"</string>
 </resources>
