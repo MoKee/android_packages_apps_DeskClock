@@ -31,7 +31,7 @@ import android.os.ParcelUuid;
 
 import com.android.deskclock.R;
 import com.android.deskclock.data.DataModel;
-import cyanogenmod.app.ProfileManager;
+import mokee.app.ProfileManager;
 
 import java.util.Calendar;
 import java.util.LinkedList;

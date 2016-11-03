@@ -34,7 +34,7 @@ import com.android.deskclock.R;
 import com.android.deskclock.Utils;
 import com.android.deskclock.alarms.AlarmStateManager;
 import com.android.deskclock.settings.SettingsActivity;
-import cyanogenmod.app.ProfileManager;
+import mokee.app.ProfileManager;
 
 import java.util.Calendar;
 import java.util.LinkedList;
