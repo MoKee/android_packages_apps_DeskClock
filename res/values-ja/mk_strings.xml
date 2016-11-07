@@ -17,4 +17,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Setting labels on Set alarm screen: Workday -->
+  <string name="alarm_workday">勤務日</string>
 </resources>
