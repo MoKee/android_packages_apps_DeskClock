@@ -16,23 +16,30 @@
 
 package com.android.deskclock;
 
+import android.Manifest;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.media.AudioManager;
 import android.mokee.utils.MoKeeUtils;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.CalendarContract;
+import android.support.annotation.NonNull;
 import android.support.annotation.VisibleForTesting;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.TabLayout.Tab;
 import android.support.design.widget.TabLayout.ViewPagerOnTabSelectedListener;
 import android.support.v13.app.FragmentPagerAdapter;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.ArraySet;
@@ -43,6 +50,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.android.deskclock.actionbarmenu.ActionBarMenuManager;
 import com.android.deskclock.actionbarmenu.MenuItemControllerFactory;
@@ -66,7 +74,7 @@ import java.util.Set;
  * DeskClock clock view for desk docks.
  */
 public class DeskClock extends BaseActivity
-        implements LabelDialogFragment.AlarmLabelDialogHandler {
+        implements LabelDialogFragment.AlarmLabelDialogHandler, ActivityCompat.OnRequestPermissionsResultCallback {
 
     private static final String TAG = "DeskClock";
 
@@ -136,6 +144,43 @@ public class DeskClock extends BaseActivity
         mTabLayout.getTabAt(mSelectedTab).select();
         mViewPager.setCurrentItem(mSelectedTab);
         mTabsAdapter.notifySelectedPage(mSelectedTab);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
+            case 0:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    updateCalendarAlarmInfo();
+                } else {
+                    shouldRequestPermission();
+                }
+        }
+    }
+
+    private void shouldRequestPermission() {
+        if (MoKeeUtils.isSupportLanguage(true)) {
+            AlertDialog.Builder builder =
+                    new AlertDialog.Builder(this, R.style.AlertDialogTheme)
+                            .setCancelable(false)
+                            .setMessage(R.string.missing_read_calendar_permission_text)
+                            .setPositiveButton(R.string.update_permissions_button_text,
+                                    new DialogInterface.OnClickListener() {
+                                        @Override
+                                        public void onClick(DialogInterface dialog, int id) {
+                                            ActivityCompat.requestPermissions(DeskClock.this, new String[] { Manifest.permission.READ_CALENDAR }, 0);
+                                        }
+                                    });
+
+            if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CALENDAR)
+                    != PackageManager.PERMISSION_GRANTED) {
+                builder.create().show();
+            } else {
+                updateCalendarAlarmInfo();
+            }
+        }
+
     }
 
     @Override
@@ -213,6 +258,14 @@ public class DeskClock extends BaseActivity
         // inflation occurs *after* the initial draw and a second layout pass adds in the menu.
         onCreateOptionsMenu(toolbar.getMenu());
 
+        // We need to update the system next alarm time on app startup because the
+        // user might have clear our data.
+        AlarmStateManager.updateNextAlarm(this);
+
+        shouldRequestPermission();
+    }
+
+    private void updateCalendarAlarmInfo() {
         // Update holiday/workday info
         if (MoKeeUtils.isSupportLanguage(true)) {
             SharedPreferences holidayPrefs = getSharedPreferences("chinese_holiday", Context.MODE_PRIVATE);
@@ -228,10 +281,6 @@ public class DeskClock extends BaseActivity
                 writeInfoToPref(CalendarContract.Alarm.CONTENT_FILTER_WORKDAY_URI, workdayPrefs, year);
             }
         }
-
-        // We need to update the system next alarm time on app startup because the
-        // user might have clear our data.
-        AlarmStateManager.updateNextAlarm(this);
     }
 
     private void writeInfoToPref (Uri uri, SharedPreferences prefs, int year) {
