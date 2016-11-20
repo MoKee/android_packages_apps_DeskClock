@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2013 The Android Open Source Project
+ * Copyright (C) 2015-2016 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,6 +23,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.content.CursorLoader;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.media.RingtoneManager;
 import android.net.Uri;
@@ -31,6 +33,8 @@ import android.os.ParcelUuid;
 
 import com.android.deskclock.R;
 import com.android.deskclock.data.DataModel;
+import com.mokee.cloud.calendar.ChineseCalendarUtils;
+
 import mokee.app.ProfileManager;
 
 import java.util.Calendar;
@@ -63,7 +67,8 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
             RINGTONE,
             DELETE_AFTER_USE,
             INCREASING_VOLUME,
-            PROFILE
+            PROFILE,
+            WORKDAY
     };
 
     private static final String[] QUERY_ALARMS_WITH_INSTANCES_COLUMNS = {
@@ -78,6 +83,7 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
             ClockDatabaseHelper.ALARMS_TABLE_NAME + "." + DELETE_AFTER_USE,
             ClockDatabaseHelper.ALARMS_TABLE_NAME + "." + INCREASING_VOLUME,
             ClockDatabaseHelper.ALARMS_TABLE_NAME + "." + PROFILE,
+            ClockDatabaseHelper.ALARMS_TABLE_NAME + "." + WORKDAY,
             ClockDatabaseHelper.INSTANCES_TABLE_NAME + "."
                     + ClockContract.InstancesColumns.ALARM_STATE,
             ClockDatabaseHelper.INSTANCES_TABLE_NAME + "." + ClockContract.InstancesColumns._ID,
@@ -103,19 +109,20 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
     private static final int LABEL_INDEX = 6;
     private static final int RINGTONE_INDEX = 7;
     private static final int DELETE_AFTER_USE_INDEX = 8;
-    private static final int INCREASING_VOLUME_INDEX = 10;
-    private static final int PROFILE_INDEX = 11;
-    private static final int INSTANCE_STATE_INDEX = 9;
-    public static final int INSTANCE_ID_INDEX = 10;
-    public static final int INSTANCE_YEAR_INDEX = 11;
-    public static final int INSTANCE_MONTH_INDEX = 12;
-    public static final int INSTANCE_DAY_INDEX = 13;
-    public static final int INSTANCE_HOUR_INDEX = 14;
-    public static final int INSTANCE_MINUTE_INDEX = 15;
-    public static final int INSTANCE_LABEL_INDEX = 16;
-    public static final int INSTANCE_VIBRATE_INDEX = 17;
+    private static final int INCREASING_VOLUME_INDEX = 9;
+    private static final int PROFILE_INDEX = 10;
+    private static final int WORKDAY_INDEX = 11;
+    private static final int INSTANCE_STATE_INDEX = 12;
+    public static final int INSTANCE_ID_INDEX = 13;
+    public static final int INSTANCE_YEAR_INDEX = 14;
+    public static final int INSTANCE_MONTH_INDEX = 15;
+    public static final int INSTANCE_DAY_INDEX = 16;
+    public static final int INSTANCE_HOUR_INDEX = 17;
+    public static final int INSTANCE_MINUTE_INDEX = 18;
+    public static final int INSTANCE_LABEL_INDEX = 19;
+    public static final int INSTANCE_VIBRATE_INDEX = 20;
 
-    private static final int COLUMN_COUNT = PROFILE_INDEX + 1;
+    private static final int COLUMN_COUNT = WORKDAY_INDEX + 1;
     private static final int ALARM_JOIN_INSTANCE_COLUMN_COUNT = INSTANCE_VIBRATE_INDEX + 1;
 
     public static ContentValues createContentValues(Alarm alarm) {
@@ -139,6 +146,7 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
         } else {
             values.put(RINGTONE, alarm.alert.toString());
         }
+        values.put(WORKDAY, alarm.workday ? 1 : 0);
 
         return values;
     }
@@ -265,6 +273,7 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
     public boolean deleteAfterUse;
     public boolean increasingVolume;
     public UUID profile;
+    public boolean workday;
     public int instanceState;
     public int instanceId;
 
@@ -284,6 +293,7 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
         this.deleteAfterUse = false;
         this.increasingVolume = false;
         this.profile = ProfileManager.NO_PROFILE;
+        this.workday = false;
     }
 
     public Alarm(Cursor c) {
@@ -310,6 +320,13 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
         } else {
             alert = Uri.parse(c.getString(RINGTONE_INDEX));
         }
+
+        if (c.isNull(WORKDAY_INDEX)) {
+            workday = false;
+        } else {
+            workday = c.getInt(WORKDAY_INDEX) == 1;
+        }
+
     }
 
     Alarm(Parcel p) {
@@ -324,6 +341,7 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
         deleteAfterUse = p.readInt() == 1;
         increasingVolume = p.readInt() == 1;
         profile = ParcelUuid.CREATOR.createFromParcel(p).getUuid();
+        workday = p.readInt() == 1;
     }
 
     public Alarm(Cursor c, Uri defaultRingtoneUri) {
@@ -338,6 +356,11 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
         increasingVolume = c.getInt(INCREASING_VOLUME_INDEX) == 1;
         profile = getProfileFromCursor(c);
         alert = defaultRingtoneUri;
+        if (c.isNull(WORKDAY_INDEX)) {
+            workday = false;
+        } else {
+            workday = c.getInt(WORKDAY_INDEX) == 1;
+        }
     }
 
     private static UUID getProfileFromCursor(Cursor c) {
@@ -378,14 +401,15 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
         p.writeInt(deleteAfterUse ? 1 : 0);
         p.writeInt(increasingVolume ? 1 : 0);
         p.writeParcelable(new ParcelUuid(profile), 0);
+        p.writeInt(workday ? 1: 0);
     }
 
     public int describeContents() {
         return 0;
     }
 
-    public AlarmInstance createInstanceAfter(Calendar time) {
-        Calendar nextInstanceTime = getNextAlarmTime(time);
+    public AlarmInstance createInstanceAfter(Calendar time, Context context) {
+        Calendar nextInstanceTime = getNextAlarmTime(time, context);
         AlarmInstance result = new AlarmInstance(nextInstanceTime, id);
         result.mVibrate = vibrate;
         result.mLabel = label;
@@ -419,7 +443,7 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
         }
     }
 
-    public Calendar getNextAlarmTime(Calendar currentTime) {
+    public Calendar getNextAlarmTime(Calendar currentTime, Context context) {
         final Calendar nextInstanceTime = Calendar.getInstance();
         nextInstanceTime.set(Calendar.YEAR, currentTime.get(Calendar.YEAR));
         nextInstanceTime.set(Calendar.MONTH, currentTime.get(Calendar.MONTH));
@@ -434,10 +458,23 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
             nextInstanceTime.add(Calendar.DAY_OF_YEAR, 1);
         }
 
-        // The day of the week might be invalid, so find next valid one
-        int addDays = daysOfWeek.calculateDaysToNextAlarm(nextInstanceTime);
-        if (addDays > 0) {
-            nextInstanceTime.add(Calendar.DAY_OF_WEEK, addDays);
+        if (workday) {
+            SharedPreferences holidayPrefs = context.getSharedPreferences("chinese_holiday", Context.MODE_PRIVATE);
+            SharedPreferences workdayPrefs = context.getSharedPreferences("chinese_workday", Context.MODE_PRIVATE);
+
+            Calendar workdayInstanceTime = ChineseCalendarUtils.calculateDaysToNextAlarmWithoutHoliday(nextInstanceTime, workdayPrefs, holidayPrefs);
+            // Daylight Savings Time can alter the hours and minutes when adjusting the day above.
+            // Reset the desired hour and minute now that the correct day has been chosen.
+            workdayInstanceTime.set(Calendar.HOUR_OF_DAY, hour);
+            workdayInstanceTime.set(Calendar.MINUTE, minutes);
+
+            return workdayInstanceTime;
+        } else {
+            // The day of the week might be invalid, so find next valid one
+            int addDays = daysOfWeek.calculateDaysToNextAlarm(nextInstanceTime);
+            if (addDays > 0) {
+                nextInstanceTime.add(Calendar.DAY_OF_WEEK, addDays);
+            }
         }
 
         // Daylight Savings Time can alter the hours and minutes when adjusting the day above.
@@ -474,6 +511,7 @@ public final class Alarm implements Parcelable, ClockContract.AlarmsColumns {
                 ", deleteAfterUse=" + deleteAfterUse +
                 ", increasingVolume=" + increasingVolume +
                 ", profile=" + profile +
+                ", workday=" + workday +
                 '}';
     }
 }

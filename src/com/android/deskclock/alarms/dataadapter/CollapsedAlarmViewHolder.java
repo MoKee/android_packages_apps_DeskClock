@@ -106,7 +106,7 @@ public final class CollapsedAlarmViewHolder extends AlarmTimeViewHolder {
     private void bindRepeatText(Context context, Alarm alarm) {
         final String daysOfWeekText =
                 alarm.daysOfWeek.toString(context, Utils.getFirstDayOfWeek(context));
-        if (!TextUtils.isEmpty(daysOfWeekText)) {
+        if (!TextUtils.isEmpty(daysOfWeekText) && !alarm.workday) {
             daysOfWeek.setText(daysOfWeekText);
             daysOfWeek.setContentDescription(alarm.daysOfWeek.toAccessibilityString(
                     context, Utils.getFirstDayOfWeek(context)));
@@ -121,7 +121,7 @@ public final class CollapsedAlarmViewHolder extends AlarmTimeViewHolder {
             upcomingInstanceLabel.setVisibility(View.GONE);
         } else {
             upcomingInstanceLabel.setVisibility(View.VISIBLE);
-            final String labelText = Alarm.isTomorrow(alarm, Calendar.getInstance()) ?
+            final String labelText = alarm.workday ? context.getString(R.string.alarm_workday) : Alarm.isTomorrow(alarm, Calendar.getInstance()) ?
                     context.getString(R.string.alarm_tomorrow) :
                     context.getString(R.string.alarm_today);
             upcomingInstanceLabel.setText(labelText);

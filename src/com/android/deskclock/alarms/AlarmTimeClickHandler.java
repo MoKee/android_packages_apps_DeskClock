@@ -112,9 +112,22 @@ public final class AlarmTimeClickHandler {
         }
     }
 
+    public void setWorkdayEnabled(Alarm alarm, boolean isEnabled) {
+        alarm.workday = isEnabled;
+
+        // Remember the set days in case the user wants it back.
+        final int bitSet = alarm.daysOfWeek.getBitSet();
+        mPreviousDaysOfWeekMap.putInt(String.valueOf(alarm.id), bitSet);
+
+        // Remove all repeat days
+        alarm.daysOfWeek.clearAllDays();
+
+        mAlarmUpdateHandler.asyncUpdateAlarm(alarm, false, true);
+    }
+
     public void setAlarmRepeatEnabled(Alarm alarm, boolean isEnabled) {
         final Calendar now = Calendar.getInstance();
-        final Calendar oldNextAlarmTime = alarm.getNextAlarmTime(now);
+        final Calendar oldNextAlarmTime = alarm.getNextAlarmTime(now, mFragment.getContext());
         final String alarmId = String.valueOf(alarm.id);
         if (isEnabled) {
             // Set all previously set days
@@ -135,7 +148,7 @@ public final class AlarmTimeClickHandler {
         }
 
         // if the change altered the next scheduled alarm time, tell the user
-        final Calendar newNextAlarmTime = alarm.getNextAlarmTime(now);
+        final Calendar newNextAlarmTime = alarm.getNextAlarmTime(now, mFragment.getContext());
         final boolean popupToast = !oldNextAlarmTime.equals(newNextAlarmTime);
 
         mAlarmUpdateHandler.asyncUpdateAlarm(alarm, popupToast, false);
@@ -143,10 +156,10 @@ public final class AlarmTimeClickHandler {
 
     public void setDayOfWeekEnabled(Alarm alarm, boolean checked, int index) {
         final Calendar now = Calendar.getInstance();
-        final Calendar oldNextAlarmTime = alarm.getNextAlarmTime(now);
+        final Calendar oldNextAlarmTime = alarm.getNextAlarmTime(now, mFragment.getContext());
         alarm.daysOfWeek.setDaysOfWeek(checked, mDayOrder[index]);
         // if the change altered the next scheduled alarm time, tell the user
-        final Calendar newNextAlarmTime = alarm.getNextAlarmTime(now);
+        final Calendar newNextAlarmTime = alarm.getNextAlarmTime(now, mFragment.getContext());
         final boolean popupToast = !oldNextAlarmTime.equals(newNextAlarmTime);
         mAlarmUpdateHandler.asyncUpdateAlarm(alarm, popupToast, false);
     }

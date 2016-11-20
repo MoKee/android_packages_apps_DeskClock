@@ -215,7 +215,7 @@ public final class AlarmUpdateHandler {
 
     private AlarmInstance setupAlarmInstance(Alarm alarm) {
         final ContentResolver cr = mAppContext.getContentResolver();
-        AlarmInstance newInstance = alarm.createInstanceAfter(Calendar.getInstance());
+        AlarmInstance newInstance = alarm.createInstanceAfter(Calendar.getInstance(), mAppContext);
         newInstance = AlarmInstance.addInstance(cr, newInstance);
         // Register instance to state manager
         AlarmStateManager.registerInstance(mAppContext, newInstance, true);

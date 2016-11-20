@@ -37,6 +37,16 @@
             android:orientation="vertical">
 
             <CheckBox
+                android:id="@+id/workday_onoff"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/touch_target_min_size"
+                android:layout_gravity="center_vertical|start"
+                android:paddingStart="@dimen/alarm_side_padding"
+                android:text="@string/alarm_workday"
+                android:textColor="@color/clock_white"
+                android:textSize="@dimen/alarm_text_font_size" />
+
+            <CheckBox
                 android:id="@+id/repeat_onoff"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/touch_target_min_size"

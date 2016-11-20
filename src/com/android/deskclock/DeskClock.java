@@ -20,8 +20,13 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.database.Cursor;
 import android.media.AudioManager;
+import android.mokee.utils.MoKeeUtils;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.CalendarContract;
 import android.support.annotation.VisibleForTesting;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.TabLayout.Tab;
@@ -53,6 +58,7 @@ import com.android.deskclock.timer.TimerFragment;
 import com.android.deskclock.widget.RtlViewPager;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 import java.util.Set;
 
@@ -207,9 +213,47 @@ public class DeskClock extends BaseActivity
         // inflation occurs *after* the initial draw and a second layout pass adds in the menu.
         onCreateOptionsMenu(toolbar.getMenu());
 
+        // Update holiday/workday info
+        if (MoKeeUtils.isSupportLanguage(true)) {
+            SharedPreferences holidayPrefs = getSharedPreferences("chinese_holiday", Context.MODE_PRIVATE);
+            SharedPreferences workdayPrefs = getSharedPreferences("chinese_workday", Context.MODE_PRIVATE);
+            Calendar cal = Calendar.getInstance();
+            int year = cal.get(Calendar.YEAR);
+            boolean hasHolidayData = holidayPrefs.getBoolean("has" + year, false);
+            boolean hasWorkdayData = workdayPrefs.getBoolean("has" + year, false);
+            if (!hasHolidayData) {
+                writeInfoToPref(CalendarContract.Alarm.CONTENT_FILTER_HOLIDAY_URI, holidayPrefs, year);
+            }
+            if (!hasWorkdayData) {
+                writeInfoToPref(CalendarContract.Alarm.CONTENT_FILTER_WORKDAY_URI, workdayPrefs, year);
+            }
+        }
+
         // We need to update the system next alarm time on app startup because the
         // user might have clear our data.
         AlarmStateManager.updateNextAlarm(this);
+    }
+
+    private void writeInfoToPref (Uri uri, SharedPreferences prefs, int year) {
+        Uri.Builder builder = uri.buildUpon();
+        Cursor cursor = null;
+        try {
+            cursor = getContentResolver().query(builder.build(),
+                    new String[] { CalendarContract.Alarm.DATE, CalendarContract.Alarm.STATE }, null, null, null);
+            int dateColumnIndex = cursor.getColumnIndexOrThrow(CalendarContract.Alarm.DATE);
+            int stateColumnIndex = cursor.getColumnIndexOrThrow(CalendarContract.Alarm.STATE);
+            cursor.moveToPosition(-1);
+            while (cursor.moveToNext()) {
+                prefs.edit().putBoolean(cursor.getString(dateColumnIndex), cursor.getInt(stateColumnIndex) == 1).apply();
+            }
+            if (cursor.getCount() != 0) {
+                prefs.edit().putBoolean("has" + year, true).apply();
+            }
+        } finally {
+            if (cursor != null) {
+                cursor.close();
+            }
+        }
     }
 
     @Override

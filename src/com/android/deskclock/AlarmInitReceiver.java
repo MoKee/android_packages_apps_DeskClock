@@ -136,7 +136,7 @@ public class AlarmInitReceiver extends BroadcastReceiver {
                 a.minutes = c.get(Calendar.MINUTE);
                 a.enabled = true;
                 Alarm newAlarm = Alarm.addAlarm(cr, a);
-                instance = newAlarm.createInstanceAfter(Calendar.getInstance());
+                instance = newAlarm.createInstanceAfter(Calendar.getInstance(), context);
                 instance = AlarmInstance.addInstance(cr, instance);
             }
 
