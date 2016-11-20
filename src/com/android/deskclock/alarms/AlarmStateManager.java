@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2013 The Android Open Source Project
+ * Copyright (C) 2015-2016 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -304,13 +305,14 @@ public final class AlarmStateManager extends BroadcastReceiver {
                 LogUtils.i("Deleting parent alarm: " + alarm.id);
                 Alarm.deleteAlarm(cr, alarm.id);
             } else {
+                if (alarm.workday) return;
                 LogUtils.i("Disabling parent alarm: " + alarm.id);
                 alarm.enabled = false;
                 Alarm.updateAlarm(cr, alarm);
             }
         } else {
             // Schedule the next repeating instance after the current time
-            AlarmInstance nextRepeatedInstance = alarm.createInstanceAfter(getCurrentTime());
+            AlarmInstance nextRepeatedInstance = alarm.createInstanceAfter(getCurrentTime(), context);
             LogUtils.i("Creating new instance for repeating alarm " + alarm.id + " at " +
                     AlarmUtils.getFormattedTime(context, nextRepeatedInstance.getAlarmTime()));
             AlarmInstance.addInstance(cr, nextRepeatedInstance);
@@ -855,7 +857,7 @@ public final class AlarmStateManager extends BroadcastReceiver {
             final Calendar missedTTLTime = instance.getMissedTimeToLive();
             if (currentTime.before(priorAlarmTime) || currentTime.after(missedTTLTime)) {
                 final Calendar oldAlarmTime = instance.getAlarmTime();
-                final Calendar newAlarmTime = alarm.getNextAlarmTime(currentTime);
+                final Calendar newAlarmTime = alarm.getNextAlarmTime(currentTime, context);
                 final CharSequence oldTime = DateFormat.format("MM/dd/yyyy hh:mm a", oldAlarmTime);
                 final CharSequence newTime = DateFormat.format("MM/dd/yyyy hh:mm a", newAlarmTime);
                 LogUtils.i("A time change has caused an existing alarm scheduled to fire at %s to" +

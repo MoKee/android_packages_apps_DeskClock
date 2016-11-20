@@ -42,6 +42,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.android.deskclock.worldclock.permissions.WRITE_DATABASE" />
     <uses-permission android:name="org.codeaurora.permission.POWER_ON_ALERT" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
 
     <application android:label="@string/app_label"
                  android:name=".DeskClockApplication"

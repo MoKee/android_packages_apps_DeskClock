@@ -17,10 +17,13 @@
 package com.android.deskclock.alarms.dataadapter;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.LayerDrawable;
+import android.mokee.utils.MoKeeUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -38,6 +41,7 @@ import com.android.deskclock.provider.Alarm;
 import com.android.deskclock.provider.AlarmInstance;
 import com.android.deskclock.provider.DaysOfWeek;
 
+import java.util.Calendar;
 import java.util.HashSet;
 
 /**
@@ -54,6 +58,7 @@ public final class ExpandedAlarmViewHolder extends AlarmTimeViewHolder {
     public final Button delete;
     public final View preemptiveDismissContainer;
     public final TextView preemptiveDismissButton;
+    public final CheckBox workday;
 
     private final boolean mHasVibrator;
     private final int[] mDayOrder;
@@ -82,6 +87,7 @@ public final class ExpandedAlarmViewHolder extends AlarmTimeViewHolder {
 
         repeat = (CheckBox) itemView.findViewById(R.id.repeat_onoff);
         vibrate = (CheckBox) itemView.findViewById(R.id.vibrate_onoff);
+        workday = (CheckBox) itemView.findViewById(R.id.workday_onoff);
         ringtone = (TextView) itemView.findViewById(R.id.choose_ringtone);
         editLabel = (TextView) itemView.findViewById(R.id.edit_label);
         repeatDays = (LinearLayout) itemView.findViewById(R.id.repeat_days);
@@ -135,6 +141,25 @@ public final class ExpandedAlarmViewHolder extends AlarmTimeViewHolder {
                 alarmTimeClickHandler.setAlarmVibrationEnabled(mAlarm, ((CheckBox) v).isChecked());
             }
         });
+        // Workday checkbox handler
+        workday.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final boolean checked = ((CheckBox) view).isChecked();
+                if (checked) {
+                    // Hide days
+                    repeat.setVisibility(View.GONE);
+                    repeatDays.setVisibility(View.GONE);
+                } else {
+                    // Show days
+                    repeat.setVisibility(View.VISIBLE);
+                    if (repeat.isChecked()) {
+                        repeatDays.setVisibility(View.VISIBLE);
+                    }
+                }
+                alarmTimeClickHandler.setWorkdayEnabled(mAlarm, checked);
+            }
+        });
         // Ringtone editor handler
         ringtone.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -181,6 +206,7 @@ public final class ExpandedAlarmViewHolder extends AlarmTimeViewHolder {
         bindVibrator(alarm);
         bindRingtoneTitle(context, alarm);
         bindPreemptiveDismissButton(context, alarm, alarmInstance);
+        bindWorkday(alarm);
     }
 
     private void bindRingtoneTitle(Context context, Alarm alarm) {
@@ -211,6 +237,23 @@ public final class ExpandedAlarmViewHolder extends AlarmTimeViewHolder {
             repeat.setChecked(false);
             repeatDays.setVisibility(View.GONE);
         }
+        repeat.setVisibility(alarm.workday ? repeat.GONE : repeat.VISIBLE);
+    }
+
+    private void bindWorkday(Alarm alarm) {
+        // Don't display workday option in other language.
+        SharedPreferences holidayPrefs = itemView.getContext().getSharedPreferences("chinese_holiday", Context.MODE_PRIVATE);
+        SharedPreferences workdayPrefs = itemView.getContext().getSharedPreferences("chinese_workday", Context.MODE_PRIVATE);
+        Calendar cal = Calendar.getInstance();
+        int year = cal.get(Calendar.YEAR);
+        boolean hasHolidayData = holidayPrefs.getBoolean("has" + year, false);
+        boolean hasWorkdayData = workdayPrefs.getBoolean("has" + year, false);
+
+        if (!MoKeeUtils.isSupportLanguage(true) || !hasHolidayData || !hasWorkdayData) {
+            workday.setVisibility(View.GONE);
+        } else {
+            workday.setChecked(alarm.workday);
+        }
     }
 
     private void bindEditLabel(Alarm alarm) {
@@ -229,4 +272,5 @@ public final class ExpandedAlarmViewHolder extends AlarmTimeViewHolder {
             vibrate.setChecked(alarm.vibrate);
         }
     }
+
 }
