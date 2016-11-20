@@ -18,5 +18,7 @@
 
     <!-- Setting labels on Set alarm screen: Workday -->
     <string name="alarm_workday">Workday</string>
+    <string name="update_permissions_button_text">UPDATE PERMISSIONS</string>
+    <string name="missing_read_calendar_permission_text">DeskClock requires permission to read calendar data.</string>
 
 </resources>
