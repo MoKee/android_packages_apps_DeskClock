@@ -19,5 +19,5 @@
   <!-- Setting labels on Set alarm screen: Workday -->
   <string name="alarm_workday">法定工作日</string>
   <string name="update_permissions_button_text">更新权限</string>
-  <string name="missing_read_calendar_permission_text">时钟程序需要读取日历数据权限才能正常运行</string>
+  <string name="missing_read_calendar_permission_text">时钟程序需要读取日历数据才能正常运行</string>
 </resources>
