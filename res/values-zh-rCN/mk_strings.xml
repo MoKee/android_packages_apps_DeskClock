@@ -18,4 +18,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Setting labels on Set alarm screen: Workday -->
   <string name="alarm_workday">法定工作日</string>
+  <string name="missing_read_calendar_permission_text">时钟程序需要读取日历数据才能正常运行</string>
 </resources>
