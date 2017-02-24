@@ -19,5 +19,5 @@
   <!-- Setting labels on Set alarm screen: Workday -->
   <string name="alarm_workday">Journée de travail</string>
   <string name="update_permissions_button_text">MISE A JOUR DES PRIVILÈGES</string>
-  <string name="missing_read_calendar_permission_text">Desk Clock nécessite l\'autorisation pour lire les données du calendrier.</string>
+  <string name="missing_read_calendar_permission_text">Desk Clock a besoin d\'une autorisation d\'accès pour lire les données du calendrier.</string>
 </resources>
