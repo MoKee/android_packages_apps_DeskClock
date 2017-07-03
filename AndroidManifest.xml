@@ -45,6 +45,7 @@
     <uses-permission android:name="android.permission.READ_CALENDAR" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="mokee.permission.MODIFY_PROFILES" />
 
     <application android:label="@string/app_label"
                  android:name=".DeskClockApplication"
