@@ -21,76 +21,77 @@
   <!-- -->
   <!-- Label shown on launcher icon -->
   <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
-  <string name="app_label">Sat</string>
+  <string name="app_label">Relógio</string>
   <!-- Title for AlarmClock activity -->
   <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="alarm_list_title">Alarmi</string>
+  <string name="alarm_list_title">Alarmes</string>
   <!-- Menu item on Alarm Clock screen: Add alarm -->
-  <string name="add_alarm">Dodaj alarm</string>
+  <string name="add_alarm">Adicionar alarme</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
-  <string name="menu_desk_clock">Stoni sat</string>
+  <string name="menu_desk_clock">Relógio de mesa</string>
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
-  <string name="menu_edit_alarm">Uredi alarm</string>
+  <string name="menu_edit_alarm">Editar alarme</string>
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
-  <string name="delete_alarm">Izbriši alarm</string>
+  <string name="delete_alarm">Excluir alarme</string>
   <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
-  <string name="enable_alarm">Uključi alarm</string>
+  <string name="enable_alarm">Ligar o alarme</string>
   <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
-  <string name="disable_alarm">Isključi alarm</string>
+  <string name="disable_alarm">Desligar o alarme</string>
   <!-- Delete alarm confirmation dialog message. -->
-  <string name="delete_alarm_confirm">Izbrisati ovaj alarm?</string>
+  <string name="delete_alarm_confirm">Excluir este alarme?</string>
   <!-- Menu item on Alarm Clock screen: Show clock -->
-  <string name="show_clock">Prikaži sat</string>
+  <string name="show_clock">Mostrar relógio</string>
   <!-- Menu item on Alarm Clock screen: Hide clock -->
-  <string name="hide_clock">Sakrij sat</string>
+  <string name="hide_clock">Ocultar relógio</string>
   <!-- Setting label on Set alarm screen: Label -->
-  <string name="label">Oznaka</string>
+  <string name="label">Descrição</string>
   <!-- Content description for alarm on/off switch in On state -->
-  <string name="on_switch">Uključeno</string>
+  <string name="on_switch">Ativo</string>
   <!-- Content description for alarm on/off switch in Off state -->
-  <string name="off_switch">Isključeno</string>
+  <string name="off_switch">Desligado</string>
   <!-- Default label to display for an alarm -->
+  <string name="default_label">Alarme</string>
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="set_alarm">Postavi alarm</string>
+  <string name="set_alarm">Configurar alarme</string>
   <!-- Setting labels on Set alarm screen: Vibration on or off -->
-  <string name="alarm_vibrate">Vibracija</string>
+  <string name="alarm_vibrate">Vibrar</string>
   <!-- Setting labels on Set alarm screen: Repeat -->
-  <string name="alarm_repeat">Ponovi</string>
+  <string name="alarm_repeat">Repetir</string>
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
-  <string name="alert">Melodija zvona alarma</string>
+  <string name="alert">Toque do alarme</string>
   <!-- Title of default ringtone played when a timer expires. -->
-  <string name="default_timer_ringtone_title">Tajmer je istekao</string>
+  <string name="default_timer_ringtone_title">Cronômetro expirou</string>
   <!-- Title of silent ringtone played when a timer expires. -->
-  <string name="silent_timer_ringtone_title">Nečujno</string>
+  <string name="silent_timer_ringtone_title">Silêncio</string>
   <!-- Label on expanded alarm edit view. -->
-  <string name="ringtone">Melodija zvona</string>
+  <string name="ringtone">Toque</string>
   <!-- Setting labels on Set alarm screen: Set time  -->
-  <string name="time">Vrijeme</string>
+  <string name="time">Hora</string>
   <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
-  <string name="alarm_tomorrow">Sutra</string>
+  <string name="alarm_tomorrow">Amanhã</string>
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
-  <string name="alarm_today">Danas</string>
+  <string name="alarm_today">Hoje</string>
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
-  <string name="alarm_alert_wake_up">Buđenje!</string>
+  <string name="alarm_alert_wake_up">Acorde!\u0021</string>
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
-  <string name="alarm_alert_off_action_text">Isključeno</string>
+  <string name="alarm_alert_off_action_text">Desligado</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
-  <string name="alarm_alert_dismiss_text">Odbaci</string>
+  <string name="alarm_alert_dismiss_text">Dispensar</string>
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
-  <string name="alarm_alert_dismiss_now_text">Odbaci sada</string>
+  <string name="alarm_alert_dismiss_now_text">Dispensar Agora</string>
   <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
-  <string name="alarm_missed_title">Propušteni alarm</string>
-  <string name="alarm_missed_text"><xliff:g id="ALARM_TIME">%s</xliff:g> - <xliff:g id="ALARM_LABEL">%s</xliff:g></string>
+  <string name="alarm_missed_title">Alarme perdido</string>
+  <string name="alarm_missed_text"><xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g></string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <string name="alarm_alert_snoozed_text">Odloženo</string>
+  <string name="alarm_alert_snoozed_text">Adiado</string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the word 'Snoozed' in two separate lines or example:
              Snoozed
@@ -99,30 +100,28 @@
     -->
   <plurals name="alarm_alert_snooze_duration">
     <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> min.</item>
-    <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> min.</item>
+    <item quantity="one">1 min</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> min.</item>
+    <item quantity="other"><xliff:g id="number" exemplo="7">%d</xliff:g> min</item>
   </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
-  <string name="alarm_alert_off_text">Alarm isključen</string>
+  <string name="alarm_alert_off_text">Alarme desligado</string>
   <!-- Button labels on the alarm dialog: Snooze -->
-  <string name="alarm_alert_snooze_text">Odloži</string>
+  <string name="alarm_alert_snooze_text">Adiar</string>
   <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
   <plurals name="alarm_alert_snooze_set">
     <!-- Duration for one minute -->
-    <item quantity="one">Odlaganje na <xliff:g id="MINUTES">%d</xliff:g> minutu.</item>
-    <item quantity="few">Odlaganje na <xliff:g id="MINUTES">%d</xliff:g> minute.</item>
+    <item quantity="one">Adiado por 1 minuto.</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">Odlaganje na <xliff:g id="MINUTES">%d</xliff:g> minuta.</item>
+    <item quantity="other">Adiando por <xliff:g id="minutes">%d</xliff:g> minutos.</item>
   </plurals>
   <!-- Text to appear inside a notification while an alarm is snoozing. -->
-  <string name="alarm_alert_snooze_until">Odlaganje do <xliff:g id="TIME">%s</xliff:g></string>
+  <string name="alarm_alert_snooze_until">Com alarme até <xliff:g id="time">%s</xliff:g></string>
   <!-- Text to appear in the notification title while an alarm is about to go off. -->
-  <string name="alarm_alert_predismiss_title">Predstojeći alarm</string>
+  <string name="alarm_alert_predismiss_title">Próximo alarme</string>
   <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
-  <string name="missed_alarm_has_been_deleted">Propušteni alarm je izbrisan</string>
+  <string name="missed_alarm_has_been_deleted">Seu alarme perdido foi excluído</string>
   <!-- 0: nothing
          1: days
          2:      hours
@@ -133,718 +132,754 @@
          7: days hours minutes
     -->
   <!-- Timer notification: how long from now until timer goes off. -->
-  <string name="timer_notifications_less_min">Preostalo je manje od minute</string>
-  <string name="timer_notifications_hours"><xliff:g id="HOURS">%1$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
-  <string name="timer_notifications_minutes"><xliff:g id="MINUTES">%2$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
-  <string name="timer_notifications_hours_minutes">Preostalo <xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g></string>
+  <string name="timer_notifications_less_min">Menos de um minuto restante</string>
+  <string name="timer_notifications_hours"><xliff:g id="HOURS" exemplo="2 horas">%1$s</xliff:g><xliff:g id="REMAINING" exemplo="restante"> %3$s</xliff:g></string>
+  <string name="timer_notifications_minutes"><xliff:g id="MINUTES" exemplo="2 minutos">%2$s</xliff:g><xliff:g id="REMAINING" exemplo="restante"> %3$s</xliff:g></string>
+  <string name="timer_notifications_hours_minutes"><xliff:g id="HOURS" exemplo="2 horas">%1$s</xliff:g> <xliff:g id="MINUTES" exemplo="2 minutos">%2$s</xliff:g> restantes</string>
   <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
     -->
-  <string name="timer_remaining_single">preostalo</string>
+  <string name="timer_remaining_single">restando</string>
   <!--
         Verb inflection to use for multiple time units remaining
         Ex. "2 minutes remaining"
     -->
-  <string name="timer_remaining_multiple">preostalo</string>
+  <string name="timer_remaining_multiple">restando</string>
   <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
   <string-array name="alarm_set">
-    <item>Alarm postavljen za manje od 1 minute od sada.</item>
-    <item>Alarm postavljen za <xliff:g id="DAYS">%1$s</xliff:g> od sada.</item>
-    <item>Alarm postavljen za <xliff:g id="HOURS">%2$s</xliff:g> od sada.</item>
-    <item>Alarm postavljen za <xliff:g id="DAYS">%1$s</xliff:g> i <xliff:g id="HOURS">%2$s</xliff:g> od sada.</item>
-    <item>Alarm postavljen za <xliff:g id="MINUTES">%3$s</xliff:g> od sada.</item>
-    <item>Alarm postavljen za <xliff:g id="DAYS">%1$s</xliff:g> i <xliff:g id="MINUTES">%3$s</xliff:g> od sada.</item>
-    <item>Alarm postavljen za <xliff:g id="HOURS">%2$s</xliff:g> i <xliff:g id="MINUTES">%3$s</xliff:g> od sada.</item>
-    <item>Alarm postavljen za <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> i <xliff:g id="MINUTES">%3$s</xliff:g> od sada.</item>
+    <item>Alarme definido para menos de 1 minuto a partir de agora.</item>
+    <item>Alarme definido para daqui a <xliff:g id="DAYS" exemplo="2 dias">%1$s</xliff:g> a partir de agora.</item>
+    <item>Alarme definido para daqui a <xliff:g id="HOURS" exemplo="2 horas">%2$s</xliff:g> a partir de agora.</item>
+    <item>Alarme definido para daqui a <xliff:g id="DAYS" exemplo="2 dias">%1$s </xliff:g> e <xliff:g id="HOURS" exemplo="2 horas">%2$s </xliff:g> a partir de agora.</item>
+    <item>Alarme definido para daqui a <xliff:g id="MINUTES" exemplo="2 minutos">%3$s</xliff:g> a partir de agora.</item>
+    <item>Alarme definido para daqui a <xliff:g id="DAYS" exemplo="2 dias">%1$s</xliff:g> e <xliff:g id="MINUTES" exemplo="2 minutos">%3$s</xliff:g> a partir de agora.</item>
+    <item>Alarme definido para daqui a <xliff:g id="HOURS" exemplo="2 horas">%2$s</xliff:g> e <xliff:g id="MINUTES" exemplo="2 minutos">%3$s</xliff:g> a partir de agora.</item>
+    <item>Alarme definido para daqui a <xliff:g id="DAYS" exemplo="2 dias">%1$s</xliff:g>, <xliff:g id="HOURS" exemplo="2 horas">%2$s</xliff:g>, e <xliff:g id="MINUTES" exemplo="2 minutos">%3$s</xliff:g> a partir de agora.</item>
   </string-array>
   <!-- Alarm confirmation toast: days -->
   <plurals name="days">
     <!-- Duration for one day -->
-    <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> dan</item>
-    <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> dana</item>
+    <item quantity="one">1 dia</item>
     <!-- Duration for more than one day -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> dana</item>
+    <item quantity="other"><xliff:g id="number" exemplo="7">%s</xliff:g> dias</item>
   </plurals>
   <!-- Alarm confirmation toast and timer notification: hours -->
   <plurals name="hours">
     <!-- Duration for one hour -->
-    <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> sat</item>
-    <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> sata</item>
+    <item quantity="one">1 hora</item>
     <!-- Duration for more than one hour -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> sati</item>
+    <item quantity="other"><xliff:g id="number" exemplo="7">%s</xliff:g> horas</item>
   </plurals>
   <!-- Alarm confirmation toast and timer notification: minutes -->
   <plurals name="minutes">
     <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> minuta</item>
-    <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> minute</item>
+    <item quantity="one">1 minuto</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> minuta</item>
+    <item quantity="other"><xliff:g id="number" exemplo="7">%s</xliff:g> minutos</item>
   </plurals>
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
-  <string name="every_day">Svakog dana</string>
+  <string name="every_day">Todos os dias</string>
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
+  <string name="day_concat">", "</string>
   <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
-  <string name="clock_instructions">Odaberite sat</string>
+  <string name="clock_instructions">Escolha um relógio</string>
   <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="analog_gadget">Analogni sat</string>
+  <string name="analog_gadget">Relógio analógico</string>
   <!-- Help activity name -->
-  <string name="help">pomoć</string>
+  <string name="help">ajuda</string>
   <!-- Settings activity name -->
   <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="settings">Postavke</string>
+  <string name="settings">Configurações</string>
   <!-- Setting title for changing the snooze duration. -->
-  <string name="snooze_duration_title">Dužina odlaganja</string>
+  <string name="snooze_duration_title">Duração da suspensão</string>
   <plurals name="snooze_duration">
     <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> minuta</item>
-    <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> minute</item>
+    <item quantity="one">1 minuto</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> minuta</item>
+    <item quantity="other"><xliff:g id="number" exemplo="7">%s</xliff:g> minutos</item>
   </plurals>
   <plurals name="snooze_picker_label">
     <!-- Duration for one minute -->
-    <item quantity="one">minuta</item>
-    <item quantity="few">minute</item>
+    <item quantity="one">minuto</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">minuta</item>
+    <item quantity="other">minutos</item>
   </plurals>
   <!-- Setting title for changing the crescendo duration. -->
-  <string name="crescendo_duration_title">Postepeno povećavaj jačinu zvuka</string>
+  <string name="crescendo_duration_title">Gradualmente aumentar volume</string>
   <!-- Summary value for changing the crescendo duration to 0. -->
-  <string name="no_crescendo_duration">Isključeno</string>
+  <string name="no_crescendo_duration">Desligado</string>
   <!-- Summary value for changing the crescendo duration. -->
-  <string name="crescendo_duration">Broj sekundi: <xliff:g id="NUMBER">%s</xliff:g></string>
+  <string name="crescendo_duration"><xliff:g id="number" exemplo="7">%s</xliff:g> segundos</string>
   <!-- Setting label when changing the crescendo duration. -->
-  <string name="crescendo_picker_label">sekundi</string>
+  <string name="crescendo_picker_label">segundos</string>
   <!-- Auto silence preference title -->
-  <string name="auto_silence_title">Utišaj nakon</string>
+  <string name="auto_silence_title">Silenciar depois de</string>
   <!-- Auto silence summary string set based on the preference value. -->
   <plurals name="auto_silence_summary">
     <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> minuta</item>
-    <item quantity="few"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> minute</item>
+    <item quantity="one">1 minuto</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> minuta</item>
+    <item quantity="other"><xliff:g id="formatted_number" exemplo="7">%s</xliff:g> minutos</item>
   </plurals>
   <!-- Auto silence summary when turned off -->
-  <string name="auto_silence_never">Nikad</string>
+  <string name="auto_silence_never">Nunca</string>
+  <string name="default_auto_silence_value">10</string>
   <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
   <string-array name="auto_silence_entries">
-    <item>1 minuta</item>
-    <item>5 minuta</item>
-    <item>10 minuta</item>
-    <item>15 minuta</item>
-    <item>20 minuta</item>
-    <item>25 minuta</item>
-    <item>Nikad</item>
+    <item>1 minuto</item>
+    <item>5 minutos</item>
+    <item>10 minutos</item>
+    <item>15 minutos</item>
+    <item>20 minutos</item>
+    <item>25 minutos</item>
+    <item>Nunca</item>
   </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
   <!-- Week start day preference title. -->
-  <string name="week_start_title">Prvi dan sedmice</string>
+  <string name="week_start_title">Iniciar a Semana em</string>
   <!-- Entries listed in ListPreference for start day. -->
   <string-array name="week_start_entries">
-    <item>subota</item>
-    <item>nedjelja</item>
-    <item>ponedjeljak</item>
+    <item>Sábado</item>
+    <item>Domingo</item>
+    <item>Segunda-feira</item>
   </string-array>
   <!-- Values for ListPreference for start day of week. -->
   <!-- Done button when editing an alarm. -->
-  <string name="done">Gotovo</string>
+  <string name="done">Concluído</string>
   <!-- Revert button when editing an alarm. -->
-  <string name="revert">Vrati</string>
+  <string name="revert">Desfazer</string>
   <!-- Delete button when editing an alarm. -->
-  <string name="delete">Izbriši</string>
+  <string name="delete">Excluir</string>
   <!-- Setting title for changing the alarm volume. -->
-  <string name="alarm_volume_title">Jačina zvuka alarma</string>
+  <string name="alarm_volume_title">Volume de alarme</string>
   <!-- Title for the silent ringtone. -->
-  <string name="silent_ringtone_title">Nečujno</string>
+  <string name="silent_ringtone_title">Silêncio</string>
   <!-- Title for ringtones that cannot be located by uri. -->
-  <string name="unknown_ringtone_title">Nepoznato</string>
+  <string name="unknown_ringtone_title">Desconhecido</string>
   <!-- Text to display in the small text of the notification -->
-  <string name="alarm_notify_text">Odložite ili odbacite alarm.</string>
+  <string name="alarm_notify_text">Suspender ou cancelar alarme.</string>
   <!-- Text to display in the notification ticker and label -->
-  <string name="alarm_notify_snooze_label"><xliff:g id="LABEL">%s</xliff:g> (odloženo)</string>
+  <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> (adiado)</string>
   <!-- Text to display in the notification when the alarm has been snoozed -->
-  <string name="alarm_notify_snooze_text">Alarm postavljen za <xliff:g id="TIME">%s</xliff:g>. Dodirnite da otkažete.</string>
+  <string name="alarm_notify_snooze_text">Alarme definido para <xliff:g id="time">%s </xliff:g>. Toque para cancelar.</string>
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
-  <string name="volume_button_setting_title">Dugmad za jačinu zvuka</string>
+  <string name="volume_button_setting_title">Botões de volume</string>
   <!-- Title of the setting default alarm tone  -->
+  <string name="default_alarm_tone_title">Toque padrão do alarme</string>
   <!-- Dialog title of the volume and power setting. -->
-  <string name="volume_button_dialog_title">Radnja dugmeta</string>
+  <string name="volume_button_dialog_title">Propriedade do botão</string>
   <!-- Entries listed in the setting for the side-button action. -->
   <string-array name="volume_button_setting_entries">
-    <item>Odloži</item>
-    <item>Odbaci</item>
-    <item>Ne radi ništa</item>
+    <item>Adiar</item>
+    <item>Dispensar</item>
+    <item>Não fazer nada</item>
   </string-array>
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
-  <string name="default_ringtone_setting_title">Postavi zadanu melodiju zvona</string>
+  <string name="default_ringtone_setting_title">Definir toque padrão</string>
   <!-- Accessibility labels for Clock activity buttons -->
-  <string name="alarm_button_description">Alarmi</string>
-  <string name="gallery_button_description">Galerija</string>
-  <string name="music_button_description">Muzika</string>
-  <string name="nightmode_button_description">Priguši</string>
-  <string name="home_button_description">Pokretač</string>
-  <string name="desk_clock_button_description">Prikaz sata</string>
+  <string name="alarm_button_description">Alarmes</string>
+  <string name="gallery_button_description">Galeria</string>
+  <string name="music_button_description">Música</string>
+  <string name="nightmode_button_description">Escurecer</string>
+  <string name="home_button_description">Tela de início</string>
+  <string name="desk_clock_button_description">Visor do relógio</string>
   <!-- Accessibility labels for alarm buttons -->
-  <string name="label_description">Oznaka</string>
-  <string name="ringtone_description">Melodija zvona</string>
+  <string name="label_description">Descrição</string>
+  <string name="ringtone_description">Toque</string>
   <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
          present on the device, we show nothing at all. -->
-  <string name="weather_fetch_failure">Informacije o vremenskim prilikama trenutno nisu dostupne.</string>
+  <string name="weather_fetch_failure">Informações meteorológicas indisponíveis no momento.</string>
   <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="alarm_klaxon_service_desc">Usluga reproduciranja zvuka za alarme postavljene u aplikaciji Sat.</string>
+  <string name="alarm_klaxon_service_desc">Serviço de reprodução de som para alarmes definidos no Relógio.</string>
   <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
-  <string name="loading_ringtone">Učitavanje melodije zvona…</string>
+  <string name="loading_ringtone">Carregando toque\u2026</string>
   <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="timer_ring_service_desc">Usluga reproduciranja zvuka za tajmere postavljene u aplikaciji Sat.</string>
+  <string name="timer_ring_service_desc">Serviço de reprodução de som para cronômetros definidos no Relógio.</string>
   <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
-  <string name="control_set_alarm">Postavi alarm</string>
+  <string name="control_set_alarm">Configurar alarme</string>
   <!--  ActionBar strings -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
+  <string name="menu_alarm">Alarme</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
-  <string name="menu_timer">Tajmer</string>
+  <string name="menu_timer">Cronômetro</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
-  <string name="menu_clock">Sat</string>
+  <string name="menu_clock">Relógio</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
-  <string name="menu_stopwatch">Štoperica</string>
+  <string name="menu_stopwatch">Cronômetro</string>
   <!-- Clock view buttons strings-->
   <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
-  <string name="button_alarms">Dodaj alarm</string>
+  <string name="button_alarms">Adicionar alarme</string>
   <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
-  <string name="button_cities">Gradovi</string>
+  <string name="button_cities">Cidades</string>
   <!-- Describes the purpose of the button which pops up a menu of setting choices -->
-  <string name="button_menu">Više opcija</string>
+  <string name="button_menu">Mais opções</string>
   <!-- Menu item on most screens to get to more settings -->
-  <string name="menu_item_settings">Postavke</string>
+  <string name="menu_item_settings">Configurações</string>
   <!-- Menu item on most screens to get to the help information -->
-  <string name="menu_item_help">Pomoć</string>
+  <string name="menu_item_help">Ajuda</string>
   <!-- Menu item on clock screen to add world city. -->
+  <string name="menu_item_add">Adicionar</string>
   <!-- Menu item on clock screen to enter night mode. -->
-  <string name="menu_item_night_mode">Noćni način rada</string>
+  <string name="menu_item_night_mode">Modo noturno</string>
   <!-- Menu item on Cities screen to sort by GMT offset -->
-  <string name="menu_item_sort_by_gmt_offset">Sortiraj po vremenu</string>
+  <string name="menu_item_sort_by_gmt_offset">Ordenar por tempo</string>
   <!-- Menu item on Cities screen to sort by alphabetical order -->
-  <string name="menu_item_sort_by_name">Sortiraj po nazivu</string>
+  <string name="menu_item_sort_by_name">Ordenar por nome</string>
+  <string name="cities_add_gps_no_results">A consulta de localização por GPS não retornou resultados</string>
+  <string name="cities_add_gps_not_available">O GPS não está disponível</string>
+  <string name="cities_add_searching">Procurando\u2026</string>
+  <string name="cities_add_city_title">Adicionar cidade</string>
+  <string name="cities_add_city_gps_cd">Toque para localizar a sua cidade atual</string>
+  <string name="cities_add_loading">Carregando\u2026</string>
+  <string name="cities_add_city_city">Cidade:</string>
+  <string name="cities_add_city_timezone">Fuso horário:</string>
+  <string name="cities_add_already_exists">A cidade já existe no banco de dados</string>
+  <string name="cities_add_city_failed">Não foi possível criar a cidade</string>
+  <string name="cities_delete_city_failed">Não foi possível excluir a cidade</string>
+  <string name="cities_delete_city_msg">Você deseja excluir
+        <xliff:g id="city">%s</xliff:g>?
+    </string>
+  <string name="cities_delete_city_title">Excluir cidade</string>
   <!-- Label for selected cities in Cities list view -->
-  <string name="selected_cities_label">Odabrani gradovi</string>
+  <string name="selected_cities_label">Cidades selecionadas</string>
   <!-- Stopwatch and Timer shared strings -->
   <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
-  <string name="sw_resume_button">Nastavi</string>
+  <string name="sw_resume_button">Continuar</string>
   <!--
         Describes the purpose of the button
             for stopwatch: return stopwatch to zero and remove the lap times.
             for timer: return timer to originally set duration.
         [CHAR LIMIT=15]
     -->
-  <string name="sw_reset_button">Poništi</string>
+  <string name="sw_reset_button">Redefinir</string>
   <!-- Stopwatch strings -->
   <!-- Describes the purpose of the button to begin running a stopwatch -->
-  <string name="sw_start_button">Pokreni</string>
+  <string name="sw_start_button">Iniciar</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Pauziraj</string>
+  <string name="sw_pause_button">Pausar</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
-  <string name="sw_lap_button">Krug</string>
+  <string name="sw_lap_button">Volta</string>
   <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
-  <string name="sw_share_button">Podijeli</string>
+  <string name="sw_share_button">Compartilhar</string>
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+  <string name="hours_label">h</string>
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+  <string name="minutes_label">m</string>
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+  <string name="seconds_label">s</string>
   <!-- Accessibility strings -->
-  <string name="hours_label_description">sati</string>
-  <string name="minutes_label_description">minuta</string>
-  <string name="seconds_label_description">sekunde</string>
+  <string name="hours_label_description">horas</string>
+  <string name="minutes_label_description">minutos</string>
+  <string name="seconds_label_description">segundos</string>
+  <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
-  <string name="sw_share_main">Moje vrijeme je <xliff:g id="TIME">%s</xliff:g></string>
+  <string name="sw_share_main">Meu tempo é <xliff:g id="time">%s </xliff:g></string>
   <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
-  <string name="sw_share_laps">Vremena krugova:</string>
+  <string name="sw_share_laps">Tempo das voltas:</string>
   <!-- Label to enumerate the number of laps in the notification the user has counted -->
-  <string name="sw_notification_lap_number">Krug <xliff:g id="NUMBER">%d</xliff:g></string>
+  <string name="sw_notification_lap_number">Volta <xliff:g id="Number">%d</xliff:g></string>
   <!-- Stopwatch accessibility strings -->
   <plurals name="Nhours_description">
     <!-- 1 hour -->
-    <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> sat</item>
-    <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> sata</item>
+    <item quantity="one">1 hora</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> sati</item>
+    <item quantity="other"><xliff:g id="number" exemplo="7">%d</xliff:g> horas</item>
   </plurals>
   <plurals name="Nminutes_description">
     <!-- 1 minute -->
-    <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> minuta</item>
-    <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> minute</item>
+    <item quantity="one">1 minuto</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> minuta</item>
+    <item quantity="other"><xliff:g id="number" exemplo="7">%d</xliff:g> minutos</item>
   </plurals>
   <plurals name="Nseconds_description">
     <!-- 1 second -->
-    <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> sekunda</item>
-    <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> sekunde</item>
+    <item quantity="one">1 segundo</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> sekundi</item>
+    <item quantity="other"><xliff:g id="number" exemplo="7">%d</xliff:g> segundos</item>
   </plurals>
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
-  <string name="timer_add_timer">Dodaj tajmer</string>
+  <string name="timer_add_timer">Adicionar Cronômetro</string>
   <!-- Describes the purpose of the button to begin or continue running a timer -->
-  <string name="timer_start">Pokreni</string>
+  <string name="timer_start">Iniciar</string>
   <!-- Describes the purpose of the button to delete a timer. -->
-  <string name="timer_delete">Izbriši</string>
+  <string name="timer_delete">Excluir</string>
   <!-- Talkback description for deleting a number. -->
-  <string name="timer_descriptive_delete">Izbriši <xliff:g id="NUMBER_STRING">%s</xliff:g></string>
+  <string name="timer_descriptive_delete">Excluir <xliff:g id="number_string">%s </xliff:g></string>
   <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
-  <string name="timer_plus_one">Dodajte 1 minutu</string>
+  <string name="timer_plus_one">Adicionar 1 minuto</string>
   <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
-  <string name="timer_plus_1_min">Dodaj 1 min.</string>
+  <string name="timer_plus_1_min">Adicionar 1 min</string>
   <!-- Describes the purpose of the button to stop the timer. -->
-  <string name="timer_stop">Zaustavi</string>
+  <string name="timer_stop">Parar</string>
   <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
-  <string name="timer_stop_all">Zaustavi sve tajmere</string>
+  <string name="timer_stop_all">Parar todos os cronômetros</string>
   <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
-  <string name="timer_reset">Poništi</string>
+  <string name="timer_reset">Redefinir</string>
   <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
-  <string name="timer_cancel">Otkaži</string>
+  <string name="timer_cancel">Cancelar</string>
   <!-- Accessibility announcement when a timer is canceled. -->
-  <string name="timer_canceled">Tajmer otkazan</string>
+  <string name="timer_canceled">Cronômetro cancelado</string>
   <!-- Notification content shown when a timer has completed and has no more time remaining -->
-  <string name="timer_times_up">Vrijeme je isteklo</string>
+  <string name="timer_times_up">Tempo esgotado</string>
   <!--
         Notification content shown when multiple timers have completed and have no more time
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
-  <string name="timer_multi_times_up">Isteklih tajmera: <xliff:g id="NUM_TIMERS">%d</xliff:g></string>
+  <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS" exemplo="2">%d</xliff:g> cronômetros finalizados</string>
   <!-- Label associated with a notification for a Timer -->
-  <string name="timer_notification_label">Tajmer</string>
+  <string name="timer_notification_label">Cronômetro</string>
   <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
-  <string name="timers_max_count_reached">Maksimalno 4 tajmera</string>
+  <string name="timers_max_count_reached">Máximo de 4 cronômetros</string>
   <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
-  <string name="timer_pause">Pauziraj</string>
+  <string name="timer_pause">Pausar</string>
   <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
-  <string name="timer_reset_all">Poništi sve tajmere</string>
+  <string name="timer_reset_all">Reiniciar todos os cronômetros</string>
   <!-- Jocular content that user may append when sharing the lap times -->
   <string-array name="sw_share_strings" translatable="true">
-    <item>Ni ptica trkačica nije ovako brza.</item>
-    <item>Uživaj, zasluženo je.</item>
-    <item>Androidi su brzi, ali ne kao ti!</item>
-    <item>Uh.</item>
-    <item>Vrhunsko vrij3m3.</item>
-    <item>Monstruozno brzo.</item>
-    <item>Ovo je bilo brže od munje, hoćemo još jednom?</item>
-    <item>Idemo ludo, idemo jako.</item>
-    <item>Tebi se baš žuri.</item>
-    <item>Brže od svjetlosti.</item>
+    <item>Você é quase um ás da velocidade.</item>
+    <item>Aproveite os frutos do seu trabalho.</item>
+    <item>Os androides são conhecidos por serem rápidos, mas não tão rápido quanto você!</item>
+    <item>Ufa.</item>
+    <item>Tempos formidáveis.</item>
+    <item>Mas que velocidade estupenda.</item>
+    <item>Vamos viajar no tempo de novo.</item>
+    <item>Apenas um salto para a esquerda.</item>
+    <item>Você tem um gosto por correrias.</item>
+    <item>Velocidade fotônica.</item>
   </string-array>
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
-  <string name="home_label">Lokalno vrijeme</string>
+  <string name="home_label">Casa</string>
   <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="cities_activity_title">Gradovi</string>
+  <string name="cities_activity_title">Cidades</string>
   <!-- Settings strings -->
   <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
-  <string name="clock_settings">Sat</string>
+  <string name="clock_settings">Relógio</string>
   <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
-  <string name="clock_style">Stil</string>
+  <string name="clock_style">Estilo</string>
   <!-- Title for preference to change date & time -->
-  <string name="open_date_settings">Promijenite datum i vrijeme</string>
+  <string name="open_date_settings">Alterar Data \u0026 hora</string>
   <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
   <string-array name="clock_style_entries">
-    <item>Analogni</item>
-    <item>Digitalni</item>
+    <item>Analógico</item>
+    <item>Digital</item>
   </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match
          the clock_style_entries above. -->
   <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
-  <string name="automatic_home_clock">Automatski sat s vremenom kod kuće</string>
+  <string name="automatic_home_clock">Relógio de casa automático</string>
   <!-- Describes the functionality provided by the automatic_home_clock option -->
-  <string name="automatic_home_clock_summary">Dok putujete u područje u kojem vrijedi drugo vrijeme, dodajte sat za vrijeme kod kuće</string>
+  <string name="automatic_home_clock_summary">Ao viajar para outro fuso horário, adicione um relógio com a hora do local onde habita</string>
   <!-- Title in the preferences change the time zone for the user's home -->
-  <string name="home_time_zone">Matična vremenska zona</string>
+  <string name="home_time_zone">Fuso horário local</string>
   <!-- Title in a list dialog box to pick a time zone for the user's home -->
-  <string name="home_time_zone_title">Matična vremenska zona</string>
+  <string name="home_time_zone_title">Fuso horário local</string>
   <!-- Textual content of the button to discard the current dialog values and close the dialog -->
-  <string name="time_picker_cancel">Otkaži</string>
+  <string name="time_picker_cancel">Cancelar</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
-  <string name="time_picker_set">Uredu</string>
+  <string name="time_picker_set">OK</string>
+  <string name="time_picker_time_seperator">:</string>
   <!--  place holder for am/pm label when it is not set -->
+  <string name="time_picker_ampm_label">--</string>
   <!-- add 00 as minutes to the time when pressing this button -->
+  <string name="time_picker_00_label">:00</string>
   <!-- add 30 as minutes to the time when pressing this button -->
+  <string name="time_picker_30_label">:30</string>
   <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
     -->
-  <string name="city_checked">Grad <xliff:g id="CITY_NAME">%s</xliff:g> potvrđen</string>
+  <string name="city_checked"><xliff:g id="city_name">%s</xliff:g> marcada</string>
   <!--
         Accessibility string read when a city checkbox is unchecked.
         Ex. "Ann Arbor unchecked"
     -->
-  <string name="city_unchecked">Grad <xliff:g id="CITY_NAME">%s</xliff:g> nije potvrđen</string>
+  <string name="city_unchecked"><xliff:g id="city_name">%s </xliff:g> desmarcada</string>
   <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
   <string-array name="timezone_labels">
-    <item>"Marshallovi otoci"</item>
-    <item>"Otok Midway"</item>
-    <item>"Havaji"</item>
-    <item>"Aljaska"</item>
-    <item>"Pacifičko vrijeme"</item>
-    <item>"Tihuana"</item>
+    <item>"Ilhas Marshall"</item>
+    <item>"Ilha Midway"</item>
+    <item>"Havaí"</item>
+    <item>"Alasca"</item>
+    <item>"Hora do Pacífico"</item>
+    <item>"Tijuana"</item>
     <item>"Arizona"</item>
     <item>"Chihuahua"</item>
-    <item>"Planinsko vrijeme"</item>
-    <item>"Centralna Amerika"</item>
-    <item>"Centralno vrijeme"</item>
-    <item>"Mexico City"</item>
+    <item>"Hora Regiões Montanhosas"</item>
+    <item>"América Central"</item>
+    <item>"Horário Central"</item>
+    <item>"Cidade do México"</item>
     <item>"Saskatchewan"</item>
-    <item>"Bogota"</item>
-    <item>"Istočno vrijeme"</item>
-    <item>"Venecuela"</item>
-    <item>"Atlantsko vrijeme (Barbados)"</item>
-    <item>"Atlantsko vrijeme (Kanada)"</item>
+    <item>"Bogotá"</item>
+    <item>"Horário Oriental"</item>
+    <item>"Venezuela"</item>
+    <item>"Horário do Atlântico (Barbados)"</item>
+    <item>"Hora do Atlântico (Canadá)"</item>
     <item>"Manaus"</item>
     <item>"Santiago"</item>
-    <item>"Newfoundland"</item>
-    <item>"Brazilija"</item>
+    <item>"Terra Nova"</item>
+    <item>"Brasília"</item>
     <item>"Buenos Aires"</item>
-    <item>"Grenland"</item>
-    <item>"Montevideo"</item>
-    <item>"Srednje Atlantsko"</item>
-    <item>"Azori"</item>
-    <item>"Zelenortski otoci"</item>
-    <item>"Kazablanka"</item>
-    <item>"London, Dablin"</item>
-    <item>"Amsterdam, Berlin"</item>
-    <item>"Beograd"</item>
-    <item>"Brisel"</item>
+    <item>"Groenlândia"</item>
+    <item>"Montevidéu"</item>
+    <item>"Atlântico Central"</item>
+    <item>"Açores"</item>
+    <item>"Ilhas Cabo Verde"</item>
+    <item>"Casablanca"</item>
+    <item>"Londres, Dublim"</item>
+    <item>"Amsterdã, Berlim"</item>
+    <item>"Belgrado"</item>
+    <item>"Bruxelas"</item>
     <item>"Sarajevo"</item>
     <item>"Windhoek"</item>
-    <item>"Zapadnoafričko vrijeme"</item>
-    <item>"Aman, Jordan"</item>
-    <item>"Atina, Istanbul"</item>
-    <item>"Bejrut, Liban"</item>
-    <item>"Kairo"</item>
-    <item>"Helsinki"</item>
-    <item>"Jeruzalem"</item>
-    <item>"Minsk"</item>
+    <item>"Horário da África Ocidental"</item>
+    <item>"Amã, Jordânia"</item>
+    <item>"Atenas, Istambul"</item>
+    <item>"Beirute, Líbano"</item>
+    <item>"Cairo"</item>
+    <item>"Helsinque"</item>
+    <item>"Jerusalém"</item>
+    <item>"Malta"</item>
     <item>"Harare"</item>
-    <item>"Bagdad"</item>
-    <item>"Moskva"</item>
-    <item>"Kuvajt"</item>
-    <item>"Najrobi"</item>
-    <item>"Teheran"</item>
-    <item>"Baku"</item>
-    <item>"Tbilisi"</item>
-    <item>"Erevan"</item>
+    <item>"Bagdá"</item>
+    <item>"Moscou"</item>
+    <item>"Kuait"</item>
+    <item>"Nairóbi"</item>
+    <item>"Teerã"</item>
+    <item>"Bacu"</item>
+    <item>"Tiblíssi"</item>
+    <item>"Erevã"</item>
     <item>"Dubai"</item>
-    <item>"Kabul"</item>
-    <item>"Islamabad, Karači"</item>
+    <item>"Cabul"</item>
+    <item>"Islamabade, Carachi"</item>
     <item>"Uralsk"</item>
-    <item>"Ekaterinburg"</item>
-    <item>"Kolkata"</item>
-    <item>"Šri Lanka"</item>
+    <item>"Ecaterimburgo"</item>
+    <item>"Calcutá"</item>
+    <item>"Sri Lanka"</item>
     <item>"Katmandu"</item>
     <item>"Astana"</item>
-    <item>"Jangon"</item>
-    <item>"Krasnojarsk"</item>
+    <item>"Rangum"</item>
+    <item>"Krasnoyarsk"</item>
     <item>"Bangkok"</item>
-    <item>"Peking"</item>
+    <item>"Pequim"</item>
     <item>"Hong Kong"</item>
     <item>"Irkutsk"</item>
     <item>"Kuala Lumpur"</item>
     <item>"Perth"</item>
-    <item>"Tajpeh"</item>
+    <item>"Taipei"</item>
     <item>"Seul"</item>
-    <item>"Tokio, Osaka"</item>
-    <item>"Jakutsk"</item>
+    <item>"Tóquio, Osaka"</item>
+    <item>"Yakutsk"</item>
     <item>"Adelaide"</item>
     <item>"Darwin"</item>
     <item>"Brisbane"</item>
     <item>"Hobart"</item>
-    <item>"Sydney, Canberra"</item>
-    <item>"Vladivostok"</item>
+    <item>"Sidney, Camberra"</item>
+    <item>"Vladivostoque"</item>
     <item>"Guam"</item>
     <item>"Magadan"</item>
     <item>"Auckland"</item>
-    <item>"Fidži"</item>
+    <item>"Ilhas Fiji"</item>
     <item>"Tonga"</item>
-    <item>"Džakarta"</item>
+    <item>"Jacarta"</item>
   </string-array>
   <!-- Choices for timezones, must be kept in sync with timezone_values. -->
   <!-- Header in the preferences settings for the section pertaining to alarms -->
-  <string name="alarm_settings">Alarmi</string>
+  <string name="alarm_settings">Alarmes</string>
   <!-- Describes the service that processes actions originating from timer notifications. -->
-  <string name="timer_service_desc">Obrađuje radnje iz obavijesti tajmera.</string>
+  <string name="timer_service_desc">Ações dos processos de notificações do cronômetro.</string>
   <!-- Describes the service that processes actions originating from stopwatch notifications. -->
-  <string name="stopwatch_service_desc">Obrađuje radnje iz obavijesti štoperice.</string>
+  <string name="stopwatch_service_desc">Ações dos processos de notificações do cronômetro.</string>
   <!-- Description for the paused stop watch -->
-  <string name="swn_paused">Pauzirana</string>
+  <string name="swn_paused">Pausado</string>
   <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
          be on the right even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_right">Prevucite desno da odbacite</string>
+  <string name="description_direction_right">Deslize para a direita para dispensar</string>
   <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_left">Prevucite lijevo da odložite</string>
+  <string name="description_direction_left">Deslizar para a esquerda para adiar</string>
   <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_both">Prevucite lijevo da odložite ili desno da odbacite</string>
+  <string name="description_direction_both">Deslize para a esquerda para adiar ou para a direita para dispensar</string>
   <!-- Header in the preferences settings for the section pertaining to timers. -->
-  <string name="timer_settings">Tajmeri</string>
+  <string name="timer_settings">Cronômetros</string>
   <!-- Description for timer ringtone setting. -->
-  <string name="timer_ringtone_title">Melodija zvona za tajmer</string>
+  <string name="timer_ringtone_title">Toque do cronômetro</string>
   <!-- Description when timer is stopped. -->
-  <string name="timer_stopped">Tajmer zaustavljen</string>
+  <string name="timer_stopped">Cronômetro parado</string>
   <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
-  <string name="timer_paused">Tajmer pauziran</string>
+  <string name="timer_paused">Cronômetro em pausa</string>
   <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
-  <string name="timers_stopped">Pauziranih tajmera: <xliff:g id="NUMBER">%d</xliff:g></string>
+  <string name="timers_stopped"><xliff:g id="number" exemplo="7">%d</xliff:g> cronômetros pausados</string>
   <!-- Notification text when multiple timers are paused. -->
-  <string name="all_timers_stopped_notif">Dodirnite da vidite tajmer</string>
+  <string name="all_timers_stopped_notif">Toque para ver os seus cronômetros</string>
   <!-- Notification title when at least one timer, of those in use, is counting down. -->
-  <string name="timers_in_use">Tajmeri: <xliff:g id="NUMBER">%d</xliff:g></string>
+  <string name="timers_in_use"><xliff:g id="number" exemplo="7">%d</xliff:g> cronômetros</string>
   <!-- Notification text when at least one timer, of those in use, is counting down. -->
-  <string name="next_timer_notif">Sljedeći tajmer: <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
+  <string name="next_timer_notif">Cronômetro seguinte: <xliff:g id="time_remaining" exemplo="2 minutos faltando">%s</xliff:g></string>
   <!-- screensaver settings strings -->
   <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="screensaver_settings">Postavke za čuvara ekrana</string>
+  <string name="screensaver_settings">Definições do protetor de tela</string>
   <!-- Title for check box to pick intensity of display diminuation during dream mode -->
-  <string name="night_mode_title">Noćni način rada</string>
+  <string name="night_mode_title">Modo noturno</string>
   <!-- Describes intensity of display diminuation during dream mode -->
-  <string name="night_mode_summary">Veoma prigušen ekran (za mračne prostorije)</string>
+  <string name="night_mode_summary">Luz de fundo muito fraca (para quartos escuros)</string>
   <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
-  <string name="expand_alarm">Proširi alarm</string>
+  <string name="expand_alarm">Expandir alarme</string>
   <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
-  <string name="collapse_alarm">Skupi alarm</string>
+  <string name="collapse_alarm">Recolher alarme</string>
   <!-- Description of the button to undo change to alarm -->
-  <string name="alarm_undo">Vrati</string>
+  <string name="alarm_undo">desfazer</string>
   <!-- Toast content when an alarm was deleted  -->
-  <string name="alarm_deleted">Alarm izbrisan</string>
+  <string name="alarm_deleted">Alarme apagado</string>
   <!-- Select the source of the alarm -->
+  <string name="alarm_select">Selecionar alarme</string>
   <!-- Select the ringtone as alarm -->
+  <string name="alarm_select_ringtone">Toque</string>
   <!-- Select the alarm from external device -->
-  <string name="alarm_select_external">Muzika</string>
+  <string name="alarm_select_external">Música</string>
   <!-- Ok for selection -->
+  <string name="alarm_select_ok">OK</string>
   <!-- Cancel for selection -->
+  <string name="alarm_select_cancel">Cancelar</string>
   <!-- slash between date and next alarm in the clock -->
-  <string name="slash">/</string>
+  <string name="slash"> / </string>
   <!-- slash between date and next alarm in the clock -->
-  <string name="world_day_of_week_label">/ <xliff:g id="LABEL">%s</xliff:g></string>
+  <string name="world_day_of_week_label"> / <xliff:g id="label">%s</xliff:g></string>
   <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
-  <string name="next_alarm_description">Sljedeći alarm: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
+  <string name="next_alarm_description">Próximo alarme: <xliff:g id="alarm_time" exemplo="Qua 8:00am">%s</xliff:g></string>
   <!-- Displays the number of alarms selected from the list of alarms. -->
-  <string name="alarms_selected">Odabrano <xliff:g id="ALARMS">%d</xliff:g></string>
+  <string name="alarms_selected"><xliff:g id="alarms">%d</xliff:g> selecionados</string>
   <!-- message used by the talkback accessibility app to say that something was deleted -->
-  <string name="deleted_message">Izbrisan</string>
+  <string name="deleted_message">Excluído</string>
   <!-- Alarm deletion confirmation message-->
   <plurals name="alarm_delete_confirmation">
     <!-- Confirmation for one alarm -->
-    <item quantity="one">Izbrisati odabrane alarme?</item>
-    <item quantity="few">Izbrisati odabrane alarme?</item>
+    <item quantity="one">Excluir o alarme selecionado?</item>
     <!-- Confirmation more than one alarm  -->
-    <item quantity="other">Izbrisati odabrane alarme?</item>
+    <item quantity="other">Excluir os alarmes selecionados?</item>
   </plurals>
   <!-- Timer deletion confirmation -->
-  <string name="timer_delete_confirmation">Izbrisati ovaj tajmer?</string>
+  <string name="timer_delete_confirmation">Excluir este cronômetro?</string>
   <!-- world clock deletion confirmation -->
-  <string name="city_delete_confirmation">Ukloniti ovaj grad?</string>
+  <string name="city_delete_confirmation">Remover esta cidade?</string>
   <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="digital_gadget">Digitalni sat</string>
+  <string name="digital_gadget">Relógio digital</string>
   <!-- format strings for clocks -->
   <!-- Font size for AM/PM should match widget_label_font_size -->
   <!-- Font size for AM/PM should match bottom_text_size -->
   <!-- Font size for AM/PM should match label_font_size -->
   <!-- Font size for AM/PM should match alarm_label_size -->
   <!-- String for no alarms -->
-  <string name="no_alarms">Nema alarma</string>
+  <string name="no_alarms">Sem alarmes</string>
   <!-- String for no alarms set [CHAR LIMIT=24] -->
-  <string name="no_alarms_set">Nema postavljenih alarma</string>
+  <string name="no_alarms_set">Sem alarmes definidos</string>
   <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
-  <string name="no_upcoming_alarms">NEMA PREDSTOJEĆIH ALARMA</string>
+  <string name="no_upcoming_alarms">SEM ALARMES PROGRAMADOS</string>
   <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
      or 27:68pm.
     First %d represents hour, second %d represents minutes, %s represents am/pm,
     If no am/pm is passed in (e.g. the locale uses 24h time) only hour and minute are printed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_time">Nevažeće vrijeme <xliff:g id="INVALID_HOUR">%d</xliff:g>:<xliff:g id="INVALID_MINUTES">%d</xliff:g> <xliff:g id="INVALID_AMPM">%s</xliff:g></string>
+  <string name="invalid_time">Tempo inválido <xliff:g id="invalid_hour" exemplo="25">%d </xliff:g>: <xliff:g id="invalid_minutes" exemplo="63"> %d </xliff:g> <xliff:g id="invalid_ampm" exemplo="PM">%s </xliff:g></string>
   <!-- String that represents that no alarm has been specified for a requested hour:minutes.
     This happens when a user sends a voice command 'dismiss my alarm at 3:00pm' but they have no
     alarms specified for that time. %s represents the time of the alarm.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_at">Nema alarma u <xliff:g id="ALARM_TIME_HOUR">%d</xliff:g>:<xliff:g id="ALARM_TIME_MINUTES">%d</xliff:g></string>
+  <string name="no_alarm_at">Nenhum alarme às <xliff:g id="alarm_time_hour" exemplo="14">%d</xliff:g>:<xliff:g id="alarm_time_minutes" exemplo="23">%d</xliff:g></string>
   <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
     a user sends a voice command 'dismiss next alarm' or 'dismiss all of my alarms' but they have
     no alarms scheduled in the app.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_scheduled_alarms">Nema zakazanih alarma</string>
+  <string name="no_scheduled_alarms">Sem alarmes agendados</string>
   <!-- String that represents that the user specified that they want to select an alarm to
     dismiss by specifying a 'label' but they didn't specify any labels.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_label_specified">Nije navedena oznaka</string>
+  <string name="no_label_specified">Nenhuma etiqueta especificada</string>
   <!-- String that represents that no alarm has been specified for a requested label.
     This happens when a user sends a voice command 'dismiss my alarm with label pick up kids'
      but they have no alarms with that label.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarms_with_label">Nijedan alarm nema oznaku</string>
+  <string name="no_alarms_with_label">Nenhum alarme contém a etiqueta</string>
   <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
     'lap the stopwatch' when the stopwatch wasn't running so the command wasn't executed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_isnt_running">Štoperica nije pokrenuta</string>
+  <string name="stopwatch_isnt_running">Cronômetro não está em execução</string>
   <!-- String that represents that the user has successfully sent a voice command pausing
      the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_paused">Štoperica pauzirana</string>
+  <string name="stopwatch_paused">Cronômetro em pausa</string>
   <!-- String that represents that the user has successfully sent a voice command resetting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_reset">Poništavanje štoperice</string>
+  <string name="stopwatch_reset">Cronômetro reiniciado</string>
   <!-- String that represents that the user has successfully sent a voice command lapping
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_lapped">Štoperica je izmjerila krug</string>
+  <string name="stopwatch_lapped">Uma volta registrada no cronômetro</string>
   <!-- String that represents that the user has successfully sent a voice command starting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_started">Štoperica pokrenuta</string>
+  <string name="stopwatch_started">Cronômetro iniciado</string>
   <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
     there was no alarm scheduled for that time (they might have had an alarm for 3pm on the list
     but it was disabled).
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_scheduled_for_this_time">Nema zakazanih alarma za ovo vrijeme</string>
+  <string name="no_alarm_scheduled_for_this_time">Nenhum alarme programado para esta hora</string>
   <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_dismissed">Alarm za <xliff:g id="ALARM_TIME">%s</xliff:g> odbačen</string>
+  <string name="alarm_is_dismissed">Alarme das <xliff:g id="alarm_time" exemplo="14:20">%s</xliff:g> cancelado</string>
   <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_set">Alarm postavljen za <xliff:g id="ALARM_TIME">%s</xliff:g></string>
+  <string name="alarm_is_set">O alarme está definido para <xliff:g id="alarm_time" exemplo="14:20">%s</xliff:g></string>
   <!-- String that represents that the user attempted to control a timer with a voice action when
     no timers are defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_timers_exist">Nema tajmera</string>
+  <string name="no_timers_exist">Não existem alarmes</string>
   <!-- String that represents that the user attempted to control a timer with a voice action when
     more than one timer is defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="too_many_timers_exist">Postoji više od jednog tajmera</string>
+  <string name="too_many_timers_exist">Existe mais de um alarme</string>
   <!-- String that represents that the user attempted to control a timer with a voice action but
     the timer could not be located.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_does_not_exist">Tajmer je uklonjen.</string>
+  <string name="timer_does_not_exist">O alarme foi removido.</string>
   <!-- String that represents that the user has successfully created a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_created">Tajmer kreiran</string>
+  <string name="timer_created">Alarme criado</string>
   <!-- String that represents that the user has successfully reset a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_was_reset">Tajmer poništen</string>
+  <string name="timer_was_reset">Alarme reiniciado</string>
   <!-- String that represents that the user has successfully reset a timer through a voice action
     that was marked as deleteAfterUse and was thus deleted instead.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_deleted">Tajmer izbrisan</string>
+  <string name="timer_deleted">Alarme excluído</string>
   <!-- String that represents that the user has successfully started a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_started">Tajmer pokrenut</string>
+  <string name="timer_started">Alarme criado</string>
   <!-- String that represents that the user attempted to start a timer through a voice action
     but specified invalid length.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_timer_length">Nevažeća dužina tajmera</string>
+  <string name="invalid_timer_length">Duração inválida do alarme</string>
   <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but they didn't specify a city so no world clock was selected.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_city_selected">Nije odabran grad</string>
+  <string name="no_city_selected">Nenhuma cidade selecionada</string>
   <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but the city they specified wasn't listed in the database.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_you_specified_is_not_available">Grad koji ste naveli nije dostupan</string>
+  <string name="the_city_you_specified_is_not_available">A cidade que você especificou não está disponível</string>
   <!-- String that represents that the user attempted to add a world clock through a voice action
     but the city they specified is already added to the list.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_already_added">Taj grad je već dodan</string>
+  <string name="the_city_already_added">Essa cidade já foi adicionada</string>
   <!-- String that represents that the user successfully added a world clock through a
     voice action
     %s represents the name of the city they added.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_added"><xliff:g id="CITY_NAME">%s</xliff:g> dodan</string>
+  <string name="city_added"><xliff:g id="city_name" exemplo="Paris">%s</xliff:g> adicionada</string>
   <!-- String that represents that the user successfully deleted a world clock through
     a voice action
     %s represents the name of the city they deleted.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_deleted"><xliff:g id="CITY_NAME">%s</xliff:g> izbrisan</string>
+  <string name="city_deleted"><xliff:g id="city_name" exemplo="Paris">%s</xliff:g> excluída</string>
   <!-- String that represents that the user attempted to dismiss an alarm that is more than
     24 hours away
     %s represents the time of the alarm (e.g. 15:39)
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away"><xliff:g id="ALARM_TIME">%s</xliff:g> alarm se još ne može odbaciti; do njega ima više od 24 sata</string>
+  <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">Ainda não é possível ignorar o alarme das <xliff:g id="alarm_time" exemplo="14:20">%s</xliff:g>, pois ocorre num período posterior a 24 horas</string>
   <!-- String that shows up in the action bar for the Picker Activity
          where a use gets to pick which alarm to dismiss
    [CHAR LIMIT=NONE]
    -->
-  <string name="dismiss_alarm">Odbaci alarm</string>
+  <string name="dismiss_alarm">Descartar o alarme</string>
   <!-- String that represents that further action is needed from the user in case their
     voice command was ambiguous or there are more than 1 alarms that match their request.
     The user needs to choose an alarm they want to dismiss through the UI
    [CHAR LIMIT=NONE]
    -->
-  <string name="pick_alarm_to_dismiss">Odaberite koji će se alarm odbaciti</string>
+  <string name="pick_alarm_to_dismiss">Selecionar o alarme para ignorar</string>
   <!-- String that represents that the user doesn't have any alarms firing at the moment.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_firing_alarms">Nema aktivnih alarma</string>
+  <string name="no_firing_alarms">Nenhum alarme acionado</string>
   <!-- String that represents that the user has snoozed an alarm through a voice action for 10
     minutes.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_snoozed">Alarm za <xliff:g id="ALARM_TIME">%s</xliff:g> odložen na 10 minuta</string>
+  <string name="alarm_is_snoozed">Alarme das <xliff:g id="alarm_time" example="14:20">%s</xliff:g> adiado por 10 minutos</string>
   <!-- Setting title for the flip action setting. -->
+  <string name="flip_action_title">Ação de girar</string>
   <!-- Setting summary for the flip action setting. -->
+  <string name="flip_action_summary" product="default">Virar o telefone irá
+        <xliff:g id="action">%s</xliff:g>
+    </string>
   <!-- Setting title for the shake action setting. -->
+  <string name="shake_action_title">Ação ao agitar</string>
   <!-- Setting summary for the shake action setting. -->
+  <string name="shake_action_summary" product="default">Agitar o telefone irá
+        <xliff:g id="action">%s</xliff:g>
+    </string>
   <!-- Summary texts for shake and flip actions -->
+  <string name="action_summary_snooze">adiar o alarme</string>
+  <string name="action_summary_dismiss">dispensar o alarme</string>
+  <string name="action_summary_do_nothing">fazer nada</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+  <string name="custom_ringtone">Toque Personalizado</string>
   <!-- Ringtone selection default" -->
+  <string name="ringtone_default">"Toque padrão"</string>
   <!--used for prompt to user storage permission status-->
+  <string name="have_denied_storage_permission">Você negou a permissão de armazenamento, mas pode adicionar manualmente essa permissão novamente na configuração do aplicativo</string>
 </resources>

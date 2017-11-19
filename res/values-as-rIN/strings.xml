@@ -39,6 +39,7 @@
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
   <!-- Setting labels on Set alarm screen: Vibration on or off -->
+  <string name="alarm_vibrate">ভাইব্ৰেট</string>
   <!-- Setting labels on Set alarm screen: Repeat -->
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
   <!-- Title of default ringtone played when a timer expires. -->
@@ -126,6 +127,7 @@
   <!-- Revert button when editing an alarm. -->
   <!-- Delete button when editing an alarm. -->
   <!-- Setting title for changing the alarm volume. -->
+  <string name="alarm_volume_title">এলাৰ্ম ভলিউম</string>
   <!-- Title for the silent ringtone. -->
   <!-- Title for ringtones that cannot be located by uri. -->
   <!-- Text to display in the small text of the notification -->

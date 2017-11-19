@@ -58,7 +58,6 @@
   <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
-  <string name="alarm_missed_text"><xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g></string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
@@ -112,7 +111,6 @@
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
-  <string name="day_concat">", "</string>
   <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
   <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
@@ -230,7 +228,6 @@
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
-  <string name="seconds_label">s</string>
   <!-- Accessibility strings -->
   <string name="hours_label_description">horoj</string>
   <string name="minutes_label_description">minutoj</string>
@@ -275,6 +272,7 @@
   <!-- Settings strings -->
   <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
   <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
+  <string name="clock_style">Stilo</string>
   <!-- Title for preference to change date & time -->
   <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
@@ -289,9 +287,7 @@
   <!-- Textual content of the button to update an alarm with the current dialog values -->
   <!--  place holder for am/pm label when it is not set -->
   <!-- add 00 as minutes to the time when pressing this button -->
-  <string name="time_picker_00_label">:00</string>
   <!-- add 30 as minutes to the time when pressing this button -->
-  <string name="time_picker_30_label">:30</string>
   <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"

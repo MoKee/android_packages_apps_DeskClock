@@ -21,6 +21,7 @@
   <!-- -->
   <!-- Label shown on launcher icon -->
   <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
+  <string name="app_label">Reloj</string>
   <!-- Title for AlarmClock activity -->
   <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
   <!-- Menu item on Alarm Clock screen: Add alarm -->
@@ -33,23 +34,34 @@
   <!-- Menu item on Alarm Clock screen: Show clock -->
   <!-- Menu item on Alarm Clock screen: Hide clock -->
   <!-- Setting label on Set alarm screen: Label -->
+  <string name="label">Etiqueta</string>
   <!-- Content description for alarm on/off switch in On state -->
+  <string name="on_switch">Sí</string>
   <!-- Content description for alarm on/off switch in Off state -->
+  <string name="off_switch">Desactivado</string>
   <!-- Default label to display for an alarm -->
+  <string name="default_label">Alarma</string>
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
   <!-- Setting labels on Set alarm screen: Vibration on or off -->
+  <string name="alarm_vibrate">Vibrar</string>
   <!-- Setting labels on Set alarm screen: Repeat -->
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
   <!-- Title of default ringtone played when a timer expires. -->
   <!-- Title of silent ringtone played when a timer expires. -->
+  <string name="silent_timer_ringtone_title">Silencio</string>
   <!-- Label on expanded alarm edit view. -->
+  <string name="ringtone">Tono</string>
   <!-- Setting labels on Set alarm screen: Set time  -->
+  <string name="time">Hora</string>
   <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
+  <string name="alarm_today">Hoy</string>
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
+  <string name="alarm_alert_off_action_text">Desactivado</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
+  <string name="alarm_alert_dismiss_text">Descartar</string>
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
   <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
@@ -107,39 +119,67 @@
   <!-- Help activity name -->
   <!-- Settings activity name -->
   <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="settings">Ajustes</string>
   <!-- Setting title for changing the snooze duration. -->
   <!-- Setting title for changing the crescendo duration. -->
   <!-- Summary value for changing the crescendo duration to 0. -->
+  <string name="no_crescendo_duration">Desactivado</string>
   <!-- Summary value for changing the crescendo duration. -->
   <!-- Setting label when changing the crescendo duration. -->
+  <string name="crescendo_picker_label">segundos</string>
   <!-- Auto silence preference title -->
   <!-- Auto silence summary string set based on the preference value. -->
   <!-- Auto silence summary when turned off -->
+  <string name="auto_silence_never">Nunca</string>
+  <string name="default_auto_silence_value">10</string>
   <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
+  <string-array name="auto_silence_entries">
+    <item>1 minuto</item>
+    <item>5 minutos</item>
+    <item>10 minutos</item>
+    <item>15 minutos</item>
+    <item>20 minutes</item>
+    <item>25 minutes</item>
+    <item>Nunca</item>
+  </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
   <!-- Week start day preference title. -->
   <!-- Entries listed in ListPreference for start day. -->
   <!-- Values for ListPreference for start day of week. -->
   <!-- Done button when editing an alarm. -->
+  <string name="done">Completado</string>
   <!-- Revert button when editing an alarm. -->
   <!-- Delete button when editing an alarm. -->
+  <string name="delete">Borrar</string>
   <!-- Setting title for changing the alarm volume. -->
+  <string name="alarm_volume_title">Volumen de alarma</string>
   <!-- Title for the silent ringtone. -->
+  <string name="silent_ringtone_title">Silencio</string>
   <!-- Title for ringtones that cannot be located by uri. -->
+  <string name="unknown_ringtone_title">Desconocido</string>
   <!-- Text to display in the small text of the notification -->
   <!-- Text to display in the notification ticker and label -->
   <!-- Text to display in the notification when the alarm has been snoozed -->
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
+  <string name="volume_button_setting_title">Botones del Volumen</string>
   <!-- Title of the setting default alarm tone  -->
   <!-- Dialog title of the volume and power setting. -->
   <!-- Entries listed in the setting for the side-button action. -->
+  <string-array name="volume_button_setting_entries">
+    <item>Snooze</item>
+    <item>Descartar</item>
+    <item>Sin Acción</item>
+  </string-array>
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
   <!-- Accessibility labels for Clock activity buttons -->
+  <string name="gallery_button_description">Galeria</string>
   <!-- Accessibility labels for alarm buttons -->
+  <string name="label_description">Etiqueta</string>
+  <string name="ringtone_description">Tono</string>
   <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
          present on the device, we show nothing at all. -->
@@ -152,19 +192,25 @@
   <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
   <!--  ActionBar strings -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
+  <string name="menu_alarm">Alarma</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
+  <string name="menu_clock">Reloj</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
   <!-- Clock view buttons strings-->
   <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
   <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
   <!-- Describes the purpose of the button which pops up a menu of setting choices -->
   <!-- Menu item on most screens to get to more settings -->
+  <string name="menu_item_settings">Ajustes</string>
   <!-- Menu item on most screens to get to the help information -->
+  <string name="menu_item_help">Ayuda</string>
   <!-- Menu item on clock screen to add world city. -->
+  <string name="menu_item_add">Añadir</string>
   <!-- Menu item on clock screen to enter night mode. -->
   <!-- Menu item on Cities screen to sort by GMT offset -->
   <!-- Menu item on Cities screen to sort by alphabetical order -->
+  <string name="cities_add_loading">Cargando\u2026</string>
   <!-- Label for selected cities in Cities list view -->
   <!-- Stopwatch and Timer shared strings -->
   <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
@@ -174,16 +220,22 @@
             for timer: return timer to originally set duration.
         [CHAR LIMIT=15]
     -->
+  <string name="sw_reset_button">Restablecer</string>
   <!-- Stopwatch strings -->
   <!-- Describes the purpose of the button to begin running a stopwatch -->
+  <string name="sw_start_button">Iniciar</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
   <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
   <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
+  <string name="sw_share_button">Compartir</string>
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
   <!-- Accessibility strings -->
+  <string name="hours_label_description">horas</string>
+  <string name="minutes_label_description">minutos</string>
+  <string name="seconds_label_description">segundos</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
   <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
@@ -192,14 +244,19 @@
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
   <!-- Describes the purpose of the button to begin or continue running a timer -->
+  <string name="timer_start">Iniciar</string>
   <!-- Describes the purpose of the button to delete a timer. -->
+  <string name="timer_delete">Borrar</string>
   <!-- Talkback description for deleting a number. -->
   <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
   <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
   <!-- Describes the purpose of the button to stop the timer. -->
+  <string name="timer_stop">Parar</string>
   <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
   <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
+  <string name="timer_reset">Restablecer</string>
   <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
+  <string name="timer_cancel">Cancelar</string>
   <!-- Accessibility announcement when a timer is canceled. -->
   <!-- Notification content shown when a timer has completed and has no more time remaining -->
   <!--
@@ -212,10 +269,13 @@
   <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
   <!-- Jocular content that user may append when sharing the lap times -->
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
+  <string name="home_label">Casa</string>
   <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
   <!-- Settings strings -->
   <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
+  <string name="clock_settings">Reloj</string>
   <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
+  <string name="clock_style">Estilo</string>
   <!-- Title for preference to change date & time -->
   <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
@@ -226,7 +286,9 @@
   <!-- Title in the preferences change the time zone for the user's home -->
   <!-- Title in a list dialog box to pick a time zone for the user's home -->
   <!-- Textual content of the button to discard the current dialog values and close the dialog -->
+  <string name="time_picker_cancel">Cancelar</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
+  <string name="time_picker_set">Aceptar</string>
   <!--  place holder for am/pm label when it is not set -->
   <!-- add 00 as minutes to the time when pressing this button -->
   <!-- add 30 as minutes to the time when pressing this button -->
@@ -271,14 +333,18 @@
   <!-- Toast content when an alarm was deleted  -->
   <!-- Select the source of the alarm -->
   <!-- Select the ringtone as alarm -->
+  <string name="alarm_select_ringtone">Tono</string>
   <!-- Select the alarm from external device -->
   <!-- Ok for selection -->
+  <string name="alarm_select_ok">Aceptar</string>
   <!-- Cancel for selection -->
+  <string name="alarm_select_cancel">Cancelar</string>
   <!-- slash between date and next alarm in the clock -->
   <!-- slash between date and next alarm in the clock -->
   <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
   <!-- Displays the number of alarms selected from the list of alarms. -->
   <!-- message used by the talkback accessibility app to say that something was deleted -->
+  <string name="deleted_message">Eliminada</string>
   <!-- Alarm deletion confirmation message-->
   <!-- Timer deletion confirmation -->
   <!-- world clock deletion confirmation -->

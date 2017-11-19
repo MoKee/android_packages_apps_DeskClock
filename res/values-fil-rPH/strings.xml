@@ -34,8 +34,8 @@
   <!-- Menu item on Alarm Clock screen: Hide clock -->
   <!-- Setting label on Set alarm screen: Label -->
   <!-- Content description for alarm on/off switch in On state -->
-  <string name="on_switch">Naka-on</string>
   <!-- Content description for alarm on/off switch in Off state -->
+  <string name="off_switch">Patay</string>
   <!-- Default label to display for an alarm -->
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
@@ -44,13 +44,15 @@
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
   <!-- Title of default ringtone played when a timer expires. -->
   <!-- Title of silent ringtone played when a timer expires. -->
+  <string name="silent_timer_ringtone_title">Tahimik</string>
   <!-- Label on expanded alarm edit view. -->
   <!-- Setting labels on Set alarm screen: Set time  -->
-  <string name="time">Oras</string>
   <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
+  <string name="alarm_today">Ngayon</string>
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
+  <string name="alarm_alert_off_action_text">Patay</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
   <!-- Alarm Alert screen: this message is shown after an alarm rung
@@ -109,25 +111,27 @@
   <!-- Help activity name -->
   <!-- Settings activity name -->
   <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="settings">Mga setting</string>
   <!-- Setting title for changing the snooze duration. -->
   <!-- Setting title for changing the crescendo duration. -->
   <!-- Summary value for changing the crescendo duration to 0. -->
+  <string name="no_crescendo_duration">Patay</string>
   <!-- Summary value for changing the crescendo duration. -->
   <!-- Setting label when changing the crescendo duration. -->
-  <string name="crescendo_picker_label">mga segundo</string>
   <!-- Auto silence preference title -->
   <!-- Auto silence summary string set based on the preference value. -->
   <!-- Auto silence summary when turned off -->
+  <string name="auto_silence_never">Hindi kailanman</string>
   <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
   <string-array name="auto_silence_entries">
-    <item>1 minuto</item>
-    <item>5 minuto</item>
-    <item>10 minuto</item>
-    <item>15 minuto</item>
+    <item>1 minute</item>
+    <item>5 minutes</item>
+    <item>10 minutes</item>
+    <item>15 minutes</item>
     <item>20 minutes</item>
     <item>25 minutes</item>
-    <item>Never</item>
+    <item>Hindi kailanman</item>
   </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
@@ -135,12 +139,14 @@
   <!-- Entries listed in ListPreference for start day. -->
   <!-- Values for ListPreference for start day of week. -->
   <!-- Done button when editing an alarm. -->
+  <string name="done">Natapos</string>
   <!-- Revert button when editing an alarm. -->
   <!-- Delete button when editing an alarm. -->
-  <string name="delete">Tanggalin</string>
   <!-- Setting title for changing the alarm volume. -->
   <!-- Title for the silent ringtone. -->
+  <string name="silent_ringtone_title">Tahimik</string>
   <!-- Title for ringtones that cannot be located by uri. -->
+  <string name="unknown_ringtone_title">Hindi alam</string>
   <!-- Text to display in the small text of the notification -->
   <!-- Text to display in the notification ticker and label -->
   <!-- Text to display in the notification when the alarm has been snoozed -->
@@ -173,8 +179,8 @@
   <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
   <!-- Describes the purpose of the button which pops up a menu of setting choices -->
   <!-- Menu item on most screens to get to more settings -->
+  <string name="menu_item_settings">Mga setting</string>
   <!-- Menu item on most screens to get to the help information -->
-  <string name="menu_item_help">Tulong</string>
   <!-- Menu item on clock screen to add world city. -->
   <!-- Menu item on clock screen to enter night mode. -->
   <!-- Menu item on Cities screen to sort by GMT offset -->
@@ -191,18 +197,15 @@
   <string name="sw_reset_button">I-reset</string>
   <!-- Stopwatch strings -->
   <!-- Describes the purpose of the button to begin running a stopwatch -->
+  <string name="sw_start_button">Simula</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
   <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
   <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
-  <string name="sw_share_button">Ibahagi</string>
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
   <!-- Accessibility strings -->
-  <string name="hours_label_description">mga oras</string>
-  <string name="minutes_label_description">mga minuto</string>
-  <string name="seconds_label_description">mga segundo</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
   <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
@@ -211,8 +214,8 @@
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
   <!-- Describes the purpose of the button to begin or continue running a timer -->
+  <string name="timer_start">Simula</string>
   <!-- Describes the purpose of the button to delete a timer. -->
-  <string name="timer_delete">Tanggalin</string>
   <!-- Talkback description for deleting a number. -->
   <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
   <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
@@ -221,6 +224,7 @@
   <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
   <string name="timer_reset">I-reset</string>
   <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
+  <string name="timer_cancel">Kanselahin</string>
   <!-- Accessibility announcement when a timer is canceled. -->
   <!-- Notification content shown when a timer has completed and has no more time remaining -->
   <!--
@@ -233,11 +237,12 @@
   <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
   <!-- Jocular content that user may append when sharing the lap times -->
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
+  <string name="home_label">Tahanan</string>
   <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
   <!-- Settings strings -->
   <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
   <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
-  <string name="clock_style">Istilo</string>
+  <string name="clock_style">Estilo</string>
   <!-- Title for preference to change date & time -->
   <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
@@ -248,7 +253,9 @@
   <!-- Title in the preferences change the time zone for the user's home -->
   <!-- Title in a list dialog box to pick a time zone for the user's home -->
   <!-- Textual content of the button to discard the current dialog values and close the dialog -->
+  <string name="time_picker_cancel">Kanselahin</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
+  <string name="time_picker_set">OK</string>
   <!--  place holder for am/pm label when it is not set -->
   <!-- add 00 as minutes to the time when pressing this button -->
   <!-- add 30 as minutes to the time when pressing this button -->
@@ -295,13 +302,14 @@
   <!-- Select the ringtone as alarm -->
   <!-- Select the alarm from external device -->
   <!-- Ok for selection -->
+  <string name="alarm_select_ok">OK</string>
   <!-- Cancel for selection -->
+  <string name="alarm_select_cancel">Kanselahin</string>
   <!-- slash between date and next alarm in the clock -->
   <!-- slash between date and next alarm in the clock -->
   <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
   <!-- Displays the number of alarms selected from the list of alarms. -->
   <!-- message used by the talkback accessibility app to say that something was deleted -->
-  <string name="deleted_message">Tinanggal</string>
   <!-- Alarm deletion confirmation message-->
   <!-- Timer deletion confirmation -->
   <!-- world clock deletion confirmation -->

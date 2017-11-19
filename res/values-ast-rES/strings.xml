@@ -39,6 +39,7 @@
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
   <!-- Setting labels on Set alarm screen: Vibration on or off -->
+  <string name="alarm_vibrate">Vibrar</string>
   <!-- Setting labels on Set alarm screen: Repeat -->
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
   <string name="alert">Timbre d\'alarma</string>
@@ -86,8 +87,6 @@
          7: days hours minutes
     -->
   <!-- Timer notification: how long from now until timer goes off. -->
-  <string name="timer_notifications_hours"><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
-  <string name="timer_notifications_minutes"><xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
   <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
@@ -238,6 +237,7 @@
     -->
   <!-- Stopwatch strings -->
   <!-- Describes the purpose of the button to begin running a stopwatch -->
+  <string name="sw_start_button">Aniciar</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
   <string name="sw_pause_button">Posar</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
@@ -249,7 +249,6 @@
   <!-- Accessibility strings -->
   <string name="minutes_label_description">minutos</string>
   <string name="seconds_label_description">segundos</string>
-  <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
   <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
@@ -264,11 +263,13 @@
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
   <!-- Describes the purpose of the button to begin or continue running a timer -->
+  <string name="timer_start">Aniciar</string>
   <!-- Describes the purpose of the button to delete a timer. -->
   <!-- Talkback description for deleting a number. -->
   <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
   <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
   <!-- Describes the purpose of the button to stop the timer. -->
+  <string name="timer_stop">Parar</string>
   <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
   <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
   <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
