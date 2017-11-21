@@ -185,12 +185,14 @@
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
+  <string name="day_concat">", "</string>
   <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
   <string name="clock_instructions">Een klok selecteren</string>
   <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
   <string name="analog_gadget">Analoge klok</string>
   <!-- Help activity name -->
+  <string name="help">Help</string>
   <!-- Settings activity name -->
   <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
   <string name="settings">Instellingen</string>
@@ -272,6 +274,7 @@
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Volumeknoppen</string>
   <!-- Title of the setting default alarm tone  -->
+  <string name="default_alarm_tone_title">Standaard geluid voor wekker</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">Knopeffect</string>
   <!-- Entries listed in the setting for the side-button action. -->
@@ -288,6 +291,7 @@
   <string name="gallery_button_description">Galerij</string>
   <string name="music_button_description">Muziek</string>
   <string name="nightmode_button_description">Dimmen</string>
+  <string name="home_button_description">Launcher</string>
   <string name="desk_clock_button_description">Klokweergave</string>
   <!-- Accessibility labels for alarm buttons -->
   <string name="label_description">Label</string>
@@ -311,9 +315,11 @@
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
   <string name="menu_alarm">Alarm</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
+  <string name="menu_timer">Timer</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
   <string name="menu_clock">Klok</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
+  <string name="menu_stopwatch">Stopwatch</string>
   <!-- Clock view buttons strings-->
   <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
   <string name="button_alarms">Alarm toevoegen</string>
@@ -333,7 +339,19 @@
   <string name="menu_item_sort_by_gmt_offset">Sorteren op tijd</string>
   <!-- Menu item on Cities screen to sort by alphabetical order -->
   <string name="menu_item_sort_by_name">Sorteren op naam</string>
+  <string name="cities_add_gps_no_results">GPS-zoekopdracht levert geen resultaat op</string>
+  <string name="cities_add_gps_not_available">GPS niet beschikbaaar</string>
+  <string name="cities_add_searching">Zoeken\u2026</string>
+  <string name="cities_add_city_title">Stad toevoegen</string>
+  <string name="cities_add_city_gps_cd">Tik om uw huidige stad te bepalen</string>
   <string name="cities_add_loading">Aan het laden\u2026</string>
+  <string name="cities_add_city_city">Stad:</string>
+  <string name="cities_add_city_timezone">Tijdzone:</string>
+  <string name="cities_add_already_exists">De stad bestaat al in de database</string>
+  <string name="cities_add_city_failed">Kan de stad niet aanmaken</string>
+  <string name="cities_delete_city_failed">Kan de stad niet verwijderen</string>
+  <string name="cities_delete_city_msg">Weet u zeker dat u <xliff:g id="city">%s</xliff:g> wilt verwijderen?    </string>
+  <string name="cities_delete_city_title">Stad verwijderen</string>
   <!-- Label for selected cities in Cities list view -->
   <string name="selected_cities_label">Geselecteerde plaatsen</string>
   <!-- Stopwatch and Timer shared strings -->
@@ -359,11 +377,14 @@
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
   <string name="hours_label">u</string>
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+  <string name="minutes_label">m</string>
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+  <string name="seconds_label">s</string>
   <!-- Accessibility strings -->
   <string name="hours_label_description">uren</string>
   <string name="minutes_label_description">minuten</string>
   <string name="seconds_label_description">seconden</string>
+  <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
   <string name="sw_share_main">Mijn tijd is <xliff:g id="TIME">%s</xliff:g></string>
@@ -421,6 +442,7 @@
     -->
   <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS">%d</xliff:g> timers verlopen</string>
   <!-- Label associated with a notification for a Timer -->
+  <string name="timer_notification_label">Timer</string>
   <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
   <string name="timers_max_count_reached">Maximaal 4 timers</string>
   <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
@@ -471,9 +493,13 @@
   <string name="time_picker_cancel">Annuleren</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
   <string name="time_picker_set">Oké</string>
+  <string name="time_picker_time_seperator">:</string>
   <!--  place holder for am/pm label when it is not set -->
+  <string name="time_picker_ampm_label">--</string>
   <!-- add 00 as minutes to the time when pressing this button -->
+  <string name="time_picker_00_label">:00</string>
   <!-- add 30 as minutes to the time when pressing this button -->
+  <string name="time_picker_30_label">:30</string>
   <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
@@ -487,7 +513,7 @@
   <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
   <string-array name="timezone_labels">
     <item>"Marshalleilanden"</item>
-    <item>"Midway Island"</item>
+    <item>"Midway-eilanden"</item>
     <item>"Hawaï"</item>
     <item>"Alaska"</item>
     <item>"Pacific Time"</item>
@@ -496,14 +522,14 @@
     <item>"Chihuahua"</item>
     <item>"Mountain Time"</item>
     <item>"Centraal-Amerika"</item>
-    <item>"Central Time"</item>
+    <item>"Central-tijd"</item>
     <item>"Mexico-stad"</item>
     <item>"Saskatchewan"</item>
     <item>"Bogotá"</item>
-    <item>"Eastern Time"</item>
+    <item>"Eastern-tijd"</item>
     <item>"Venezuela"</item>
-    <item>"Atlantic Time (Barbados)"</item>
-    <item>"Atlantic Time (Canada)"</item>
+    <item>"Atlantische tijd (Canada)"</item>
+    <item>"Atlantische tijd (Canada)"</item>
     <item>"Manaus"</item>
     <item>"Santiago"</item>
     <item>"Newfoundland"</item>
@@ -594,6 +620,7 @@
          translation. -->
   <string name="description_direction_both">Veeg naar links om te snoozen of naar rechts om te sluiten</string>
   <!-- Header in the preferences settings for the section pertaining to timers. -->
+  <string name="timer_settings">Timers</string>
   <!-- Description for timer ringtone setting. -->
   <string name="timer_ringtone_title">Beltoon van timer</string>
   <!-- Description when timer is stopped. -->
@@ -624,6 +651,7 @@
   <!-- Toast content when an alarm was deleted  -->
   <string name="alarm_deleted">Verwijderd</string>
   <!-- Select the source of the alarm -->
+  <string name="alarm_select">Alarm selecteren</string>
   <!-- Select the ringtone as alarm -->
   <string name="alarm_select_ringtone">Beltoon</string>
   <!-- Select the alarm from external device -->
@@ -831,11 +859,21 @@
     -->
   <string name="alarm_is_snoozed"><xliff:g id="ALARM_TIME">%s</xliff:g> alarm tien minuten gesnoozed</string>
   <!-- Setting title for the flip action setting. -->
+  <string name="flip_action_title">Toestel omdraaien</string>
   <!-- Setting summary for the flip action setting. -->
+  <string name="flip_action_summary" product="default">De telefoon omdraaien zal        <xliff:g id="action">%s</xliff:g>    </string>
   <!-- Setting title for the shake action setting. -->
+  <string name="shake_action_title">Toestel schudden</string>
   <!-- Setting summary for the shake action setting. -->
+  <string name="shake_action_summary" product="default">De telefoon schudden zal        <xliff:g id="action">%s</xliff:g>    </string>
   <!-- Summary texts for shake and flip actions -->
+  <string name="action_summary_snooze">het alarm sluimeren</string>
+  <string name="action_summary_dismiss">het alarm uitschakelen</string>
+  <string name="action_summary_do_nothing">niets doen</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+  <string name="custom_ringtone">Aangepaste beltoon</string>
   <!-- Ringtone selection default" -->
+  <string name="ringtone_default">"Standaard beltoon"</string>
   <!--used for prompt to user storage permission status-->
+  <string name="have_denied_storage_permission">U heeft een opslag machtiging afgewezen, u kunt handmatig deze machtiging bij instellingen toevoegen</string>
 </resources>

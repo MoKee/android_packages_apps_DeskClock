@@ -352,7 +352,7 @@
   <string name="cities_add_searching">Vyhledávání\u2026</string>
   <string name="cities_add_city_title">Přidat město</string>
   <string name="cities_add_city_gps_cd">Dotykem změnit umístění aktuálního města</string>
-  <string name="cities_add_loading">Nahrávám\u2026</string>
+  <string name="cities_add_loading">Načítání\u2026</string>
   <string name="cities_add_city_city">Město:</string>
   <string name="cities_add_city_timezone">Časová zóna:</string>
   <string name="cities_add_already_exists">V databázi již takové město existuje</string>
@@ -639,7 +639,7 @@
   <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
   <string name="timer_paused">Časovač pozastaven</string>
   <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
-  <string name="timers_stopped">Poastavené časovače (<xliff:g id="NUMBER">%d</xliff:g>)</string>
+  <string name="timers_stopped">Pzoastavené časovače (<xliff:g id="number">%d</xliff:g>)</string>
   <!-- Notification text when multiple timers are paused. -->
   <string name="all_timers_stopped_notif">Dotykem zobrazíte časovače</string>
   <!-- Notification title when at least one timer, of those in use, is counting down. -->
@@ -664,7 +664,7 @@
   <!-- Select the source of the alarm -->
   <string name="alarm_select">Zvolte budík</string>
   <!-- Select the ringtone as alarm -->
-  <string name="alarm_select_ringtone">Vyzvánění</string>
+  <string name="alarm_select_ringtone">Vyzváněcí tón</string>
   <!-- Select the alarm from external device -->
   <string name="alarm_select_external">Hudba</string>
   <!-- Ok for selection -->
