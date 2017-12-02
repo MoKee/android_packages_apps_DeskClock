@@ -24,7 +24,7 @@
   <string name="app_label">Часы</string>
   <!-- Title for AlarmClock activity -->
   <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="alarm_list_title">Будильники</string>
+  <string name="alarm_list_title">Будильник</string>
   <!-- Menu item on Alarm Clock screen: Add alarm -->
   <string name="add_alarm">Добавить сигнал</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
@@ -61,7 +61,7 @@
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
   <string name="alert">Звонок будильника</string>
   <!-- Title of default ringtone played when a timer expires. -->
-  <string name="default_timer_ringtone_title">Истек срок действия таймера</string>
+  <string name="default_timer_ringtone_title">Время истекло</string>
   <!-- Title of silent ringtone played when a timer expires. -->
   <string name="silent_timer_ringtone_title">Без звука</string>
   <!-- Label on expanded alarm edit view. -->
@@ -175,10 +175,10 @@
   <!-- Alarm confirmation toast and timer notification: minutes -->
   <plurals name="minutes">
     <!-- Duration for one minute -->
-    <item quantity="one">Через 1 минуту</item>
-    <item quantity="few">Через 1 минуту</item>
+    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
+    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">Через 1 минуту</item>
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
   </plurals>
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
@@ -201,10 +201,10 @@
   <string name="snooze_duration_title">Интервал повтора сигнала</string>
   <plurals name="snooze_duration">
     <!-- Duration for one minute -->
-    <item quantity="one">Через 1 минуту</item>
-    <item quantity="few">Через 1 минуту</item>
+    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
+    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">Через 1 минуту</item>
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
   </plurals>
   <plurals name="snooze_picker_label">
     <!-- Duration for one minute -->
@@ -291,7 +291,7 @@
   <!-- Title of the ringtone setting. -->
   <string name="default_ringtone_setting_title">Установить по умолчанию рингтон</string>
   <!-- Accessibility labels for Clock activity buttons -->
-  <string name="alarm_button_description">Будильники</string>
+  <string name="alarm_button_description">Будильник</string>
   <string name="gallery_button_description">Галерея</string>
   <string name="music_button_description">Музыка</string>
   <string name="nightmode_button_description">Уменьшение яркости</string>
@@ -426,6 +426,7 @@
   <!-- Describes the purpose of the button to delete a timer. -->
   <string name="timer_delete">Удалить</string>
   <!-- Talkback description for deleting a number. -->
+  <string name="timer_descriptive_delete">Удалить <xliff:g id="NUMBER_STRING">%s</xliff:g></string>
   <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
   <string name="timer_plus_one">Добавить 1 минуту</string>
   <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
@@ -460,13 +461,13 @@
     <item>Да вы просто Шумахер!</item>
     <item>Наслаждаться плодами Вашего труда.</item>
     <item>Вы даже быстрее, чем Android!</item>
-    <item>Phew.</item>
+    <item>Тьфу.</item>
     <item>L33t times.</item>
-    <item>Such prodigious velocity.</item>
-    <item>Let\'s do the time warp again.</item>
-    <item>Just a jump to the left.</item>
-    <item>You have a palette for haste.</item>
-    <item>Photonic velocity.</item>
+    <item>Вот это скорость!</item>
+    <item>Искажение времени – то, что нам нужно!</item>
+    <item>Прыжок влево</item>
+    <item>Вы времени даром не теряете!</item>
+    <item>Быстрее света.</item>
   </string-array>
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
   <string name="home_label">Дом</string>
@@ -478,48 +479,61 @@
   <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
   <string name="clock_style">Стиль</string>
   <!-- Title for preference to change date & time -->
+  <string name="open_date_settings">Изменить дату и время</string>
   <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
+  <string-array name="clock_style_entries">
+    <item>Аналоговый</item>
+    <item>Цифры</item>
+  </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match
          the clock_style_entries above. -->
   <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
+  <string name="automatic_home_clock">Показывать время дома</string>
   <!-- Describes the functionality provided by the automatic_home_clock option -->
+  <string name="automatic_home_clock_summary">Показывать на отдельных часах, сколько времени дома, когда я нахожусь в другом часовом поясе</string>
   <!-- Title in the preferences change the time zone for the user's home -->
+  <string name="home_time_zone">Мой часовой пояс</string>
   <!-- Title in a list dialog box to pick a time zone for the user's home -->
+  <string name="home_time_zone_title">Мой часовой пояс</string>
   <!-- Textual content of the button to discard the current dialog values and close the dialog -->
   <string name="time_picker_cancel">Отмена</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
   <string name="time_picker_set">ОК</string>
+  <string name="time_picker_time_seperator">:</string>
   <!--  place holder for am/pm label when it is not set -->
+  <string name="time_picker_ampm_label">--</string>
   <!-- add 00 as minutes to the time when pressing this button -->
   <!-- add 30 as minutes to the time when pressing this button -->
   <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
     -->
+  <string name="city_checked"><xliff:g id="city_name">%s </xliff:g> проверка</string>
   <!--
         Accessibility string read when a city checkbox is unchecked.
         Ex. "Ann Arbor unchecked"
     -->
+  <string name="city_unchecked"><xliff:g id="city_name">%s </xliff:g> снят</string>
   <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
   <string-array name="timezone_labels">
-    <item>"Marshall Islands"</item>
-    <item>"Midway Island"</item>
-    <item>"Hawaii"</item>
-    <item>"Alaska"</item>
-    <item>"Pacific Time"</item>
-    <item>"Tijuana"</item>
-    <item>"Arizona"</item>
-    <item>"Chihuahua"</item>
-    <item>"Mountain Time"</item>
-    <item>"Central America"</item>
-    <item>"Central Time"</item>
-    <item>"Mexico City"</item>
-    <item>"Saskatchewan"</item>
+    <item>"Маршалловы острова"</item>
+    <item>"Остров Мидуэй"</item>
+    <item>"Гавайи"</item>
+    <item>"Аляска"</item>
+    <item>"Тихоокеанское время"</item>
+    <item>"Тихуана"</item>
+    <item>"Аризона"</item>
+    <item>"Чиуауа"</item>
+    <item>"Горное время (США)"</item>
+    <item>"Центральная Америка"</item>
+    <item>"Центральноамер. время"</item>
+    <item>"Мехико-Сити"</item>
+    <item>"Саскачеван"</item>
     <item>"Богота"</item>
     <item>"Восточное время"</item>
     <item>"Венесуэлла "</item>
-    <item>"Атлант. время (Барбадос)"</item>
+    <item>"Атлантическое время (Барбадос)"</item>
     <item>"Атлантическое время (Канада)"</item>
     <item>"Манаус"</item>
     <item>"Сантьяго"</item>
@@ -566,62 +580,83 @@
     <item>"Астана"</item>
     <item>"Янгон"</item>
     <item>"Красноярск"</item>
-    <item>"Bangkok"</item>
-    <item>"Beijing"</item>
-    <item>"Hong Kong"</item>
-    <item>"Irkutsk"</item>
-    <item>"Kuala Lumpur"</item>
-    <item>"Perth"</item>
-    <item>"Taipei"</item>
-    <item>"Seoul"</item>
-    <item>"Tokyo, Osaka"</item>
-    <item>"Yakutsk"</item>
-    <item>"Adelaide"</item>
-    <item>"Darwin"</item>
-    <item>"Brisbane"</item>
-    <item>"Hobart"</item>
-    <item>"Sydney, Canberra"</item>
-    <item>"Vladivostok"</item>
-    <item>"Guam"</item>
-    <item>"Magadan"</item>
-    <item>"Auckland"</item>
-    <item>"Fiji"</item>
-    <item>"Tonga"</item>
-    <item>"Jakarta"</item>
+    <item>"Бангкок"</item>
+    <item>"Пекин"</item>
+    <item>"Гонконг"</item>
+    <item>"Иркутск"</item>
+    <item>"Куала-Лумпур"</item>
+    <item>"Перт"</item>
+    <item>"Тайбэй"</item>
+    <item>"Сеул"</item>
+    <item>"Токио, Осака"</item>
+    <item>"Якутск"</item>
+    <item>"Аделаида"</item>
+    <item>"Дарвин"</item>
+    <item>"Брисбен"</item>
+    <item>"Хобарт"</item>
+    <item>"Сидней, Канберра"</item>
+    <item>"Владивосток"</item>
+    <item>"Гуам"</item>
+    <item>"Магадан"</item>
+    <item>"Окленд"</item>
+    <item>"Фиджи"</item>
+    <item>"Тонга"</item>
+    <item>"Джакарта"</item>
   </string-array>
   <!-- Choices for timezones, must be kept in sync with timezone_values. -->
   <!-- Header in the preferences settings for the section pertaining to alarms -->
-  <string name="alarm_settings">Будильники</string>
+  <string name="alarm_settings">Будильник</string>
   <!-- Describes the service that processes actions originating from timer notifications. -->
+  <string name="timer_service_desc">Обрабатывает действия от таймера уведомления.</string>
   <!-- Describes the service that processes actions originating from stopwatch notifications. -->
+  <string name="stopwatch_service_desc">Обрабатывает действия от таймера уведомления.</string>
   <!-- Description for the paused stop watch -->
+  <string name="swn_paused">Приостановлено</string>
   <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
          be on the right even on RTL languages so please do not reverse this during
          translation. -->
+  <string name="description_direction_right">Проведите направо, чтобы отключить сигнал</string>
   <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
+  <string name="description_direction_left">Проведите налево, чтобы отложить</string>
   <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
+  <string name="description_direction_both">Проведите влево, чтобы отложить сигнал, или вправо, чтобы отменить его</string>
   <!-- Header in the preferences settings for the section pertaining to timers. -->
+  <string name="timer_settings">Таймеры</string>
   <!-- Description for timer ringtone setting. -->
+  <string name="timer_ringtone_title">Рингтон таймера</string>
   <!-- Description when timer is stopped. -->
+  <string name="timer_stopped">Таймер остановлен</string>
   <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
+  <string name="timer_paused">Приостановить таймер</string>
   <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
+  <string name="timers_stopped">Таймеров остановлено: <xliff:g id="number" example="7">%d</xliff:g></string>
   <!-- Notification text when multiple timers are paused. -->
+  <string name="all_timers_stopped_notif">Нажмите, чтобы посмотреть таймеры</string>
   <!-- Notification title when at least one timer, of those in use, is counting down. -->
+  <string name="timers_in_use">Таймеров: <xliff:g id="NUMBER">%d</xliff:g></string>
   <!-- Notification text when at least one timer, of those in use, is counting down. -->
+  <string name="next_timer_notif">Следующий таймер: <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
   <!-- screensaver settings strings -->
   <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="screensaver_settings">Настройки сна</string>
   <!-- Title for check box to pick intensity of display diminuation during dream mode -->
   <string name="night_mode_title">Ночной режим</string>
   <!-- Describes intensity of display diminuation during dream mode -->
+  <string name="night_mode_summary">Тусклый дисплей (для темных помещений)</string>
   <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
+  <string name="expand_alarm">Развернуть будильник</string>
   <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
+  <string name="collapse_alarm">Свернуть будильник</string>
   <!-- Description of the button to undo change to alarm -->
+  <string name="alarm_undo">отмена</string>
   <!-- Toast content when an alarm was deleted  -->
+  <string name="alarm_deleted">Будильник удален</string>
   <!-- Select the source of the alarm -->
+  <string name="alarm_select">Выбрать мелодию</string>
   <!-- Select the ringtone as alarm -->
   <string name="alarm_select_ringtone">Рингтон</string>
   <!-- Select the alarm from external device -->
@@ -633,12 +668,23 @@
   <!-- slash between date and next alarm in the clock -->
   <!-- slash between date and next alarm in the clock -->
   <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
+  <string name="next_alarm_description">Следующий будильник: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
   <!-- Displays the number of alarms selected from the list of alarms. -->
+  <string name="alarms_selected">Выбрано: <xliff:g id="ALARMS">%d</xliff:g></string>
   <!-- message used by the talkback accessibility app to say that something was deleted -->
   <string name="deleted_message">Удалено</string>
   <!-- Alarm deletion confirmation message-->
+  <plurals name="alarm_delete_confirmation">
+    <!-- Confirmation for one alarm -->
+    <item quantity="one">Удалить выбранные будильники?</item>
+    <item quantity="few">Удалить выбранные будильники?</item>
+    <!-- Confirmation more than one alarm  -->
+    <item quantity="other">Удалить выбранные будильники?</item>
+  </plurals>
   <!-- Timer deletion confirmation -->
+  <string name="timer_delete_confirmation">Удалить этот таймер?</string>
   <!-- world clock deletion confirmation -->
+  <string name="city_delete_confirmation">Убрать этот город?</string>
   <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
   <string name="digital_gadget">Цифровые часы</string>
   <!-- format strings for clocks -->
