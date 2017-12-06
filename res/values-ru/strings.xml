@@ -46,9 +46,9 @@
   <!-- Setting label on Set alarm screen: Label -->
   <string name="label">Метка</string>
   <!-- Content description for alarm on/off switch in On state -->
-  <string name="on_switch">Вкл.</string>
+  <string name="on_switch">ВКЛ</string>
   <!-- Content description for alarm on/off switch in Off state -->
-  <string name="off_switch">Отключить</string>
+  <string name="off_switch">ВЫКЛ</string>
   <!-- Default label to display for an alarm -->
   <string name="default_label">Будильник</string>
   <!-- Preference category on Alarm Settings screen: Set alarm -->
@@ -75,7 +75,7 @@
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
   <string name="alarm_alert_wake_up">Проснись!</string>
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
-  <string name="alarm_alert_off_action_text">Отключить</string>
+  <string name="alarm_alert_off_action_text">ВЫКЛ</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
   <string name="alarm_alert_dismiss_text">Закрыть</string>
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
@@ -216,7 +216,7 @@
   <!-- Setting title for changing the crescendo duration. -->
   <string name="crescendo_duration_title">Постепенно увеличивать громкость</string>
   <!-- Summary value for changing the crescendo duration to 0. -->
-  <string name="no_crescendo_duration">Отключить</string>
+  <string name="no_crescendo_duration">ВЫКЛ</string>
   <!-- Summary value for changing the crescendo duration. -->
   <string name="crescendo_duration"><xliff:g id="NUMBER">%d</xliff:g> секунды</string>
   <!-- Setting label when changing the crescendo duration. -->
@@ -226,10 +226,10 @@
   <!-- Auto silence summary string set based on the preference value. -->
   <plurals name="auto_silence_summary">
     <!-- Duration for one minute -->
-    <item quantity="one">Через 1 минуту</item>
-    <item quantity="few">Через 1 минуту</item>
+    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
+    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">Через 1 минуту</item>
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
   </plurals>
   <!-- Auto silence summary when turned off -->
   <string name="auto_silence_never">Никогда</string>
@@ -284,7 +284,7 @@
   <!-- Entries listed in the setting for the side-button action. -->
   <string-array name="volume_button_setting_entries">
     <item>Отложить</item>
-    <item>Закрыть</item>
+    <item>Выключить</item>
     <item>Ничего не делать</item>
   </string-array>
   <!-- Values for the side-button setting. -->
@@ -406,10 +406,10 @@
   </plurals>
   <plurals name="Nminutes_description">
     <!-- 1 minute -->
-    <item quantity="one">Через 1 минуту</item>
-    <item quantity="few">Через 1 минуту</item>
+    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
+    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
     <!-- more -->
-    <item quantity="other">Через 1 минуту</item>
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
   </plurals>
   <plurals name="Nseconds_description">
     <!-- 1 second -->
