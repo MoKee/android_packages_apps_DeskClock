@@ -483,7 +483,7 @@
   <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
   <string-array name="clock_style_entries">
-    <item>Аналоговый</item>
+    <item>Стрелки</item>
     <item>Цифры</item>
   </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match

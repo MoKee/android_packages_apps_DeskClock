@@ -190,6 +190,7 @@
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
+  <string name="day_concat">", "</string>
   <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
   <string name="clock_instructions">Выбраць гадзіннiк</string>
@@ -281,6 +282,7 @@
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Кнопкі гучнасці</string>
   <!-- Title of the setting default alarm tone  -->
+  <string name="default_alarm_tone_title">Сігнал будзільніка па змаўчанні</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">Дзеянне кнопкi</string>
   <!-- Entries listed in the setting for the side-button action. -->
@@ -345,7 +347,15 @@
   <string name="menu_item_sort_by_gmt_offset">Сартаваць па часе</string>
   <!-- Menu item on Cities screen to sort by alphabetical order -->
   <string name="menu_item_sort_by_name">Сартаваць па назве</string>
+  <string name="cities_add_gps_no_results">Немагчыма вызначыць месцазнаходжанне па GPS</string>
+  <string name="cities_add_gps_not_available">GPS недаступны</string>
+  <string name="cities_add_searching">Пошук\u2026</string>
+  <string name="cities_add_city_title">Дадаць горад</string>
+  <string name="cities_add_city_gps_cd">Націсніце для вызначэння вашага горада</string>
   <string name="cities_add_loading">Загрузка\u2026</string>
+  <string name="cities_add_city_city">Горад:</string>
+  <string name="cities_add_city_timezone">Часавы пояс:</string>
+  <string name="cities_add_already_exists">Горад ужо дададзены ў базу дадзеных</string>
   <!-- Label for selected cities in Cities list view -->
   <string name="selected_cities_label">Выбраныя гарады</string>
   <!-- Stopwatch and Timer shared strings -->
