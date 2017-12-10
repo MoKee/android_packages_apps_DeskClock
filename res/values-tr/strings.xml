@@ -24,15 +24,25 @@
   <string name="app_label">Saat</string>
   <!-- Title for AlarmClock activity -->
   <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="alarm_list_title">Alarmlar</string>
   <!-- Menu item on Alarm Clock screen: Add alarm -->
+  <string name="add_alarm">Alarm ekle</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
+  <string name="menu_desk_clock">Masa saati</string>
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
+  <string name="menu_edit_alarm">Alarmı düzenle</string>
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+  <string name="delete_alarm">Alarmı sil</string>
   <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+  <string name="enable_alarm">Alarmı aç</string>
   <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+  <string name="disable_alarm">Alarmı kapat</string>
   <!-- Delete alarm confirmation dialog message. -->
+  <string name="delete_alarm_confirm">Bu alarm silinsin mi?</string>
   <!-- Menu item on Alarm Clock screen: Show clock -->
+  <string name="show_clock">Saati göster</string>
   <!-- Menu item on Alarm Clock screen: Hide clock -->
+  <string name="hide_clock">Saati gizle</string>
   <!-- Setting label on Set alarm screen: Label -->
   <string name="label">Etiket</string>
   <!-- Content description for alarm on/off switch in On state -->
@@ -43,11 +53,15 @@
   <string name="default_label">Alarm</string>
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="set_alarm">Alarmı ayarla</string>
   <!-- Setting labels on Set alarm screen: Vibration on or off -->
   <string name="alarm_vibrate">Titreşim</string>
   <!-- Setting labels on Set alarm screen: Repeat -->
+  <string name="alarm_repeat">Tekrarla</string>
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+  <string name="alert">Alarm zil sesi</string>
   <!-- Title of default ringtone played when a timer expires. -->
+  <string name="default_timer_ringtone_title">Süreölçerinin süresi</string>
   <!-- Title of silent ringtone played when a timer expires. -->
   <string name="silent_timer_ringtone_title">Sessiz</string>
   <!-- Label on expanded alarm edit view. -->
@@ -55,36 +69,59 @@
   <!-- Setting labels on Set alarm screen: Set time  -->
   <string name="time">Zaman</string>
   <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
+  <string name="alarm_tomorrow">Yarın</string>
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
   <string name="alarm_today">Bugün</string>
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
+  <string name="alarm_alert_wake_up">Uyan\u0021</string>
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
   <string name="alarm_alert_off_action_text">Kapat</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
   <string name="alarm_alert_dismiss_text">Yoksay</string>
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+  <string name="alarm_alert_dismiss_now_text">Şimdi yoksay</string>
   <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
+  <string name="alarm_missed_title">Alarm kaçırıldı</string>
+  <string name="alarm_missed_text"><xliff:g id="Alarm_TIME">%s</xliff:g> - <xliff:g id="Alarm_LABEL">%s</xliff:g></string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
+  <string name="alarm_alert_snoozed_text">Ertelendi</string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the word 'Snoozed' in two separate lines or example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
+  <plurals name="alarm_alert_snooze_duration">
+    <!-- Duration for one minute -->
+    <item quantity="one">1 dk</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other"><xliff:g id="Number">%d</xliff:g> dk</item>
+  </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
+  <string name="alarm_alert_off_text">Alarm kapalı</string>
   <!-- Button labels on the alarm dialog: Snooze -->
+  <string name="alarm_alert_snooze_text">Ertele</string>
   <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
+  <plurals name="alarm_alert_snooze_set">
+    <!-- Duration for one minute -->
+    <item quantity="one">%1$d dakika sonraya ertelendi.</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other">%1$d dakika sonraya ertelendi.</item>
+  </plurals>
   <!-- Text to appear inside a notification while an alarm is snoozing. -->
+  <string name="alarm_alert_snooze_until">Şu saate kadar ertelendi: <xliff:g id="Time">%s</xliff:g></string>
   <!-- Text to appear in the notification title while an alarm is about to go off. -->
+  <string name="alarm_alert_predismiss_title">Yaklaşan alarm</string>
   <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+  <string name="missed_alarm_has_been_deleted">Kaçırılan alarmınız silindi</string>
   <!-- 0: nothing
          1: days
          2:      hours
@@ -95,32 +132,76 @@
          7: days hours minutes
     -->
   <!-- Timer notification: how long from now until timer goes off. -->
+  <string name="timer_notifications_less_min">Bir dakikadan az kaldı</string>
+  <string name="timer_notifications_hours"><xliff:g id="hours" example="2 hrs">%1$s</xliff:g> <xliff:g id="minutes" example="2 mins">%2$s</xliff:g></string>
   <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
     -->
+  <string name="timer_remaining_single">kalan</string>
   <!--
         Verb inflection to use for multiple time units remaining
         Ex. "2 minutes remaining"
     -->
+  <string name="timer_remaining_multiple">kalan</string>
   <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
+  <string-array name="alarm_set">
+    <item>Alarmın çalmasına şu andan itibaren bir dakikadan az var.</item>
+    <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> from now.</item>
+    <item>Alarm set for <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> from now.</item>
+    <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> from now.</item>
+    <item>Alarm set for <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+    <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+    <item>Alarm set for <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+    <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+  </string-array>
   <!-- Alarm confirmation toast: days -->
+  <plurals name="days">
+    <!-- Duration for one day -->
+    <item quantity="one">1 gün</item>
+    <!-- Duration for more than one day -->
+    <item quantity="other">1 gün</item>
+  </plurals>
   <!-- Alarm confirmation toast and timer notification: hours -->
+  <plurals name="hours">
+    <!-- Duration for one hour -->
+    <item quantity="one">1 saat</item>
+    <!-- Duration for more than one hour -->
+    <item quantity="other">1 saat</item>
+  </plurals>
   <!-- Alarm confirmation toast and timer notification: minutes -->
+  <plurals name="minutes">
+    <!-- Duration for one minute -->
+    <item quantity="one">1 dakika</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other">1 dakika</item>
+  </plurals>
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
+  <string name="every_day">Her gün</string>
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
+  <string name="day_concat">", "</string>
   <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
+  <string name="clock_instructions">Bir saat seçin</string>
   <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
+  <string name="analog_gadget">Analog saat</string>
   <!-- Help activity name -->
+  <string name="help">yardım</string>
   <!-- Settings activity name -->
   <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
   <string name="settings">Ayarlar</string>
   <!-- Setting title for changing the snooze duration. -->
+  <string name="snooze_duration_title">Erteleme uzunluğu</string>
+  <plurals name="snooze_duration">
+    <!-- Duration for one minute -->
+    <item quantity="one">1 dakika</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other">1 dakika</item>
+  </plurals>
   <!-- Setting title for changing the crescendo duration. -->
   <!-- Summary value for changing the crescendo duration to 0. -->
   <string name="no_crescendo_duration">Kapat</string>
@@ -169,13 +250,14 @@
   <!-- Dialog title of the volume and power setting. -->
   <!-- Entries listed in the setting for the side-button action. -->
   <string-array name="volume_button_setting_entries">
-    <item>Snooze</item>
+    <item>Ertele</item>
     <item>Yoksay</item>
     <item>Hiçbir şey yapma</item>
   </string-array>
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
   <!-- Accessibility labels for Clock activity buttons -->
+  <string name="alarm_button_description">Alarmlar</string>
   <string name="gallery_button_description">Galeri</string>
   <!-- Accessibility labels for alarm buttons -->
   <string name="label_description">Etiket</string>
@@ -190,6 +272,7 @@
   <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
   <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+  <string name="control_set_alarm">Alarmı ayarla</string>
   <!--  ActionBar strings -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
   <string name="menu_alarm">Alarm</string>
@@ -199,6 +282,7 @@
   <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
   <!-- Clock view buttons strings-->
   <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+  <string name="button_alarms">Alarm ekle</string>
   <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
   <!-- Describes the purpose of the button which pops up a menu of setting choices -->
   <!-- Menu item on most screens to get to more settings -->
@@ -211,9 +295,15 @@
   <!-- Menu item on Cities screen to sort by GMT offset -->
   <!-- Menu item on Cities screen to sort by alphabetical order -->
   <string name="cities_add_loading">Yükleniyor\u2026</string>
+  <string name="cities_add_city_failed">Şehir oluşturulamıyor</string>
+  <string name="cities_delete_city_failed">Şehir silinemiyor</string>
+  <string name="cities_delete_city_msg"><xliff:g id="city">%s</xliff:g> şehrini silmek istiyor musunuz?    </string>
+  <string name="cities_delete_city_title">Şehri sil</string>
   <!-- Label for selected cities in Cities list view -->
+  <string name="selected_cities_label">Seçilen Şehirler</string>
   <!-- Stopwatch and Timer shared strings -->
   <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
+  <string name="sw_resume_button">Devam et</string>
   <!--
         Describes the purpose of the button
             for stopwatch: return stopwatch to zero and remove the lap times.
@@ -225,13 +315,18 @@
   <!-- Describes the purpose of the button to begin running a stopwatch -->
   <string name="sw_start_button">Başla</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
+  <string name="sw_pause_button">Duraklat</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
+  <string name="sw_lap_button">Tur</string>
   <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
   <string name="sw_share_button">Paylaş</string>
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+  <string name="hours_label">sa</string>
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+  <string name="minutes_label">d</string>
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+  <string name="seconds_label">sn</string>
   <!-- Accessibility strings -->
   <string name="hours_label_description">saat</string>
   <string name="minutes_label_description">dakika</string>
@@ -239,59 +334,115 @@
   <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
+  <string name="sw_share_main">Saatim: <xliff:g id="Time">%s</xliff:g></string>
   <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
+  <string name="sw_share_laps">Tur zamanları:</string>
   <!-- Label to enumerate the number of laps in the notification the user has counted -->
+  <string name="sw_notification_lap_number"><xliff:g id="sayı">%d%%</xliff:g></string>
   <!-- Stopwatch accessibility strings -->
+  <plurals name="Nhours_description">
+    <!-- 1 hour -->
+    <item quantity="one">1 saat</item>
+    <!-- more -->
+    <item quantity="other">1 saat</item>
+  </plurals>
+  <plurals name="Nminutes_description">
+    <!-- 1 minute -->
+    <item quantity="one">1 dakika</item>
+    <!-- more -->
+    <item quantity="other">1 dakika</item>
+  </plurals>
+  <plurals name="Nseconds_description">
+    <!-- 1 second -->
+    <item quantity="one">1 saniye</item>
+    <!-- more -->
+    <item quantity="other">1 saniye</item>
+  </plurals>
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
+  <string name="timer_add_timer">Zamanlayıcı Ekle</string>
   <!-- Describes the purpose of the button to begin or continue running a timer -->
   <string name="timer_start">Başla</string>
   <!-- Describes the purpose of the button to delete a timer. -->
   <string name="timer_delete">Sil</string>
   <!-- Talkback description for deleting a number. -->
   <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
+  <string name="timer_plus_one">1 Dakika Ekle</string>
   <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
+  <string name="timer_plus_1_min">1 dk ekle</string>
   <!-- Describes the purpose of the button to stop the timer. -->
   <string name="timer_stop">Dur</string>
   <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
+  <string name="timer_stop_all">Tüm zamanlayıcıları durdur</string>
   <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
   <string name="timer_reset">Sıfırla</string>
   <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
   <string name="timer_cancel">iptal</string>
   <!-- Accessibility announcement when a timer is canceled. -->
+  <string name="timer_canceled">Zamanlayıcı iptal edildi</string>
   <!-- Notification content shown when a timer has completed and has no more time remaining -->
+  <string name="timer_times_up">Süre doldu</string>
   <!--
         Notification content shown when multiple timers have completed and have no more time
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
   <!-- Label associated with a notification for a Timer -->
+  <string name="timer_notification_label">Zamanlayıcı</string>
   <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
+  <string name="timers_max_count_reached">En fazla 4 zamanlayıcı</string>
   <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
+  <string name="timer_pause">Duraklat</string>
   <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
+  <string name="timer_reset_all">Tüm zamanlayıcıları sıfırla</string>
   <!-- Jocular content that user may append when sharing the lap times -->
+  <string-array name="sw_share_strings" translatable="true">
+    <item>Oldukça yüksek hız tutkunusunuz.</item>
+    <item>Çalışmanızın meyvesini toplayabilirsiniz.</item>
+    <item>Android\'ler hızlarıyla bilinir, ancak sizin kadar hızlı değiller!</item>
+    <item>Vay canına.</item>
+    <item>L33t kez.</item>
+    <item>Olağanüstü bir hız.</item>
+    <item>Zaman sıçraması tekrar yapalım.</item>
+    <item>Yalnızca sola bir atlama.</item>
+    <item>Aceleci bir yapınız var.</item>
+    <item>Işık hızı.</item>
+  </string-array>
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
   <string name="home_label">Ev</string>
   <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="cities_activity_title">Şehirler</string>
   <!-- Settings strings -->
   <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
   <string name="clock_settings">Saat</string>
   <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
   <string name="clock_style">Stil</string>
   <!-- Title for preference to change date & time -->
+  <string name="open_date_settings">Tarih \u0026 saatini değiştir</string>
   <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
+  <string-array name="clock_style_entries">
+    <item>Analog</item>
+    <item>Dijital</item>
+  </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match
          the clock_style_entries above. -->
   <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
+  <string name="automatic_home_clock">Otomatik ev saati</string>
   <!-- Describes the functionality provided by the automatic_home_clock option -->
+  <string name="automatic_home_clock_summary">Saat diliminin farklı olduğu bir bölgede seyahat ederken ülkeniz için bir saat ekleyin</string>
   <!-- Title in the preferences change the time zone for the user's home -->
+  <string name="home_time_zone">Yerel saat dilimi kullan</string>
   <!-- Title in a list dialog box to pick a time zone for the user's home -->
+  <string name="home_time_zone_title">Yerel saat dilimi kullan</string>
   <!-- Textual content of the button to discard the current dialog values and close the dialog -->
   <string name="time_picker_cancel">iptal</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
   <string name="time_picker_set">Tamam</string>
+  <string name="time_picker_time_seperator">:</string>
   <!--  place holder for am/pm label when it is not set -->
+  <string name="time_picker_ampm_label">--</string>
   <!-- add 00 as minutes to the time when pressing this button -->
+  <string name="time_picker_00_label">:00</string>
   <!-- add 30 as minutes to the time when pressing this button -->
   <!--
         Accessibility string read when a city checkbox is checked.
@@ -302,24 +453,122 @@
         Ex. "Ann Arbor unchecked"
     -->
   <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
+  <string-array name="timezone_labels">
+    <item>"Marshall Islands"</item>
+    <item>"Midway Island"</item>
+    <item>"Hawaii"</item>
+    <item>"Alaska"</item>
+    <item>"Pacific Time"</item>
+    <item>"Tijuana"</item>
+    <item>"Arizona"</item>
+    <item>"Chihuahua"</item>
+    <item>"Mountain Time"</item>
+    <item>"Central America"</item>
+    <item>"Central Time"</item>
+    <item>"Mexico City"</item>
+    <item>"Saskatchewan"</item>
+    <item>"Bogota"</item>
+    <item>"Eastern Time"</item>
+    <item>"Venezuela"</item>
+    <item>"Atlantic Time (Barbados)"</item>
+    <item>"Atlantic Time (Canada)"</item>
+    <item>"Manaus"</item>
+    <item>"Santiago"</item>
+    <item>"Newfoundland"</item>
+    <item>"Brasilia"</item>
+    <item>"Buenos Aires"</item>
+    <item>"Greenland"</item>
+    <item>"Montevideo"</item>
+    <item>"Mid-Atlantic"</item>
+    <item>"Azores"</item>
+    <item>"Cape Verde Islands"</item>
+    <item>"Casablanca"</item>
+    <item>"London, Dublin"</item>
+    <item>"Amsterdam, Berlin"</item>
+    <item>"Belgrade"</item>
+    <item>"Brussels"</item>
+    <item>"Sarajevo"</item>
+    <item>"Windhoek"</item>
+    <item>"W. Africa Time"</item>
+    <item>"Amman, Jordan"</item>
+    <item>"Athens, Istanbul"</item>
+    <item>"Beirut, Lebanon"</item>
+    <item>"Cairo"</item>
+    <item>"Helsinki"</item>
+    <item>"Jerusalem"</item>
+    <item>"Minsk"</item>
+    <item>"Harare"</item>
+    <item>"Baghdad"</item>
+    <item>"Moskova"</item>
+    <item>"Kuveyt"</item>
+    <item>"Nairobi"</item>
+    <item>"Tahran"</item>
+    <item>"Bakü"</item>
+    <item>"Tiflis"</item>
+    <item>"Erivan"</item>
+    <item>"Dubai"</item>
+    <item>"Kabil"</item>
+    <item>"İslamabat, Karaçi"</item>
+    <item>"Ural'sk"</item>
+    <item>"Yekaterinburg"</item>
+    <item>"Kalküta"</item>
+    <item>"Sri Lanka"</item>
+    <item>"Katmandu"</item>
+    <item>"Astana"</item>
+    <item>"Yangon"</item>
+    <item>"Krasnoyarsk"</item>
+    <item>"Bangkok"</item>
+    <item>"Pekin"</item>
+    <item>"Hong Kong"</item>
+    <item>"İrkutsk"</item>
+    <item>"Kuala Lumpur"</item>
+    <item>"Perth"</item>
+    <item>"Taipei"</item>
+    <item>"Seul"</item>
+    <item>"Tokyo, Osaka"</item>
+    <item>"Yakutsk"</item>
+    <item>"Adelaide"</item>
+    <item>"Darwin"</item>
+    <item>"Brisbane"</item>
+    <item>"Hobart"</item>
+    <item>"Sydney, Canberra"</item>
+    <item>"Vladivostok"</item>
+    <item>"Guam"</item>
+    <item>"Magadan"</item>
+    <item>"Auckland"</item>
+    <item>"Fiji"</item>
+    <item>"Tonga"</item>
+    <item>"Cakarta"</item>
+  </string-array>
   <!-- Choices for timezones, must be kept in sync with timezone_values. -->
   <!-- Header in the preferences settings for the section pertaining to alarms -->
+  <string name="alarm_settings">Alarmlar</string>
   <!-- Describes the service that processes actions originating from timer notifications. -->
+  <string name="timer_service_desc">Zamanlayıcı bildirimlerinin eylemlerini işler.</string>
   <!-- Describes the service that processes actions originating from stopwatch notifications. -->
+  <string name="stopwatch_service_desc">Kronometre bildirimleri eylemlerden işler.</string>
   <!-- Description for the paused stop watch -->
+  <string name="swn_paused">Duraklatıldı</string>
   <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
          be on the right even on RTL languages so please do not reverse this during
          translation. -->
+  <string name="description_direction_right">Kapatmak için hızlıca sağa kaydırın</string>
   <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
+  <string name="description_direction_left">Ertelemek için hızlıca sola kaydırın</string>
   <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
+  <string name="description_direction_both">Ertelemek için sola, kapatmak için sağa hızlıca kaydırın</string>
   <!-- Header in the preferences settings for the section pertaining to timers. -->
+  <string name="timer_settings">Zamanlayıcı</string>
   <!-- Description for timer ringtone setting. -->
+  <string name="timer_ringtone_title">Zil sesini ayarla</string>
   <!-- Description when timer is stopped. -->
+  <string name="timer_stopped">Zamanlayıcı durdu</string>
   <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
+  <string name="timer_paused">Zamanlayıcı duraklatıldı</string>
   <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
   <!-- Notification text when multiple timers are paused. -->
   <!-- Notification title when at least one timer, of those in use, is counting down. -->
@@ -474,29 +723,44 @@
     %s represents the time of the alarm (e.g. 15:39)
     [CHAR LIMIT=NONE]
     -->
+  <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away"><xliff:g id="Alarm_TIME">%s</xliff:g> alarmı henüz kapatılamaz. Alarma hâlâ 24 saatten fazla zaman var</string>
   <!-- String that shows up in the action bar for the Picker Activity
          where a use gets to pick which alarm to dismiss
    [CHAR LIMIT=NONE]
    -->
+  <string name="dismiss_alarm">Alarmı kapat</string>
   <!-- String that represents that further action is needed from the user in case their
     voice command was ambiguous or there are more than 1 alarms that match their request.
     The user needs to choose an alarm they want to dismiss through the UI
    [CHAR LIMIT=NONE]
    -->
+  <string name="pick_alarm_to_dismiss">Hangi alarmın kapatılacağını seçin</string>
   <!-- String that represents that the user doesn't have any alarms firing at the moment.
     [CHAR LIMIT=NONE]
     -->
+  <string name="no_firing_alarms">Çalan alarm yok</string>
   <!-- String that represents that the user has snoozed an alarm through a voice action for 10
     minutes.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
+  <string name="alarm_is_snoozed"><xliff:g id="Alarm_TIME">%s</xliff:g> alarmı 10 dakika ertelendi</string>
   <!-- Setting title for the flip action setting. -->
+  <string name="flip_action_title">Çevirme İşlevi</string>
   <!-- Setting summary for the flip action setting. -->
+  <string name="flip_action_summary" product="default">Telefonu ters çevirmek şunu yapacak: <xliff:g id="action">%s</xliff:g>    </string>
   <!-- Setting title for the shake action setting. -->
+  <string name="shake_action_title">Sallama eylemi</string>
   <!-- Setting summary for the shake action setting. -->
+  <string name="shake_action_summary" product="default">Telefonu sallayınca <xliff:g id="action">%s</xliff:g>    </string>
   <!-- Summary texts for shake and flip actions -->
+  <string name="action_summary_snooze">alarmı ertele</string>
+  <string name="action_summary_dismiss">alarmı kapat</string>
+  <string name="action_summary_do_nothing">hiçbir şey yapma</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+  <string name="custom_ringtone">Özel Zil Sesi</string>
   <!-- Ringtone selection default" -->
+  <string name="ringtone_default">"Varsayılan zil sesi"</string>
   <!--used for prompt to user storage permission status-->
+  <string name="have_denied_storage_permission">Depolama iznini red ettiniz, bu izni uygulama ayarlarından yeniden verebilirsiniz</string>
 </resources>

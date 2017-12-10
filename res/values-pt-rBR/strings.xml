@@ -28,7 +28,7 @@
   <!-- Menu item on Alarm Clock screen: Add alarm -->
   <string name="add_alarm">Adicionar alarme</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
-  <string name="menu_desk_clock">Relógio de mesa</string>
+  <string name="menu_desk_clock">Relógio</string>
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
   <string name="menu_edit_alarm">Editar alarme</string>
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
@@ -211,7 +211,7 @@
     <item quantity="other">minutos</item>
   </plurals>
   <!-- Setting title for changing the crescendo duration. -->
-  <string name="crescendo_duration_title">Gradualmente aumentar volume</string>
+  <string name="crescendo_duration_title">Aumentar volume gradualmente</string>
   <!-- Summary value for changing the crescendo duration to 0. -->
   <string name="no_crescendo_duration">Desligado</string>
   <!-- Summary value for changing the crescendo duration. -->
@@ -259,9 +259,9 @@
   <!-- Delete button when editing an alarm. -->
   <string name="delete">Excluir</string>
   <!-- Setting title for changing the alarm volume. -->
-  <string name="alarm_volume_title">Volume de alarme</string>
+  <string name="alarm_volume_title">Volume do alarme</string>
   <!-- Title for the silent ringtone. -->
-  <string name="silent_ringtone_title">Silêncio</string>
+  <string name="silent_ringtone_title">Silencioso</string>
   <!-- Title for ringtones that cannot be located by uri. -->
   <string name="unknown_ringtone_title">Desconhecido</string>
   <!-- Text to display in the small text of the notification -->
@@ -281,7 +281,7 @@
   <string-array name="volume_button_setting_entries">
     <item>Adiar</item>
     <item>Dispensar</item>
-    <item>Não fazer nada</item>
+    <item>Fazer nada</item>
   </string-array>
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
@@ -365,7 +365,7 @@
             for timer: return timer to originally set duration.
         [CHAR LIMIT=15]
     -->
-  <string name="sw_reset_button">Redefinir</string>
+  <string name="sw_reset_button">Limpar</string>
   <!-- Stopwatch strings -->
   <!-- Describes the purpose of the button to begin running a stopwatch -->
   <string name="sw_start_button">Iniciar</string>
@@ -431,7 +431,7 @@
   <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
   <string name="timer_stop_all">Parar todos os cronômetros</string>
   <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
-  <string name="timer_reset">Redefinir</string>
+  <string name="timer_reset">Limpar</string>
   <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
   <string name="timer_cancel">Cancelar</string>
   <!-- Accessibility announcement when a timer is canceled. -->
@@ -461,8 +461,8 @@
     <item>Mas que velocidade estupenda.</item>
     <item>Vamos viajar no tempo de novo.</item>
     <item>Apenas um salto para a esquerda.</item>
-    <item>Você tem um gosto por correrias.</item>
-    <item>Velocidade fotônica.</item>
+    <item>Você tem um gosto por corridas.</item>
+    <item>Velocidade da luz.</item>
   </string-array>
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
   <string name="home_label">Casa</string>
@@ -486,7 +486,7 @@
   <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
   <string name="automatic_home_clock">Relógio de casa automático</string>
   <!-- Describes the functionality provided by the automatic_home_clock option -->
-  <string name="automatic_home_clock_summary">Ao viajar para outro fuso horário, adicione um relógio com a hora do local onde habita</string>
+  <string name="automatic_home_clock_summary">Ao viajar para outro fuso horário, adicione um relógio com a hora do local de sua casa</string>
   <!-- Title in the preferences change the time zone for the user's home -->
   <string name="home_time_zone">Fuso horário local</string>
   <!-- Title in a list dialog box to pick a time zone for the user's home -->
@@ -506,7 +506,7 @@
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
     -->
-  <string name="city_checked"><xliff:g id="city_name">%s</xliff:g> marcada</string>
+  <string name="city_checked"><xliff:g id="city_name">%s</xliff:g> selecionada</string>
   <!--
         Accessibility string read when a city checkbox is unchecked.
         Ex. "Ann Arbor unchecked"
@@ -575,7 +575,7 @@
     <item>"Sri Lanka"</item>
     <item>"Katmandu"</item>
     <item>"Astana"</item>
-    <item>"Rangum"</item>
+    <item>"Yangon"</item>
     <item>"Krasnoyarsk"</item>
     <item>"Bangkok"</item>
     <item>"Pequim"</item>
@@ -604,9 +604,9 @@
   <!-- Header in the preferences settings for the section pertaining to alarms -->
   <string name="alarm_settings">Alarmes</string>
   <!-- Describes the service that processes actions originating from timer notifications. -->
-  <string name="timer_service_desc">Ações dos processos de notificações do cronômetro.</string>
+  <string name="timer_service_desc">Ações dos processos à partir das notificações do cronômetro.</string>
   <!-- Describes the service that processes actions originating from stopwatch notifications. -->
-  <string name="stopwatch_service_desc">Ações dos processos de notificações do cronômetro.</string>
+  <string name="stopwatch_service_desc">Ações dos processos à partir das notificações do cronômetro.</string>
   <!-- Description for the paused stop watch -->
   <string name="swn_paused">Pausado</string>
   <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
@@ -789,21 +789,21 @@
   <!-- String that represents that the user has successfully reset a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_was_reset">Alarme reiniciado</string>
+  <string name="timer_was_reset">Cronômetro reiniciado</string>
   <!-- String that represents that the user has successfully reset a timer through a voice action
     that was marked as deleteAfterUse and was thus deleted instead.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_deleted">Alarme excluído</string>
+  <string name="timer_deleted">Cronômetro excluído</string>
   <!-- String that represents that the user has successfully started a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_started">Alarme criado</string>
+  <string name="timer_started">Cronômetro criado</string>
   <!-- String that represents that the user attempted to start a timer through a voice action
     but specified invalid length.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_timer_length">Duração inválida do alarme</string>
+  <string name="invalid_timer_length">Duração inválida do cronômetro</string>
   <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but they didn't specify a city so no world clock was selected.
@@ -849,7 +849,7 @@
     The user needs to choose an alarm they want to dismiss through the UI
    [CHAR LIMIT=NONE]
    -->
-  <string name="pick_alarm_to_dismiss">Selecionar o alarme para ignorar</string>
+  <string name="pick_alarm_to_dismiss">Selecionar um alarme para ignorar</string>
   <!-- String that represents that the user doesn't have any alarms firing at the moment.
     [CHAR LIMIT=NONE]
     -->
