@@ -251,9 +251,9 @@
   <string name="week_start_title">Начало недели</string>
   <!-- Entries listed in ListPreference for start day. -->
   <string-array name="week_start_entries">
-    <item>Суббота</item>
-    <item>Воскресенье</item>
-    <item>Понедельник</item>
+    <item>суббота</item>
+    <item>воскресенье</item>
+    <item>понедельник</item>
   </string-array>
   <!-- Values for ListPreference for start day of week. -->
   <!-- Done button when editing an alarm. -->
