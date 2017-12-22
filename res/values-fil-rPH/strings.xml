@@ -185,6 +185,7 @@
   <!-- Menu item on clock screen to enter night mode. -->
   <!-- Menu item on Cities screen to sort by GMT offset -->
   <!-- Menu item on Cities screen to sort by alphabetical order -->
+  <string name="cities_add_loading">Naglo-load \ u2026</string>
   <!-- Label for selected cities in Cities list view -->
   <!-- Stopwatch and Timer shared strings -->
   <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->

@@ -622,7 +622,9 @@
   <!-- Select the alarm from external device -->
   <string name="alarm_select_external">ဂီတ</string>
   <!-- Ok for selection -->
+  <string name="alarm_select_ok">အိုကေ</string>
   <!-- Cancel for selection -->
+  <string name="alarm_select_cancel">မလုပ်တော့</string>
   <!-- slash between date and next alarm in the clock -->
   <string name="slash">/</string>
   <!-- slash between date and next alarm in the clock -->
