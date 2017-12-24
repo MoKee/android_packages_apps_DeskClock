@@ -113,7 +113,7 @@
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
     <string name="alarm_missed_title">Missed alarm</string>
-    <string name="alarm_missed_text"><xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g></string>
+    <string name="alarm_missed_text" translatable="false"><xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g></string>
 
     <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
@@ -894,7 +894,7 @@
     <!-- slash between date and next alarm in the clock -->
     <string name="slash"> / </string>
     <!-- slash between date and next alarm in the clock -->
-    <string name="world_day_of_week_label"> / <xliff:g id="label">%s</xliff:g></string>
+    <string name="world_day_of_week_label" translatable="false"> / <xliff:g id="label">%s</xliff:g></string>
     <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
     <string name="next_alarm_description">Next alarm: <xliff:g id="alarm_time" example="Wed 8:00am">%s</xliff:g></string>
 
