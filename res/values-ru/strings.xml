@@ -674,7 +674,7 @@
   <!-- slash between date and next alarm in the clock -->
   <string name="slash"> / </string>
   <!-- slash between date and next alarm in the clock -->
-  <string name="world_day_of_week_label"> / <xliff: g id = "label"> % s </ xliff: g></string>
+  <string name="world_day_of_week_label"> / <xliff:g id="label"> %s </xliff:g></string>
   <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
   <string name="next_alarm_description">Следующий будильник: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
   <!-- Displays the number of alarms selected from the list of alarms. -->
