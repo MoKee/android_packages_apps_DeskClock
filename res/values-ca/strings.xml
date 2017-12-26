@@ -84,7 +84,6 @@
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
   <string name="alarm_missed_title">Alarma perduda</string>
-  <string name="alarm_missed_text"><xliff:g id="ALARM_TIME">%s</xliff:g> - <xliff:g id="ALARM_LABEL">%s</xliff:g></string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
@@ -630,7 +629,6 @@
   <!-- slash between date and next alarm in the clock -->
   <string name="slash">/</string>
   <!-- slash between date and next alarm in the clock -->
-  <string name="world_day_of_week_label">/ <xliff:g id="LABEL">%s</xliff:g></string>
   <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
   <string name="next_alarm_description">Propera alarma: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
   <!-- Displays the number of alarms selected from the list of alarms. -->

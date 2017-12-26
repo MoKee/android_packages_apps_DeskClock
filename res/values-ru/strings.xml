@@ -26,11 +26,11 @@
   <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
   <string name="alarm_list_title">Будильник</string>
   <!-- Menu item on Alarm Clock screen: Add alarm -->
-  <string name="add_alarm">Добавить сигнал</string>
+  <string name="add_alarm">Добавить будильник</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
   <string name="menu_desk_clock">Настольные часы</string>
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
-  <string name="menu_edit_alarm">Изменить настройки</string>
+  <string name="menu_edit_alarm">Редактировать будильник</string>
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
   <string name="delete_alarm">Удалить будильник</string>
   <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
@@ -46,9 +46,9 @@
   <!-- Setting label on Set alarm screen: Label -->
   <string name="label">Метка</string>
   <!-- Content description for alarm on/off switch in On state -->
-  <string name="on_switch">ВКЛ</string>
+  <string name="on_switch">Вкл.</string>
   <!-- Content description for alarm on/off switch in Off state -->
-  <string name="off_switch">ВЫКЛ</string>
+  <string name="off_switch">Выкл.</string>
   <!-- Default label to display for an alarm -->
   <string name="default_label">Будильник</string>
   <!-- Preference category on Alarm Settings screen: Set alarm -->
@@ -71,20 +71,19 @@
   <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
   <string name="alarm_tomorrow">Завтра</string>
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
-  <string name="alarm_today">Сейгодня</string>
+  <string name="alarm_today">Сегодня</string>
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
-  <string name="alarm_alert_wake_up">Проснись!</string>
+  <string name="alarm_alert_wake_up">Пора вставать!</string>
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
-  <string name="alarm_alert_off_action_text">ВЫКЛ</string>
+  <string name="alarm_alert_off_action_text">Выкл.</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
-  <string name="alarm_alert_dismiss_text">Закрыть</string>
+  <string name="alarm_alert_dismiss_text">Отклонить</string>
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
-  <string name="alarm_alert_dismiss_now_text">Отменить</string>
+  <string name="alarm_alert_dismiss_now_text">Отклонить сейчас</string>
   <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
   <string name="alarm_missed_title">Пропущенный будильник</string>
-  <string name="alarm_missed_text"><xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g></string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
@@ -103,7 +102,7 @@
     <item quantity="one">на <xliff:g id="NUMBER">%d</xliff:g> минуту</item>
     <item quantity="few">на <xliff:g id="NUMBER">%d</xliff:g> минуты</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">на <xliff:g id="NUMBER">%d</xliff:g> минуты</item>
+    <item quantity="other">на <xliff:g id="NUMBER">%d</xliff:g> минут</item>
   </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
   <string name="alarm_alert_off_text">Будильник выключен</string>
@@ -116,7 +115,7 @@
     <item quantity="one">Повтор через <xliff:g id="MINUTES">%d</xliff:g> минуту</item>
     <item quantity="few">Повтор через <xliff:g id="MINUTES">%d</xliff:g> минуты</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">Повтор через <xliff:g id="MINUTES">%d</xliff:g> минуты</item>
+    <item quantity="other">Повтор через <xliff:g id="MINUTES">%d</xliff:g> минут</item>
   </plurals>
   <!-- Text to appear inside a notification while an alarm is snoozing. -->
   <string name="alarm_alert_snooze_until">Повтор в <xliff:g id="TIME">%s</xliff:g></string>
@@ -135,8 +134,8 @@
     -->
   <!-- Timer notification: how long from now until timer goes off. -->
   <string name="timer_notifications_less_min">Осталось меньше минуты</string>
-  <string name="timer_notifications_hours"><xliff:g id="HOURS" example="2 часа">%1$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
-  <string name="timer_notifications_minutes"><xliff:g id="MINUTES" example="2 минуты">%2$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
+  <string name="timer_notifications_hours"><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
+  <string name="timer_notifications_minutes"><xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
   <string name="timer_notifications_hours_minutes">Осталось: <xliff:g id="HOURS" example="2 hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g></string>
   <!--
         Verb inflection to use for single time units remaining
@@ -162,23 +161,23 @@
   <!-- Alarm confirmation toast: days -->
   <plurals name="days">
     <!-- Duration for one day -->
-    <item quantity="one">1 день</item>
-    <item quantity="few">1 день</item>
+    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> день</item>
+    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> дня</item>
     <!-- Duration for more than one day -->
-    <item quantity="other">1 день</item>
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> дней</item>
   </plurals>
   <!-- Alarm confirmation toast and timer notification: hours -->
   <plurals name="hours">
     <!-- Duration for one hour -->
-    <item quantity="one">Через 1 час</item>
-    <item quantity="few">Через 1 час</item>
+    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> час</item>
+    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> часа</item>
     <!-- Duration for more than one hour -->
-    <item quantity="other">Через 1 час</item>
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> часов</item>
   </plurals>
   <!-- Alarm confirmation toast and timer notification: minutes -->
   <plurals name="minutes">
     <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
+    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> минута</item>
     <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
     <!-- Duration for more than one minute -->
     <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
@@ -212,26 +211,26 @@
   </plurals>
   <plurals name="snooze_picker_label">
     <!-- Duration for one minute -->
-    <item quantity="one">минут</item>
-    <item quantity="few">минут</item>
+    <item quantity="one">минута</item>
+    <item quantity="few">минуты</item>
     <!-- Duration for more than one minute -->
     <item quantity="other">минут</item>
   </plurals>
   <!-- Setting title for changing the crescendo duration. -->
   <string name="crescendo_duration_title">Постепенно увеличивать громкость</string>
   <!-- Summary value for changing the crescendo duration to 0. -->
-  <string name="no_crescendo_duration">ВЫКЛ</string>
+  <string name="no_crescendo_duration">Выкл.</string>
   <!-- Summary value for changing the crescendo duration. -->
-  <string name="crescendo_duration"><xliff:g id="NUMBER">%d</xliff:g> секунды</string>
+  <string name="crescendo_duration"><xliff:g id="NUMBER">%d</xliff:g> сек.</string>
   <!-- Setting label when changing the crescendo duration. -->
   <string name="crescendo_picker_label">сек.</string>
   <!-- Auto silence preference title -->
-  <string name="auto_silence_title">Автовыключение</string>
+  <string name="auto_silence_title">Тишина после</string>
   <!-- Auto silence summary string set based on the preference value. -->
   <plurals name="auto_silence_summary">
     <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
-    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
+    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> минута</item>
+    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> минуты</item>
     <!-- Duration for more than one minute -->
     <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
   </plurals>
@@ -244,7 +243,7 @@
     <item>1 минута</item>
     <item>5 минут</item>
     <item>10 минут</item>
-    <item>15 минут</item>
+    <item>15 мин.</item>
     <item>20 минут</item>
     <item>25 минут</item>
     <item>Никогда</item>
@@ -255,9 +254,9 @@
   <string name="week_start_title">Начало недели</string>
   <!-- Entries listed in ListPreference for start day. -->
   <string-array name="week_start_entries">
-    <item>суббота</item>
-    <item>воскресенье</item>
-    <item>понедельник</item>
+    <item>Суббота</item>
+    <item>Воскресенье</item>
+    <item>Понедельник</item>
   </string-array>
   <!-- Values for ListPreference for start day of week. -->
   <!-- Done button when editing an alarm. -->
@@ -284,7 +283,7 @@
   <!-- Title of the setting default alarm tone  -->
   <string name="default_alarm_tone_title">Сигнал будильника по умолчанию</string>
   <!-- Dialog title of the volume and power setting. -->
-  <string name="volume_button_dialog_title">Кнопка эффект</string>
+  <string name="volume_button_dialog_title">Эффект нажатия кнопки</string>
   <!-- Entries listed in the setting for the side-button action. -->
   <string-array name="volume_button_setting_entries">
     <item>Отложить</item>
@@ -293,14 +292,14 @@
   </string-array>
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
-  <string name="default_ringtone_setting_title">Установить по умолчанию рингтон</string>
+  <string name="default_ringtone_setting_title">Установить рингтон по умолчанию</string>
   <!-- Accessibility labels for Clock activity buttons -->
   <string name="alarm_button_description">Будильник</string>
   <string name="gallery_button_description">Галерея</string>
   <string name="music_button_description">Музыка</string>
-  <string name="nightmode_button_description">Уменьшение яркости</string>
+  <string name="nightmode_button_description">Затемнение</string>
   <string name="home_button_description">Лаунчер</string>
-  <string name="desk_clock_button_description">Внешний вид</string>
+  <string name="desk_clock_button_description">Отображение часов</string>
   <!-- Accessibility labels for alarm buttons -->
   <string name="label_description">Метка</string>
   <string name="ringtone_description">Рингтон</string>
@@ -356,8 +355,8 @@
   <string name="cities_add_city_city">Город:</string>
   <string name="cities_add_city_timezone">Часовой пояс:</string>
   <string name="cities_add_already_exists">Город уже добавлен в базу данных</string>
-  <string name="cities_add_city_failed">Не удаётся добавить город</string>
-  <string name="cities_delete_city_failed">Не удаётся удалить город</string>
+  <string name="cities_add_city_failed">Невозможно создать город</string>
+  <string name="cities_delete_city_failed">Невозможно удалить город</string>
   <string name="cities_delete_city_msg">Вы действительно хотите удалить <xliff:g id="city">%s</xliff:g>?</string>
   <string name="cities_delete_city_title">Удалить город</string>
   <!-- Label for selected cities in Cities list view -->
@@ -376,12 +375,12 @@
   <!-- Describes the purpose of the button to begin running a stopwatch -->
   <string name="sw_start_button">Начать</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Приостановить</string>
+  <string name="sw_pause_button">Пауза</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
-  <string name="sw_lap_button">Интервал</string>
+  <string name="sw_lap_button">Круг</string>
   <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
-  <string name="sw_share_button">Поделится</string>
+  <string name="sw_share_button">Поделиться</string>
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
   <string name="hours_label">ч.</string>
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
@@ -390,9 +389,9 @@
   <string name="seconds_label">с.</string>
   <!-- Accessibility strings -->
   <string name="hours_label_description">ч.</string>
-  <string name="minutes_label_description">Минут</string>
-  <string name="seconds_label_description">Секунд</string>
-  <string name="zero">Максимально 300 (3 сек), минимально 0</string>
+  <string name="minutes_label_description">мин.</string>
+  <string name="seconds_label_description">сек.</string>
+  <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
   <string name="sw_share_main">Мое время: <xliff:g id="TIME">%s</xliff:g></string>
@@ -403,24 +402,24 @@
   <!-- Stopwatch accessibility strings -->
   <plurals name="Nhours_description">
     <!-- 1 hour -->
-    <item quantity="one">Через 1 час</item>
-    <item quantity="few"><xliff:g id="NUMBER">%d</xliff:g> часа</item>
+    <item quantity="one">1 час</item>
+    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> часа</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> часа</item>
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> часов</item>
   </plurals>
   <plurals name="Nminutes_description">
     <!-- 1 minute -->
-    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
-    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
+    <item quantity="one">1 минута</item>
+    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> минуты</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> минут</item>
   </plurals>
   <plurals name="Nseconds_description">
     <!-- 1 second -->
-    <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> секунда</item>
-    <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> секунда</item>
+    <item quantity="one">1 секунда</item>
+    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> секунды</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> секунда</item>
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> секунд</item>
   </plurals>
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
@@ -430,11 +429,11 @@
   <!-- Describes the purpose of the button to delete a timer. -->
   <string name="timer_delete">Удалить</string>
   <!-- Talkback description for deleting a number. -->
-  <string name="timer_descriptive_delete">Удалить <xliff:g id="NUMBER_STRING">%s</xliff:g></string>
+  <string name="timer_descriptive_delete">Удалить <xliff:g id="number_string">%s</xliff:g></string>
   <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
   <string name="timer_plus_one">Добавить 1 минуту</string>
   <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
-  <string name="timer_plus_1_min">Добавить 1 мин</string>
+  <string name="timer_plus_1_min">Добавить 1 мин.</string>
   <!-- Describes the purpose of the button to stop the timer. -->
   <string name="timer_stop">Стоп</string>
   <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
@@ -444,14 +443,14 @@
   <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
   <string name="timer_cancel">Отмена</string>
   <!-- Accessibility announcement when a timer is canceled. -->
-  <string name="timer_canceled">Таймера отменена</string>
+  <string name="timer_canceled">Таймера отменен</string>
   <!-- Notification content shown when a timer has completed and has no more time remaining -->
   <string name="timer_times_up">Время вышло</string>
   <!--
         Notification content shown when multiple timers have completed and have no more time
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
-  <string name="timer_multi_times_up">Таймеров остановлено: <xliff:g id="number" example="7">%d</xliff:g></string>
+  <string name="timer_multi_times_up">Таймеров остановлено: <xliff:g id="NUM_TIMERS" example="2">%d</xliff:g></string>
   <!-- Label associated with a notification for a Timer -->
   <string name="timer_notification_label">Таймер</string>
   <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
@@ -510,7 +509,7 @@
   <!-- add 00 as minutes to the time when pressing this button -->
   <string name="time_picker_00_label">:00</string>
   <!-- add 30 as minutes to the time when pressing this button -->
-  <string name="time_picker_30_label">: 30</string>
+  <string name="time_picker_30_label">:30</string>
   <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
@@ -523,7 +522,7 @@
   <string name="city_unchecked"><xliff:g id="city_name">%s </xliff:g> снят</string>
   <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
   <string-array name="timezone_labels">
-    <item>"Маршалловы острова"</item>
+    <item>"Маршалловы о-ва"</item>
     <item>"Остров Мидуэй"</item>
     <item>"Гавайи"</item>
     <item>"Аляска"</item>
@@ -532,25 +531,25 @@
     <item>"Аризона"</item>
     <item>"Чиуауа"</item>
     <item>"Горное время (США)"</item>
-    <item>"Центральноамер. время"</item>
+    <item>"Центральная Америка"</item>
     <item>"Центральное время"</item>
     <item>"Мехико-Сити"</item>
     <item>"Саскачеван"</item>
     <item>"Богота"</item>
     <item>"Восточное время"</item>
-    <item>"Венесуэлла "</item>
+    <item>"Венесуэлла"</item>
     <item>"Атлант. время (Барбадос)"</item>
     <item>"Атлант. время (Канада)"</item>
     <item>"Манаус"</item>
     <item>"Сантьяго"</item>
     <item>"Ньюфаундленд"</item>
-    <item>"Бразилия"</item>
+    <item>"Бразилиа"</item>
     <item>"Буэнос-Айрес"</item>
     <item>"Гренландия"</item>
     <item>"Монтевидео"</item>
     <item>"Центральноатлант. время"</item>
-    <item>"Азорские острова"</item>
-    <item>"Острова Зеленого Мыса"</item>
+    <item>"Азорские о-ва"</item>
+    <item>"Острова Кабо-Верде"</item>
     <item>"Касабланка"</item>
     <item>"Лондон, Дублин"</item>
     <item>"Амстердам, Берлин"</item>
@@ -637,7 +636,7 @@
   <!-- Description when timer is stopped. -->
   <string name="timer_stopped">Таймер остановлен</string>
   <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
-  <string name="timer_paused">Приостановить таймер</string>
+  <string name="timer_paused">Таймер приостановлен</string>
   <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
   <string name="timers_stopped">Таймеров остановлено: <xliff:g id="number" example="7">%d</xliff:g></string>
   <!-- Notification text when multiple timers are paused. -->
@@ -658,7 +657,7 @@
   <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
   <string name="collapse_alarm">Свернуть будильник</string>
   <!-- Description of the button to undo change to alarm -->
-  <string name="alarm_undo">отмена</string>
+  <string name="alarm_undo">Отменить</string>
   <!-- Toast content when an alarm was deleted  -->
   <string name="alarm_deleted">Будильник удален</string>
   <!-- Select the source of the alarm -->
@@ -674,17 +673,16 @@
   <!-- slash between date and next alarm in the clock -->
   <string name="slash"> / </string>
   <!-- slash between date and next alarm in the clock -->
-  <string name="world_day_of_week_label"> / <xliff:g id="label"> %s </xliff:g></string>
   <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
-  <string name="next_alarm_description">Следующий будильник: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
+  <string name="next_alarm_description">Следующий будильник: <xliff:g id="alarm_time" example="Wed 8:00am">%s</xliff:g></string>
   <!-- Displays the number of alarms selected from the list of alarms. -->
-  <string name="alarms_selected">Выбрано: <xliff:g id="ALARMS">%d</xliff:g></string>
+  <string name="alarms_selected">Выбрано: <xliff:g id="alarms">%d</xliff:g></string>
   <!-- message used by the talkback accessibility app to say that something was deleted -->
   <string name="deleted_message">Удалено</string>
   <!-- Alarm deletion confirmation message-->
   <plurals name="alarm_delete_confirmation">
     <!-- Confirmation for one alarm -->
-    <item quantity="one">Удалить выбранные будильники?</item>
+    <item quantity="one">Удалить выбранный будильник?</item>
     <item quantity="few">Удалить выбранные будильники?</item>
     <!-- Confirmation more than one alarm  -->
     <item quantity="other">Удалить выбранные будильники?</item>
@@ -692,7 +690,7 @@
   <!-- Timer deletion confirmation -->
   <string name="timer_delete_confirmation">Удалить этот таймер?</string>
   <!-- world clock deletion confirmation -->
-  <string name="city_delete_confirmation">Убрать этот город?</string>
+  <string name="city_delete_confirmation">Удалить этот город?</string>
   <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
   <string name="digital_gadget">Цифровые часы</string>
   <!-- format strings for clocks -->
@@ -705,7 +703,7 @@
   <!-- String for no alarms set [CHAR LIMIT=24] -->
   <string name="no_alarms_set">Будильников не установлено</string>
   <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
-  <string name="no_upcoming_alarms">СИГНАЛОВ НЕТ</string>
+  <string name="no_upcoming_alarms">НЕТ БУДИЛЬНИКОВ</string>
   <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
      or 27:68pm.
     First %d represents hour, second %d represents minutes, %s represents am/pm,
@@ -825,12 +823,12 @@
     but the city they specified wasn't listed in the database.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_you_specified_is_not_available">Не удалось найти такой город</string>
+  <string name="the_city_you_specified_is_not_available">Не удалось найти указанный город</string>
   <!-- String that represents that the user attempted to add a world clock through a voice action
     but the city they specified is already added to the list.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_already_added">Такой город уже добавлен</string>
+  <string name="the_city_already_added">Указанный город уже был добавлен</string>
   <!-- String that represents that the user successfully added a world clock through a
     voice action
     %s represents the name of the city they added.
@@ -853,7 +851,7 @@
          where a use gets to pick which alarm to dismiss
    [CHAR LIMIT=NONE]
    -->
-  <string name="dismiss_alarm">Выключить будильник</string>
+  <string name="dismiss_alarm">Отключить будильник</string>
   <!-- String that represents that further action is needed from the user in case their
     voice command was ambiguous or there are more than 1 alarms that match their request.
     The user needs to choose an alarm they want to dismiss through the UI
@@ -869,9 +867,9 @@
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_snoozed">Будильник <xliff:g id="ALARM_TIME">%s</xliff:g> отложен на 10 минут</string>
+  <string name="alarm_is_snoozed">Будильник на <xliff:g id="alarm_time" example="14:20">%s</xliff:g> отложен на 10 минут</string>
   <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Действие при перевороте</string>
+  <string name="flip_action_title">Действие при повороте</string>
   <!-- Setting summary for the flip action setting. -->
   <string name="flip_action_summary" product="default">При переворачивании телефона <xliff:g id="action">%s</xliff:g>    </string>
   <!-- Setting title for the shake action setting. -->

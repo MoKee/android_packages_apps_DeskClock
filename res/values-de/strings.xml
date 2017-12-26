@@ -84,7 +84,6 @@
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
   <string name="alarm_missed_title">Entgangener Weckruf</string>
-  <string name="alarm_missed_text"><xliff:g id="ALARM_TIME">%s</xliff:g>–<xliff:g id="ALARM_LABEL">%s</xliff:g></string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
@@ -273,6 +272,7 @@
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Lautstärketaste</string>
   <!-- Title of the setting default alarm tone  -->
+  <string name="default_alarm_tone_title">Standard-Weckton</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">Tasteneffekt</string>
   <!-- Entries listed in the setting for the side-button action. -->
@@ -336,7 +336,17 @@
   <string name="menu_item_sort_by_gmt_offset">Zeitlich sortieren</string>
   <!-- Menu item on Cities screen to sort by alphabetical order -->
   <string name="menu_item_sort_by_name">Nach Namen sortieren</string>
+  <string name="cities_add_gps_no_results">Die GPS-Abfrage war nicht erfolgreich</string>
+  <string name="cities_add_gps_not_available">GPS ist nicht verfügbar</string>
+  <string name="cities_add_city_title">Stadt hinzufügen</string>
   <string name="cities_add_loading">Lädt\u2026</string>
+  <string name="cities_add_city_city">Stadt:</string>
+  <string name="cities_add_city_timezone">Zeitzone:</string>
+  <string name="cities_add_already_exists">Die Stadt existiert bereits in der Datenbank</string>
+  <string name="cities_add_city_failed">Stadt konnte nicht angelegt werden</string>
+  <string name="cities_delete_city_failed">Stadt konnte nicht gelöscht werden</string>
+  <string name="cities_delete_city_msg">Möchtest du <xliff:g id="city">%s</xliff:g> löschen?    </string>
+  <string name="cities_delete_city_title">Stadt löschen</string>
   <!-- Label for selected cities in Cities list view -->
   <string name="selected_cities_label">Ausgewählte Städte</string>
   <!-- Stopwatch and Timer shared strings -->
@@ -360,12 +370,16 @@
          Also used as title for chooser when sharing stopwatch results. -->
   <string name="sw_share_button">Teilen</string>
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+  <string name="hours_label">h</string>
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+  <string name="minutes_label">m</string>
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+  <string name="seconds_label">s</string>
   <!-- Accessibility strings -->
   <string name="hours_label_description">Stunden</string>
   <string name="minutes_label_description">Minuten</string>
   <string name="seconds_label_description">Sekunden</string>
+  <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
   <string name="sw_share_main">Meine Zeit: <xliff:g id="TIME">%s</xliff:g></string>
@@ -455,6 +469,10 @@
   <string name="open_date_settings">Datum &amp; Uhrzeit ändern</string>
   <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
+  <string-array name="clock_style_entries">
+    <item>Analog</item>
+    <item>Digital</item>
+  </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match
          the clock_style_entries above. -->
   <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
@@ -469,9 +487,13 @@
   <string name="time_picker_cancel">Abbrechen</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
   <string name="time_picker_set">Ok</string>
+  <string name="time_picker_time_seperator">:</string>
   <!--  place holder for am/pm label when it is not set -->
+  <string name="time_picker_ampm_label">--</string>
   <!-- add 00 as minutes to the time when pressing this button -->
+  <string name="time_picker_00_label">:00</string>
   <!-- add 30 as minutes to the time when pressing this button -->
+  <string name="time_picker_30_label">:30</string>
   <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
@@ -634,7 +656,6 @@
   <!-- slash between date and next alarm in the clock -->
   <string name="slash">/</string>
   <!-- slash between date and next alarm in the clock -->
-  <string name="world_day_of_week_label">/<xliff:g id="LABEL">%s</xliff:g></string>
   <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
   <string name="next_alarm_description">Nächste Weckzeit: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
   <!-- Displays the number of alarms selected from the list of alarms. -->
@@ -832,9 +853,13 @@
   <!-- Setting title for the flip action setting. -->
   <!-- Setting summary for the flip action setting. -->
   <!-- Setting title for the shake action setting. -->
+  <string name="shake_action_title">Aktion beim Schütteln</string>
   <!-- Setting summary for the shake action setting. -->
   <!-- Summary texts for shake and flip actions -->
+  <string name="action_summary_do_nothing">nichts tun</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
   <!-- Ringtone selection default" -->
+  <string name="ringtone_default">"Standard-Klingelton"</string>
   <!--used for prompt to user storage permission status-->
+  <string name="have_denied_storage_permission">Die Speicherberechtigung wurde abgelehnt. Dies kann manuell in den Einstellungen geändert werden</string>
 </resources>
