@@ -36,6 +36,7 @@
   <!-- Content description for alarm on/off switch in On state -->
   <string name="on_switch">Hidupkan</string>
   <!-- Content description for alarm on/off switch in Off state -->
+  <string name="off_switch">Dimatikan</string>
   <!-- Default label to display for an alarm -->
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
@@ -52,6 +53,7 @@
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
+  <string name="alarm_alert_off_action_text">Dimatikan</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
   <!-- Alarm Alert screen: this message is shown after an alarm rung
@@ -114,6 +116,7 @@
   <!-- Setting title for changing the snooze duration. -->
   <!-- Setting title for changing the crescendo duration. -->
   <!-- Summary value for changing the crescendo duration to 0. -->
+  <string name="no_crescendo_duration">Dimatikan</string>
   <!-- Summary value for changing the crescendo duration. -->
   <!-- Setting label when changing the crescendo duration. -->
   <string name="crescendo_picker_label">saat</string>
