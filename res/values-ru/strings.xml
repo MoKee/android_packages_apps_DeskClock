@@ -640,7 +640,7 @@
   <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
   <string name="timers_stopped">Таймеров остановлено: <xliff:g id="number" example="7">%d</xliff:g></string>
   <!-- Notification text when multiple timers are paused. -->
-  <string name="all_timers_stopped_notif">Нажмите, чтобы посмотреть таймеры</string>
+  <string name="all_timers_stopped_notif">Нажмите, чтобы просмотреть таймеры</string>
   <!-- Notification title when at least one timer, of those in use, is counting down. -->
   <string name="timers_in_use">Таймеров: <xliff:g id="NUMBER">%d</xliff:g></string>
   <!-- Notification text when at least one timer, of those in use, is counting down. -->
@@ -651,7 +651,7 @@
   <!-- Title for check box to pick intensity of display diminuation during dream mode -->
   <string name="night_mode_title">Ночной режим</string>
   <!-- Describes intensity of display diminuation during dream mode -->
-  <string name="night_mode_summary">Тусклый дисплей (для темных помещений)</string>
+  <string name="night_mode_summary">Очень тусклый дисплей (для темных помещений)</string>
   <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
   <string name="expand_alarm">Развернуть будильник</string>
   <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
