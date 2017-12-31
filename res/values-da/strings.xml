@@ -326,6 +326,7 @@
   <!-- Menu item on most screens to get to the help information -->
   <string name="menu_item_help">Hjælp</string>
   <!-- Menu item on clock screen to add world city. -->
+  <string name="menu_item_add">Tilføj</string>
   <!-- Menu item on clock screen to enter night mode. -->
   <string name="menu_item_night_mode">Nattilstand</string>
   <!-- Menu item on Cities screen to sort by GMT offset -->
