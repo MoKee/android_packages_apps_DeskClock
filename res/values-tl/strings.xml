@@ -118,6 +118,7 @@
   <!-- Auto silence preference title -->
   <!-- Auto silence summary string set based on the preference value. -->
   <!-- Auto silence summary when turned off -->
+  <string name="auto_silence_never">Hindi kailanman</string>
   <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
   <string-array name="auto_silence_entries">
@@ -127,7 +128,7 @@
     <item>15 minuto</item>
     <item>20 minutes</item>
     <item>25 minutes</item>
-    <item>Never</item>
+    <item>Hindi kailanman</item>
   </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
@@ -141,6 +142,7 @@
   <!-- Setting title for changing the alarm volume. -->
   <!-- Title for the silent ringtone. -->
   <!-- Title for ringtones that cannot be located by uri. -->
+  <string name="unknown_ringtone_title">Hindi tiyak</string>
   <!-- Text to display in the small text of the notification -->
   <!-- Text to display in the notification ticker and label -->
   <!-- Text to display in the notification when the alarm has been snoozed -->

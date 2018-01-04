@@ -492,7 +492,9 @@
   <!--  place holder for am/pm label when it is not set -->
   <string name="time_picker_ampm_label">--</string>
   <!-- add 00 as minutes to the time when pressing this button -->
+  <string name="time_picker_00_label">:00</string>
   <!-- add 30 as minutes to the time when pressing this button -->
+  <string name="time_picker_30_label">:30</string>
   <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
@@ -516,28 +518,28 @@
     <item>"Gorski čas"</item>
     <item>"Srednja Amerika"</item>
     <item>"Osrednji čas"</item>
-    <item>"Mexico City"</item>
-    <item>"Saskatchewan"</item>
+    <item>"Ciudad de Mexico"</item>
+    <item>"Saskačevan"</item>
     <item>"Bogota"</item>
-    <item>"Eastern Time"</item>
+    <item>"Vzhodnoameriški čas"</item>
     <item>"Venezuela"</item>
-    <item>"Atlantic Time (Barbados)"</item>
-    <item>"Atlantic Time (Canada)"</item>
+    <item>"Atlantski čas (Barbados)"</item>
+    <item>"Atlantski čas (Kanada)"</item>
     <item>"Manaus"</item>
     <item>"Santiago"</item>
-    <item>"Newfoundland"</item>
-    <item>"Brasilia"</item>
+    <item>"Nova Fundlandija"</item>
+    <item>"Brazilija"</item>
     <item>"Buenos Aires"</item>
-    <item>"Greenland"</item>
+    <item>"Grenlandija"</item>
     <item>"Montevideo"</item>
-    <item>"Mid-Atlantic"</item>
-    <item>"Azores"</item>
-    <item>"Cape Verde Islands"</item>
+    <item>"Srednji Atlantik"</item>
+    <item>"Azori"</item>
+    <item>"Zelenortski otoki"</item>
     <item>"Casablanca"</item>
     <item>"London, Dublin"</item>
     <item>"Amsterdam, Berlin"</item>
-    <item>"Belgrade"</item>
-    <item>"Brussels"</item>
+    <item>"Beograd"</item>
+    <item>"Bruselj"</item>
     <item>"Sarajevo"</item>
     <item>"Windhoek"</item>
     <item>"Zahodnoafriški čas"</item>
