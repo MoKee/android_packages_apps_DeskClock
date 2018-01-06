@@ -109,6 +109,7 @@
   <!-- Help activity name -->
   <!-- Settings activity name -->
   <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="settings">Mga setting</string>
   <!-- Setting title for changing the snooze duration. -->
   <!-- Setting title for changing the crescendo duration. -->
   <!-- Summary value for changing the crescendo duration to 0. -->
@@ -175,12 +176,14 @@
   <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
   <!-- Describes the purpose of the button which pops up a menu of setting choices -->
   <!-- Menu item on most screens to get to more settings -->
+  <string name="menu_item_settings">Mga setting</string>
   <!-- Menu item on most screens to get to the help information -->
   <string name="menu_item_help">Tulong</string>
   <!-- Menu item on clock screen to add world city. -->
   <!-- Menu item on clock screen to enter night mode. -->
   <!-- Menu item on Cities screen to sort by GMT offset -->
   <!-- Menu item on Cities screen to sort by alphabetical order -->
+  <string name="cities_add_loading">Naglo-load \ u2026</string>
   <!-- Label for selected cities in Cities list view -->
   <!-- Stopwatch and Timer shared strings -->
   <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
@@ -223,6 +226,7 @@
   <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
   <string name="timer_reset">I-reset</string>
   <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
+  <string name="timer_cancel">Kanselahin</string>
   <!-- Accessibility announcement when a timer is canceled. -->
   <!-- Notification content shown when a timer has completed and has no more time remaining -->
   <!--
@@ -250,7 +254,9 @@
   <!-- Title in the preferences change the time zone for the user's home -->
   <!-- Title in a list dialog box to pick a time zone for the user's home -->
   <!-- Textual content of the button to discard the current dialog values and close the dialog -->
+  <string name="time_picker_cancel">Kanselahin</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
+  <string name="time_picker_set">OK</string>
   <!--  place holder for am/pm label when it is not set -->
   <!-- add 00 as minutes to the time when pressing this button -->
   <!-- add 30 as minutes to the time when pressing this button -->
@@ -297,7 +303,9 @@
   <!-- Select the ringtone as alarm -->
   <!-- Select the alarm from external device -->
   <!-- Ok for selection -->
+  <string name="alarm_select_ok">OK</string>
   <!-- Cancel for selection -->
+  <string name="alarm_select_cancel">Kanselahin</string>
   <!-- slash between date and next alarm in the clock -->
   <!-- slash between date and next alarm in the clock -->
   <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->

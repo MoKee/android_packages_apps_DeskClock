@@ -457,6 +457,7 @@
   <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
   <string name="timer_pause">Premor</string>
   <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
+  <string name="timer_reset_all">Ponastavi vse časovnike</string>
   <!-- Jocular content that user may append when sharing the lap times -->
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
   <string name="home_label">Doma</string>
@@ -563,7 +564,7 @@
     <item>"Kabul"</item>
     <item>"Islamabad, Karači"</item>
     <item>"Uralsk"</item>
-    <item>"Yekaterinburg"</item>
+    <item>"Jekaterinburg"</item>
     <item>"Kolkata"</item>
     <item>"Šri Lanka"</item>
     <item>"Katmandu"</item>
@@ -591,7 +592,7 @@
     <item>"Auckland"</item>
     <item>"Fidži"</item>
     <item>"Tonga"</item>
-    <item>"Jakarta"</item>
+    <item>"Džakarta"</item>
   </string-array>
   <!-- Choices for timezones, must be kept in sync with timezone_values. -->
   <!-- Header in the preferences settings for the section pertaining to alarms -->
