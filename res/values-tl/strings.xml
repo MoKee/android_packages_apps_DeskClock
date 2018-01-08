@@ -137,6 +137,7 @@
   <!-- Entries listed in ListPreference for start day. -->
   <!-- Values for ListPreference for start day of week. -->
   <!-- Done button when editing an alarm. -->
+  <string name="done">Natapos</string>
   <!-- Revert button when editing an alarm. -->
   <!-- Delete button when editing an alarm. -->
   <string name="delete">Tanggalin</string>
@@ -196,6 +197,7 @@
   <string name="sw_reset_button">I-reset</string>
   <!-- Stopwatch strings -->
   <!-- Describes the purpose of the button to begin running a stopwatch -->
+  <string name="sw_start_button">Simulan</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
   <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
   <!-- Describes the purpose of the button to share the stopwatch value.
@@ -216,6 +218,7 @@
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
   <!-- Describes the purpose of the button to begin or continue running a timer -->
+  <string name="timer_start">Simulan</string>
   <!-- Describes the purpose of the button to delete a timer. -->
   <string name="timer_delete">Tanggalin</string>
   <!-- Talkback description for deleting a number. -->

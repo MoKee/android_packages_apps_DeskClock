@@ -28,11 +28,17 @@
   <!-- Menu item on Alarm Clock screen: Add alarm -->
   <string name="add_alarm">알람 추가</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
+  <string name="menu_desk_clock">탁상 시계</string>
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
+  <string name="menu_edit_alarm">알람 수정</string>
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+  <string name="delete_alarm">알람 삭제</string>
   <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+  <string name="enable_alarm">알람 켜기</string>
   <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+  <string name="disable_alarm">알람 끄기</string>
   <!-- Delete alarm confirmation dialog message. -->
+  <string name="delete_alarm_confirm">이 알람을 삭제하시겠습니까?</string>
   <!-- Menu item on Alarm Clock screen: Show clock -->
   <!-- Menu item on Alarm Clock screen: Hide clock -->
   <!-- Setting label on Set alarm screen: Label -->
