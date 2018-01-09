@@ -79,7 +79,7 @@
   <!-- Button labels on the alarm dialog: Dismiss -->
   <string name="alarm_alert_dismiss_text">Отклонить</string>
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
-  <string name="alarm_alert_dismiss_now_text">Отклонить сейчас</string>
+  <string name="alarm_alert_dismiss_now_text">Отменить</string>
   <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
@@ -496,9 +496,9 @@
   <!-- Describes the functionality provided by the automatic_home_clock option -->
   <string name="automatic_home_clock_summary">Показывать на отдельных часах, сколько времени дома, когда я нахожусь в другом часовом поясе</string>
   <!-- Title in the preferences change the time zone for the user's home -->
-  <string name="home_time_zone">Домашний часовой пояс</string>
+  <string name="home_time_zone">Мой часовой пояс</string>
   <!-- Title in a list dialog box to pick a time zone for the user's home -->
-  <string name="home_time_zone_title">Домашний часовой пояс</string>
+  <string name="home_time_zone_title">Мой часовой пояс</string>
   <!-- Textual content of the button to discard the current dialog values and close the dialog -->
   <string name="time_picker_cancel">Отмена</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->

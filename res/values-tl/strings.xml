@@ -36,6 +36,7 @@
   <!-- Content description for alarm on/off switch in On state -->
   <string name="on_switch">Naka-on</string>
   <!-- Content description for alarm on/off switch in Off state -->
+  <string name="off_switch">I-off</string>
   <!-- Default label to display for an alarm -->
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
@@ -44,6 +45,7 @@
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
   <!-- Title of default ringtone played when a timer expires. -->
   <!-- Title of silent ringtone played when a timer expires. -->
+  <string name="silent_timer_ringtone_title">Tahimik</string>
   <!-- Label on expanded alarm edit view. -->
   <!-- Setting labels on Set alarm screen: Set time  -->
   <string name="time">Oras</string>
@@ -51,6 +53,7 @@
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
+  <string name="alarm_alert_off_action_text">I-off</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
   <!-- Alarm Alert screen: this message is shown after an alarm rung
@@ -113,6 +116,7 @@
   <!-- Setting title for changing the snooze duration. -->
   <!-- Setting title for changing the crescendo duration. -->
   <!-- Summary value for changing the crescendo duration to 0. -->
+  <string name="no_crescendo_duration">I-off</string>
   <!-- Summary value for changing the crescendo duration. -->
   <!-- Setting label when changing the crescendo duration. -->
   <string name="crescendo_picker_label">mga segundo</string>
@@ -143,6 +147,7 @@
   <string name="delete">Tanggalin</string>
   <!-- Setting title for changing the alarm volume. -->
   <!-- Title for the silent ringtone. -->
+  <string name="silent_ringtone_title">Tahimik</string>
   <!-- Title for ringtones that cannot be located by uri. -->
   <string name="unknown_ringtone_title">Hindi tiyak</string>
   <!-- Text to display in the small text of the notification -->
@@ -242,6 +247,7 @@
   <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
   <!-- Jocular content that user may append when sharing the lap times -->
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
+  <string name="home_label">Tahanan</string>
   <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
   <!-- Settings strings -->
   <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->

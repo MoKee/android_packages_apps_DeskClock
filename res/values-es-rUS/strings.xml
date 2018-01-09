@@ -203,14 +203,29 @@
     <!-- Duration for more than one minute -->
     <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> minutos</item>
   </plurals>
+  <plurals name="snooze_picker_label">
+    <!-- Duration for one minute -->
+    <item quantity="one">minuto</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other">minutos</item>
+  </plurals>
   <!-- Setting title for changing the crescendo duration. -->
+  <string name="crescendo_duration_title">Aumentar gradualmente el volumen</string>
   <!-- Summary value for changing the crescendo duration to 0. -->
   <string name="no_crescendo_duration">Desactivado</string>
   <!-- Summary value for changing the crescendo duration. -->
+  <string name="crescendo_duration"><xliff:g id="number" example="7">%s</xliff:g> segundos</string>
   <!-- Setting label when changing the crescendo duration. -->
   <string name="crescendo_picker_label">segundos</string>
   <!-- Auto silence preference title -->
+  <string name="auto_silence_title">Silenciar después de</string>
   <!-- Auto silence summary string set based on the preference value. -->
+  <plurals name="auto_silence_summary">
+    <!-- Duration for one minute -->
+    <item quantity="one">1 minuto</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other"><xliff:g id="formatted_number" example="7">%s</xliff:g> minutos</item>
+  </plurals>
   <!-- Auto silence summary when turned off -->
   <string name="auto_silence_never">Nunca</string>
   <string name="default_auto_silence_value">10</string>
@@ -221,18 +236,25 @@
     <item>5 minutos</item>
     <item>10 minutos</item>
     <item>15 minutos</item>
-    <item>20 minutes</item>
-    <item>25 minutes</item>
+    <item>20 minutos</item>
+    <item>25 minutos</item>
     <item>Nunca</item>
   </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
   <!-- Week start day preference title. -->
+  <string name="week_start_title">Empezar la semana el</string>
   <!-- Entries listed in ListPreference for start day. -->
+  <string-array name="week_start_entries">
+    <item>Sábado</item>
+    <item>Domingo</item>
+    <item>Lunes</item>
+  </string-array>
   <!-- Values for ListPreference for start day of week. -->
   <!-- Done button when editing an alarm. -->
   <string name="done">Hecho</string>
   <!-- Revert button when editing an alarm. -->
+  <string name="revert">Revertir</string>
   <!-- Delete button when editing an alarm. -->
   <string name="delete">Eliminar</string>
   <!-- Setting title for changing the alarm volume. -->
@@ -242,13 +264,18 @@
   <!-- Title for ringtones that cannot be located by uri. -->
   <string name="unknown_ringtone_title">Desconocido</string>
   <!-- Text to display in the small text of the notification -->
+  <string name="alarm_notify_text">Posponer o descartar la alarma.</string>
   <!-- Text to display in the notification ticker and label -->
+  <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> (descartada)</string>
   <!-- Text to display in the notification when the alarm has been snoozed -->
+  <string name="alarm_notify_snooze_text">Alarma establecida para <xliff:g id="time">%s </xliff:g>. Toca para cancelar.</string>
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Botones de volumen</string>
   <!-- Title of the setting default alarm tone  -->
+  <string name="default_alarm_tone_title">Tono predeterminado de la alarma</string>
   <!-- Dialog title of the volume and power setting. -->
+  <string name="volume_button_dialog_title">Efecto de botón</string>
   <!-- Entries listed in the setting for the side-button action. -->
   <string-array name="volume_button_setting_entries">
     <item>Repetición de alarma</item>
@@ -257,35 +284,48 @@
   </string-array>
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
+  <string name="default_ringtone_setting_title">Establecer tono de timbre</string>
   <!-- Accessibility labels for Clock activity buttons -->
   <string name="alarm_button_description">Alarmas</string>
   <string name="gallery_button_description">Galeria</string>
+  <string name="music_button_description">Música</string>
+  <string name="nightmode_button_description">Dim</string>
+  <string name="home_button_description">Lanzador</string>
+  <string name="desk_clock_button_description">Visualización del reloj</string>
   <!-- Accessibility labels for alarm buttons -->
   <string name="label_description">Etiqueta</string>
   <string name="ringtone_description">Tono de llamada</string>
   <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
          present on the device, we show nothing at all. -->
+  <string name="weather_fetch_failure">Información meteorológica no disponible ahora.</string>
   <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
+  <string name="alarm_klaxon_service_desc">Servicio de reproducción de sonido de alarmas ubicado en reloj.</string>
   <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
+  <string name="loading_ringtone">Cargando timbre\u2026</string>
   <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
+  <string name="timer_ring_service_desc">Conjunto de servicios de reproducción de sonido de temporizadores en reloj.</string>
   <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
   <string name="control_set_alarm">Establecer alarma</string>
   <!--  ActionBar strings -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
   <string name="menu_alarm">Alarma</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
+  <string name="menu_timer">Temporizador</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
   <string name="menu_clock">Reloj</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
+  <string name="menu_stopwatch">Cronómetro</string>
   <!-- Clock view buttons strings-->
   <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
   <string name="button_alarms">Añadir alarma</string>
   <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
+  <string name="button_cities">Ciudades</string>
   <!-- Describes the purpose of the button which pops up a menu of setting choices -->
+  <string name="button_menu">Más opciones</string>
   <!-- Menu item on most screens to get to more settings -->
   <string name="menu_item_settings">Configuración</string>
   <!-- Menu item on most screens to get to the help information -->
@@ -293,12 +333,31 @@
   <!-- Menu item on clock screen to add world city. -->
   <string name="menu_item_add">Añadir</string>
   <!-- Menu item on clock screen to enter night mode. -->
+  <string name="menu_item_night_mode">Modo noche</string>
   <!-- Menu item on Cities screen to sort by GMT offset -->
+  <string name="menu_item_sort_by_gmt_offset">Ordenar por tiempo</string>
   <!-- Menu item on Cities screen to sort by alphabetical order -->
+  <string name="menu_item_sort_by_name">Ordenar por nombre</string>
+  <string name="cities_add_gps_no_results">Consulta al GPS no devuelve ningún resultado de la ubicación</string>
+  <string name="cities_add_gps_not_available">GPS no disponible</string>
+  <string name="cities_add_searching">Buscando\u2026</string>
+  <string name="cities_add_city_title">Añadir ciudad</string>
+  <string name="cities_add_city_gps_cd">Toca para localizar tu ciudad actual</string>
   <string name="cities_add_loading">Cargando\u2026</string>
+  <string name="cities_add_city_city">Ciudad:</string>
+  <string name="cities_add_city_timezone">Zona horaria:</string>
+  <string name="cities_add_already_exists">La ciudad ya existe en la base de datos</string>
+  <string name="cities_add_city_failed">No se puede crear la ciudad</string>
+  <string name="cities_delete_city_failed">No se puede eliminar la ciudad</string>
+  <string name="cities_delete_city_msg">¿Confirmas que deseas eliminar
+        <xliff:g id="city">%s</xliff:g>?   
+    </string>
+  <string name="cities_delete_city_title">Eliminar ciudad</string>
   <!-- Label for selected cities in Cities list view -->
+  <string name="selected_cities_label">Ciudades seleccionadas</string>
   <!-- Stopwatch and Timer shared strings -->
   <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
+  <string name="sw_resume_button">Continuar</string>
   <!--
         Describes the purpose of the button
             for stopwatch: return stopwatch to zero and remove the lap times.
@@ -310,11 +369,14 @@
   <!-- Describes the purpose of the button to begin running a stopwatch -->
   <string name="sw_start_button">Iniciar</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
+  <string name="sw_pause_button">Pausar</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
+  <string name="sw_lap_button">Vuelta</string>
   <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
   <string name="sw_share_button">Compartir</string>
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+  <string name="hours_label">h</string>
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
   <!-- Accessibility strings -->
@@ -349,13 +411,16 @@
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
   <!-- Label associated with a notification for a Timer -->
+  <string name="timer_notification_label">Temporizador</string>
   <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
   <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
+  <string name="timer_pause">Pausar</string>
   <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
   <!-- Jocular content that user may append when sharing the lap times -->
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
   <string name="home_label">Casa</string>
   <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="cities_activity_title">Ciudades</string>
   <!-- Settings strings -->
   <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
   <string name="clock_settings">Reloj</string>
@@ -412,6 +477,7 @@
   <!-- screensaver settings strings -->
   <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
   <!-- Title for check box to pick intensity of display diminuation during dream mode -->
+  <string name="night_mode_title">Modo noche</string>
   <!-- Describes intensity of display diminuation during dream mode -->
   <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
   <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
@@ -421,6 +487,7 @@
   <!-- Select the ringtone as alarm -->
   <string name="alarm_select_ringtone">Tono de llamada</string>
   <!-- Select the alarm from external device -->
+  <string name="alarm_select_external">Música</string>
   <!-- Ok for selection -->
   <string name="alarm_select_ok">Aceptar</string>
   <!-- Cancel for selection -->
