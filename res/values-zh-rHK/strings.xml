@@ -646,7 +646,7 @@
   <!-- Ok for selection -->
   <string name="alarm_select_ok">確認</string>
   <!-- Cancel for selection -->
-  <string name="alarm_select_cancel">Cancel</string>
+  <string name="alarm_select_cancel">取消</string>
   <!-- slash between date and next alarm in the clock -->
   <string name="slash">/</string>
   <!-- slash between date and next alarm in the clock -->

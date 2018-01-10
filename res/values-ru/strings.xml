@@ -221,7 +221,7 @@
   <!-- Summary value for changing the crescendo duration to 0. -->
   <string name="no_crescendo_duration">Выкл.</string>
   <!-- Summary value for changing the crescendo duration. -->
-  <string name="crescendo_duration"><xliff:g id="NUMBER">%d</xliff:g> сек.</string>
+  <string name="crescendo_duration"><xliff:g id="number" example="7">%s</xliff:g> cek</string>
   <!-- Setting label when changing the crescendo duration. -->
   <string name="crescendo_picker_label">сек.</string>
   <!-- Auto silence preference title -->
@@ -789,7 +789,7 @@
     the timer could not be located.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_does_not_exist">Таймер был удален.</string>
+  <string name="timer_does_not_exist">Таймер был удалён.</string>
   <!-- String that represents that the user has successfully created a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
