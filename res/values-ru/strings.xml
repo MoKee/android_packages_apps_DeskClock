@@ -462,7 +462,7 @@
   <!-- Jocular content that user may append when sharing the lap times -->
   <string-array name="sw_share_strings" translatable="true">
     <item>Да вы просто Шумахер!</item>
-    <item>Наслаждаться плодами Вашего труда.</item>
+    <item>Наслаждайтесь плодами Вашего труда.</item>
     <item>Вы даже быстрее, чем Android!</item>
     <item>Тьфу.</item>
     <item>L33t раз.</item>
@@ -743,7 +743,7 @@
      the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_paused">Секундомер приостановлена</string>
+  <string name="stopwatch_paused">Секундомер приостановлен</string>
   <!-- String that represents that the user has successfully sent a voice command resetting
     the stopwatch.
     [CHAR LIMIT=NONE]

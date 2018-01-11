@@ -21,63 +21,106 @@
   <!-- -->
   <!-- Label shown on launcher icon -->
   <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
+  <string name="app_label">Orasan</string>
   <!-- Title for AlarmClock activity -->
   <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="alarm_list_title">Mga alarma</string>
   <!-- Menu item on Alarm Clock screen: Add alarm -->
+  <string name="add_alarm">Magdagdag ng alarma</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
+  <string name="menu_desk_clock">Orasan sa mesa</string>
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
+  <string name="menu_edit_alarm">I-edit ang alarma</string>
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+  <string name="delete_alarm">Tanggalin ang alarma</string>
   <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+  <string name="enable_alarm">I-turn on ang alarma</string>
   <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+  <string name="disable_alarm">I-turn off ang alarma</string>
   <!-- Delete alarm confirmation dialog message. -->
+  <string name="delete_alarm_confirm">Tanggalin ang alarmang ito?</string>
   <!-- Menu item on Alarm Clock screen: Show clock -->
+  <string name="show_clock">Ipakita ang orasan</string>
   <!-- Menu item on Alarm Clock screen: Hide clock -->
+  <string name="hide_clock">Itago ang orasan</string>
   <!-- Setting label on Set alarm screen: Label -->
+  <string name="label">Label</string>
   <!-- Content description for alarm on/off switch in On state -->
   <string name="on_switch">Naka-on</string>
   <!-- Content description for alarm on/off switch in Off state -->
   <string name="off_switch">I-off</string>
   <!-- Default label to display for an alarm -->
+  <string name="default_label">Alarma</string>
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="set_alarm">Magtakda ng alarma</string>
   <!-- Setting labels on Set alarm screen: Vibration on or off -->
+  <string name="alarm_vibrate">Vibrate</string>
   <!-- Setting labels on Set alarm screen: Repeat -->
+  <string name="alarm_repeat">Ulitin</string>
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+  <string name="alert">Alarma ng Ringtone</string>
   <!-- Title of default ringtone played when a timer expires. -->
+  <string name="default_timer_ringtone_title">Timer ay na-expired</string>
   <!-- Title of silent ringtone played when a timer expires. -->
   <string name="silent_timer_ringtone_title">Tahimik</string>
   <!-- Label on expanded alarm edit view. -->
+  <string name="ringtone">Ringtone</string>
   <!-- Setting labels on Set alarm screen: Set time  -->
   <string name="time">Oras</string>
   <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
+  <string name="alarm_tomorrow">Bukas</string>
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
+  <string name="alarm_today">Ngayon</string>
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
+  <string name="alarm_alert_wake_up">Gisingin ang\u0021</string>
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
   <string name="alarm_alert_off_action_text">I-off</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
+  <string name="alarm_alert_dismiss_text">I-dismiss</string>
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+  <string name="alarm_alert_dismiss_now_text">I-dismiss ngayon</string>
   <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
+  <string name="alarm_missed_title">Hindi nakuha na alarma</string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
+  <string name="alarm_alert_snoozed_text">Naka-snooze</string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the word 'Snoozed' in two separate lines or example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
+  <plurals name="alarm_alert_snooze_duration">
+    <!-- Duration for one minute -->
+    <item quantity="one">isang minuto</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> min</item>
+  </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
+  <string name="alarm_alert_off_text">Alarma ay naka-off</string>
   <!-- Button labels on the alarm dialog: Snooze -->
+  <string name="alarm_alert_snooze_text">I-snooze</string>
   <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
+  <plurals name="alarm_alert_snooze_set">
+    <!-- Duration for one minute -->
+    <item quantity="one">Nagsno-snooze ng isang minuto.</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other">Nagsno-snooze para sa <xliff:g id="minutes">%d</xliff:g> na minuto.</item>
+  </plurals>
   <!-- Text to appear inside a notification while an alarm is snoozing. -->
+  <string name="alarm_alert_snooze_until">Nagsno-snooze hanggang <xliff:g id="time">%s</xliff:g></string>
   <!-- Text to appear in the notification title while an alarm is about to go off. -->
+  <string name="alarm_alert_predismiss_title">Paparating na alarma</string>
   <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+  <string name="missed_alarm_has_been_deleted">Ang iyong hindi nakuha na alarma ay nabura na</string>
   <!-- 0: nothing
          1: days
          2:      hours
@@ -88,16 +131,38 @@
          7: days hours minutes
     -->
   <!-- Timer notification: how long from now until timer goes off. -->
+  <string name="timer_notifications_less_min">Wala pang isang minito ang nakalipas</string>
+  <string name="timer_notifications_hours"><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g><xliff:g id="REMAINING" example="natira"> %3$s</xliff:g></string>
+  <string name="timer_notifications_minutes"><xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g><xliff:g id="REMAINING" example="natira"> %3$s</xliff:g></string>
+  <string name="timer_notifications_hours_minutes"><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="dalawang minuto">%2$s</xliff:g> natira</string>
   <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
     -->
+  <string name="timer_remaining_single">natitira</string>
   <!--
         Verb inflection to use for multiple time units remaining
         Ex. "2 minutes remaining"
     -->
+  <string name="timer_remaining_multiple">natitira</string>
   <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
+  <string-array name="alarm_set">
+    <item>Alarma ay naka-set ng hindi aabot ng isang minuto simula ngayon.</item>
+    <item>Alarma ay naka-set para <xliff:g id="DAYS" example="2 araw">%1$s</xliff:g> simula ngayon.</item>
+    <item>Alarma ay naka set <xliff:g id="HOURS" example="2 oras">%2$s</xliff:g> simula ngayon.</item>
+    <item>Alarma ay naka-set para <xliff:g id="DAYS" example="2 araw">%1$s</xliff:g> and <xliff:g id="ORAS" example="2 oras">%2$s</xliff:g> simula ngayon.</item>
+    <item>Alarma ay naka-set para <xliff:g id="MINUTOS" example="2 minutos">%3$s</xliff:g> simula ngayon.</item>
+    <item>Alarma ay naka-set para <xliff:g id="DAYS" example="2 araw">%1$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutos">%3$s</xliff:g> simula ngayon.</item>
+    <item>Alarma ay naka-set para <xliff:g id="HOURS" example="2 oras ">%2$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutos">%3$s</xliff:g>.</item>
+    <item>Alarma ay naka-set para <xliff:g id="DAYS" example="2 araw">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 oras">%2$s</xliff:g>, and <xliff:g id="MINUTES" example="2 minuto">%3$s</xliff:g>.</item>
+  </string-array>
   <!-- Alarm confirmation toast: days -->
+  <plurals name="days">
+    <!-- Duration for one day -->
+    <item quantity="one">1 araw</item>
+    <!-- Duration for more than one day -->
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> oras</item>
+  </plurals>
   <!-- Alarm confirmation toast and timer notification: hours -->
   <!-- Alarm confirmation toast and timer notification: minutes -->
   <!-- Repeat options that appear under an alarm on main Alarm Clock
@@ -158,9 +223,15 @@
   <!-- Title of the setting default alarm tone  -->
   <!-- Dialog title of the volume and power setting. -->
   <!-- Entries listed in the setting for the side-button action. -->
+  <string-array name="volume_button_setting_entries">
+    <item>I-snooze</item>
+    <item>Dismiss</item>
+    <item>Do nothing</item>
+  </string-array>
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
   <!-- Accessibility labels for Clock activity buttons -->
+  <string name="alarm_button_description">Mga alarma</string>
   <!-- Accessibility labels for alarm buttons -->
   <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
@@ -172,6 +243,7 @@
   <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
   <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+  <string name="control_set_alarm">Magtakda ng alarma</string>
   <!--  ActionBar strings -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
@@ -179,6 +251,7 @@
   <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
   <!-- Clock view buttons strings-->
   <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+  <string name="button_alarms">Magdagdag ng alarma</string>
   <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
   <!-- Describes the purpose of the button which pops up a menu of setting choices -->
   <!-- Menu item on most screens to get to more settings -->
@@ -189,10 +262,26 @@
   <!-- Menu item on clock screen to enter night mode. -->
   <!-- Menu item on Cities screen to sort by GMT offset -->
   <!-- Menu item on Cities screen to sort by alphabetical order -->
+  <string name="cities_add_gps_no_results">GPS query na nagbabalik ng walang mga resulta ng lokasyon</string>
+  <string name="cities_add_gps_not_available">GPS ay hindi magagamit</string>
+  <string name="cities_add_searching">Naghahanap\u2026</string>
+  <string name="cities_add_city_title">Magdagdag ng lungsod</string>
+  <string name="cities_add_city_gps_cd">I-tap upang ma-localize ang iyong kasalukuyang lungsod</string>
   <string name="cities_add_loading">Naglo-load \ u2026</string>
+  <string name="cities_add_city_city">Lungsod:</string>
+  <string name="cities_add_city_timezone">Timezone:</string>
+  <string name="cities_add_already_exists">Ang lungsod ay umiiral na sa database</string>
+  <string name="cities_add_city_failed">Hindi makalikha ng lungsod</string>
+  <string name="cities_delete_city_failed">Hindi mabura ang lungsod</string>
+  <string name="cities_delete_city_msg">Gusto mo bang tanggalin
+        <xliff:g id="city">%s</xliff:g>?
+    </string>
+  <string name="cities_delete_city_title">Tanggalin ang lungsod</string>
   <!-- Label for selected cities in Cities list view -->
+  <string name="selected_cities_label">Napiling mga lungsod</string>
   <!-- Stopwatch and Timer shared strings -->
   <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
+  <string name="sw_resume_button">Ipagpatuloy</string>
   <!--
         Describes the purpose of the button
             for stopwatch: return stopwatch to zero and remove the lap times.
@@ -204,48 +293,100 @@
   <!-- Describes the purpose of the button to begin running a stopwatch -->
   <string name="sw_start_button">Simulan</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
+  <string name="sw_pause_button">Naka-tigil</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
+  <string name="sw_lap_button">Lap</string>
   <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
   <string name="sw_share_button">Ibahagi</string>
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+  <string name="hours_label">h</string>
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+  <string name="minutes_label">m</string>
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+  <string name="seconds_label">s</string>
   <!-- Accessibility strings -->
   <string name="hours_label_description">mga oras</string>
   <string name="minutes_label_description">mga minuto</string>
   <string name="seconds_label_description">mga segundo</string>
+  <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
+  <string name="sw_share_main">Aking oras ay <xliff:g id="time">%s</xliff:g></string>
   <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
+  <string name="sw_share_laps">Oras ng lap:</string>
   <!-- Label to enumerate the number of laps in the notification the user has counted -->
+  <string name="sw_notification_lap_number">Lap <xliff:g id="number">%d</xliff:g></string>
   <!-- Stopwatch accessibility strings -->
+  <plurals name="Nhours_description">
+    <!-- 1 hour -->
+    <item quantity="one">1 oras</item>
+    <!-- more -->
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> oras</item>
+  </plurals>
+  <plurals name="Nminutes_description">
+    <!-- 1 minute -->
+    <item quantity="one">1 minuto</item>
+    <!-- more -->
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minuto</item>
+  </plurals>
+  <plurals name="Nseconds_description">
+    <!-- 1 second -->
+    <item quantity="one">1 segundo</item>
+    <!-- more -->
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> segundo</item>
+  </plurals>
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
+  <string name="timer_add_timer">Magdagdag ng Timer</string>
   <!-- Describes the purpose of the button to begin or continue running a timer -->
   <string name="timer_start">Simulan</string>
   <!-- Describes the purpose of the button to delete a timer. -->
   <string name="timer_delete">Tanggalin</string>
   <!-- Talkback description for deleting a number. -->
+  <string name="timer_descriptive_delete">Tanggalin ang <xliff:g id="number_string">%s</xliff:g></string>
   <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
+  <string name="timer_plus_one">Magdagdag ng 1 minuto</string>
   <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
+  <string name="timer_plus_1_min">Magdagdag ng 1 min</string>
   <!-- Describes the purpose of the button to stop the timer. -->
+  <string name="timer_stop">Hinto</string>
   <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
+  <string name="timer_stop_all">Ihinto ang lahat ng mga timer</string>
   <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
   <string name="timer_reset">I-reset</string>
   <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
   <string name="timer_cancel">Kanselahin</string>
   <!-- Accessibility announcement when a timer is canceled. -->
+  <string name="timer_canceled">Kinansela ang timer</string>
   <!-- Notification content shown when a timer has completed and has no more time remaining -->
+  <string name="timer_times_up">Ubos na ang oras</string>
   <!--
         Notification content shown when multiple timers have completed and have no more time
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
+  <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS" example="2">%d</xliff:g> naubos na ang oras</string>
   <!-- Label associated with a notification for a Timer -->
+  <string name="timer_notification_label">Timer</string>
   <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
+  <string name="timers_max_count_reached">4 na mga timer ang sukdulan</string>
   <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
+  <string name="timer_pause">Naka-tigil</string>
   <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
+  <string name="timer_reset_all">I-reset ang lahat ng mga timer</string>
   <!-- Jocular content that user may append when sharing the lap times -->
+  <string-array name="sw_share_strings" translatable="true">
+    <item>Medyo ang bilis ng speed demon.</item>
+    <item>Tamasin ang mga bunga ng iyong mga pagtatrabaho.</item>
+    <item>Androids are known to be fast, but not as fast as you!</item>
+    <item>Phew.</item>
+    <item>L33t times.</item>
+    <item>Such prodigious velocity.</item>
+    <item>Let\'s do the time warp again.</item>
+    <item>Just a jump to the left.</item>
+    <item>You have a palette for haste.</item>
+    <item>Photonic velocity.</item>
+  </string-array>
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
   <string name="home_label">Tahanan</string>
   <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
@@ -280,6 +421,7 @@
   <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
   <!-- Choices for timezones, must be kept in sync with timezone_values. -->
   <!-- Header in the preferences settings for the section pertaining to alarms -->
+  <string name="alarm_settings">Mga alarma</string>
   <!-- Describes the service that processes actions originating from timer notifications. -->
   <!-- Describes the service that processes actions originating from stopwatch notifications. -->
   <!-- Description for the paused stop watch -->

@@ -298,6 +298,7 @@
   <string name="gallery_button_description">Galerija</string>
   <string name="music_button_description">Glasba</string>
   <string name="nightmode_button_description">Dim</string>
+  <string name="home_button_description">Launcher</string>
   <string name="desk_clock_button_description">Prikaz ure</string>
   <!-- Accessibility labels for alarm buttons -->
   <string name="label_description">Oznaka</string>
