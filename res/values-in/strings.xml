@@ -265,6 +265,7 @@
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Tombol volume</string>
   <!-- Title of the setting default alarm tone  -->
+  <string name="default_alarm_tone_title">Suara alarm bawaan</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">Efek tombol</string>
   <!-- Entries listed in the setting for the side-button action. -->
@@ -305,9 +306,11 @@
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
   <string name="menu_alarm">Alarm</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
+  <string name="menu_timer">Penghitung waktu</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
   <string name="menu_clock">Jam</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
+  <string name="menu_stopwatch">Stopwatch</string>
   <!-- Clock view buttons strings-->
   <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
   <string name="button_alarms">Tambahkan alarm</string>
@@ -327,7 +330,19 @@
   <string name="menu_item_sort_by_gmt_offset">Urutkan menurut waktu</string>
   <!-- Menu item on Cities screen to sort by alphabetical order -->
   <string name="menu_item_sort_by_name">Urutkan menurut nama</string>
+  <string name="cities_add_gps_no_results">Permintaan GPS tidak menampilkan hasil lokasi</string>
+  <string name="cities_add_gps_not_available">GPS tidak tersedia</string>
+  <string name="cities_add_searching">Mencari\u2026</string>
+  <string name="cities_add_city_title">Tambah kota</string>
+  <string name="cities_add_city_gps_cd">Ketuk untuk menempatkan kota anda saat ini</string>
   <string name="cities_add_loading">Memuat\u2026</string>
+  <string name="cities_add_city_city">Kota:</string>
+  <string name="cities_add_city_timezone">Zona Waktu:</string>
+  <string name="cities_add_already_exists">Kota sudah ada di dalam database</string>
+  <string name="cities_add_city_failed">Tidak dapat membuat kota</string>
+  <string name="cities_delete_city_failed">Tidak dapat menghapus kota</string>
+  <string name="cities_delete_city_msg">Apakah anda ingin menghapus <xliff:g id="city">%s </xliff:g>?    </string>
+  <string name="cities_delete_city_title">Hapus kota</string>
   <!-- Label for selected cities in Cities list view -->
   <string name="selected_cities_label">Kota yang Dipilih</string>
   <!-- Stopwatch and Timer shared strings -->
@@ -353,12 +368,14 @@
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
   <string name="hours_label">j</string>
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+  <string name="minutes_label">m</string>
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
   <string name="seconds_label">d</string>
   <!-- Accessibility strings -->
   <string name="hours_label_description">jam</string>
   <string name="minutes_label_description">menit</string>
   <string name="seconds_label_description">detik</string>
+  <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
   <string name="sw_share_main">Waktu saya adalah <xliff:g id="TIME">%s</xliff:g></string>
@@ -413,6 +430,7 @@
     -->
   <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS">%d</xliff:g> pewaktu telah berakhir</string>
   <!-- Label associated with a notification for a Timer -->
+  <string name="timer_notification_label">Penghitung waktu</string>
   <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
   <string name="timers_max_count_reached">maksimum 4 pewaktu</string>
   <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
@@ -445,6 +463,10 @@
   <string name="open_date_settings">Ubah Tanggal &amp; waktu</string>
   <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
+  <string-array name="clock_style_entries">
+    <item>Analog</item>
+    <item>Digital</item>
+  </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match
          the clock_style_entries above. -->
   <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
@@ -459,9 +481,13 @@
   <string name="time_picker_cancel">Batal</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
   <string name="time_picker_set">Oke</string>
+  <string name="time_picker_time_seperator">:</string>
   <!--  place holder for am/pm label when it is not set -->
+  <string name="time_picker_ampm_label">--</string>
   <!-- add 00 as minutes to the time when pressing this button -->
+  <string name="time_picker_00_label">:00</string>
   <!-- add 30 as minutes to the time when pressing this button -->
+  <string name="time_picker_30_label">:30</string>
   <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
@@ -476,7 +502,7 @@
   <string-array name="timezone_labels">
     <item>"Kepulauan Marshall"</item>
     <item>"Pulau Midway"</item>
-    <item>"Hawaii"</item>
+    <item>"Hawai"</item>
     <item>"Alaska"</item>
     <item>"Waktu Pasifik"</item>
     <item>"Tijuana"</item>
@@ -485,7 +511,7 @@
     <item>"Waktu Pegunungan"</item>
     <item>"Amerika Tengah"</item>
     <item>"Waktu Bagian Tengah"</item>
-    <item>"Mexico City"</item>
+    <item>"Kota Meksiko"</item>
     <item>"Saskatchewan"</item>
     <item>"Bogota"</item>
     <item>"Waktu Bagian Timur"</item>
@@ -518,7 +544,7 @@
     <item>"Yerusalem"</item>
     <item>"Minsk"</item>
     <item>"Harare"</item>
-    <item>"Baghdad"</item>
+    <item>"Bagdad"</item>
     <item>"Moskow"</item>
     <item>"Kuwait"</item>
     <item>"Nairobi"</item>
@@ -532,14 +558,14 @@
     <item>"Ural'sk"</item>
     <item>"Yekaterinburg"</item>
     <item>"Kolkata"</item>
-    <item>"Sri Lanka"</item>
+    <item>"Srilanka"</item>
     <item>"Kathmandu"</item>
     <item>"Astana"</item>
     <item>"Yangon"</item>
     <item>"Krasnoyarsk"</item>
     <item>"Bangkok"</item>
     <item>"Beijing"</item>
-    <item>"Hong Kong"</item>
+    <item>"Hongkong"</item>
     <item>"Irkutsk"</item>
     <item>"Kuala Lumpur"</item>
     <item>"Perth"</item>
@@ -613,6 +639,7 @@
   <!-- Toast content when an alarm was deleted  -->
   <string name="alarm_deleted">Alarm dihapus</string>
   <!-- Select the source of the alarm -->
+  <string name="alarm_select">Pilih Alarm</string>
   <!-- Select the ringtone as alarm -->
   <string name="alarm_select_ringtone">Nada dering</string>
   <!-- Select the alarm from external device -->
@@ -818,11 +845,25 @@
     -->
   <string name="alarm_is_snoozed">Alarm pukul <xliff:g id="ALARM_TIME">%s</xliff:g> ditunda selama 10 menit</string>
   <!-- Setting title for the flip action setting. -->
+  <string name="flip_action_title">Tindakan membalik</string>
   <!-- Setting summary for the flip action setting. -->
+  <string name="flip_action_summary" product="default">Membalikkan telepon ke bawah akan
+<xliff:g id="action">%s</xliff:g>
+    </string>
   <!-- Setting title for the shake action setting. -->
+  <string name="shake_action_title">Tindakan goyang</string>
   <!-- Setting summary for the shake action setting. -->
+  <string name="shake_action_summary" product="default">Menggoyangkan telepon akan
+        <xliff:g id="action">%s</xliff:g>
+    </string>
   <!-- Summary texts for shake and flip actions -->
+  <string name="action_summary_snooze">menunda alarm</string>
+  <string name="action_summary_dismiss">mengabaikan alarm</string>
+  <string name="action_summary_do_nothing">tidak melakukan apa-apa</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+  <string name="custom_ringtone">Nada dering khusus</string>
   <!-- Ringtone selection default" -->
+  <string name="ringtone_default">"Nada dering bawaan"</string>
   <!--used for prompt to user storage permission status-->
+  <string name="have_denied_storage_permission">Anda telah menolak izin penyimpanan, dan dapat menambahkan izin ini secara manual lagi di setelan aplikasi</string>
 </resources>

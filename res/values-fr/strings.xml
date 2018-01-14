@@ -61,7 +61,7 @@
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
   <string name="alert">Sonnerie de l\'alarme</string>
   <!-- Title of default ringtone played when a timer expires. -->
-  <string name="default_timer_ringtone_title">Minuteur arrivé à expiration</string>
+  <string name="default_timer_ringtone_title">Minuterie expirée</string>
   <!-- Title of silent ringtone played when a timer expires. -->
   <string name="silent_timer_ringtone_title">Silencieux</string>
   <!-- Label on expanded alarm edit view. -->
@@ -131,7 +131,7 @@
          7: days hours minutes
     -->
   <!-- Timer notification: how long from now until timer goes off. -->
-  <string name="timer_notifications_less_min">Dans moins d\'une minute</string>
+  <string name="timer_notifications_less_min">Dans moins d’une minute</string>
   <string name="timer_notifications_hours"><xliff:g id="REMAINING"> %3$s</xliff:g> <xliff:g id="HOURS">%1$s</xliff:g></string>
   <string name="timer_notifications_minutes"><xliff:g id="REMAINING"> %3$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g></string>
   <string name="timer_notifications_hours_minutes">Dans <xliff:g id="HOURS">%1$s</xliff:g> et <xliff:g id="MINUTES">%2$s</xliff:g></string>
@@ -300,14 +300,14 @@
   <string name="loading_ringtone">Chargement de la sonnerie...</string>
   <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="timer_ring_service_desc">Service de lecture audio pour les minuteurs définis via l\'Horloge.</string>
+  <string name="timer_ring_service_desc">Service de lecture audio pour les minuteries définies dans l’horloge.</string>
   <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
   <string name="control_set_alarm">Régler l\'alarme</string>
   <!--  ActionBar strings -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
   <string name="menu_alarm">Alarme</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
-  <string name="menu_timer">Minuteur</string>
+  <string name="menu_timer">Minuterie</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
   <string name="menu_clock">Horloge</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
@@ -400,7 +400,7 @@
   </plurals>
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
-  <string name="timer_add_timer">Ajouter un minuteur</string>
+  <string name="timer_add_timer">Ajouter une minuterie</string>
   <!-- Describes the purpose of the button to begin or continue running a timer -->
   <string name="timer_start">Départ</string>
   <!-- Describes the purpose of the button to delete a timer. -->
@@ -414,13 +414,13 @@
   <!-- Describes the purpose of the button to stop the timer. -->
   <string name="timer_stop">Arrêter</string>
   <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
-  <string name="timer_stop_all">Arrêter tous les minuteurs</string>
+  <string name="timer_stop_all">Arrêter toutes les minuteries</string>
   <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
   <string name="timer_reset">Réinitialiser</string>
   <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
   <string name="timer_cancel">Annuler</string>
   <!-- Accessibility announcement when a timer is canceled. -->
-  <string name="timer_canceled">Le minuteur a été annulé.</string>
+  <string name="timer_canceled">La minuterie a été annulée</string>
   <!-- Notification content shown when a timer has completed and has no more time remaining -->
   <string name="timer_times_up">Le temps est écoulé.</string>
   <!--
@@ -429,13 +429,13 @@
     -->
   <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS">%d</xliff:g> minuteurs ont expiré.</string>
   <!-- Label associated with a notification for a Timer -->
-  <string name="timer_notification_label">Minuteur</string>
+  <string name="timer_notification_label">Minuterie</string>
   <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
-  <string name="timers_max_count_reached">Quatre minuteurs maximum.</string>
+  <string name="timers_max_count_reached">Maximum de 4 minuteries</string>
   <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
   <string name="timer_pause">Interrompre</string>
   <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
-  <string name="timer_reset_all">Réinit. minuteurs</string>
+  <string name="timer_reset_all">Réinit. toutes les minuteries</string>
   <!-- Jocular content that user may append when sharing the lap times -->
   <string-array name="sw_share_strings" translatable="true">
     <item>On peut dire que vous êtes rapide.</item>
@@ -484,6 +484,7 @@
   <!--  place holder for am/pm label when it is not set -->
   <!-- add 00 as minutes to the time when pressing this button -->
   <!-- add 30 as minutes to the time when pressing this button -->
+  <string name="time_picker_30_label">:30</string>
   <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
@@ -586,7 +587,7 @@
   <!-- Header in the preferences settings for the section pertaining to alarms -->
   <string name="alarm_settings">Alarmes</string>
   <!-- Describes the service that processes actions originating from timer notifications. -->
-  <string name="timer_service_desc">Traite les actions issues des notifications du minuteur.</string>
+  <string name="timer_service_desc">Traite les actions des notifications des minuteries.</string>
   <!-- Describes the service that processes actions originating from stopwatch notifications. -->
   <string name="stopwatch_service_desc">Traite les actions issues des notifications du chronomètre.</string>
   <!-- Description for the paused stop watch -->
@@ -604,21 +605,21 @@
          translation. -->
   <string name="description_direction_both">Faire glisser le doigt vers la gauche pour répéter ou vers la droite pour ignorer</string>
   <!-- Header in the preferences settings for the section pertaining to timers. -->
-  <string name="timer_settings">Minuteurs</string>
+  <string name="timer_settings">Minuteries</string>
   <!-- Description for timer ringtone setting. -->
-  <string name="timer_ringtone_title">Sonnerie du minuteur</string>
+  <string name="timer_ringtone_title">Sonnerie de la minuterie</string>
   <!-- Description when timer is stopped. -->
-  <string name="timer_stopped">Arrêt du minuteur</string>
+  <string name="timer_stopped">La minuterie est arrêtée</string>
   <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
-  <string name="timer_paused">Minuteur interrompu</string>
+  <string name="timer_paused">La minuterie est en pause</string>
   <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
-  <string name="timers_stopped"><xliff:g id="NUMBER">%d</xliff:g> minuteurs interrompus</string>
+  <string name="timers_stopped"><xliff:g id="NUMBER">%d</xliff:g> minuteries en pause</string>
   <!-- Notification text when multiple timers are paused. -->
-  <string name="all_timers_stopped_notif">Appuyer ici pour afficher les minuteurs</string>
+  <string name="all_timers_stopped_notif">Toucher ici pour voir les minuteries</string>
   <!-- Notification title when at least one timer, of those in use, is counting down. -->
-  <string name="timers_in_use"><xliff:g id="NUMBER">%d</xliff:g> minuteurs</string>
+  <string name="timers_in_use"><xliff:g id="NUMBER">%d</xliff:g> minuteries</string>
   <!-- Notification text when at least one timer, of those in use, is counting down. -->
-  <string name="next_timer_notif">Minuteur suivant : <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
+  <string name="next_timer_notif">Prochaine minuterie : <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
   <!-- screensaver settings strings -->
   <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
   <string name="screensaver_settings">Paramètres écran de veille</string>
@@ -661,7 +662,7 @@
     <item quantity="other">Supprimer les alarmes sélectionnées ?</item>
   </plurals>
   <!-- Timer deletion confirmation -->
-  <string name="timer_delete_confirmation">Supprimer ce minuteur ?</string>
+  <string name="timer_delete_confirmation">Supprimer cette minuterie ?</string>
   <!-- world clock deletion confirmation -->
   <string name="city_delete_confirmation">Supprimer cette ville ?</string>
   <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
@@ -752,39 +753,39 @@
     no timers are defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_timers_exist">Aucun minuteur défini.</string>
+  <string name="no_timers_exist">Aucune minuterie n’est définie</string>
   <!-- String that represents that the user attempted to control a timer with a voice action when
     more than one timer is defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="too_many_timers_exist">Plusieurs minuteurs sont définis.</string>
+  <string name="too_many_timers_exist">Plusieurs minuteries sont définies</string>
   <!-- String that represents that the user attempted to control a timer with a voice action but
     the timer could not be located.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_does_not_exist">Le minuteur a été supprimé.</string>
+  <string name="timer_does_not_exist">La minuterie a été supprimée.</string>
   <!-- String that represents that the user has successfully created a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_created">Le minuteur a bien été créé.</string>
+  <string name="timer_created">La minuterie a été créée</string>
   <!-- String that represents that the user has successfully reset a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_was_reset">Le minuteur a été remis à zéro.</string>
+  <string name="timer_was_reset">La minuterie a été réinitialisée</string>
   <!-- String that represents that the user has successfully reset a timer through a voice action
     that was marked as deleteAfterUse and was thus deleted instead.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_deleted">Le minuteur a été supprimé.</string>
+  <string name="timer_deleted">La minuterie a été supprimée</string>
   <!-- String that represents that the user has successfully started a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_started">Le minuteur a été lancé.</string>
+  <string name="timer_started">La minuterie a été lancée</string>
   <!-- String that represents that the user attempted to start a timer through a voice action
     but specified invalid length.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_timer_length">Durée de minuteur incorrecte.</string>
+  <string name="invalid_timer_length">La durée de minuterie est invalide</string>
   <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but they didn't specify a city so no world clock was selected.

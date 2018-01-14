@@ -26,23 +26,23 @@
   <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
   <string name="alarm_list_title">Alarmes</string>
   <!-- Menu item on Alarm Clock screen: Add alarm -->
-  <string name="add_alarm">Ajouter alarme</string>
+  <string name="add_alarm">Ajouter une alarme</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
   <string name="menu_desk_clock">Horloge de bureau</string>
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
-  <string name="menu_edit_alarm">Modifier l\'alarme</string>
+  <string name="menu_edit_alarm">Modifier l’alarme</string>
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
-  <string name="delete_alarm">Supprimer l\'alarme</string>
+  <string name="delete_alarm">Supprimer l’alarme</string>
   <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
-  <string name="enable_alarm">Activer l\'alarme</string>
+  <string name="enable_alarm">Activer l’alarme</string>
   <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
-  <string name="disable_alarm">Désactiver l\'alarme</string>
+  <string name="disable_alarm">Désactiver l’alarme</string>
   <!-- Delete alarm confirmation dialog message. -->
   <string name="delete_alarm_confirm">Supprimer cette alarme?</string>
   <!-- Menu item on Alarm Clock screen: Show clock -->
-  <string name="show_clock">Afficher l\'horloge</string>
+  <string name="show_clock">Afficher l’horloge</string>
   <!-- Menu item on Alarm Clock screen: Hide clock -->
-  <string name="hide_clock">Masquer l\'horloge</string>
+  <string name="hide_clock">Cacher l’horloge</string>
   <!-- Setting label on Set alarm screen: Label -->
   <string name="label">Étiquette</string>
   <!-- Content description for alarm on/off switch in On state -->
@@ -53,15 +53,15 @@
   <string name="default_label">Alarme</string>
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="set_alarm">Régler l\'alarme</string>
+  <string name="set_alarm">Régler l’alarme</string>
   <!-- Setting labels on Set alarm screen: Vibration on or off -->
-  <string name="alarm_vibrate">Vibreur</string>
+  <string name="alarm_vibrate">Vibration</string>
   <!-- Setting labels on Set alarm screen: Repeat -->
   <string name="alarm_repeat">Répéter</string>
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
-  <string name="alert">Sonnerie de l\'alarme</string>
+  <string name="alert">Sonnerie de l’alarme</string>
   <!-- Title of default ringtone played when a timer expires. -->
-  <string name="default_timer_ringtone_title">Minuterie expirée</string>
+  <string name="default_timer_ringtone_title">Compte à rebours expiré</string>
   <!-- Title of silent ringtone played when a timer expires. -->
   <string name="silent_timer_ringtone_title">Mode silencieux</string>
   <!-- Label on expanded alarm edit view. -->
@@ -90,7 +90,7 @@
              10 min
          [CHAR LIMIT=10]
     -->
-  <string name="alarm_alert_snoozed_text">Reportée</string>
+  <string name="alarm_alert_snoozed_text">Rappel de sonnerie</string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the word 'Snoozed' in two separate lines or example:
              Snoozed
@@ -101,22 +101,22 @@
     <!-- Duration for one minute -->
     <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> min</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> min</item>
+    <item quantity="other"><xliff:g id="number">%d</xliff:g> min</item>
   </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
   <string name="alarm_alert_off_text">Alarme arrêtée</string>
   <!-- Button labels on the alarm dialog: Snooze -->
-  <string name="alarm_alert_snooze_text">Arrêt momentané</string>
+  <string name="alarm_alert_snooze_text">Rappel de sonnerie</string>
   <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
   <plurals name="alarm_alert_snooze_set">
     <!-- Duration for one minute -->
     <item quantity="one">Répétition après <xliff:g id="MINUTES">%d</xliff:g> minute.</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">Répétition après <xliff:g id="MINUTES">%d</xliff:g> minutes.</item>
+    <item quantity="other">Rappel de sonnerie dans <xliff:g id="minutes">%d</xliff:g> minutes.</item>
   </plurals>
   <!-- Text to appear inside a notification while an alarm is snoozing. -->
-  <string name="alarm_alert_snooze_until">Répétition jusqu\'à <xliff:g id="TIME">%s</xliff:g></string>
+  <string name="alarm_alert_snooze_until">Rappel de sonnerie à <xliff:g id="time">%s</xliff:g></string>
   <!-- Text to appear in the notification title while an alarm is about to go off. -->
   <string name="alarm_alert_predismiss_title">Alarme imminente</string>
   <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
@@ -147,35 +147,35 @@
   <string name="timer_remaining_multiple">Il reste</string>
   <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
   <string-array name="alarm_set">
-    <item>Prochaine alarme prévue dans moins d\'une minute.</item>
+    <item>Alarme dans moins d’une minute.</item>
     <item>Prochaine alarme prévue dans <xliff:g id="DAYS">%1$s</xliff:g>.</item>
     <item>Prochaine alarme prévue dans <xliff:g id="HOURS">%2$s</xliff:g>.</item>
     <item>Prochaine alarme prévue dans <xliff:g id="DAYS">%1$s</xliff:g> et <xliff:g id="HOURS">%2$s</xliff:g>.</item>
     <item>Prochaine alarme prévue dans <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
     <item>Prochaine alarme prévue dans <xliff:g id="DAYS">%1$s</xliff:g> et <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
-    <item>Prochaine alarme prévue dans <xliff:g id="HOURS">%2$s</xliff:g> et <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
-    <item>La prochaine alarme est prévue dans <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> et <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
+    <item>Alarme dans <xliff:g id="HOURS">%2$s</xliff:g> et <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
+    <item>Alarme dans <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> et <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
   </string-array>
   <!-- Alarm confirmation toast: days -->
   <plurals name="days">
     <!-- Duration for one day -->
     <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> jour</item>
     <!-- Duration for more than one day -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> jours</item>
+    <item quantity="other"><xliff:g id="number">%s</xliff:g> jours</item>
   </plurals>
   <!-- Alarm confirmation toast and timer notification: hours -->
   <plurals name="hours">
     <!-- Duration for one hour -->
     <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> heure</item>
     <!-- Duration for more than one hour -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> heures</item>
+    <item quantity="other"><xliff:g id="number">%s</xliff:g> heures</item>
   </plurals>
   <!-- Alarm confirmation toast and timer notification: minutes -->
   <plurals name="minutes">
     <!-- Duration for one minute -->
     <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> minute</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> minutes</item>
+    <item quantity="other"><xliff:g id="number">%s</xliff:g> minutes</item>
   </plurals>
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
@@ -184,9 +184,10 @@
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
+  <string name="day_concat">", "</string>
   <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
-  <string name="clock_instructions">Sélectionner une horloge</string>
+  <string name="clock_instructions">Choisir une horloge</string>
   <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
   <string name="analog_gadget">Horloge analogique</string>
   <!-- Help activity name -->
@@ -195,29 +196,35 @@
   <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
   <string name="settings">Paramètres</string>
   <!-- Setting title for changing the snooze duration. -->
-  <string name="snooze_duration_title">Durée de l\'arrêt momentané</string>
+  <string name="snooze_duration_title">Durée du rappel de sonnerie</string>
   <plurals name="snooze_duration">
     <!-- Duration for one minute -->
     <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> minute</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> minutes</item>
+    <item quantity="other"><xliff:g id="number">%s</xliff:g> minutes</item>
+  </plurals>
+  <plurals name="snooze_picker_label">
+    <!-- Duration for one minute -->
+    <item quantity="one">minute</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other">minutes</item>
   </plurals>
   <!-- Setting title for changing the crescendo duration. -->
   <string name="crescendo_duration_title">Augmenter le volume progressivement</string>
   <!-- Summary value for changing the crescendo duration to 0. -->
   <string name="no_crescendo_duration">Désactivé</string>
   <!-- Summary value for changing the crescendo duration. -->
-  <string name="crescendo_duration"><xliff:g id="NUMBER">%s</xliff:g> secondes</string>
+  <string name="crescendo_duration"><xliff:g id="number">%s</xliff:g> secondes</string>
   <!-- Setting label when changing the crescendo duration. -->
   <string name="crescendo_picker_label">secondes</string>
   <!-- Auto silence preference title -->
-  <string name="auto_silence_title">Arrêter la sonnerie après</string>
+  <string name="auto_silence_title">Silence après</string>
   <!-- Auto silence summary string set based on the preference value. -->
   <plurals name="auto_silence_summary">
     <!-- Duration for one minute -->
     <item quantity="one"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> minute</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> minutes</item>
+    <item quantity="other"><xliff:g id="formatted_numbe">%s</xliff:g> minutes</item>
   </plurals>
   <!-- Auto silence summary when turned off -->
   <string name="auto_silence_never">Jamais</string>
@@ -251,27 +258,27 @@
   <!-- Delete button when editing an alarm. -->
   <string name="delete">Supprimer</string>
   <!-- Setting title for changing the alarm volume. -->
-  <string name="alarm_volume_title">Volume de l\'alarme</string>
+  <string name="alarm_volume_title">Volume de l’alarme</string>
   <!-- Title for the silent ringtone. -->
-  <string name="silent_ringtone_title">Mode silencieux</string>
+  <string name="silent_ringtone_title">Silencieux</string>
   <!-- Title for ringtones that cannot be located by uri. -->
   <string name="unknown_ringtone_title">Inconnu</string>
   <!-- Text to display in the small text of the notification -->
-  <string name="alarm_notify_text">Répétez ou ignorez l\'alarme.</string>
+  <string name="alarm_notify_text">Rappel de sonnerie ou annuler l’alarme.</string>
   <!-- Text to display in the notification ticker and label -->
-  <string name="alarm_notify_snooze_label"><xliff:g id="LABEL">%s</xliff:g> (répétition)</string>
+  <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> (rappel de sonnerie)</string>
   <!-- Text to display in the notification when the alarm has been snoozed -->
-  <string name="alarm_notify_snooze_text">Prochaine alarme à <xliff:g id="TIME">%s</xliff:g>. Appuyez pour annuler.</string>
+  <string name="alarm_notify_snooze_text">Alarme à <xliff:g id="time">%s</xliff:g>. Toucher pour annuler.</string>
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Boutons du volume</string>
   <!-- Title of the setting default alarm tone  -->
-  <string name="default_alarm_tone_title">Sonnerie de l\'alarme par défaut</string>
+  <string name="default_alarm_tone_title">Sonnerie d’alarme par défaut</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">Effet des boutons</string>
   <!-- Entries listed in the setting for the side-button action. -->
   <string-array name="volume_button_setting_entries">
-    <item>Arrêt momentané</item>
+    <item>Rappel de sonnerie</item>
     <item>Ignorer</item>
     <item>Ne rien faire</item>
   </string-array>
@@ -300,7 +307,7 @@
   <string name="loading_ringtone">Chargement de la sonnerie...</string>
   <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="timer_ring_service_desc">Service de lecture audio pour les minuteurs définis via l\'Horloge.</string>
+  <string name="timer_ring_service_desc">Service de lecture audio pour les minuteries définies dans l’horloge.</string>
   <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
   <string name="control_set_alarm">Régler l\'alarme</string>
   <!--  ActionBar strings -->
@@ -338,6 +345,7 @@
   <string name="cities_add_city_gps_cd">Pointer pour localiser votre ville par défaut</string>
   <string name="cities_add_loading">Chargement\u2026</string>
   <string name="cities_add_city_city">Ville:</string>
+  <string name="cities_add_city_timezone">Fuseau horaire:</string>
   <string name="cities_add_already_exists">La ville éxiste déjà dans les données</string>
   <string name="cities_add_city_failed">Impossible d\'ajouter la ville</string>
   <string name="cities_delete_city_failed">Impossible de supprimer la ville</string>
@@ -366,13 +374,16 @@
          Also used as title for chooser when sharing stopwatch results. -->
   <string name="sw_share_button">Partager</string>
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+  <string name="hours_label">h</string>
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
   <string name="minutes_label">min</string>
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+  <string name="seconds_label">s</string>
   <!-- Accessibility strings -->
   <string name="hours_label_description">heures</string>
   <string name="minutes_label_description">minutes</string>
   <string name="seconds_label_description">seconde</string>
+  <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
   <string name="sw_share_main">Mon heure est <xliff:g id="TIME">%s</xliff:g></string>
@@ -401,7 +412,7 @@
   </plurals>
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
-  <string name="timer_add_timer">Ajouter un minuteur</string>
+  <string name="timer_add_timer">Ajouter une minuterie</string>
   <!-- Describes the purpose of the button to begin or continue running a timer -->
   <string name="timer_start">Démarrer</string>
   <!-- Describes the purpose of the button to delete a timer. -->
@@ -415,24 +426,24 @@
   <!-- Describes the purpose of the button to stop the timer. -->
   <string name="timer_stop">Arrêter</string>
   <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
-  <string name="timer_stop_all">Arrêter tous les minuteurs</string>
+  <string name="timer_stop_all">Arrêter toutes les minuteries</string>
   <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
   <string name="timer_reset">Réinitialiser</string>
   <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
   <string name="timer_cancel">Annuler</string>
   <!-- Accessibility announcement when a timer is canceled. -->
-  <string name="timer_canceled">Le minuteur a été annulé</string>
+  <string name="timer_canceled">La minuterie a été annulée</string>
   <!-- Notification content shown when a timer has completed and has no more time remaining -->
   <string name="timer_times_up">Le temps est écoulé.</string>
   <!--
         Notification content shown when multiple timers have completed and have no more time
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
-  <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS">%d</xliff:g> minuteries expirées</string>
+  <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS">%d</xliff:g> comptes à rebours expirés</string>
   <!-- Label associated with a notification for a Timer -->
   <string name="timer_notification_label">Minuterie</string>
   <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
-  <string name="timers_max_count_reached">Un maximum de quatre minuteries est autorisé</string>
+  <string name="timers_max_count_reached">Maximum de 4 minuteries</string>
   <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
   <string name="timer_pause">Interrompre</string>
   <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
@@ -485,7 +496,9 @@
   <!--  place holder for am/pm label when it is not set -->
   <string name="time_picker_ampm_label">-</string>
   <!-- add 00 as minutes to the time when pressing this button -->
+  <string name="time_picker_00_label">:00</string>
   <!-- add 30 as minutes to the time when pressing this button -->
+  <string name="time_picker_30_label">:30</string>
   <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
@@ -516,13 +529,13 @@
     <item>"Vénézuela"</item>
     <item>"Atlantique (la Barbade)"</item>
     <item>"Atlantique (Canada)"</item>
-    <item>"Manaus"</item>
+    <item>"Manaos"</item>
     <item>"Santiago"</item>
     <item>"Terre-Neuve-et-Labrador"</item>
     <item>"Brasilia"</item>
     <item>"Buenos Aires"</item>
     <item>"Groenland"</item>
-    <item>"Montevideo"</item>
+    <item>"Montévidéo"</item>
     <item>"États de l'Atlantique central"</item>
     <item>"Açores"</item>
     <item>"Cap-Vert"</item>
@@ -541,7 +554,7 @@
     <item>"Helsinki"</item>
     <item>"Jérusalem"</item>
     <item>"Minsk"</item>
-    <item>"Harare"</item>
+    <item>"Hararé"</item>
     <item>"Bagdad"</item>
     <item>"Moscou"</item>
     <item>"Koweït"</item>
@@ -562,7 +575,7 @@
     <item>"Yangon"</item>
     <item>"Krasnoïarsk"</item>
     <item>"Bangkok"</item>
-    <item>"Beijing"</item>
+    <item>"Pékin"</item>
     <item>"Hong Kong"</item>
     <item>"Irkoutsk"</item>
     <item>"Kuala Lumpur"</item>
@@ -588,7 +601,7 @@
   <!-- Header in the preferences settings for the section pertaining to alarms -->
   <string name="alarm_settings">Alarmes</string>
   <!-- Describes the service that processes actions originating from timer notifications. -->
-  <string name="timer_service_desc">Traite les actions des notifications du minuteur.</string>
+  <string name="timer_service_desc">Traite les actions des notifications des minuteries.</string>
   <!-- Describes the service that processes actions originating from stopwatch notifications. -->
   <string name="stopwatch_service_desc">Traite les actions des notifications du chronomètre.</string>
   <!-- Description for the paused stop watch -->
@@ -600,27 +613,27 @@
   <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_left">Glissez vers la gauche pour répéter</string>
+  <string name="description_direction_left">Glisser vers la gauche pour un rappel de sonnerie</string>
   <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_both">Glisser le doigt vers la gauche pour répéter, ou vers la droite pour ignorer</string>
+  <string name="description_direction_both">Glisser vers la gauche pour un rappel de sonnerie ou vers la droite pour annuler</string>
   <!-- Header in the preferences settings for the section pertaining to timers. -->
   <string name="timer_settings">Minuteries</string>
   <!-- Description for timer ringtone setting. -->
-  <string name="timer_ringtone_title">Sonnerie minuterie</string>
+  <string name="timer_ringtone_title">Sonnerie des minuteries</string>
   <!-- Description when timer is stopped. -->
-  <string name="timer_stopped">Arrêt de la minuterie</string>
+  <string name="timer_stopped">La minuterie est arrêtée</string>
   <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
-  <string name="timer_paused">Minuterie interrompue</string>
+  <string name="timer_paused">La minuterie est en pause</string>
   <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
-  <string name="timers_stopped"><xliff:g id="NUMBER">%d</xliff:g> minuteries en pause</string>
+  <string name="timers_stopped"><xliff:g id="number">%d</xliff:g> minuteries en pause</string>
   <!-- Notification text when multiple timers are paused. -->
-  <string name="all_timers_stopped_notif">Appuyer ici pour afficher les minuteurs</string>
+  <string name="all_timers_stopped_notif">Toucher pour voir vos minuteries</string>
   <!-- Notification title when at least one timer, of those in use, is counting down. -->
-  <string name="timers_in_use"><xliff:g id="NUMBER">%d</xliff:g> minuteries</string>
+  <string name="timers_in_use"><xliff:g id="number">%d</xliff:g> minuteries</string>
   <!-- Notification text when at least one timer, of those in use, is counting down. -->
-  <string name="next_timer_notif">Minuteur suivant : <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
+  <string name="next_timer_notif">Prochaine minuterie : <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
   <!-- screensaver settings strings -->
   <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
   <string name="screensaver_settings">Paramètres de l\'écran de veille</string>
@@ -663,7 +676,7 @@
     <item quantity="other">Supprimer les alarmes sélectionnées?</item>
   </plurals>
   <!-- Timer deletion confirmation -->
-  <string name="timer_delete_confirmation">Supprimer ce minuteur?</string>
+  <string name="timer_delete_confirmation">Supprimer cette minuterie?</string>
   <!-- world clock deletion confirmation -->
   <string name="city_delete_confirmation">Supprimer cette ville?</string>
   <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
@@ -754,12 +767,12 @@
     no timers are defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_timers_exist">Aucune minuterie définie</string>
+  <string name="no_timers_exist">Aucune minuterie n’est définie</string>
   <!-- String that represents that the user attempted to control a timer with a voice action when
     more than one timer is defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="too_many_timers_exist">Plusieurs minuteries existent</string>
+  <string name="too_many_timers_exist">Plusieurs minuteries sont définies</string>
   <!-- String that represents that the user attempted to control a timer with a voice action but
     the timer could not be located.
     [CHAR LIMIT=NONE]
@@ -842,7 +855,7 @@
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_snoozed">L\'alarme de <xliff:g id="ALARM_TIME">%s</xliff:g> a été reportée de 10 minutes</string>
+  <string name="alarm_is_snoozed"><xliff:g id="alarm_time">%s</xliff:g>, rappel de sonnerie dans 10 minutes</string>
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">Action de rotation</string>
   <!-- Setting summary for the flip action setting. -->
@@ -852,7 +865,7 @@
   <!-- Setting summary for the shake action setting. -->
   <string name="shake_action_summary" product="default">Secouer le téléphone fera <xliff:g id="action">%s</xliff:g>    </string>
   <!-- Summary texts for shake and flip actions -->
-  <string name="action_summary_snooze">arrêter l\'alarme</string>
+  <string name="action_summary_snooze">rappel de sonnerie</string>
   <string name="action_summary_dismiss">supprimer l\'alarme</string>
   <string name="action_summary_do_nothing">ne rien faire</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->

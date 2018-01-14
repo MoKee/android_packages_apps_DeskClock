@@ -221,7 +221,7 @@
   <!-- Summary value for changing the crescendo duration to 0. -->
   <string name="no_crescendo_duration">Выкл.</string>
   <!-- Summary value for changing the crescendo duration. -->
-  <string name="crescendo_duration"><xliff:g id="number" example="7">%s</xliff:g> cek</string>
+  <string name="crescendo_duration"><xliff:g id="number" example="7">%s</xliff:g> сек.</string>
   <!-- Setting label when changing the crescendo duration. -->
   <string name="crescendo_picker_label">сек.</string>
   <!-- Auto silence preference title -->

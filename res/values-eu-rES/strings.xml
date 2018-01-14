@@ -322,6 +322,7 @@
   <!-- Menu item on most screens to get to the help information -->
   <string name="menu_item_help">Laguntza</string>
   <!-- Menu item on clock screen to add world city. -->
+  <string name="menu_item_add">Gehitu</string>
   <!-- Menu item on clock screen to enter night mode. -->
   <string name="menu_item_night_mode">Gau modua</string>
   <!-- Menu item on Cities screen to sort by GMT offset -->
