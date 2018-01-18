@@ -451,6 +451,7 @@
         Notification content shown when multiple timers have completed and have no more time
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
+  <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS" example="2">%d</xliff:g> potečena časovnika</string>
   <!-- Label associated with a notification for a Timer -->
   <string name="timer_notification_label">Časovnik</string>
   <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
@@ -470,6 +471,7 @@
   <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
   <string name="clock_style">Slog</string>
   <!-- Title for preference to change date & time -->
+  <string name="open_date_settings">Nastavitve datuma in ure</string>
   <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
   <string-array name="clock_style_entries">
@@ -611,12 +613,16 @@
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
   <!-- Header in the preferences settings for the section pertaining to timers. -->
+  <string name="timer_settings">Časovniki</string>
   <!-- Description for timer ringtone setting. -->
   <!-- Description when timer is stopped. -->
   <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
   <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
+  <string name="timers_stopped"><xliff:g id="number" example="7">%d</xliff:g> časovnikov začasno ustavljeno</string>
   <!-- Notification text when multiple timers are paused. -->
+  <string name="all_timers_stopped_notif">Dotaknite se za prikaz vaših časovnikov</string>
   <!-- Notification title when at least one timer, of those in use, is counting down. -->
+  <string name="timers_in_use"><xliff:g id="number" example="7">%d</xliff:g> časovnikov</string>
   <!-- Notification text when at least one timer, of those in use, is counting down. -->
   <!-- screensaver settings strings -->
   <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
@@ -628,6 +634,7 @@
   <!-- Description of the button to undo change to alarm -->
   <!-- Toast content when an alarm was deleted  -->
   <!-- Select the source of the alarm -->
+  <string name="alarm_select">Izbera melodije za alarm</string>
   <!-- Select the ringtone as alarm -->
   <string name="alarm_select_ringtone">Melodija zvonjenja</string>
   <!-- Select the alarm from external device -->
@@ -643,6 +650,14 @@
   <!-- message used by the talkback accessibility app to say that something was deleted -->
   <string name="deleted_message">Izbrisano</string>
   <!-- Alarm deletion confirmation message-->
+  <plurals name="alarm_delete_confirmation">
+    <!-- Confirmation for one alarm -->
+    <item quantity="one">Želite izbrisati izbrani alarm?</item>
+    <item quantity="two">Želite izbrisati izbrana alarma?</item>
+    <item quantity="few">Želite izbrisati izbrane alarme?</item>
+    <!-- Confirmation more than one alarm  -->
+    <item quantity="other">Želite izbrisati izbrane alarme?</item>
+  </plurals>
   <!-- Timer deletion confirmation -->
   <!-- world clock deletion confirmation -->
   <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
@@ -717,10 +732,12 @@
     no timers are defined.
     [CHAR LIMIT=NONE]
     -->
+  <string name="no_timers_exist">Časovnik ni na voljo</string>
   <!-- String that represents that the user attempted to control a timer with a voice action when
     more than one timer is defined.
     [CHAR LIMIT=NONE]
     -->
+  <string name="too_many_timers_exist">Obstaja več kot eden časovnik</string>
   <!-- String that represents that the user attempted to control a timer with a voice action but
     the timer could not be located.
     [CHAR LIMIT=NONE]

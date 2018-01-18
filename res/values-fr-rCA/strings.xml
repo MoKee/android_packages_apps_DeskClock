@@ -859,11 +859,11 @@
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">Action de rotation</string>
   <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary" product="default">Retourner le téléphone fera <xliff:g id="action">%s</xliff:g>    </string>
+  <string name="flip_action_summary" product="default">Retourner le téléphone déclenchera l’action <xliff:g id="action">%s</xliff:g>    </string>
   <!-- Setting title for the shake action setting. -->
   <string name="shake_action_title">Action en secouant le téléphone</string>
   <!-- Setting summary for the shake action setting. -->
-  <string name="shake_action_summary" product="default">Secouer le téléphone fera <xliff:g id="action">%s</xliff:g>    </string>
+  <string name="shake_action_summary" product="default">Secouer le téléphone déclenchera l’action <xliff:g id="action">%s</xliff:g>    </string>
   <!-- Summary texts for shake and flip actions -->
   <string name="action_summary_snooze">rappel de sonnerie</string>
   <string name="action_summary_dismiss">supprimer l\'alarme</string>

@@ -184,6 +184,7 @@
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
+  <string name="day_concat">", "</string>
   <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
   <string name="clock_instructions">Sélectionner une horloge</string>
@@ -201,6 +202,12 @@
     <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> minute</item>
     <!-- Duration for more than one minute -->
     <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> minutes</item>
+  </plurals>
+  <plurals name="snooze_picker_label">
+    <!-- Duration for one minute -->
+    <item quantity="one">minute</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other">minutes</item>
   </plurals>
   <!-- Setting title for changing the crescendo duration. -->
   <string name="crescendo_duration_title">Augmenter le volume progressivement</string>
@@ -338,6 +345,7 @@
   <string name="cities_add_city_gps_cd">Pointer pour localiser votre ville par défaut</string>
   <string name="cities_add_loading">Chargement\u2026</string>
   <string name="cities_add_city_city">Ville:</string>
+  <string name="cities_add_city_timezone">Fuseau horaire:</string>
   <string name="cities_add_already_exists">La ville éxiste déjà dans les données</string>
   <string name="cities_add_city_failed">Impossible d\'ajouter la ville</string>
   <string name="cities_delete_city_failed">Impossible de supprimer la ville</string>
@@ -359,19 +367,23 @@
   <!-- Describes the purpose of the button to begin running a stopwatch -->
   <string name="sw_start_button">Démarrer</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
+  <string name="sw_pause_button">Pause</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
   <string name="sw_lap_button">Intervalle</string>
   <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
   <string name="sw_share_button">Partager</string>
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+  <string name="hours_label">h</string>
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
   <string name="minutes_label">min</string>
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+  <string name="seconds_label">s</string>
   <!-- Accessibility strings -->
   <string name="hours_label_description">heures</string>
   <string name="minutes_label_description">minutes</string>
   <string name="seconds_label_description">secondes</string>
+  <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
   <string name="sw_share_main">Mon heure est <xliff:g id="TIME">%s</xliff:g></string>
@@ -482,7 +494,9 @@
   <string name="time_picker_set">OK</string>
   <string name="time_picker_time_seperator"> :</string>
   <!--  place holder for am/pm label when it is not set -->
+  <string name="time_picker_ampm_label">--</string>
   <!-- add 00 as minutes to the time when pressing this button -->
+  <string name="time_picker_00_label">:00</string>
   <!-- add 30 as minutes to the time when pressing this button -->
   <string name="time_picker_30_label">:30</string>
   <!--

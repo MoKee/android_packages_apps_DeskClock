@@ -225,7 +225,7 @@
   <!-- Setting label when changing the crescendo duration. -->
   <string name="crescendo_picker_label">сек.</string>
   <!-- Auto silence preference title -->
-  <string name="auto_silence_title">Тишина после</string>
+  <string name="auto_silence_title">Автовыключение</string>
   <!-- Auto silence summary string set based on the preference value. -->
   <plurals name="auto_silence_summary">
     <!-- Duration for one minute -->
