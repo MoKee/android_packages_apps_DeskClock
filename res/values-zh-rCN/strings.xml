@@ -293,7 +293,7 @@
   <string name="weather_fetch_failure">目前无法提供天气信息</string>
   <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="alarm_klaxon_service_desc">在“时钟”内设置闹钟音乐服务</string>
+  <string name="alarm_klaxon_service_desc">在“时钟”内设置闹钟的铃声</string>
   <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
   <string name="loading_ringtone">正在加载铃声...</string>

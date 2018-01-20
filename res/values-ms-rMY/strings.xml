@@ -161,6 +161,7 @@
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
   <!-- Accessibility labels for Clock activity buttons -->
+  <string name="gallery_button_description">Galeri</string>
   <!-- Accessibility labels for alarm buttons -->
   <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not

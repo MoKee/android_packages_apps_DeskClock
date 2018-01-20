@@ -811,7 +811,7 @@
     but the city they specified wasn't listed in the database.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_you_specified_is_not_available">La ville que vous avez indiquée n\'a pas été trouvée</string>
+  <string name="the_city_you_specified_is_not_available">La ville que vous avez indiquée n’est pas proposée</string>
   <!-- String that represents that the user attempted to add a world clock through a voice action
     but the city they specified is already added to the list.
     [CHAR LIMIT=NONE]
