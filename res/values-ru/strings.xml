@@ -225,7 +225,7 @@
   <!-- Setting label when changing the crescendo duration. -->
   <string name="crescendo_picker_label">сек.</string>
   <!-- Auto silence preference title -->
-  <string name="auto_silence_title">Автовыключение</string>
+  <string name="auto_silence_title">Тишина после</string>
   <!-- Auto silence summary string set based on the preference value. -->
   <plurals name="auto_silence_summary">
     <!-- Duration for one minute -->
@@ -492,9 +492,9 @@
   <!-- Values that are retrieved from the ListPreference. These must match
          the clock_style_entries above. -->
   <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
-  <string name="automatic_home_clock">Показывать время дома</string>
+  <string name="automatic_home_clock">Показывать домашнее время</string>
   <!-- Describes the functionality provided by the automatic_home_clock option -->
-  <string name="automatic_home_clock_summary">Показывать на отдельных часах, сколько времени дома, когда я нахожусь в другом часовом поясе</string>
+  <string name="automatic_home_clock_summary">Показывать домашнее время в путешествиях, если вы находитесь в другом часовом поясе</string>
   <!-- Title in the preferences change the time zone for the user's home -->
   <string name="home_time_zone">Мой часовой пояс</string>
   <!-- Title in a list dialog box to pick a time zone for the user's home -->
