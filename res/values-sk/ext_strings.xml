@@ -37,7 +37,7 @@
   <!-- Entries listed in the setting flip and shake. -->
   <string-array name="action_setting_entries">
     <item>Odložiť</item>
-    <item>Odmietnuť</item>
+    <item>Zrušiť</item>
     <item>Nič</item>
   </string-array>
   <!-- Setting title for accessing the cLock widget settings -->
