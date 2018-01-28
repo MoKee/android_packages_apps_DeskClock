@@ -24,7 +24,9 @@
   <string name="app_label">Годинник</string>
   <!-- Title for AlarmClock activity -->
   <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="alarm_list_title">Будильники</string>
   <!-- Menu item on Alarm Clock screen: Add alarm -->
+  <string name="add_alarm">Додати будильник</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
@@ -176,6 +178,7 @@
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
   <!-- Accessibility labels for Clock activity buttons -->
+  <string name="alarm_button_description">Будильники</string>
   <string name="gallery_button_description">Галерея</string>
   <!-- Accessibility labels for alarm buttons -->
   <string name="label_description">Підпис</string>
@@ -199,6 +202,7 @@
   <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
   <!-- Clock view buttons strings-->
   <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+  <string name="button_alarms">Додати будильник</string>
   <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
   <!-- Describes the purpose of the button which pops up a menu of setting choices -->
   <!-- Menu item on most screens to get to more settings -->
@@ -303,6 +307,7 @@
   <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
   <!-- Choices for timezones, must be kept in sync with timezone_values. -->
   <!-- Header in the preferences settings for the section pertaining to alarms -->
+  <string name="alarm_settings">Будильники</string>
   <!-- Describes the service that processes actions originating from timer notifications. -->
   <!-- Describes the service that processes actions originating from stopwatch notifications. -->
   <!-- Description for the paused stop watch -->
