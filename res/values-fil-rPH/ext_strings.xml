@@ -33,7 +33,8 @@
   <string-array name="action_setting_entries">
     <item>I-Snooze</item>
     <item>I-dismiss</item>
-    <item>Nothing</item>
+    <item>Wala</item>
   </string-array>
   <!-- Setting title for accessing the cLock widget settings -->
+  <string name="menu_item_widget_settings">Ang mga setting ng widget</string>
 </resources>
