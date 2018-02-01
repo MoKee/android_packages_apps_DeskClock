@@ -135,6 +135,7 @@
   <!-- Entries listed in ListPreference for start day. -->
   <!-- Values for ListPreference for start day of week. -->
   <!-- Done button when editing an alarm. -->
+  <string name="done">ಮುಗಿಯಿತು</string>
   <!-- Revert button when editing an alarm. -->
   <!-- Delete button when editing an alarm. -->
   <!-- Setting title for changing the alarm volume. -->

@@ -17,4 +17,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Setting labels on Set alarm screen: Workday -->
+  <string name="alarm_workday">ಕಾರ್ಯದಿನ</string>
+  <string name="update_permissions_button_text">ಪರವಾನಗಿಗಳನ್ನು ನವೀಕರಿಸಿ</string>
 </resources>
