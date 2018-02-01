@@ -33,7 +33,7 @@
   <string-array name="action_setting_entries">
     <item>Snoozen</item>
     <item>Sluiten</item>
-    <item>Nothing</item>
+    <item>Niets</item>
   </string-array>
   <!-- Setting title for accessing the cLock widget settings -->
 </resources>
