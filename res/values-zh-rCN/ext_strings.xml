@@ -28,8 +28,8 @@
   <!-- Setting title for the shake action setting. -->
   <string name="shake_action_title">摇动行为</string>
   <!-- Setting summary for the shake action setting. -->
-  <string name="shake_action_summary" product="tablet">摇晃平板电脑将 <xliff:g id="action">%s</xliff:g></string>
-  <string name="shake_action_summary" product="default">摇晃手机将 <xliff:g id="action">%s</xliff:g></string>
+  <string name="shake_action_summary" product="tablet">摇动平板电脑将 <xliff:g id="action">%s</xliff:g></string>
+  <string name="shake_action_summary" product="default">摇动手机将 <xliff:g id="action">%s</xliff:g></string>
   <!-- Summary texts for shake and flip actions -->
   <string name="action_summary_snooze">暂停闹铃</string>
   <string name="action_summary_dismiss">停止闹铃</string>
