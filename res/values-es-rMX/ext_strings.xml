@@ -26,7 +26,7 @@
   <!-- Summary texts for shake and flip actions -->
   <!-- Entries listed in the setting flip and shake. -->
   <string-array name="action_setting_entries">
-    <item>Snooze</item>
+    <item>Silenciar</item>
     <item>Descartar</item>
     <item>Nothing</item>
   </string-array>
