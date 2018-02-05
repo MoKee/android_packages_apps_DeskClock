@@ -30,7 +30,7 @@
   <!-- Menu item on Alarm Clock screen: Desk clock -->
   <string name="menu_desk_clock">Horloge de bureau</string>
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
-  <string name="menu_edit_alarm">Modifier l\'alarme</string>
+  <string name="menu_edit_alarm">Modifier l’alarme</string>
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
   <string name="delete_alarm">Supprimer l\'alarme</string>
   <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
@@ -40,9 +40,9 @@
   <!-- Delete alarm confirmation dialog message. -->
   <string name="delete_alarm_confirm">Supprimer cette alarme ?</string>
   <!-- Menu item on Alarm Clock screen: Show clock -->
-  <string name="show_clock">Afficher l\'horloge</string>
+  <string name="show_clock">Afficher l’horloge</string>
   <!-- Menu item on Alarm Clock screen: Hide clock -->
-  <string name="hide_clock">Masquer l\'horloge</string>
+  <string name="hide_clock">Cacher l’horloge</string>
   <!-- Setting label on Set alarm screen: Label -->
   <string name="label">Titre</string>
   <!-- Content description for alarm on/off switch in On state -->
@@ -73,7 +73,7 @@
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
   <string name="alarm_today">Aujourd\'hui</string>
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
-  <string name="alarm_alert_wake_up">Debout !</string>
+  <string name="alarm_alert_wake_up">C’est l’heure !</string>
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
   <string name="alarm_alert_off_action_text">Arrêter</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
@@ -187,7 +187,7 @@
   <string name="day_concat">", "</string>
   <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
-  <string name="clock_instructions">Sélectionner une horloge</string>
+  <string name="clock_instructions">Choisir une horloge</string>
   <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
   <string name="analog_gadget">Horloge analogique</string>
   <!-- Help activity name -->
@@ -291,7 +291,7 @@
   <string name="music_button_description">Musique</string>
   <string name="nightmode_button_description">Assombrir</string>
   <string name="home_button_description">Lanceur d\'applications</string>
-  <string name="desk_clock_button_description">Affichage de l\'horloge</string>
+  <string name="desk_clock_button_description">Affichage de l’horloge</string>
   <!-- Accessibility labels for alarm buttons -->
   <string name="label_description">Titre</string>
   <string name="ringtone_description">Sonnerie</string>
@@ -301,7 +301,7 @@
   <string name="weather_fetch_failure">Les informations météo ne sont pas disponibles actuellement.</string>
   <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="alarm_klaxon_service_desc">Service de retour audio pour les alarmes définies via l\'Horloge de bureau.</string>
+  <string name="alarm_klaxon_service_desc">Service de lecture audio pour les alarmes définies dans l’horloge.</string>
   <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
   <string name="loading_ringtone">Chargement de la sonnerie...</string>
@@ -333,7 +333,7 @@
   <!-- Menu item on clock screen to add world city. -->
   <string name="menu_item_add">Ajouter</string>
   <!-- Menu item on clock screen to enter night mode. -->
-  <string name="menu_item_night_mode">Mode Nuit</string>
+  <string name="menu_item_night_mode">Mode nocturne</string>
   <!-- Menu item on Cities screen to sort by GMT offset -->
   <string name="menu_item_sort_by_gmt_offset">Trier par heure</string>
   <!-- Menu item on Cities screen to sort by alphabetical order -->
@@ -481,7 +481,7 @@
   <!-- Values that are retrieved from the ListPreference. These must match
          the clock_style_entries above. -->
   <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
-  <string name="automatic_home_clock">Horloge avec heure du domicile</string>
+  <string name="automatic_home_clock">Horloge automatique du domicile</string>
   <!-- Describes the functionality provided by the automatic_home_clock option -->
   <string name="automatic_home_clock_summary">Lors de déplacements dans des régions où le fuseau horaire est différent, ajouter une horloge pour votre domicile</string>
   <!-- Title in the preferences change the time zone for the user's home -->
@@ -660,7 +660,7 @@
   <!-- Cancel for selection -->
   <string name="alarm_select_cancel">Annuler</string>
   <!-- slash between date and next alarm in the clock -->
-  <string name="slash">/</string>
+  <string name="slash"> / </string>
   <!-- slash between date and next alarm in the clock -->
   <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
   <string name="next_alarm_description">Prochaine alarme : <xliff:g id="ALARM_TIME">%s</xliff:g></string>
@@ -678,7 +678,7 @@
   <!-- Timer deletion confirmation -->
   <string name="timer_delete_confirmation">Supprimer cette minuterie ?</string>
   <!-- world clock deletion confirmation -->
-  <string name="city_delete_confirmation">Supprimer cette ville ?</string>
+  <string name="city_delete_confirmation">Supprimer cette ville ?</string>
   <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
   <string name="digital_gadget">Horloge numérique</string>
   <!-- format strings for clocks -->
@@ -805,30 +805,30 @@
     but they didn't specify a city so no world clock was selected.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_city_selected">Aucune ville n\'a été sélectionnée.</string>
+  <string name="no_city_selected">Aucune ville n’a été sélectionnée</string>
   <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but the city they specified wasn't listed in the database.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_you_specified_is_not_available">La ville indiquée n\'est pas disponible.</string>
+  <string name="the_city_you_specified_is_not_available">La ville indiquée n’est pas proposée</string>
   <!-- String that represents that the user attempted to add a world clock through a voice action
     but the city they specified is already added to the list.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_already_added">Cette ville a déjà été ajoutée.</string>
+  <string name="the_city_already_added">Cette ville a déjà été ajoutée</string>
   <!-- String that represents that the user successfully added a world clock through a
     voice action
     %s represents the name of the city they added.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_added">Une horloge a été ajoutée pour <xliff:g id="CITY_NAME">%s</xliff:g>.</string>
+  <string name="city_added"><xliff:g id="city_name" example="Paris">%s</xliff:g> a été ajoutée</string>
   <!-- String that represents that the user successfully deleted a world clock through
     a voice action
     %s represents the name of the city they deleted.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_deleted">Une horloge a été supprimée pour <xliff:g id="CITY_NAME">%s</xliff:g></string>
+  <string name="city_deleted"><xliff:g id="city_name" example="Paris">%s</xliff:g> a été supprimée</string>
   <!-- String that represents that the user attempted to dismiss an alarm that is more than
     24 hours away
     %s represents the time of the alarm (e.g. 15:39)
