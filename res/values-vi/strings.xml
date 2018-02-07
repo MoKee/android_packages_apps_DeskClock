@@ -186,12 +186,12 @@
   <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
   <string name="analog_gadget">Đồng hồ kim</string>
   <!-- Help activity name -->
-  <string name="help">giúp</string>
+  <string name="help">trợ giúp</string>
   <!-- Settings activity name -->
   <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
   <string name="settings">Cài đặt</string>
   <!-- Setting title for changing the snooze duration. -->
-  <string name="snooze_duration_title">Thời lượng báo lại</string>
+  <string name="snooze_duration_title">Thời gian báo lại</string>
   <plurals name="snooze_duration">
     <!-- Duration for one minute -->
     <!-- Duration for more than one minute -->
@@ -200,7 +200,7 @@
   <plurals name="snooze_picker_label">
     <!-- Duration for one minute -->
     <!-- Duration for more than one minute -->
-    <item quantity="other">phứt</item>
+    <item quantity="other">phút</item>
   </plurals>
   <!-- Setting title for changing the crescendo duration. -->
   <string name="crescendo_duration_title">Tăng dần âm lượng</string>
@@ -219,7 +219,7 @@
     <item quantity="other">1 phút</item>
   </plurals>
   <!-- Auto silence summary when turned off -->
-  <string name="auto_silence_never">Chưa từng</string>
+  <string name="auto_silence_never">Không bao giờ</string>
   <string name="default_auto_silence_value">10 phút</string>
   <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
@@ -230,7 +230,7 @@
     <item>15 phút</item>
     <item>20 phút</item>
     <item>25 phút</item>
-    <item>Chưa từng</item>
+    <item>Không bao giờ</item>
   </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
@@ -244,7 +244,7 @@
   </string-array>
   <!-- Values for ListPreference for start day of week. -->
   <!-- Done button when editing an alarm. -->
-  <string name="done">Đã Thực hiện</string>
+  <string name="done">Hoàn tất</string>
   <!-- Revert button when editing an alarm. -->
   <string name="revert">Phục hồi</string>
   <!-- Delete button when editing an alarm. -->
@@ -260,10 +260,10 @@
   <!-- Text to display in the notification ticker and label -->
   <string name="alarm_notify_snooze_label"><xliff:g id="Label">%s</xliff:g> (báo lại)</string>
   <!-- Text to display in the notification when the alarm has been snoozed -->
-  <string name="alarm_notify_snooze_text">Báo thức được đặt cho <xliff:g id="Time">%s</xliff:g>. Chạm để hủy.</string>
+  <string name="alarm_notify_snooze_text">Báo thức được đặt đổ chuông sau <xliff:g id="Time">%s</xliff:g> nữa. Chạm để hủy.</string>
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
-  <string name="volume_button_setting_title">Nút âm lượng</string>
+  <string name="volume_button_setting_title">Phím âm lượng</string>
   <!-- Title of the setting default alarm tone  -->
   <string name="default_alarm_tone_title">Âm thanh báo thức mặc định</string>
   <!-- Dialog title of the volume and power setting. -->
@@ -272,7 +272,7 @@
   <string-array name="volume_button_setting_entries">
     <item>Báo lại</item>
     <item>Bỏ qua</item>
-    <item>Không làm gì cả</item>
+    <item>Không làm gì</item>
   </string-array>
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
@@ -293,7 +293,7 @@
   <string name="weather_fetch_failure">Hiện không có thông tin thời tiết.</string>
   <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="alarm_klaxon_service_desc">Dịch vụ phát âm thanh cho báo thức đã đặt trong Clock.</string>
+  <string name="alarm_klaxon_service_desc">Dịch vụ phát âm thanh cho báo thức đã đặt trong Đồng hồ.</string>
   <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
   <string name="loading_ringtone">Đang tải nhạc chuông…\u2026</string>
