@@ -355,6 +355,12 @@
   <string name="cities_add_city_city">Горад:</string>
   <string name="cities_add_city_timezone">Часавы пояс:</string>
   <string name="cities_add_already_exists">Горад ужо дададзены ў базу дадзеных</string>
+  <string name="cities_add_city_failed">Немагчыма стварыць горад</string>
+  <string name="cities_delete_city_failed">Немагчыма выдаліць горад</string>
+  <string name="cities_delete_city_msg">Вы сапраўды хочаце выдаліць
+        <xliff:g id="city">%s</xliff:g>?
+    </string>
+  <string name="cities_delete_city_title">Выдаліць горад</string>
   <!-- Label for selected cities in Cities list view -->
   <string name="selected_cities_label">Выбраныя гарады</string>
   <!-- Stopwatch and Timer shared strings -->
@@ -387,6 +393,7 @@
   <string name="hours_label_description">гадзіны</string>
   <string name="minutes_label_description">хвіліны</string>
   <string name="seconds_label_description">секунды</string>
+  <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
   <string name="sw_share_main">Мой час: <xliff:g id="TIME">%s</xliff:g></string>
@@ -498,9 +505,13 @@
   <string name="time_picker_cancel">Скасаваць</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
   <string name="time_picker_set">ОК</string>
+  <string name="time_picker_time_seperator">:</string>
   <!--  place holder for am/pm label when it is not set -->
+  <string name="time_picker_ampm_label">--</string>
   <!-- add 00 as minutes to the time when pressing this button -->
+  <string name="time_picker_00_label">:00</string>
   <!-- add 30 as minutes to the time when pressing this button -->
+  <string name="time_picker_30_label">:30</string>
   <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
@@ -652,6 +663,7 @@
   <!-- Toast content when an alarm was deleted  -->
   <string name="alarm_deleted">Будзільнік выдалены</string>
   <!-- Select the source of the alarm -->
+  <string name="alarm_select">Выбраць сігнал</string>
   <!-- Select the ringtone as alarm -->
   <string name="alarm_select_ringtone">Гук выкліку</string>
   <!-- Select the alarm from external device -->
@@ -859,11 +871,25 @@
     -->
   <string name="alarm_is_snoozed">Будзільнік на <xliff:g id="ALARM_TIME">%s</xliff:g> адкладзены на 10 хвілін</string>
   <!-- Setting title for the flip action setting. -->
+  <string name="flip_action_title">Дзеянне пры павароце</string>
   <!-- Setting summary for the flip action setting. -->
+  <string name="flip_action_summary" product="default">Пры перавароце прылады ўніз
+        <xliff:g id="action">%s</xliff:g>
+    </string>
   <!-- Setting title for the shake action setting. -->
+  <string name="shake_action_title">Дзеянне пры ўстрэсванні</string>
   <!-- Setting summary for the shake action setting. -->
+  <string name="shake_action_summary" product="default">Пры ўстрэсванні тэлефон будзе
+        <xliff:g id="action">%s</xliff:g>
+    </string>
   <!-- Summary texts for shake and flip actions -->
+  <string name="action_summary_snooze">адкласці будзільнік</string>
+  <string name="action_summary_dismiss">выключыць будзільнік</string>
+  <string name="action_summary_do_nothing">нічога не рабіць</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+  <string name="custom_ringtone">Карыстацкі сігнал выкліку</string>
   <!-- Ringtone selection default" -->
+  <string name="ringtone_default">"Мелодыя па змаўчанні"</string>
   <!--used for prompt to user storage permission status-->
+  <string name="have_denied_storage_permission">Вы не далі праграмам дазвол на доступ да сховішча. Можаце даць дазвол уручную ў наладах праграмы</string>
 </resources>

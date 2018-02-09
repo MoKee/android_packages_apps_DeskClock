@@ -679,7 +679,7 @@
   <!-- String for no alarms set [CHAR LIMIT=24] -->
   <string name="no_alarms_set">Ko đặt báo thức</string>
   <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
-  <string name="no_upcoming_alarms">KHÔNG CÓ BÁO THỨC SẮP TỚI</string>
+  <string name="no_upcoming_alarms">KHÔNG CÓ BÁO THỨC</string>
   <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
      or 27:68pm.
     First %d represents hour, second %d represents minutes, %s represents am/pm,
