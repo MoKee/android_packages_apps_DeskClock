@@ -3,7 +3,7 @@
 <!--
      Copyright (C) 2012-2016 The CyanogenMod Project
      Copyright (C) 2012-2018 The MoKee Open Source Project
-     Copyright (C) 2017 The LineageOS Project
+     Copyright (C) 2017-2018 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,16 +18,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Settings summary for the volume buttons setting. -->
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">Aición al voltiar</string>
-  <!-- Setting summary for the flip action setting. -->
   <!-- Setting title for the shake action setting. -->
   <string name="shake_action_title">Aición al ximelgar</string>
-  <!-- Setting summary for the shake action setting. -->
-  <!-- Summary texts for shake and flip actions -->
-  <string name="action_summary_dismiss">escartar l\'alarma</string>
-  <string name="action_summary_do_nothing">nun facer nada</string>
   <!-- Entries listed in the setting flip and shake. -->
   <!-- Setting title for accessing the cLock widget settings -->
 </resources>

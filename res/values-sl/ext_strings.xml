@@ -3,7 +3,7 @@
 <!--
      Copyright (C) 2012-2016 The CyanogenMod Project
      Copyright (C) 2012-2018 The MoKee Open Source Project
-     Copyright (C) 2017 The LineageOS Project
+     Copyright (C) 2017-2018 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,17 +18,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Settings summary for the volume buttons setting. -->
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">Obnašanje pri zasuku</string>
-  <!-- Setting summary for the flip action setting. -->
   <!-- Setting title for the shake action setting. -->
   <string name="shake_action_title">Obnašanje pri tresenju</string>
-  <!-- Setting summary for the shake action setting. -->
-  <!-- Summary texts for shake and flip actions -->
-  <string name="action_summary_snooze">nastavi dremež</string>
-  <string name="action_summary_dismiss">prekliči alarm</string>
-  <string name="action_summary_do_nothing">ne naredi ničesar</string>
   <!-- Entries listed in the setting flip and shake. -->
   <string-array name="action_setting_entries">
     <item>Dremež</item>
@@ -36,4 +29,5 @@
     <item>Nothing</item>
   </string-array>
   <!-- Setting title for accessing the cLock widget settings -->
+  <string name="menu_item_widget_settings">Nastavitve pripomočka</string>
 </resources>

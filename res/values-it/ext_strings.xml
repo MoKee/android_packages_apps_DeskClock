@@ -3,7 +3,7 @@
 <!--
      Copyright (C) 2012-2016 The CyanogenMod Project
      Copyright (C) 2012-2018 The MoKee Open Source Project
-     Copyright (C) 2017 The LineageOS Project
+     Copyright (C) 2017-2018 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,22 +18,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Settings summary for the volume buttons setting. -->
-  <string name="volume_buttons_summary">Premendo i pulsanti del volume farà <xliff:g id="action">%s</xliff:g></string>
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">Azione capovolgimento</string>
-  <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary" product="tablet">Ruotando il tablet verso il basso farà <xliff:g id="action">%s</xliff:g></string>
-  <string name="flip_action_summary" product="default">Ruotando il telefono verso il basso farà <xliff:g id="action">%s</xliff:g></string>
   <!-- Setting title for the shake action setting. -->
   <string name="shake_action_title">Azione shake</string>
-  <!-- Setting summary for the shake action setting. -->
-  <string name="shake_action_summary" product="tablet">Scuotendo il tablet lo farà <xliff:g id="action">%s</xliff:g></string>
-  <string name="shake_action_summary" product="default">Scuotendo il telefono farà <xliff:g id="action">%s</xliff:g></string>
-  <!-- Summary texts for shake and flip actions -->
-  <string name="action_summary_snooze">sospendi l\'allarme</string>
-  <string name="action_summary_dismiss">interrompi l\'allarme</string>
-  <string name="action_summary_do_nothing">nessuna azione</string>
   <!-- Entries listed in the setting flip and shake. -->
   <string-array name="action_setting_entries">
     <item>Posticipa</item>
