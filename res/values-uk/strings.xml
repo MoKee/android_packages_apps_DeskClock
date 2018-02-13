@@ -29,10 +29,12 @@
   <string name="add_alarm">Додати будильник</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
+  <string name="menu_edit_alarm">Редагування будильника</string>
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
   <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
   <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
   <!-- Delete alarm confirmation dialog message. -->
+  <string name="delete_alarm_confirm">Видалити цей будильник?</string>
   <!-- Menu item on Alarm Clock screen: Show clock -->
   <!-- Menu item on Alarm Clock screen: Hide clock -->
   <!-- Setting label on Set alarm screen: Label -->
@@ -45,10 +47,13 @@
   <string name="default_label">Будильник</string>
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="set_alarm">Встановити будильник</string>
   <!-- Setting labels on Set alarm screen: Vibration on or off -->
   <string name="alarm_vibrate">Вібросигнал</string>
   <!-- Setting labels on Set alarm screen: Repeat -->
+  <string name="alarm_repeat">Повторити</string>
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+  <string name="alert">Мелодія будильника</string>
   <!-- Title of default ringtone played when a timer expires. -->
   <!-- Title of silent ringtone played when a timer expires. -->
   <string name="silent_timer_ringtone_title">Без звуку</string>
@@ -57,6 +62,7 @@
   <!-- Setting labels on Set alarm screen: Set time  -->
   <string name="time">Час</string>
   <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
+  <string name="alarm_tomorrow">Завтра</string>
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
   <string name="alarm_today">Сьогодні</string>
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
@@ -193,6 +199,7 @@
   <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
   <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+  <string name="control_set_alarm">Встановити будильник</string>
   <!--  ActionBar strings -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
   <string name="menu_alarm">Будильник</string>

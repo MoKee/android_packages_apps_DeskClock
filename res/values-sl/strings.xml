@@ -120,7 +120,9 @@
     <item quantity="other">Prastavljeno za <xliff:g id="minutes">%d</xliff:g> minut.</item>
   </plurals>
   <!-- Text to appear inside a notification while an alarm is snoozing. -->
+  <string name="alarm_alert_snooze_until">Dremež do <xliff:g id="time">%s</xliff:g></string>
   <!-- Text to appear in the notification title while an alarm is about to go off. -->
+  <string name="alarm_alert_predismiss_title">Prihajajoči alarm</string>
   <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
   <string name="missed_alarm_has_been_deleted">Zamujen alarm je bil izbrisan</string>
   <!-- 0: nothing
@@ -265,6 +267,7 @@
   <!-- Done button when editing an alarm. -->
   <string name="done">Opravljeno</string>
   <!-- Revert button when editing an alarm. -->
+  <string name="revert">Povrni</string>
   <!-- Delete button when editing an alarm. -->
   <string name="delete">Izbriši</string>
   <!-- Setting title for changing the alarm volume. -->
@@ -274,6 +277,7 @@
   <!-- Title for ringtones that cannot be located by uri. -->
   <string name="unknown_ringtone_title">Neznano</string>
   <!-- Text to display in the small text of the notification -->
+  <string name="alarm_notify_text">Dremež ali opustiti alarm.</string>
   <!-- Text to display in the notification ticker and label -->
   <!-- Text to display in the notification when the alarm has been snoozed -->
   <string name="alarm_notify_snooze_text">Alarm prestavljen na <xliff:g id="time">%s</xliff:g>. Za preklic se dotakni.</string>
@@ -344,9 +348,11 @@
   <string name="menu_item_sort_by_gmt_offset">Razvrsti po času</string>
   <!-- Menu item on Cities screen to sort by alphabetical order -->
   <string name="menu_item_sort_by_name">Razvrsti po imenu</string>
+  <string name="cities_add_gps_no_results">GPS iskanje neuspešno za potrditev lokacije</string>
   <string name="cities_add_gps_not_available">GPS ni na voljo</string>
   <string name="cities_add_searching">Iskanje\u2026</string>
   <string name="cities_add_city_title">Dodajte mesto</string>
+  <string name="cities_add_city_gps_cd">Kliknite za lokalizacijo vašega trenutnega mesta</string>
   <string name="cities_add_loading">Nalaganje\u2026</string>
   <string name="cities_add_city_city">Mesto:</string>
   <string name="cities_add_city_timezone">Časovni pas:</string>
@@ -461,6 +467,18 @@
   <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
   <string name="timer_reset_all">Ponastavi vse časovnike</string>
   <!-- Jocular content that user may append when sharing the lap times -->
+  <string-array name="sw_share_strings" translatable="true">
+    <item>To pa je čista hitrost.</item>
+    <item>Uživajte sadove svojega dela.</item>
+    <item>Android je znan, da je hiter, vendar ne tako hiter, kot ti!</item>
+    <item>Oh.</item>
+    <item>L33t krat.</item>
+    <item>Tako izjemna hitrost.</item>
+    <item>Naredimo časovni preskok znova.</item>
+    <item>Samo skok v levo.</item>
+    <item>You have a palette for haste.</item>
+    <item>Fotonska hitrost.</item>
+  </string-array>
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
   <string name="home_label">Doma</string>
   <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
@@ -603,20 +621,27 @@
   <!-- Describes the service that processes actions originating from timer notifications. -->
   <!-- Describes the service that processes actions originating from stopwatch notifications. -->
   <!-- Description for the paused stop watch -->
+  <string name="swn_paused">V premoru</string>
   <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
          be on the right even on RTL languages so please do not reverse this during
          translation. -->
+  <string name="description_direction_right">Podrsaj desno za preklic</string>
   <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
+  <string name="description_direction_left">Podrsaj levo v dremež</string>
   <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
+  <string name="description_direction_both">Podrsaj v levo za dremež ali desno za preklic</string>
   <!-- Header in the preferences settings for the section pertaining to timers. -->
   <string name="timer_settings">Časovniki</string>
   <!-- Description for timer ringtone setting. -->
+  <string name="timer_ringtone_title">Nastavi melodijo časovnika</string>
   <!-- Description when timer is stopped. -->
+  <string name="timer_stopped">Časovnik ustavljen</string>
   <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
+  <string name="timer_paused">Časovnik začasno ustavljen</string>
   <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
   <string name="timers_stopped"><xliff:g id="number" example="7">%d</xliff:g> časovnikov začasno ustavljeno</string>
   <!-- Notification text when multiple timers are paused. -->
@@ -624,15 +649,22 @@
   <!-- Notification title when at least one timer, of those in use, is counting down. -->
   <string name="timers_in_use"><xliff:g id="number" example="7">%d</xliff:g> časovnikov</string>
   <!-- Notification text when at least one timer, of those in use, is counting down. -->
+  <string name="next_timer_notif">Naslednji časovnik: <xliff:g id="time_remaining" example="2 minutes remaining">%s</xliff:g></string>
   <!-- screensaver settings strings -->
   <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="screensaver_settings">Nočne nastavitve</string>
   <!-- Title for check box to pick intensity of display diminuation during dream mode -->
   <string name="night_mode_title">Nočni način</string>
   <!-- Describes intensity of display diminuation during dream mode -->
+  <string name="night_mode_summary">Zelo zatemnjen zaslon (za temne sobe)</string>
   <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
+  <string name="expand_alarm">Razširi alarm</string>
   <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
+  <string name="collapse_alarm">Strni alarm</string>
   <!-- Description of the button to undo change to alarm -->
+  <string name="alarm_undo">razveljavi</string>
   <!-- Toast content when an alarm was deleted  -->
+  <string name="alarm_deleted">Alarm izbrisan</string>
   <!-- Select the source of the alarm -->
   <string name="alarm_select">Izbera melodije za alarm</string>
   <!-- Select the ringtone as alarm -->
@@ -644,9 +676,12 @@
   <!-- Cancel for selection -->
   <string name="alarm_select_cancel">Prekliči</string>
   <!-- slash between date and next alarm in the clock -->
+  <string name="slash"> - </string>
   <!-- slash between date and next alarm in the clock -->
   <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
+  <string name="next_alarm_description">Naslednji alarm: <xliff:g id="alarm_time" example="Wed 8:00am">%s</xliff:g></string>
   <!-- Displays the number of alarms selected from the list of alarms. -->
+  <string name="alarms_selected"><xliff:g id="alarms">%d</xliff:g> izbran</string>
   <!-- message used by the talkback accessibility app to say that something was deleted -->
   <string name="deleted_message">Izbrisano</string>
   <!-- Alarm deletion confirmation message-->
@@ -659,7 +694,9 @@
     <item quantity="other">Želite izbrisati izbrane alarme?</item>
   </plurals>
   <!-- Timer deletion confirmation -->
+  <string name="timer_delete_confirmation">Ali želite izbrisati ta alarm?</string>
   <!-- world clock deletion confirmation -->
+  <string name="city_delete_confirmation">Ali želite izbrisati to mesto?</string>
   <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
   <string name="digital_gadget">Digitalna ura</string>
   <!-- format strings for clocks -->
@@ -668,28 +705,35 @@
   <!-- Font size for AM/PM should match label_font_size -->
   <!-- Font size for AM/PM should match alarm_label_size -->
   <!-- String for no alarms -->
+  <string name="no_alarms">Ni alarmov</string>
   <!-- String for no alarms set [CHAR LIMIT=24] -->
+  <string name="no_alarms_set">Ni nastavljenega alarma</string>
   <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
+  <string name="no_upcoming_alarms">NOBEN PRIHAJAJOČI ALARMI</string>
   <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
      or 27:68pm.
     First %d represents hour, second %d represents minutes, %s represents am/pm,
     If no am/pm is passed in (e.g. the locale uses 24h time) only hour and minute are printed.
     [CHAR LIMIT=NONE]
     -->
+  <string name="invalid_time">Neveljaven čas <xliff:g id="invalid_hour" example="25">%d</xliff:g>:<xliff:g id="invalid_minutes" example="63">%d</xliff:g> <xliff:g id="invalid_ampm" example="PM">%s</xliff:g></string>
   <!-- String that represents that no alarm has been specified for a requested hour:minutes.
     This happens when a user sends a voice command 'dismiss my alarm at 3:00pm' but they have no
     alarms specified for that time. %s represents the time of the alarm.
     [CHAR LIMIT=NONE]
     -->
+  <string name="no_alarm_at">Ni alarma ob <xliff:g id="alarm_time_hour" example="14">%d</xliff:g>:<xliff:g id="alarm_time_minutes" example="23">%d</xliff:g></string>
   <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
     a user sends a voice command 'dismiss next alarm' or 'dismiss all of my alarms' but they have
     no alarms scheduled in the app.
     [CHAR LIMIT=NONE]
     -->
+  <string name="no_scheduled_alarms">Ni načrtovanih alarmov</string>
   <!-- String that represents that the user specified that they want to select an alarm to
     dismiss by specifying a 'label' but they didn't specify any labels.
     [CHAR LIMIT=NONE]
     -->
+  <string name="no_label_specified">Brez določene oznake</string>
   <!-- String that represents that no alarm has been specified for a requested label.
     This happens when a user sends a voice command 'dismiss my alarm with label pick up kids'
      but they have no alarms with that label.
@@ -699,35 +743,43 @@
     'lap the stopwatch' when the stopwatch wasn't running so the command wasn't executed.
     [CHAR LIMIT=NONE]
     -->
+  <string name="stopwatch_isnt_running">Nimate zagnane štoparice</string>
   <!-- String that represents that the user has successfully sent a voice command pausing
      the stopwatch.
     [CHAR LIMIT=NONE]
     -->
+  <string name="stopwatch_paused">Štoparica začasno ustavljena</string>
   <!-- String that represents that the user has successfully sent a voice command resetting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
+  <string name="stopwatch_reset">Štoparica ponastavljena</string>
   <!-- String that represents that the user has successfully sent a voice command lapping
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
+  <string name="stopwatch_lapped">Vmesni čas izmerjen</string>
   <!-- String that represents that the user has successfully sent a voice command starting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
+  <string name="stopwatch_started">Štoparica zagnana</string>
   <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
     there was no alarm scheduled for that time (they might have had an alarm for 3pm on the list
     but it was disabled).
     [CHAR LIMIT=NONE]
     -->
+  <string name="no_alarm_scheduled_for_this_time">Ni načrtovanega alarma za ta čas</string>
   <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
+  <string name="alarm_is_dismissed"><xliff:g id="alarm_time" example="14:20">%s</xliff:g> alarm preklican</string>
   <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
+  <string name="alarm_is_set">Alarm je nastavljen na <xliff:g id="alarm_time" example="14:20">%s</xliff:g></string>
   <!-- String that represents that the user attempted to control a timer with a voice action when
     no timers are defined.
     [CHAR LIMIT=NONE]
@@ -742,6 +794,7 @@
     the timer could not be located.
     [CHAR LIMIT=NONE]
     -->
+  <string name="timer_does_not_exist">Timer je bil odstranjen.</string>
   <!-- String that represents that the user has successfully created a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
@@ -786,28 +839,34 @@
     %s represents the name of the city they added.
     [CHAR LIMIT=NONE]
     -->
+  <string name="city_added"><xliff:g id="city_name" example="Paris">%s</xliff:g> dodano</string>
   <!-- String that represents that the user successfully deleted a world clock through
     a voice action
     %s represents the name of the city they deleted.
     [CHAR LIMIT=NONE]
     -->
+  <string name="city_deleted"><xliff:g id="city_name" example="Paris">%s</xliff:g> izbrisano</string>
   <!-- String that represents that the user attempted to dismiss an alarm that is more than
     24 hours away
     %s represents the time of the alarm (e.g. 15:39)
     [CHAR LIMIT=NONE]
     -->
+  <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away"><xliff:g id="alarm_time" example="14:20">%s</xliff:g> alarma še ni mogoče opustiti, ker je oddaljen več kot 24 ur</string>
   <!-- String that shows up in the action bar for the Picker Activity
          where a use gets to pick which alarm to dismiss
    [CHAR LIMIT=NONE]
    -->
+  <string name="dismiss_alarm">Prekliči alarm</string>
   <!-- String that represents that further action is needed from the user in case their
     voice command was ambiguous or there are more than 1 alarms that match their request.
     The user needs to choose an alarm they want to dismiss through the UI
    [CHAR LIMIT=NONE]
    -->
+  <string name="pick_alarm_to_dismiss">Kateri alarm naj prekličem?</string>
   <!-- String that represents that the user doesn't have any alarms firing at the moment.
     [CHAR LIMIT=NONE]
     -->
+  <string name="no_firing_alarms">Nimate aktivnih alarmov</string>
   <!-- String that represents that the user has snoozed an alarm through a voice action for 10
     minutes.
     %s represents alarm time, e.g. 14:20
@@ -835,4 +894,5 @@
   <!-- Ringtone selection default" -->
   <string name="ringtone_default">"Prevzeta melodija zvonjenja"</string>
   <!--used for prompt to user storage permission status-->
+  <string name="have_denied_storage_permission">Zavrnili ste dovoljenje za shranjevanje. V nastavitvah aplikacije lahko to dovoljenje dodate tudi ročno</string>
 </resources>
