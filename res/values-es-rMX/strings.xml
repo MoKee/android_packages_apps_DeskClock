@@ -132,6 +132,7 @@
     -->
   <!-- Timer notification: how long from now until timer goes off. -->
   <string name="timer_notifications_less_min">Menos de un minuto restante</string>
+  <string name="timer_notifications_hours">horas_notificaciones_horas</string>
   <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"

@@ -120,6 +120,7 @@
   <!-- Text to appear in the notification title while an alarm is about to go off. -->
   <string name="alarm_alert_predismiss_title">Próxima alarma</string>
   <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+  <string name="missed_alarm_has_been_deleted">Su alarma perdida ha sido eliminada</string>
   <!-- 0: nothing
          1: days
          2:      hours
@@ -130,6 +131,8 @@
          7: days hours minutes
     -->
   <!-- Timer notification: how long from now until timer goes off. -->
+  <string name="timer_notifications_less_min">Menos de un minuto restante</string>
+  <string name="timer_notifications_hours">horas_notificaciones_horas</string>
   <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
