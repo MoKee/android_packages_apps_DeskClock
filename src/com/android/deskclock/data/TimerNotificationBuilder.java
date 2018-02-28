@@ -19,8 +19,6 @@ package com.android.deskclock.data;
 import android.annotation.TargetApi;
 import android.app.AlarmManager;
 import android.app.Notification;
-import android.app.Notification.Action;
-import android.app.Notification.Builder;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
@@ -28,6 +26,7 @@ import android.content.res.Resources;
 import android.os.Build;
 import android.os.SystemClock;
 import android.support.annotation.DrawableRes;
+import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.widget.RemoteViews;
@@ -42,6 +41,8 @@ import com.android.deskclock.timer.TimerService;
 import java.util.ArrayList;
 import java.util.List;
 
+import static android.support.v4.app.NotificationCompat.Action;
+import static android.support.v4.app.NotificationCompat.Builder;
 import static android.text.format.DateUtils.MINUTE_IN_MILLIS;
 import static android.text.format.DateUtils.SECOND_IN_MILLIS;
 
@@ -147,20 +148,18 @@ class TimerNotificationBuilder {
                 PendingIntent.getService(context, REQUEST_CODE_UPCOMING, showApp,
                         PendingIntent.FLAG_ONE_SHOT | PendingIntent.FLAG_UPDATE_CURRENT);
 
-        Utils.createNotificationChannelsIfNeeded(context);
-
-        final Builder notification = new Notification.Builder(context,
-                    Utils.TIMER_CHANNEL)
+        final Builder notification = new NotificationCompat.Builder(context)
                 .setOngoing(true)
                 .setLocalOnly(true)
                 .setShowWhen(false)
                 .setAutoCancel(false)
                 .setContentIntent(pendingShowApp)
-                .setCategory(Notification.CATEGORY_ALARM)
+                .setPriority(Notification.PRIORITY_HIGH)
+                .setCategory(NotificationCompat.CATEGORY_ALARM)
                 .setSmallIcon(R.drawable.stat_notify_timer)
                 .setSortKey(nm.getTimerNotificationSortKey())
-                .setVisibility(Notification.VISIBILITY_PUBLIC)
-                .setStyle(new Notification.DecoratedCustomViewStyle())
+                .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
+                .setStyle(new NotificationCompat.DecoratedCustomViewStyle())
                 .setColor(ContextCompat.getColor(context, R.color.default_background));
 
         for (Action action : actions) {
@@ -262,19 +261,17 @@ class TimerNotificationBuilder {
                 .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_USER_ACTION);
         final PendingIntent pendingFullScreen = Utils.pendingActivityIntent(context, fullScreen);
 
-        Utils.createNotificationChannelsIfNeeded(context);
-
-        final Builder notification = new Notification.Builder(context,
-                    Utils.TIMER_CHANNEL)
+        final Builder notification = new NotificationCompat.Builder(context)
                 .setOngoing(true)
                 .setLocalOnly(true)
                 .setShowWhen(false)
                 .setAutoCancel(false)
                 .setContentIntent(contentIntent)
+                .setPriority(Notification.PRIORITY_MAX)
                 .setDefaults(Notification.DEFAULT_LIGHTS)
                 .setSmallIcon(R.drawable.stat_notify_timer)
                 .setFullScreenIntent(pendingFullScreen, true)
-                .setStyle(new Notification.DecoratedCustomViewStyle())
+                .setStyle(new NotificationCompat.DecoratedCustomViewStyle())
                 .setColor(ContextCompat.getColor(context, R.color.default_background));
 
         for (Action action : actions) {
@@ -347,19 +344,17 @@ class TimerNotificationBuilder {
                 PendingIntent.getService(context, REQUEST_CODE_MISSING, showApp,
                         PendingIntent.FLAG_ONE_SHOT | PendingIntent.FLAG_UPDATE_CURRENT);
 
-        Utils.createNotificationChannelsIfNeeded(context);
-
-        final Builder notification = new Notification.Builder(context,
-                    Utils.TIMER_CHANNEL)
+        final Builder notification = new NotificationCompat.Builder(context)
                 .setLocalOnly(true)
                 .setShowWhen(false)
                 .setAutoCancel(false)
                 .setContentIntent(pendingShowApp)
-                .setCategory(Notification.CATEGORY_ALARM)
+                .setPriority(Notification.PRIORITY_HIGH)
+                .setCategory(NotificationCompat.CATEGORY_ALARM)
                 .setSmallIcon(R.drawable.stat_notify_timer)
-                .setVisibility(Notification.VISIBILITY_PUBLIC)
+                .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
                 .setSortKey(nm.getTimerNotificationMissedSortKey())
-                .setStyle(new Notification.DecoratedCustomViewStyle())
+                .setStyle(new NotificationCompat.DecoratedCustomViewStyle())
                 .addAction(action)
                 .setColor(ContextCompat.getColor(context, R.color.default_background));
 
