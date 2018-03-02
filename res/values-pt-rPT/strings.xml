@@ -21,30 +21,47 @@
   <!-- -->
   <!-- Label shown on launcher icon -->
   <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
+  <string name="app_label">Relógio</string>
   <!-- Title for AlarmClock activity -->
   <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="alarm_list_title">Alarms</string>
   <!-- Menu item on Alarm Clock screen: Add alarm -->
+  <string name="add_alarm">Adicionar alarme</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
+  <string name="menu_desk_clock">Relógio de secretária</string>
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
+  <string name="menu_edit_alarm">Editar alarme</string>
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+  <string name="delete_alarm">Eliminar alarme</string>
   <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+  <string name="enable_alarm">Ligar o alarme</string>
   <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+  <string name="disable_alarm">Desligar o alarme</string>
   <!-- Delete alarm confirmation dialog message. -->
+  <string name="delete_alarm_confirm">Eliminar este alarme?</string>
   <!-- Menu item on Alarm Clock screen: Show clock -->
+  <string name="show_clock">Mostrar relógio</string>
   <!-- Menu item on Alarm Clock screen: Hide clock -->
+  <string name="hide_clock">Esconder relógio</string>
   <!-- Setting label on Set alarm screen: Label -->
+  <string name="label">Etiqueta</string>
   <!-- Content description for alarm on/off switch in On state -->
   <string name="on_switch">Ativado</string>
   <!-- Content description for alarm on/off switch in Off state -->
+  <string name="off_switch">Desligado</string>
   <!-- Default label to display for an alarm -->
   <string name="default_label">Alarme</string>
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="set_alarm">Definir alarme</string>
   <!-- Setting labels on Set alarm screen: Vibration on or off -->
   <string name="alarm_vibrate">Vibrar</string>
   <!-- Setting labels on Set alarm screen: Repeat -->
+  <string name="alarm_repeat">Repetir</string>
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+  <string name="alert">Toque do Alarme</string>
   <!-- Title of default ringtone played when a timer expires. -->
+  <string name="default_timer_ringtone_title">Temporizador Expirado</string>
   <!-- Title of silent ringtone played when a timer expires. -->
   <string name="silent_timer_ringtone_title">Silêncio</string>
   <!-- Label on expanded alarm edit view. -->
@@ -52,34 +69,58 @@
   <!-- Setting labels on Set alarm screen: Set time  -->
   <string name="time">Hora</string>
   <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
+  <string name="alarm_tomorrow">Amanhã</string>
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
+  <string name="alarm_today">Hoje</string>
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
+  <string name="alarm_alert_wake_up">Acordar\u0021</string>
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
+  <string name="alarm_alert_off_action_text">Desligado</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
   <string name="alarm_alert_dismiss_text">Ignorar</string>
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+  <string name="alarm_alert_dismiss_now_text">Ignorar agora</string>
   <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
+  <string name="alarm_missed_title">Alarme perdido</string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
+  <string name="alarm_alert_snoozed_text">Suspenso</string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the word 'Snoozed' in two separate lines or example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
+  <plurals name="alarm_alert_snooze_duration">
+    <!-- Duration for one minute -->
+    <item quantity="one">1 minuto</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other">1 minuto</item>
+  </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
+  <string name="alarm_alert_off_text">Alarme desligado</string>
   <!-- Button labels on the alarm dialog: Snooze -->
+  <string name="alarm_alert_snooze_text">Suspender</string>
   <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
+  <plurals name="alarm_alert_snooze_set">
+    <!-- Duration for one minute -->
+    <item quantity="one">Suspendido durante 1 minuto.</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other">Suspendido por <xliff:g id="minutes">%d</xliff:g> minutos.</item>
+  </plurals>
   <!-- Text to appear inside a notification while an alarm is snoozing. -->
+  <string name="alarm_alert_snooze_until">Suspenso até<xliff:g id="tempo">%s</xliff:g></string>
   <!-- Text to appear in the notification title while an alarm is about to go off. -->
+  <string name="alarm_alert_predismiss_title">Próximo alarme</string>
   <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+  <string name="missed_alarm_has_been_deleted">O alarme perdido foi eliminado</string>
   <!-- 0: nothing
          1: days
          2:      hours
@@ -90,32 +131,75 @@
          7: days hours minutes
     -->
   <!-- Timer notification: how long from now until timer goes off. -->
+  <string name="timer_notifications_less_min">Falta menos de um minuto</string>
+  <string name="timer_notifications_hours"><xliff:g id="HOURS" exemplo="2 horas">%1$s</xliff:g><xliff:g id="REMAINING" exemplo="restante"> %3$s</xliff:g></string>
+  <string name="timer_notifications_minutes"><xliff:g id="MINUTES" exemplo="2 minutos">%2$s</xliff:g><xliff:g id="REMAINING" exemplo="restante"> %3$s</xliff:g></string>
+  <string name="timer_notifications_hours_minutes"><xliff:g id="HOURS" exemplo="2 horas">%1$s</xliff:g> <xliff:g id="MINUTES" exemplo="2 minutos">%2$s</xliff:g> restantes</string>
   <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
     -->
+  <string name="timer_remaining_single">restante</string>
   <!--
         Verb inflection to use for multiple time units remaining
         Ex. "2 minutes remaining"
     -->
+  <string name="timer_remaining_multiple">restante</string>
   <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
+  <string-array name="alarm_set">
+    <item>Alarme definido para daqui a menos de 1 minuto.</item>
+    <item>Alarme definido para daqui a <xliff:g id="DAYS">%1$s</xliff:g>.</item>
+    <item>Alarme definido para daqui a <xliff:g id="HOURS">%2$s</xliff:g>.</item>
+    <item>Alarme definido para daqui a <xliff:g id="DAYS">%1$s</xliff:g> e <xliff:g id="HOURS">%2$s</xliff:g>.</item>
+    <item>Alarme definido para daqui a <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
+    <item>Alarme definido para daqui a <xliff:g id="DAYS">%1$s</xliff:g> e <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
+    <item>Alarme definido para daqui a <xliff:g id="HOURS">%2$s</xliff:g> e <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
+    <item>Alarme definido para daqui a <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> e <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
+  </string-array>
   <!-- Alarm confirmation toast: days -->
+  <plurals name="days">
+    <!-- Duration for one day -->
+    <item quantity="one">1 dia</item>
+    <!-- Duration for more than one day -->
+    <item quantity="other"><xliff:g id="number" exemplo="7">%s</xliff:g> dias</item>
+  </plurals>
   <!-- Alarm confirmation toast and timer notification: hours -->
+  <plurals name="hours">
+    <!-- Duration for one hour -->
+    <item quantity="one">1 hora</item>
+    <!-- Duration for more than one hour -->
+    <item quantity="other"><xliff:g id="number" exemplo="7">%s</xliff:g> horas</item>
+  </plurals>
   <!-- Alarm confirmation toast and timer notification: minutes -->
+  <plurals name="minutes">
+    <!-- Duration for one minute -->
+    <item quantity="one">1 minuto</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other"><xliff:g id="number" exemplo="7">%s</xliff:g> minutos</item>
+  </plurals>
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
+  <string name="every_day">Todos os dias</string>
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
+  <string name="day_concat">", "</string>
   <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
+  <string name="clock_instructions">Escolha um relógio</string>
   <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
   <!-- Help activity name -->
   <!-- Settings activity name -->
   <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
   <string name="settings">Definições</string>
   <!-- Setting title for changing the snooze duration. -->
+  <plurals name="snooze_duration">
+    <!-- Duration for one minute -->
+    <item quantity="one">1 minuto</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other"><xliff:g id="number" exemplo="7">%s</xliff:g> minutos</item>
+  </plurals>
   <!-- Setting title for changing the crescendo duration. -->
   <!-- Summary value for changing the crescendo duration to 0. -->
   <!-- Summary value for changing the crescendo duration. -->
@@ -162,14 +246,16 @@
   <!-- Dialog title of the volume and power setting. -->
   <!-- Entries listed in the setting for the side-button action. -->
   <string-array name="volume_button_setting_entries">
-    <item>Snooze</item>
+    <item>Suspender</item>
     <item>Ignorar</item>
     <item>Do nothing</item>
   </string-array>
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
   <!-- Accessibility labels for Clock activity buttons -->
+  <string name="alarm_button_description">Alarms</string>
   <!-- Accessibility labels for alarm buttons -->
+  <string name="label_description">Etiqueta</string>
   <string name="ringtone_description">Toque</string>
   <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
@@ -181,6 +267,7 @@
   <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
   <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+  <string name="control_set_alarm">Definir alarme</string>
   <!--  ActionBar strings -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
   <string name="menu_alarm">Alarme</string>
@@ -189,6 +276,7 @@
   <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
   <!-- Clock view buttons strings-->
   <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+  <string name="button_alarms">Adicionar alarme</string>
   <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
   <!-- Describes the purpose of the button which pops up a menu of setting choices -->
   <!-- Menu item on most screens to get to more settings -->
@@ -288,6 +376,7 @@
   <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
   <!-- Choices for timezones, must be kept in sync with timezone_values. -->
   <!-- Header in the preferences settings for the section pertaining to alarms -->
+  <string name="alarm_settings">Alarms</string>
   <!-- Describes the service that processes actions originating from timer notifications. -->
   <!-- Describes the service that processes actions originating from stopwatch notifications. -->
   <!-- Description for the paused stop watch -->

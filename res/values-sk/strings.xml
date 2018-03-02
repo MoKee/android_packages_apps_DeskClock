@@ -100,9 +100,10 @@
   <plurals name="alarm_alert_snooze_duration">
     <!-- Duration for one minute -->
     <item quantity="one">1 minúta</item>
-    <item quantity="few"><xliff:g id="number">%d</xliff:g> min</item>
+    <item quantity="few"><xliff:g id="number">%d</xliff:g> minúty</item>
+    <item quantity="many"><xliff:g id="number">%d</xliff:g> minút</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="number">%d</xliff:g> min</item>
+    <item quantity="other"><xliff:g id="number">%d</xliff:g> minút</item>
   </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
   <string name="alarm_alert_off_text">Budík je vypnutý</string>
@@ -114,6 +115,7 @@
     <!-- Duration for one minute -->
     <item quantity="one">Odložený o 1 minútu.</item>
     <item quantity="few">Odložený o <xliff:g id="minutes">%d</xliff:g> minúty.</item>
+    <item quantity="many">Odložený o <xliff:g id="number">%d</xliff:g> minút.</item>
     <!-- Duration for more than one minute -->
     <item quantity="other">Odložený o <xliff:g id="minutes">%d</xliff:g> minút.</item>
   </plurals>
@@ -163,6 +165,7 @@
     <!-- Duration for one day -->
     <item quantity="one">1 deň</item>
     <item quantity="few"><xliff:g id="number">%s</xliff:g> dni</item>
+    <item quantity="many"><xliff:g id="number">%s</xliff:g> dní</item>
     <!-- Duration for more than one day -->
     <item quantity="other"><xliff:g id="number">%s</xliff:g> dní</item>
   </plurals>
@@ -171,6 +174,7 @@
     <!-- Duration for one hour -->
     <item quantity="one">1 hodina</item>
     <item quantity="few"><xliff:g id="number">%s</xliff:g> hodiny</item>
+    <item quantity="many"><xliff:g id="number">%s</xliff:g> hodín</item>
     <!-- Duration for more than one hour -->
     <item quantity="other"><xliff:g id="number">%s</xliff:g> hodín</item>
   </plurals>
@@ -179,6 +183,7 @@
     <!-- Duration for one minute -->
     <item quantity="one">1 minúta</item>
     <item quantity="few"><xliff:g id="number">%s</xliff:g> minúty</item>
+    <item quantity="many"><xliff:g id="number">%s</xliff:g> minút</item>
     <!-- Duration for more than one minute -->
     <item quantity="other"><xliff:g id="number">%s</xliff:g> minút</item>
   </plurals>
@@ -206,6 +211,7 @@
     <!-- Duration for one minute -->
     <item quantity="one">1 minúta</item>
     <item quantity="few"><xliff:g id="number">%s</xliff:g> minúty</item>
+    <item quantity="many"><xliff:g id="number">%s</xliff:g> minút</item>
     <!-- Duration for more than one minute -->
     <item quantity="other"><xliff:g id="number">%s</xliff:g> minút</item>
   </plurals>
@@ -213,6 +219,7 @@
     <!-- Duration for one minute -->
     <item quantity="one">minúta</item>
     <item quantity="few">minúty</item>
+    <item quantity="many">minút</item>
     <!-- Duration for more than one minute -->
     <item quantity="other">minút</item>
   </plurals>
@@ -231,6 +238,7 @@
     <!-- Duration for one minute -->
     <item quantity="one">1 minúta</item>
     <item quantity="few"><xliff:g id="formatted_number">%s</xliff:g> minúty</item>
+    <item quantity="many"><xliff:g id="formatted_number">%s</xliff:g> minút</item>
     <!-- Duration for more than one minute -->
     <item quantity="other"><xliff:g id="formatted_number">%s</xliff:g> minút</item>
   </plurals>
@@ -404,6 +412,7 @@
     <!-- 1 hour -->
     <item quantity="one">1 hodina</item>
     <item quantity="few"><xliff:g id="number">%d</xliff:g> hodiny</item>
+    <item quantity="many"><xliff:g id="number">%d</xliff:g> hodín</item>
     <!-- more -->
     <item quantity="other"><xliff:g id="number">%d</xliff:g> hodín</item>
   </plurals>
@@ -411,6 +420,7 @@
     <!-- 1 minute -->
     <item quantity="one">1 minúta</item>
     <item quantity="few"><xliff:g id="number">%d</xliff:g> minúty</item>
+    <item quantity="many"><xliff:g id="number">%d</xliff:g> minút</item>
     <!-- more -->
     <item quantity="other"><xliff:g id="number">%d</xliff:g> minút</item>
   </plurals>
@@ -418,6 +428,7 @@
     <!-- 1 second -->
     <item quantity="one">1 sekunda</item>
     <item quantity="few"><xliff:g id="number">%d</xliff:g> sekundy</item>
+    <item quantity="many"><xliff:g id="number">%d</xliff:g> sekúnd</item>
     <!-- more -->
     <item quantity="other"><xliff:g id="number">%d</xliff:g> sekúnd</item>
   </plurals>
@@ -684,6 +695,7 @@
     <!-- Confirmation for one alarm -->
     <item quantity="one">Odstrániť vybraný budík?</item>
     <item quantity="few">Odstrániť vybrané budíky?</item>
+    <item quantity="many">Odstrániť vybrané budíky?</item>
     <!-- Confirmation more than one alarm  -->
     <item quantity="other">Odstrániť vybrané budíky?</item>
   </plurals>

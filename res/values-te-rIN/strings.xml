@@ -116,8 +116,18 @@
   <!-- Auto silence preference title -->
   <!-- Auto silence summary string set based on the preference value. -->
   <!-- Auto silence summary when turned off -->
+  <string name="auto_silence_never">ఎప్పటికీ వద్దు</string>
   <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
+  <string-array name="auto_silence_entries">
+    <item>1 minute</item>
+    <item>5 minutes</item>
+    <item>10 minutes</item>
+    <item>15 minutes</item>
+    <item>20 minutes</item>
+    <item>25 minutes</item>
+    <item>ఎప్పటికీ వద్దు</item>
+  </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
   <!-- Week start day preference title. -->

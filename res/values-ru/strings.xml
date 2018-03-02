@@ -101,6 +101,7 @@
     <!-- Duration for one minute -->
     <item quantity="one">на 1 минуту</item>
     <item quantity="few">на <xliff:g id="number" example="7">%d</xliff:g> мин.</item>
+    <item quantity="many">на <xliff:g id="number" example="7">%d</xliff:g> мин.</item>
     <!-- Duration for more than one minute -->
     <item quantity="other">на <xliff:g id="number" example="7">%d</xliff:g> мин.</item>
   </plurals>
@@ -114,6 +115,7 @@
     <!-- Duration for one minute -->
     <item quantity="one">Отложено на 1 минуту</item>
     <item quantity="few">Отложено на <xliff:g id="minutes">%d</xliff:g> мин.</item>
+    <item quantity="many">Отложено на <xliff:g id="minutes">%d</xliff:g> мин.</item>
     <!-- Duration for more than one minute -->
     <item quantity="other">Отложено на <xliff:g id="minutes">%d</xliff:g> мин.</item>
   </plurals>
@@ -161,24 +163,27 @@
   <!-- Alarm confirmation toast: days -->
   <plurals name="days">
     <!-- Duration for one day -->
-    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> день</item>
+    <item quantity="one">1 день</item>
     <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> дня</item>
+    <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> дней</item>
     <!-- Duration for more than one day -->
     <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> дней</item>
   </plurals>
   <!-- Alarm confirmation toast and timer notification: hours -->
   <plurals name="hours">
     <!-- Duration for one hour -->
-    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> час</item>
+    <item quantity="one">1 час</item>
     <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> часа</item>
+    <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> часов</item>
     <!-- Duration for more than one hour -->
     <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> часов</item>
   </plurals>
   <!-- Alarm confirmation toast and timer notification: minutes -->
   <plurals name="minutes">
     <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> минута</item>
+    <item quantity="one">1 мин.</item>
     <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> мин.</item>
+    <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> мин.</item>
     <!-- Duration for more than one minute -->
     <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> мин.</item>
   </plurals>
@@ -206,15 +211,17 @@
     <!-- Duration for one minute -->
     <item quantity="one">1 мин.</item>
     <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> мин.</item>
+    <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> мин.</item>
     <!-- Duration for more than one minute -->
     <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> мин.</item>
   </plurals>
   <plurals name="snooze_picker_label">
     <!-- Duration for one minute -->
-    <item quantity="one">минута</item>
-    <item quantity="few">минуты</item>
+    <item quantity="one">мин.</item>
+    <item quantity="few">мин.</item>
+    <item quantity="many">мин.</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other">минут</item>
+    <item quantity="other">мин.</item>
   </plurals>
   <!-- Setting title for changing the crescendo duration. -->
   <string name="crescendo_duration_title">Постепенное увеличение громкости</string>
@@ -229,10 +236,11 @@
   <!-- Auto silence summary string set based on the preference value. -->
   <plurals name="auto_silence_summary">
     <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> минута</item>
-    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> минуты</item>
+    <item quantity="one">1 мин.</item>
+    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> мин.</item>
+    <item quantity="many"><xliff:g id="formatted_number" example="7">%s</xliff:g> мин.</item>
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> минут</item>
+    <item quantity="other"><xliff:g id="formatted_number" example="7">%s</xliff:g> мин.</item>
   </plurals>
   <!-- Auto silence summary when turned off -->
   <string name="auto_silence_never">Никогда</string>
@@ -406,6 +414,7 @@
     <!-- 1 hour -->
     <item quantity="one">1 час</item>
     <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> часа</item>
+    <item quantity="many"><xliff:g id="number" example="7">%d</xliff:g> часов</item>
     <!-- more -->
     <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> часов</item>
   </plurals>
@@ -413,6 +422,7 @@
     <!-- 1 minute -->
     <item quantity="one">1 минута</item>
     <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> минуты</item>
+    <item quantity="many"><xliff:g id="number" example="7">%d</xliff:g> минут</item>
     <!-- more -->
     <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> минут</item>
   </plurals>
@@ -420,6 +430,7 @@
     <!-- 1 second -->
     <item quantity="one">1 секунда</item>
     <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> секунды</item>
+    <item quantity="many"><xliff:g id="number" example="7">%d</xliff:g> секунд</item>
     <!-- more -->
     <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> секунд</item>
   </plurals>
@@ -686,6 +697,7 @@
     <!-- Confirmation for one alarm -->
     <item quantity="one">Удалить выбранный будильник?</item>
     <item quantity="few">Удалить выбранные будильники?</item>
+    <item quantity="many">Удалить выбранные будильники?</item>
     <!-- Confirmation more than one alarm  -->
     <item quantity="other">Удалить выбранные будильники?</item>
   </plurals>
