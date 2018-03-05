@@ -378,7 +378,7 @@
   <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
-  <string name="sw_share_main">我的时间是：<xliff:g id="TIME">%s</xliff:g></string>
+  <string name="sw_share_main">我的时间：<xliff:g id="TIME">%s</xliff:g></string>
   <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
   <string name="sw_share_laps">各圈时间：</string>
   <!-- Label to enumerate the number of laps in the notification the user has counted -->

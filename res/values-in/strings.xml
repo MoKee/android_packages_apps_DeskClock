@@ -26,7 +26,7 @@
   <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
   <string name="alarm_list_title">Alarm</string>
   <!-- Menu item on Alarm Clock screen: Add alarm -->
-  <string name="add_alarm">Tambahkan alarm</string>
+  <string name="add_alarm">Tambah alarm</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
   <string name="menu_desk_clock">Jam meja</string>
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
@@ -46,9 +46,9 @@
   <!-- Setting label on Set alarm screen: Label -->
   <string name="label">Label</string>
   <!-- Content description for alarm on/off switch in On state -->
-  <string name="on_switch">Aktif</string>
+  <string name="on_switch">Hidup</string>
   <!-- Content description for alarm on/off switch in Off state -->
-  <string name="off_switch">Nonaktif</string>
+  <string name="off_switch">Mati</string>
   <!-- Default label to display for an alarm -->
   <string name="default_label">Alarm</string>
   <!-- Preference category on Alarm Settings screen: Set alarm -->
@@ -77,13 +77,13 @@
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
   <string name="alarm_alert_off_action_text">Mati</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
-  <string name="alarm_alert_dismiss_text">Tutup</string>
+  <string name="alarm_alert_dismiss_text">Abaikan</string>
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
-  <string name="alarm_alert_dismiss_now_text">Tutup Sekarang</string>
+  <string name="alarm_alert_dismiss_now_text">Abaikan Sekarang</string>
   <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
-  <string name="alarm_missed_title">Alarm yang terlewat</string>
+  <string name="alarm_missed_title">Alarm terlewatkan</string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
@@ -100,7 +100,7 @@
   <plurals name="alarm_alert_snooze_duration">
     <!-- Duration for one minute -->
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> mnt</item>
+    <item quantity="other"><xliff:g id="Number">%d</xliff:g> menit</item>
   </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
   <string name="alarm_alert_off_text">Alarm mati</string>
@@ -118,7 +118,7 @@
   <!-- Text to appear in the notification title while an alarm is about to go off. -->
   <string name="alarm_alert_predismiss_title">Alarm mendatang</string>
   <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
-  <string name="missed_alarm_has_been_deleted">Alarm yang terlewat telah dihapus</string>
+  <string name="missed_alarm_has_been_deleted">Alarm yang terlewatkan telah dihapus</string>
   <!-- 0: nothing
          1: days
          2:      hours
@@ -313,7 +313,7 @@
   <string name="menu_stopwatch">Stopwatch</string>
   <!-- Clock view buttons strings-->
   <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
-  <string name="button_alarms">Tambahkan alarm</string>
+  <string name="button_alarms">Tambah alarm</string>
   <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
   <string name="button_cities">Kota</string>
   <!-- Describes the purpose of the button which pops up a menu of setting choices -->
@@ -344,7 +344,7 @@
   <string name="cities_delete_city_msg">Apakah anda ingin menghapus <xliff:g id="city">%s </xliff:g>?    </string>
   <string name="cities_delete_city_title">Hapus kota</string>
   <!-- Label for selected cities in Cities list view -->
-  <string name="selected_cities_label">Kota yang Dipilih</string>
+  <string name="selected_cities_label">Kota yang dipilih</string>
   <!-- Stopwatch and Timer shared strings -->
   <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
   <string name="sw_resume_button">Lanjutkan</string>
@@ -500,7 +500,7 @@
   <string name="city_unchecked"><xliff:g id="CITY_NAME">%s</xliff:g> dihapus centangnya</string>
   <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
   <string-array name="timezone_labels">
-    <item>"Kepulauan Marshall"</item>
+    <item>"Pulau Marshall"</item>
     <item>"Pulau Midway"</item>
     <item>"Hawai"</item>
     <item>"Alaska"</item>
@@ -622,10 +622,10 @@
   <!-- Notification title when at least one timer, of those in use, is counting down. -->
   <string name="timers_in_use"><xliff:g id="NUMBER">%d</xliff:g> timer</string>
   <!-- Notification text when at least one timer, of those in use, is counting down. -->
-  <string name="next_timer_notif">Pewaktu Berikutnya: <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
+  <string name="next_timer_notif">Pewaktu berikutnya: <xliff:g id="Time_REMAINING">%s</xliff:g></string>
   <!-- screensaver settings strings -->
   <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="screensaver_settings">Setelan Mimpi</string>
+  <string name="screensaver_settings">Setelan Screen Saver</string>
   <!-- Title for check box to pick intensity of display diminuation during dream mode -->
   <string name="night_mode_title">Mode malam</string>
   <!-- Describes intensity of display diminuation during dream mode -->
@@ -686,7 +686,7 @@
     If no am/pm is passed in (e.g. the locale uses 24h time) only hour and minute are printed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_time">Waktu tidak valid <xliff:g id="INVALID_HOUR">%d</xliff:g>.<xliff:g id="INVALID_MINUTES">%d</xliff:g> <xliff:g id="INVALID_AMPM">%s</xliff:g></string>
+  <string name="invalid_time">Waktu tidak benar <xliff:g id="INVALID_HOUR">%d</xliff:g>.<xliff:g id="INVALID_MINUTES">%d</xliff:g> <xliff:g id="INVALID_AMPM">%s</xliff:g></string>
   <!-- String that represents that no alarm has been specified for a requested hour:minutes.
     This happens when a user sends a voice command 'dismiss my alarm at 3:00pm' but they have no
     alarms specified for that time. %s represents the time of the alarm.
@@ -703,7 +703,7 @@
     dismiss by specifying a 'label' but they didn't specify any labels.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_label_specified">Tidak ada label yang ditentukan</string>
+  <string name="no_label_specified">Tidak ada label ditentukan</string>
   <!-- String that represents that no alarm has been specified for a requested label.
     This happens when a user sends a voice command 'dismiss my alarm with label pick up kids'
      but they have no alarms with that label.
