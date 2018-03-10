@@ -227,6 +227,16 @@
     <!-- Duration for more than one minute -->
     <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> من الدقائق</item>
   </plurals>
+  <plurals name="snooze_picker_label">
+    <item quantity="zero">دقيقة</item>
+    <!-- Duration for one minute -->
+    <item quantity="one">دقيقة واحدة</item>
+    <item quantity="two">دقيقتان</item>
+    <item quantity="few">دقائق</item>
+    <item quantity="many">دقيقة</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other">من الدقائق</item>
+  </plurals>
   <!-- Setting title for changing the crescendo duration. -->
   <string name="crescendo_duration_title">رفع مستوى الصوت تدريجيًا</string>
   <!-- Summary value for changing the crescendo duration to 0. -->
@@ -250,6 +260,7 @@
   </plurals>
   <!-- Auto silence summary when turned off -->
   <string name="auto_silence_never">أبدًا</string>
+  <string name="default_auto_silence_value">10</string>
   <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
   <string-array name="auto_silence_entries">
@@ -294,6 +305,7 @@
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">أزرار مستوى الصوت</string>
   <!-- Title of the setting default alarm tone  -->
+  <string name="default_alarm_tone_title">نغمة التنبيه الافتراضية</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">تأثير الزر</string>
   <!-- Entries listed in the setting for the side-button action. -->
@@ -358,7 +370,19 @@
   <string name="menu_item_sort_by_gmt_offset">تصنيف بحسب الوقت</string>
   <!-- Menu item on Cities screen to sort by alphabetical order -->
   <string name="menu_item_sort_by_name">تصنيف بحسب الاسم</string>
+  <string name="cities_add_gps_no_results">نظام تحديد المواقع لم يرجع بي أية نتائج موقع</string>
+  <string name="cities_add_gps_not_available">نظام تحديد المواقع غير متوفرة</string>
+  <string name="cities_add_searching">جارٍ البحث</string>
+  <string name="cities_add_city_title">إضافة مدينة</string>
+  <string name="cities_add_city_gps_cd">اضغط لتحدد المدينة الحالية</string>
   <string name="cities_add_loading">تحميل\u2026</string>
+  <string name="cities_add_city_city">المدينة:</string>
+  <string name="cities_add_city_timezone">المنطقة الزمنية:</string>
+  <string name="cities_add_already_exists">المدينة موجودة بالفعل في قاعدة البيانات</string>
+  <string name="cities_add_city_failed">لا يمكن إنشاء المدينة</string>
+  <string name="cities_delete_city_failed">لا يمكن حذف المدينة</string>
+  <string name="cities_delete_city_msg">هل تريد حذف <;xliff:g id=";city";>;%s<;/xliff:g>؟    </string>
+  <string name="cities_delete_city_title">حذف المدينة</string>
   <!-- Label for selected cities in Cities list view -->
   <string name="selected_cities_label">المدن المحددة</string>
   <!-- Stopwatch and Timer shared strings -->
@@ -512,8 +536,11 @@
   <string name="time_picker_cancel">إلغاء</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
   <string name="time_picker_set">موافق</string>
+  <string name="time_picker_time_seperator">:</string>
   <!--  place holder for am/pm label when it is not set -->
+  <string name="time_picker_ampm_label">--</string>
   <!-- add 00 as minutes to the time when pressing this button -->
+  <string name="time_picker_00_label">:00</string>
   <!-- add 30 as minutes to the time when pressing this button -->
   <string name="time_picker_30_label">۳۰:</string>
   <!--
@@ -667,7 +694,9 @@
   <!-- Toast content when an alarm was deleted  -->
   <string name="alarm_deleted">تم حذف المنبه.</string>
   <!-- Select the source of the alarm -->
+  <string name="alarm_select">اختر المنبِّه</string>
   <!-- Select the ringtone as alarm -->
+  <string name="alarm_select_ringtone">نغمة الرنين</string>
   <!-- Select the alarm from external device -->
   <string name="alarm_select_external">موسيقى</string>
   <!-- Ok for selection -->
@@ -684,6 +713,16 @@
   <!-- message used by the talkback accessibility app to say that something was deleted -->
   <string name="deleted_message">تم الحذف</string>
   <!-- Alarm deletion confirmation message-->
+  <plurals name="alarm_delete_confirmation">
+    <item quantity="zero">صفر؟</item>
+    <!-- Confirmation for one alarm -->
+    <item quantity="one">هل تريد حذف التنبيهات المحددة؟</item>
+    <item quantity="two">هل تريد حذف المنبهين المحددين؟</item>
+    <item quantity="few">هل تريد حذف المنبهات المحددة؟</item>
+    <item quantity="many">هل تريد حذف المنبهات المحددة؟</item>
+    <!-- Confirmation more than one alarm  -->
+    <item quantity="other">هل تريد حذف المنبهات المحددة؟</item>
+  </plurals>
   <!-- Timer deletion confirmation -->
   <string name="timer_delete_confirmation">هل تريد حذف هذا المؤقت؟</string>
   <!-- world clock deletion confirmation -->
@@ -866,11 +905,22 @@
     -->
   <string name="alarm_is_snoozed">تم تأجيل المنبه <xliff:g id="ALARM_TIME">%s</xliff:g> لمدة ۱۰ دقائق</string>
   <!-- Setting title for the flip action setting. -->
+  <string name="flip_action_title">الإجراء عند قلب الجهاز</string>
   <!-- Setting summary for the flip action setting. -->
+  <string name="flip_action_summary" product="default">قلب الهاتف للاسفل سوف يقوم بـ <;xliff:g id=";action";>; %s <;/xliff:g>    </string>
   <!-- Setting title for the shake action setting. -->
+  <string name="shake_action_title">الإجراء عند هزّ الجهاز</string>
   <!-- Setting summary for the shake action setting. -->
+  <string name="shake_action_summary" product="default">هز الهاتف سوف  <xliff:g id="action">%s</xliff:g>
+    </string>
   <!-- Summary texts for shake and flip actions -->
+  <string name="action_summary_snooze">تأجيل التنبيه</string>
+  <string name="action_summary_dismiss">إغلاق التنبيه</string>
+  <string name="action_summary_do_nothing">لا تفعل شيئا</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+  <string name="custom_ringtone">نغمة رنين مخصصة</string>
   <!-- Ringtone selection default" -->
+  <string name="ringtone_default">"نغمة الرنين الافتراضية"</string>
   <!--used for prompt to user storage permission status-->
+  <string name="have_denied_storage_permission">لقد قمت برفض إذن الوصول للتخزين، يمكنك إعادة منح الإذن من خلال الإعدادات</string>
 </resources>
