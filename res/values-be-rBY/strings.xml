@@ -97,12 +97,28 @@
              10 min
          [CHAR LIMIT=10]
     -->
+  <plurals name="alarm_alert_snooze_duration">
+    <!-- Duration for one minute -->
+    <item quantity="one">1 хв.</item>
+    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> хв.</item>
+    <item quantity="many"><xliff:g id="number" example="7">%d</xliff:g> хв.</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> хв.</item>
+  </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
   <string name="alarm_alert_off_text">Будзільнік адкл</string>
   <!-- Button labels on the alarm dialog: Snooze -->
   <string name="alarm_alert_snooze_text">Адкласці</string>
   <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
+  <plurals name="alarm_alert_snooze_set">
+    <!-- Duration for one minute -->
+    <item quantity="one">Адкладзена на 1 хвіліну.</item>
+    <item quantity="few">Адкладзена на <xliff:g id="minutes">%d</xliff:g> хвіліны.</item>
+    <item quantity="many">Адкладзена на <xliff:g id="minutes">%d</xliff:g> хвілін.</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other">Адкладзена на <xliff:g id="minutes">%d</xliff:g> хвілін.</item>
+  </plurals>
   <!-- Text to appear inside a notification while an alarm is snoozing. -->
   <string name="alarm_alert_snooze_until">Перанос да <xliff:g id="TIME">%s</xliff:g></string>
   <!-- Text to appear in the notification title while an alarm is about to go off. -->
@@ -145,8 +161,32 @@
     <item>Будзільнік спрацуе праз <xliff:g id="DAYS">%1$s</xliff:g> <xliff:g id="HOURS">%2$s</xliff:g> <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
   </string-array>
   <!-- Alarm confirmation toast: days -->
+  <plurals name="days">
+    <!-- Duration for one day -->
+    <item quantity="one">1 дзень</item>
+    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> дні</item>
+    <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> дзён</item>
+    <!-- Duration for more than one day -->
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> дзён</item>
+  </plurals>
   <!-- Alarm confirmation toast and timer notification: hours -->
+  <plurals name="hours">
+    <!-- Duration for one hour -->
+    <item quantity="one">1 гадзіна</item>
+    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> гадзіны</item>
+    <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> гадзін</item>
+    <!-- Duration for more than one hour -->
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> гадзін</item>
+  </plurals>
   <!-- Alarm confirmation toast and timer notification: minutes -->
+  <plurals name="minutes">
+    <!-- Duration for one minute -->
+    <item quantity="one">1 хвіліна</item>
+    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> хвіліны</item>
+    <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> хвілін</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> хвілін</item>
+  </plurals>
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
@@ -167,6 +207,22 @@
   <string name="settings">Налады</string>
   <!-- Setting title for changing the snooze duration. -->
   <string name="snooze_duration_title">Iнтэрвал паўтору</string>
+  <plurals name="snooze_duration">
+    <!-- Duration for one minute -->
+    <item quantity="one">1 хвіліна</item>
+    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> хвіліны</item>
+    <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> хвілін</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> хвілін</item>
+  </plurals>
+  <plurals name="snooze_picker_label">
+    <!-- Duration for one minute -->
+    <item quantity="one">хвіліна</item>
+    <item quantity="few">хвіліны</item>
+    <item quantity="many">хвілін</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other">хвілін</item>
+  </plurals>
   <!-- Setting title for changing the crescendo duration. -->
   <string name="crescendo_duration_title">Паступова павялічваць гучнасць</string>
   <!-- Summary value for changing the crescendo duration to 0. -->
@@ -178,6 +234,14 @@
   <!-- Auto silence preference title -->
   <string name="auto_silence_title">Адключаць гук праз</string>
   <!-- Auto silence summary string set based on the preference value. -->
+  <plurals name="auto_silence_summary">
+    <!-- Duration for one minute -->
+    <item quantity="one">1 хвіліна</item>
+    <item quantity="few"><xliff:g id="formatted_number" example="7">%s</xliff:g> хвіліны</item>
+    <item quantity="many"><xliff:g id="formatted_number" example="7">%s</xliff:g> хвілін</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other"><xliff:g id="formatted_number" example="7">%s</xliff:g> хвілін</item>
+  </plurals>
   <!-- Auto silence summary when turned off -->
   <string name="auto_silence_never">Ніколі</string>
   <string name="default_auto_silence_value">10</string>
@@ -346,6 +410,30 @@
   <!-- Label to enumerate the number of laps in the notification the user has counted -->
   <string name="sw_notification_lap_number">Круг <xliff:g id="NUMBER">%d</xliff:g></string>
   <!-- Stopwatch accessibility strings -->
+  <plurals name="Nhours_description">
+    <!-- 1 hour -->
+    <item quantity="one">1 гадзіна</item>
+    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> гадзіны</item>
+    <item quantity="many"><xliff:g id="number" example="7">%d</xliff:g> гадзін</item>
+    <!-- more -->
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> гадзін</item>
+  </plurals>
+  <plurals name="Nminutes_description">
+    <!-- 1 minute -->
+    <item quantity="one">1 хвіліна</item>
+    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> хвіліны</item>
+    <item quantity="many"><xliff:g id="number" example="7">%d</xliff:g> хвілін</item>
+    <!-- more -->
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> хвілін</item>
+  </plurals>
+  <plurals name="Nseconds_description">
+    <!-- 1 second -->
+    <item quantity="one">1 секунда</item>
+    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> секунды</item>
+    <item quantity="many"><xliff:g id="number" example="7">%d</xliff:g> секунд</item>
+    <!-- more -->
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> секунд</item>
+  </plurals>
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
   <string name="timer_add_timer">Дадаць таймер</string>
@@ -605,6 +693,14 @@
   <!-- message used by the talkback accessibility app to say that something was deleted -->
   <string name="deleted_message">Выдалена</string>
   <!-- Alarm deletion confirmation message-->
+  <plurals name="alarm_delete_confirmation">
+    <!-- Confirmation for one alarm -->
+    <item quantity="one">Выдаліць выбраны будзільнік?</item>
+    <item quantity="few">Выдаліць выбраныя будзільнікі?</item>
+    <item quantity="many">Выдаліць выбраныя будзільнікі?</item>
+    <!-- Confirmation more than one alarm  -->
+    <item quantity="other">Выдаліць выбраныя будзільнікі?</item>
+  </plurals>
   <!-- Timer deletion confirmation -->
   <string name="timer_delete_confirmation">Выдаліць гэты таймер?</string>
   <!-- world clock deletion confirmation -->

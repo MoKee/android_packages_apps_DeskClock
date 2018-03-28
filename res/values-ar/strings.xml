@@ -905,7 +905,6 @@
   <string name="alarm_is_snoozed">تم تأجيل المنبه <xliff:g id="ALARM_TIME">%s</xliff:g> لمدة ۱۰ دقائق</string>
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">الإجراء عند قلب الجهاز</string>
-  <!-- Setting summary for the flip action setting. -->
   <!-- Setting title for the shake action setting. -->
   <string name="shake_action_title">الإجراء عند هزّ الجهاز</string>
   <!-- Setting summary for the shake action setting. -->
