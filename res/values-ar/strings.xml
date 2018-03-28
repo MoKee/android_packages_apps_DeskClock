@@ -381,6 +381,7 @@
   <string name="cities_add_already_exists">المدينة موجودة بالفعل في قاعدة البيانات</string>
   <string name="cities_add_city_failed">لا يمكن إنشاء المدينة</string>
   <string name="cities_delete_city_failed">لا يمكن حذف المدينة</string>
+  <string name="cities_delete_city_msg">هل تريد حذف <;xliff:g id=";city";>;%s<;/xliff:g>؟    </string>
   <string name="cities_delete_city_title">حذف المدينة</string>
   <!-- Label for selected cities in Cities list view -->
   <string name="selected_cities_label">المدن المحددة</string>
@@ -906,6 +907,7 @@
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">الإجراء عند قلب الجهاز</string>
   <!-- Setting summary for the flip action setting. -->
+  <string name="flip_action_summary" product="default">قلب الهاتف للاسفل سوف يقوم بـ <;xliff:g id=";action";>; %s <;/xliff:g>    </string>
   <!-- Setting title for the shake action setting. -->
   <string name="shake_action_title">الإجراء عند هزّ الجهاز</string>
   <!-- Setting summary for the shake action setting. -->
