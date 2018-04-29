@@ -272,8 +272,6 @@
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Botones de volumen</string>
-  <!-- Title of the setting default alarm tone  -->
-  <string name="default_alarm_tone_title">Tono predeterminado de la alarma</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">Efecto de botón</string>
   <!-- Entries listed in the setting for the side-button action. -->
@@ -858,22 +856,6 @@
     [CHAR LIMIT=NONE]
     -->
   <string name="alarm_is_snoozed"><xliff:g id="alarm_time" example="14:20">%s</xliff:g> alarma apagada por 10 minutos</string>
-  <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Acción al voltear</string>
-  <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary" product="default">Al voltear el teléfono
-        <xliff:g id="action">%s</xliff:g>
-    </string>
-  <!-- Setting title for the shake action setting. -->
-  <string name="shake_action_title">Acción al agitar</string>
-  <!-- Setting summary for the shake action setting. -->
-  <string name="shake_action_summary" product="default">Al agitar el teléfono
-        <xliff:g id="action">%s</xliff:g>
-    </string>
-  <!-- Summary texts for shake and flip actions -->
-  <string name="action_summary_snooze">posponer la alarma</string>
-  <string name="action_summary_dismiss">descartar la alarma</string>
-  <string name="action_summary_do_nothing">no hacer nada</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
   <string name="custom_ringtone">Tono personalizado</string>
   <!-- Ringtone selection default" -->

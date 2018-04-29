@@ -288,8 +288,6 @@
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Tlačidlá hlasitosti</string>
-  <!-- Title of the setting default alarm tone  -->
-  <string name="default_alarm_tone_title">Predvolený tón budíka</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">Efekt tlačidla</string>
   <!-- Entries listed in the setting for the side-button action. -->
@@ -880,18 +878,6 @@
     [CHAR LIMIT=NONE]
     -->
   <string name="alarm_is_snoozed">Budík v čase <xliff:g id="alarm_time">%s</xliff:g> bol odložený o 10 minút</string>
-  <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Akcia po otočení</string>
-  <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary" product="default">Otočením telefónu dôjde k <xliff:g id="action">%s</xliff:g></string>
-  <!-- Setting title for the shake action setting. -->
-  <string name="shake_action_title">Akcia po zatrasení</string>
-  <!-- Setting summary for the shake action setting. -->
-  <string name="shake_action_summary" product="default">Zatrasením telefónu dôjde k <xliff:g id="action">%s</xliff:g></string>
-  <!-- Summary texts for shake and flip actions -->
-  <string name="action_summary_snooze">odložiť budík</string>
-  <string name="action_summary_dismiss">zrušiť budík</string>
-  <string name="action_summary_do_nothing">neurobiť nič</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
   <string name="custom_ringtone">Vlastný vyzváňací tón</string>
   <!-- Ringtone selection default" -->

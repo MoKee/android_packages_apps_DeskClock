@@ -288,8 +288,6 @@
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Кнопкі гучнасці</string>
-  <!-- Title of the setting default alarm tone  -->
-  <string name="default_alarm_tone_title">Сігнал будзільніка па змаўчанні</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">Дзеянне кнопкi</string>
   <!-- Entries listed in the setting for the side-button action. -->
@@ -882,22 +880,6 @@
     [CHAR LIMIT=NONE]
     -->
   <string name="alarm_is_snoozed">Будзільнік на <xliff:g id="ALARM_TIME">%s</xliff:g> адкладзены на 10 хвілін</string>
-  <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Дзеянне пры павароце</string>
-  <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary" product="default">Пры перавароце прылады ўніз
-        <xliff:g id="action">%s</xliff:g>
-    </string>
-  <!-- Setting title for the shake action setting. -->
-  <string name="shake_action_title">Дзеянне пры ўстрэсванні</string>
-  <!-- Setting summary for the shake action setting. -->
-  <string name="shake_action_summary" product="default">Пры ўстрэсванні тэлефон будзе
-        <xliff:g id="action">%s</xliff:g>
-    </string>
-  <!-- Summary texts for shake and flip actions -->
-  <string name="action_summary_snooze">адкласці будзільнік</string>
-  <string name="action_summary_dismiss">выключыць будзільнік</string>
-  <string name="action_summary_do_nothing">нічога не рабіць</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
   <string name="custom_ringtone">Карыстацкі сігнал выкліку</string>
   <!-- Ringtone selection default" -->

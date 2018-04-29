@@ -280,8 +280,6 @@
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Butoane de volum</string>
-  <!-- Title of the setting default alarm tone  -->
-  <string name="default_alarm_tone_title">Sunet de alarmă prestabilit</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">Funcţii buton</string>
   <!-- Entries listed in the setting for the side-button action. -->
@@ -868,22 +866,6 @@
     [CHAR LIMIT=NONE]
     -->
   <string name="alarm_is_snoozed">Alarma de la <xliff:g id="Alarm_TIME">%s</xliff:g> a fost amânată cu 10 minute</string>
-  <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Acțiune la rotire</string>
-  <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary" product="default">Rotirea telefonului cu ecranul în jos va
-        <xliff:g id="action">%s</xliff:g>
-    </string>
-  <!-- Setting title for the shake action setting. -->
-  <string name="shake_action_title">Acțiune la agitare</string>
-  <!-- Setting summary for the shake action setting. -->
-  <string name="shake_action_summary" product="default">Agitarea telefonului va
-        <xliff:g id="action">%s</xliff:g>
-    </string>
-  <!-- Summary texts for shake and flip actions -->
-  <string name="action_summary_snooze">amână alarma</string>
-  <string name="action_summary_dismiss">anulează alarma</string>
-  <string name="action_summary_do_nothing">nicio acţiune</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
   <string name="custom_ringtone">Ton de apel personalizat</string>
   <!-- Ringtone selection default" -->

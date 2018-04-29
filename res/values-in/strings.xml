@@ -28,7 +28,7 @@
   <!-- Menu item on Alarm Clock screen: Add alarm -->
   <string name="add_alarm">Tambah alarm</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
-  <string name="menu_desk_clock">Jam meja</string>
+  <string name="menu_desk_clock">Jam</string>
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
   <string name="menu_edit_alarm">Atur Alarm</string>
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
@@ -205,7 +205,7 @@
   <!-- Setting title for changing the crescendo duration. -->
   <string name="crescendo_duration_title">Keraskan volume secara bertahap</string>
   <!-- Summary value for changing the crescendo duration to 0. -->
-  <string name="no_crescendo_duration">Nonaktif</string>
+  <string name="no_crescendo_duration">Mati</string>
   <!-- Summary value for changing the crescendo duration. -->
   <string name="crescendo_duration"><xliff:g id="NUMBER">%s</xliff:g> detik</string>
   <!-- Setting label when changing the crescendo duration. -->
@@ -264,8 +264,6 @@
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Tombol volume</string>
-  <!-- Title of the setting default alarm tone  -->
-  <string name="default_alarm_tone_title">Suara alarm bawaan</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">Efek tombol</string>
   <!-- Entries listed in the setting for the side-button action. -->
@@ -276,7 +274,7 @@
   </string-array>
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
-  <string name="default_ringtone_setting_title">Setel nada dering default</string>
+  <string name="default_ringtone_setting_title">Setel nada dering bawaan</string>
   <!-- Accessibility labels for Clock activity buttons -->
   <string name="alarm_button_description">Alarm</string>
   <string name="gallery_button_description">Galeri</string>
@@ -401,7 +399,7 @@
   </plurals>
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
-  <string name="timer_add_timer">Tambahkan Pewaktu</string>
+  <string name="timer_add_timer">Tambah timer</string>
   <!-- Describes the purpose of the button to begin or continue running a timer -->
   <string name="timer_start">Mulai</string>
   <!-- Describes the purpose of the button to delete a timer. -->
@@ -411,11 +409,11 @@
   <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
   <string name="timer_plus_one">Tambah 1 menit</string>
   <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
-  <string name="timer_plus_1_min">Tambahkan 1 mnt</string>
+  <string name="timer_plus_1_min">Tambah 1 menit</string>
   <!-- Describes the purpose of the button to stop the timer. -->
   <string name="timer_stop">Hentikan</string>
   <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
-  <string name="timer_stop_all">Menghentikan semua pewaktu</string>
+  <string name="timer_stop_all">Hentikan semua pewaktu</string>
   <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
   <string name="timer_reset">Setel ulang</string>
   <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
@@ -492,7 +490,7 @@
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
     -->
-  <string name="city_checked"><xliff:g id="CITY_NAME">%s</xliff:g> dicentang</string>
+  <string name="city_checked"><xliff:g id="City_NAME">%s</xliff:g> terpilih</string>
   <!--
         Accessibility string read when a city checkbox is unchecked.
         Ex. "Ann Arbor unchecked"
@@ -844,22 +842,6 @@
     [CHAR LIMIT=NONE]
     -->
   <string name="alarm_is_snoozed">Alarm pukul <xliff:g id="ALARM_TIME">%s</xliff:g> ditunda selama 10 menit</string>
-  <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Tindakan membalik</string>
-  <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary" product="default">Membalikkan telepon ke bawah akan
-<xliff:g id="action">%s</xliff:g>
-    </string>
-  <!-- Setting title for the shake action setting. -->
-  <string name="shake_action_title">Tindakan goyang</string>
-  <!-- Setting summary for the shake action setting. -->
-  <string name="shake_action_summary" product="default">Menggoyangkan telepon akan
-        <xliff:g id="action">%s</xliff:g>
-    </string>
-  <!-- Summary texts for shake and flip actions -->
-  <string name="action_summary_snooze">menunda alarm</string>
-  <string name="action_summary_dismiss">mengabaikan alarm</string>
-  <string name="action_summary_do_nothing">tidak melakukan apa-apa</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
   <string name="custom_ringtone">Nada dering khusus</string>
   <!-- Ringtone selection default" -->

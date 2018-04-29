@@ -272,8 +272,6 @@
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Mga Volume na button</string>
-  <!-- Title of the setting default alarm tone  -->
-  <string name="default_alarm_tone_title">Default na tono ng alarma</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">Epekto ng button</string>
   <!-- Entries listed in the setting for the side-button action. -->
@@ -858,22 +856,6 @@
     [CHAR LIMIT=NONE]
     -->
   <string name="alarm_is_snoozed"><xliff:g id="alarm_time" example="14:20">%s</xliff:g> alarma naka-snooze ng 10 minuto</string>
-  <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Pagbaliktad ng aksyon</string>
-  <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary" product="default">Pagbabaliktad ng iyong telepono pababa ay
-        <xliff:g id="action">%s</xliff:g>
-    </string>
-  <!-- Setting title for the shake action setting. -->
-  <string name="shake_action_title">I-alog ang aksyon</string>
-  <!-- Setting summary for the shake action setting. -->
-  <string name="shake_action_summary" product="default">Ang pag-alog ng iyong telephono ay nagdudulot ng 
-        <xliff:g id="action">%s</xliff:g>
-    </string>
-  <!-- Summary texts for shake and flip actions -->
-  <string name="action_summary_snooze">i-snooze ang alarma</string>
-  <string name="action_summary_dismiss">itigil ang alarma</string>
-  <string name="action_summary_do_nothing">walang gawin</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
   <string name="custom_ringtone">Custom na Ringtone</string>
   <!-- Ringtone selection default" -->

@@ -272,8 +272,6 @@
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Бутони за силата на звука</string>
-  <!-- Title of the setting default alarm tone  -->
-  <string name="default_alarm_tone_title">Стандартен тон на аларма</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">Ефект на бутона</string>
   <!-- Entries listed in the setting for the side-button action. -->
@@ -856,20 +854,6 @@
     [CHAR LIMIT=NONE]
     -->
   <string name="alarm_is_snoozed">Будилникът за <xliff:g id="ALARM_TIME">%s</xliff:g> е отложен с 10 минути</string>
-  <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Действие при обръщане</string>
-  <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary" product="default">Обръщайки телефона ще  <xliff:g id="action">%s</xliff:g>    </string>
-  <!-- Setting title for the shake action setting. -->
-  <string name="shake_action_title">Действие при разклащане</string>
-  <!-- Setting summary for the shake action setting. -->
-  <string name="shake_action_summary" product="default">Разклащайки телефона ще
-        <xliff:g id="action">%s</xliff:g>
-    </string>
-  <!-- Summary texts for shake and flip actions -->
-  <string name="action_summary_snooze">отложи алармата</string>
-  <string name="action_summary_dismiss">отхвърли алармата</string>
-  <string name="action_summary_do_nothing">не прави нищо</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
   <string name="custom_ringtone">Потребителска мелодия</string>
   <!-- Ringtone selection default" -->

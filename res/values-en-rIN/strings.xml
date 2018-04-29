@@ -164,7 +164,6 @@
   <string name="alarm_notify_snooze_text">Alarm set for <xliff:g id="TIME">%s</xliff:g>. Touch to cancel.</string>
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
-  <!-- Title of the setting default alarm tone  -->
   <!-- Dialog title of the volume and power setting. -->
   <!-- Entries listed in the setting for the side-button action. -->
   <!-- Values for the side-button setting. -->
@@ -506,11 +505,6 @@
     [CHAR LIMIT=NONE]
     -->
   <string name="alarm_is_snoozed"><xliff:g id="ALARM_TIME">%s</xliff:g> alarm snoozed for 10 minutes</string>
-  <!-- Setting title for the flip action setting. -->
-  <!-- Setting summary for the flip action setting. -->
-  <!-- Setting title for the shake action setting. -->
-  <!-- Setting summary for the shake action setting. -->
-  <!-- Summary texts for shake and flip actions -->
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
   <!-- Ringtone selection default" -->
   <!--used for prompt to user storage permission status-->

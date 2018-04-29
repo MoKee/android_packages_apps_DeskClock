@@ -232,8 +232,6 @@
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Botones del Volumen</string>
-  <!-- Title of the setting default alarm tone  -->
-  <string name="default_alarm_tone_title">Tono de alarme predeterminado</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">Efecto de los botones</string>
   <!-- Entries listed in the setting for the side-button action. -->
@@ -344,10 +342,30 @@
   <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
+  <string name="sw_share_main">Mi tiempo es <xliff:g id="time">%s</xliff:g></string>
   <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
   <string name="sw_share_laps">Tiempo de vueltas:</string>
   <!-- Label to enumerate the number of laps in the notification the user has counted -->
+  <string name="sw_notification_lap_number">Vuelta <xliff:g id="number">%d</xliff:g></string>
   <!-- Stopwatch accessibility strings -->
+  <plurals name="Nhours_description">
+    <!-- 1 hour -->
+    <item quantity="one">1 hora</item>
+    <!-- more -->
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g>horas</item>
+  </plurals>
+  <plurals name="Nminutes_description">
+    <!-- 1 minute -->
+    <item quantity="one">1 minuto</item>
+    <!-- more -->
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g>minutos</item>
+  </plurals>
+  <plurals name="Nseconds_description">
+    <!-- 1 second -->
+    <item quantity="one">1 segundo</item>
+    <!-- more -->
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g>segundos</item>
+  </plurals>
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
   <string name="timer_add_timer">Añadir temporizador</string>
@@ -777,18 +795,6 @@
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Acción de voltear</string>
-  <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary" product="default">Voltear el teléfono hacia abajo<xliff:g id="action">%s</xliff:g>    </string>
-  <!-- Setting title for the shake action setting. -->
-  <string name="shake_action_title">Acción de agitar</string>
-  <!-- Setting summary for the shake action setting. -->
-  <string name="shake_action_summary" product="default">Al agitar el teléfono         <xliff:g id="action">%s</xliff:g>    </string>
-  <!-- Summary texts for shake and flip actions -->
-  <string name="action_summary_snooze">suspender la alarma</string>
-  <string name="action_summary_dismiss">ignorar la alarma</string>
-  <string name="action_summary_do_nothing">no hacer nada</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
   <string name="custom_ringtone">Tono personalizado</string>
   <!-- Ringtone selection default" -->

@@ -264,8 +264,6 @@
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">音量按钮</string>
-  <!-- Title of the setting default alarm tone  -->
-  <string name="default_alarm_tone_title">默认闹钟铃声</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">按钮的作用</string>
   <!-- Entries listed in the setting for the side-button action. -->
@@ -844,18 +842,6 @@
     [CHAR LIMIT=NONE]
     -->
   <string name="alarm_is_snoozed"><xliff:g id="ALARM_TIME">%s</xliff:g> 的闹钟已延后 10 分钟</string>
-  <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">翻转行为</string>
-  <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary" product="default">翻转设备将<xliff:g id="action">%s</xliff:g></string>
-  <!-- Setting title for the shake action setting. -->
-  <string name="shake_action_title">摇动行为</string>
-  <!-- Setting summary for the shake action setting. -->
-  <string name="shake_action_summary" product="default">摇动设备将<xliff:g id="action">%s</xliff:g></string>
-  <!-- Summary texts for shake and flip actions -->
-  <string name="action_summary_snooze">暂停闹铃</string>
-  <string name="action_summary_dismiss">停止闹铃</string>
-  <string name="action_summary_do_nothing">不产生任何作用</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
   <string name="custom_ringtone">自定义铃声</string>
   <!-- Ringtone selection default" -->

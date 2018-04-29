@@ -272,8 +272,6 @@
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Volumeknoppen</string>
-  <!-- Title of the setting default alarm tone  -->
-  <string name="default_alarm_tone_title">Standaard geluid voor wekker</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">Knopeffect</string>
   <!-- Entries listed in the setting for the side-button action. -->
@@ -856,18 +854,6 @@
     [CHAR LIMIT=NONE]
     -->
   <string name="alarm_is_snoozed"><xliff:g id="ALARM_TIME">%s</xliff:g> alarm tien minuten gesnoozed</string>
-  <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Toestel omdraaien</string>
-  <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary" product="default">De telefoon omdraaien zal        <xliff:g id="action">%s</xliff:g>    </string>
-  <!-- Setting title for the shake action setting. -->
-  <string name="shake_action_title">Toestel schudden</string>
-  <!-- Setting summary for the shake action setting. -->
-  <string name="shake_action_summary" product="default">De telefoon schudden zal        <xliff:g id="action">%s</xliff:g>    </string>
-  <!-- Summary texts for shake and flip actions -->
-  <string name="action_summary_snooze">het alarm sluimeren</string>
-  <string name="action_summary_dismiss">het alarm uitschakelen</string>
-  <string name="action_summary_do_nothing">niets doen</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
   <string name="custom_ringtone">Aangepaste beltoon</string>
   <!-- Ringtone selection default" -->

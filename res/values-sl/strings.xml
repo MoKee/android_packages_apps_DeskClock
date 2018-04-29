@@ -284,8 +284,6 @@
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Gumba za glasnost</string>
-  <!-- Title of the setting default alarm tone  -->
-  <string name="default_alarm_tone_title">Privzeti ton alarma</string>
   <!-- Dialog title of the volume and power setting. -->
   <string name="volume_button_dialog_title">Obnašanje gumbov</string>
   <!-- Entries listed in the setting for the side-button action. -->
@@ -874,22 +872,6 @@
     [CHAR LIMIT=NONE]
     -->
   <string name="alarm_is_snoozed"><xliff:g id="alarm_time" example="14:20">%s</xliff:g> alarm prestavljen za 10 minut</string>
-  <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Obnašanje pri zasuku</string>
-  <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary" product="default">Pri zasuko telefona navzdol
-        <xliff:g id="action">%s</xliff:g>
-    </string>
-  <!-- Setting title for the shake action setting. -->
-  <string name="shake_action_title">Obnašanje pri tresenju</string>
-  <!-- Setting summary for the shake action setting. -->
-  <string name="shake_action_summary" product="default">Potresite telefon in
-        <xliff:g id="action">%s</xliff:g>
-    </string>
-  <!-- Summary texts for shake and flip actions -->
-  <string name="action_summary_snooze">nastavi dremež</string>
-  <string name="action_summary_dismiss">prekliči alarm</string>
-  <string name="action_summary_do_nothing">ne naredi ničesar</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
   <string name="custom_ringtone">Melodija zvonjenja po meri</string>
   <!-- Ringtone selection default" -->
