@@ -133,8 +133,6 @@
   <!-- Timer notification: how long from now until timer goes off. -->
   <string name="timer_notifications_less_min">Menos de un minuto restante</string>
   <string name="timer_notifications_hours">horas_notificaciones_horas</string>
-  <string name="timer_notifications_minutes"><xliff:g id="MINUTOS" ejemplo="2 minutos">%2$s</xliff:g><xliff:g id="RECORDAR"ejemplo="recordar"> %3$s</xliff:g>
-</string>
   <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
@@ -158,12 +156,6 @@
   </string-array>
   <!-- Alarm confirmation toast: days -->
   <!-- Alarm confirmation toast and timer notification: hours -->
-  <plurals name="hours">
-    <!-- Duration for one hour -->
-    <item quantity="one">1 hora</item>
-    <!-- Duration for more than one hour -->
-    <item quantity="other"><xliff:g id="número"ejemplo="7">%s</xliff:g> horas</item>
-  </plurals>
   <!-- Alarm confirmation toast and timer notification: minutes -->
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
@@ -196,7 +188,6 @@
   <!-- Summary value for changing the crescendo duration to 0. -->
   <string name="no_crescendo_duration">Desactivado</string>
   <!-- Summary value for changing the crescendo duration. -->
-  <string name="crescendo_duration"><xliff:g id="número"ejemplo="7">%s</xliff:g> segundos</string>
   <!-- Setting label when changing the crescendo duration. -->
   <string name="crescendo_picker_label">segundos</string>
   <!-- Auto silence preference title -->
