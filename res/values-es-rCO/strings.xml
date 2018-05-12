@@ -133,14 +133,18 @@
   <!-- Timer notification: how long from now until timer goes off. -->
   <string name="timer_notifications_less_min">Menos de un minuto restante</string>
   <string name="timer_notifications_hours">horas_notificaciones_horas</string>
+  <string name="timer_notifications_minutes"><xliff:g id="MINUTOS" ejemplo="2 minutos">%2$s</xliff:g><xliff:g id="RECORDAR"ejemplo="recordar"> %3$s</xliff:g>
+</string>
   <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
     -->
+  <string name="timer_remaining_single">recordar</string>
   <!--
         Verb inflection to use for multiple time units remaining
         Ex. "2 minutes remaining"
     -->
+  <string name="timer_remaining_multiple">recordar</string>
   <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
   <!-- Alarm confirmation toast: days -->
   <!-- Alarm confirmation toast and timer notification: hours -->
@@ -148,24 +152,33 @@
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
+  <string name="every_day">Todos los días</string>
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
+  <string name="day_concat">", "</string>
   <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
+  <string name="clock_instructions">Elija un reloj</string>
   <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
+  <string name="analog_gadget">Reloj análogo</string>
   <!-- Help activity name -->
+  <string name="help">ayuda</string>
   <!-- Settings activity name -->
   <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
   <string name="settings">Ajustes</string>
   <!-- Setting title for changing the snooze duration. -->
+  <string name="snooze_duration_title">Longitud de repetición</string>
   <!-- Setting title for changing the crescendo duration. -->
+  <string name="crescendo_duration_title">Gradualmente sube el volumen</string>
   <!-- Summary value for changing the crescendo duration to 0. -->
   <string name="no_crescendo_duration">Desactivado</string>
   <!-- Summary value for changing the crescendo duration. -->
+  <string name="crescendo_duration"><xliff:g id="número"ejemplo="7">%s</xliff:g> segundos</string>
   <!-- Setting label when changing the crescendo duration. -->
   <string name="crescendo_picker_label">segundos</string>
   <!-- Auto silence preference title -->
+  <string name="auto_silence_title">Silencio después</string>
   <!-- Auto silence summary string set based on the preference value. -->
   <!-- Auto silence summary when turned off -->
   <string name="auto_silence_never">Nunca</string>
@@ -177,18 +190,25 @@
     <item>5 minutos</item>
     <item>10 minutos</item>
     <item>15 minutos</item>
-    <item>20 minutes</item>
-    <item>25 minutes</item>
+    <item>20 minutos</item>
+    <item>25 minutos</item>
     <item>Nunca</item>
   </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
   <!-- Week start day preference title. -->
+  <string name="week_start_title">Comenzar semana en</string>
   <!-- Entries listed in ListPreference for start day. -->
+  <string-array name="week_start_entries">
+    <item>Sábado</item>
+    <item>Domingo</item>
+    <item>Lunes</item>
+  </string-array>
   <!-- Values for ListPreference for start day of week. -->
   <!-- Done button when editing an alarm. -->
   <string name="done">Completado</string>
   <!-- Revert button when editing an alarm. -->
+  <string name="revert">Revertir</string>
   <!-- Delete button when editing an alarm. -->
   <string name="delete">Borrar</string>
   <!-- Setting title for changing the alarm volume. -->
@@ -198,12 +218,14 @@
   <!-- Title for ringtones that cannot be located by uri. -->
   <string name="unknown_ringtone_title">Desconocido</string>
   <!-- Text to display in the small text of the notification -->
+  <string name="alarm_notify_text">Posponer o descartar alarma.</string>
   <!-- Text to display in the notification ticker and label -->
   <!-- Text to display in the notification when the alarm has been snoozed -->
   <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
   <string name="volume_button_setting_title">Botones del Volumen</string>
   <!-- Dialog title of the volume and power setting. -->
+  <string name="volume_button_dialog_title">Efecto de botón</string>
   <!-- Entries listed in the setting for the side-button action. -->
   <string-array name="volume_button_setting_entries">
     <item>Silenciar</item>
@@ -212,15 +234,19 @@
   </string-array>
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
+  <string name="default_ringtone_setting_title">Establecer sonido predeterminado</string>
   <!-- Accessibility labels for Clock activity buttons -->
   <string name="alarm_button_description">Alarmas</string>
   <string name="gallery_button_description">Galeria</string>
+  <string name="music_button_description">Música</string>
+  <string name="desk_clock_button_description">Visor de reloj</string>
   <!-- Accessibility labels for alarm buttons -->
   <string name="label_description">Etiqueta</string>
   <string name="ringtone_description">Tono</string>
   <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
          present on the device, we show nothing at all. -->
+  <string name="weather_fetch_failure">Información del clima no está disponible ahora.</string>
   <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
   <!-- String displayed as the alert summary while loading the alert name from
@@ -242,6 +268,7 @@
   <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
   <string name="button_cities">Ciudades</string>
   <!-- Describes the purpose of the button which pops up a menu of setting choices -->
+  <string name="button_menu">Más opciones</string>
   <!-- Menu item on most screens to get to more settings -->
   <string name="menu_item_settings">Ajustes</string>
   <!-- Menu item on most screens to get to the help information -->
@@ -249,6 +276,7 @@
   <!-- Menu item on clock screen to add world city. -->
   <string name="menu_item_add">Añadir</string>
   <!-- Menu item on clock screen to enter night mode. -->
+  <string name="menu_item_night_mode">Modo nocturno</string>
   <!-- Menu item on Cities screen to sort by GMT offset -->
   <!-- Menu item on Cities screen to sort by alphabetical order -->
   <string name="cities_add_loading">Cargando\u2026</string>
@@ -381,6 +409,7 @@
   <!-- screensaver settings strings -->
   <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
   <!-- Title for check box to pick intensity of display diminuation during dream mode -->
+  <string name="night_mode_title">Modo nocturno</string>
   <!-- Describes intensity of display diminuation during dream mode -->
   <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
   <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
@@ -390,6 +419,7 @@
   <!-- Select the ringtone as alarm -->
   <string name="alarm_select_ringtone">Tono</string>
   <!-- Select the alarm from external device -->
+  <string name="alarm_select_external">Música</string>
   <!-- Ok for selection -->
   <string name="alarm_select_ok">Aceptar</string>
   <!-- Cancel for selection -->
