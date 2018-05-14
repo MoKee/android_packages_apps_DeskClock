@@ -160,7 +160,7 @@
     <!-- Duration for one hour -->
     <item quantity="one">1 hora</item>
     <!-- Duration for more than one hour -->
-    <item quantity="other"><xliff:g id="número"ejemplo="7">%s</xliff:g> horas</item>
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> horas</item>
   </plurals>
   <!-- Alarm confirmation toast and timer notification: minutes -->
   <!-- Repeat options that appear under an alarm on main Alarm Clock
