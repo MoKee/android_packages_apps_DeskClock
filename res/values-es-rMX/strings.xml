@@ -156,6 +156,12 @@
   </string-array>
   <!-- Alarm confirmation toast: days -->
   <!-- Alarm confirmation toast and timer notification: hours -->
+  <plurals name="hours">
+    <!-- Duration for one hour -->
+    <item quantity="one">1 hora</item>
+    <!-- Duration for more than one hour -->
+    <item quantity="other"><xliff:g id="número"ejemplo="7">%s</xliff:g> horas</item>
+  </plurals>
   <!-- Alarm confirmation toast and timer notification: minutes -->
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
