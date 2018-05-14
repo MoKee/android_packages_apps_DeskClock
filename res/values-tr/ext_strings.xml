@@ -19,9 +19,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Çevirme işlevi</string>
+  <string name="flip_action_title">Cihaz çevirme eylemi</string>
   <!-- Setting title for the shake action setting. -->
-  <string name="shake_action_title">Sallama eylemi</string>
+  <string name="shake_action_title">Cihaz sallama eylemi</string>
   <!-- Entries listed in the setting flip and shake. -->
   <string-array name="action_setting_entries">
     <item>Ertele</item>
