@@ -370,7 +370,7 @@
     <!-- 1 hour -->
     <item quantity="one">1 hora</item>
     <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g>horas</item>
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> horas</item>
   </plurals>
   <plurals name="Nminutes_description">
     <!-- 1 minute -->

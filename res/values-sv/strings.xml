@@ -23,16 +23,22 @@
   <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
   <!-- Title for AlarmClock activity -->
   <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="alarm_list_title">Alarm</string>
   <!-- Menu item on Alarm Clock screen: Add alarm -->
+  <string name="add_alarm">Lägg till alarm</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
   <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+  <string name="enable_alarm">Sätt på alarm</string>
   <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+  <string name="disable_alarm">Stäng av alarm</string>
   <!-- Delete alarm confirmation dialog message. -->
   <!-- Menu item on Alarm Clock screen: Show clock -->
+  <string name="show_clock">Visa klocka</string>
   <!-- Menu item on Alarm Clock screen: Hide clock -->
   <!-- Setting label on Set alarm screen: Label -->
+  <string name="label">Etikett</string>
   <!-- Content description for alarm on/off switch in On state -->
   <string name="on_switch">Aktiverad</string>
   <!-- Content description for alarm on/off switch in Off state -->
@@ -44,6 +50,7 @@
   <!-- Setting labels on Set alarm screen: Vibration on or off -->
   <string name="alarm_vibrate">Vibrera</string>
   <!-- Setting labels on Set alarm screen: Repeat -->
+  <string name="alarm_repeat">Repetera</string>
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
   <!-- Title of default ringtone played when a timer expires. -->
   <!-- Title of silent ringtone played when a timer expires. -->
@@ -53,6 +60,7 @@
   <!-- Setting labels on Set alarm screen: Set time  -->
   <string name="time">Tid</string>
   <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
+  <string name="alarm_tomorrow">Imorgon</string>
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
   <string name="alarm_today">Idag</string>
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
@@ -76,12 +84,19 @@
              10 min
          [CHAR LIMIT=10]
     -->
+  <plurals name="alarm_alert_snooze_duration">
+    <!-- Duration for one minute -->
+    <item quantity="one">1 min</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> min</item>
+  </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
   <!-- Button labels on the alarm dialog: Snooze -->
   <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
   <!-- Text to appear inside a notification while an alarm is snoozing. -->
   <!-- Text to appear in the notification title while an alarm is about to go off. -->
+  <string name="alarm_alert_predismiss_title">Kommande alarm</string>
   <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
   <!-- 0: nothing
          1: days
@@ -97,28 +112,56 @@
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
     -->
+  <string name="timer_remaining_single">återstående</string>
   <!--
         Verb inflection to use for multiple time units remaining
         Ex. "2 minutes remaining"
     -->
+  <string name="timer_remaining_multiple">återstående</string>
   <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
   <!-- Alarm confirmation toast: days -->
+  <plurals name="days">
+    <!-- Duration for one day -->
+    <item quantity="one">1 dag</item>
+    <!-- Duration for more than one day -->
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> dagar</item>
+  </plurals>
   <!-- Alarm confirmation toast and timer notification: hours -->
+  <plurals name="hours">
+    <!-- Duration for one hour -->
+    <item quantity="one">1 timme</item>
+    <!-- Duration for more than one hour -->
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> timmar</item>
+  </plurals>
   <!-- Alarm confirmation toast and timer notification: minutes -->
+  <plurals name="minutes">
+    <!-- Duration for one minute -->
+    <item quantity="one">1 minut</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> minuter</item>
+  </plurals>
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
+  <string name="day_concat">", "</string>
   <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
   <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
+  <string name="analog_gadget">Analog klocka</string>
   <!-- Help activity name -->
   <!-- Settings activity name -->
   <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
   <string name="settings">Inställningar</string>
   <!-- Setting title for changing the snooze duration. -->
+  <plurals name="snooze_duration">
+    <!-- Duration for one minute -->
+    <item quantity="one">1 minut</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> minuter</item>
+  </plurals>
   <!-- Setting title for changing the crescendo duration. -->
   <!-- Summary value for changing the crescendo duration to 0. -->
   <string name="no_crescendo_duration">Av</string>
@@ -137,18 +180,24 @@
     <item>5 minuter</item>
     <item>10 minuter</item>
     <item>15 minuter</item>
-    <item>20 minutes</item>
-    <item>25 minutes</item>
+    <item>20 minuter</item>
+    <item>25 minuter</item>
     <item>Aldrig</item>
   </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
   <!-- Week start day preference title. -->
   <!-- Entries listed in ListPreference for start day. -->
+  <string-array name="week_start_entries">
+    <item>Lördag</item>
+    <item>Söndag</item>
+    <item>Måndag</item>
+  </string-array>
   <!-- Values for ListPreference for start day of week. -->
   <!-- Done button when editing an alarm. -->
   <string name="done">Färdig</string>
   <!-- Revert button when editing an alarm. -->
+  <string name="revert">Återställ</string>
   <!-- Delete button when editing an alarm. -->
   <string name="delete">Ta bort</string>
   <!-- Setting title for changing the alarm volume. -->
@@ -173,8 +222,11 @@
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
   <!-- Accessibility labels for Clock activity buttons -->
+  <string name="alarm_button_description">Alarm</string>
   <string name="gallery_button_description">Galleri</string>
+  <string name="music_button_description">Musik</string>
   <!-- Accessibility labels for alarm buttons -->
+  <string name="label_description">Etikett</string>
   <string name="ringtone_description">Ringsignal</string>
   <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
@@ -190,11 +242,15 @@
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
   <string name="menu_alarm">Alarm</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
+  <string name="menu_timer">Timer</string>
   <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
+  <string name="menu_stopwatch">Stoppur</string>
   <!-- Clock view buttons strings-->
   <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+  <string name="button_alarms">Lägg till alarm</string>
   <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
+  <string name="button_cities">Städer</string>
   <!-- Describes the purpose of the button which pops up a menu of setting choices -->
   <!-- Menu item on most screens to get to more settings -->
   <string name="menu_item_settings">Inställningar</string>
@@ -204,11 +260,16 @@
   <string name="menu_item_add">Lägg till</string>
   <!-- Menu item on clock screen to enter night mode. -->
   <!-- Menu item on Cities screen to sort by GMT offset -->
+  <string name="menu_item_sort_by_gmt_offset">Sortera efter tid</string>
   <!-- Menu item on Cities screen to sort by alphabetical order -->
+  <string name="menu_item_sort_by_name">Sortera efter namn</string>
+  <string name="cities_add_city_title">Lägg till stad</string>
   <string name="cities_add_loading">Laddar\u2026</string>
+  <string name="cities_add_city_timezone">Tidszon:</string>
   <!-- Label for selected cities in Cities list view -->
   <!-- Stopwatch and Timer shared strings -->
   <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
+  <string name="sw_resume_button">Fortsätt</string>
   <!--
         Describes the purpose of the button
             for stopwatch: return stopwatch to zero and remove the lap times.
@@ -218,6 +279,7 @@
   <string name="sw_reset_button">Återställ</string>
   <!-- Stopwatch strings -->
   <!-- Describes the purpose of the button to begin running a stopwatch -->
+  <string name="sw_start_button">Start</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
   <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
   <!-- Describes the purpose of the button to share the stopwatch value.
@@ -230,19 +292,36 @@
   <string name="hours_label_description">timmar</string>
   <string name="minutes_label_description">minuter</string>
   <string name="seconds_label_description">sekunder</string>
+  <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
   <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
   <!-- Label to enumerate the number of laps in the notification the user has counted -->
   <!-- Stopwatch accessibility strings -->
+  <plurals name="Nhours_description">
+    <!-- 1 hour -->
+    <item quantity="one">1 timme</item>
+    <!-- more -->
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> timmar</item>
+  </plurals>
+  <plurals name="Nseconds_description">
+    <!-- 1 second -->
+    <item quantity="one">1 sekund</item>
+    <!-- more -->
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> sekunder</item>
+  </plurals>
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
+  <string name="timer_add_timer">Lägg till timer</string>
   <!-- Describes the purpose of the button to begin or continue running a timer -->
+  <string name="timer_start">Start</string>
   <!-- Describes the purpose of the button to delete a timer. -->
   <string name="timer_delete">Ta bort</string>
   <!-- Talkback description for deleting a number. -->
   <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
+  <string name="timer_plus_one">Lägg till 1 minut</string>
   <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
+  <string name="timer_plus_1_min">Lägg till 1 min</string>
   <!-- Describes the purpose of the button to stop the timer. -->
   <string name="timer_stop">Stopp</string>
   <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
@@ -257,6 +336,7 @@
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
   <!-- Label associated with a notification for a Timer -->
+  <string name="timer_notification_label">Timer</string>
   <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
   <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
   <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
@@ -264,6 +344,7 @@
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
   <string name="home_label">Hem</string>
   <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="cities_activity_title">Städer</string>
   <!-- Settings strings -->
   <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
   <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
@@ -271,6 +352,10 @@
   <!-- Title for preference to change date & time -->
   <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
+  <string-array name="clock_style_entries">
+    <item>Analog</item>
+    <item>Digital</item>
+  </string-array>
   <!-- Values that are retrieved from the ListPreference. These must match
          the clock_style_entries above. -->
   <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
@@ -281,9 +366,13 @@
   <string name="time_picker_cancel">Avbryt</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
   <string name="time_picker_set">OK</string>
+  <string name="time_picker_time_seperator">:</string>
   <!--  place holder for am/pm label when it is not set -->
+  <string name="time_picker_ampm_label">--</string>
   <!-- add 00 as minutes to the time when pressing this button -->
+  <string name="time_picker_00_label">:00</string>
   <!-- add 30 as minutes to the time when pressing this button -->
+  <string name="time_picker_30_label">:30</string>
   <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
@@ -293,8 +382,96 @@
         Ex. "Ann Arbor unchecked"
     -->
   <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
+  <string-array name="timezone_labels">
+    <item>"Marshall Islands"</item>
+    <item>"Midway Island"</item>
+    <item>"Hawaii"</item>
+    <item>"Alaska"</item>
+    <item>"Pacific Time"</item>
+    <item>"Tijuana"</item>
+    <item>"Arizona"</item>
+    <item>"Chihuahua"</item>
+    <item>"Mountain Time"</item>
+    <item>"Central America"</item>
+    <item>"Central Time"</item>
+    <item>"Mexico City"</item>
+    <item>"Saskatchewan"</item>
+    <item>"Bogotá"</item>
+    <item>"Eastern Time"</item>
+    <item>"Venezuela"</item>
+    <item>"Atlantic Time (Barbados)"</item>
+    <item>"Atlantic Time (Canada)"</item>
+    <item>"Manaus"</item>
+    <item>"Santiago"</item>
+    <item>"Newfoundland"</item>
+    <item>"Brasília"</item>
+    <item>"Buenos Aires"</item>
+    <item>"Greenland"</item>
+    <item>"Montevideo"</item>
+    <item>"Mid-Atlantic"</item>
+    <item>"Azorerna"</item>
+    <item>"Cape Verde Islands"</item>
+    <item>"Casablanca"</item>
+    <item>"London, Dublin"</item>
+    <item>"Amsterdam, Berlin"</item>
+    <item>"Belgrad"</item>
+    <item>"Bryssel"</item>
+    <item>"Sarajevo"</item>
+    <item>"Windhoek"</item>
+    <item>"W. Africa Time"</item>
+    <item>"Amman, Jordanien"</item>
+    <item>"Athens, Istanbul"</item>
+    <item>"Beirut, Lebanon"</item>
+    <item>"Kairo"</item>
+    <item>"Helsingfors"</item>
+    <item>"Jerusalem"</item>
+    <item>"Minsk"</item>
+    <item>"Harare"</item>
+    <item>"Bagdad"</item>
+    <item>"Moskva"</item>
+    <item>"Kuwait"</item>
+    <item>"Nairobi"</item>
+    <item>"Teheran"</item>
+    <item>"Baku"</item>
+    <item>"Tbilisi"</item>
+    <item>"Yerevan"</item>
+    <item>"Dubai"</item>
+    <item>"Kabul"</item>
+    <item>"Islamabad, Karachi"</item>
+    <item>"Ural'sk"</item>
+    <item>"Yekaterinburg"</item>
+    <item>"Kolkata"</item>
+    <item>"Sri Lanka"</item>
+    <item>"Kathmandu"</item>
+    <item>"Astana"</item>
+    <item>"Yangon"</item>
+    <item>"Krasnoyarsk"</item>
+    <item>"Bangkok"</item>
+    <item>"Beijing"</item>
+    <item>"Hong Kong"</item>
+    <item>"Irkutsk"</item>
+    <item>"Kuala Lumpur"</item>
+    <item>"Perth"</item>
+    <item>"Taipei"</item>
+    <item>"Söul"</item>
+    <item>"Tokyo, Osaka"</item>
+    <item>"Yakutsk"</item>
+    <item>"Adelaide"</item>
+    <item>"Darwin"</item>
+    <item>"Brisbane"</item>
+    <item>"Hobart"</item>
+    <item>"Sydney, Canberra"</item>
+    <item>"Vladivostok"</item>
+    <item>"Guam"</item>
+    <item>"Magadan"</item>
+    <item>"Auckland"</item>
+    <item>"Fiji"</item>
+    <item>"Tonga"</item>
+    <item>"Jakarta"</item>
+  </string-array>
   <!-- Choices for timezones, must be kept in sync with timezone_values. -->
   <!-- Header in the preferences settings for the section pertaining to alarms -->
+  <string name="alarm_settings">Alarm</string>
   <!-- Describes the service that processes actions originating from timer notifications. -->
   <!-- Describes the service that processes actions originating from stopwatch notifications. -->
   <!-- Description for the paused stop watch -->
@@ -308,6 +485,7 @@
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
   <!-- Header in the preferences settings for the section pertaining to timers. -->
+  <string name="timer_settings">Timers</string>
   <!-- Description for timer ringtone setting. -->
   <!-- Description when timer is stopped. -->
   <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
@@ -322,16 +500,20 @@
   <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
   <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
   <!-- Description of the button to undo change to alarm -->
+  <string name="alarm_undo">ångra</string>
   <!-- Toast content when an alarm was deleted  -->
   <!-- Select the source of the alarm -->
+  <string name="alarm_select">Välj alarm</string>
   <!-- Select the ringtone as alarm -->
   <string name="alarm_select_ringtone">Ringsignal</string>
   <!-- Select the alarm from external device -->
+  <string name="alarm_select_external">Musik</string>
   <!-- Ok for selection -->
   <string name="alarm_select_ok">OK</string>
   <!-- Cancel for selection -->
   <string name="alarm_select_cancel">Avbryt</string>
   <!-- slash between date and next alarm in the clock -->
+  <string name="slash"> / </string>
   <!-- slash between date and next alarm in the clock -->
   <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
   <!-- Displays the number of alarms selected from the list of alarms. -->
@@ -340,6 +522,7 @@
   <!-- Alarm deletion confirmation message-->
   <!-- Timer deletion confirmation -->
   <!-- world clock deletion confirmation -->
+  <string name="city_delete_confirmation">Ta bort denna stad?</string>
   <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
   <!-- format strings for clocks -->
   <!-- Font size for AM/PM should match widget_label_font_size -->
