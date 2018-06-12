@@ -29,4 +29,5 @@
     <item>Nothing</item>
   </string-array>
   <!-- Setting title for accessing the cLock widget settings -->
+  <!-- Notification channels -->
 </resources>
