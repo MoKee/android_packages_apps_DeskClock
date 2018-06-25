@@ -28,15 +28,21 @@
   <!-- Menu item on Alarm Clock screen: Add alarm -->
   <string name="add_alarm">Додати будильник</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
+  <string name="menu_desk_clock">Настільн. год-к</string>
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
   <string name="menu_edit_alarm">Редагування будильника</string>
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+  <string name="delete_alarm">Видалити будильник</string>
   <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+  <string name="enable_alarm">Увімкнути будильник</string>
   <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+  <string name="disable_alarm">Вимкнути будильник</string>
   <!-- Delete alarm confirmation dialog message. -->
   <string name="delete_alarm_confirm">Видалити цей будильник?</string>
   <!-- Menu item on Alarm Clock screen: Show clock -->
+  <string name="show_clock">Показувати годинник</string>
   <!-- Menu item on Alarm Clock screen: Hide clock -->
+  <string name="hide_clock">Приховати годинник</string>
   <!-- Setting label on Set alarm screen: Label -->
   <string name="label">Підпис</string>
   <!-- Content description for alarm on/off switch in On state -->
@@ -55,6 +61,7 @@
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
   <string name="alert">Мелодія будильника</string>
   <!-- Title of default ringtone played when a timer expires. -->
+  <string name="default_timer_ringtone_title">Таймер минув</string>
   <!-- Title of silent ringtone played when a timer expires. -->
   <string name="silent_timer_ringtone_title">Без звуку</string>
   <!-- Label on expanded alarm edit view. -->
@@ -66,20 +73,24 @@
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
   <string name="alarm_today">Сьогодні</string>
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
+  <string name="alarm_alert_wake_up">Підйом</string>
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
   <string name="alarm_alert_off_action_text">Вимкнути</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
   <string name="alarm_alert_dismiss_text">Відхилити</string>
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+  <string name="alarm_alert_dismiss_now_text">Закрити</string>
   <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
+  <string name="alarm_missed_title">Пропущений будильник</string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
+  <string name="alarm_alert_snoozed_text">Відкладено</string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the word 'Snoozed' in two separate lines or example:
              Snoozed
@@ -87,7 +98,9 @@
          [CHAR LIMIT=10]
     -->
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
+  <string name="alarm_alert_off_text">Вимкнено</string>
   <!-- Button labels on the alarm dialog: Snooze -->
+  <string name="alarm_alert_snooze_text">Відкласти</string>
   <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
   <!-- Text to appear inside a notification while an alarm is snoozing. -->
@@ -176,7 +189,7 @@
   <!-- Dialog title of the volume and power setting. -->
   <!-- Entries listed in the setting for the side-button action. -->
   <string-array name="volume_button_setting_entries">
-    <item>Snooze</item>
+    <item>Відкласти</item>
     <item>Відхилити</item>
     <item>Нічого не робити</item>
   </string-array>
@@ -185,6 +198,9 @@
   <!-- Accessibility labels for Clock activity buttons -->
   <string name="alarm_button_description">Будильники</string>
   <string name="gallery_button_description">Галерея</string>
+  <string name="music_button_description">Музика</string>
+  <string name="nightmode_button_description">Зменшення яскравості</string>
+  <string name="home_button_description">Панель запуску</string>
   <!-- Accessibility labels for alarm buttons -->
   <string name="label_description">Підпис</string>
   <string name="ringtone_description">Дзвінок</string>
@@ -346,6 +362,7 @@
   <!-- Select the ringtone as alarm -->
   <string name="alarm_select_ringtone">Дзвінок</string>
   <!-- Select the alarm from external device -->
+  <string name="alarm_select_external">Музика</string>
   <!-- Ok for selection -->
   <string name="alarm_select_ok">ОК</string>
   <!-- Cancel for selection -->
