@@ -31,4 +31,6 @@
   <!-- Setting title for accessing the cLock widget settings -->
   <string name="menu_item_widget_settings">Nastavitve pripomočka</string>
   <!-- Notification channels -->
+  <string name="channel_default">Ostalo</string>
+  <string name="channel_important">Pomembna obvestila</string>
 </resources>
