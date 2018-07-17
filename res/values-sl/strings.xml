@@ -279,6 +279,7 @@
   <!-- Text to display in the small text of the notification -->
   <string name="alarm_notify_text">Dremež ali opustiti alarm.</string>
   <!-- Text to display in the notification ticker and label -->
+  <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> (prestavljeno)</string>
   <!-- Text to display in the notification when the alarm has been snoozed -->
   <string name="alarm_notify_snooze_text">Alarm prestavljen na <xliff:g id="time">%s</xliff:g>. Za preklic se dotakni.</string>
   <!-- Title of the setting to change hardware button behavior. This string
