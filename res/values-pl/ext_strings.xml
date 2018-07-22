@@ -32,5 +32,6 @@
   <string name="menu_item_widget_settings">Ustawienia Widżetów</string>
   <!-- Notification channels -->
   <string name="channel_default">Inne</string>
+  <string name="channel_expired_events">Uruchamianie alarmów &amp; timerów</string>
   <string name="channel_important">Ważne powiadomienia</string>
 </resources>
