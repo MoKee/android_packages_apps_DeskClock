@@ -30,8 +30,4 @@
   </string-array>
   <!-- Setting title for accessing the cLock widget settings -->
   <string name="menu_item_widget_settings">إعدادات التطبيق المصغر</string>
-  <!-- Notification channels -->
-  <string name="channel_default">أخرى</string>
-  <string name="channel_expired_events">إطلاق الإنذارات والمؤقت</string>
-  <string name="channel_important">الإشعارات الهامة</string>
 </resources>
