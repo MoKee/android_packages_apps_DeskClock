@@ -19,5 +19,5 @@
   <!-- Setting labels on Set alarm screen: Workday -->
   <string name="alarm_workday">平日</string>
   <string name="update_permissions_button_text">アクセス許可を更新</string>
-  <string name="missing_read_calendar_permission_text">DeskClock には、カレンダーの読み取りアクセス許可が必要です。</string>
+  <string name="missing_read_calendar_permission_text">DeskClock にはカレンダーの読み取りアクセス許可が必要です</string>
 </resources>

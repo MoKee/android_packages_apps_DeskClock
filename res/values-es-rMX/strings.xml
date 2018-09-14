@@ -133,6 +133,8 @@
   <!-- Timer notification: how long from now until timer goes off. -->
   <string name="timer_notifications_less_min">Menos de un minuto restante</string>
   <string name="timer_notifications_hours">horas_notificaciones_horas</string>
+  <string name="timer_notifications_minutes"><xliff:g id="MINUTOS" example="2 minutos">%2$s</xliff:g><xliff:g id="RESTANTES" example="restantes">%3$s</xliff:g></string>
+  <string name="timer_notifications_hours_minutes"><xliff:g id="HORAS" example="2 horas">%1$s</xliff:g> <xliff:g id="MINUTOS" example="2 minutos">%2$s</xliff:g> restantes</string>
   <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
@@ -146,7 +148,7 @@
   <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
   <string-array name="alarm_set">
     <item>La alarma sonará en menos de un minuto.</item>
-    <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> from now.</item>
+    <item>La alarma sonará en <xliff:g id="DAYS">%1$s</xliff:g>.</item>
     <item>Alarm set for <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> from now.</item>
     <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> from now.</item>
     <item>Alarm set for <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>

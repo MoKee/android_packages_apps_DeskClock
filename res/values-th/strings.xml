@@ -136,6 +136,7 @@
   <!-- Entries listed in ListPreference for start day. -->
   <!-- Values for ListPreference for start day of week. -->
   <!-- Done button when editing an alarm. -->
+  <string name="done">เสร็จสิ้น</string>
   <!-- Revert button when editing an alarm. -->
   <!-- Delete button when editing an alarm. -->
   <string name="delete">ลบ</string>
@@ -143,6 +144,7 @@
   <string name="alarm_volume_title">ระดับเสียงนาฬิกาปลุก</string>
   <!-- Title for the silent ringtone. -->
   <!-- Title for ringtones that cannot be located by uri. -->
+  <string name="unknown_ringtone_title">ไม่รู้จัก</string>
   <!-- Text to display in the small text of the notification -->
   <!-- Text to display in the notification ticker and label -->
   <!-- Text to display in the notification when the alarm has been snoozed -->
@@ -222,6 +224,7 @@
   <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
   <string name="timer_reset">รีเซ็ต</string>
   <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
+  <string name="timer_cancel">ยกเลิก</string>
   <!-- Accessibility announcement when a timer is canceled. -->
   <!-- Notification content shown when a timer has completed and has no more time remaining -->
   <!--
@@ -249,7 +252,9 @@
   <!-- Title in the preferences change the time zone for the user's home -->
   <!-- Title in a list dialog box to pick a time zone for the user's home -->
   <!-- Textual content of the button to discard the current dialog values and close the dialog -->
+  <string name="time_picker_cancel">ยกเลิก</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
+  <string name="time_picker_set">ตกลง</string>
   <!--  place holder for am/pm label when it is not set -->
   <!-- add 00 as minutes to the time when pressing this button -->
   <!-- add 30 as minutes to the time when pressing this button -->
@@ -296,7 +301,9 @@
   <!-- Select the ringtone as alarm -->
   <!-- Select the alarm from external device -->
   <!-- Ok for selection -->
+  <string name="alarm_select_ok">ตกลง</string>
   <!-- Cancel for selection -->
+  <string name="alarm_select_cancel">ยกเลิก</string>
   <!-- slash between date and next alarm in the clock -->
   <!-- slash between date and next alarm in the clock -->
   <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->

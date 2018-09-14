@@ -34,9 +34,9 @@
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
   <string name="delete_alarm">アラームを削除</string>
   <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
-  <string name="enable_alarm">アラームをONにする</string>
+  <string name="enable_alarm">アラームをオンにする</string>
   <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
-  <string name="disable_alarm">アラームをOFFにする</string>
+  <string name="disable_alarm">アラームをオフにする</string>
   <!-- Delete alarm confirmation dialog message. -->
   <string name="delete_alarm_confirm">このアラームを削除しますか？</string>
   <!-- Menu item on Alarm Clock screen: Show clock -->
@@ -46,9 +46,9 @@
   <!-- Setting label on Set alarm screen: Label -->
   <string name="label">ラベル</string>
   <!-- Content description for alarm on/off switch in On state -->
-  <string name="on_switch">ON</string>
+  <string name="on_switch">オン</string>
   <!-- Content description for alarm on/off switch in Off state -->
-  <string name="off_switch">OFF</string>
+  <string name="off_switch">オフ</string>
   <!-- Default label to display for an alarm -->
   <string name="default_label">アラーム</string>
   <!-- Preference category on Alarm Settings screen: Set alarm -->
@@ -75,7 +75,7 @@
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
   <string name="alarm_alert_wake_up">起きて！</string>
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
-  <string name="alarm_alert_off_action_text">OFF</string>
+  <string name="alarm_alert_off_action_text">オフ</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
   <string name="alarm_alert_dismiss_text">解除</string>
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
@@ -103,7 +103,7 @@
     <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g>分</item>
   </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
-  <string name="alarm_alert_off_text">アラームOFF</string>
+  <string name="alarm_alert_off_text">アラーム オフ</string>
   <!-- Button labels on the alarm dialog: Snooze -->
   <string name="alarm_alert_snooze_text">スヌーズ</string>
   <!-- Toast that appears after Alarm is snoozed from the Alarm
@@ -111,7 +111,7 @@
   <plurals name="alarm_alert_snooze_set">
     <!-- Duration for one minute -->
     <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="MINUTES">%d</xliff:g>分後に再通知します。</item>
+    <item quantity="other"><xliff:g id="MINUTES">%d</xliff:g>分後に再通知します</item>
   </plurals>
   <!-- Text to appear inside a notification while an alarm is snoozing. -->
   <string name="alarm_alert_snooze_until">スヌーズ終了時刻: <xliff:g id="TIME">%s</xliff:g></string>
@@ -145,13 +145,13 @@
   <string name="timer_remaining_multiple">残り</string>
   <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
   <string-array name="alarm_set">
-    <item>アラームは今から1分以内に設定されています。</item>
-    <item>アラームは<xliff:g id="DAYS">%1$s</xliff:g>後に設定されています。</item>
-    <item>アラームは<xliff:g id="HOURS">%2$s</xliff:g>後に設定されています。</item>
-    <item>アラームは<xliff:g id="DAYS">%1$s</xliff:g>と<xliff:g id="HOURS">%2$s</xliff:g>後に設定されています。</item>
-    <item>アラームは<xliff:g id="MINUTES">%3$s</xliff:g>後に設定されています。</item>
-    <item>アラームは<xliff:g id="DAYS">%1$s</xliff:g>と<xliff:g id="MINUTES">%3$s</xliff:g>後に設定されています。</item>
-    <item>アラームは<xliff:g id="HOURS">%2$s</xliff:g><xliff:g id="MINUTES">%3$s</xliff:g>後に設定されています。</item>
+    <item>アラームは今から1分以内に設定されています</item>
+    <item>アラームは<xliff:g id="DAYS">%1$s</xliff:g>後に設定されています</item>
+    <item>アラームは<xliff:g id="HOURS">%2$s</xliff:g>後に設定されています</item>
+    <item>アラームは<xliff:g id="DAYS">%1$s</xliff:g>と<xliff:g id="HOURS">%2$s</xliff:g>後に設定されています</item>
+    <item>アラームは<xliff:g id="MINUTES">%3$s</xliff:g>後に設定されています</item>
+    <item>アラームは<xliff:g id="DAYS">%1$s</xliff:g>と<xliff:g id="MINUTES">%3$s</xliff:g>後に設定されています</item>
+    <item>アラームは<xliff:g id="HOURS">%2$s</xliff:g><xliff:g id="MINUTES">%3$s</xliff:g>後に設定されています</item>
     <item>アラームは<xliff:g id="DAYS">%1$s</xliff:g>と<xliff:g id="HOURS">%2$s</xliff:g><xliff:g id="MINUTES">%3$s</xliff:g>後に設定されています</item>
   </string-array>
   <!-- Alarm confirmation toast: days -->
@@ -205,7 +205,7 @@
   <!-- Setting title for changing the crescendo duration. -->
   <string name="crescendo_duration_title">徐々に音量を上げる</string>
   <!-- Summary value for changing the crescendo duration to 0. -->
-  <string name="no_crescendo_duration">OFF</string>
+  <string name="no_crescendo_duration">オフ</string>
   <!-- Summary value for changing the crescendo duration. -->
   <string name="crescendo_duration"><xliff:g id="NUMBER">%s</xliff:g>秒</string>
   <!-- Setting label when changing the crescendo duration. -->
@@ -220,6 +220,7 @@
   </plurals>
   <!-- Auto silence summary when turned off -->
   <string name="auto_silence_never">なし</string>
+  <string name="default_auto_silence_value">10</string>
   <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
   <string-array name="auto_silence_entries">
@@ -255,7 +256,7 @@
   <!-- Title for ringtones that cannot be located by uri. -->
   <string name="unknown_ringtone_title">不明</string>
   <!-- Text to display in the small text of the notification -->
-  <string name="alarm_notify_text">アラームをスヌーズ/解除します。</string>
+  <string name="alarm_notify_text">アラームをスヌーズ/解除します</string>
   <!-- Text to display in the notification ticker and label -->
   <string name="alarm_notify_snooze_label"><xliff:g id="LABEL">%s</xliff:g>（スヌーズ）</string>
   <!-- Text to display in the notification when the alarm has been snoozed -->
@@ -287,16 +288,16 @@
   <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
          present on the device, we show nothing at all. -->
-  <string name="weather_fetch_failure">現在、天気情報をご利用いただけません。</string>
+  <string name="weather_fetch_failure">現在天気情報をご利用いただけません</string>
   <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="alarm_klaxon_service_desc">時計で設定したアラーム用のサウンド再生サービスです。</string>
+  <string name="alarm_klaxon_service_desc">時計で設定したアラーム用のサウンド再生サービスです</string>
   <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
   <string name="loading_ringtone">着信音を読み込み中...</string>
   <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="timer_ring_service_desc">時計で設定したタイマー用のサウンド再生サービスです。</string>
+  <string name="timer_ring_service_desc">時計で設定したタイマー用のサウンド再生サービスです</string>
   <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
   <string name="control_set_alarm">アラームを設定</string>
   <!--  ActionBar strings -->
@@ -327,7 +328,20 @@
   <string name="menu_item_sort_by_gmt_offset">時間順</string>
   <!-- Menu item on Cities screen to sort by alphabetical order -->
   <string name="menu_item_sort_by_name">名前順</string>
+  <string name="cities_add_gps_no_results">GPSクエリが位置情報の結果を返しません</string>
+  <string name="cities_add_gps_not_available">GPSを利用できません</string>
+  <string name="cities_add_searching">検索中\u2026</string>
+  <string name="cities_add_city_title">都市を追加</string>
+  <string name="cities_add_city_gps_cd">タップすると現在の都市に設定します</string>
   <string name="cities_add_loading">読み込み中…</string>
+  <string name="cities_add_city_city">都市:</string>
+  <string name="cities_add_city_timezone">タイムゾーン:</string>
+  <string name="cities_add_already_exists">その都市はデータベースに既に存在しています</string>
+  <string name="cities_add_city_failed">都市を作成できません</string>
+  <string name="cities_delete_city_failed">都市を削除できません</string>
+  <string name="cities_delete_city_msg"><xliff:g id="city">%s</xliff:g>を削除しますか？
+    </string>
+  <string name="cities_delete_city_title">都市を削除</string>
   <!-- Label for selected cities in Cities list view -->
   <string name="selected_cities_label">選択した都市</string>
   <!-- Stopwatch and Timer shared strings -->
@@ -351,12 +365,16 @@
          Also used as title for chooser when sharing stopwatch results. -->
   <string name="sw_share_button">共有</string>
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+  <string name="hours_label">時</string>
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+  <string name="minutes_label">分</string>
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+  <string name="seconds_label">秒</string>
   <!-- Accessibility strings -->
   <string name="hours_label_description">時間</string>
   <string name="minutes_label_description">分</string>
   <string name="seconds_label_description">秒</string>
+  <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
   <string name="sw_share_main">私の時間は<xliff:g id="TIME">%s</xliff:g>です</string>
@@ -396,7 +414,7 @@
   <!-- Describes the purpose of the button to stop the timer. -->
   <string name="timer_stop">停止</string>
   <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
-  <string name="timer_stop_all">タイマーをすべて停止</string>
+  <string name="timer_stop_all">タイマーを全て停止</string>
   <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
   <string name="timer_reset">リセット</string>
   <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
@@ -420,16 +438,16 @@
   <string name="timer_reset_all">全タイマーをリセット</string>
   <!-- Jocular content that user may append when sharing the lap times -->
   <string-array name="sw_share_strings" translatable="true">
-    <item>なかなかのスピード狂です。</item>
-    <item>まさに努力の賜物です。</item>
+    <item>なかなかのスピード狂です</item>
+    <item>まさに努力の賜物です</item>
     <item>Androidも高速ですが、あなたのスピードには負けます！</item>
-    <item>肩の力を抜いて。</item>
-    <item>すご腕の持ち主です。</item>
-    <item>まさに驚きの速さです。</item>
-    <item>もう一度タイムワープしましょう。</item>
-    <item>左に移動するだけです。</item>
-    <item>急ぎのパレットがあります。</item>
-    <item>光の速さです。</item>
+    <item>肩の力を抜いて</item>
+    <item>すご腕の持ち主です</item>
+    <item>まさに驚きの速さです</item>
+    <item>もう一度タイムワープしましょう</item>
+    <item>左に移動するだけです</item>
+    <item>急ぎのパレットがあります</item>
+    <item>光の速さです</item>
   </string-array>
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
   <string name="home_label">自宅</string>
@@ -462,9 +480,13 @@
   <string name="time_picker_cancel">キャンセル</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
   <string name="time_picker_set">はい</string>
+  <string name="time_picker_time_seperator">:</string>
   <!--  place holder for am/pm label when it is not set -->
+  <string name="time_picker_ampm_label">--</string>
   <!-- add 00 as minutes to the time when pressing this button -->
+  <string name="time_picker_00_label">:00</string>
   <!-- add 30 as minutes to the time when pressing this button -->
+  <string name="time_picker_30_label">:30</string>
   <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
@@ -567,9 +589,9 @@
   <!-- Header in the preferences settings for the section pertaining to alarms -->
   <string name="alarm_settings">アラーム</string>
   <!-- Describes the service that processes actions originating from timer notifications. -->
-  <string name="timer_service_desc">タイマーの通知からの操作を処理します。</string>
+  <string name="timer_service_desc">タイマーの通知からの操作を処理します</string>
   <!-- Describes the service that processes actions originating from stopwatch notifications. -->
-  <string name="stopwatch_service_desc">ストップウォッチの通知からの操作を処理します。</string>
+  <string name="stopwatch_service_desc">ストップウォッチの通知からの操作を処理します</string>
   <!-- Description for the paused stop watch -->
   <string name="swn_paused">一時停止しました</string>
   <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
@@ -616,6 +638,7 @@
   <!-- Toast content when an alarm was deleted  -->
   <string name="alarm_deleted">アラームを削除しました</string>
   <!-- Select the source of the alarm -->
+  <string name="alarm_select">アラームを選択</string>
   <!-- Select the ringtone as alarm -->
   <string name="alarm_select_ringtone">着信音</string>
   <!-- Select the alarm from external device -->
@@ -741,7 +764,7 @@
     the timer could not be located.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_does_not_exist">タイマーは削除されています。</string>
+  <string name="timer_does_not_exist">タイマーは削除されています</string>
   <!-- String that represents that the user has successfully created a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
@@ -809,7 +832,7 @@
     The user needs to choose an alarm they want to dismiss through the UI
    [CHAR LIMIT=NONE]
    -->
-  <string name="pick_alarm_to_dismiss">解除するアラームを選択してください</string>
+  <string name="pick_alarm_to_dismiss">解除するアラームを選択して下さい</string>
   <!-- String that represents that the user doesn't have any alarms firing at the moment.
     [CHAR LIMIT=NONE]
     -->
@@ -821,6 +844,8 @@
     -->
   <string name="alarm_is_snoozed"><xliff:g id="ALARM_TIME">%s</xliff:g>のアラームを10分間スヌーズしました</string>
   <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+  <string name="custom_ringtone">カスタム着信音</string>
   <!-- Ringtone selection default" -->
+  <string name="ringtone_default">"デフォルトの着信音"</string>
   <!--used for prompt to user storage permission status-->
 </resources>
