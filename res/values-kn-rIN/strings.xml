@@ -35,6 +35,7 @@
   <!-- Setting label on Set alarm screen: Label -->
   <!-- Content description for alarm on/off switch in On state -->
   <!-- Content description for alarm on/off switch in Off state -->
+  <string name="off_switch">ಆರಿಸು</string>
   <!-- Default label to display for an alarm -->
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
@@ -44,12 +45,14 @@
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
   <!-- Title of default ringtone played when a timer expires. -->
   <!-- Title of silent ringtone played when a timer expires. -->
+  <string name="silent_timer_ringtone_title">ನಿಶ್ಯಬ್ದ</string>
   <!-- Label on expanded alarm edit view. -->
   <!-- Setting labels on Set alarm screen: Set time  -->
   <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
+  <string name="alarm_alert_off_action_text">ಆರಿಸು</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
   <!-- Alarm Alert screen: this message is shown after an alarm rung
@@ -112,6 +115,7 @@
   <!-- Setting title for changing the snooze duration. -->
   <!-- Setting title for changing the crescendo duration. -->
   <!-- Summary value for changing the crescendo duration to 0. -->
+  <string name="no_crescendo_duration">ಆರಿಸು</string>
   <!-- Summary value for changing the crescendo duration. -->
   <!-- Setting label when changing the crescendo duration. -->
   <!-- Auto silence preference title -->
@@ -138,9 +142,11 @@
   <string name="done">ಮುಗಿಯಿತು</string>
   <!-- Revert button when editing an alarm. -->
   <!-- Delete button when editing an alarm. -->
+  <string name="delete">ಅಳಿಸು</string>
   <!-- Setting title for changing the alarm volume. -->
   <string name="alarm_volume_title">ಅಲಾರಂ ವಾಲ್ಯೂಂ</string>
   <!-- Title for the silent ringtone. -->
+  <string name="silent_ringtone_title">ನಿಶ್ಯಬ್ದ</string>
   <!-- Title for ringtones that cannot be located by uri. -->
   <string name="unknown_ringtone_title">ಅಪರಿಚಿತ</string>
   <!-- Text to display in the small text of the notification -->
@@ -153,6 +159,7 @@
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
   <!-- Accessibility labels for Clock activity buttons -->
+  <string name="gallery_button_description">ಗ್ಯಾಲರಿ</string>
   <!-- Accessibility labels for alarm buttons -->
   <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
@@ -176,6 +183,7 @@
   <!-- Menu item on most screens to get to more settings -->
   <string name="menu_item_settings">ಸಂಯೋಜನೆಗಳು</string>
   <!-- Menu item on most screens to get to the help information -->
+  <string name="menu_item_help">ಸಹಾಯ</string>
   <!-- Menu item on clock screen to add world city. -->
   <!-- Menu item on clock screen to enter night mode. -->
   <!-- Menu item on Cities screen to sort by GMT offset -->
@@ -197,6 +205,7 @@
   <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
   <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
+  <string name="sw_share_button">ಹಂಚಿಕೊಳ್ಳಿ</string>
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
@@ -210,6 +219,7 @@
   <!-- Describes the purpose of the button to add a new timer -->
   <!-- Describes the purpose of the button to begin or continue running a timer -->
   <!-- Describes the purpose of the button to delete a timer. -->
+  <string name="timer_delete">ಅಳಿಸು</string>
   <!-- Talkback description for deleting a number. -->
   <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
   <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
@@ -231,6 +241,7 @@
   <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
   <!-- Jocular content that user may append when sharing the lap times -->
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
+  <string name="home_label">ಮನೆ</string>
   <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
   <!-- Settings strings -->
   <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
@@ -303,6 +314,7 @@
   <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
   <!-- Displays the number of alarms selected from the list of alarms. -->
   <!-- message used by the talkback accessibility app to say that something was deleted -->
+  <string name="deleted_message">ಅಳಿಸಲಾಗಿದೆ</string>
   <!-- Alarm deletion confirmation message-->
   <!-- Timer deletion confirmation -->
   <!-- world clock deletion confirmation -->

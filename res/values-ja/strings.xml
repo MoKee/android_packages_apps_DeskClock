@@ -471,7 +471,7 @@
   <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
   <string name="automatic_home_clock">自宅の時計を自動表示</string>
   <!-- Describes the functionality provided by the automatic_home_clock option -->
-  <string name="automatic_home_clock_summary">時差のある場所にいるときに自宅の時刻を追加する</string>
+  <string name="automatic_home_clock_summary">時差のある場所にいる時に自宅の時刻を追加する</string>
   <!-- Title in the preferences change the time zone for the user's home -->
   <string name="home_time_zone">自宅タイムゾーン</string>
   <!-- Title in a list dialog box to pick a time zone for the user's home -->
@@ -848,4 +848,5 @@
   <!-- Ringtone selection default" -->
   <string name="ringtone_default">"デフォルトの着信音"</string>
   <!--used for prompt to user storage permission status-->
+  <string name="have_denied_storage_permission">ストレージへのアクセス権限を拒否しましたが、アプリ設定でこのアクセス権限を手動で追加することができます。</string>
 </resources>
