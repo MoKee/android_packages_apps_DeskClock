@@ -22,7 +22,7 @@
   <!-- Setting title for the shake action setting. -->
   <!-- Entries listed in the setting flip and shake. -->
   <string-array name="action_setting_entries">
-    <item>Snooze</item>
+    <item>ಲಘು ನಿದ್ದೆ</item>
     <item>ವಜಾ ಮಾಡು</item>
     <item>Nothing</item>
   </string-array>
