@@ -21,65 +21,106 @@
   <!-- -->
   <!-- Label shown on launcher icon -->
   <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
+  <string name="app_label">ಗಡಿಯಾರ</string>
   <!-- Title for AlarmClock activity -->
   <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="alarm_list_title">ಅಲಾರಮ್‌ಗಳು</string>
   <!-- Menu item on Alarm Clock screen: Add alarm -->
+  <string name="add_alarm">ಅಲಾರಂ ಸೇರಿಸಿ</string>
   <!-- Menu item on Alarm Clock screen: Desk clock -->
+  <string name="menu_desk_clock">ಮೇಜು ಗಡಿಯಾರ</string>
   <!-- Menu item on Alarm Clock screen: Edit alarm -->
+  <string name="menu_edit_alarm">ಅಲಾರಂ ಪರಿಷ್ಕರಿಸು</string>
   <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+  <string name="delete_alarm">ಅಲಾರಮ್ ಅಳಿಸಿ</string>
   <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+  <string name="enable_alarm">ಅಲಾರ್ಮ್ ಆರಂಭಿಸು</string>
   <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+  <string name="disable_alarm">ಅಲಾರ್ಮ್ ಆರಿಸು</string>
   <!-- Delete alarm confirmation dialog message. -->
+  <string name="delete_alarm_confirm">ಈ ಅಲಾರ್ಮ್ ಅಳಿಸುವುದೇ?</string>
   <!-- Menu item on Alarm Clock screen: Show clock -->
+  <string name="show_clock">ಗಡಿಯಾರ ತೋರಿಸು</string>
   <!-- Menu item on Alarm Clock screen: Hide clock -->
+  <string name="hide_clock">ಗಡಿಯಾರ ಅಡಗಿಸು</string>
   <!-- Setting label on Set alarm screen: Label -->
+  <string name="label">ಗುರುತುಪಟ್ಟಿ</string>
   <!-- Content description for alarm on/off switch in On state -->
   <string name="on_switch">ಆರಂಭಿಸು</string>
   <!-- Content description for alarm on/off switch in Off state -->
   <string name="off_switch">ಆರಿಸು</string>
   <!-- Default label to display for an alarm -->
+  <string name="default_label">ಅಲಾರ್ಮ್</string>
   <!-- Preference category on Alarm Settings screen: Set alarm -->
   <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
+  <string name="set_alarm">ಅಲಾರ್ಮ್ ಹೊಂದಿಸಿ</string>
   <!-- Setting labels on Set alarm screen: Vibration on or off -->
   <string name="alarm_vibrate">ಕಂಪಿಸು</string>
   <!-- Setting labels on Set alarm screen: Repeat -->
+  <string name="alarm_repeat">ಪುನರಾವರ್ತನೆ</string>
   <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+  <string name="alert">ಅಲಾರ್ಮ್ ರಿಂಗ್ಟೋನ್</string>
   <!-- Title of default ringtone played when a timer expires. -->
+  <string name="default_timer_ringtone_title">ಅವಧಿ ಮುಗಿದುಹೋಗಿದೆ</string>
   <!-- Title of silent ringtone played when a timer expires. -->
   <string name="silent_timer_ringtone_title">ನಿಶ್ಯಬ್ದ</string>
   <!-- Label on expanded alarm edit view. -->
+  <string name="ringtone">ರಿಂಗ್‌ಟೋನ್‌</string>
   <!-- Setting labels on Set alarm screen: Set time  -->
   <string name="time">ಸಮಯ</string>
   <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
+  <string name="alarm_tomorrow">ನಾಳೆ</string>
   <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
+  <string name="alarm_today">ಈ ದಿನ</string>
   <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
+  <string name="alarm_alert_wake_up">ಎಚ್ಚರಿಸು\u0021</string>
   <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
   <string name="alarm_alert_off_action_text">ಆರಿಸು</string>
   <!-- Button labels on the alarm dialog: Dismiss -->
   <string name="alarm_alert_dismiss_text">ವಜಾ ಮಾಡು</string>
   <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+  <string name="alarm_alert_dismiss_now_text">ಈಗ ವಜಾಗೊಳಿಸು</string>
   <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
+  <string name="alarm_missed_title">ತಪ್ಪಿದ ಅಲಾರ್ಮ್</string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
+  <string name="alarm_alert_snoozed_text">ಲಘು ನಿದ್ದೆ</string>
   <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the word 'Snoozed' in two separate lines or example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
+  <plurals name="alarm_alert_snooze_duration">
+    <!-- Duration for one minute -->
+    <item quantity="one">1 ನಿಮಿಷ</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other">%d ನಿಮಿಷಗಳು</item>
+  </plurals>
   <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
+  <string name="alarm_alert_off_text">ಅಲಾರ್ಮ್ ಆರಿಸು</string>
   <!-- Button labels on the alarm dialog: Snooze -->
+  <string name="alarm_alert_snooze_text">ಲಘು ನಿದ್ದೆ</string>
   <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
+  <plurals name="alarm_alert_snooze_set">
+    <!-- Duration for one minute -->
+    <item quantity="one">%d ನಿಮಿಷಕ್ಕೆ ಲಘು ನಿದ್ದೆ ಮಾಡು.</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other">%d ನಿಮಿಷಕ್ಕೆ ಲಘು ನಿದ್ದೆ ಮಾಡು.</item>
+  </plurals>
   <!-- Text to appear inside a notification while an alarm is snoozing. -->
+  <string name="alarm_alert_snooze_until"><xliff:g id="time">%s</xliff:g> ವರೆಗೆ ಲಘು ನಿದ್ದೆ ಮಾಡು</string>
   <!-- Text to appear in the notification title while an alarm is about to go off. -->
+  <string name="alarm_alert_predismiss_title">ಮುಂದಿನ ಅಲಾರ್ಮ್</string>
   <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+  <string name="missed_alarm_has_been_deleted">ನಿಮ್ಮ ತಪ್ಪಿದ ಅಲಾರ್ಮ್ ಅನ್ನು ಅಳಿಸಲಾಗಿದೆ</string>
   <!-- 0: nothing
          1: days
          2:      hours
@@ -90,36 +131,90 @@
          7: days hours minutes
     -->
   <!-- Timer notification: how long from now until timer goes off. -->
+  <string name="timer_notifications_less_min">ಒಂದು ನಿಮಿಷಕ್ಕಿಂತ ಕಡಿಮೆ ಉಳಿದಿದೆ</string>
+  <string name="timer_notifications_hours"><xliff:g id="ಗಂಟೆಗಳು" example="2 hours">%1$s</xliff:g><xliff:g id="ಉಳಿದಿರುವ" example="ಉಳಿದಿರುವ"> %3$s</xliff:g></string>
+  <string name="timer_notifications_minutes"><xliff:g id="ನಿಮಿಷಗಳು" example="2 minutes">%2$s</xliff:g><xliff:g id="ಉಳಿದಿರುವ" example="ಉಳಿದಿರುವ"> %3$s</xliff:g></string>
+  <string name="timer_notifications_hours_minutes"><xliff:g id="ಗಂಟೆಗಳು" example="2 hours">%1$s</xliff:g> <xliff:g id="ನಿಮಿಷಗಳು" example="2 minutes">%2$s</xliff:g> ಉಳಿದಿರುತ್ತವೆ</string>
   <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
     -->
+  <string name="timer_remaining_single">ಉಳಿದಿರುವ</string>
   <!--
         Verb inflection to use for multiple time units remaining
         Ex. "2 minutes remaining"
     -->
+  <string name="timer_remaining_multiple">ಉಳಿದಿರುವ</string>
   <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
+  <string-array name="alarm_set">
+    <item>ಈಗ ಅಲಾರ್ಮ್ ಅನ್ನು 1 ನಿಮಿಷಕ್ಕಿಂತ ಕಡಿಮೆ ಹೊಂದಿಸಲಾಗಿದೆ.</item>
+    <item>ಈಗಿನಿಂದ ಅಲಾರ್ಮ್ ಅನ್ನು <xliff:g id="ದಿನಗಳು" example="2 ದಿನಗಳು">%1$s</xliff:g> ಗೆ ಹೊಂದಿಸಲಾಗಿದೆ.</item>
+    <item>ಈಗಿನಿಂದ ಅಲಾರ್ಮ್ ಅನ್ನು <xliff:g id="ಗಂಟೆಗಳು" example="2 ಗಂಟೆಗಳು">%2$s</xliff:g> ಗೆ ಹೊಂದಿಸಲಾಗಿದೆ.</item>
+    <item>ಈಗಿನಿಂದ ಅಲಾರ್ಮ್ ಅನ್ನು <xliff:g id="ದಿನಗಳು" example="2 ದಿನಗಳು">%1$s</xliff:g> ಮತ್ತು <xliff:g id="ಗಂಟೆಗಳು" example="2 ಗಂಟೆಗಳು">%2$s</xliff:g> ಹೊಂದಿಸಲಾಗಿದೆ.</item>
+    <item>ಈಗಿನಿಂದ ಅಲಾರ್ಮ್ ಅನ್ನು <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> ಗೆ ಹೊಂದಿಸಲಾಗಿದೆ.</item>
+    <item>ಈಗಿನಿಂದ ಅಲಾರ್ಮ್ ಅನ್ನು <xliff:g id="ದಿನಗಳು" example="2 ದಿನಗಳು">%1$s</xliff:g> ಮತ್ತು <xliff:g id="ನಿಮಿಷಗಳು" example="2 ನಿಮಿಷಗಳು">%3$s</xliff:g> ಗೆ ಹೊಂದಿಸಲಾಗಿದೆ.</item>
+    <item>ಈಗಿನಿಂದ ಅಲಾರ್ಮ್ ಅನ್ನು <xliff:g id="ಗಂಟೆಗಳು" example="2 ಗಂಟೆಗಳು">%2$s</xliff:g> ಮತ್ತು <xliff:g id="ನಿಮಿಷಗಳು" example="2 ನಿಮಿಷಗಳು">%3$s</xliff:g> ಗೆ ಹೊಂದಿಸಲಾಗಿದೆ.</item>
+    <item>ಈಗಿನಿಂದ ಅಲಾರ್ಮ್ ಅನ್ನು <xliff:g id="ದಿನಗಳು" example="2 ದಿನಗಳು">%1$s</xliff:g> ಮತ್ತು <xliff:g id="ಗಂಟೆಗಳು" example="2 ಗಂಟೆಗಳು">%2$s</xliff:g>, ಮತ್ತು <xliff:g id="ನಿಮಿಷಗಳು" example="2 ನಿಮಿಷಗಳು">%3$s</xliff:g> ಗೆ ಹೊಂದಿಸಲಾಗಿದೆ.</item>
+  </string-array>
   <!-- Alarm confirmation toast: days -->
+  <plurals name="days">
+    <!-- Duration for one day -->
+    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> ದಿನ</item>
+    <!-- Duration for more than one day -->
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> ದಿನಗಳು</item>
+  </plurals>
   <!-- Alarm confirmation toast and timer notification: hours -->
+  <plurals name="hours">
+    <!-- Duration for one hour -->
+    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> ಗಂಟೆ</item>
+    <!-- Duration for more than one hour -->
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> ಗಂಟೆಗಳು</item>
+  </plurals>
   <!-- Alarm confirmation toast and timer notification: minutes -->
+  <plurals name="minutes">
+    <!-- Duration for one minute -->
+    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> ನಿಮಿಷ</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> ನಿಮಿಷಗಳು</item>
+  </plurals>
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
+  <string name="every_day">ಪ್ರತಿದಿನ</string>
   <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
+  <string name="day_concat">", "</string>
   <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
+  <string name="clock_instructions">ಗಡಿಯಾರ ಆರಿಸಿ</string>
   <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
+  <string name="analog_gadget">ಅನಲಾಗ್ ಗಡಿಯಾರ</string>
   <!-- Help activity name -->
+  <string name="help">ಸಹಾಯ</string>
   <!-- Settings activity name -->
   <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
   <string name="settings">ಸಂಯೋಜನೆಗಳು</string>
   <!-- Setting title for changing the snooze duration. -->
+  <string name="snooze_duration_title">ಸ್ನೂಜ್ ಅಳತೆ</string>
+  <plurals name="snooze_duration">
+    <!-- Duration for one minute -->
+    <item quantity="one"><xliff:g id="number" example="7">%s</xliff:g> ನಿಮಿಷ</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> ನಿಮಿಷಗಳು</item>
+  </plurals>
+  <plurals name="snooze_picker_label">
+    <!-- Duration for one minute -->
+    <item quantity="one">ನಿಮಿಷ</item>
+    <!-- Duration for more than one minute -->
+    <item quantity="other">ನಿಮಿಷಗಳು</item>
+  </plurals>
   <!-- Setting title for changing the crescendo duration. -->
+  <string name="crescendo_duration_title">ಕ್ರಮೇಣವಾಗಿ ಗಾತ್ರವನ್ನು ಹೆಚ್ಚಿಸಿ</string>
   <!-- Summary value for changing the crescendo duration to 0. -->
   <string name="no_crescendo_duration">ಆರಿಸು</string>
   <!-- Summary value for changing the crescendo duration. -->
+  <string name="crescendo_duration"><xliff:g id="ಸಂಖ್ಯೆ" example="7">%s</xliff:g> ಸೆಕೆಂಡುಗಳು</string>
   <!-- Setting label when changing the crescendo duration. -->
   <string name="crescendo_picker_label">ಸೆಕೆಂಡುಗಳು</string>
   <!-- Auto silence preference title -->
@@ -161,13 +256,14 @@
   <!-- Dialog title of the volume and power setting. -->
   <!-- Entries listed in the setting for the side-button action. -->
   <string-array name="volume_button_setting_entries">
-    <item>Snooze</item>
+    <item>ಲಘು ನಿದ್ದೆ</item>
     <item>ವಜಾ ಮಾಡು</item>
     <item>Do nothing</item>
   </string-array>
   <!-- Values for the side-button setting. -->
   <!-- Title of the ringtone setting. -->
   <!-- Accessibility labels for Clock activity buttons -->
+  <string name="alarm_button_description">ಅಲಾರಮ್‌ಗಳು</string>
   <string name="gallery_button_description">ಗ್ಯಾಲರಿ</string>
   <!-- Accessibility labels for alarm buttons -->
   <!-- What to show the user if the weather widget exists but fails to
@@ -180,6 +276,7 @@
   <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
   <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+  <string name="control_set_alarm">ಅಲಾರ್ಮ್ ಹೊಂದಿಸಿ</string>
   <!--  ActionBar strings -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
   <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
@@ -187,6 +284,7 @@
   <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
   <!-- Clock view buttons strings-->
   <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+  <string name="button_alarms">ಅಲಾರಂ ಸೇರಿಸಿ</string>
   <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
   <!-- Describes the purpose of the button which pops up a menu of setting choices -->
   <!-- Menu item on most screens to get to more settings -->
@@ -211,47 +309,83 @@
   <string name="sw_reset_button">ಮರುಹೊಂದಿಸು</string>
   <!-- Stopwatch strings -->
   <!-- Describes the purpose of the button to begin running a stopwatch -->
+  <string name="sw_start_button">ಪ್ರಾರಂಭ</string>
   <!-- Describes the purpose of the button to pause a stopwatch. -->
+  <string name="sw_pause_button">ವಿರಮಿಸಿ</string>
   <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
+  <string name="sw_lap_button">ಲ್ಯಾಪ್</string>
   <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
   <string name="sw_share_button">ಹಂಚಿಕೊಳ್ಳಿ</string>
   <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+  <string name="hours_label">ಗಂ</string>
   <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+  <string name="minutes_label">ನಿ</string>
   <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+  <string name="seconds_label">ಸೆ</string>
   <!-- Accessibility strings -->
   <string name="hours_label_description">ಗಂಟೆಗಳು</string>
   <string name="minutes_label_description">ನಿಮಿಷಗಳು</string>
   <string name="seconds_label_description">ಸೆಕೆಂಡುಗಳು</string>
+  <string name="zero">0</string>
   <!--  Stopwatch share strings -->
   <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
+  <string name="sw_share_main">ನನ್ನ ಸಮಯವು <xliff:g id="ಸಮಯ">%s</xliff:g></string>
   <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
+  <string name="sw_share_laps">ಲ್ಯಾಪ್ ಸಮಯಗಳು:</string>
   <!-- Label to enumerate the number of laps in the notification the user has counted -->
+  <string name="sw_notification_lap_number">ಲ್ಯಾಪ್ <xliff:g id="ಸಂಖ್ಯೆ">%d</xliff:g></string>
   <!-- Stopwatch accessibility strings -->
+  <plurals name="Nhours_description">
+    <!-- 1 hour -->
+    <item quantity="one"><xliff:g id="ಸಂಖ್ಯೆ" example="7">%d</xliff:g> ಗಂಟೆ</item>
+    <!-- more -->
+    <item quantity="other"><xliff:g id="ಸಂಖ್ಯೆ" example="7">%d</xliff:g> ಗಂಟೆಗಳು</item>
+  </plurals>
+  <plurals name="Nminutes_description">
+    <!-- 1 minute -->
+    <item quantity="one">%d ನಿಮಿಷ</item>
+    <!-- more -->
+    <item quantity="other">%d ನಿಮಿಷಗಳು</item>
+  </plurals>
   <!-- timer strings -->
   <!-- Describes the purpose of the button to add a new timer -->
+  <string name="timer_add_timer">ಟೈಮರ್ ಸೇರಿಸು</string>
   <!-- Describes the purpose of the button to begin or continue running a timer -->
+  <string name="timer_start">ಪ್ರಾರಂಭ</string>
   <!-- Describes the purpose of the button to delete a timer. -->
   <string name="timer_delete">ಅಳಿಸು</string>
   <!-- Talkback description for deleting a number. -->
+  <string name="timer_descriptive_delete">ಅಳಿಸು <xliff:g id="ಸಂಖ್ಯೆ">%d</xliff:g></string>
   <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
+  <string name="timer_plus_one">1 ನಿಮಿಷ ಸೇರಿಸು</string>
   <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
+  <string name="timer_plus_1_min">1 ನಿಮಿಷ ಸೇರಿಸು</string>
   <!-- Describes the purpose of the button to stop the timer. -->
+  <string name="timer_stop">ನಿಲ್ಲಿಸು</string>
   <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
+  <string name="timer_stop_all">ಎಲ್ಲ ಟೈಮರ್ ನಿಲ್ಲಿಸು</string>
   <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
   <string name="timer_reset">ಮರುಹೊಂದಿಸು</string>
   <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
   <string name="timer_cancel">ರದ್ದು</string>
   <!-- Accessibility announcement when a timer is canceled. -->
+  <string name="timer_canceled">ಸಮಯ ರದ್ದುಗೊಳಿಸು</string>
   <!-- Notification content shown when a timer has completed and has no more time remaining -->
+  <string name="timer_times_up">ಸಮಯ ಮುಗಿದಿದೆ</string>
   <!--
         Notification content shown when multiple timers have completed and have no more time
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
+  <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS" example="2">%d</xliff:g> ಟೈಮರ್ಸ್ ಅವಧಿ ಮುಗಿದುಹೋಗಿದೆ</string>
   <!-- Label associated with a notification for a Timer -->
+  <string name="timer_notification_label">ಟೈಮರ್</string>
   <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
+  <string name="timers_max_count_reached">ಗರಿಷ್ಠ 4 ಟೈಮರ್ ಗಳು</string>
   <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
+  <string name="timer_pause">ವಿರಮಿಸಿ</string>
   <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
+  <string name="timer_reset_all">ಎಲ್ಲ ಟೈಮರ್ ಗಳನ್ನು ಮರುಹೊಂದಿಸಿ</string>
   <!-- Jocular content that user may append when sharing the lap times -->
   <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
   <string name="home_label">ಮನೆ</string>
@@ -273,9 +407,13 @@
   <string name="time_picker_cancel">ರದ್ದು</string>
   <!-- Textual content of the button to update an alarm with the current dialog values -->
   <string name="time_picker_set">ಸರಿ</string>
+  <string name="time_picker_time_seperator">:</string>
   <!--  place holder for am/pm label when it is not set -->
+  <string name="time_picker_ampm_label">--</string>
   <!-- add 00 as minutes to the time when pressing this button -->
+  <string name="time_picker_00_label">:00</string>
   <!-- add 30 as minutes to the time when pressing this button -->
+  <string name="time_picker_30_label">:30</string>
   <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
@@ -285,8 +423,96 @@
         Ex. "Ann Arbor unchecked"
     -->
   <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
+  <string-array name="timezone_labels">
+    <item>"Marshall Islands"</item>
+    <item>"Midway Island"</item>
+    <item>"Hawaii"</item>
+    <item>"Alaska"</item>
+    <item>"Pacific Time"</item>
+    <item>"Tijuana"</item>
+    <item>"Arizona"</item>
+    <item>"Chihuahua"</item>
+    <item>"Mountain Time"</item>
+    <item>"Central America"</item>
+    <item>"Central Time"</item>
+    <item>"Mexico City"</item>
+    <item>"Saskatchewan"</item>
+    <item>"Bogota"</item>
+    <item>"Eastern Time"</item>
+    <item>"Venezuela"</item>
+    <item>"Atlantic Time (Barbados)"</item>
+    <item>"Atlantic Time (Canada)"</item>
+    <item>"Manaus"</item>
+    <item>"Santiago"</item>
+    <item>"Newfoundland"</item>
+    <item>"Brasilia"</item>
+    <item>"Buenos Aires"</item>
+    <item>"Greenland"</item>
+    <item>"Montevideo"</item>
+    <item>"Mid-Atlantic"</item>
+    <item>"Azores"</item>
+    <item>"Cape Verde Islands"</item>
+    <item>"Casablanca"</item>
+    <item>"ಲಂಡನ್, ಡಬ್ಲಿನ್"</item>
+    <item>"ಆಮ್‌ಸ್ಟರ್‌ಡ್ಯಾಮ್‌, ಬರ್ಲಿನ್"</item>
+    <item>"ಬೆಲ್‌ಗ್ರೇಡ್"</item>
+    <item>"ಬ್ರಸೆಲ್ಸ್"</item>
+    <item>"ಸರಜಿವೊ"</item>
+    <item>"ವಿಂಡ್‌ಹೋಕ್‌"</item>
+    <item>"ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾ ಸಮಯ"</item>
+    <item>"ಅಮ್ಮಾನ್, ಜೋರ್ಡಾನ್"</item>
+    <item>"ಅಥೆನ್ಸ್, ಇಸ್ತಾನ್ಬುಲ್"</item>
+    <item>"ಬೈರುತ್, ಲೆಬನಾನ್"</item>
+    <item>"ಕೈರೋ"</item>
+    <item>"ಹೆಲ್ಸಿನ್ಕಿ"</item>
+    <item>"ಜೆರುಸಲೇಮ್‌"</item>
+    <item>"ಮಿಂಸ್ಕ್"</item>
+    <item>"ಹರಾರೆ"</item>
+    <item>"ಬಾಗ್ದಾದ್"</item>
+    <item>"ಮಾಸ್ಕೋ"</item>
+    <item>"ಕುವೈತ್"</item>
+    <item>"ನೈರೋಬಿ"</item>
+    <item>"ತೆಹ್ರಾನ್‌"</item>
+    <item>"ಬಾಕು"</item>
+    <item>"ಬಿಲಿಸಿ"</item>
+    <item>"ಯರೆವಾನ್"</item>
+    <item>"ದುಬೈ"</item>
+    <item>"ಕಾಬೂಲ್‌"</item>
+    <item>"ಇಸ್ಲಾಮಾಬಾದ್, ಕಾರಾಚಿ"</item>
+    <item>"ಉರಲ್ಸ್"</item>
+    <item>"ಯೆಕಟೇನ್ಬರ್ಗ್"</item>
+    <item>"ಕಲ್ಕತ್ತಾ"</item>
+    <item>"ಶ್ರೀಲಂಕಾ"</item>
+    <item>"ಕಠ್ಮಂಡು"</item>
+    <item>"ಅಸ್ತಾನಾ"</item>
+    <item>"ಯಂಗಾಂವ್"</item>
+    <item>"ಕ್ರಾಸ್ನೊಯಾರ್ಸ್ಕ್"</item>
+    <item>"ಬ್ಯಾಂಕಾಕ್"</item>
+    <item>"ಬೀಜಿಂಗ್‌"</item>
+    <item>"ಹಾಂಗ್‌ ಕಾಂಗ್"</item>
+    <item>"ಇರ್ತುತ್ಸ್ಕ್"</item>
+    <item>"ಕೌಲಾಲಂಪುರ್‌"</item>
+    <item>"ಪರ್ತ್"</item>
+    <item>"ತೈಪಿ"</item>
+    <item>"ಸಿಯೋಲ್"</item>
+    <item>"ಟೋಕಿಯೊ, ಒಸಾಕಾ"</item>
+    <item>"ಯುಕುತ್ಸ್ಕ್"</item>
+    <item>"ಅಡಿಲೇಡ್"</item>
+    <item>"ಡಾರ್ವಿನ್"</item>
+    <item>"ಬ್ರಿಸ್ಬೇನ್‌"</item>
+    <item>"ಹೋಬಾರ್ಟ್"</item>
+    <item>"ಸಿಡ್ನಿ, ಕ್ಯಾನ್ಬೇರ್ರಾ"</item>
+    <item>"ವ್ಲಾಡಿವೋಸ್ತೊಕ್"</item>
+    <item>"Guam"</item>
+    <item>"Magadan"</item>
+    <item>"Auckland"</item>
+    <item>"Fiji"</item>
+    <item>"Tonga"</item>
+    <item>"Jakarta"</item>
+  </string-array>
   <!-- Choices for timezones, must be kept in sync with timezone_values. -->
   <!-- Header in the preferences settings for the section pertaining to alarms -->
+  <string name="alarm_settings">ಅಲಾರಮ್‌ಗಳು</string>
   <!-- Describes the service that processes actions originating from timer notifications. -->
   <!-- Describes the service that processes actions originating from stopwatch notifications. -->
   <!-- Description for the paused stop watch -->
