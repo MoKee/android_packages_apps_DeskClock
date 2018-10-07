@@ -243,7 +243,7 @@
   <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
   <!-- Week start day preference title. -->
-  <string name="week_start_title">Hét kezdőnapja</string>
+  <string name="week_start_title">A Hét kezdőnapja</string>
   <!-- Entries listed in ListPreference for start day. -->
   <string-array name="week_start_entries">
     <item>Szombat</item>
