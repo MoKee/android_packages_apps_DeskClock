@@ -29,5 +29,5 @@
     <item>Semmi</item>
   </string-array>
   <!-- Setting title for accessing the cLock widget settings -->
-  <string name="menu_item_widget_settings">Modul beállítások</string>
+  <string name="menu_item_widget_settings">Kisalkalmazás-beállítások</string>
 </resources>
