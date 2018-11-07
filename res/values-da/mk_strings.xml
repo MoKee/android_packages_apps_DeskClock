@@ -16,6 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Setting labels on Set alarm screen: Workday -->
-  <string name="alarm_workday">Hverdag</string>
+    <!-- Setting labels on Set alarm screen: Workday -->
+    <string name="alarm_workday">Hverdag</string>
 </resources>

@@ -18,110 +18,110 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- -->
-  <!-- Label shown on launcher icon -->
-  <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
-  <string name="app_label">ঘড়ি</string>
-  <!-- Title for AlarmClock activity -->
-  <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="alarm_list_title">অ্যালার্মগুলি</string>
-  <!-- Menu item on Alarm Clock screen: Add alarm -->
-  <string name="add_alarm">অ্যালার্ম জুড়ুন</string>
-  <!-- Menu item on Alarm Clock screen: Desk clock -->
-  <string name="menu_desk_clock">ডেস্ক ঘড়ি</string>
-  <!-- Menu item on Alarm Clock screen: Edit alarm -->
-  <string name="menu_edit_alarm">অ্যালার্ম সম্পাদনা করুন</string>
-  <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
-  <string name="delete_alarm">অ্যালার্ম মুছুন</string>
-  <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
-  <string name="enable_alarm">অ্যালার্ম চালু করুন</string>
-  <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
-  <string name="disable_alarm">অ্যালার্ম বন্ধ করুন</string>
-  <!-- Delete alarm confirmation dialog message. -->
-  <string name="delete_alarm_confirm">এই অ্যালার্ম মুছবেন?</string>
-  <!-- Menu item on Alarm Clock screen: Show clock -->
-  <string name="show_clock">ঘড়ি দেখান</string>
-  <!-- Menu item on Alarm Clock screen: Hide clock -->
-  <string name="hide_clock">ঘড়ি লুকান</string>
-  <!-- Setting label on Set alarm screen: Label -->
-  <string name="label">লেবেল</string>
-  <!-- Content description for alarm on/off switch in On state -->
-  <string name="on_switch">চালু আছে</string>
-  <!-- Content description for alarm on/off switch in Off state -->
-  <string name="off_switch">বন্ধ আছে</string>
-  <!-- Default label to display for an alarm -->
-  <string name="default_label">অ্যালার্ম</string>
-  <!-- Preference category on Alarm Settings screen: Set alarm -->
-  <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="set_alarm">অ্যালার্ম সেট করুন</string>
-  <!-- Setting labels on Set alarm screen: Vibration on or off -->
-  <string name="alarm_vibrate">কম্পন</string>
-  <!-- Setting labels on Set alarm screen: Repeat -->
-  <string name="alarm_repeat">পুনরাবৃত্তি করুন</string>
-  <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
-  <string name="alert">অ্যালার্ম রিংটোন</string>
-  <!-- Title of default ringtone played when a timer expires. -->
-  <string name="default_timer_ringtone_title">টাইমারের মেয়াদ শেষ হয়ে গেছে</string>
-  <!-- Title of silent ringtone played when a timer expires. -->
-  <string name="silent_timer_ringtone_title">নীরব</string>
-  <!-- Label on expanded alarm edit view. -->
-  <string name="ringtone">রিংটোন</string>
-  <!-- Setting labels on Set alarm screen: Set time  -->
-  <string name="time">সময়</string>
-  <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
-  <string name="alarm_tomorrow">আগামীকাল</string>
-  <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
-  <string name="alarm_today">আজ</string>
-  <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
-  <string name="alarm_alert_wake_up">জেগে উঠুন!</string>
-  <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
-  <string name="alarm_alert_off_action_text">বন্ধ করুন</string>
-  <!-- Button labels on the alarm dialog: Dismiss -->
-  <string name="alarm_alert_dismiss_text">খারিজ</string>
-  <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
-  <string name="alarm_alert_dismiss_now_text">এখন খারিজ করুন</string>
-  <!-- Alarm Alert screen: this message is shown after an alarm rung
+    <!-- -->
+    <!-- Label shown on launcher icon -->
+    <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
+    <string name="app_label">ঘড়ি</string>
+    <!-- Title for AlarmClock activity -->
+    <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="alarm_list_title">অ্যালার্মগুলি</string>
+    <!-- Menu item on Alarm Clock screen: Add alarm -->
+    <string name="add_alarm">অ্যালার্ম জুড়ুন</string>
+    <!-- Menu item on Alarm Clock screen: Desk clock -->
+    <string name="menu_desk_clock">ডেস্ক ঘড়ি</string>
+    <!-- Menu item on Alarm Clock screen: Edit alarm -->
+    <string name="menu_edit_alarm">অ্যালার্ম সম্পাদনা করুন</string>
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="delete_alarm">অ্যালার্ম মুছুন</string>
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+    <string name="enable_alarm">অ্যালার্ম চালু করুন</string>
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+    <string name="disable_alarm">অ্যালার্ম বন্ধ করুন</string>
+    <!-- Delete alarm confirmation dialog message. -->
+    <string name="delete_alarm_confirm">এই অ্যালার্ম মুছবেন?</string>
+    <!-- Menu item on Alarm Clock screen: Show clock -->
+    <string name="show_clock">ঘড়ি দেখান</string>
+    <!-- Menu item on Alarm Clock screen: Hide clock -->
+    <string name="hide_clock">ঘড়ি লুকান</string>
+    <!-- Setting label on Set alarm screen: Label -->
+    <string name="label">লেবেল</string>
+    <!-- Content description for alarm on/off switch in On state -->
+    <string name="on_switch">চালু আছে</string>
+    <!-- Content description for alarm on/off switch in Off state -->
+    <string name="off_switch">বন্ধ আছে</string>
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">অ্যালার্ম</string>
+    <!-- Preference category on Alarm Settings screen: Set alarm -->
+    <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="set_alarm">অ্যালার্ম সেট করুন</string>
+    <!-- Setting labels on Set alarm screen: Vibration on or off -->
+    <string name="alarm_vibrate">কম্পন</string>
+    <!-- Setting labels on Set alarm screen: Repeat -->
+    <string name="alarm_repeat">পুনরাবৃত্তি করুন</string>
+    <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+    <string name="alert">অ্যালার্ম রিংটোন</string>
+    <!-- Title of default ringtone played when a timer expires. -->
+    <string name="default_timer_ringtone_title">টাইমারের মেয়াদ শেষ হয়ে গেছে</string>
+    <!-- Title of silent ringtone played when a timer expires. -->
+    <string name="silent_timer_ringtone_title">নীরব</string>
+    <!-- Label on expanded alarm edit view. -->
+    <string name="ringtone">রিংটোন</string>
+    <!-- Setting labels on Set alarm screen: Set time  -->
+    <string name="time">সময়</string>
+    <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
+    <string name="alarm_tomorrow">আগামীকাল</string>
+    <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
+    <string name="alarm_today">আজ</string>
+    <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
+    <string name="alarm_alert_wake_up">জেগে উঠুন!</string>
+    <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
+    <string name="alarm_alert_off_action_text">বন্ধ করুন</string>
+    <!-- Button labels on the alarm dialog: Dismiss -->
+    <string name="alarm_alert_dismiss_text">খারিজ</string>
+    <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+    <string name="alarm_alert_dismiss_now_text">এখন খারিজ করুন</string>
+    <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
-  <string name="alarm_missed_title">মিসড অ্যালার্ম</string>
-  <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+    <string name="alarm_missed_title">মিসড অ্যালার্ম</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <string name="alarm_alert_snoozed_text">পরে মনে করা</string>
-  <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+    <string name="alarm_alert_snoozed_text">পরে মনে করা</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the word 'Snoozed' in two separate lines or example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <plurals name="alarm_alert_snooze_duration">
-    <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> মিনিট</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> মিনিট</item>
-  </plurals>
-  <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
-  <string name="alarm_alert_off_text">অ্যালার্ম বন্ধ</string>
-  <!-- Button labels on the alarm dialog: Snooze -->
-  <string name="alarm_alert_snooze_text">স্নুজ</string>
-  <!-- Toast that appears after Alarm is snoozed from the Alarm
+    <plurals name="alarm_alert_snooze_duration">
+        <!-- Duration for one minute -->
+        <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> মিনিট</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> মিনিট</item>
+    </plurals>
+    <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
+    <string name="alarm_alert_off_text">অ্যালার্ম বন্ধ</string>
+    <!-- Button labels on the alarm dialog: Snooze -->
+    <string name="alarm_alert_snooze_text">স্নুজ</string>
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
-  <plurals name="alarm_alert_snooze_set">
-    <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="MINUTES">%d</xliff:g> মিনিটের জন্য স্নুজ করা হচ্ছে৷</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="MINUTES">%d</xliff:g> মিনিটের জন্য স্নুজ করা হচ্ছে৷</item>
-  </plurals>
-  <!-- Text to appear inside a notification while an alarm is snoozing. -->
-  <string name="alarm_alert_snooze_until"><xliff:g id="TIME">%s</xliff:g> পর্যন্ত স্নুজ হয়ে থাকবে</string>
-  <!-- Text to appear in the notification title while an alarm is about to go off. -->
-  <string name="alarm_alert_predismiss_title">আসন্ন এলার্ম</string>
-  <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
-  <string name="missed_alarm_has_been_deleted">আপনার মিসড অ্যালার্ম মুছে ফেলা হয়েছে</string>
-  <!-- 0: nothing
+    <plurals name="alarm_alert_snooze_set">
+        <!-- Duration for one minute -->
+        <item quantity="one"><xliff:g id="MINUTES">%d</xliff:g> মিনিটের জন্য স্নুজ করা হচ্ছে৷</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="MINUTES">%d</xliff:g> মিনিটের জন্য স্নুজ করা হচ্ছে৷</item>
+    </plurals>
+    <!-- Text to appear inside a notification while an alarm is snoozing. -->
+    <string name="alarm_alert_snooze_until"><xliff:g id="TIME">%s</xliff:g> পর্যন্ত স্নুজ হয়ে থাকবে</string>
+    <!-- Text to appear in the notification title while an alarm is about to go off. -->
+    <string name="alarm_alert_predismiss_title">আসন্ন এলার্ম</string>
+    <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+    <string name="missed_alarm_has_been_deleted">আপনার মিসড অ্যালার্ম মুছে ফেলা হয়েছে</string>
+    <!-- 0: nothing
          1: days
          2:      hours
          3: days hours
@@ -130,707 +130,707 @@
          6:      hours minutes
          7: days hours minutes
     -->
-  <!-- Timer notification: how long from now until timer goes off. -->
-  <string name="timer_notifications_less_min">এক মিনিটেরও কম সময় বাকি আছে</string>
-  <string name="timer_notifications_hours"><xliff:g id="HOURS">%1$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
-  <string name="timer_notifications_minutes"><xliff:g id="MINUTES">%2$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
-  <string name="timer_notifications_hours_minutes"><xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g> বাকি আছে</string>
-  <!--
+    <!-- Timer notification: how long from now until timer goes off. -->
+    <string name="timer_notifications_less_min">এক মিনিটেরও কম সময় বাকি আছে</string>
+    <string name="timer_notifications_hours"><xliff:g id="HOURS">%1$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
+    <string name="timer_notifications_minutes"><xliff:g id="MINUTES">%2$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
+    <string name="timer_notifications_hours_minutes"><xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g> বাকি আছে</string>
+    <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
     -->
-  <string name="timer_remaining_single">বাকি আছে</string>
-  <!--
+    <string name="timer_remaining_single">বাকি আছে</string>
+    <!--
         Verb inflection to use for multiple time units remaining
         Ex. "2 minutes remaining"
     -->
-  <string name="timer_remaining_multiple">বাকি আছে</string>
-  <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
-  <string-array name="alarm_set">
-    <item>এখন থেকে ১ মিনিটের কম সময়ের জন্য অ্যালার্ম সেট করা হয়েছে।</item>
-    <item>এখন থেকে <xliff:g id="DAYS">%1$s</xliff:g> এর জন্য অ্যালার্ম সেট করা হয়েছে।</item>
-    <item>এখন থেকে <xliff:g id="HOURS">%2$s</xliff:g> এর জন্য অ্যালার্ম সেট করা হয়েছে।</item>
-    <item>এখন থেকে <xliff:g id="DAYS">%1$s</xliff:g> ও <xliff:g id="HOURS">%2$s</xliff:g> এর জন্য অ্যালার্ম সেট করা হয়েছে।</item>
-    <item>এখন থেকে <xliff:g id="MINUTES">%3$s</xliff:g> এর জন্য অ্যালার্ম সেট করা হয়েছে।</item>
-    <item>এখন থেকে <xliff:g id="DAYS">%1$s</xliff:g> ও <xliff:g id="MINUTES">%3$s</xliff:g> এর জন্য অ্যালার্ম সেট করা হয়েছে।</item>
-    <item>এখন থেকে <xliff:g id="HOURS">%2$s</xliff:g> ও <xliff:g id="MINUTES">%3$s</xliff:g> এর জন্য অ্যালার্ম সেট করা হয়েছে।</item>
-    <item>এখন থেকে <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g>, ও <xliff:g id="MINUTES">%3$s</xliff:g> এর জন্য অ্যালার্ম সেট করা হয়েছে।</item>
-  </string-array>
-  <!-- Alarm confirmation toast: days -->
-  <plurals name="days">
-    <!-- Duration for one day -->
-    <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> দিন</item>
-    <!-- Duration for more than one day -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> দিন</item>
-  </plurals>
-  <!-- Alarm confirmation toast and timer notification: hours -->
-  <plurals name="hours">
-    <!-- Duration for one hour -->
-    <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> ঘণ্টা</item>
-    <!-- Duration for more than one hour -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ঘণ্টা</item>
-  </plurals>
-  <!-- Alarm confirmation toast and timer notification: minutes -->
-  <plurals name="minutes">
-    <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> মিনিট</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> মিনিট</item>
-  </plurals>
-  <!-- Repeat options that appear under an alarm on main Alarm Clock
+    <string name="timer_remaining_multiple">বাকি আছে</string>
+    <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
+    <string-array name="alarm_set">
+        <item>এখন থেকে ১ মিনিটের কম সময়ের জন্য অ্যালার্ম সেট করা হয়েছে।</item>
+        <item>এখন থেকে <xliff:g id="DAYS">%1$s</xliff:g> এর জন্য অ্যালার্ম সেট করা হয়েছে।</item>
+        <item>এখন থেকে <xliff:g id="HOURS">%2$s</xliff:g> এর জন্য অ্যালার্ম সেট করা হয়েছে।</item>
+        <item>এখন থেকে <xliff:g id="DAYS">%1$s</xliff:g> ও <xliff:g id="HOURS">%2$s</xliff:g> এর জন্য অ্যালার্ম সেট করা হয়েছে।</item>
+        <item>এখন থেকে <xliff:g id="MINUTES">%3$s</xliff:g> এর জন্য অ্যালার্ম সেট করা হয়েছে।</item>
+        <item>এখন থেকে <xliff:g id="DAYS">%1$s</xliff:g> ও <xliff:g id="MINUTES">%3$s</xliff:g> এর জন্য অ্যালার্ম সেট করা হয়েছে।</item>
+        <item>এখন থেকে <xliff:g id="HOURS">%2$s</xliff:g> ও <xliff:g id="MINUTES">%3$s</xliff:g> এর জন্য অ্যালার্ম সেট করা হয়েছে।</item>
+        <item>এখন থেকে <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g>, ও <xliff:g id="MINUTES">%3$s</xliff:g> এর জন্য অ্যালার্ম সেট করা হয়েছে।</item>
+    </string-array>
+    <!-- Alarm confirmation toast: days -->
+    <plurals name="days">
+        <!-- Duration for one day -->
+        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> দিন</item>
+        <!-- Duration for more than one day -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> দিন</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: hours -->
+    <plurals name="hours">
+        <!-- Duration for one hour -->
+        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> ঘণ্টা</item>
+        <!-- Duration for more than one hour -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ঘণ্টা</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: minutes -->
+    <plurals name="minutes">
+        <!-- Duration for one minute -->
+        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> মিনিট</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> মিনিট</item>
+    </plurals>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
-  <string name="every_day">প্রতিদিন</string>
-  <!-- Repeat options that appear under an alarm on main Alarm Clock
+    <string name="every_day">প্রতিদিন</string>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
-  <!-- Appears at the top of the Clock Picker screen: Tell user to
+    <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
-  <string name="clock_instructions">একটি ঘড়ি পছন্দ করুন</string>
-  <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="analog_gadget">অ্যানালগ ঘড়ি</string>
-  <!-- Help activity name -->
-  <string name="help">সহায়তা</string>
-  <!-- Settings activity name -->
-  <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="settings">সেটিংস</string>
-  <!-- Setting title for changing the snooze duration. -->
-  <string name="snooze_duration_title">স্নুজ মেয়াদ</string>
-  <plurals name="snooze_duration">
-    <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> মিনিট</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> মিনিট</item>
-  </plurals>
-  <plurals name="snooze_picker_label">
-    <!-- Duration for one minute -->
-    <item quantity="one">মিনিট</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other">মিনিট</item>
-  </plurals>
-  <!-- Setting title for changing the crescendo duration. -->
-  <string name="crescendo_duration_title">ধীরে ধীরে ভলিউম বড়ান</string>
-  <!-- Summary value for changing the crescendo duration to 0. -->
-  <string name="no_crescendo_duration">বন্ধ</string>
-  <!-- Summary value for changing the crescendo duration. -->
-  <string name="crescendo_duration"><xliff:g id="NUMBER">%s</xliff:g> সেকেন্ড</string>
-  <!-- Setting label when changing the crescendo duration. -->
-  <string name="crescendo_picker_label">সেকেন্ড</string>
-  <!-- Auto silence preference title -->
-  <string name="auto_silence_title">এর পরে নীরব করুন</string>
-  <!-- Auto silence summary string set based on the preference value. -->
-  <plurals name="auto_silence_summary">
-    <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> মিনিট</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> মিনিট</item>
-  </plurals>
-  <!-- Auto silence summary when turned off -->
-  <string name="auto_silence_never">কখনই নয়</string>
-  <!-- Entries listed in the ListPreference when invoking the auto silence
+    <string name="clock_instructions">একটি ঘড়ি পছন্দ করুন</string>
+    <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="analog_gadget">অ্যানালগ ঘড়ি</string>
+    <!-- Help activity name -->
+    <string name="help">সহায়তা</string>
+    <!-- Settings activity name -->
+    <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="settings">সেটিংস</string>
+    <!-- Setting title for changing the snooze duration. -->
+    <string name="snooze_duration_title">স্নুজ মেয়াদ</string>
+    <plurals name="snooze_duration">
+        <!-- Duration for one minute -->
+        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> মিনিট</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> মিনিট</item>
+    </plurals>
+    <plurals name="snooze_picker_label">
+        <!-- Duration for one minute -->
+        <item quantity="one">মিনিট</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">মিনিট</item>
+    </plurals>
+    <!-- Setting title for changing the crescendo duration. -->
+    <string name="crescendo_duration_title">ধীরে ধীরে ভলিউম বড়ান</string>
+    <!-- Summary value for changing the crescendo duration to 0. -->
+    <string name="no_crescendo_duration">বন্ধ</string>
+    <!-- Summary value for changing the crescendo duration. -->
+    <string name="crescendo_duration"><xliff:g id="NUMBER">%s</xliff:g> সেকেন্ড</string>
+    <!-- Setting label when changing the crescendo duration. -->
+    <string name="crescendo_picker_label">সেকেন্ড</string>
+    <!-- Auto silence preference title -->
+    <string name="auto_silence_title">এর পরে নীরব করুন</string>
+    <!-- Auto silence summary string set based on the preference value. -->
+    <plurals name="auto_silence_summary">
+        <!-- Duration for one minute -->
+        <item quantity="one"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> মিনিট</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> মিনিট</item>
+    </plurals>
+    <!-- Auto silence summary when turned off -->
+    <string name="auto_silence_never">কখনই নয়</string>
+    <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
-  <string-array name="auto_silence_entries">
-    <item>১ মিনিট</item>
-    <item>৫ মিনিট</item>
-    <item>১০ মিনিট</item>
-    <item>১৫ মিনিট</item>
-    <item>২০ মিনিট</item>
-    <item>২৫ মিনিট</item>
-    <item>কখনই নয়</item>
-  </string-array>
-  <!-- Values that are retrieved from the ListPreference. These must match
+    <string-array name="auto_silence_entries">
+        <item>১ মিনিট</item>
+        <item>৫ মিনিট</item>
+        <item>১০ মিনিট</item>
+        <item>১৫ মিনিট</item>
+        <item>২০ মিনিট</item>
+        <item>২৫ মিনিট</item>
+        <item>কখনই নয়</item>
+    </string-array>
+    <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
-  <!-- Week start day preference title. -->
-  <string name="week_start_title">এতে সপ্তাহ শুরু হয়</string>
-  <!-- Entries listed in ListPreference for start day. -->
-  <string-array name="week_start_entries">
-    <item>শনিবার</item>
-    <item>রবিবার</item>
-    <item>সোমবার</item>
-  </string-array>
-  <!-- Values for ListPreference for start day of week. -->
-  <!-- Done button when editing an alarm. -->
-  <string name="done">সম্পন্ন</string>
-  <!-- Revert button when editing an alarm. -->
-  <string name="revert">ফেরান</string>
-  <!-- Delete button when editing an alarm. -->
-  <string name="delete">মুছুন</string>
-  <!-- Setting title for changing the alarm volume. -->
-  <string name="alarm_volume_title">অ্যালার্মের ভলিউম</string>
-  <!-- Title for the silent ringtone. -->
-  <string name="silent_ringtone_title">নীরব</string>
-  <!-- Title for ringtones that cannot be located by uri. -->
-  <string name="unknown_ringtone_title">অজানা</string>
-  <!-- Text to display in the small text of the notification -->
-  <string name="alarm_notify_text">অ্যালার্ম স্নুজ বা খারিজ করুন।</string>
-  <!-- Text to display in the notification ticker and label -->
-  <string name="alarm_notify_snooze_label"><xliff:g id="LABEL">%s</xliff:g> (পরে মনে করা)</string>
-  <!-- Text to display in the notification when the alarm has been snoozed -->
-  <string name="alarm_notify_snooze_text"><xliff:g id="TIME">%s</xliff:g> এর জন্য অ্যালার্ম সেট হয়েছে। বাতিল করার জন্য ছোঁন।</string>
-  <!-- Title of the setting to change hardware button behavior. This string
+    <!-- Week start day preference title. -->
+    <string name="week_start_title">এতে সপ্তাহ শুরু হয়</string>
+    <!-- Entries listed in ListPreference for start day. -->
+    <string-array name="week_start_entries">
+        <item>শনিবার</item>
+        <item>রবিবার</item>
+        <item>সোমবার</item>
+    </string-array>
+    <!-- Values for ListPreference for start day of week. -->
+    <!-- Done button when editing an alarm. -->
+    <string name="done">সম্পন্ন</string>
+    <!-- Revert button when editing an alarm. -->
+    <string name="revert">ফেরান</string>
+    <!-- Delete button when editing an alarm. -->
+    <string name="delete">মুছুন</string>
+    <!-- Setting title for changing the alarm volume. -->
+    <string name="alarm_volume_title">অ্যালার্মের ভলিউম</string>
+    <!-- Title for the silent ringtone. -->
+    <string name="silent_ringtone_title">নীরব</string>
+    <!-- Title for ringtones that cannot be located by uri. -->
+    <string name="unknown_ringtone_title">অজানা</string>
+    <!-- Text to display in the small text of the notification -->
+    <string name="alarm_notify_text">অ্যালার্ম স্নুজ বা খারিজ করুন।</string>
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label"><xliff:g id="LABEL">%s</xliff:g> (পরে মনে করা)</string>
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="alarm_notify_snooze_text"><xliff:g id="TIME">%s</xliff:g> এর জন্য অ্যালার্ম সেট হয়েছে। বাতিল করার জন্য ছোঁন।</string>
+    <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
-  <string name="volume_button_setting_title">ভলিউম বোতাম</string>
-  <!-- Dialog title of the volume and power setting. -->
-  <string name="volume_button_dialog_title">বোতাম প্রভাব</string>
-  <!-- Entries listed in the setting for the side-button action. -->
-  <string-array name="volume_button_setting_entries">
-    <item>স্নুজ</item>
-    <item>খারিজ</item>
-    <item>কিছু করবেন না</item>
-  </string-array>
-  <!-- Values for the side-button setting. -->
-  <!-- Title of the ringtone setting. -->
-  <string name="default_ringtone_setting_title">ডিফল্ট রিংটোন সেট করুন</string>
-  <!-- Accessibility labels for Clock activity buttons -->
-  <string name="alarm_button_description">অ্যালার্মগুলি</string>
-  <string name="gallery_button_description">গ্যালারি</string>
-  <string name="music_button_description">সঙ্গীত</string>
-  <string name="nightmode_button_description">অস্পষ্ট</string>
-  <string name="home_button_description">লঞ্চার</string>
-  <string name="desk_clock_button_description">ঘড়ি প্রদর্শন</string>
-  <!-- Accessibility labels for alarm buttons -->
-  <string name="label_description">লেবেল</string>
-  <string name="ringtone_description">রিংটোন</string>
-  <!-- What to show the user if the weather widget exists but fails to
+    <string name="volume_button_setting_title">ভলিউম বোতাম</string>
+    <!-- Dialog title of the volume and power setting. -->
+    <string name="volume_button_dialog_title">বোতাম প্রভাব</string>
+    <!-- Entries listed in the setting for the side-button action. -->
+    <string-array name="volume_button_setting_entries">
+        <item>স্নুজ</item>
+        <item>খারিজ</item>
+        <item>কিছু করবেন না</item>
+    </string-array>
+    <!-- Values for the side-button setting. -->
+    <!-- Title of the ringtone setting. -->
+    <string name="default_ringtone_setting_title">ডিফল্ট রিংটোন সেট করুন</string>
+    <!-- Accessibility labels for Clock activity buttons -->
+    <string name="alarm_button_description">অ্যালার্মগুলি</string>
+    <string name="gallery_button_description">গ্যালারি</string>
+    <string name="music_button_description">সঙ্গীত</string>
+    <string name="nightmode_button_description">অস্পষ্ট</string>
+    <string name="home_button_description">লঞ্চার</string>
+    <string name="desk_clock_button_description">ঘড়ি প্রদর্শন</string>
+    <!-- Accessibility labels for alarm buttons -->
+    <string name="label_description">লেবেল</string>
+    <string name="ringtone_description">রিংটোন</string>
+    <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
          present on the device, we show nothing at all. -->
-  <string name="weather_fetch_failure">ঠিক এ মুহূর্তে আবহাওয়ার তথ্য উপলব্ধ নয়।</string>
-  <!-- A description for the DeskClock alarm sound playback service.
+    <string name="weather_fetch_failure">ঠিক এ মুহূর্তে আবহাওয়ার তথ্য উপলব্ধ নয়।</string>
+    <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="alarm_klaxon_service_desc">ঘড়িতে অ্যালার্মের জন্য সাউন্ড প্লেব্যাক পরিষেবা।</string>
-  <!-- String displayed as the alert summary while loading the alert name from
+    <string name="alarm_klaxon_service_desc">ঘড়িতে অ্যালার্মের জন্য সাউন্ড প্লেব্যাক পরিষেবা।</string>
+    <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
-  <string name="loading_ringtone">রিংটোন লোড হচ্ছে…</string>
-  <!-- A description for the DeskClock timer sound playback service.
+    <string name="loading_ringtone">রিংটোন লোড হচ্ছে…</string>
+    <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="timer_ring_service_desc">ঘড়িতে টাইমারের জন্য সাউন্ড প্লেব্যাক পরিষেবা।</string>
-  <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
-  <string name="control_set_alarm">অ্যালার্ম সেট করুন</string>
-  <!--  ActionBar strings -->
-  <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
-  <string name="menu_alarm">অ্যালার্ম</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
-  <string name="menu_timer">টাইমার</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
-  <string name="menu_clock">ঘড়ি</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
-  <string name="menu_stopwatch">স্টপওয়াচ</string>
-  <!-- Clock view buttons strings-->
-  <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
-  <string name="button_alarms">অ্যালার্ম যোগ করুন</string>
-  <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
-  <string name="button_cities">শহর</string>
-  <!-- Describes the purpose of the button which pops up a menu of setting choices -->
-  <string name="button_menu">আরো বিকল্প</string>
-  <!-- Menu item on most screens to get to more settings -->
-  <string name="menu_item_settings">সেটিংস</string>
-  <!-- Menu item on most screens to get to the help information -->
-  <string name="menu_item_help">সহায়তা</string>
-  <!-- Menu item on clock screen to add world city. -->
-  <!-- Menu item on clock screen to enter night mode. -->
-  <string name="menu_item_night_mode">রাতের মোড</string>
-  <!-- Menu item on Cities screen to sort by GMT offset -->
-  <string name="menu_item_sort_by_gmt_offset">সময়ের ভিত্তিতে বাছাই করুন</string>
-  <!-- Menu item on Cities screen to sort by alphabetical order -->
-  <string name="menu_item_sort_by_name">নাম অনুসারে সাজান</string>
-  <string name="cities_add_loading">লোড হচ্ছে\u2026</string>
-  <!-- Label for selected cities in Cities list view -->
-  <string name="selected_cities_label">নির্বাচন করা শহরগুলি</string>
-  <!-- Stopwatch and Timer shared strings -->
-  <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
-  <string name="sw_resume_button">পুনঃসূচনা</string>
-  <!--
+    <string name="timer_ring_service_desc">ঘড়িতে টাইমারের জন্য সাউন্ড প্লেব্যাক পরিষেবা।</string>
+    <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm">অ্যালার্ম সেট করুন</string>
+    <!--  ActionBar strings -->
+    <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
+    <string name="menu_alarm">অ্যালার্ম</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
+    <string name="menu_timer">টাইমার</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
+    <string name="menu_clock">ঘড়ি</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
+    <string name="menu_stopwatch">স্টপওয়াচ</string>
+    <!-- Clock view buttons strings-->
+    <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+    <string name="button_alarms">অ্যালার্ম যোগ করুন</string>
+    <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
+    <string name="button_cities">শহর</string>
+    <!-- Describes the purpose of the button which pops up a menu of setting choices -->
+    <string name="button_menu">আরো বিকল্প</string>
+    <!-- Menu item on most screens to get to more settings -->
+    <string name="menu_item_settings">সেটিংস</string>
+    <!-- Menu item on most screens to get to the help information -->
+    <string name="menu_item_help">সহায়তা</string>
+    <!-- Menu item on clock screen to add world city. -->
+    <!-- Menu item on clock screen to enter night mode. -->
+    <string name="menu_item_night_mode">রাতের মোড</string>
+    <!-- Menu item on Cities screen to sort by GMT offset -->
+    <string name="menu_item_sort_by_gmt_offset">সময়ের ভিত্তিতে বাছাই করুন</string>
+    <!-- Menu item on Cities screen to sort by alphabetical order -->
+    <string name="menu_item_sort_by_name">নাম অনুসারে সাজান</string>
+    <string name="cities_add_loading">লোড হচ্ছে\u2026</string>
+    <!-- Label for selected cities in Cities list view -->
+    <string name="selected_cities_label">নির্বাচন করা শহরগুলি</string>
+    <!-- Stopwatch and Timer shared strings -->
+    <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
+    <string name="sw_resume_button">পুনঃসূচনা</string>
+    <!--
         Describes the purpose of the button
             for stopwatch: return stopwatch to zero and remove the lap times.
             for timer: return timer to originally set duration.
         [CHAR LIMIT=15]
     -->
-  <string name="sw_reset_button">পুনরায় সেট করুন</string>
-  <!-- Stopwatch strings -->
-  <!-- Describes the purpose of the button to begin running a stopwatch -->
-  <string name="sw_start_button">শুরু করুন</string>
-  <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">বিরাম দিন</string>
-  <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
-  <string name="sw_lap_button">ল্যাপ</string>
-  <!-- Describes the purpose of the button to share the stopwatch value.
+    <string name="sw_reset_button">পুনরায় সেট করুন</string>
+    <!-- Stopwatch strings -->
+    <!-- Describes the purpose of the button to begin running a stopwatch -->
+    <string name="sw_start_button">শুরু করুন</string>
+    <!-- Describes the purpose of the button to pause a stopwatch. -->
+    <string name="sw_pause_button">বিরাম দিন</string>
+    <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
+    <string name="sw_lap_button">ল্যাপ</string>
+    <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
-  <string name="sw_share_button">শেয়ার করুন</string>
-  <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
-  <string name="hours_label">ঘ.</string>
-  <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
-  <string name="minutes_label">মি.</string>
-  <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
-  <string name="seconds_label">সে.</string>
-  <!-- Accessibility strings -->
-  <string name="hours_label_description">ঘণ্টা</string>
-  <string name="minutes_label_description">মিনিট</string>
-  <string name="seconds_label_description">সেকেন্ড</string>
-  <!--  Stopwatch share strings -->
-  <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
-  <string name="sw_share_main">আমার সময় <xliff:g id="TIME">%s</xliff:g></string>
-  <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
-  <string name="sw_share_laps">ল্যাপ সময়:</string>
-  <!-- Label to enumerate the number of laps in the notification the user has counted -->
-  <string name="sw_notification_lap_number"><xliff:g id="NUMBER">%d</xliff:g> টি ল্যাপ</string>
-  <!-- Stopwatch accessibility strings -->
-  <plurals name="Nhours_description">
-    <!-- 1 hour -->
-    <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> ঘণ্টা</item>
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> ঘণ্টা</item>
-  </plurals>
-  <plurals name="Nminutes_description">
-    <!-- 1 minute -->
-    <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> মিনিট</item>
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> মিনিট</item>
-  </plurals>
-  <plurals name="Nseconds_description">
-    <!-- 1 second -->
-    <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> সেকেন্ড</item>
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> সেকেন্ড</item>
-  </plurals>
-  <!-- timer strings -->
-  <!-- Describes the purpose of the button to add a new timer -->
-  <string name="timer_add_timer">টাইমার জুড়ুন</string>
-  <!-- Describes the purpose of the button to begin or continue running a timer -->
-  <string name="timer_start">শুরু করুন</string>
-  <!-- Describes the purpose of the button to delete a timer. -->
-  <string name="timer_delete">মুছুন</string>
-  <!-- Talkback description for deleting a number. -->
-  <string name="timer_descriptive_delete"><xliff:g id="NUMBER_STRING">%s</xliff:g> মুছুন</string>
-  <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
-  <string name="timer_plus_one">1 মিনিট যোগ করুন</string>
-  <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
-  <string name="timer_plus_1_min">1 মিনিট যোগ করুন</string>
-  <!-- Describes the purpose of the button to stop the timer. -->
-  <string name="timer_stop">থামান</string>
-  <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
-  <string name="timer_stop_all">সব টাইমার বন্ধ করুন</string>
-  <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
-  <string name="timer_reset">পুনরায় সেট করুন</string>
-  <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
-  <string name="timer_cancel">বাতিল করুন</string>
-  <!-- Accessibility announcement when a timer is canceled. -->
-  <string name="timer_canceled">টাইমার বাতিল করা হয়েছে</string>
-  <!-- Notification content shown when a timer has completed and has no more time remaining -->
-  <string name="timer_times_up">সময় শেষ</string>
-  <!--
+    <string name="sw_share_button">শেয়ার করুন</string>
+    <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+    <string name="hours_label">ঘ.</string>
+    <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+    <string name="minutes_label">মি.</string>
+    <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+    <string name="seconds_label">সে.</string>
+    <!-- Accessibility strings -->
+    <string name="hours_label_description">ঘণ্টা</string>
+    <string name="minutes_label_description">মিনিট</string>
+    <string name="seconds_label_description">সেকেন্ড</string>
+    <!--  Stopwatch share strings -->
+    <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
+    <string name="sw_share_main">আমার সময় <xliff:g id="TIME">%s</xliff:g></string>
+    <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
+    <string name="sw_share_laps">ল্যাপ সময়:</string>
+    <!-- Label to enumerate the number of laps in the notification the user has counted -->
+    <string name="sw_notification_lap_number"><xliff:g id="NUMBER">%d</xliff:g> টি ল্যাপ</string>
+    <!-- Stopwatch accessibility strings -->
+    <plurals name="Nhours_description">
+        <!-- 1 hour -->
+        <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> ঘণ্টা</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> ঘণ্টা</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <!-- 1 minute -->
+        <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> মিনিট</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> মিনিট</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <!-- 1 second -->
+        <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> সেকেন্ড</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> সেকেন্ড</item>
+    </plurals>
+    <!-- timer strings -->
+    <!-- Describes the purpose of the button to add a new timer -->
+    <string name="timer_add_timer">টাইমার জুড়ুন</string>
+    <!-- Describes the purpose of the button to begin or continue running a timer -->
+    <string name="timer_start">শুরু করুন</string>
+    <!-- Describes the purpose of the button to delete a timer. -->
+    <string name="timer_delete">মুছুন</string>
+    <!-- Talkback description for deleting a number. -->
+    <string name="timer_descriptive_delete"><xliff:g id="NUMBER_STRING">%s</xliff:g> মুছুন</string>
+    <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
+    <string name="timer_plus_one">1 মিনিট যোগ করুন</string>
+    <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
+    <string name="timer_plus_1_min">1 মিনিট যোগ করুন</string>
+    <!-- Describes the purpose of the button to stop the timer. -->
+    <string name="timer_stop">থামান</string>
+    <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
+    <string name="timer_stop_all">সব টাইমার বন্ধ করুন</string>
+    <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
+    <string name="timer_reset">পুনরায় সেট করুন</string>
+    <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
+    <string name="timer_cancel">বাতিল করুন</string>
+    <!-- Accessibility announcement when a timer is canceled. -->
+    <string name="timer_canceled">টাইমার বাতিল করা হয়েছে</string>
+    <!-- Notification content shown when a timer has completed and has no more time remaining -->
+    <string name="timer_times_up">সময় শেষ</string>
+    <!--
         Notification content shown when multiple timers have completed and have no more time
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
-  <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS">%d</xliff:g>টি টাইমারের সময় শেষ হয়েছে</string>
-  <!-- Label associated with a notification for a Timer -->
-  <string name="timer_notification_label">টাইমার</string>
-  <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
-  <string name="timers_max_count_reached">সর্বোচ্চ ৪টি টাইমার</string>
-  <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
-  <string name="timer_pause">বিরাম দিন</string>
-  <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
-  <string name="timer_reset_all">সমস্ত টাইমার পুনরায় সেট করুন</string>
-  <!-- Jocular content that user may append when sharing the lap times -->
-  <string-array name="sw_share_strings" translatable="true">
-    <item>আপনি আসলেই এক গতিময় দৈত্য।</item>
-    <item>আপনার শ্রমের ফসল উপভোগ করুন।</item>
-    <item>অ্যান্ড্রয়েডগুলোকে গতিবান হিসেবে জানি, কিন্তু তারাও আপনার মত দ্রুতগতির নয়!</item>
-    <item>ফু:।</item>
-    <item>L33t গুণ।</item>
-    <item>এমন বিস্ময়কর গতি।</item>
-    <item>চলুন আমরা আবার সময়ের পাকে দৌড় দিই।</item>
-    <item>কেবল বাঁ দিকে এ লাফই যথেষ্ট।</item>
-    <item>তাড়াহুড়োর জন্য আপনার বিশেষ দক্ষতা আছে।</item>
-    <item>আলোর গতি।</item>
-  </string-array>
-  <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
-  <string name="home_label">হোম</string>
-  <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="cities_activity_title">শহর</string>
-  <!-- Settings strings -->
-  <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
-  <string name="clock_settings">ঘড়ি</string>
-  <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
-  <string name="clock_style">শৈলী</string>
-  <!-- Title for preference to change date & time -->
-  <string name="open_date_settings">তারিখ এবং সময় পরিবর্তন করুন</string>
-  <!-- Entries listed in the ListPreference when invoking the clock style
+    <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS">%d</xliff:g>টি টাইমারের সময় শেষ হয়েছে</string>
+    <!-- Label associated with a notification for a Timer -->
+    <string name="timer_notification_label">টাইমার</string>
+    <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
+    <string name="timers_max_count_reached">সর্বোচ্চ ৪টি টাইমার</string>
+    <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
+    <string name="timer_pause">বিরাম দিন</string>
+    <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
+    <string name="timer_reset_all">সমস্ত টাইমার পুনরায় সেট করুন</string>
+    <!-- Jocular content that user may append when sharing the lap times -->
+    <string-array name="sw_share_strings" translatable="true">
+        <item>আপনি আসলেই এক গতিময় দৈত্য।</item>
+        <item>আপনার শ্রমের ফসল উপভোগ করুন।</item>
+        <item>অ্যান্ড্রয়েডগুলোকে গতিবান হিসেবে জানি, কিন্তু তারাও আপনার মত দ্রুতগতির নয়!</item>
+        <item>ফু:।</item>
+        <item>L33t গুণ।</item>
+        <item>এমন বিস্ময়কর গতি।</item>
+        <item>চলুন আমরা আবার সময়ের পাকে দৌড় দিই।</item>
+        <item>কেবল বাঁ দিকে এ লাফই যথেষ্ট।</item>
+        <item>তাড়াহুড়োর জন্য আপনার বিশেষ দক্ষতা আছে।</item>
+        <item>আলোর গতি।</item>
+    </string-array>
+    <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
+    <string name="home_label">হোম</string>
+    <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="cities_activity_title">শহর</string>
+    <!-- Settings strings -->
+    <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
+    <string name="clock_settings">ঘড়ি</string>
+    <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
+    <string name="clock_style">শৈলী</string>
+    <!-- Title for preference to change date & time -->
+    <string name="open_date_settings">তারিখ এবং সময় পরিবর্তন করুন</string>
+    <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
-  <string-array name="clock_style_entries">
-    <item>অ্যানালগ</item>
-    <item>ডিজিটাল</item>
-  </string-array>
-  <!-- Values that are retrieved from the ListPreference. These must match
+    <string-array name="clock_style_entries">
+        <item>অ্যানালগ</item>
+        <item>ডিজিটাল</item>
+    </string-array>
+    <!-- Values that are retrieved from the ListPreference. These must match
          the clock_style_entries above. -->
-  <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
-  <string name="automatic_home_clock">স্বয়ংক্রিয়ভাবে দেশের সময় দেখান</string>
-  <!-- Describes the functionality provided by the automatic_home_clock option -->
-  <string name="automatic_home_clock_summary">ভিন্ন সময়ের কোনো স্থানে ভ্রমনের সময় নিজের দেশের সময় দেখার জন্য একটি ঘড়ি জুড়ুন</string>
-  <!-- Title in the preferences change the time zone for the user's home -->
-  <string name="home_time_zone">হোম সময় অঞ্চল</string>
-  <!-- Title in a list dialog box to pick a time zone for the user's home -->
-  <string name="home_time_zone_title">হোম সময় অঞ্চল</string>
-  <!-- Textual content of the button to discard the current dialog values and close the dialog -->
-  <string name="time_picker_cancel">বাতিল করুন</string>
-  <!-- Textual content of the button to update an alarm with the current dialog values -->
-  <string name="time_picker_set">ঠিক আছে</string>
-  <!--  place holder for am/pm label when it is not set -->
-  <!-- add 00 as minutes to the time when pressing this button -->
-  <!-- add 30 as minutes to the time when pressing this button -->
-  <!--
+    <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
+    <string name="automatic_home_clock">স্বয়ংক্রিয়ভাবে দেশের সময় দেখান</string>
+    <!-- Describes the functionality provided by the automatic_home_clock option -->
+    <string name="automatic_home_clock_summary">ভিন্ন সময়ের কোনো স্থানে ভ্রমনের সময় নিজের দেশের সময় দেখার জন্য একটি ঘড়ি জুড়ুন</string>
+    <!-- Title in the preferences change the time zone for the user's home -->
+    <string name="home_time_zone">হোম সময় অঞ্চল</string>
+    <!-- Title in a list dialog box to pick a time zone for the user's home -->
+    <string name="home_time_zone_title">হোম সময় অঞ্চল</string>
+    <!-- Textual content of the button to discard the current dialog values and close the dialog -->
+    <string name="time_picker_cancel">বাতিল করুন</string>
+    <!-- Textual content of the button to update an alarm with the current dialog values -->
+    <string name="time_picker_set">ঠিক আছে</string>
+    <!--  place holder for am/pm label when it is not set -->
+    <!-- add 00 as minutes to the time when pressing this button -->
+    <!-- add 30 as minutes to the time when pressing this button -->
+    <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
     -->
-  <string name="city_checked"><xliff:g id="CITY_NAME">%s</xliff:g> এ টিক চিহ্ন দেওয়া হয়েছে</string>
-  <!--
+    <string name="city_checked"><xliff:g id="CITY_NAME">%s</xliff:g> এ টিক চিহ্ন দেওয়া হয়েছে</string>
+    <!--
         Accessibility string read when a city checkbox is unchecked.
         Ex. "Ann Arbor unchecked"
     -->
-  <string name="city_unchecked"><xliff:g id="CITY_NAME">%s</xliff:g> থেকে টিক চিহ্ন সরানো হয়েছে</string>
-  <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
-  <string-array name="timezone_labels">
-    <item>"মার্শাল আইল্যান্ডস"</item>
-    <item>"মিডওয়ে আইল্যান্ড"</item>
-    <item>"হাওয়াই"</item>
-    <item>"আলাস্কা"</item>
-    <item>"প্রশান্ত মহাসাগরীয় সময়"</item>
-    <item>"তিয়াওয়ানা"</item>
-    <item>"আরিজোনা"</item>
-    <item>"চিহুয়াহুয়া"</item>
-    <item>"পার্বত্য সময়"</item>
-    <item>"মধ্য আমেরিকা"</item>
-    <item>"কেন্দ্রীয় সময়"</item>
-    <item>"মেক্সিকো সিটি"</item>
-    <item>"সাসকাচেওয়ান"</item>
-    <item>"বোগোটা"</item>
-    <item>"পূর্বাঞ্চলীয় সময়"</item>
-    <item>"ভেনেজুয়েলা"</item>
-    <item>"আটলান্টিক সময় (বার্বাডোজ)"</item>
-    <item>"আটলান্টিক সময় (কানাডা)"</item>
-    <item>"মানাউস"</item>
-    <item>"সান্টিয়াগো"</item>
-    <item>"নিউফাউন্ডল্যান্ড"</item>
-    <item>"ব্রাসিলিয়া"</item>
-    <item>"বুয়েনস আইরাস"</item>
-    <item>"গ্রীনল্যান্ড"</item>
-    <item>"মন্টেভিডিও"</item>
-    <item>"মধ্য-আটলান্টিক"</item>
-    <item>"অ্যাজোরেস"</item>
-    <item>"কেপ ভার্দ আইল্যান্ডস"</item>
-    <item>"কাসাব্লাঙ্কা"</item>
-    <item>"লন্ডন, ডাবলিন"</item>
-    <item>"আমসটার্ডাম, বার্লিন"</item>
-    <item>"বেলগ্রেড"</item>
-    <item>"ব্রাসেলস"</item>
-    <item>"সারাজেভো"</item>
-    <item>"উইনহোক"</item>
-    <item>"প. আফ্রিকা সময়"</item>
-    <item>"আম্মান, জর্ডান"</item>
-    <item>"এথেনস, ইস্তানবুল"</item>
-    <item>"বৈরুত, লেবানন"</item>
-    <item>"কায়রো"</item>
-    <item>"হেলসিঙ্কি"</item>
-    <item>"জেরুজালেম"</item>
-    <item>"মিন্সক"</item>
-    <item>"হারারে"</item>
-    <item>"বাগদাদ"</item>
-    <item>"মস্কো"</item>
-    <item>"কুয়েত"</item>
-    <item>"নাইরোবি"</item>
-    <item>"তেহরান"</item>
-    <item>"বাকু"</item>
-    <item>"তিবলিসি"</item>
-    <item>"ইয়েরাভান"</item>
-    <item>"দুবাই"</item>
-    <item>"কাবুল"</item>
-    <item>"ইসলামাবাদ, করাচি"</item>
-    <item>"উরালস্ক"</item>
-    <item>"ইয়েকাটেরিনবার্গ"</item>
-    <item>"কোলকাতা"</item>
-    <item>"শ্রীলঙ্কা"</item>
-    <item>"কাঠমান্ডু"</item>
-    <item>"আসটানা"</item>
-    <item>"ইয়াংগন"</item>
-    <item>"ক্রাসনোইয়ার্স্ক"</item>
-    <item>"ব্যাংকক"</item>
-    <item>"বেইজিং"</item>
-    <item>"হংকং"</item>
-    <item>"ইর্কুট্স্ক"</item>
-    <item>"কুয়ালালামপুর"</item>
-    <item>"পার্থ"</item>
-    <item>"তাইপেই"</item>
-    <item>"সিউল"</item>
-    <item>"টোকিও, ওসাকা"</item>
-    <item>"ইয়াকুট্স্ক"</item>
-    <item>"এ্যাডেলেইড"</item>
-    <item>"ডারউইন"</item>
-    <item>"ব্রিসবেন"</item>
-    <item>"হোবার্ট"</item>
-    <item>"সিডনি, ক্যানবেরা"</item>
-    <item>"ভ্লাদিভস্তোক"</item>
-    <item>"গুয়াম"</item>
-    <item>"ম্যাগাডান"</item>
-    <item>"অকল্যান্ড"</item>
-    <item>"ফিজি"</item>
-    <item>"টোঙ্গা"</item>
-    <item>"জাকার্তা"</item>
-  </string-array>
-  <!-- Choices for timezones, must be kept in sync with timezone_values. -->
-  <!-- Header in the preferences settings for the section pertaining to alarms -->
-  <string name="alarm_settings">অ্যালার্মগুলি</string>
-  <!-- Describes the service that processes actions originating from timer notifications. -->
-  <string name="timer_service_desc">টাইমার বিজ্ঞপ্তিগুলি থেকে কাজগুলি প্রক্রিয়া করে</string>
-  <!-- Describes the service that processes actions originating from stopwatch notifications. -->
-  <string name="stopwatch_service_desc">স্টপওয়াচ বিজ্ঞপ্তিগুলি থেকে কাজগুলি প্রক্রিয়া করে</string>
-  <!-- Description for the paused stop watch -->
-  <string name="swn_paused">বিরাম দেওয়া হয়েছে</string>
-  <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
+    <string name="city_unchecked"><xliff:g id="CITY_NAME">%s</xliff:g> থেকে টিক চিহ্ন সরানো হয়েছে</string>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
+    <string-array name="timezone_labels">
+        <item>"মার্শাল আইল্যান্ডস"</item>
+        <item>"মিডওয়ে আইল্যান্ড"</item>
+        <item>"হাওয়াই"</item>
+        <item>"আলাস্কা"</item>
+        <item>"প্রশান্ত মহাসাগরীয় সময়"</item>
+        <item>"তিয়াওয়ানা"</item>
+        <item>"আরিজোনা"</item>
+        <item>"চিহুয়াহুয়া"</item>
+        <item>"পার্বত্য সময়"</item>
+        <item>"মধ্য আমেরিকা"</item>
+        <item>"কেন্দ্রীয় সময়"</item>
+        <item>"মেক্সিকো সিটি"</item>
+        <item>"সাসকাচেওয়ান"</item>
+        <item>"বোগোটা"</item>
+        <item>"পূর্বাঞ্চলীয় সময়"</item>
+        <item>"ভেনেজুয়েলা"</item>
+        <item>"আটলান্টিক সময় (বার্বাডোজ)"</item>
+        <item>"আটলান্টিক সময় (কানাডা)"</item>
+        <item>"মানাউস"</item>
+        <item>"সান্টিয়াগো"</item>
+        <item>"নিউফাউন্ডল্যান্ড"</item>
+        <item>"ব্রাসিলিয়া"</item>
+        <item>"বুয়েনস আইরাস"</item>
+        <item>"গ্রীনল্যান্ড"</item>
+        <item>"মন্টেভিডিও"</item>
+        <item>"মধ্য-আটলান্টিক"</item>
+        <item>"অ্যাজোরেস"</item>
+        <item>"কেপ ভার্দ আইল্যান্ডস"</item>
+        <item>"কাসাব্লাঙ্কা"</item>
+        <item>"লন্ডন, ডাবলিন"</item>
+        <item>"আমসটার্ডাম, বার্লিন"</item>
+        <item>"বেলগ্রেড"</item>
+        <item>"ব্রাসেলস"</item>
+        <item>"সারাজেভো"</item>
+        <item>"উইনহোক"</item>
+        <item>"প. আফ্রিকা সময়"</item>
+        <item>"আম্মান, জর্ডান"</item>
+        <item>"এথেনস, ইস্তানবুল"</item>
+        <item>"বৈরুত, লেবানন"</item>
+        <item>"কায়রো"</item>
+        <item>"হেলসিঙ্কি"</item>
+        <item>"জেরুজালেম"</item>
+        <item>"মিন্সক"</item>
+        <item>"হারারে"</item>
+        <item>"বাগদাদ"</item>
+        <item>"মস্কো"</item>
+        <item>"কুয়েত"</item>
+        <item>"নাইরোবি"</item>
+        <item>"তেহরান"</item>
+        <item>"বাকু"</item>
+        <item>"তিবলিসি"</item>
+        <item>"ইয়েরাভান"</item>
+        <item>"দুবাই"</item>
+        <item>"কাবুল"</item>
+        <item>"ইসলামাবাদ, করাচি"</item>
+        <item>"উরালস্ক"</item>
+        <item>"ইয়েকাটেরিনবার্গ"</item>
+        <item>"কোলকাতা"</item>
+        <item>"শ্রীলঙ্কা"</item>
+        <item>"কাঠমান্ডু"</item>
+        <item>"আসটানা"</item>
+        <item>"ইয়াংগন"</item>
+        <item>"ক্রাসনোইয়ার্স্ক"</item>
+        <item>"ব্যাংকক"</item>
+        <item>"বেইজিং"</item>
+        <item>"হংকং"</item>
+        <item>"ইর্কুট্স্ক"</item>
+        <item>"কুয়ালালামপুর"</item>
+        <item>"পার্থ"</item>
+        <item>"তাইপেই"</item>
+        <item>"সিউল"</item>
+        <item>"টোকিও, ওসাকা"</item>
+        <item>"ইয়াকুট্স্ক"</item>
+        <item>"এ্যাডেলেইড"</item>
+        <item>"ডারউইন"</item>
+        <item>"ব্রিসবেন"</item>
+        <item>"হোবার্ট"</item>
+        <item>"সিডনি, ক্যানবেরা"</item>
+        <item>"ভ্লাদিভস্তোক"</item>
+        <item>"গুয়াম"</item>
+        <item>"ম্যাগাডান"</item>
+        <item>"অকল্যান্ড"</item>
+        <item>"ফিজি"</item>
+        <item>"টোঙ্গা"</item>
+        <item>"জাকার্তা"</item>
+    </string-array>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. -->
+    <!-- Header in the preferences settings for the section pertaining to alarms -->
+    <string name="alarm_settings">অ্যালার্মগুলি</string>
+    <!-- Describes the service that processes actions originating from timer notifications. -->
+    <string name="timer_service_desc">টাইমার বিজ্ঞপ্তিগুলি থেকে কাজগুলি প্রক্রিয়া করে</string>
+    <!-- Describes the service that processes actions originating from stopwatch notifications. -->
+    <string name="stopwatch_service_desc">স্টপওয়াচ বিজ্ঞপ্তিগুলি থেকে কাজগুলি প্রক্রিয়া করে</string>
+    <!-- Description for the paused stop watch -->
+    <string name="swn_paused">বিরাম দেওয়া হয়েছে</string>
+    <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
          be on the right even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_right">খারিজ করতে সোয়াইপ করুন</string>
-  <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
+    <string name="description_direction_right">খারিজ করতে সোয়াইপ করুন</string>
+    <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_left">পরে মনে করিয়ে দিতে বামে সোয়াইপ করুন</string>
-  <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
+    <string name="description_direction_left">পরে মনে করিয়ে দিতে বামে সোয়াইপ করুন</string>
+    <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_both">মনে করিয়ে দিতে বাঁ দিকে বা খারিজ করতে ডান দিকে সোয়াইপ করুন</string>
-  <!-- Header in the preferences settings for the section pertaining to timers. -->
-  <string name="timer_settings">টাইমারগুলো</string>
-  <!-- Description for timer ringtone setting. -->
-  <string name="timer_ringtone_title">টাইমার রিংয়ের শব্দ</string>
-  <!-- Description when timer is stopped. -->
-  <string name="timer_stopped">টাইমার থেমেছে</string>
-  <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
-  <string name="timer_paused">টাইমারে বিরাম দেওয়া হয়েছে</string>
-  <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
-  <string name="timers_stopped"><xliff:g id="NUMBER">%d</xliff:g>টি টাইমারে বিরাম দেওয়া হয়েছে</string>
-  <!-- Notification text when multiple timers are paused. -->
-  <string name="all_timers_stopped_notif">আপনার টাইমারগুলি দেখার জন্য ছোঁন</string>
-  <!-- Notification title when at least one timer, of those in use, is counting down. -->
-  <string name="timers_in_use"><xliff:g id="NUMBER">%d</xliff:g> টি টাইমার</string>
-  <!-- Notification text when at least one timer, of those in use, is counting down. -->
-  <string name="next_timer_notif">পরবর্তী টাইমার: <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
-  <!-- screensaver settings strings -->
-  <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="screensaver_settings">স্ক্রিনসেভার সেটিংস</string>
-  <!-- Title for check box to pick intensity of display diminuation during dream mode -->
-  <string name="night_mode_title">রাতের মোড</string>
-  <!-- Describes intensity of display diminuation during dream mode -->
-  <string name="night_mode_summary">অত্যন্ত অস্পষ্ট প্রদর্শন (অন্ধকার ঘরের জন্য)</string>
-  <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
-  <string name="expand_alarm">অ্যালার্ম প্রসারিত করুন</string>
-  <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
-  <string name="collapse_alarm">অ্যালার্ম সঙ্কুচিত করুন</string>
-  <!-- Description of the button to undo change to alarm -->
-  <string name="alarm_undo">পূর্বাবস্থায় ফিরুন</string>
-  <!-- Toast content when an alarm was deleted  -->
-  <string name="alarm_deleted">অ্যালার্ম মুছে ফেলা হয়েছে</string>
-  <!-- Select the source of the alarm -->
-  <!-- Select the ringtone as alarm -->
-  <!-- Select the alarm from external device -->
-  <string name="alarm_select_external">সঙ্গীত</string>
-  <!-- Ok for selection -->
-  <!-- Cancel for selection -->
-  <!-- slash between date and next alarm in the clock -->
-  <string name="slash">/</string>
-  <!-- slash between date and next alarm in the clock -->
-  <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
-  <string name="next_alarm_description">পরবর্তী অ্যালার্ম: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
-  <!-- Displays the number of alarms selected from the list of alarms. -->
-  <string name="alarms_selected"><xliff:g id="ALARMS">%d</xliff:g> নির্বাচন করা হয়েছে</string>
-  <!-- message used by the talkback accessibility app to say that something was deleted -->
-  <string name="deleted_message">মোছা হয়েছে৷</string>
-  <!-- Alarm deletion confirmation message-->
-  <plurals name="alarm_delete_confirmation">
-    <!-- Confirmation for one alarm -->
-    <item quantity="one">নির্বাচিত অ্যালার্মগুলি মুছে ফেলতে চান?</item>
-    <!-- Confirmation more than one alarm  -->
-    <item quantity="other">নির্বাচিত অ্যালার্মগুলি মুছে ফেলতে চান?</item>
-  </plurals>
-  <!-- Timer deletion confirmation -->
-  <string name="timer_delete_confirmation">এই টাইমার মুছবেন?</string>
-  <!-- world clock deletion confirmation -->
-  <string name="city_delete_confirmation">এই শহর সরাবেন?</string>
-  <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="digital_gadget">ডিজিটাল ঘড়ি</string>
-  <!-- format strings for clocks -->
-  <!-- Font size for AM/PM should match widget_label_font_size -->
-  <!-- Font size for AM/PM should match bottom_text_size -->
-  <!-- Font size for AM/PM should match label_font_size -->
-  <!-- Font size for AM/PM should match alarm_label_size -->
-  <!-- String for no alarms -->
-  <string name="no_alarms">কোনো অ্যালার্ম নাই</string>
-  <!-- String for no alarms set [CHAR LIMIT=24] -->
-  <string name="no_alarms_set">কোনো অ্যালার্ম সেট করা নেই</string>
-  <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
-  <string name="no_upcoming_alarms">কোনো আসন্ন অ্যালার্ম নাই</string>
-  <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
+    <string name="description_direction_both">মনে করিয়ে দিতে বাঁ দিকে বা খারিজ করতে ডান দিকে সোয়াইপ করুন</string>
+    <!-- Header in the preferences settings for the section pertaining to timers. -->
+    <string name="timer_settings">টাইমারগুলো</string>
+    <!-- Description for timer ringtone setting. -->
+    <string name="timer_ringtone_title">টাইমার রিংয়ের শব্দ</string>
+    <!-- Description when timer is stopped. -->
+    <string name="timer_stopped">টাইমার থেমেছে</string>
+    <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
+    <string name="timer_paused">টাইমারে বিরাম দেওয়া হয়েছে</string>
+    <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
+    <string name="timers_stopped"><xliff:g id="NUMBER">%d</xliff:g>টি টাইমারে বিরাম দেওয়া হয়েছে</string>
+    <!-- Notification text when multiple timers are paused. -->
+    <string name="all_timers_stopped_notif">আপনার টাইমারগুলি দেখার জন্য ছোঁন</string>
+    <!-- Notification title when at least one timer, of those in use, is counting down. -->
+    <string name="timers_in_use"><xliff:g id="NUMBER">%d</xliff:g> টি টাইমার</string>
+    <!-- Notification text when at least one timer, of those in use, is counting down. -->
+    <string name="next_timer_notif">পরবর্তী টাইমার: <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
+    <!-- screensaver settings strings -->
+    <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="screensaver_settings">স্ক্রিনসেভার সেটিংস</string>
+    <!-- Title for check box to pick intensity of display diminuation during dream mode -->
+    <string name="night_mode_title">রাতের মোড</string>
+    <!-- Describes intensity of display diminuation during dream mode -->
+    <string name="night_mode_summary">অত্যন্ত অস্পষ্ট প্রদর্শন (অন্ধকার ঘরের জন্য)</string>
+    <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
+    <string name="expand_alarm">অ্যালার্ম প্রসারিত করুন</string>
+    <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
+    <string name="collapse_alarm">অ্যালার্ম সঙ্কুচিত করুন</string>
+    <!-- Description of the button to undo change to alarm -->
+    <string name="alarm_undo">পূর্বাবস্থায় ফিরুন</string>
+    <!-- Toast content when an alarm was deleted  -->
+    <string name="alarm_deleted">অ্যালার্ম মুছে ফেলা হয়েছে</string>
+    <!-- Select the source of the alarm -->
+    <!-- Select the ringtone as alarm -->
+    <!-- Select the alarm from external device -->
+    <string name="alarm_select_external">সঙ্গীত</string>
+    <!-- Ok for selection -->
+    <!-- Cancel for selection -->
+    <!-- slash between date and next alarm in the clock -->
+    <string name="slash">/</string>
+    <!-- slash between date and next alarm in the clock -->
+    <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
+    <string name="next_alarm_description">পরবর্তী অ্যালার্ম: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
+    <!-- Displays the number of alarms selected from the list of alarms. -->
+    <string name="alarms_selected"><xliff:g id="ALARMS">%d</xliff:g> নির্বাচন করা হয়েছে</string>
+    <!-- message used by the talkback accessibility app to say that something was deleted -->
+    <string name="deleted_message">মোছা হয়েছে৷</string>
+    <!-- Alarm deletion confirmation message-->
+    <plurals name="alarm_delete_confirmation">
+        <!-- Confirmation for one alarm -->
+        <item quantity="one">নির্বাচিত অ্যালার্মগুলি মুছে ফেলতে চান?</item>
+        <!-- Confirmation more than one alarm  -->
+        <item quantity="other">নির্বাচিত অ্যালার্মগুলি মুছে ফেলতে চান?</item>
+    </plurals>
+    <!-- Timer deletion confirmation -->
+    <string name="timer_delete_confirmation">এই টাইমার মুছবেন?</string>
+    <!-- world clock deletion confirmation -->
+    <string name="city_delete_confirmation">এই শহর সরাবেন?</string>
+    <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="digital_gadget">ডিজিটাল ঘড়ি</string>
+    <!-- format strings for clocks -->
+    <!-- Font size for AM/PM should match widget_label_font_size -->
+    <!-- Font size for AM/PM should match bottom_text_size -->
+    <!-- Font size for AM/PM should match label_font_size -->
+    <!-- Font size for AM/PM should match alarm_label_size -->
+    <!-- String for no alarms -->
+    <string name="no_alarms">কোনো অ্যালার্ম নাই</string>
+    <!-- String for no alarms set [CHAR LIMIT=24] -->
+    <string name="no_alarms_set">কোনো অ্যালার্ম সেট করা নেই</string>
+    <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
+    <string name="no_upcoming_alarms">কোনো আসন্ন অ্যালার্ম নাই</string>
+    <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
      or 27:68pm.
     First %d represents hour, second %d represents minutes, %s represents am/pm,
     If no am/pm is passed in (e.g. the locale uses 24h time) only hour and minute are printed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_time">অবৈধ সময় <xliff:g id="INVALID_HOUR">%d</xliff:g>:<xliff:g id="INVALID_MINUTES">%d</xliff:g> <xliff:g id="INVALID_AMPM">%s</xliff:g></string>
-  <!-- String that represents that no alarm has been specified for a requested hour:minutes.
+    <string name="invalid_time">অবৈধ সময় <xliff:g id="INVALID_HOUR">%d</xliff:g>:<xliff:g id="INVALID_MINUTES">%d</xliff:g> <xliff:g id="INVALID_AMPM">%s</xliff:g></string>
+    <!-- String that represents that no alarm has been specified for a requested hour:minutes.
     This happens when a user sends a voice command 'dismiss my alarm at 3:00pm' but they have no
     alarms specified for that time. %s represents the time of the alarm.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_at"><xliff:g id="ALARM_TIME_HOUR">%d</xliff:g>:<xliff:g id="ALARM_TIME_MINUTES">%d</xliff:g> -এ কোনো অ্যালার্ম নেই</string>
-  <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
+    <string name="no_alarm_at"><xliff:g id="ALARM_TIME_HOUR">%d</xliff:g>:<xliff:g id="ALARM_TIME_MINUTES">%d</xliff:g> -এ কোনো অ্যালার্ম নেই</string>
+    <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
     a user sends a voice command 'dismiss next alarm' or 'dismiss all of my alarms' but they have
     no alarms scheduled in the app.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_scheduled_alarms">কোনো সময়সূচী নেই</string>
-  <!-- String that represents that the user specified that they want to select an alarm to
+    <string name="no_scheduled_alarms">কোনো সময়সূচী নেই</string>
+    <!-- String that represents that the user specified that they want to select an alarm to
     dismiss by specifying a 'label' but they didn't specify any labels.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_label_specified">কোনো লেবেল নির্দিষ্ট করা নেই</string>
-  <!-- String that represents that no alarm has been specified for a requested label.
+    <string name="no_label_specified">কোনো লেবেল নির্দিষ্ট করা নেই</string>
+    <!-- String that represents that no alarm has been specified for a requested label.
     This happens when a user sends a voice command 'dismiss my alarm with label pick up kids'
      but they have no alarms with that label.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarms_with_label">লেবেলটিতে কোনো অ্যালার্ম নির্দিষ্ট করা নেই</string>
-  <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
+    <string name="no_alarms_with_label">লেবেলটিতে কোনো অ্যালার্ম নির্দিষ্ট করা নেই</string>
+    <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
     'lap the stopwatch' when the stopwatch wasn't running so the command wasn't executed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_isnt_running">স্টপওয়াচ চলছে না</string>
-  <!-- String that represents that the user has successfully sent a voice command pausing
+    <string name="stopwatch_isnt_running">স্টপওয়াচ চলছে না</string>
+    <!-- String that represents that the user has successfully sent a voice command pausing
      the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_paused">স্টপ ওয়াচকে বিরাম দেওয়া হয়েছে</string>
-  <!-- String that represents that the user has successfully sent a voice command resetting
+    <string name="stopwatch_paused">স্টপ ওয়াচকে বিরাম দেওয়া হয়েছে</string>
+    <!-- String that represents that the user has successfully sent a voice command resetting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_reset">স্টপওয়াচ পুনরায় সেট হয়েছে</string>
-  <!-- String that represents that the user has successfully sent a voice command lapping
+    <string name="stopwatch_reset">স্টপওয়াচ পুনরায় সেট হয়েছে</string>
+    <!-- String that represents that the user has successfully sent a voice command lapping
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_lapped">স্টপওয়াচ ল্যাপ করা হয়েছে</string>
-  <!-- String that represents that the user has successfully sent a voice command starting
+    <string name="stopwatch_lapped">স্টপওয়াচ ল্যাপ করা হয়েছে</string>
+    <!-- String that represents that the user has successfully sent a voice command starting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_started">স্টপওয়াচ শুরু হয়েছে</string>
-  <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
+    <string name="stopwatch_started">স্টপওয়াচ শুরু হয়েছে</string>
+    <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
     there was no alarm scheduled for that time (they might have had an alarm for 3pm on the list
     but it was disabled).
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_scheduled_for_this_time">এই সময়ের জন্য কোনো অ্যালার্ম পূর্বনির্ধারিত করা নেই</string>
-  <!-- String that represents that the user has dismissed an alarm through a voice action.
+    <string name="no_alarm_scheduled_for_this_time">এই সময়ের জন্য কোনো অ্যালার্ম পূর্বনির্ধারিত করা নেই</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_dismissed"><xliff:g id="ALARM_TIME">%s</xliff:g> অ্যালার্ম খারিজ করা হয়েছে</string>
-  <!-- String that represents that the user has dismissed an alarm through a voice action.
+    <string name="alarm_is_dismissed"><xliff:g id="ALARM_TIME">%s</xliff:g> অ্যালার্ম খারিজ করা হয়েছে</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_set"><xliff:g id="ALARM_TIME">%s</xliff:g> -এ অ্যালার্ম সেট করা আছে</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action when
+    <string name="alarm_is_set"><xliff:g id="ALARM_TIME">%s</xliff:g> -এ অ্যালার্ম সেট করা আছে</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action when
     no timers are defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_timers_exist">কোনো টাইমার বিদ্যমান নেই</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action when
+    <string name="no_timers_exist">কোনো টাইমার বিদ্যমান নেই</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action when
     more than one timer is defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="too_many_timers_exist">একটির থেকে বেশি টাইমার বিদ্যমান</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action but
+    <string name="too_many_timers_exist">একটির থেকে বেশি টাইমার বিদ্যমান</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action but
     the timer could not be located.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_does_not_exist">টাইমরটিকে সরানো হয়েছে৷</string>
-  <!-- String that represents that the user has successfully created a timer through a voice action.
+    <string name="timer_does_not_exist">টাইমরটিকে সরানো হয়েছে৷</string>
+    <!-- String that represents that the user has successfully created a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_created">টাইমার তৈরি হয়েছে</string>
-  <!-- String that represents that the user has successfully reset a timer through a voice action.
+    <string name="timer_created">টাইমার তৈরি হয়েছে</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_was_reset">টাইমার পুনরায় সেট করা হয়েছে</string>
-  <!-- String that represents that the user has successfully reset a timer through a voice action
+    <string name="timer_was_reset">টাইমার পুনরায় সেট করা হয়েছে</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action
     that was marked as deleteAfterUse and was thus deleted instead.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_deleted">টাইমার মুছে ফেলা হয়েছে</string>
-  <!-- String that represents that the user has successfully started a timer through a voice action.
+    <string name="timer_deleted">টাইমার মুছে ফেলা হয়েছে</string>
+    <!-- String that represents that the user has successfully started a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_started">টাইমার শুরু হয়েছে</string>
-  <!-- String that represents that the user attempted to start a timer through a voice action
+    <string name="timer_started">টাইমার শুরু হয়েছে</string>
+    <!-- String that represents that the user attempted to start a timer through a voice action
     but specified invalid length.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_timer_length">অবৈধ টাইমার দৈর্ঘ্য</string>
-  <!-- String that represents that the user attempted to add or delete a world clock through
+    <string name="invalid_timer_length">অবৈধ টাইমার দৈর্ঘ্য</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but they didn't specify a city so no world clock was selected.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_city_selected">কোনো শহর নির্বাচিত নেই</string>
-  <!-- String that represents that the user attempted to add or delete a world clock through
+    <string name="no_city_selected">কোনো শহর নির্বাচিত নেই</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but the city they specified wasn't listed in the database.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_you_specified_is_not_available">আপনার নির্দিষ্ট করা শহরটি উপলব্ধ নেই</string>
-  <!-- String that represents that the user attempted to add a world clock through a voice action
+    <string name="the_city_you_specified_is_not_available">আপনার নির্দিষ্ট করা শহরটি উপলব্ধ নেই</string>
+    <!-- String that represents that the user attempted to add a world clock through a voice action
     but the city they specified is already added to the list.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_already_added">এই শহরটি ইতিমধ্যেই যোগ করা হয়েছে</string>
-  <!-- String that represents that the user successfully added a world clock through a
+    <string name="the_city_already_added">এই শহরটি ইতিমধ্যেই যোগ করা হয়েছে</string>
+    <!-- String that represents that the user successfully added a world clock through a
     voice action
     %s represents the name of the city they added.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_added"><xliff:g id="CITY_NAME">%s</xliff:g> যোগ করা হয়েছে</string>
-  <!-- String that represents that the user successfully deleted a world clock through
+    <string name="city_added"><xliff:g id="CITY_NAME">%s</xliff:g> যোগ করা হয়েছে</string>
+    <!-- String that represents that the user successfully deleted a world clock through
     a voice action
     %s represents the name of the city they deleted.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_deleted"><xliff:g id="CITY_NAME">%s</xliff:g> মুছে ফেলা হয়েছে</string>
-  <!-- String that represents that the user attempted to dismiss an alarm that is more than
+    <string name="city_deleted"><xliff:g id="CITY_NAME">%s</xliff:g> মুছে ফেলা হয়েছে</string>
+    <!-- String that represents that the user attempted to dismiss an alarm that is more than
     24 hours away
     %s represents the time of the alarm (e.g. 15:39)
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away"><xliff:g id="ALARM_TIME">%s</xliff:g> অ্যালার্ম এখনো খারিজ করা যাবে না, এখনো পর্যন্ত প্রায় ২৪ ঘণ্টা দূরে রয়েছে</string>
-  <!-- String that shows up in the action bar for the Picker Activity
+    <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away"><xliff:g id="ALARM_TIME">%s</xliff:g> অ্যালার্ম এখনো খারিজ করা যাবে না, এখনো পর্যন্ত প্রায় ২৪ ঘণ্টা দূরে রয়েছে</string>
+    <!-- String that shows up in the action bar for the Picker Activity
          where a use gets to pick which alarm to dismiss
    [CHAR LIMIT=NONE]
    -->
-  <string name="dismiss_alarm">অ্যালার্ম খারিজ করুন</string>
-  <!-- String that represents that further action is needed from the user in case their
+    <string name="dismiss_alarm">অ্যালার্ম খারিজ করুন</string>
+    <!-- String that represents that further action is needed from the user in case their
     voice command was ambiguous or there are more than 1 alarms that match their request.
     The user needs to choose an alarm they want to dismiss through the UI
    [CHAR LIMIT=NONE]
    -->
-  <string name="pick_alarm_to_dismiss">কোন অ্যালার্ম খারিজ করবেন তা বাছুন</string>
-  <!-- String that represents that the user doesn't have any alarms firing at the moment.
+    <string name="pick_alarm_to_dismiss">কোন অ্যালার্ম খারিজ করবেন তা বাছুন</string>
+    <!-- String that represents that the user doesn't have any alarms firing at the moment.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_firing_alarms">কোনো অগ্নিসংযোগের অ্যালার্ম নেই</string>
-  <!-- String that represents that the user has snoozed an alarm through a voice action for 10
+    <string name="no_firing_alarms">কোনো অগ্নিসংযোগের অ্যালার্ম নেই</string>
+    <!-- String that represents that the user has snoozed an alarm through a voice action for 10
     minutes.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_snoozed"><xliff:g id="ALARM_TIME">%s</xliff:g> অ্যালার্ম ১০ মিনিটে মনে করিয়ে দেওয়ার জন্য চিহ্নিত করা হয়েছে</string>
-  <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
-  <!-- Ringtone selection default" -->
-  <!--used for prompt to user storage permission status-->
+    <string name="alarm_is_snoozed"><xliff:g id="ALARM_TIME">%s</xliff:g> অ্যালার্ম ১০ মিনিটে মনে করিয়ে দেওয়ার জন্য চিহ্নিত করা হয়েছে</string>
+    <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+    <!-- Ringtone selection default" -->
+    <!--used for prompt to user storage permission status-->
 </resources>

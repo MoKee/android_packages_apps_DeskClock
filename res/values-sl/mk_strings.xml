@@ -16,8 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Setting labels on Set alarm screen: Workday -->
-  <string name="alarm_workday">Delavne dni</string>
-  <string name="update_permissions_button_text">POSODOBITVENA DOVOLJENJA</string>
-  <string name="missing_read_calendar_permission_text">DeskClock zahteva dovoljenje za branje podatkov koledarja.</string>
+    <!-- Setting labels on Set alarm screen: Workday -->
+    <string name="alarm_workday">Delavne dni</string>
+    <string name="update_permissions_button_text">POSODOBITVENA DOVOLJENJA</string>
+    <string name="missing_read_calendar_permission_text">DeskClock zahteva dovoljenje za branje podatkov koledarja.</string>
 </resources>

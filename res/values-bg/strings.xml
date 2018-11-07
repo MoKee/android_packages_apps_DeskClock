@@ -18,110 +18,110 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- -->
-  <!-- Label shown on launcher icon -->
-  <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
-  <string name="app_label">Часовник</string>
-  <!-- Title for AlarmClock activity -->
-  <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="alarm_list_title">Будилници</string>
-  <!-- Menu item on Alarm Clock screen: Add alarm -->
-  <string name="add_alarm">Добавяне на будилник</string>
-  <!-- Menu item on Alarm Clock screen: Desk clock -->
-  <string name="menu_desk_clock">Настолен часовник</string>
-  <!-- Menu item on Alarm Clock screen: Edit alarm -->
-  <string name="menu_edit_alarm">Редактиране на будилника</string>
-  <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
-  <string name="delete_alarm">Изтриване на будилника</string>
-  <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
-  <string name="enable_alarm">Включване на будилника</string>
-  <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
-  <string name="disable_alarm">Изключване на будилника</string>
-  <!-- Delete alarm confirmation dialog message. -->
-  <string name="delete_alarm_confirm">Да се изтрие ли този будилник?</string>
-  <!-- Menu item on Alarm Clock screen: Show clock -->
-  <string name="show_clock">Показване на часовника</string>
-  <!-- Menu item on Alarm Clock screen: Hide clock -->
-  <string name="hide_clock">Скриване на часовника</string>
-  <!-- Setting label on Set alarm screen: Label -->
-  <string name="label">Етикет</string>
-  <!-- Content description for alarm on/off switch in On state -->
-  <string name="on_switch">Включено</string>
-  <!-- Content description for alarm on/off switch in Off state -->
-  <string name="off_switch">Изключено</string>
-  <!-- Default label to display for an alarm -->
-  <string name="default_label">Будилник</string>
-  <!-- Preference category on Alarm Settings screen: Set alarm -->
-  <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="set_alarm">Навиване на будилника</string>
-  <!-- Setting labels on Set alarm screen: Vibration on or off -->
-  <string name="alarm_vibrate">Вибриране</string>
-  <!-- Setting labels on Set alarm screen: Repeat -->
-  <string name="alarm_repeat">Да се повтаря</string>
-  <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
-  <string name="alert">Мелодия на будилника</string>
-  <!-- Title of default ringtone played when a timer expires. -->
-  <string name="default_timer_ringtone_title">Изтичане на времето на таймера</string>
-  <!-- Title of silent ringtone played when a timer expires. -->
-  <string name="silent_timer_ringtone_title">Тих режим</string>
-  <!-- Label on expanded alarm edit view. -->
-  <string name="ringtone">Мелодия</string>
-  <!-- Setting labels on Set alarm screen: Set time  -->
-  <string name="time">Час</string>
-  <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
-  <string name="alarm_tomorrow">Утре</string>
-  <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
-  <string name="alarm_today">днес</string>
-  <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
-  <string name="alarm_alert_wake_up">Събуди се!</string>
-  <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
-  <string name="alarm_alert_off_action_text">Изкл.</string>
-  <!-- Button labels on the alarm dialog: Dismiss -->
-  <string name="alarm_alert_dismiss_text">Отхвърляне</string>
-  <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
-  <string name="alarm_alert_dismiss_now_text">Отхвърляне сега</string>
-  <!-- Alarm Alert screen: this message is shown after an alarm rung
+    <!-- -->
+    <!-- Label shown on launcher icon -->
+    <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
+    <string name="app_label">Часовник</string>
+    <!-- Title for AlarmClock activity -->
+    <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="alarm_list_title">Будилници</string>
+    <!-- Menu item on Alarm Clock screen: Add alarm -->
+    <string name="add_alarm">Добавяне на будилник</string>
+    <!-- Menu item on Alarm Clock screen: Desk clock -->
+    <string name="menu_desk_clock">Настолен часовник</string>
+    <!-- Menu item on Alarm Clock screen: Edit alarm -->
+    <string name="menu_edit_alarm">Редактиране на будилника</string>
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="delete_alarm">Изтриване на будилника</string>
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+    <string name="enable_alarm">Включване на будилника</string>
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+    <string name="disable_alarm">Изключване на будилника</string>
+    <!-- Delete alarm confirmation dialog message. -->
+    <string name="delete_alarm_confirm">Да се изтрие ли този будилник?</string>
+    <!-- Menu item on Alarm Clock screen: Show clock -->
+    <string name="show_clock">Показване на часовника</string>
+    <!-- Menu item on Alarm Clock screen: Hide clock -->
+    <string name="hide_clock">Скриване на часовника</string>
+    <!-- Setting label on Set alarm screen: Label -->
+    <string name="label">Етикет</string>
+    <!-- Content description for alarm on/off switch in On state -->
+    <string name="on_switch">Включено</string>
+    <!-- Content description for alarm on/off switch in Off state -->
+    <string name="off_switch">Изключено</string>
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">Будилник</string>
+    <!-- Preference category on Alarm Settings screen: Set alarm -->
+    <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="set_alarm">Навиване на будилника</string>
+    <!-- Setting labels on Set alarm screen: Vibration on or off -->
+    <string name="alarm_vibrate">Вибриране</string>
+    <!-- Setting labels on Set alarm screen: Repeat -->
+    <string name="alarm_repeat">Да се повтаря</string>
+    <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+    <string name="alert">Мелодия на будилника</string>
+    <!-- Title of default ringtone played when a timer expires. -->
+    <string name="default_timer_ringtone_title">Изтичане на времето на таймера</string>
+    <!-- Title of silent ringtone played when a timer expires. -->
+    <string name="silent_timer_ringtone_title">Тих режим</string>
+    <!-- Label on expanded alarm edit view. -->
+    <string name="ringtone">Мелодия</string>
+    <!-- Setting labels on Set alarm screen: Set time  -->
+    <string name="time">Час</string>
+    <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
+    <string name="alarm_tomorrow">Утре</string>
+    <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
+    <string name="alarm_today">днес</string>
+    <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
+    <string name="alarm_alert_wake_up">Събуди се!</string>
+    <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
+    <string name="alarm_alert_off_action_text">Изкл.</string>
+    <!-- Button labels on the alarm dialog: Dismiss -->
+    <string name="alarm_alert_dismiss_text">Отхвърляне</string>
+    <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+    <string name="alarm_alert_dismiss_now_text">Отхвърляне сега</string>
+    <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
-  <string name="alarm_missed_title">Пропуснат будилник</string>
-  <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+    <string name="alarm_missed_title">Пропуснат будилник</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <string name="alarm_alert_snoozed_text">Отложено</string>
-  <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+    <string name="alarm_alert_snoozed_text">Отложено</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the word 'Snoozed' in two separate lines or example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <plurals name="alarm_alert_snooze_duration">
-    <!-- Duration for one minute -->
-    <item quantity="one">1 мин</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> мин</item>
-  </plurals>
-  <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
-  <string name="alarm_alert_off_text">Буд. е изкл.</string>
-  <!-- Button labels on the alarm dialog: Snooze -->
-  <string name="alarm_alert_snooze_text">Отлагане</string>
-  <!-- Toast that appears after Alarm is snoozed from the Alarm
+    <plurals name="alarm_alert_snooze_duration">
+        <!-- Duration for one minute -->
+        <item quantity="one">1 мин</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> мин</item>
+    </plurals>
+    <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
+    <string name="alarm_alert_off_text">Буд. е изкл.</string>
+    <!-- Button labels on the alarm dialog: Snooze -->
+    <string name="alarm_alert_snooze_text">Отлагане</string>
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
-  <plurals name="alarm_alert_snooze_set">
-    <!-- Duration for one minute -->
-    <item quantity="one">Отлагане за 1 минута.</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other">Отлагане за <xliff:g id="MINUTES">%d</xliff:g> минути.</item>
-  </plurals>
-  <!-- Text to appear inside a notification while an alarm is snoozing. -->
-  <string name="alarm_alert_snooze_until">Отлагане до <xliff:g id="TIME">%s</xliff:g></string>
-  <!-- Text to appear in the notification title while an alarm is about to go off. -->
-  <string name="alarm_alert_predismiss_title">Предстоящ будилник</string>
-  <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
-  <string name="missed_alarm_has_been_deleted">Пропуснатият ви будилник е изтрит</string>
-  <!-- 0: nothing
+    <plurals name="alarm_alert_snooze_set">
+        <!-- Duration for one minute -->
+        <item quantity="one">Отлагане за 1 минута.</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">Отлагане за <xliff:g id="MINUTES">%d</xliff:g> минути.</item>
+    </plurals>
+    <!-- Text to appear inside a notification while an alarm is snoozing. -->
+    <string name="alarm_alert_snooze_until">Отлагане до <xliff:g id="TIME">%s</xliff:g></string>
+    <!-- Text to appear in the notification title while an alarm is about to go off. -->
+    <string name="alarm_alert_predismiss_title">Предстоящ будилник</string>
+    <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+    <string name="missed_alarm_has_been_deleted">Пропуснатият ви будилник е изтрит</string>
+    <!-- 0: nothing
          1: days
          2:      hours
          3: days hours
@@ -130,734 +130,734 @@
          6:      hours minutes
          7: days hours minutes
     -->
-  <!-- Timer notification: how long from now until timer goes off. -->
-  <string name="timer_notifications_less_min">Остава по-малко от минута</string>
-  <string name="timer_notifications_hours"><xliff:g id="REMAINING"> %3$s</xliff:g> <xliff:g id="HOURS">%1$s</xliff:g></string>
-  <string name="timer_notifications_minutes"><xliff:g id="REMAINING"> %3$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g></string>
-  <string name="timer_notifications_hours_minutes">Остават <xliff:g id="HOURS">%1$s</xliff:g> и <xliff:g id="MINUTES">%2$s</xliff:g></string>
-  <!--
+    <!-- Timer notification: how long from now until timer goes off. -->
+    <string name="timer_notifications_less_min">Остава по-малко от минута</string>
+    <string name="timer_notifications_hours"><xliff:g id="REMAINING"> %3$s</xliff:g> <xliff:g id="HOURS">%1$s</xliff:g></string>
+    <string name="timer_notifications_minutes"><xliff:g id="REMAINING"> %3$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g></string>
+    <string name="timer_notifications_hours_minutes">Остават <xliff:g id="HOURS">%1$s</xliff:g> и <xliff:g id="MINUTES">%2$s</xliff:g></string>
+    <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
     -->
-  <string name="timer_remaining_single">Остава</string>
-  <!--
+    <string name="timer_remaining_single">Остава</string>
+    <!--
         Verb inflection to use for multiple time units remaining
         Ex. "2 minutes remaining"
     -->
-  <string name="timer_remaining_multiple">Остават</string>
-  <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
-  <string-array name="alarm_set">
-    <item>Будилникът e настроен за след по-малко от минута.</item>
-    <item>Будилникът е настроен за след <xliff:g id="DAYS">%1$s</xliff:g>.</item>
-    <item>Будилникът е настроен за след <xliff:g id="HOURS">%2$s</xliff:g>.</item>
-    <item>Будилникът е настроен за след <xliff:g id="DAYS">%1$s</xliff:g> и <xliff:g id="HOURS">%2$s</xliff:g>.</item>
-    <item>Будилникът е настроен за след <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
-    <item>Будилникът е настроен за след <xliff:g id="DAYS">%1$s</xliff:g> и <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
-    <item>Будилникът е настроен за след <xliff:g id="HOURS">%2$s</xliff:g> и <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
-    <item>Будилникът е настроен за след <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> и <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
-  </string-array>
-  <!-- Alarm confirmation toast: days -->
-  <plurals name="days">
-    <!-- Duration for one day -->
-    <item quantity="one">1 ден</item>
-    <!-- Duration for more than one day -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> дни</item>
-  </plurals>
-  <!-- Alarm confirmation toast and timer notification: hours -->
-  <plurals name="hours">
-    <!-- Duration for one hour -->
-    <item quantity="one">1 час</item>
-    <!-- Duration for more than one hour -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> часа</item>
-  </plurals>
-  <!-- Alarm confirmation toast and timer notification: minutes -->
-  <plurals name="minutes">
-    <!-- Duration for one minute -->
-    <item quantity="one">1 минута</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> минути</item>
-  </plurals>
-  <!-- Repeat options that appear under an alarm on main Alarm Clock
+    <string name="timer_remaining_multiple">Остават</string>
+    <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
+    <string-array name="alarm_set">
+        <item>Будилникът e настроен за след по-малко от минута.</item>
+        <item>Будилникът е настроен за след <xliff:g id="DAYS">%1$s</xliff:g>.</item>
+        <item>Будилникът е настроен за след <xliff:g id="HOURS">%2$s</xliff:g>.</item>
+        <item>Будилникът е настроен за след <xliff:g id="DAYS">%1$s</xliff:g> и <xliff:g id="HOURS">%2$s</xliff:g>.</item>
+        <item>Будилникът е настроен за след <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
+        <item>Будилникът е настроен за след <xliff:g id="DAYS">%1$s</xliff:g> и <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
+        <item>Будилникът е настроен за след <xliff:g id="HOURS">%2$s</xliff:g> и <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
+        <item>Будилникът е настроен за след <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> и <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
+    </string-array>
+    <!-- Alarm confirmation toast: days -->
+    <plurals name="days">
+        <!-- Duration for one day -->
+        <item quantity="one">1 ден</item>
+        <!-- Duration for more than one day -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> дни</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: hours -->
+    <plurals name="hours">
+        <!-- Duration for one hour -->
+        <item quantity="one">1 час</item>
+        <!-- Duration for more than one hour -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> часа</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: minutes -->
+    <plurals name="minutes">
+        <!-- Duration for one minute -->
+        <item quantity="one">1 минута</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> минути</item>
+    </plurals>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
-  <string name="every_day">всеки ден</string>
-  <!-- Repeat options that appear under an alarm on main Alarm Clock
+    <string name="every_day">всеки ден</string>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
-  <string name="day_concat">", "</string>
-  <!-- Appears at the top of the Clock Picker screen: Tell user to
+    <string name="day_concat">", "</string>
+    <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
-  <string name="clock_instructions">Избор на часовник</string>
-  <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="analog_gadget">Аналогов часовник</string>
-  <!-- Help activity name -->
-  <string name="help">помощ</string>
-  <!-- Settings activity name -->
-  <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="settings">Настройки</string>
-  <!-- Setting title for changing the snooze duration. -->
-  <string name="snooze_duration_title">Продължителност на отлагането</string>
-  <plurals name="snooze_duration">
-    <!-- Duration for one minute -->
-    <item quantity="one">1 минута</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> минути</item>
-  </plurals>
-  <plurals name="snooze_picker_label">
-    <!-- Duration for one minute -->
-    <item quantity="one"> минута</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"> минути</item>
-  </plurals>
-  <!-- Setting title for changing the crescendo duration. -->
-  <string name="crescendo_duration_title">Постепенно увеличаване на силата на звука</string>
-  <!-- Summary value for changing the crescendo duration to 0. -->
-  <string name="no_crescendo_duration">Изключено</string>
-  <!-- Summary value for changing the crescendo duration. -->
-  <string name="crescendo_duration"><xliff:g id="NUMBER">%s</xliff:g> секунди</string>
-  <!-- Setting label when changing the crescendo duration. -->
-  <string name="crescendo_picker_label">секунди</string>
-  <!-- Auto silence preference title -->
-  <string name="auto_silence_title">Заглушаване след</string>
-  <!-- Auto silence summary string set based on the preference value. -->
-  <plurals name="auto_silence_summary">
-    <!-- Duration for one minute -->
-    <item quantity="one">1 минута</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> минути</item>
-  </plurals>
-  <!-- Auto silence summary when turned off -->
-  <string name="auto_silence_never">Никога</string>
-  <string name="default_auto_silence_value">10</string>
-  <!-- Entries listed in the ListPreference when invoking the auto silence
+    <string name="clock_instructions">Избор на часовник</string>
+    <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="analog_gadget">Аналогов часовник</string>
+    <!-- Help activity name -->
+    <string name="help">помощ</string>
+    <!-- Settings activity name -->
+    <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="settings">Настройки</string>
+    <!-- Setting title for changing the snooze duration. -->
+    <string name="snooze_duration_title">Продължителност на отлагането</string>
+    <plurals name="snooze_duration">
+        <!-- Duration for one minute -->
+        <item quantity="one">1 минута</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> минути</item>
+    </plurals>
+    <plurals name="snooze_picker_label">
+        <!-- Duration for one minute -->
+        <item quantity="one">минута</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">минути</item>
+    </plurals>
+    <!-- Setting title for changing the crescendo duration. -->
+    <string name="crescendo_duration_title">Постепенно увеличаване на силата на звука</string>
+    <!-- Summary value for changing the crescendo duration to 0. -->
+    <string name="no_crescendo_duration">Изключено</string>
+    <!-- Summary value for changing the crescendo duration. -->
+    <string name="crescendo_duration"><xliff:g id="NUMBER">%s</xliff:g> секунди</string>
+    <!-- Setting label when changing the crescendo duration. -->
+    <string name="crescendo_picker_label">секунди</string>
+    <!-- Auto silence preference title -->
+    <string name="auto_silence_title">Заглушаване след</string>
+    <!-- Auto silence summary string set based on the preference value. -->
+    <plurals name="auto_silence_summary">
+        <!-- Duration for one minute -->
+        <item quantity="one">1 минута</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> минути</item>
+    </plurals>
+    <!-- Auto silence summary when turned off -->
+    <string name="auto_silence_never">Никога</string>
+    <string name="default_auto_silence_value">10</string>
+    <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
-  <string-array name="auto_silence_entries">
-    <item>1 минута</item>
-    <item>5 минути</item>
-    <item>10 минути</item>
-    <item>15 минути</item>
-    <item>20 минути</item>
-    <item>25 минути</item>
-    <item>Никога</item>
-  </string-array>
-  <!-- Values that are retrieved from the ListPreference. These must match
+    <string-array name="auto_silence_entries">
+        <item>1 минута</item>
+        <item>5 минути</item>
+        <item>10 минути</item>
+        <item>15 минути</item>
+        <item>20 минути</item>
+        <item>25 минути</item>
+        <item>Никога</item>
+    </string-array>
+    <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
-  <!-- Week start day preference title. -->
-  <string name="week_start_title">Седмицата започва от</string>
-  <!-- Entries listed in ListPreference for start day. -->
-  <string-array name="week_start_entries">
-    <item>събота</item>
-    <item>неделя</item>
-    <item>понеделник</item>
-  </string-array>
-  <!-- Values for ListPreference for start day of week. -->
-  <!-- Done button when editing an alarm. -->
-  <string name="done">Готово</string>
-  <!-- Revert button when editing an alarm. -->
-  <string name="revert">Възстановяване</string>
-  <!-- Delete button when editing an alarm. -->
-  <string name="delete">Изтриване</string>
-  <!-- Setting title for changing the alarm volume. -->
-  <string name="alarm_volume_title">Сила на звука на будилника</string>
-  <!-- Title for the silent ringtone. -->
-  <string name="silent_ringtone_title">Тих режим</string>
-  <!-- Title for ringtones that cannot be located by uri. -->
-  <string name="unknown_ringtone_title">Неизвестно</string>
-  <!-- Text to display in the small text of the notification -->
-  <string name="alarm_notify_text">Отлагане или отхвърлянe на будилника.</string>
-  <!-- Text to display in the notification ticker and label -->
-  <string name="alarm_notify_snooze_label"><xliff:g id="LABEL">%s</xliff:g> (отложено)</string>
-  <!-- Text to display in the notification when the alarm has been snoozed -->
-  <string name="alarm_notify_snooze_text">Будилникът е настроен за <xliff:g id="TIME">%s</xliff:g>. Докоснете, за да анулирате.</string>
-  <!-- Title of the setting to change hardware button behavior. This string
+    <!-- Week start day preference title. -->
+    <string name="week_start_title">Седмицата започва от</string>
+    <!-- Entries listed in ListPreference for start day. -->
+    <string-array name="week_start_entries">
+        <item>събота</item>
+        <item>неделя</item>
+        <item>понеделник</item>
+    </string-array>
+    <!-- Values for ListPreference for start day of week. -->
+    <!-- Done button when editing an alarm. -->
+    <string name="done">Готово</string>
+    <!-- Revert button when editing an alarm. -->
+    <string name="revert">Възстановяване</string>
+    <!-- Delete button when editing an alarm. -->
+    <string name="delete">Изтриване</string>
+    <!-- Setting title for changing the alarm volume. -->
+    <string name="alarm_volume_title">Сила на звука на будилника</string>
+    <!-- Title for the silent ringtone. -->
+    <string name="silent_ringtone_title">Тих режим</string>
+    <!-- Title for ringtones that cannot be located by uri. -->
+    <string name="unknown_ringtone_title">Неизвестно</string>
+    <!-- Text to display in the small text of the notification -->
+    <string name="alarm_notify_text">Отлагане или отхвърлянe на будилника.</string>
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label"><xliff:g id="LABEL">%s</xliff:g> (отложено)</string>
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="alarm_notify_snooze_text">Будилникът е настроен за <xliff:g id="TIME">%s</xliff:g>. Докоснете, за да анулирате.</string>
+    <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
-  <string name="volume_button_setting_title">Бутони за силата на звука</string>
-  <!-- Dialog title of the volume and power setting. -->
-  <string name="volume_button_dialog_title">Ефект на бутона</string>
-  <!-- Entries listed in the setting for the side-button action. -->
-  <string-array name="volume_button_setting_entries">
-    <item>Отлагане</item>
-    <item>Отхвърляне</item>
-    <item>Да не се прави нищо</item>
-  </string-array>
-  <!-- Values for the side-button setting. -->
-  <!-- Title of the ringtone setting. -->
-  <string name="default_ringtone_setting_title">Задаване на стандартна мелодия</string>
-  <!-- Accessibility labels for Clock activity buttons -->
-  <string name="alarm_button_description">Будилници</string>
-  <string name="gallery_button_description">Галерия</string>
-  <string name="music_button_description">Музика</string>
-  <string name="nightmode_button_description">Затъмняване</string>
-  <string name="home_button_description">Стартов панел</string>
-  <string name="desk_clock_button_description">Показване на часовника</string>
-  <!-- Accessibility labels for alarm buttons -->
-  <string name="label_description">Етикет</string>
-  <string name="ringtone_description">Мелодия</string>
-  <!-- What to show the user if the weather widget exists but fails to
+    <string name="volume_button_setting_title">Бутони за силата на звука</string>
+    <!-- Dialog title of the volume and power setting. -->
+    <string name="volume_button_dialog_title">Ефект на бутона</string>
+    <!-- Entries listed in the setting for the side-button action. -->
+    <string-array name="volume_button_setting_entries">
+        <item>Отлагане</item>
+        <item>Отхвърляне</item>
+        <item>Да не се прави нищо</item>
+    </string-array>
+    <!-- Values for the side-button setting. -->
+    <!-- Title of the ringtone setting. -->
+    <string name="default_ringtone_setting_title">Задаване на стандартна мелодия</string>
+    <!-- Accessibility labels for Clock activity buttons -->
+    <string name="alarm_button_description">Будилници</string>
+    <string name="gallery_button_description">Галерия</string>
+    <string name="music_button_description">Музика</string>
+    <string name="nightmode_button_description">Затъмняване</string>
+    <string name="home_button_description">Стартов панел</string>
+    <string name="desk_clock_button_description">Показване на часовника</string>
+    <!-- Accessibility labels for alarm buttons -->
+    <string name="label_description">Етикет</string>
+    <string name="ringtone_description">Мелодия</string>
+    <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
          present on the device, we show nothing at all. -->
-  <string name="weather_fetch_failure">В момента няма информация за времето.</string>
-  <!-- A description for the DeskClock alarm sound playback service.
+    <string name="weather_fetch_failure">В момента няма информация за времето.</string>
+    <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="alarm_klaxon_service_desc">Услуга за възпроизвеждане на звук за будилниците, зададени в часовника.</string>
-  <!-- String displayed as the alert summary while loading the alert name from
+    <string name="alarm_klaxon_service_desc">Услуга за възпроизвеждане на звук за будилниците, зададени в часовника.</string>
+    <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
-  <string name="loading_ringtone">Мелодията се зарежда...</string>
-  <!-- A description for the DeskClock timer sound playback service.
+    <string name="loading_ringtone">Мелодията се зарежда...</string>
+    <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="timer_ring_service_desc">Услуга за възпроизвеждане на звук за таймерите, зададени в часовника.</string>
-  <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
-  <string name="control_set_alarm">Навиване на будилника</string>
-  <!--  ActionBar strings -->
-  <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
-  <string name="menu_alarm">Будилник</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
-  <string name="menu_timer">Таймер</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
-  <string name="menu_clock">Часовник</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
-  <string name="menu_stopwatch">Хронометър</string>
-  <!-- Clock view buttons strings-->
-  <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
-  <string name="button_alarms">Добавяне на будилник</string>
-  <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
-  <string name="button_cities">Градове</string>
-  <!-- Describes the purpose of the button which pops up a menu of setting choices -->
-  <string name="button_menu">Още опции</string>
-  <!-- Menu item on most screens to get to more settings -->
-  <string name="menu_item_settings">Настройки</string>
-  <!-- Menu item on most screens to get to the help information -->
-  <string name="menu_item_help">Помощ</string>
-  <!-- Menu item on clock screen to add world city. -->
-  <string name="menu_item_add">Добави</string>
-  <!-- Menu item on clock screen to enter night mode. -->
-  <string name="menu_item_night_mode">Нощен режим</string>
-  <!-- Menu item on Cities screen to sort by GMT offset -->
-  <string name="menu_item_sort_by_gmt_offset">Сортиране по време</string>
-  <!-- Menu item on Cities screen to sort by alphabetical order -->
-  <string name="menu_item_sort_by_name">Сортиране по име</string>
-  <string name="cities_add_gps_no_results">GPS заявката не връща резултат</string>
-  <string name="cities_add_gps_not_available">GPS не е наличен</string>
-  <string name="cities_add_searching">Търси се\u2026</string>
-  <string name="cities_add_city_title">Добави град</string>
-  <string name="cities_add_city_gps_cd">Натиснете, за да се локализира вашия текущия град</string>
-  <string name="cities_add_loading">Зарежда\u2026</string>
-  <string name="cities_add_city_city">Град:</string>
-  <string name="cities_add_city_timezone">Часова зона:</string>
-  <string name="cities_add_already_exists">Градът вече съществува в базата данни</string>
-  <string name="cities_add_city_failed">Не може да се създаде града</string>
-  <string name="cities_delete_city_failed">Не може да се изтрие града</string>
-  <string name="cities_delete_city_msg">Искате ли да изтриете <xliff:g id="city">%s</xliff:g>?    </string>
-  <string name="cities_delete_city_title">Изтрий град</string>
-  <!-- Label for selected cities in Cities list view -->
-  <string name="selected_cities_label">Избрани градове</string>
-  <!-- Stopwatch and Timer shared strings -->
-  <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
-  <string name="sw_resume_button">Възобновяване</string>
-  <!--
+    <string name="timer_ring_service_desc">Услуга за възпроизвеждане на звук за таймерите, зададени в часовника.</string>
+    <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm">Навиване на будилника</string>
+    <!--  ActionBar strings -->
+    <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
+    <string name="menu_alarm">Будилник</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
+    <string name="menu_timer">Таймер</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
+    <string name="menu_clock">Часовник</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
+    <string name="menu_stopwatch">Хронометър</string>
+    <!-- Clock view buttons strings-->
+    <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+    <string name="button_alarms">Добавяне на будилник</string>
+    <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
+    <string name="button_cities">Градове</string>
+    <!-- Describes the purpose of the button which pops up a menu of setting choices -->
+    <string name="button_menu">Още опции</string>
+    <!-- Menu item on most screens to get to more settings -->
+    <string name="menu_item_settings">Настройки</string>
+    <!-- Menu item on most screens to get to the help information -->
+    <string name="menu_item_help">Помощ</string>
+    <!-- Menu item on clock screen to add world city. -->
+    <string name="menu_item_add">Добави</string>
+    <!-- Menu item on clock screen to enter night mode. -->
+    <string name="menu_item_night_mode">Нощен режим</string>
+    <!-- Menu item on Cities screen to sort by GMT offset -->
+    <string name="menu_item_sort_by_gmt_offset">Сортиране по време</string>
+    <!-- Menu item on Cities screen to sort by alphabetical order -->
+    <string name="menu_item_sort_by_name">Сортиране по име</string>
+    <string name="cities_add_gps_no_results">GPS заявката не връща резултат</string>
+    <string name="cities_add_gps_not_available">GPS не е наличен</string>
+    <string name="cities_add_searching">Търси се\u2026</string>
+    <string name="cities_add_city_title">Добави град</string>
+    <string name="cities_add_city_gps_cd">Натиснете, за да се локализира вашия текущия град</string>
+    <string name="cities_add_loading">Зарежда\u2026</string>
+    <string name="cities_add_city_city">Град:</string>
+    <string name="cities_add_city_timezone">Часова зона:</string>
+    <string name="cities_add_already_exists">Градът вече съществува в базата данни</string>
+    <string name="cities_add_city_failed">Не може да се създаде града</string>
+    <string name="cities_delete_city_failed">Не може да се изтрие града</string>
+    <string name="cities_delete_city_msg">Искате ли да изтриете <xliff:g id="city">%s</xliff:g>?</string>
+    <string name="cities_delete_city_title">Изтрий град</string>
+    <!-- Label for selected cities in Cities list view -->
+    <string name="selected_cities_label">Избрани градове</string>
+    <!-- Stopwatch and Timer shared strings -->
+    <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
+    <string name="sw_resume_button">Възобновяване</string>
+    <!--
         Describes the purpose of the button
             for stopwatch: return stopwatch to zero and remove the lap times.
             for timer: return timer to originally set duration.
         [CHAR LIMIT=15]
     -->
-  <string name="sw_reset_button">Нулиране</string>
-  <!-- Stopwatch strings -->
-  <!-- Describes the purpose of the button to begin running a stopwatch -->
-  <string name="sw_start_button">Старт</string>
-  <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Пауза</string>
-  <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
-  <string name="sw_lap_button">Етап</string>
-  <!-- Describes the purpose of the button to share the stopwatch value.
+    <string name="sw_reset_button">Нулиране</string>
+    <!-- Stopwatch strings -->
+    <!-- Describes the purpose of the button to begin running a stopwatch -->
+    <string name="sw_start_button">Старт</string>
+    <!-- Describes the purpose of the button to pause a stopwatch. -->
+    <string name="sw_pause_button">Пауза</string>
+    <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
+    <string name="sw_lap_button">Етап</string>
+    <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
-  <string name="sw_share_button">Споделяне</string>
-  <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
-  <string name="hours_label">ч</string>
-  <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
-  <string name="minutes_label">м</string>
-  <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
-  <string name="seconds_label">с</string>
-  <!-- Accessibility strings -->
-  <string name="hours_label_description">часове</string>
-  <string name="minutes_label_description">минути</string>
-  <string name="seconds_label_description">секунди</string>
-  <string name="zero">0</string>
-  <!--  Stopwatch share strings -->
-  <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
-  <string name="sw_share_main">Времето ми е <xliff:g id="TIME">%s</xliff:g></string>
-  <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
-  <string name="sw_share_laps">Междинни резултати:</string>
-  <!-- Label to enumerate the number of laps in the notification the user has counted -->
-  <string name="sw_notification_lap_number">Етап <xliff:g id="NUMBER">%d</xliff:g></string>
-  <!-- Stopwatch accessibility strings -->
-  <plurals name="Nhours_description">
-    <!-- 1 hour -->
-    <item quantity="one">1 час</item>
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> часа</item>
-  </plurals>
-  <plurals name="Nminutes_description">
-    <!-- 1 minute -->
-    <item quantity="one">1 минута</item>
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> минути</item>
-  </plurals>
-  <plurals name="Nseconds_description">
-    <!-- 1 second -->
-    <item quantity="one">1 секунда</item>
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> секунди</item>
-  </plurals>
-  <!-- timer strings -->
-  <!-- Describes the purpose of the button to add a new timer -->
-  <string name="timer_add_timer">Добавяне на таймер</string>
-  <!-- Describes the purpose of the button to begin or continue running a timer -->
-  <string name="timer_start">Старт</string>
-  <!-- Describes the purpose of the button to delete a timer. -->
-  <string name="timer_delete">Изтриване</string>
-  <!-- Talkback description for deleting a number. -->
-  <string name="timer_descriptive_delete">Изтриване на <xliff:g id="NUMBER_STRING">%s</xliff:g></string>
-  <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
-  <string name="timer_plus_one">Добавяне на 1 минута</string>
-  <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
-  <string name="timer_plus_1_min">Добавяне на 1 мин</string>
-  <!-- Describes the purpose of the button to stop the timer. -->
-  <string name="timer_stop">Спиране</string>
-  <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
-  <string name="timer_stop_all">Спиране на всички таймери</string>
-  <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
-  <string name="timer_reset">Нулиране</string>
-  <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
-  <string name="timer_cancel">Отказ</string>
-  <!-- Accessibility announcement when a timer is canceled. -->
-  <string name="timer_canceled">Таймерът е анулиран</string>
-  <!-- Notification content shown when a timer has completed and has no more time remaining -->
-  <string name="timer_times_up">Времето изтече</string>
-  <!--
+    <string name="sw_share_button">Споделяне</string>
+    <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+    <string name="hours_label">ч</string>
+    <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+    <string name="minutes_label">м</string>
+    <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+    <string name="seconds_label">с</string>
+    <!-- Accessibility strings -->
+    <string name="hours_label_description">часове</string>
+    <string name="minutes_label_description">минути</string>
+    <string name="seconds_label_description">секунди</string>
+    <string name="zero">0</string>
+    <!--  Stopwatch share strings -->
+    <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
+    <string name="sw_share_main">Времето ми е <xliff:g id="TIME">%s</xliff:g></string>
+    <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
+    <string name="sw_share_laps">Междинни резултати:</string>
+    <!-- Label to enumerate the number of laps in the notification the user has counted -->
+    <string name="sw_notification_lap_number">Етап <xliff:g id="NUMBER">%d</xliff:g></string>
+    <!-- Stopwatch accessibility strings -->
+    <plurals name="Nhours_description">
+        <!-- 1 hour -->
+        <item quantity="one">1 час</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> часа</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <!-- 1 minute -->
+        <item quantity="one">1 минута</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> минути</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <!-- 1 second -->
+        <item quantity="one">1 секунда</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> секунди</item>
+    </plurals>
+    <!-- timer strings -->
+    <!-- Describes the purpose of the button to add a new timer -->
+    <string name="timer_add_timer">Добавяне на таймер</string>
+    <!-- Describes the purpose of the button to begin or continue running a timer -->
+    <string name="timer_start">Старт</string>
+    <!-- Describes the purpose of the button to delete a timer. -->
+    <string name="timer_delete">Изтриване</string>
+    <!-- Talkback description for deleting a number. -->
+    <string name="timer_descriptive_delete">Изтриване на <xliff:g id="NUMBER_STRING">%s</xliff:g></string>
+    <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
+    <string name="timer_plus_one">Добавяне на 1 минута</string>
+    <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
+    <string name="timer_plus_1_min">Добавяне на 1 мин</string>
+    <!-- Describes the purpose of the button to stop the timer. -->
+    <string name="timer_stop">Спиране</string>
+    <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
+    <string name="timer_stop_all">Спиране на всички таймери</string>
+    <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
+    <string name="timer_reset">Нулиране</string>
+    <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
+    <string name="timer_cancel">Отказ</string>
+    <!-- Accessibility announcement when a timer is canceled. -->
+    <string name="timer_canceled">Таймерът е анулиран</string>
+    <!-- Notification content shown when a timer has completed and has no more time remaining -->
+    <string name="timer_times_up">Времето изтече</string>
+    <!--
         Notification content shown when multiple timers have completed and have no more time
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
-  <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS">%d</xliff:g> таймера са изтекли</string>
-  <!-- Label associated with a notification for a Timer -->
-  <string name="timer_notification_label">Таймер</string>
-  <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
-  <string name="timers_max_count_reached">Максимално 4 таймера</string>
-  <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
-  <string name="timer_pause">Пауза</string>
-  <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
-  <string name="timer_reset_all">Нулиране на всички таймери</string>
-  <!-- Jocular content that user may append when sharing the lap times -->
-  <string-array name="sw_share_strings" translatable="true">
-    <item>Развивате светкавична скорост.</item>
-    <item>Радвайте се на плодовете от труда си.</item>
-    <item>Устройствата с Android са известни с бързината си, но не са бързи колкото вас!</item>
-    <item>Слава богу!</item>
-    <item>1 337 пъти.</item>
-    <item>Каква изумителна скорост!</item>
-    <item>Нека да направим отново изкривяване на времето.</item>
-    <item>Само един отскок вляво.</item>
-    <item>Демонстрирате бързина в различни аспекти.</item>
-    <item>Светлинна скорост!</item>
-  </string-array>
-  <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
-  <string name="home_label">Местна</string>
-  <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="cities_activity_title">Градове</string>
-  <!-- Settings strings -->
-  <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
-  <string name="clock_settings">Часовник</string>
-  <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
-  <string name="clock_style">Стил</string>
-  <!-- Title for preference to change date & time -->
-  <string name="open_date_settings">Промяна на датата и часа</string>
-  <!-- Entries listed in the ListPreference when invoking the clock style
+    <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS">%d</xliff:g> таймера са изтекли</string>
+    <!-- Label associated with a notification for a Timer -->
+    <string name="timer_notification_label">Таймер</string>
+    <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
+    <string name="timers_max_count_reached">Максимално 4 таймера</string>
+    <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
+    <string name="timer_pause">Пауза</string>
+    <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
+    <string name="timer_reset_all">Нулиране на всички таймери</string>
+    <!-- Jocular content that user may append when sharing the lap times -->
+    <string-array name="sw_share_strings" translatable="true">
+        <item>Развивате светкавична скорост.</item>
+        <item>Радвайте се на плодовете от труда си.</item>
+        <item>Устройствата с Android са известни с бързината си, но не са бързи колкото вас!</item>
+        <item>Слава богу!</item>
+        <item>1 337 пъти.</item>
+        <item>Каква изумителна скорост!</item>
+        <item>Нека да направим отново изкривяване на времето.</item>
+        <item>Само един отскок вляво.</item>
+        <item>Демонстрирате бързина в различни аспекти.</item>
+        <item>Светлинна скорост!</item>
+    </string-array>
+    <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
+    <string name="home_label">Местна</string>
+    <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="cities_activity_title">Градове</string>
+    <!-- Settings strings -->
+    <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
+    <string name="clock_settings">Часовник</string>
+    <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
+    <string name="clock_style">Стил</string>
+    <!-- Title for preference to change date & time -->
+    <string name="open_date_settings">Промяна на датата и часа</string>
+    <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
-  <string-array name="clock_style_entries">
-    <item>Аналогов</item>
-    <item>Цифров</item>
-  </string-array>
-  <!-- Values that are retrieved from the ListPreference. These must match
+    <string-array name="clock_style_entries">
+        <item>Аналогов</item>
+        <item>Цифров</item>
+    </string-array>
+    <!-- Values that are retrieved from the ListPreference. These must match
          the clock_style_entries above. -->
-  <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
-  <string name="automatic_home_clock">Часът у дома</string>
-  <!-- Describes the functionality provided by the automatic_home_clock option -->
-  <string name="automatic_home_clock_summary">При пътуване в район с различно часово време добавете часовник за времето у дома</string>
-  <!-- Title in the preferences change the time zone for the user's home -->
-  <string name="home_time_zone">Часова зона у дома</string>
-  <!-- Title in a list dialog box to pick a time zone for the user's home -->
-  <string name="home_time_zone_title">Часова зона у дома</string>
-  <!-- Textual content of the button to discard the current dialog values and close the dialog -->
-  <string name="time_picker_cancel">Отказ</string>
-  <!-- Textual content of the button to update an alarm with the current dialog values -->
-  <string name="time_picker_set">ОК</string>
-  <string name="time_picker_time_seperator">:</string>
-  <!--  place holder for am/pm label when it is not set -->
-  <string name="time_picker_ampm_label">–</string>
-  <!-- add 00 as minutes to the time when pressing this button -->
-  <string name="time_picker_00_label">:00</string>
-  <!-- add 30 as minutes to the time when pressing this button -->
-  <string name="time_picker_30_label">:30</string>
-  <!--
+    <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
+    <string name="automatic_home_clock">Часът у дома</string>
+    <!-- Describes the functionality provided by the automatic_home_clock option -->
+    <string name="automatic_home_clock_summary">При пътуване в район с различно часово време добавете часовник за времето у дома</string>
+    <!-- Title in the preferences change the time zone for the user's home -->
+    <string name="home_time_zone">Часова зона у дома</string>
+    <!-- Title in a list dialog box to pick a time zone for the user's home -->
+    <string name="home_time_zone_title">Часова зона у дома</string>
+    <!-- Textual content of the button to discard the current dialog values and close the dialog -->
+    <string name="time_picker_cancel">Отказ</string>
+    <!-- Textual content of the button to update an alarm with the current dialog values -->
+    <string name="time_picker_set">ОК</string>
+    <string name="time_picker_time_seperator">:</string>
+    <!--  place holder for am/pm label when it is not set -->
+    <string name="time_picker_ampm_label">–</string>
+    <!-- add 00 as minutes to the time when pressing this button -->
+    <string name="time_picker_00_label">:00</string>
+    <!-- add 30 as minutes to the time when pressing this button -->
+    <string name="time_picker_30_label">:30</string>
+    <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
     -->
-  <string name="city_checked">Поставихте отметка за <xliff:g id="CITY_NAME">%s</xliff:g></string>
-  <!--
+    <string name="city_checked">Поставихте отметка за <xliff:g id="CITY_NAME">%s</xliff:g></string>
+    <!--
         Accessibility string read when a city checkbox is unchecked.
         Ex. "Ann Arbor unchecked"
     -->
-  <string name="city_unchecked">Премахнахте отметката от <xliff:g id="CITY_NAME">%s</xliff:g></string>
-  <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
-  <string-array name="timezone_labels">
-    <item>"Маршалови острови"</item>
-    <item>"Мидуей, о-в"</item>
-    <item>"Хавайски острови"</item>
-    <item>"Аляска"</item>
-    <item>"Тихоокеанско време"</item>
-    <item>"Тихуана"</item>
-    <item>"Аризона"</item>
-    <item>"Чиуауа"</item>
-    <item>"Планинско време"</item>
-    <item>"Централна Америка"</item>
-    <item>"Централно време"</item>
-    <item>"Мексико Сити"</item>
-    <item>"Съскачеуан"</item>
-    <item>"Богота"</item>
-    <item>"Източно време"</item>
-    <item>"Венецуела"</item>
-    <item>"Атл. време (Барбадос)"</item>
-    <item>"Атл. време (Канада)"</item>
-    <item>"Манауш"</item>
-    <item>"Сантяго"</item>
-    <item>"Нюфаундленд"</item>
-    <item>"Бразилия"</item>
-    <item>"Буенос Айрес"</item>
-    <item>"Гренландия"</item>
-    <item>"Монтевидео"</item>
-    <item>"Средноатлантически регион"</item>
-    <item>"Азорски острови"</item>
-    <item>"Кабо Верде, о-ви"</item>
-    <item>"Казабланка"</item>
-    <item>"Лондон, Дъблин"</item>
-    <item>"Амстердам, Берлин"</item>
-    <item>"Белград"</item>
-    <item>"Брюксел"</item>
-    <item>"Сараево"</item>
-    <item>"Виндхук"</item>
-    <item>"Западноафриканско време"</item>
-    <item>"Аман, Йордания"</item>
-    <item>"Атина, Истанбул"</item>
-    <item>"Бейрут, Ливан"</item>
-    <item>"Кайро"</item>
-    <item>"Хелзинки"</item>
-    <item>"Ерусалим"</item>
-    <item>"Минск"</item>
-    <item>"Хараре"</item>
-    <item>"Багдад"</item>
-    <item>"Москва"</item>
-    <item>"Кувейт"</item>
-    <item>"Найроби"</item>
-    <item>"Техеран"</item>
-    <item>"Баку"</item>
-    <item>"Тбилиси"</item>
-    <item>"Ереван"</item>
-    <item>"Дубай"</item>
-    <item>"Кабул"</item>
-    <item>"Исламабад, Карачи"</item>
-    <item>"Уралск"</item>
-    <item>"Екатеринбург"</item>
-    <item>"Колката"</item>
-    <item>"Шри Ланка"</item>
-    <item>"Катманду"</item>
-    <item>"Астана"</item>
-    <item>"Янгон"</item>
-    <item>"Красноярск"</item>
-    <item>"Банкок"</item>
-    <item>"Пекин"</item>
-    <item>"Хонконг"</item>
-    <item>"Иркутск"</item>
-    <item>"Куала Лумпур"</item>
-    <item>"Пърт"</item>
-    <item>"Тайпе"</item>
-    <item>"Сеул"</item>
-    <item>"Токио, Осака"</item>
-    <item>"Якутск"</item>
-    <item>"Аделаида"</item>
-    <item>"Дарвин"</item>
-    <item>"Бризбейн"</item>
-    <item>"Хобарт"</item>
-    <item>"Сидни, Канбера"</item>
-    <item>"Владивосток"</item>
-    <item>"Гуам"</item>
-    <item>"Магадан"</item>
-    <item>"Окланд"</item>
-    <item>"Фиджи"</item>
-    <item>"Тонга"</item>
-    <item>"Джакарта"</item>
-  </string-array>
-  <!-- Choices for timezones, must be kept in sync with timezone_values. -->
-  <!-- Header in the preferences settings for the section pertaining to alarms -->
-  <string name="alarm_settings">Будилници</string>
-  <!-- Describes the service that processes actions originating from timer notifications. -->
-  <string name="timer_service_desc">Обработва действията от известията на таймера.</string>
-  <!-- Describes the service that processes actions originating from stopwatch notifications. -->
-  <string name="stopwatch_service_desc">Обработва действията от известията на хронометъра.</string>
-  <!-- Description for the paused stop watch -->
-  <string name="swn_paused">На пауза</string>
-  <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
+    <string name="city_unchecked">Премахнахте отметката от <xliff:g id="CITY_NAME">%s</xliff:g></string>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
+    <string-array name="timezone_labels">
+        <item>"Маршалови острови"</item>
+        <item>"Мидуей, о-в"</item>
+        <item>"Хавайски острови"</item>
+        <item>"Аляска"</item>
+        <item>"Тихоокеанско време"</item>
+        <item>"Тихуана"</item>
+        <item>"Аризона"</item>
+        <item>"Чиуауа"</item>
+        <item>"Планинско време"</item>
+        <item>"Централна Америка"</item>
+        <item>"Централно време"</item>
+        <item>"Мексико Сити"</item>
+        <item>"Съскачеуан"</item>
+        <item>"Богота"</item>
+        <item>"Източно време"</item>
+        <item>"Венецуела"</item>
+        <item>"Атл. време (Барбадос)"</item>
+        <item>"Атл. време (Канада)"</item>
+        <item>"Манауш"</item>
+        <item>"Сантяго"</item>
+        <item>"Нюфаундленд"</item>
+        <item>"Бразилия"</item>
+        <item>"Буенос Айрес"</item>
+        <item>"Гренландия"</item>
+        <item>"Монтевидео"</item>
+        <item>"Средноатлантически регион"</item>
+        <item>"Азорски острови"</item>
+        <item>"Кабо Верде, о-ви"</item>
+        <item>"Казабланка"</item>
+        <item>"Лондон, Дъблин"</item>
+        <item>"Амстердам, Берлин"</item>
+        <item>"Белград"</item>
+        <item>"Брюксел"</item>
+        <item>"Сараево"</item>
+        <item>"Виндхук"</item>
+        <item>"Западноафриканско време"</item>
+        <item>"Аман, Йордания"</item>
+        <item>"Атина, Истанбул"</item>
+        <item>"Бейрут, Ливан"</item>
+        <item>"Кайро"</item>
+        <item>"Хелзинки"</item>
+        <item>"Ерусалим"</item>
+        <item>"Минск"</item>
+        <item>"Хараре"</item>
+        <item>"Багдад"</item>
+        <item>"Москва"</item>
+        <item>"Кувейт"</item>
+        <item>"Найроби"</item>
+        <item>"Техеран"</item>
+        <item>"Баку"</item>
+        <item>"Тбилиси"</item>
+        <item>"Ереван"</item>
+        <item>"Дубай"</item>
+        <item>"Кабул"</item>
+        <item>"Исламабад, Карачи"</item>
+        <item>"Уралск"</item>
+        <item>"Екатеринбург"</item>
+        <item>"Колката"</item>
+        <item>"Шри Ланка"</item>
+        <item>"Катманду"</item>
+        <item>"Астана"</item>
+        <item>"Янгон"</item>
+        <item>"Красноярск"</item>
+        <item>"Банкок"</item>
+        <item>"Пекин"</item>
+        <item>"Хонконг"</item>
+        <item>"Иркутск"</item>
+        <item>"Куала Лумпур"</item>
+        <item>"Пърт"</item>
+        <item>"Тайпе"</item>
+        <item>"Сеул"</item>
+        <item>"Токио, Осака"</item>
+        <item>"Якутск"</item>
+        <item>"Аделаида"</item>
+        <item>"Дарвин"</item>
+        <item>"Бризбейн"</item>
+        <item>"Хобарт"</item>
+        <item>"Сидни, Канбера"</item>
+        <item>"Владивосток"</item>
+        <item>"Гуам"</item>
+        <item>"Магадан"</item>
+        <item>"Окланд"</item>
+        <item>"Фиджи"</item>
+        <item>"Тонга"</item>
+        <item>"Джакарта"</item>
+    </string-array>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. -->
+    <!-- Header in the preferences settings for the section pertaining to alarms -->
+    <string name="alarm_settings">Будилници</string>
+    <!-- Describes the service that processes actions originating from timer notifications. -->
+    <string name="timer_service_desc">Обработва действията от известията на таймера.</string>
+    <!-- Describes the service that processes actions originating from stopwatch notifications. -->
+    <string name="stopwatch_service_desc">Обработва действията от известията на хронометъра.</string>
+    <!-- Description for the paused stop watch -->
+    <string name="swn_paused">На пауза</string>
+    <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
          be on the right even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_right">Прекарайте пръст надясно, за да отхвърлите</string>
-  <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
+    <string name="description_direction_right">Прекарайте пръст надясно, за да отхвърлите</string>
+    <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_left">Прекарайте пръст наляво, за да отложите</string>
-  <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
+    <string name="description_direction_left">Прекарайте пръст наляво, за да отложите</string>
+    <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_both">Прекарайте пръст наляво, за да отложите, или надясно за отхвърляне</string>
-  <!-- Header in the preferences settings for the section pertaining to timers. -->
-  <string name="timer_settings">Таймери</string>
-  <!-- Description for timer ringtone setting. -->
-  <string name="timer_ringtone_title">Мелодия на таймера</string>
-  <!-- Description when timer is stopped. -->
-  <string name="timer_stopped">Таймерът е спрян</string>
-  <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
-  <string name="timer_paused">Таймерът е на пауза</string>
-  <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
-  <string name="timers_stopped"><xliff:g id="NUMBER">%d</xliff:g> таймера са на пауза</string>
-  <!-- Notification text when multiple timers are paused. -->
-  <string name="all_timers_stopped_notif">Докоснете, за да видите таймерите си</string>
-  <!-- Notification title when at least one timer, of those in use, is counting down. -->
-  <string name="timers_in_use"><xliff:g id="NUMBER">%d</xliff:g> таймера</string>
-  <!-- Notification text when at least one timer, of those in use, is counting down. -->
-  <string name="next_timer_notif">Следващ таймер: <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
-  <!-- screensaver settings strings -->
-  <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="screensaver_settings">Настройки за „Сънища“</string>
-  <!-- Title for check box to pick intensity of display diminuation during dream mode -->
-  <string name="night_mode_title">Нощен режим</string>
-  <!-- Describes intensity of display diminuation during dream mode -->
-  <string name="night_mode_summary">Много затъмнен дисплей (за тъмни стаи)</string>
-  <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
-  <string name="expand_alarm">Разгъване на будилника</string>
-  <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
-  <string name="collapse_alarm">Свиване на будилника</string>
-  <!-- Description of the button to undo change to alarm -->
-  <string name="alarm_undo">отмяна</string>
-  <!-- Toast content when an alarm was deleted  -->
-  <string name="alarm_deleted">Изтрит будилник</string>
-  <!-- Select the source of the alarm -->
-  <string name="alarm_select">Изберете аларма</string>
-  <!-- Select the ringtone as alarm -->
-  <string name="alarm_select_ringtone">Мелодия</string>
-  <!-- Select the alarm from external device -->
-  <string name="alarm_select_external">Музика</string>
-  <!-- Ok for selection -->
-  <string name="alarm_select_ok">ОК</string>
-  <!-- Cancel for selection -->
-  <string name="alarm_select_cancel">Отмени</string>
-  <!-- slash between date and next alarm in the clock -->
-  <string name="slash">/</string>
-  <!-- slash between date and next alarm in the clock -->
-  <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
-  <string name="next_alarm_description">Следващ будилник: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
-  <!-- Displays the number of alarms selected from the list of alarms. -->
-  <string name="alarms_selected">Избрахте <xliff:g id="ALARMS">%d</xliff:g></string>
-  <!-- message used by the talkback accessibility app to say that something was deleted -->
-  <string name="deleted_message">Изтрито</string>
-  <!-- Alarm deletion confirmation message-->
-  <plurals name="alarm_delete_confirmation">
-    <!-- Confirmation for one alarm -->
-    <item quantity="one">Да се изтрие ли избраният будилник?</item>
-    <!-- Confirmation more than one alarm  -->
-    <item quantity="other">Да се изтрият ли избраните будилници?</item>
-  </plurals>
-  <!-- Timer deletion confirmation -->
-  <string name="timer_delete_confirmation">Да се изтрие ли този таймер?</string>
-  <!-- world clock deletion confirmation -->
-  <string name="city_delete_confirmation">Да се премахне ли този град?</string>
-  <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="digital_gadget">Цифров часовник</string>
-  <!-- format strings for clocks -->
-  <!-- Font size for AM/PM should match widget_label_font_size -->
-  <!-- Font size for AM/PM should match bottom_text_size -->
-  <!-- Font size for AM/PM should match label_font_size -->
-  <!-- Font size for AM/PM should match alarm_label_size -->
-  <!-- String for no alarms -->
-  <string name="no_alarms">Няма будилници</string>
-  <!-- String for no alarms set [CHAR LIMIT=24] -->
-  <string name="no_alarms_set">Няма будилници</string>
-  <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
-  <string name="no_upcoming_alarms">НЯМА ПРЕДСТОЯЩИ БУДИЛНИЦИ</string>
-  <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
+    <string name="description_direction_both">Прекарайте пръст наляво, за да отложите, или надясно за отхвърляне</string>
+    <!-- Header in the preferences settings for the section pertaining to timers. -->
+    <string name="timer_settings">Таймери</string>
+    <!-- Description for timer ringtone setting. -->
+    <string name="timer_ringtone_title">Мелодия на таймера</string>
+    <!-- Description when timer is stopped. -->
+    <string name="timer_stopped">Таймерът е спрян</string>
+    <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
+    <string name="timer_paused">Таймерът е на пауза</string>
+    <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
+    <string name="timers_stopped"><xliff:g id="NUMBER">%d</xliff:g> таймера са на пауза</string>
+    <!-- Notification text when multiple timers are paused. -->
+    <string name="all_timers_stopped_notif">Докоснете, за да видите таймерите си</string>
+    <!-- Notification title when at least one timer, of those in use, is counting down. -->
+    <string name="timers_in_use"><xliff:g id="NUMBER">%d</xliff:g> таймера</string>
+    <!-- Notification text when at least one timer, of those in use, is counting down. -->
+    <string name="next_timer_notif">Следващ таймер: <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
+    <!-- screensaver settings strings -->
+    <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="screensaver_settings">Настройки за „Сънища“</string>
+    <!-- Title for check box to pick intensity of display diminuation during dream mode -->
+    <string name="night_mode_title">Нощен режим</string>
+    <!-- Describes intensity of display diminuation during dream mode -->
+    <string name="night_mode_summary">Много затъмнен дисплей (за тъмни стаи)</string>
+    <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
+    <string name="expand_alarm">Разгъване на будилника</string>
+    <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
+    <string name="collapse_alarm">Свиване на будилника</string>
+    <!-- Description of the button to undo change to alarm -->
+    <string name="alarm_undo">отмяна</string>
+    <!-- Toast content when an alarm was deleted  -->
+    <string name="alarm_deleted">Изтрит будилник</string>
+    <!-- Select the source of the alarm -->
+    <string name="alarm_select">Изберете аларма</string>
+    <!-- Select the ringtone as alarm -->
+    <string name="alarm_select_ringtone">Мелодия</string>
+    <!-- Select the alarm from external device -->
+    <string name="alarm_select_external">Музика</string>
+    <!-- Ok for selection -->
+    <string name="alarm_select_ok">ОК</string>
+    <!-- Cancel for selection -->
+    <string name="alarm_select_cancel">Отмени</string>
+    <!-- slash between date and next alarm in the clock -->
+    <string name="slash">/</string>
+    <!-- slash between date and next alarm in the clock -->
+    <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
+    <string name="next_alarm_description">Следващ будилник: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
+    <!-- Displays the number of alarms selected from the list of alarms. -->
+    <string name="alarms_selected">Избрахте <xliff:g id="ALARMS">%d</xliff:g></string>
+    <!-- message used by the talkback accessibility app to say that something was deleted -->
+    <string name="deleted_message">Изтрито</string>
+    <!-- Alarm deletion confirmation message-->
+    <plurals name="alarm_delete_confirmation">
+        <!-- Confirmation for one alarm -->
+        <item quantity="one">Да се изтрие ли избраният будилник?</item>
+        <!-- Confirmation more than one alarm  -->
+        <item quantity="other">Да се изтрият ли избраните будилници?</item>
+    </plurals>
+    <!-- Timer deletion confirmation -->
+    <string name="timer_delete_confirmation">Да се изтрие ли този таймер?</string>
+    <!-- world clock deletion confirmation -->
+    <string name="city_delete_confirmation">Да се премахне ли този град?</string>
+    <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="digital_gadget">Цифров часовник</string>
+    <!-- format strings for clocks -->
+    <!-- Font size for AM/PM should match widget_label_font_size -->
+    <!-- Font size for AM/PM should match bottom_text_size -->
+    <!-- Font size for AM/PM should match label_font_size -->
+    <!-- Font size for AM/PM should match alarm_label_size -->
+    <!-- String for no alarms -->
+    <string name="no_alarms">Няма будилници</string>
+    <!-- String for no alarms set [CHAR LIMIT=24] -->
+    <string name="no_alarms_set">Няма будилници</string>
+    <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
+    <string name="no_upcoming_alarms">НЯМА ПРЕДСТОЯЩИ БУДИЛНИЦИ</string>
+    <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
      or 27:68pm.
     First %d represents hour, second %d represents minutes, %s represents am/pm,
     If no am/pm is passed in (e.g. the locale uses 24h time) only hour and minute are printed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_time"><xliff:g id="INVALID_HOUR">%d</xliff:g>:<xliff:g id="INVALID_MINUTES">%d</xliff:g> <xliff:g id="INVALID_AMPM">%s</xliff:g> е невалиден час</string>
-  <!-- String that represents that no alarm has been specified for a requested hour:minutes.
+    <string name="invalid_time"><xliff:g id="INVALID_HOUR">%d</xliff:g>:<xliff:g id="INVALID_MINUTES">%d</xliff:g> <xliff:g id="INVALID_AMPM">%s</xliff:g> е невалиден час</string>
+    <!-- String that represents that no alarm has been specified for a requested hour:minutes.
     This happens when a user sends a voice command 'dismiss my alarm at 3:00pm' but they have no
     alarms specified for that time. %s represents the time of the alarm.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_at">Няма будилник за <xliff:g id="ALARM_TIME_HOUR">%d</xliff:g>:<xliff:g id="ALARM_TIME_MINUTES">%d</xliff:g></string>
-  <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
+    <string name="no_alarm_at">Няма будилник за <xliff:g id="ALARM_TIME_HOUR">%d</xliff:g>:<xliff:g id="ALARM_TIME_MINUTES">%d</xliff:g></string>
+    <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
     a user sends a voice command 'dismiss next alarm' or 'dismiss all of my alarms' but they have
     no alarms scheduled in the app.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_scheduled_alarms">Няма насрочени будилници</string>
-  <!-- String that represents that the user specified that they want to select an alarm to
+    <string name="no_scheduled_alarms">Няма насрочени будилници</string>
+    <!-- String that represents that the user specified that they want to select an alarm to
     dismiss by specifying a 'label' but they didn't specify any labels.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_label_specified">Няма посочен етикет</string>
-  <!-- String that represents that no alarm has been specified for a requested label.
+    <string name="no_label_specified">Няма посочен етикет</string>
+    <!-- String that represents that no alarm has been specified for a requested label.
     This happens when a user sends a voice command 'dismiss my alarm with label pick up kids'
      but they have no alarms with that label.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarms_with_label">Етикетът не се съдържа в нито един будилник</string>
-  <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
+    <string name="no_alarms_with_label">Етикетът не се съдържа в нито един будилник</string>
+    <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
     'lap the stopwatch' when the stopwatch wasn't running so the command wasn't executed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_isnt_running">Хронометърът не работи</string>
-  <!-- String that represents that the user has successfully sent a voice command pausing
+    <string name="stopwatch_isnt_running">Хронометърът не работи</string>
+    <!-- String that represents that the user has successfully sent a voice command pausing
      the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_paused">Хронометърът е на пауза</string>
-  <!-- String that represents that the user has successfully sent a voice command resetting
+    <string name="stopwatch_paused">Хронометърът е на пауза</string>
+    <!-- String that represents that the user has successfully sent a voice command resetting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_reset">Хронометърът е нулиран</string>
-  <!-- String that represents that the user has successfully sent a voice command lapping
+    <string name="stopwatch_reset">Хронометърът е нулиран</string>
+    <!-- String that represents that the user has successfully sent a voice command lapping
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_lapped">Хронометърът засече междинно време</string>
-  <!-- String that represents that the user has successfully sent a voice command starting
+    <string name="stopwatch_lapped">Хронометърът засече междинно време</string>
+    <!-- String that represents that the user has successfully sent a voice command starting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_started">Хронометърът е стартиран</string>
-  <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
+    <string name="stopwatch_started">Хронометърът е стартиран</string>
+    <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
     there was no alarm scheduled for that time (they might have had an alarm for 3pm on the list
     but it was disabled).
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_scheduled_for_this_time">Няма насрочен будилник за този час</string>
-  <!-- String that represents that the user has dismissed an alarm through a voice action.
+    <string name="no_alarm_scheduled_for_this_time">Няма насрочен будилник за този час</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_dismissed">Будилникът за <xliff:g id="ALARM_TIME">%s</xliff:g> е премахнат</string>
-  <!-- String that represents that the user has dismissed an alarm through a voice action.
+    <string name="alarm_is_dismissed">Будилникът за <xliff:g id="ALARM_TIME">%s</xliff:g> е премахнат</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_set">Будилникът е зададен за <xliff:g id="ALARM_TIME">%s</xliff:g></string>
-  <!-- String that represents that the user attempted to control a timer with a voice action when
+    <string name="alarm_is_set">Будилникът е зададен за <xliff:g id="ALARM_TIME">%s</xliff:g></string>
+    <!-- String that represents that the user attempted to control a timer with a voice action when
     no timers are defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_timers_exist">Не съществуват таймери</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action when
+    <string name="no_timers_exist">Не съществуват таймери</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action when
     more than one timer is defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="too_many_timers_exist">Съществува повече от един таймер</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action but
+    <string name="too_many_timers_exist">Съществува повече от един таймер</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action but
     the timer could not be located.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_does_not_exist">Таймерът е премахнат.</string>
-  <!-- String that represents that the user has successfully created a timer through a voice action.
+    <string name="timer_does_not_exist">Таймерът е премахнат.</string>
+    <!-- String that represents that the user has successfully created a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_created">Таймерът е създаден</string>
-  <!-- String that represents that the user has successfully reset a timer through a voice action.
+    <string name="timer_created">Таймерът е създаден</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_was_reset">Таймерът е нулиран</string>
-  <!-- String that represents that the user has successfully reset a timer through a voice action
+    <string name="timer_was_reset">Таймерът е нулиран</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action
     that was marked as deleteAfterUse and was thus deleted instead.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_deleted">Таймерът е изтрит</string>
-  <!-- String that represents that the user has successfully started a timer through a voice action.
+    <string name="timer_deleted">Таймерът е изтрит</string>
+    <!-- String that represents that the user has successfully started a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_started">Таймерът е стартиран</string>
-  <!-- String that represents that the user attempted to start a timer through a voice action
+    <string name="timer_started">Таймерът е стартиран</string>
+    <!-- String that represents that the user attempted to start a timer through a voice action
     but specified invalid length.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_timer_length">Невалидна продължителност на таймера</string>
-  <!-- String that represents that the user attempted to add or delete a world clock through
+    <string name="invalid_timer_length">Невалидна продължителност на таймера</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but they didn't specify a city so no world clock was selected.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_city_selected">Няма избран град</string>
-  <!-- String that represents that the user attempted to add or delete a world clock through
+    <string name="no_city_selected">Няма избран град</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but the city they specified wasn't listed in the database.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_you_specified_is_not_available">Посоченият от вас град не е налице</string>
-  <!-- String that represents that the user attempted to add a world clock through a voice action
+    <string name="the_city_you_specified_is_not_available">Посоченият от вас град не е налице</string>
+    <!-- String that represents that the user attempted to add a world clock through a voice action
     but the city they specified is already added to the list.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_already_added">Този град вече е добавен</string>
-  <!-- String that represents that the user successfully added a world clock through a
+    <string name="the_city_already_added">Този град вече е добавен</string>
+    <!-- String that represents that the user successfully added a world clock through a
     voice action
     %s represents the name of the city they added.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_added">Добавихте <xliff:g id="CITY_NAME">%s</xliff:g></string>
-  <!-- String that represents that the user successfully deleted a world clock through
+    <string name="city_added">Добавихте <xliff:g id="CITY_NAME">%s</xliff:g></string>
+    <!-- String that represents that the user successfully deleted a world clock through
     a voice action
     %s represents the name of the city they deleted.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_deleted">Изтрихте <xliff:g id="CITY_NAME">%s</xliff:g></string>
-  <!-- String that represents that the user attempted to dismiss an alarm that is more than
+    <string name="city_deleted">Изтрихте <xliff:g id="CITY_NAME">%s</xliff:g></string>
+    <!-- String that represents that the user attempted to dismiss an alarm that is more than
     24 hours away
     %s represents the time of the alarm (e.g. 15:39)
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">Все още не можете да премахнете будилника за <xliff:g id="ALARM_TIME">%s</xliff:g>, тъй като остават над 24 часа до задействането му</string>
-  <!-- String that shows up in the action bar for the Picker Activity
+    <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">Все още не можете да премахнете будилника за <xliff:g id="ALARM_TIME">%s</xliff:g>, тъй като остават над 24 часа до задействането му</string>
+    <!-- String that shows up in the action bar for the Picker Activity
          where a use gets to pick which alarm to dismiss
    [CHAR LIMIT=NONE]
    -->
-  <string name="dismiss_alarm">Отхвърляне на будилника</string>
-  <!-- String that represents that further action is needed from the user in case their
+    <string name="dismiss_alarm">Отхвърляне на будилника</string>
+    <!-- String that represents that further action is needed from the user in case their
     voice command was ambiguous or there are more than 1 alarms that match their request.
     The user needs to choose an alarm they want to dismiss through the UI
    [CHAR LIMIT=NONE]
    -->
-  <string name="pick_alarm_to_dismiss">Изберете кой будилник да отхвърлите</string>
-  <!-- String that represents that the user doesn't have any alarms firing at the moment.
+    <string name="pick_alarm_to_dismiss">Изберете кой будилник да отхвърлите</string>
+    <!-- String that represents that the user doesn't have any alarms firing at the moment.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_firing_alarms">Няма задействани будилници</string>
-  <!-- String that represents that the user has snoozed an alarm through a voice action for 10
+    <string name="no_firing_alarms">Няма задействани будилници</string>
+    <!-- String that represents that the user has snoozed an alarm through a voice action for 10
     minutes.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_snoozed">Будилникът за <xliff:g id="ALARM_TIME">%s</xliff:g> е отложен с 10 минути</string>
-  <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
-  <string name="custom_ringtone">Потребителска мелодия</string>
-  <!-- Ringtone selection default" -->
-  <string name="ringtone_default">"Стандартна мелодия"</string>
-  <!--used for prompt to user storage permission status-->
-  <string name="have_denied_storage_permission">Отказахте достъп до хранилището, може включите разрешението отново в настройките на приложението</string>
+    <string name="alarm_is_snoozed">Будилникът за <xliff:g id="ALARM_TIME">%s</xliff:g> е отложен с 10 минути</string>
+    <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+    <string name="custom_ringtone">Потребителска мелодия</string>
+    <!-- Ringtone selection default" -->
+    <string name="ringtone_default">"Стандартна мелодия"</string>
+    <!--used for prompt to user storage permission status-->
+    <string name="have_denied_storage_permission">Отказахте достъп до хранилището, може включите разрешението отново в настройките на приложението</string>
 </resources>

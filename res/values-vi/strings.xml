@@ -18,108 +18,108 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- -->
-  <!-- Label shown on launcher icon -->
-  <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
-  <string name="app_label">Đồng hồ</string>
-  <!-- Title for AlarmClock activity -->
-  <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="alarm_list_title">Báo thức</string>
-  <!-- Menu item on Alarm Clock screen: Add alarm -->
-  <string name="add_alarm">Thêm báo thức</string>
-  <!-- Menu item on Alarm Clock screen: Desk clock -->
-  <string name="menu_desk_clock">Đồng hồ để bàn</string>
-  <!-- Menu item on Alarm Clock screen: Edit alarm -->
-  <string name="menu_edit_alarm">Chỉnh sửa báo thức</string>
-  <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
-  <string name="delete_alarm">Xóa báo thức</string>
-  <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
-  <string name="enable_alarm">Bật báo thức</string>
-  <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
-  <string name="disable_alarm">Tắt báo thức</string>
-  <!-- Delete alarm confirmation dialog message. -->
-  <string name="delete_alarm_confirm">Xóa báo thức này?</string>
-  <!-- Menu item on Alarm Clock screen: Show clock -->
-  <string name="show_clock">Hiển thị đồng hồ</string>
-  <!-- Menu item on Alarm Clock screen: Hide clock -->
-  <string name="hide_clock">Ẩn đồng hồ</string>
-  <!-- Setting label on Set alarm screen: Label -->
-  <string name="label">Tên hiển thị</string>
-  <!-- Content description for alarm on/off switch in On state -->
-  <string name="on_switch">Bật</string>
-  <!-- Content description for alarm on/off switch in Off state -->
-  <string name="off_switch">Tắt</string>
-  <!-- Default label to display for an alarm -->
-  <string name="default_label">Báo thức</string>
-  <!-- Preference category on Alarm Settings screen: Set alarm -->
-  <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="set_alarm">Đặt báo thức</string>
-  <!-- Setting labels on Set alarm screen: Vibration on or off -->
-  <string name="alarm_vibrate">Rung</string>
-  <!-- Setting labels on Set alarm screen: Repeat -->
-  <string name="alarm_repeat">Lặp lại</string>
-  <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
-  <string name="alert">Nhạc chuông báo thức</string>
-  <!-- Title of default ringtone played when a timer expires. -->
-  <string name="default_timer_ringtone_title">Bộ đếm thời gian</string>
-  <!-- Title of silent ringtone played when a timer expires. -->
-  <string name="silent_timer_ringtone_title">Im lặng</string>
-  <!-- Label on expanded alarm edit view. -->
-  <string name="ringtone">Nhạc chuông</string>
-  <!-- Setting labels on Set alarm screen: Set time  -->
-  <string name="time">Thời gian</string>
-  <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
-  <string name="alarm_tomorrow">Ngày mai</string>
-  <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
-  <string name="alarm_today">Hôm nay</string>
-  <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
-  <string name="alarm_alert_wake_up">Thức dậy\u0021</string>
-  <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
-  <string name="alarm_alert_off_action_text">Tắt</string>
-  <!-- Button labels on the alarm dialog: Dismiss -->
-  <string name="alarm_alert_dismiss_text">Bỏ qua</string>
-  <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
-  <string name="alarm_alert_dismiss_now_text">Loại bỏ bây giờ</string>
-  <!-- Alarm Alert screen: this message is shown after an alarm rung
+    <!-- -->
+    <!-- Label shown on launcher icon -->
+    <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
+    <string name="app_label">Đồng hồ</string>
+    <!-- Title for AlarmClock activity -->
+    <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="alarm_list_title">Báo thức</string>
+    <!-- Menu item on Alarm Clock screen: Add alarm -->
+    <string name="add_alarm">Thêm báo thức</string>
+    <!-- Menu item on Alarm Clock screen: Desk clock -->
+    <string name="menu_desk_clock">Đồng hồ để bàn</string>
+    <!-- Menu item on Alarm Clock screen: Edit alarm -->
+    <string name="menu_edit_alarm">Chỉnh sửa báo thức</string>
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="delete_alarm">Xóa báo thức</string>
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+    <string name="enable_alarm">Bật báo thức</string>
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+    <string name="disable_alarm">Tắt báo thức</string>
+    <!-- Delete alarm confirmation dialog message. -->
+    <string name="delete_alarm_confirm">Xóa báo thức này?</string>
+    <!-- Menu item on Alarm Clock screen: Show clock -->
+    <string name="show_clock">Hiển thị đồng hồ</string>
+    <!-- Menu item on Alarm Clock screen: Hide clock -->
+    <string name="hide_clock">Ẩn đồng hồ</string>
+    <!-- Setting label on Set alarm screen: Label -->
+    <string name="label">Tên hiển thị</string>
+    <!-- Content description for alarm on/off switch in On state -->
+    <string name="on_switch">Bật</string>
+    <!-- Content description for alarm on/off switch in Off state -->
+    <string name="off_switch">Tắt</string>
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">Báo thức</string>
+    <!-- Preference category on Alarm Settings screen: Set alarm -->
+    <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="set_alarm">Đặt báo thức</string>
+    <!-- Setting labels on Set alarm screen: Vibration on or off -->
+    <string name="alarm_vibrate">Rung</string>
+    <!-- Setting labels on Set alarm screen: Repeat -->
+    <string name="alarm_repeat">Lặp lại</string>
+    <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+    <string name="alert">Nhạc chuông báo thức</string>
+    <!-- Title of default ringtone played when a timer expires. -->
+    <string name="default_timer_ringtone_title">Bộ đếm thời gian</string>
+    <!-- Title of silent ringtone played when a timer expires. -->
+    <string name="silent_timer_ringtone_title">Im lặng</string>
+    <!-- Label on expanded alarm edit view. -->
+    <string name="ringtone">Nhạc chuông</string>
+    <!-- Setting labels on Set alarm screen: Set time  -->
+    <string name="time">Thời gian</string>
+    <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
+    <string name="alarm_tomorrow">Ngày mai</string>
+    <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
+    <string name="alarm_today">Hôm nay</string>
+    <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
+    <string name="alarm_alert_wake_up">Thức dậy\u0021</string>
+    <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
+    <string name="alarm_alert_off_action_text">Tắt</string>
+    <!-- Button labels on the alarm dialog: Dismiss -->
+    <string name="alarm_alert_dismiss_text">Bỏ qua</string>
+    <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+    <string name="alarm_alert_dismiss_now_text">Loại bỏ bây giờ</string>
+    <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
-  <string name="alarm_missed_title">Báo thức bị lỡ</string>
-  <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+    <string name="alarm_missed_title">Báo thức bị lỡ</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <string name="alarm_alert_snoozed_text">Báo lại</string>
-  <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+    <string name="alarm_alert_snoozed_text">Báo lại</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the word 'Snoozed' in two separate lines or example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <plurals name="alarm_alert_snooze_duration">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other">1 phút</item>
-  </plurals>
-  <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
-  <string name="alarm_alert_off_text">Tắt báo thức</string>
-  <!-- Button labels on the alarm dialog: Snooze -->
-  <string name="alarm_alert_snooze_text">Báo lại</string>
-  <!-- Toast that appears after Alarm is snoozed from the Alarm
+    <plurals name="alarm_alert_snooze_duration">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other">1 phút</item>
+    </plurals>
+    <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
+    <string name="alarm_alert_off_text">Tắt báo thức</string>
+    <!-- Button labels on the alarm dialog: Snooze -->
+    <string name="alarm_alert_snooze_text">Báo lại</string>
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
-  <plurals name="alarm_alert_snooze_set">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other">Báo lại sau <xliff:g id="Minutes">%d</xliff:g> phút.</item>
-  </plurals>
-  <!-- Text to appear inside a notification while an alarm is snoozing. -->
-  <string name="alarm_alert_snooze_until">Báo lại cho tới <xliff:g id="Time">%s</xliff:g></string>
-  <!-- Text to appear in the notification title while an alarm is about to go off. -->
-  <string name="alarm_alert_predismiss_title">Báo thức sắp tới</string>
-  <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
-  <string name="missed_alarm_has_been_deleted">Báo thức bị lỡ của bạn đã được xóa</string>
-  <!-- 0: nothing
+    <plurals name="alarm_alert_snooze_set">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other">Báo lại sau <xliff:g id="Minutes">%d</xliff:g> phút.</item>
+    </plurals>
+    <!-- Text to appear inside a notification while an alarm is snoozing. -->
+    <string name="alarm_alert_snooze_until">Báo lại cho tới <xliff:g id="Time">%s</xliff:g></string>
+    <!-- Text to appear in the notification title while an alarm is about to go off. -->
+    <string name="alarm_alert_predismiss_title">Báo thức sắp tới</string>
+    <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+    <string name="missed_alarm_has_been_deleted">Báo thức bị lỡ của bạn đã được xóa</string>
+    <!-- 0: nothing
          1: days
          2:      hours
          3: days hours
@@ -128,724 +128,724 @@
          6:      hours minutes
          7: days hours minutes
     -->
-  <!-- Timer notification: how long from now until timer goes off. -->
-  <string name="timer_notifications_less_min">Chưa đầy một phút nữa</string>
-  <string name="timer_notifications_hours"><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
-  <string name="timer_notifications_minutes"><xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
-  <string name="timer_notifications_hours_minutes"><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g> remaining</string>
-  <!--
+    <!-- Timer notification: how long from now until timer goes off. -->
+    <string name="timer_notifications_less_min">Chưa đầy một phút nữa</string>
+    <string name="timer_notifications_hours"><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
+    <string name="timer_notifications_minutes"><xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
+    <string name="timer_notifications_hours_minutes"><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g> remaining</string>
+    <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
     -->
-  <string name="timer_remaining_single">còn lại</string>
-  <!--
+    <string name="timer_remaining_single">còn lại</string>
+    <!--
         Verb inflection to use for multiple time units remaining
         Ex. "2 minutes remaining"
     -->
-  <string name="timer_remaining_multiple">còn lại</string>
-  <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
-  <string-array name="alarm_set">
-    <item>Báo thức được đặt đổ chuông sau dưới 1 phút nữa tính từ bây giờ.</item>
-    <item>Báo thức được đặt cho <xliff:g id="DAYS">%1$s</xliff:g> tính từ bây giờ.</item>
-    <item>Báo thức được đặt cho <xliff:g id="HOURS">%2$s</xliff:g> tính từ bây giờ.</item>
-    <item>Báo thức được đặt cho <xliff:g id="DAYS">%1$s</xliff:g> và <xliff:g id="HOURS">%2$s</xliff:g> tính từ bây giờ.</item>
-    <item>Báo thức được đặt cho <xliff:g id="MINUTES">%3$s</xliff:g> tính từ bây giờ.</item>
-    <item>Báo thức được đặt cho <xliff:g id="DAYS">%1$s</xliff:g> và <xliff:g id="MINUTES">%3$s</xliff:g> tính từ bây giờ.</item>
-    <item>Báo thức được đặt cho <xliff:g id="HOURS">%2$s</xliff:g> và <xliff:g id="MINUTES">%3$s</xliff:g> tính từ bây giờ.</item>
-    <item>Báo thức được đặt đổ chuông sau <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> và <xliff:g id="MINUTES">%3$s</xliff:g> nữa tính từ bây giờ.</item>
-  </string-array>
-  <!-- Alarm confirmation toast: days -->
-  <plurals name="days">
-    <!-- Duration for one day -->
-    <!-- Duration for more than one day -->
-    <item quantity="other"><xliff:g id="Number">%s</xliff:g> ngày</item>
-  </plurals>
-  <!-- Alarm confirmation toast and timer notification: hours -->
-  <plurals name="hours">
-    <!-- Duration for one hour -->
-    <!-- Duration for more than one hour -->
-    <item quantity="other"><xliff:g id="Number">%s</xliff:g> giờ</item>
-  </plurals>
-  <!-- Alarm confirmation toast and timer notification: minutes -->
-  <plurals name="minutes">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="Number">%s</xliff:g> phút</item>
-  </plurals>
-  <!-- Repeat options that appear under an alarm on main Alarm Clock
+    <string name="timer_remaining_multiple">còn lại</string>
+    <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
+    <string-array name="alarm_set">
+        <item>Báo thức được đặt đổ chuông sau dưới 1 phút nữa tính từ bây giờ.</item>
+        <item>Báo thức được đặt cho <xliff:g id="DAYS">%1$s</xliff:g> tính từ bây giờ.</item>
+        <item>Báo thức được đặt cho <xliff:g id="HOURS">%2$s</xliff:g> tính từ bây giờ.</item>
+        <item>Báo thức được đặt cho <xliff:g id="DAYS">%1$s</xliff:g> và <xliff:g id="HOURS">%2$s</xliff:g> tính từ bây giờ.</item>
+        <item>Báo thức được đặt cho <xliff:g id="MINUTES">%3$s</xliff:g> tính từ bây giờ.</item>
+        <item>Báo thức được đặt cho <xliff:g id="DAYS">%1$s</xliff:g> và <xliff:g id="MINUTES">%3$s</xliff:g> tính từ bây giờ.</item>
+        <item>Báo thức được đặt cho <xliff:g id="HOURS">%2$s</xliff:g> và <xliff:g id="MINUTES">%3$s</xliff:g> tính từ bây giờ.</item>
+        <item>Báo thức được đặt đổ chuông sau <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> và <xliff:g id="MINUTES">%3$s</xliff:g> nữa tính từ bây giờ.</item>
+    </string-array>
+    <!-- Alarm confirmation toast: days -->
+    <plurals name="days">
+        <!-- Duration for one day -->
+        <!-- Duration for more than one day -->
+        <item quantity="other"><xliff:g id="Number">%s</xliff:g> ngày</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: hours -->
+    <plurals name="hours">
+        <!-- Duration for one hour -->
+        <!-- Duration for more than one hour -->
+        <item quantity="other"><xliff:g id="Number">%s</xliff:g> giờ</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: minutes -->
+    <plurals name="minutes">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="Number">%s</xliff:g> phút</item>
+    </plurals>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
-  <string name="every_day">Hàng ngày</string>
-  <!-- Repeat options that appear under an alarm on main Alarm Clock
+    <string name="every_day">Hàng ngày</string>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
-  <string name="day_concat">", "</string>
-  <!-- Appears at the top of the Clock Picker screen: Tell user to
+    <string name="day_concat">", "</string>
+    <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
-  <string name="clock_instructions">Chọn đồng hồ</string>
-  <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="analog_gadget">Đồng hồ kim</string>
-  <!-- Help activity name -->
-  <string name="help">trợ giúp</string>
-  <!-- Settings activity name -->
-  <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="settings">Cài đặt</string>
-  <!-- Setting title for changing the snooze duration. -->
-  <string name="snooze_duration_title">Thời gian báo lại</string>
-  <plurals name="snooze_duration">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="Number">%s</xliff:g> phút</item>
-  </plurals>
-  <plurals name="snooze_picker_label">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other">phút</item>
-  </plurals>
-  <!-- Setting title for changing the crescendo duration. -->
-  <string name="crescendo_duration_title">Tăng dần âm lượng</string>
-  <!-- Summary value for changing the crescendo duration to 0. -->
-  <string name="no_crescendo_duration">Tắt</string>
-  <!-- Summary value for changing the crescendo duration. -->
-  <string name="crescendo_duration"><xliff:g id="Number">%s</xliff:g> giờ</string>
-  <!-- Setting label when changing the crescendo duration. -->
-  <string name="crescendo_picker_label">giây</string>
-  <!-- Auto silence preference title -->
-  <string name="auto_silence_title">Im lặng sau</string>
-  <!-- Auto silence summary string set based on the preference value. -->
-  <plurals name="auto_silence_summary">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other">1 phút</item>
-  </plurals>
-  <!-- Auto silence summary when turned off -->
-  <string name="auto_silence_never">Không bao giờ</string>
-  <string name="default_auto_silence_value">10 phút</string>
-  <!-- Entries listed in the ListPreference when invoking the auto silence
+    <string name="clock_instructions">Chọn đồng hồ</string>
+    <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="analog_gadget">Đồng hồ kim</string>
+    <!-- Help activity name -->
+    <string name="help">trợ giúp</string>
+    <!-- Settings activity name -->
+    <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="settings">Cài đặt</string>
+    <!-- Setting title for changing the snooze duration. -->
+    <string name="snooze_duration_title">Thời gian báo lại</string>
+    <plurals name="snooze_duration">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="Number">%s</xliff:g> phút</item>
+    </plurals>
+    <plurals name="snooze_picker_label">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other">phút</item>
+    </plurals>
+    <!-- Setting title for changing the crescendo duration. -->
+    <string name="crescendo_duration_title">Tăng dần âm lượng</string>
+    <!-- Summary value for changing the crescendo duration to 0. -->
+    <string name="no_crescendo_duration">Tắt</string>
+    <!-- Summary value for changing the crescendo duration. -->
+    <string name="crescendo_duration"><xliff:g id="Number">%s</xliff:g> giờ</string>
+    <!-- Setting label when changing the crescendo duration. -->
+    <string name="crescendo_picker_label">giây</string>
+    <!-- Auto silence preference title -->
+    <string name="auto_silence_title">Im lặng sau</string>
+    <!-- Auto silence summary string set based on the preference value. -->
+    <plurals name="auto_silence_summary">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other">1 phút</item>
+    </plurals>
+    <!-- Auto silence summary when turned off -->
+    <string name="auto_silence_never">Không bao giờ</string>
+    <string name="default_auto_silence_value">10 phút</string>
+    <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
-  <string-array name="auto_silence_entries">
-    <item>1 phút</item>
-    <item>5 phút</item>
-    <item>10 phút</item>
-    <item>15 phút</item>
-    <item>20 phút</item>
-    <item>25 phút</item>
-    <item>Không bao giờ</item>
-  </string-array>
-  <!-- Values that are retrieved from the ListPreference. These must match
+    <string-array name="auto_silence_entries">
+        <item>1 phút</item>
+        <item>5 phút</item>
+        <item>10 phút</item>
+        <item>15 phút</item>
+        <item>20 phút</item>
+        <item>25 phút</item>
+        <item>Không bao giờ</item>
+    </string-array>
+    <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
-  <!-- Week start day preference title. -->
-  <string name="week_start_title">Tuần bắt đầu vào</string>
-  <!-- Entries listed in ListPreference for start day. -->
-  <string-array name="week_start_entries">
-    <item>Thứ Bảy</item>
-    <item>Chủ Nhật</item>
-    <item>Thứ Hai</item>
-  </string-array>
-  <!-- Values for ListPreference for start day of week. -->
-  <!-- Done button when editing an alarm. -->
-  <string name="done">Hoàn tất</string>
-  <!-- Revert button when editing an alarm. -->
-  <string name="revert">Phục hồi</string>
-  <!-- Delete button when editing an alarm. -->
-  <string name="delete">Xóa</string>
-  <!-- Setting title for changing the alarm volume. -->
-  <string name="alarm_volume_title">Âm lượng báo thức</string>
-  <!-- Title for the silent ringtone. -->
-  <string name="silent_ringtone_title">Im lặng</string>
-  <!-- Title for ringtones that cannot be located by uri. -->
-  <string name="unknown_ringtone_title">Không rõ</string>
-  <!-- Text to display in the small text of the notification -->
-  <string name="alarm_notify_text">Báo lại hoặc hủy báo thức.</string>
-  <!-- Text to display in the notification ticker and label -->
-  <string name="alarm_notify_snooze_label"><xliff:g id="Label">%s</xliff:g> (báo lại)</string>
-  <!-- Text to display in the notification when the alarm has been snoozed -->
-  <string name="alarm_notify_snooze_text">Báo thức được đặt đổ chuông sau <xliff:g id="Time">%s</xliff:g> nữa. Chạm để hủy.</string>
-  <!-- Title of the setting to change hardware button behavior. This string
+    <!-- Week start day preference title. -->
+    <string name="week_start_title">Tuần bắt đầu vào</string>
+    <!-- Entries listed in ListPreference for start day. -->
+    <string-array name="week_start_entries">
+        <item>Thứ Bảy</item>
+        <item>Chủ Nhật</item>
+        <item>Thứ Hai</item>
+    </string-array>
+    <!-- Values for ListPreference for start day of week. -->
+    <!-- Done button when editing an alarm. -->
+    <string name="done">Hoàn tất</string>
+    <!-- Revert button when editing an alarm. -->
+    <string name="revert">Phục hồi</string>
+    <!-- Delete button when editing an alarm. -->
+    <string name="delete">Xóa</string>
+    <!-- Setting title for changing the alarm volume. -->
+    <string name="alarm_volume_title">Âm lượng báo thức</string>
+    <!-- Title for the silent ringtone. -->
+    <string name="silent_ringtone_title">Im lặng</string>
+    <!-- Title for ringtones that cannot be located by uri. -->
+    <string name="unknown_ringtone_title">Không rõ</string>
+    <!-- Text to display in the small text of the notification -->
+    <string name="alarm_notify_text">Báo lại hoặc hủy báo thức.</string>
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label"><xliff:g id="Label">%s</xliff:g> (báo lại)</string>
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="alarm_notify_snooze_text">Báo thức được đặt đổ chuông sau <xliff:g id="Time">%s</xliff:g> nữa. Chạm để hủy.</string>
+    <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
-  <string name="volume_button_setting_title">Phím âm lượng</string>
-  <!-- Dialog title of the volume and power setting. -->
-  <string name="volume_button_dialog_title">Hiệu ứng nút</string>
-  <!-- Entries listed in the setting for the side-button action. -->
-  <string-array name="volume_button_setting_entries">
-    <item>Báo lại</item>
-    <item>Bỏ qua</item>
-    <item>Không làm gì</item>
-  </string-array>
-  <!-- Values for the side-button setting. -->
-  <!-- Title of the ringtone setting. -->
-  <string name="default_ringtone_setting_title">Đặt nhạc chuông mặc định</string>
-  <!-- Accessibility labels for Clock activity buttons -->
-  <string name="alarm_button_description">Báo thức</string>
-  <string name="gallery_button_description">Thư viện</string>
-  <string name="music_button_description">Âm nhạc</string>
-  <string name="nightmode_button_description">Mờ</string>
-  <string name="home_button_description">Trình chạy</string>
-  <string name="desk_clock_button_description">Hiển thị đồng hồ</string>
-  <!-- Accessibility labels for alarm buttons -->
-  <string name="label_description">Tên hiển thị</string>
-  <string name="ringtone_description">Nhạc chuông</string>
-  <!-- What to show the user if the weather widget exists but fails to
+    <string name="volume_button_setting_title">Phím âm lượng</string>
+    <!-- Dialog title of the volume and power setting. -->
+    <string name="volume_button_dialog_title">Hiệu ứng nút</string>
+    <!-- Entries listed in the setting for the side-button action. -->
+    <string-array name="volume_button_setting_entries">
+        <item>Báo lại</item>
+        <item>Bỏ qua</item>
+        <item>Không làm gì</item>
+    </string-array>
+    <!-- Values for the side-button setting. -->
+    <!-- Title of the ringtone setting. -->
+    <string name="default_ringtone_setting_title">Đặt nhạc chuông mặc định</string>
+    <!-- Accessibility labels for Clock activity buttons -->
+    <string name="alarm_button_description">Báo thức</string>
+    <string name="gallery_button_description">Thư viện</string>
+    <string name="music_button_description">Âm nhạc</string>
+    <string name="nightmode_button_description">Mờ</string>
+    <string name="home_button_description">Trình chạy</string>
+    <string name="desk_clock_button_description">Hiển thị đồng hồ</string>
+    <!-- Accessibility labels for alarm buttons -->
+    <string name="label_description">Tên hiển thị</string>
+    <string name="ringtone_description">Nhạc chuông</string>
+    <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
          present on the device, we show nothing at all. -->
-  <string name="weather_fetch_failure">Hiện không có thông tin thời tiết.</string>
-  <!-- A description for the DeskClock alarm sound playback service.
+    <string name="weather_fetch_failure">Hiện không có thông tin thời tiết.</string>
+    <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="alarm_klaxon_service_desc">Dịch vụ phát âm thanh cho báo thức đã đặt trong Đồng hồ.</string>
-  <!-- String displayed as the alert summary while loading the alert name from
+    <string name="alarm_klaxon_service_desc">Dịch vụ phát âm thanh cho báo thức đã đặt trong Đồng hồ.</string>
+    <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
-  <string name="loading_ringtone">Đang tải nhạc chuông…\u2026</string>
-  <!-- A description for the DeskClock timer sound playback service.
+    <string name="loading_ringtone">Đang tải nhạc chuông…\u2026</string>
+    <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="timer_ring_service_desc">Dịch vụ phát âm thanh cho báo thức đã đặt trong Đồng hồ.</string>
-  <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
-  <string name="control_set_alarm">Đặt báo thức</string>
-  <!--  ActionBar strings -->
-  <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
-  <string name="menu_alarm">Báo thức</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
-  <string name="menu_timer">Thời gian</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
-  <string name="menu_clock">Đồng hồ</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
-  <string name="menu_stopwatch">Đồng hồ bấm giờ</string>
-  <!-- Clock view buttons strings-->
-  <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
-  <string name="button_alarms">Thêm báo thức</string>
-  <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
-  <string name="button_cities">Thành phố</string>
-  <!-- Describes the purpose of the button which pops up a menu of setting choices -->
-  <string name="button_menu">Tùy chọn khác</string>
-  <!-- Menu item on most screens to get to more settings -->
-  <string name="menu_item_settings">Cài đặt</string>
-  <!-- Menu item on most screens to get to the help information -->
-  <string name="menu_item_help">Trợ giúp</string>
-  <!-- Menu item on clock screen to add world city. -->
-  <string name="menu_item_add">Thêm</string>
-  <!-- Menu item on clock screen to enter night mode. -->
-  <string name="menu_item_night_mode">Chế độ ban đêm</string>
-  <!-- Menu item on Cities screen to sort by GMT offset -->
-  <string name="menu_item_sort_by_gmt_offset">Sắp xếp theo thời gian</string>
-  <!-- Menu item on Cities screen to sort by alphabetical order -->
-  <string name="menu_item_sort_by_name">Sắp xếp theo tên</string>
-  <string name="cities_add_gps_no_results">Tìm kiếm GPS không đưa ra được kết quả vị trí</string>
-  <string name="cities_add_gps_not_available">GPS không có sẵn</string>
-  <string name="cities_add_searching">Đang tìm\u2026</string>
-  <string name="cities_add_city_title">Thêm thành phố</string>
-  <string name="cities_add_city_gps_cd">Nhấn để định vị thành phố hiện tại của bạn</string>
-  <string name="cities_add_loading">Đang tải\u2026</string>
-  <string name="cities_add_city_city">Thành phố:</string>
-  <string name="cities_add_city_timezone">Múi giờ:</string>
-  <string name="cities_add_already_exists">Thành phố đã tồn tại trong cơ sở dữ liệu</string>
-  <string name="cities_add_city_failed">Không thể tạo thành phố</string>
-  <string name="cities_delete_city_failed">Không thể xóa thành phố</string>
-  <string name="cities_delete_city_msg">Bạn có muốn xóa <xliff:g id="city">%s</xliff:g> không?    </string>
-  <string name="cities_delete_city_title">Xóa thành phố</string>
-  <!-- Label for selected cities in Cities list view -->
-  <string name="selected_cities_label">Các thành phố được chọn</string>
-  <!-- Stopwatch and Timer shared strings -->
-  <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
-  <string name="sw_resume_button">Hồi phục</string>
-  <!--
+    <string name="timer_ring_service_desc">Dịch vụ phát âm thanh cho báo thức đã đặt trong Đồng hồ.</string>
+    <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm">Đặt báo thức</string>
+    <!--  ActionBar strings -->
+    <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
+    <string name="menu_alarm">Báo thức</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
+    <string name="menu_timer">Thời gian</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
+    <string name="menu_clock">Đồng hồ</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
+    <string name="menu_stopwatch">Đồng hồ bấm giờ</string>
+    <!-- Clock view buttons strings-->
+    <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+    <string name="button_alarms">Thêm báo thức</string>
+    <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
+    <string name="button_cities">Thành phố</string>
+    <!-- Describes the purpose of the button which pops up a menu of setting choices -->
+    <string name="button_menu">Tùy chọn khác</string>
+    <!-- Menu item on most screens to get to more settings -->
+    <string name="menu_item_settings">Cài đặt</string>
+    <!-- Menu item on most screens to get to the help information -->
+    <string name="menu_item_help">Trợ giúp</string>
+    <!-- Menu item on clock screen to add world city. -->
+    <string name="menu_item_add">Thêm</string>
+    <!-- Menu item on clock screen to enter night mode. -->
+    <string name="menu_item_night_mode">Chế độ ban đêm</string>
+    <!-- Menu item on Cities screen to sort by GMT offset -->
+    <string name="menu_item_sort_by_gmt_offset">Sắp xếp theo thời gian</string>
+    <!-- Menu item on Cities screen to sort by alphabetical order -->
+    <string name="menu_item_sort_by_name">Sắp xếp theo tên</string>
+    <string name="cities_add_gps_no_results">Tìm kiếm GPS không đưa ra được kết quả vị trí</string>
+    <string name="cities_add_gps_not_available">GPS không có sẵn</string>
+    <string name="cities_add_searching">Đang tìm\u2026</string>
+    <string name="cities_add_city_title">Thêm thành phố</string>
+    <string name="cities_add_city_gps_cd">Nhấn để định vị thành phố hiện tại của bạn</string>
+    <string name="cities_add_loading">Đang tải\u2026</string>
+    <string name="cities_add_city_city">Thành phố:</string>
+    <string name="cities_add_city_timezone">Múi giờ:</string>
+    <string name="cities_add_already_exists">Thành phố đã tồn tại trong cơ sở dữ liệu</string>
+    <string name="cities_add_city_failed">Không thể tạo thành phố</string>
+    <string name="cities_delete_city_failed">Không thể xóa thành phố</string>
+    <string name="cities_delete_city_msg">Bạn có muốn xóa <xliff:g id="city">%s</xliff:g> không?</string>
+    <string name="cities_delete_city_title">Xóa thành phố</string>
+    <!-- Label for selected cities in Cities list view -->
+    <string name="selected_cities_label">Các thành phố được chọn</string>
+    <!-- Stopwatch and Timer shared strings -->
+    <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
+    <string name="sw_resume_button">Hồi phục</string>
+    <!--
         Describes the purpose of the button
             for stopwatch: return stopwatch to zero and remove the lap times.
             for timer: return timer to originally set duration.
         [CHAR LIMIT=15]
     -->
-  <string name="sw_reset_button">Đặt lại</string>
-  <!-- Stopwatch strings -->
-  <!-- Describes the purpose of the button to begin running a stopwatch -->
-  <string name="sw_start_button">Bắt đầu</string>
-  <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Tạm ngừng</string>
-  <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
-  <string name="sw_lap_button">Vòng chạy</string>
-  <!-- Describes the purpose of the button to share the stopwatch value.
+    <string name="sw_reset_button">Đặt lại</string>
+    <!-- Stopwatch strings -->
+    <!-- Describes the purpose of the button to begin running a stopwatch -->
+    <string name="sw_start_button">Bắt đầu</string>
+    <!-- Describes the purpose of the button to pause a stopwatch. -->
+    <string name="sw_pause_button">Tạm ngừng</string>
+    <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
+    <string name="sw_lap_button">Vòng chạy</string>
+    <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
-  <string name="sw_share_button">Chia sẻ</string>
-  <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
-  <string name="hours_label">g</string>
-  <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
-  <string name="minutes_label">p</string>
-  <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
-  <string name="seconds_label">g</string>
-  <!-- Accessibility strings -->
-  <string name="hours_label_description">giờ</string>
-  <string name="minutes_label_description">phút</string>
-  <string name="seconds_label_description">giây</string>
-  <string name="zero">0</string>
-  <!--  Stopwatch share strings -->
-  <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
-  <string name="sw_share_main">Báo lại cho tới <xliff:g id="Time">%s</xliff:g></string>
-  <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
-  <string name="sw_share_laps">Số lần bấm giờ:</string>
-  <!-- Label to enumerate the number of laps in the notification the user has counted -->
-  <string name="sw_notification_lap_number"><xliff:g id="Number">%d</xliff:g> bấm giờ</string>
-  <!-- Stopwatch accessibility strings -->
-  <plurals name="Nhours_description">
-    <!-- 1 hour -->
-    <!-- more -->
-    <item quantity="other"><xliff:g id="Number">%d</xliff:g> giờ</item>
-  </plurals>
-  <plurals name="Nminutes_description">
-    <!-- 1 minute -->
-    <!-- more -->
-    <item quantity="other"><xliff:g id="Number">%d</xliff:g> phút</item>
-  </plurals>
-  <plurals name="Nseconds_description">
-    <!-- 1 second -->
-    <!-- more -->
-    <item quantity="other"><xliff:g id="Number">%d</xliff:g> giây</item>
-  </plurals>
-  <!-- timer strings -->
-  <!-- Describes the purpose of the button to add a new timer -->
-  <string name="timer_add_timer">Thêm bộ hẹn giờ</string>
-  <!-- Describes the purpose of the button to begin or continue running a timer -->
-  <string name="timer_start">Bắt đầu</string>
-  <!-- Describes the purpose of the button to delete a timer. -->
-  <string name="timer_delete">Xóa</string>
-  <!-- Talkback description for deleting a number. -->
-  <string name="timer_descriptive_delete">Xóa <xliff:g id="Number_STRING">%s</xliff:g></string>
-  <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
-  <string name="timer_plus_one">Thêm 1 phút</string>
-  <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
-  <string name="timer_plus_1_min">Thêm 1 phút</string>
-  <!-- Describes the purpose of the button to stop the timer. -->
-  <string name="timer_stop">Ngừng</string>
-  <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
-  <string name="timer_stop_all">Dừng tất cả các bộ tính giờ</string>
-  <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
-  <string name="timer_reset">Đặt lại</string>
-  <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
-  <string name="timer_cancel">Huỷ</string>
-  <!-- Accessibility announcement when a timer is canceled. -->
-  <string name="timer_canceled">Bộ đếm thời gian hủy</string>
-  <!-- Notification content shown when a timer has completed and has no more time remaining -->
-  <string name="timer_times_up">Hết giờ</string>
-  <!--
+    <string name="sw_share_button">Chia sẻ</string>
+    <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+    <string name="hours_label">g</string>
+    <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+    <string name="minutes_label">p</string>
+    <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+    <string name="seconds_label">g</string>
+    <!-- Accessibility strings -->
+    <string name="hours_label_description">giờ</string>
+    <string name="minutes_label_description">phút</string>
+    <string name="seconds_label_description">giây</string>
+    <string name="zero">0</string>
+    <!--  Stopwatch share strings -->
+    <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
+    <string name="sw_share_main">Báo lại cho tới <xliff:g id="Time">%s</xliff:g></string>
+    <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
+    <string name="sw_share_laps">Số lần bấm giờ:</string>
+    <!-- Label to enumerate the number of laps in the notification the user has counted -->
+    <string name="sw_notification_lap_number"><xliff:g id="Number">%d</xliff:g> bấm giờ</string>
+    <!-- Stopwatch accessibility strings -->
+    <plurals name="Nhours_description">
+        <!-- 1 hour -->
+        <!-- more -->
+        <item quantity="other"><xliff:g id="Number">%d</xliff:g> giờ</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <!-- 1 minute -->
+        <!-- more -->
+        <item quantity="other"><xliff:g id="Number">%d</xliff:g> phút</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <!-- 1 second -->
+        <!-- more -->
+        <item quantity="other"><xliff:g id="Number">%d</xliff:g> giây</item>
+    </plurals>
+    <!-- timer strings -->
+    <!-- Describes the purpose of the button to add a new timer -->
+    <string name="timer_add_timer">Thêm bộ hẹn giờ</string>
+    <!-- Describes the purpose of the button to begin or continue running a timer -->
+    <string name="timer_start">Bắt đầu</string>
+    <!-- Describes the purpose of the button to delete a timer. -->
+    <string name="timer_delete">Xóa</string>
+    <!-- Talkback description for deleting a number. -->
+    <string name="timer_descriptive_delete">Xóa <xliff:g id="Number_STRING">%s</xliff:g></string>
+    <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
+    <string name="timer_plus_one">Thêm 1 phút</string>
+    <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
+    <string name="timer_plus_1_min">Thêm 1 phút</string>
+    <!-- Describes the purpose of the button to stop the timer. -->
+    <string name="timer_stop">Ngừng</string>
+    <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
+    <string name="timer_stop_all">Dừng tất cả các bộ tính giờ</string>
+    <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
+    <string name="timer_reset">Đặt lại</string>
+    <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
+    <string name="timer_cancel">Huỷ</string>
+    <!-- Accessibility announcement when a timer is canceled. -->
+    <string name="timer_canceled">Bộ đếm thời gian hủy</string>
+    <!-- Notification content shown when a timer has completed and has no more time remaining -->
+    <string name="timer_times_up">Hết giờ</string>
+    <!--
         Notification content shown when multiple timers have completed and have no more time
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
-  <string name="timer_multi_times_up">Đã dừng <xliff:g id="NUMBER">%d</xliff:g> bộ tính giờ</string>
-  <!-- Label associated with a notification for a Timer -->
-  <string name="timer_notification_label">Thời gian</string>
-  <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
-  <string name="timers_max_count_reached">Tối đa 4 bộ hẹn giờ</string>
-  <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
-  <string name="timer_pause">Tạm ngừng</string>
-  <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
-  <string name="timer_reset_all">Cài đặt lại tất cả bộ lọc</string>
-  <!-- Jocular content that user may append when sharing the lap times -->
-  <string-array name="sw_share_strings" translatable="true">
-    <item>Bạn là con quỷ tốc độ.</item>
-    <item>Tận hưởng thành quả lao động của bạn.</item>
-    <item>Android được cho là nhanh, nhưng không nhanh bằng bạn!</item>
-    <item>Gê quá.</item>
-    <item>L33t lần.</item>
-    <item>Vận tốc phi thường.</item>
-    <item>Hãy làm chậm thời gian lại.</item>
-    <item>Chỉ cần nhảy sang bên trái.</item>
-    <item>Bạn có một bảng màu vội vàng.</item>
-    <item>Vận tốc của lượng tử ánh sáng.</item>
-  </string-array>
-  <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
-  <string name="home_label">Nhà riêng</string>
-  <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="cities_activity_title">Thành phố</string>
-  <!-- Settings strings -->
-  <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
-  <string name="clock_settings">Đồng hồ</string>
-  <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
-  <string name="clock_style">Kiểu</string>
-  <!-- Title for preference to change date & time -->
-  <string name="open_date_settings">Thay đổi thời gian ngày \u0026</string>
-  <!-- Entries listed in the ListPreference when invoking the clock style
+    <string name="timer_multi_times_up">Đã dừng <xliff:g id="NUMBER">%d</xliff:g> bộ tính giờ</string>
+    <!-- Label associated with a notification for a Timer -->
+    <string name="timer_notification_label">Thời gian</string>
+    <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
+    <string name="timers_max_count_reached">Tối đa 4 bộ hẹn giờ</string>
+    <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
+    <string name="timer_pause">Tạm ngừng</string>
+    <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
+    <string name="timer_reset_all">Cài đặt lại tất cả bộ lọc</string>
+    <!-- Jocular content that user may append when sharing the lap times -->
+    <string-array name="sw_share_strings" translatable="true">
+        <item>Bạn là con quỷ tốc độ.</item>
+        <item>Tận hưởng thành quả lao động của bạn.</item>
+        <item>Android được cho là nhanh, nhưng không nhanh bằng bạn!</item>
+        <item>Gê quá.</item>
+        <item>L33t lần.</item>
+        <item>Vận tốc phi thường.</item>
+        <item>Hãy làm chậm thời gian lại.</item>
+        <item>Chỉ cần nhảy sang bên trái.</item>
+        <item>Bạn có một bảng màu vội vàng.</item>
+        <item>Vận tốc của lượng tử ánh sáng.</item>
+    </string-array>
+    <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
+    <string name="home_label">Nhà riêng</string>
+    <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="cities_activity_title">Thành phố</string>
+    <!-- Settings strings -->
+    <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
+    <string name="clock_settings">Đồng hồ</string>
+    <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
+    <string name="clock_style">Kiểu</string>
+    <!-- Title for preference to change date & time -->
+    <string name="open_date_settings">Thay đổi thời gian ngày \u0026</string>
+    <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
-  <string-array name="clock_style_entries">
-    <item>Đồng hồ kim</item>
-    <item>Đồng hồ số</item>
-  </string-array>
-  <!-- Values that are retrieved from the ListPreference. These must match
+    <string-array name="clock_style_entries">
+        <item>Đồng hồ kim</item>
+        <item>Đồng hồ số</item>
+    </string-array>
+    <!-- Values that are retrieved from the ListPreference. These must match
          the clock_style_entries above. -->
-  <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
-  <string name="automatic_home_clock">Đồng hồ tự động</string>
-  <!-- Describes the functionality provided by the automatic_home_clock option -->
-  <string name="automatic_home_clock_summary">Trong khi đi qua khu vực có giờ khác nhau, hãy thêm đồng hồ cho màn hình chính</string>
-  <!-- Title in the preferences change the time zone for the user's home -->
-  <string name="home_time_zone">Múi giờ chính</string>
-  <!-- Title in a list dialog box to pick a time zone for the user's home -->
-  <string name="home_time_zone_title">Múi giờ chính</string>
-  <!-- Textual content of the button to discard the current dialog values and close the dialog -->
-  <string name="time_picker_cancel">Huỷ</string>
-  <!-- Textual content of the button to update an alarm with the current dialog values -->
-  <string name="time_picker_set">OK</string>
-  <string name="time_picker_time_seperator">:</string>
-  <!--  place holder for am/pm label when it is not set -->
-  <string name="time_picker_ampm_label">--</string>
-  <!-- add 00 as minutes to the time when pressing this button -->
-  <string name="time_picker_00_label">: 00</string>
-  <!-- add 30 as minutes to the time when pressing this button -->
-  <string name="time_picker_30_label">: 30</string>
-  <!--
+    <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
+    <string name="automatic_home_clock">Đồng hồ tự động</string>
+    <!-- Describes the functionality provided by the automatic_home_clock option -->
+    <string name="automatic_home_clock_summary">Trong khi đi qua khu vực có giờ khác nhau, hãy thêm đồng hồ cho màn hình chính</string>
+    <!-- Title in the preferences change the time zone for the user's home -->
+    <string name="home_time_zone">Múi giờ chính</string>
+    <!-- Title in a list dialog box to pick a time zone for the user's home -->
+    <string name="home_time_zone_title">Múi giờ chính</string>
+    <!-- Textual content of the button to discard the current dialog values and close the dialog -->
+    <string name="time_picker_cancel">Huỷ</string>
+    <!-- Textual content of the button to update an alarm with the current dialog values -->
+    <string name="time_picker_set">OK</string>
+    <string name="time_picker_time_seperator">:</string>
+    <!--  place holder for am/pm label when it is not set -->
+    <string name="time_picker_ampm_label">--</string>
+    <!-- add 00 as minutes to the time when pressing this button -->
+    <string name="time_picker_00_label">: 00</string>
+    <!-- add 30 as minutes to the time when pressing this button -->
+    <string name="time_picker_30_label">: 30</string>
+    <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
     -->
-  <string name="city_checked">Đã kiểm tra <xliff:g id="Account_INFO">%s</xliff:g></string>
-  <!--
+    <string name="city_checked">Đã kiểm tra <xliff:g id="Account_INFO">%s</xliff:g></string>
+    <!--
         Accessibility string read when a city checkbox is unchecked.
         Ex. "Ann Arbor unchecked"
     -->
-  <string name="city_unchecked">Đã kiểm tra <xliff:g id="Account_INFO">%s</xliff:g></string>
-  <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
-  <string-array name="timezone_labels">
-    <item>"Marshall Islands"</item>
-    <item>"Midway Island"</item>
-    <item>"Hawaii"</item>
-    <item>"Alaska"</item>
-    <item>"Pacific Time"</item>
-    <item>"Tijuana"</item>
-    <item>"Arizona"</item>
-    <item>"Chihuahua"</item>
-    <item>"Mountain Time"</item>
-    <item>"Central America"</item>
-    <item>"Central Time"</item>
-    <item>"Mexico City"</item>
-    <item>"Saskatchewan"</item>
-    <item>"Bogota"</item>
-    <item>"Eastern Time"</item>
-    <item>"Venezuela"</item>
-    <item>"Atlantic Time (Barbados)"</item>
-    <item>"Atlantic Time (Canada)"</item>
-    <item>"Manaus"</item>
-    <item>"Santiago"</item>
-    <item>"Newfoundland"</item>
-    <item>"Brasilia"</item>
-    <item>"Buenos Aires"</item>
-    <item>"Greenland"</item>
-    <item>"Montevideo"</item>
-    <item>"Mid-Atlantic"</item>
-    <item>"Azores"</item>
-    <item>"Cape Verde Islands"</item>
-    <item>"Casablanca"</item>
-    <item>"London, Dublin"</item>
-    <item>"Amsterdam, Berlin"</item>
-    <item>"Belgrade"</item>
-    <item>"Brussels"</item>
-    <item>"Sarajevo"</item>
-    <item>"Windhoek"</item>
-    <item>"W. Africa Time"</item>
-    <item>"Amman, Jordan"</item>
-    <item>"Athens, Istanbul"</item>
-    <item>"Beirut, Lebanon"</item>
-    <item>"Cairo"</item>
-    <item>"Helsinki"</item>
-    <item>"Jerusalem"</item>
-    <item>"Minsk"</item>
-    <item>"Harare"</item>
-    <item>"Baghdad"</item>
-    <item>"Moscow"</item>
-    <item>"Koweït"</item>
-    <item>"Nairobi"</item>
-    <item>"Tehran"</item>
-    <item>"Baku"</item>
-    <item>"Tbilisi"</item>
-    <item>"Yerevan"</item>
-    <item>"Dubai"</item>
-    <item>"Kabul"</item>
-    <item>"Islamabad, Karachi"</item>
-    <item>"Ural'sk"</item>
-    <item>"Yekaterinburg"</item>
-    <item>"Kolkata"</item>
-    <item>"Sri Lanka"</item>
-    <item>"Kathmandu"</item>
-    <item>"Astana"</item>
-    <item>"Yangon"</item>
-    <item>"Krasnoyarsk"</item>
-    <item>"Bangkok"</item>
-    <item>"Beijing"</item>
-    <item>"Hong Kong"</item>
-    <item>"Irkutsk"</item>
-    <item>"Kuala Lumpur"</item>
-    <item>"Perth"</item>
-    <item>"Taipei"</item>
-    <item>"Seoul"</item>
-    <item>"Tokyo, Osaka"</item>
-    <item>"Yakutsk"</item>
-    <item>"Adelaide"</item>
-    <item>"Darwin"</item>
-    <item>"Brisbane"</item>
-    <item>"Hobart"</item>
-    <item>"Sydney, Canberra"</item>
-    <item>"Vladivostok"</item>
-    <item>"Guam"</item>
-    <item>"Magadan"</item>
-    <item>"Auckland"</item>
-    <item>"Fiji"</item>
-    <item>"Tonga"</item>
-    <item>"Jakarta"</item>
-  </string-array>
-  <!-- Choices for timezones, must be kept in sync with timezone_values. -->
-  <!-- Header in the preferences settings for the section pertaining to alarms -->
-  <string name="alarm_settings">Báo thức</string>
-  <!-- Describes the service that processes actions originating from timer notifications. -->
-  <string name="timer_service_desc">Quy trình xử lý từ thông báo hẹn giờ.</string>
-  <!-- Describes the service that processes actions originating from stopwatch notifications. -->
-  <string name="stopwatch_service_desc">Quy trình xử lý từ thông báo hẹn giờ.</string>
-  <!-- Description for the paused stop watch -->
-  <string name="swn_paused">Tạm dừng</string>
-  <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
+    <string name="city_unchecked">Đã kiểm tra <xliff:g id="Account_INFO">%s</xliff:g></string>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
+    <string-array name="timezone_labels">
+        <item>"Marshall Islands"</item>
+        <item>"Midway Island"</item>
+        <item>"Hawaii"</item>
+        <item>"Alaska"</item>
+        <item>"Pacific Time"</item>
+        <item>"Tijuana"</item>
+        <item>"Arizona"</item>
+        <item>"Chihuahua"</item>
+        <item>"Mountain Time"</item>
+        <item>"Central America"</item>
+        <item>"Central Time"</item>
+        <item>"Mexico City"</item>
+        <item>"Saskatchewan"</item>
+        <item>"Bogota"</item>
+        <item>"Eastern Time"</item>
+        <item>"Venezuela"</item>
+        <item>"Atlantic Time (Barbados)"</item>
+        <item>"Atlantic Time (Canada)"</item>
+        <item>"Manaus"</item>
+        <item>"Santiago"</item>
+        <item>"Newfoundland"</item>
+        <item>"Brasilia"</item>
+        <item>"Buenos Aires"</item>
+        <item>"Greenland"</item>
+        <item>"Montevideo"</item>
+        <item>"Mid-Atlantic"</item>
+        <item>"Azores"</item>
+        <item>"Cape Verde Islands"</item>
+        <item>"Casablanca"</item>
+        <item>"London, Dublin"</item>
+        <item>"Amsterdam, Berlin"</item>
+        <item>"Belgrade"</item>
+        <item>"Brussels"</item>
+        <item>"Sarajevo"</item>
+        <item>"Windhoek"</item>
+        <item>"W. Africa Time"</item>
+        <item>"Amman, Jordan"</item>
+        <item>"Athens, Istanbul"</item>
+        <item>"Beirut, Lebanon"</item>
+        <item>"Cairo"</item>
+        <item>"Helsinki"</item>
+        <item>"Jerusalem"</item>
+        <item>"Minsk"</item>
+        <item>"Harare"</item>
+        <item>"Baghdad"</item>
+        <item>"Moscow"</item>
+        <item>"Koweït"</item>
+        <item>"Nairobi"</item>
+        <item>"Tehran"</item>
+        <item>"Baku"</item>
+        <item>"Tbilisi"</item>
+        <item>"Yerevan"</item>
+        <item>"Dubai"</item>
+        <item>"Kabul"</item>
+        <item>"Islamabad, Karachi"</item>
+        <item>"Ural'sk"</item>
+        <item>"Yekaterinburg"</item>
+        <item>"Kolkata"</item>
+        <item>"Sri Lanka"</item>
+        <item>"Kathmandu"</item>
+        <item>"Astana"</item>
+        <item>"Yangon"</item>
+        <item>"Krasnoyarsk"</item>
+        <item>"Bangkok"</item>
+        <item>"Beijing"</item>
+        <item>"Hong Kong"</item>
+        <item>"Irkutsk"</item>
+        <item>"Kuala Lumpur"</item>
+        <item>"Perth"</item>
+        <item>"Taipei"</item>
+        <item>"Seoul"</item>
+        <item>"Tokyo, Osaka"</item>
+        <item>"Yakutsk"</item>
+        <item>"Adelaide"</item>
+        <item>"Darwin"</item>
+        <item>"Brisbane"</item>
+        <item>"Hobart"</item>
+        <item>"Sydney, Canberra"</item>
+        <item>"Vladivostok"</item>
+        <item>"Guam"</item>
+        <item>"Magadan"</item>
+        <item>"Auckland"</item>
+        <item>"Fiji"</item>
+        <item>"Tonga"</item>
+        <item>"Jakarta"</item>
+    </string-array>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. -->
+    <!-- Header in the preferences settings for the section pertaining to alarms -->
+    <string name="alarm_settings">Báo thức</string>
+    <!-- Describes the service that processes actions originating from timer notifications. -->
+    <string name="timer_service_desc">Quy trình xử lý từ thông báo hẹn giờ.</string>
+    <!-- Describes the service that processes actions originating from stopwatch notifications. -->
+    <string name="stopwatch_service_desc">Quy trình xử lý từ thông báo hẹn giờ.</string>
+    <!-- Description for the paused stop watch -->
+    <string name="swn_paused">Tạm dừng</string>
+    <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
          be on the right even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_right">Vuốt sang phải để loại bỏ</string>
-  <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
+    <string name="description_direction_right">Vuốt sang phải để loại bỏ</string>
+    <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_left">Vuốt sang trái để báo lại</string>
-  <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
+    <string name="description_direction_left">Vuốt sang trái để báo lại</string>
+    <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_both">Vuốt sang trái để báo lại hoặc phải để bỏ qua</string>
-  <!-- Header in the preferences settings for the section pertaining to timers. -->
-  <string name="timer_settings">Đồng hồ đếm ngược</string>
-  <!-- Description for timer ringtone setting. -->
-  <string name="timer_ringtone_title">Đặt nhạc chuông</string>
-  <!-- Description when timer is stopped. -->
-  <string name="timer_stopped">Đã dừng bộ tính giờ</string>
-  <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
-  <string name="timer_paused">Thời gian tạm dừng</string>
-  <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
-  <string name="timers_stopped">Đã dừng <xliff:g id="Number">%d</xliff:g> bộ tính giờ</string>
-  <!-- Notification text when multiple timers are paused. -->
-  <string name="all_timers_stopped_notif">Chạm để xem bộ tính giờ của bạn</string>
-  <!-- Notification title when at least one timer, of those in use, is counting down. -->
-  <string name="timers_in_use"><xliff:g id="Number">%d</xliff:g> bộ hẹn giờ</string>
-  <!-- Notification text when at least one timer, of those in use, is counting down. -->
-  <string name="next_timer_notif">Bộ hẹn giờ tiếp theo: <xliff:g id="Time_REMAINING">%s</xliff:g></string>
-  <!-- screensaver settings strings -->
-  <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="screensaver_settings">Cài đặt bảo vệ màn hình</string>
-  <!-- Title for check box to pick intensity of display diminuation during dream mode -->
-  <string name="night_mode_title">Chế độ ban đêm</string>
-  <!-- Describes intensity of display diminuation during dream mode -->
-  <string name="night_mode_summary">Màn hình rất mờ (đối với phòng tối)</string>
-  <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
-  <string name="expand_alarm">Mở rộng báo thức</string>
-  <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
-  <string name="collapse_alarm">Thu gọn báo thức</string>
-  <!-- Description of the button to undo change to alarm -->
-  <string name="alarm_undo">hoàn tác</string>
-  <!-- Toast content when an alarm was deleted  -->
-  <string name="alarm_deleted">Đã xóa báo thức</string>
-  <!-- Select the source of the alarm -->
-  <string name="alarm_select">Chọn hết</string>
-  <!-- Select the ringtone as alarm -->
-  <string name="alarm_select_ringtone">Nhạc chuông</string>
-  <!-- Select the alarm from external device -->
-  <string name="alarm_select_external">Âm nhạc</string>
-  <!-- Ok for selection -->
-  <string name="alarm_select_ok">OK</string>
-  <!-- Cancel for selection -->
-  <string name="alarm_select_cancel">Huỷ</string>
-  <!-- slash between date and next alarm in the clock -->
-  <string name="slash"> / </string>
-  <!-- slash between date and next alarm in the clock -->
-  <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
-  <string name="next_alarm_description">Báo thức tiếp theo: <xliff:g id="Alarm_TIME">%s</xliff:g></string>
-  <!-- Displays the number of alarms selected from the list of alarms. -->
-  <string name="alarms_selected"><xliff:g id="Alarms">%d</xliff:g> được chọn</string>
-  <!-- message used by the talkback accessibility app to say that something was deleted -->
-  <string name="deleted_message">Đã xóa</string>
-  <!-- Alarm deletion confirmation message-->
-  <plurals name="alarm_delete_confirmation">
-    <!-- Confirmation for one alarm -->
-    <!-- Confirmation more than one alarm  -->
-    <item quantity="other">Xóa báo thức đã chọn?</item>
-  </plurals>
-  <!-- Timer deletion confirmation -->
-  <string name="timer_delete_confirmation">Xóa bộ hẹn giờ này?</string>
-  <!-- world clock deletion confirmation -->
-  <string name="city_delete_confirmation">Xóa thành phố này?</string>
-  <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="digital_gadget">Đồng hồ số</string>
-  <!-- format strings for clocks -->
-  <!-- Font size for AM/PM should match widget_label_font_size -->
-  <!-- Font size for AM/PM should match bottom_text_size -->
-  <!-- Font size for AM/PM should match label_font_size -->
-  <!-- Font size for AM/PM should match alarm_label_size -->
-  <!-- String for no alarms -->
-  <string name="no_alarms">Không có báo thức</string>
-  <!-- String for no alarms set [CHAR LIMIT=24] -->
-  <string name="no_alarms_set">Ko đặt báo thức</string>
-  <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
-  <string name="no_upcoming_alarms">KHÔNG CÓ BÁO THỨC</string>
-  <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
+    <string name="description_direction_both">Vuốt sang trái để báo lại hoặc phải để bỏ qua</string>
+    <!-- Header in the preferences settings for the section pertaining to timers. -->
+    <string name="timer_settings">Đồng hồ đếm ngược</string>
+    <!-- Description for timer ringtone setting. -->
+    <string name="timer_ringtone_title">Đặt nhạc chuông</string>
+    <!-- Description when timer is stopped. -->
+    <string name="timer_stopped">Đã dừng bộ tính giờ</string>
+    <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
+    <string name="timer_paused">Thời gian tạm dừng</string>
+    <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
+    <string name="timers_stopped">Đã dừng <xliff:g id="Number">%d</xliff:g> bộ tính giờ</string>
+    <!-- Notification text when multiple timers are paused. -->
+    <string name="all_timers_stopped_notif">Chạm để xem bộ tính giờ của bạn</string>
+    <!-- Notification title when at least one timer, of those in use, is counting down. -->
+    <string name="timers_in_use"><xliff:g id="Number">%d</xliff:g> bộ hẹn giờ</string>
+    <!-- Notification text when at least one timer, of those in use, is counting down. -->
+    <string name="next_timer_notif">Bộ hẹn giờ tiếp theo: <xliff:g id="Time_REMAINING">%s</xliff:g></string>
+    <!-- screensaver settings strings -->
+    <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="screensaver_settings">Cài đặt bảo vệ màn hình</string>
+    <!-- Title for check box to pick intensity of display diminuation during dream mode -->
+    <string name="night_mode_title">Chế độ ban đêm</string>
+    <!-- Describes intensity of display diminuation during dream mode -->
+    <string name="night_mode_summary">Màn hình rất mờ (đối với phòng tối)</string>
+    <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
+    <string name="expand_alarm">Mở rộng báo thức</string>
+    <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
+    <string name="collapse_alarm">Thu gọn báo thức</string>
+    <!-- Description of the button to undo change to alarm -->
+    <string name="alarm_undo">hoàn tác</string>
+    <!-- Toast content when an alarm was deleted  -->
+    <string name="alarm_deleted">Đã xóa báo thức</string>
+    <!-- Select the source of the alarm -->
+    <string name="alarm_select">Chọn hết</string>
+    <!-- Select the ringtone as alarm -->
+    <string name="alarm_select_ringtone">Nhạc chuông</string>
+    <!-- Select the alarm from external device -->
+    <string name="alarm_select_external">Âm nhạc</string>
+    <!-- Ok for selection -->
+    <string name="alarm_select_ok">OK</string>
+    <!-- Cancel for selection -->
+    <string name="alarm_select_cancel">Huỷ</string>
+    <!-- slash between date and next alarm in the clock -->
+    <string name="slash">/</string>
+    <!-- slash between date and next alarm in the clock -->
+    <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
+    <string name="next_alarm_description">Báo thức tiếp theo: <xliff:g id="Alarm_TIME">%s</xliff:g></string>
+    <!-- Displays the number of alarms selected from the list of alarms. -->
+    <string name="alarms_selected"><xliff:g id="Alarms">%d</xliff:g> được chọn</string>
+    <!-- message used by the talkback accessibility app to say that something was deleted -->
+    <string name="deleted_message">Đã xóa</string>
+    <!-- Alarm deletion confirmation message-->
+    <plurals name="alarm_delete_confirmation">
+        <!-- Confirmation for one alarm -->
+        <!-- Confirmation more than one alarm  -->
+        <item quantity="other">Xóa báo thức đã chọn?</item>
+    </plurals>
+    <!-- Timer deletion confirmation -->
+    <string name="timer_delete_confirmation">Xóa bộ hẹn giờ này?</string>
+    <!-- world clock deletion confirmation -->
+    <string name="city_delete_confirmation">Xóa thành phố này?</string>
+    <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="digital_gadget">Đồng hồ số</string>
+    <!-- format strings for clocks -->
+    <!-- Font size for AM/PM should match widget_label_font_size -->
+    <!-- Font size for AM/PM should match bottom_text_size -->
+    <!-- Font size for AM/PM should match label_font_size -->
+    <!-- Font size for AM/PM should match alarm_label_size -->
+    <!-- String for no alarms -->
+    <string name="no_alarms">Không có báo thức</string>
+    <!-- String for no alarms set [CHAR LIMIT=24] -->
+    <string name="no_alarms_set">Ko đặt báo thức</string>
+    <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
+    <string name="no_upcoming_alarms">KHÔNG CÓ BÁO THỨC</string>
+    <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
      or 27:68pm.
     First %d represents hour, second %d represents minutes, %s represents am/pm,
     If no am/pm is passed in (e.g. the locale uses 24h time) only hour and minute are printed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_time">Thời gian không hợp lệ <xliff:g id="invalid_hour" example="25">%d</xliff:g>:<xliff:g id="invalid_minutes" example="63">%d</xliff:g> <xliff:g id="invalid_ampm" example="PM">%s</xliff:g></string>
-  <!-- String that represents that no alarm has been specified for a requested hour:minutes.
+    <string name="invalid_time">Thời gian không hợp lệ <xliff:g id="invalid_hour" example="25">%d</xliff:g>:<xliff:g id="invalid_minutes" example="63">%d</xliff:g> <xliff:g id="invalid_ampm" example="PM">%s</xliff:g></string>
+    <!-- String that represents that no alarm has been specified for a requested hour:minutes.
     This happens when a user sends a voice command 'dismiss my alarm at 3:00pm' but they have no
     alarms specified for that time. %s represents the time of the alarm.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_at">Không có báo thức tại <xliff:g id="alarm_time_hour" example="14">%d</xliff:g>:<xliff:g id="alarm_time_minutes" example="23">%d</xliff:g></string>
-  <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
+    <string name="no_alarm_at">Không có báo thức tại <xliff:g id="alarm_time_hour" example="14">%d</xliff:g>:<xliff:g id="alarm_time_minutes" example="23">%d</xliff:g></string>
+    <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
     a user sends a voice command 'dismiss next alarm' or 'dismiss all of my alarms' but they have
     no alarms scheduled in the app.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_scheduled_alarms">Chưa có báo thức nào được lên lịch</string>
-  <!-- String that represents that the user specified that they want to select an alarm to
+    <string name="no_scheduled_alarms">Chưa có báo thức nào được lên lịch</string>
+    <!-- String that represents that the user specified that they want to select an alarm to
     dismiss by specifying a 'label' but they didn't specify any labels.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_label_specified">Không chỉ định nhãn nào</string>
-  <!-- String that represents that no alarm has been specified for a requested label.
+    <string name="no_label_specified">Không chỉ định nhãn nào</string>
+    <!-- String that represents that no alarm has been specified for a requested label.
     This happens when a user sends a voice command 'dismiss my alarm with label pick up kids'
      but they have no alarms with that label.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarms_with_label">Không có báo thức nào chứa nhãn này</string>
-  <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
+    <string name="no_alarms_with_label">Không có báo thức nào chứa nhãn này</string>
+    <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
     'lap the stopwatch' when the stopwatch wasn't running so the command wasn't executed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_isnt_running">Đồng hồ bấm giờ hiện không chạy</string>
-  <!-- String that represents that the user has successfully sent a voice command pausing
+    <string name="stopwatch_isnt_running">Đồng hồ bấm giờ hiện không chạy</string>
+    <!-- String that represents that the user has successfully sent a voice command pausing
      the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_paused">Đã chồng lên đồng hồ bấm giờ</string>
-  <!-- String that represents that the user has successfully sent a voice command resetting
+    <string name="stopwatch_paused">Đã chồng lên đồng hồ bấm giờ</string>
+    <!-- String that represents that the user has successfully sent a voice command resetting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_reset">Đã đặt lại đồng hồ bấm giờ</string>
-  <!-- String that represents that the user has successfully sent a voice command lapping
+    <string name="stopwatch_reset">Đã đặt lại đồng hồ bấm giờ</string>
+    <!-- String that represents that the user has successfully sent a voice command lapping
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_lapped">Đã chồng lên đồng hồ bấm giờ</string>
-  <!-- String that represents that the user has successfully sent a voice command starting
+    <string name="stopwatch_lapped">Đã chồng lên đồng hồ bấm giờ</string>
+    <!-- String that represents that the user has successfully sent a voice command starting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_started">Đã bắt đầu đồng hồ bấm giờ</string>
-  <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
+    <string name="stopwatch_started">Đã bắt đầu đồng hồ bấm giờ</string>
+    <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
     there was no alarm scheduled for that time (they might have had an alarm for 3pm on the list
     but it was disabled).
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_scheduled_for_this_time">Chưa có báo thức nào được lên lịch cho thời gian này</string>
-  <!-- String that represents that the user has dismissed an alarm through a voice action.
+    <string name="no_alarm_scheduled_for_this_time">Chưa có báo thức nào được lên lịch cho thời gian này</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_dismissed">Đã loại bỏ báo thức <xliff:g id="Alarm_TIME">%s</xliff:g></string>
-  <!-- String that represents that the user has dismissed an alarm through a voice action.
+    <string name="alarm_is_dismissed">Đã loại bỏ báo thức <xliff:g id="Alarm_TIME">%s</xliff:g></string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_set">Đã đặt báo thức đổ chuông lúc <xliff:g id="Alarm_TIME">%s</xliff:g></string>
-  <!-- String that represents that the user attempted to control a timer with a voice action when
+    <string name="alarm_is_set">Đã đặt báo thức đổ chuông lúc <xliff:g id="Alarm_TIME">%s</xliff:g></string>
+    <!-- String that represents that the user attempted to control a timer with a voice action when
     no timers are defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_timers_exist">Không tồn tại bộ định thời</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action when
+    <string name="no_timers_exist">Không tồn tại bộ định thời</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action when
     more than one timer is defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="too_many_timers_exist">Có nhiều hơn một bộ hẹn giờ</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action but
+    <string name="too_many_timers_exist">Có nhiều hơn một bộ hẹn giờ</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action but
     the timer could not be located.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_does_not_exist">Tiêu đề vừa bị loại bỏ.</string>
-  <!-- String that represents that the user has successfully created a timer through a voice action.
+    <string name="timer_does_not_exist">Tiêu đề vừa bị loại bỏ.</string>
+    <!-- String that represents that the user has successfully created a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_created">Đã tạo bộ hẹn giờ</string>
-  <!-- String that represents that the user has successfully reset a timer through a voice action.
+    <string name="timer_created">Đã tạo bộ hẹn giờ</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_was_reset">Đã đặt lại bộ hẹn giờ</string>
-  <!-- String that represents that the user has successfully reset a timer through a voice action
+    <string name="timer_was_reset">Đã đặt lại bộ hẹn giờ</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action
     that was marked as deleteAfterUse and was thus deleted instead.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_deleted">Đã xóa bộ hẹn giờ</string>
-  <!-- String that represents that the user has successfully started a timer through a voice action.
+    <string name="timer_deleted">Đã xóa bộ hẹn giờ</string>
+    <!-- String that represents that the user has successfully started a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_started">Đã khởi động bộ hẹn giờ</string>
-  <!-- String that represents that the user attempted to start a timer through a voice action
+    <string name="timer_started">Đã khởi động bộ hẹn giờ</string>
+    <!-- String that represents that the user attempted to start a timer through a voice action
     but specified invalid length.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_timer_length">Thời lượng không hợp lệ trên bộ hẹn giờ</string>
-  <!-- String that represents that the user attempted to add or delete a world clock through
+    <string name="invalid_timer_length">Thời lượng không hợp lệ trên bộ hẹn giờ</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but they didn't specify a city so no world clock was selected.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_city_selected">Chưa có thành phố nào được chọn</string>
-  <!-- String that represents that the user attempted to add or delete a world clock through
+    <string name="no_city_selected">Chưa có thành phố nào được chọn</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but the city they specified wasn't listed in the database.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_you_specified_is_not_available">Thành phố bạn chỉ định không có sẵn</string>
-  <!-- String that represents that the user attempted to add a world clock through a voice action
+    <string name="the_city_you_specified_is_not_available">Thành phố bạn chỉ định không có sẵn</string>
+    <!-- String that represents that the user attempted to add a world clock through a voice action
     but the city they specified is already added to the list.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_already_added">Thành phố này đã được thêm</string>
-  <!-- String that represents that the user successfully added a world clock through a
+    <string name="the_city_already_added">Thành phố này đã được thêm</string>
+    <!-- String that represents that the user successfully added a world clock through a
     voice action
     %s represents the name of the city they added.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_added"><xliff:g id="city_name" example="Paris">%s</xliff:g> thêm</string>
-  <!-- String that represents that the user successfully deleted a world clock through
+    <string name="city_added"><xliff:g id="city_name" example="Paris">%s</xliff:g> thêm</string>
+    <!-- String that represents that the user successfully deleted a world clock through
     a voice action
     %s represents the name of the city they deleted.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_deleted">Đã xóa <xliff:g id="City_NAME">%s</xliff:g></string>
-  <!-- String that represents that the user attempted to dismiss an alarm that is more than
+    <string name="city_deleted">Đã xóa <xliff:g id="City_NAME">%s</xliff:g></string>
+    <!-- String that represents that the user attempted to dismiss an alarm that is more than
     24 hours away
     %s represents the time of the alarm (e.g. 15:39)
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">Chưa thể loại bỏ báo thức <xliff:g id="Alarm_TIME">%s</xliff:g> vì vẫn còn cách hơn 24 giờ nữa</string>
-  <!-- String that shows up in the action bar for the Picker Activity
+    <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">Chưa thể loại bỏ báo thức <xliff:g id="Alarm_TIME">%s</xliff:g> vì vẫn còn cách hơn 24 giờ nữa</string>
+    <!-- String that shows up in the action bar for the Picker Activity
          where a use gets to pick which alarm to dismiss
    [CHAR LIMIT=NONE]
    -->
-  <string name="dismiss_alarm">Hủy báo thức</string>
-  <!-- String that represents that further action is needed from the user in case their
+    <string name="dismiss_alarm">Hủy báo thức</string>
+    <!-- String that represents that further action is needed from the user in case their
     voice command was ambiguous or there are more than 1 alarms that match their request.
     The user needs to choose an alarm they want to dismiss through the UI
    [CHAR LIMIT=NONE]
    -->
-  <string name="pick_alarm_to_dismiss">Chọn báo thức để loại bỏ</string>
-  <!-- String that represents that the user doesn't have any alarms firing at the moment.
+    <string name="pick_alarm_to_dismiss">Chọn báo thức để loại bỏ</string>
+    <!-- String that represents that the user doesn't have any alarms firing at the moment.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_firing_alarms">Chưa có báo thức kích hoạt nào</string>
-  <!-- String that represents that the user has snoozed an alarm through a voice action for 10
+    <string name="no_firing_alarms">Chưa có báo thức kích hoạt nào</string>
+    <!-- String that represents that the user has snoozed an alarm through a voice action for 10
     minutes.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_snoozed">Báo lại báo thức <xliff:g id="Alarm_TIME">%s</xliff:g> sau 10 phút</string>
-  <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
-  <string name="custom_ringtone">Nhạc chuông tùy chỉnh</string>
-  <!-- Ringtone selection default" -->
-  <string name="ringtone_default">"Nhạc chuông mặc định"</string>
-  <!--used for prompt to user storage permission status-->
-  <string name="have_denied_storage_permission">Bạn đã từ chối quyền lưu trữ và có thể tự thêm lại quyền này trong việc thiết lập ứng dụng</string>
+    <string name="alarm_is_snoozed">Báo lại báo thức <xliff:g id="Alarm_TIME">%s</xliff:g> sau 10 phút</string>
+    <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+    <string name="custom_ringtone">Nhạc chuông tùy chỉnh</string>
+    <!-- Ringtone selection default" -->
+    <string name="ringtone_default">"Nhạc chuông mặc định"</string>
+    <!--used for prompt to user storage permission status-->
+    <string name="have_denied_storage_permission">Bạn đã từ chối quyền lưu trữ và có thể tự thêm lại quyền này trong việc thiết lập ứng dụng</string>
 </resources>

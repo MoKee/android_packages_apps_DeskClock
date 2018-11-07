@@ -16,8 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Setting labels on Set alarm screen: Workday -->
-  <string name="alarm_workday">Munkanapokon</string>
-  <string name="update_permissions_button_text">ENGEDÉLYEK FRISSÍTÉSÉHEZ</string>
-  <string name="missing_read_calendar_permission_text">DeskClocknak szüksége van engedélyre, hogy olvassa a naptári adatokat.</string>
+    <!-- Setting labels on Set alarm screen: Workday -->
+    <string name="alarm_workday">Munkanapokon</string>
+    <string name="update_permissions_button_text">ENGEDÉLYEK FRISSÍTÉSÉHEZ</string>
+    <string name="missing_read_calendar_permission_text">DeskClocknak szüksége van engedélyre, hogy olvassa a naptári adatokat.</string>
 </resources>

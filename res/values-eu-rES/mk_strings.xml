@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Setting labels on Set alarm screen: Workday -->
-  <string name="alarm_workday">Laneguna</string>
-  <string name="update_permissions_button_text">EGUNERATU BAIMENAK</string>
+    <!-- Setting labels on Set alarm screen: Workday -->
+    <string name="alarm_workday">Laneguna</string>
+    <string name="update_permissions_button_text">EGUNERATU BAIMENAK</string>
 </resources>

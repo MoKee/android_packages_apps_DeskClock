@@ -18,112 +18,112 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- -->
-  <!-- Label shown on launcher icon -->
-  <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
-  <string name="app_label">Ceas</string>
-  <!-- Title for AlarmClock activity -->
-  <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="alarm_list_title">Alarme</string>
-  <!-- Menu item on Alarm Clock screen: Add alarm -->
-  <string name="add_alarm">Adaugă alarmă</string>
-  <!-- Menu item on Alarm Clock screen: Desk clock -->
-  <string name="menu_desk_clock">Ceas de birou</string>
-  <!-- Menu item on Alarm Clock screen: Edit alarm -->
-  <string name="menu_edit_alarm">Modificaţi alarma</string>
-  <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
-  <string name="delete_alarm">Șterge alarma</string>
-  <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
-  <string name="enable_alarm">Pornește alarma</string>
-  <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
-  <string name="disable_alarm">Oprește alarma</string>
-  <!-- Delete alarm confirmation dialog message. -->
-  <string name="delete_alarm_confirm">Ștergi această alarmă?</string>
-  <!-- Menu item on Alarm Clock screen: Show clock -->
-  <string name="show_clock">Arată ceas</string>
-  <!-- Menu item on Alarm Clock screen: Hide clock -->
-  <string name="hide_clock">Ascunde ceas</string>
-  <!-- Setting label on Set alarm screen: Label -->
-  <string name="label">Etichetă</string>
-  <!-- Content description for alarm on/off switch in On state -->
-  <string name="on_switch">Activată</string>
-  <!-- Content description for alarm on/off switch in Off state -->
-  <string name="off_switch">Oprit</string>
-  <!-- Default label to display for an alarm -->
-  <string name="default_label">Alarmă</string>
-  <!-- Preference category on Alarm Settings screen: Set alarm -->
-  <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="set_alarm">Setare alarmă</string>
-  <!-- Setting labels on Set alarm screen: Vibration on or off -->
-  <string name="alarm_vibrate">Vibrează</string>
-  <!-- Setting labels on Set alarm screen: Repeat -->
-  <string name="alarm_repeat">Repetă</string>
-  <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
-  <string name="alert">Ton de sonerie pentru alarmă</string>
-  <!-- Title of default ringtone played when a timer expires. -->
-  <string name="default_timer_ringtone_title">Timer expirat</string>
-  <!-- Title of silent ringtone played when a timer expires. -->
-  <string name="silent_timer_ringtone_title">Silențios</string>
-  <!-- Label on expanded alarm edit view. -->
-  <string name="ringtone">Ton de sonerie</string>
-  <!-- Setting labels on Set alarm screen: Set time  -->
-  <string name="time">Oră</string>
-  <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
-  <string name="alarm_tomorrow">Mâine</string>
-  <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
-  <string name="alarm_today">Azi</string>
-  <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
-  <string name="alarm_alert_wake_up">Trezirea</string>
-  <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
-  <string name="alarm_alert_off_action_text">Oprit</string>
-  <!-- Button labels on the alarm dialog: Dismiss -->
-  <string name="alarm_alert_dismiss_text">Renunţaţi</string>
-  <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
-  <string name="alarm_alert_dismiss_now_text">Respinge acum</string>
-  <!-- Alarm Alert screen: this message is shown after an alarm rung
+    <!-- -->
+    <!-- Label shown on launcher icon -->
+    <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
+    <string name="app_label">Ceas</string>
+    <!-- Title for AlarmClock activity -->
+    <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="alarm_list_title">Alarme</string>
+    <!-- Menu item on Alarm Clock screen: Add alarm -->
+    <string name="add_alarm">Adaugă alarmă</string>
+    <!-- Menu item on Alarm Clock screen: Desk clock -->
+    <string name="menu_desk_clock">Ceas de birou</string>
+    <!-- Menu item on Alarm Clock screen: Edit alarm -->
+    <string name="menu_edit_alarm">Modificaţi alarma</string>
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="delete_alarm">Șterge alarma</string>
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+    <string name="enable_alarm">Pornește alarma</string>
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+    <string name="disable_alarm">Oprește alarma</string>
+    <!-- Delete alarm confirmation dialog message. -->
+    <string name="delete_alarm_confirm">Ștergi această alarmă?</string>
+    <!-- Menu item on Alarm Clock screen: Show clock -->
+    <string name="show_clock">Arată ceas</string>
+    <!-- Menu item on Alarm Clock screen: Hide clock -->
+    <string name="hide_clock">Ascunde ceas</string>
+    <!-- Setting label on Set alarm screen: Label -->
+    <string name="label">Etichetă</string>
+    <!-- Content description for alarm on/off switch in On state -->
+    <string name="on_switch">Activată</string>
+    <!-- Content description for alarm on/off switch in Off state -->
+    <string name="off_switch">Oprit</string>
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">Alarmă</string>
+    <!-- Preference category on Alarm Settings screen: Set alarm -->
+    <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="set_alarm">Setare alarmă</string>
+    <!-- Setting labels on Set alarm screen: Vibration on or off -->
+    <string name="alarm_vibrate">Vibrează</string>
+    <!-- Setting labels on Set alarm screen: Repeat -->
+    <string name="alarm_repeat">Repetă</string>
+    <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+    <string name="alert">Ton de sonerie pentru alarmă</string>
+    <!-- Title of default ringtone played when a timer expires. -->
+    <string name="default_timer_ringtone_title">Timer expirat</string>
+    <!-- Title of silent ringtone played when a timer expires. -->
+    <string name="silent_timer_ringtone_title">Silențios</string>
+    <!-- Label on expanded alarm edit view. -->
+    <string name="ringtone">Ton de sonerie</string>
+    <!-- Setting labels on Set alarm screen: Set time  -->
+    <string name="time">Oră</string>
+    <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
+    <string name="alarm_tomorrow">Mâine</string>
+    <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
+    <string name="alarm_today">Azi</string>
+    <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
+    <string name="alarm_alert_wake_up">Trezirea</string>
+    <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
+    <string name="alarm_alert_off_action_text">Oprit</string>
+    <!-- Button labels on the alarm dialog: Dismiss -->
+    <string name="alarm_alert_dismiss_text">Renunţaţi</string>
+    <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+    <string name="alarm_alert_dismiss_now_text">Respinge acum</string>
+    <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
-  <string name="alarm_missed_title">Alarmă ratată</string>
-  <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+    <string name="alarm_missed_title">Alarmă ratată</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <string name="alarm_alert_snoozed_text">Amânată</string>
-  <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+    <string name="alarm_alert_snoozed_text">Amânată</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the word 'Snoozed' in two separate lines or example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <plurals name="alarm_alert_snooze_duration">
-    <!-- Duration for one minute -->
-    <item quantity="one">1 minut</item>
-    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> minute</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minute</item>
-  </plurals>
-  <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
-  <string name="alarm_alert_off_text">Alarmă oprită</string>
-  <!-- Button labels on the alarm dialog: Snooze -->
-  <string name="alarm_alert_snooze_text">Amână</string>
-  <!-- Toast that appears after Alarm is snoozed from the Alarm
+    <plurals name="alarm_alert_snooze_duration">
+        <!-- Duration for one minute -->
+        <item quantity="one">1 minut</item>
+        <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> minute</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minute</item>
+    </plurals>
+    <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
+    <string name="alarm_alert_off_text">Alarmă oprită</string>
+    <!-- Button labels on the alarm dialog: Snooze -->
+    <string name="alarm_alert_snooze_text">Amână</string>
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
-  <plurals name="alarm_alert_snooze_set">
-    <!-- Duration for one minute -->
-    <item quantity="one">Amânare 1 minut.</item>
-    <item quantity="few"><xliff:g id="minutes">%d</xliff:g> minute.</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="minutes">%d</xliff:g> minute.</item>
-  </plurals>
-  <!-- Text to appear inside a notification while an alarm is snoozing. -->
-  <string name="alarm_alert_snooze_until">Amână până la <xliff:g id="Time">%s</xliff:g></string>
-  <!-- Text to appear in the notification title while an alarm is about to go off. -->
-  <string name="alarm_alert_predismiss_title">Alarma următoare</string>
-  <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
-  <string name="missed_alarm_has_been_deleted">Alarma ratată a fost ștearsă</string>
-  <!-- 0: nothing
+    <plurals name="alarm_alert_snooze_set">
+        <!-- Duration for one minute -->
+        <item quantity="one">Amânare 1 minut.</item>
+        <item quantity="few"><xliff:g id="minutes">%d</xliff:g> minute.</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="minutes">%d</xliff:g> minute.</item>
+    </plurals>
+    <!-- Text to appear inside a notification while an alarm is snoozing. -->
+    <string name="alarm_alert_snooze_until">Amână până la <xliff:g id="Time">%s</xliff:g></string>
+    <!-- Text to appear in the notification title while an alarm is about to go off. -->
+    <string name="alarm_alert_predismiss_title">Alarma următoare</string>
+    <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+    <string name="missed_alarm_has_been_deleted">Alarma ratată a fost ștearsă</string>
+    <!-- 0: nothing
          1: days
          2:      hours
          3: days hours
@@ -132,744 +132,744 @@
          6:      hours minutes
          7: days hours minutes
     -->
-  <!-- Timer notification: how long from now until timer goes off. -->
-  <string name="timer_notifications_less_min">Mai puţin de un minut rămas</string>
-  <string name="timer_notifications_hours"><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
-  <string name="timer_notifications_minutes"><xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
-  <string name="timer_notifications_hours_minutes"><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g> rămase</string>
-  <!--
+    <!-- Timer notification: how long from now until timer goes off. -->
+    <string name="timer_notifications_less_min">Mai puţin de un minut rămas</string>
+    <string name="timer_notifications_hours"><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
+    <string name="timer_notifications_minutes"><xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g><xliff:g id="REMAINING" example="remaining"> %3$s</xliff:g></string>
+    <string name="timer_notifications_hours_minutes"><xliff:g id="HOURS" example="2 hours">%1$s</xliff:g> <xliff:g id="MINUTES" example="2 minutes">%2$s</xliff:g> rămase</string>
+    <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
     -->
-  <string name="timer_remaining_single">rămas</string>
-  <!--
+    <string name="timer_remaining_single">rămas</string>
+    <!--
         Verb inflection to use for multiple time units remaining
         Ex. "2 minutes remaining"
     -->
-  <string name="timer_remaining_multiple">rămase</string>
-  <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
-  <string-array name="alarm_set">
-    <item>Alarmă setată peste mai puţin de 1 minut din acest moment.</item>
-    <item>Alarmă setată peste <xliff:g id="DAYS">%1$s</xliff:g> din acest moment.</item>
-    <item>Alarmă setată peste <xliff:g id="HOURS">%2$s</xliff:g> din acest moment.</item>
-    <item>Alarmă setată peste <xliff:g id="DAYS">%1$s</xliff:g> şi <xliff:g id="HOURS">%2$s</xliff:g> din acest moment.</item>
-    <item>Alarmă setată peste <xliff:g id="MINUTES">%3$s</xliff:g> din acest moment.</item>
-    <item>Alarmă setată peste <xliff:g id="DAYS">%1$s</xliff:g> şi <xliff:g id="MINUTES">%3$s</xliff:g> din acest moment.</item>
-    <item>Alarmă setată peste <xliff:g id="HOURS">%2$s</xliff:g> şi <xliff:g id="MINUTES">%3$s</xliff:g> din acest moment.</item>
-    <item>Alarmă setată peste <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> și <xliff:g id="MINUTES">%3$s</xliff:g> din acest moment.</item>
-  </string-array>
-  <!-- Alarm confirmation toast: days -->
-  <plurals name="days">
-    <!-- Duration for one day -->
-    <item quantity="one">1 zi</item>
-    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> zile</item>
-    <!-- Duration for more than one day -->
-    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> zile</item>
-  </plurals>
-  <!-- Alarm confirmation toast and timer notification: hours -->
-  <plurals name="hours">
-    <!-- Duration for one hour -->
-    <item quantity="one">1 oră</item>
-    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> ore</item>
-    <!-- Duration for more than one hour -->
-    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> ore</item>
-  </plurals>
-  <!-- Alarm confirmation toast and timer notification: minutes -->
-  <plurals name="minutes">
-    <!-- Duration for one minute -->
-    <item quantity="one">1 minut</item>
-    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> minute</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> minute</item>
-  </plurals>
-  <!-- Repeat options that appear under an alarm on main Alarm Clock
+    <string name="timer_remaining_multiple">rămase</string>
+    <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
+    <string-array name="alarm_set">
+        <item>Alarmă setată peste mai puţin de 1 minut din acest moment.</item>
+        <item>Alarmă setată peste <xliff:g id="DAYS">%1$s</xliff:g> din acest moment.</item>
+        <item>Alarmă setată peste <xliff:g id="HOURS">%2$s</xliff:g> din acest moment.</item>
+        <item>Alarmă setată peste <xliff:g id="DAYS">%1$s</xliff:g> şi <xliff:g id="HOURS">%2$s</xliff:g> din acest moment.</item>
+        <item>Alarmă setată peste <xliff:g id="MINUTES">%3$s</xliff:g> din acest moment.</item>
+        <item>Alarmă setată peste <xliff:g id="DAYS">%1$s</xliff:g> şi <xliff:g id="MINUTES">%3$s</xliff:g> din acest moment.</item>
+        <item>Alarmă setată peste <xliff:g id="HOURS">%2$s</xliff:g> şi <xliff:g id="MINUTES">%3$s</xliff:g> din acest moment.</item>
+        <item>Alarmă setată peste <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> și <xliff:g id="MINUTES">%3$s</xliff:g> din acest moment.</item>
+    </string-array>
+    <!-- Alarm confirmation toast: days -->
+    <plurals name="days">
+        <!-- Duration for one day -->
+        <item quantity="one">1 zi</item>
+        <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> zile</item>
+        <!-- Duration for more than one day -->
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> zile</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: hours -->
+    <plurals name="hours">
+        <!-- Duration for one hour -->
+        <item quantity="one">1 oră</item>
+        <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> ore</item>
+        <!-- Duration for more than one hour -->
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> ore</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: minutes -->
+    <plurals name="minutes">
+        <!-- Duration for one minute -->
+        <item quantity="one">1 minut</item>
+        <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> minute</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> minute</item>
+    </plurals>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
-  <string name="every_day">Zilnic</string>
-  <!-- Repeat options that appear under an alarm on main Alarm Clock
+    <string name="every_day">Zilnic</string>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
-  <string name="day_concat">", "</string>
-  <!-- Appears at the top of the Clock Picker screen: Tell user to
+    <string name="day_concat">", "</string>
+    <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
-  <string name="clock_instructions">Alege un ceas</string>
-  <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="analog_gadget">Ceas analogic</string>
-  <!-- Help activity name -->
-  <string name="help">ajutor</string>
-  <!-- Settings activity name -->
-  <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="settings">Setări</string>
-  <!-- Setting title for changing the snooze duration. -->
-  <string name="snooze_duration_title">Durata amânării</string>
-  <plurals name="snooze_duration">
-    <!-- Duration for one minute -->
-    <item quantity="one">1 minut</item>
-    <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> minute</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> minute</item>
-  </plurals>
-  <plurals name="snooze_picker_label">
-    <!-- Duration for one minute -->
-    <item quantity="one">minut</item>
-    <item quantity="few">minute</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other">minute</item>
-  </plurals>
-  <!-- Setting title for changing the crescendo duration. -->
-  <string name="crescendo_duration_title">Crește treptat volumul</string>
-  <!-- Summary value for changing the crescendo duration to 0. -->
-  <string name="no_crescendo_duration">Oprit</string>
-  <!-- Summary value for changing the crescendo duration. -->
-  <string name="crescendo_duration"><xliff:g id="number" example="7">%s</xliff:g> secunde</string>
-  <!-- Setting label when changing the crescendo duration. -->
-  <string name="crescendo_picker_label">secunde</string>
-  <!-- Auto silence preference title -->
-  <string name="auto_silence_title">Silențiozitate după</string>
-  <!-- Auto silence summary string set based on the preference value. -->
-  <plurals name="auto_silence_summary">
-    <!-- Duration for one minute -->
-    <item quantity="one">1 minut</item>
-    <item quantity="few"><xliff:g id="formatted_number" example="7">%s</xliff:g> minute</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="formatted_number" example="7">%s</xliff:g> minute</item>
-  </plurals>
-  <!-- Auto silence summary when turned off -->
-  <string name="auto_silence_never">Niciodata</string>
-  <string name="default_auto_silence_value">10</string>
-  <!-- Entries listed in the ListPreference when invoking the auto silence
+    <string name="clock_instructions">Alege un ceas</string>
+    <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="analog_gadget">Ceas analogic</string>
+    <!-- Help activity name -->
+    <string name="help">ajutor</string>
+    <!-- Settings activity name -->
+    <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="settings">Setări</string>
+    <!-- Setting title for changing the snooze duration. -->
+    <string name="snooze_duration_title">Durata amânării</string>
+    <plurals name="snooze_duration">
+        <!-- Duration for one minute -->
+        <item quantity="one">1 minut</item>
+        <item quantity="few"><xliff:g id="number" example="7">%s</xliff:g> minute</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> minute</item>
+    </plurals>
+    <plurals name="snooze_picker_label">
+        <!-- Duration for one minute -->
+        <item quantity="one">minut</item>
+        <item quantity="few">minute</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">minute</item>
+    </plurals>
+    <!-- Setting title for changing the crescendo duration. -->
+    <string name="crescendo_duration_title">Crește treptat volumul</string>
+    <!-- Summary value for changing the crescendo duration to 0. -->
+    <string name="no_crescendo_duration">Oprit</string>
+    <!-- Summary value for changing the crescendo duration. -->
+    <string name="crescendo_duration"><xliff:g id="number" example="7">%s</xliff:g> secunde</string>
+    <!-- Setting label when changing the crescendo duration. -->
+    <string name="crescendo_picker_label">secunde</string>
+    <!-- Auto silence preference title -->
+    <string name="auto_silence_title">Silențiozitate după</string>
+    <!-- Auto silence summary string set based on the preference value. -->
+    <plurals name="auto_silence_summary">
+        <!-- Duration for one minute -->
+        <item quantity="one">1 minut</item>
+        <item quantity="few"><xliff:g id="formatted_number" example="7">%s</xliff:g> minute</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="formatted_number" example="7">%s</xliff:g> minute</item>
+    </plurals>
+    <!-- Auto silence summary when turned off -->
+    <string name="auto_silence_never">Niciodata</string>
+    <string name="default_auto_silence_value">10</string>
+    <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
-  <string-array name="auto_silence_entries">
-    <item>1 minut</item>
-    <item>5 minute</item>
-    <item>10 minute</item>
-    <item>15 minute</item>
-    <item>20 de minute</item>
-    <item>25 de minute</item>
-    <item>Niciodata</item>
-  </string-array>
-  <!-- Values that are retrieved from the ListPreference. These must match
+    <string-array name="auto_silence_entries">
+        <item>1 minut</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>15 minute</item>
+        <item>20 de minute</item>
+        <item>25 de minute</item>
+        <item>Niciodata</item>
+    </string-array>
+    <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
-  <!-- Week start day preference title. -->
-  <string name="week_start_title">Săptămâna începe</string>
-  <!-- Entries listed in ListPreference for start day. -->
-  <string-array name="week_start_entries">
-    <item>Sâmbătă</item>
-    <item>Duminică</item>
-    <item>Luni</item>
-  </string-array>
-  <!-- Values for ListPreference for start day of week. -->
-  <!-- Done button when editing an alarm. -->
-  <string name="done">Realizat</string>
-  <!-- Revert button when editing an alarm. -->
-  <string name="revert">Revenire</string>
-  <!-- Delete button when editing an alarm. -->
-  <string name="delete">Ștergeţi</string>
-  <!-- Setting title for changing the alarm volume. -->
-  <string name="alarm_volume_title">Volum alarmă</string>
-  <!-- Title for the silent ringtone. -->
-  <string name="silent_ringtone_title">Silențios</string>
-  <!-- Title for ringtones that cannot be located by uri. -->
-  <string name="unknown_ringtone_title">Necunoscut</string>
-  <!-- Text to display in the small text of the notification -->
-  <string name="alarm_notify_text">Amânați sau anulați alarma.</string>
-  <!-- Text to display in the notification ticker and label -->
-  <string name="alarm_notify_snooze_label"><xliff:g id="Label">%s</xliff:g> (amânat)</string>
-  <!-- Text to display in the notification when the alarm has been snoozed -->
-  <string name="alarm_notify_snooze_text">Alarmă setată pentru <xliff:g id="Time">%s</xliff:g>. Atinge pentru a anula.</string>
-  <!-- Title of the setting to change hardware button behavior. This string
+    <!-- Week start day preference title. -->
+    <string name="week_start_title">Săptămâna începe</string>
+    <!-- Entries listed in ListPreference for start day. -->
+    <string-array name="week_start_entries">
+        <item>Sâmbătă</item>
+        <item>Duminică</item>
+        <item>Luni</item>
+    </string-array>
+    <!-- Values for ListPreference for start day of week. -->
+    <!-- Done button when editing an alarm. -->
+    <string name="done">Realizat</string>
+    <!-- Revert button when editing an alarm. -->
+    <string name="revert">Revenire</string>
+    <!-- Delete button when editing an alarm. -->
+    <string name="delete">Ștergeţi</string>
+    <!-- Setting title for changing the alarm volume. -->
+    <string name="alarm_volume_title">Volum alarmă</string>
+    <!-- Title for the silent ringtone. -->
+    <string name="silent_ringtone_title">Silențios</string>
+    <!-- Title for ringtones that cannot be located by uri. -->
+    <string name="unknown_ringtone_title">Necunoscut</string>
+    <!-- Text to display in the small text of the notification -->
+    <string name="alarm_notify_text">Amânați sau anulați alarma.</string>
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label"><xliff:g id="Label">%s</xliff:g> (amânat)</string>
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="alarm_notify_snooze_text">Alarmă setată pentru <xliff:g id="Time">%s</xliff:g>. Atinge pentru a anula.</string>
+    <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
-  <string name="volume_button_setting_title">Butoane de volum</string>
-  <!-- Dialog title of the volume and power setting. -->
-  <string name="volume_button_dialog_title">Funcţii buton</string>
-  <!-- Entries listed in the setting for the side-button action. -->
-  <string-array name="volume_button_setting_entries">
-    <item>Amână</item>
-    <item>Renunţaţi</item>
-    <item>Nicio acţiune</item>
-  </string-array>
-  <!-- Values for the side-button setting. -->
-  <!-- Title of the ringtone setting. -->
-  <string name="default_ringtone_setting_title">Setare ton de apel prestabilit</string>
-  <!-- Accessibility labels for Clock activity buttons -->
-  <string name="alarm_button_description">Alarme</string>
-  <string name="gallery_button_description">Galerie</string>
-  <string name="music_button_description">Muzică</string>
-  <string name="nightmode_button_description">Luminozitate redusă</string>
-  <string name="home_button_description">Lansator</string>
-  <string name="desk_clock_button_description">Afişare ceas</string>
-  <!-- Accessibility labels for alarm buttons -->
-  <string name="label_description">Etichetă</string>
-  <string name="ringtone_description">Ton de apel</string>
-  <!-- What to show the user if the weather widget exists but fails to
+    <string name="volume_button_setting_title">Butoane de volum</string>
+    <!-- Dialog title of the volume and power setting. -->
+    <string name="volume_button_dialog_title">Funcţii buton</string>
+    <!-- Entries listed in the setting for the side-button action. -->
+    <string-array name="volume_button_setting_entries">
+        <item>Amână</item>
+        <item>Renunţaţi</item>
+        <item>Nicio acţiune</item>
+    </string-array>
+    <!-- Values for the side-button setting. -->
+    <!-- Title of the ringtone setting. -->
+    <string name="default_ringtone_setting_title">Setare ton de apel prestabilit</string>
+    <!-- Accessibility labels for Clock activity buttons -->
+    <string name="alarm_button_description">Alarme</string>
+    <string name="gallery_button_description">Galerie</string>
+    <string name="music_button_description">Muzică</string>
+    <string name="nightmode_button_description">Luminozitate redusă</string>
+    <string name="home_button_description">Lansator</string>
+    <string name="desk_clock_button_description">Afişare ceas</string>
+    <!-- Accessibility labels for alarm buttons -->
+    <string name="label_description">Etichetă</string>
+    <string name="ringtone_description">Ton de apel</string>
+    <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
          present on the device, we show nothing at all. -->
-  <string name="weather_fetch_failure">Informaţiile meteo nu sunt disponibile în acest moment.</string>
-  <!-- A description for the DeskClock alarm sound playback service.
+    <string name="weather_fetch_failure">Informaţiile meteo nu sunt disponibile în acest moment.</string>
+    <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="alarm_klaxon_service_desc">Serviciul de redare a sunetului pentru setarea alarmelor în aplicația Ceas.</string>
-  <!-- String displayed as the alert summary while loading the alert name from
+    <string name="alarm_klaxon_service_desc">Serviciul de redare a sunetului pentru setarea alarmelor în aplicația Ceas.</string>
+    <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
-  <string name="loading_ringtone">Se încarcă tonul soneriei\u2026</string>
-  <!-- A description for the DeskClock timer sound playback service.
+    <string name="loading_ringtone">Se încarcă tonul soneriei\u2026</string>
+    <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="timer_ring_service_desc">Serviciul de redare a sunetului pentru setarea temporizatoarelor în aplicaţia Ceas.</string>
-  <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
-  <string name="control_set_alarm">Setare alarmă</string>
-  <!--  ActionBar strings -->
-  <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
-  <string name="menu_alarm">Alarmă</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
-  <string name="menu_timer">Cronometru</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
-  <string name="menu_clock">Ceas</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
-  <string name="menu_stopwatch">Cronometru</string>
-  <!-- Clock view buttons strings-->
-  <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
-  <string name="button_alarms">Adaugă alarmă</string>
-  <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
-  <string name="button_cities">Orașe</string>
-  <!-- Describes the purpose of the button which pops up a menu of setting choices -->
-  <string name="button_menu">Mai multe opțiuni</string>
-  <!-- Menu item on most screens to get to more settings -->
-  <string name="menu_item_settings">Setări</string>
-  <!-- Menu item on most screens to get to the help information -->
-  <string name="menu_item_help">Ajutor</string>
-  <!-- Menu item on clock screen to add world city. -->
-  <string name="menu_item_add">Adăugaţi</string>
-  <!-- Menu item on clock screen to enter night mode. -->
-  <string name="menu_item_night_mode">Mod Noapte</string>
-  <!-- Menu item on Cities screen to sort by GMT offset -->
-  <string name="menu_item_sort_by_gmt_offset">Sortați după fusul orar</string>
-  <!-- Menu item on Cities screen to sort by alphabetical order -->
-  <string name="menu_item_sort_by_name">Sortează după nume</string>
-  <string name="cities_add_gps_no_results">Interogarea GPS nu a returnat localizarea</string>
-  <string name="cities_add_gps_not_available">GPS indisponibil</string>
-  <string name="cities_add_searching">Căutare\u2026</string>
-  <string name="cities_add_city_title">Adaugă oraș</string>
-  <string name="cities_add_city_gps_cd">Atingeți pentru localizarea orașului curent</string>
-  <string name="cities_add_loading">Încărcare\u2026</string>
-  <string name="cities_add_city_city">Oraş:</string>
-  <string name="cities_add_city_timezone">Fus orar:</string>
-  <string name="cities_add_already_exists">Orașul există deja în baza de date</string>
-  <string name="cities_add_city_failed">Nu pot crea orașul</string>
-  <string name="cities_delete_city_failed">Nu pot șterge orașul</string>
-  <string name="cities_delete_city_msg">Doriți să ștergeți <xliff:g id="city">%s</xliff:g>?    </string>
-  <string name="cities_delete_city_title">Șterge oraș</string>
-  <!-- Label for selected cities in Cities list view -->
-  <string name="selected_cities_label">Orașele selectate</string>
-  <!-- Stopwatch and Timer shared strings -->
-  <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
-  <string name="sw_resume_button">Reia</string>
-  <!--
+    <string name="timer_ring_service_desc">Serviciul de redare a sunetului pentru setarea temporizatoarelor în aplicaţia Ceas.</string>
+    <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm">Setare alarmă</string>
+    <!--  ActionBar strings -->
+    <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
+    <string name="menu_alarm">Alarmă</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
+    <string name="menu_timer">Cronometru</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
+    <string name="menu_clock">Ceas</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
+    <string name="menu_stopwatch">Cronometru</string>
+    <!-- Clock view buttons strings-->
+    <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+    <string name="button_alarms">Adaugă alarmă</string>
+    <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
+    <string name="button_cities">Orașe</string>
+    <!-- Describes the purpose of the button which pops up a menu of setting choices -->
+    <string name="button_menu">Mai multe opțiuni</string>
+    <!-- Menu item on most screens to get to more settings -->
+    <string name="menu_item_settings">Setări</string>
+    <!-- Menu item on most screens to get to the help information -->
+    <string name="menu_item_help">Ajutor</string>
+    <!-- Menu item on clock screen to add world city. -->
+    <string name="menu_item_add">Adăugaţi</string>
+    <!-- Menu item on clock screen to enter night mode. -->
+    <string name="menu_item_night_mode">Mod Noapte</string>
+    <!-- Menu item on Cities screen to sort by GMT offset -->
+    <string name="menu_item_sort_by_gmt_offset">Sortați după fusul orar</string>
+    <!-- Menu item on Cities screen to sort by alphabetical order -->
+    <string name="menu_item_sort_by_name">Sortează după nume</string>
+    <string name="cities_add_gps_no_results">Interogarea GPS nu a returnat localizarea</string>
+    <string name="cities_add_gps_not_available">GPS indisponibil</string>
+    <string name="cities_add_searching">Căutare\u2026</string>
+    <string name="cities_add_city_title">Adaugă oraș</string>
+    <string name="cities_add_city_gps_cd">Atingeți pentru localizarea orașului curent</string>
+    <string name="cities_add_loading">Încărcare\u2026</string>
+    <string name="cities_add_city_city">Oraş:</string>
+    <string name="cities_add_city_timezone">Fus orar:</string>
+    <string name="cities_add_already_exists">Orașul există deja în baza de date</string>
+    <string name="cities_add_city_failed">Nu pot crea orașul</string>
+    <string name="cities_delete_city_failed">Nu pot șterge orașul</string>
+    <string name="cities_delete_city_msg">Doriți să ștergeți <xliff:g id="city">%s</xliff:g>?</string>
+    <string name="cities_delete_city_title">Șterge oraș</string>
+    <!-- Label for selected cities in Cities list view -->
+    <string name="selected_cities_label">Orașele selectate</string>
+    <!-- Stopwatch and Timer shared strings -->
+    <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
+    <string name="sw_resume_button">Reia</string>
+    <!--
         Describes the purpose of the button
             for stopwatch: return stopwatch to zero and remove the lap times.
             for timer: return timer to originally set duration.
         [CHAR LIMIT=15]
     -->
-  <string name="sw_reset_button">Resetaţi</string>
-  <!-- Stopwatch strings -->
-  <!-- Describes the purpose of the button to begin running a stopwatch -->
-  <string name="sw_start_button">Pornire</string>
-  <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Pauză</string>
-  <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
-  <string name="sw_lap_button">Tur</string>
-  <!-- Describes the purpose of the button to share the stopwatch value.
+    <string name="sw_reset_button">Resetaţi</string>
+    <!-- Stopwatch strings -->
+    <!-- Describes the purpose of the button to begin running a stopwatch -->
+    <string name="sw_start_button">Pornire</string>
+    <!-- Describes the purpose of the button to pause a stopwatch. -->
+    <string name="sw_pause_button">Pauză</string>
+    <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
+    <string name="sw_lap_button">Tur</string>
+    <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
-  <string name="sw_share_button">Distribuiţi</string>
-  <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
-  <string name="hours_label">h</string>
-  <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
-  <string name="minutes_label">m</string>
-  <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
-  <string name="seconds_label">s</string>
-  <!-- Accessibility strings -->
-  <string name="hours_label_description">ore</string>
-  <string name="minutes_label_description">minute</string>
-  <string name="seconds_label_description">secunde</string>
-  <string name="zero">0</string>
-  <!--  Stopwatch share strings -->
-  <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
-  <string name="sw_share_main">Ora mea este <xliff:g id="Time">%s</xliff:g></string>
-  <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
-  <string name="sw_share_laps">Timpi ture:</string>
-  <!-- Label to enumerate the number of laps in the notification the user has counted -->
-  <string name="sw_notification_lap_number">Tura <xliff:g id="Number">%d</xliff:g></string>
-  <!-- Stopwatch accessibility strings -->
-  <plurals name="Nhours_description">
-    <!-- 1 hour -->
-    <item quantity="one">1 oră</item>
-    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> ore</item>
-    <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> ore</item>
-  </plurals>
-  <plurals name="Nminutes_description">
-    <!-- 1 minute -->
-    <item quantity="one">1 minut</item>
-    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> minute</item>
-    <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minute</item>
-  </plurals>
-  <plurals name="Nseconds_description">
-    <!-- 1 second -->
-    <item quantity="one">1 secundă</item>
-    <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> secunde</item>
-    <!-- more -->
-    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> secunde</item>
-  </plurals>
-  <!-- timer strings -->
-  <!-- Describes the purpose of the button to add a new timer -->
-  <string name="timer_add_timer">Adăugă cronometru</string>
-  <!-- Describes the purpose of the button to begin or continue running a timer -->
-  <string name="timer_start">Pornire</string>
-  <!-- Describes the purpose of the button to delete a timer. -->
-  <string name="timer_delete">Ștergeţi</string>
-  <!-- Talkback description for deleting a number. -->
-  <string name="timer_descriptive_delete">Șterge <xliff:g id="Number_STRING">%s</xliff:g></string>
-  <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
-  <string name="timer_plus_one">Adaugă 1 minut</string>
-  <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
-  <string name="timer_plus_1_min">Adaugă 1 min</string>
-  <!-- Describes the purpose of the button to stop the timer. -->
-  <string name="timer_stop">Oprește</string>
-  <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
-  <string name="timer_stop_all">Oprește cronometrele</string>
-  <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
-  <string name="timer_reset">Resetaţi</string>
-  <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
-  <string name="timer_cancel">Anulează</string>
-  <!-- Accessibility announcement when a timer is canceled. -->
-  <string name="timer_canceled">Cronometru anulat</string>
-  <!-- Notification content shown when a timer has completed and has no more time remaining -->
-  <string name="timer_times_up">Timpul a expirat</string>
-  <!--
+    <string name="sw_share_button">Distribuiţi</string>
+    <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+    <string name="hours_label">h</string>
+    <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+    <string name="minutes_label">m</string>
+    <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+    <string name="seconds_label">s</string>
+    <!-- Accessibility strings -->
+    <string name="hours_label_description">ore</string>
+    <string name="minutes_label_description">minute</string>
+    <string name="seconds_label_description">secunde</string>
+    <string name="zero">0</string>
+    <!--  Stopwatch share strings -->
+    <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
+    <string name="sw_share_main">Ora mea este <xliff:g id="Time">%s</xliff:g></string>
+    <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
+    <string name="sw_share_laps">Timpi ture:</string>
+    <!-- Label to enumerate the number of laps in the notification the user has counted -->
+    <string name="sw_notification_lap_number">Tura <xliff:g id="Number">%d</xliff:g></string>
+    <!-- Stopwatch accessibility strings -->
+    <plurals name="Nhours_description">
+        <!-- 1 hour -->
+        <item quantity="one">1 oră</item>
+        <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> ore</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> ore</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <!-- 1 minute -->
+        <item quantity="one">1 minut</item>
+        <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> minute</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minute</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <!-- 1 second -->
+        <item quantity="one">1 secundă</item>
+        <item quantity="few"><xliff:g id="number" example="7">%d</xliff:g> secunde</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> secunde</item>
+    </plurals>
+    <!-- timer strings -->
+    <!-- Describes the purpose of the button to add a new timer -->
+    <string name="timer_add_timer">Adăugă cronometru</string>
+    <!-- Describes the purpose of the button to begin or continue running a timer -->
+    <string name="timer_start">Pornire</string>
+    <!-- Describes the purpose of the button to delete a timer. -->
+    <string name="timer_delete">Ștergeţi</string>
+    <!-- Talkback description for deleting a number. -->
+    <string name="timer_descriptive_delete">Șterge <xliff:g id="Number_STRING">%s</xliff:g></string>
+    <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
+    <string name="timer_plus_one">Adaugă 1 minut</string>
+    <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
+    <string name="timer_plus_1_min">Adaugă 1 min</string>
+    <!-- Describes the purpose of the button to stop the timer. -->
+    <string name="timer_stop">Oprește</string>
+    <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
+    <string name="timer_stop_all">Oprește cronometrele</string>
+    <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
+    <string name="timer_reset">Resetaţi</string>
+    <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
+    <string name="timer_cancel">Anulează</string>
+    <!-- Accessibility announcement when a timer is canceled. -->
+    <string name="timer_canceled">Cronometru anulat</string>
+    <!-- Notification content shown when a timer has completed and has no more time remaining -->
+    <string name="timer_times_up">Timpul a expirat</string>
+    <!--
         Notification content shown when multiple timers have completed and have no more time
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
-  <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS" example="2">%d</xliff:g> au expirat</string>
-  <!-- Label associated with a notification for a Timer -->
-  <string name="timer_notification_label">Cronometru</string>
-  <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
-  <string name="timers_max_count_reached">maxim 4 cronometre</string>
-  <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
-  <string name="timer_pause">Pauză</string>
-  <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
-  <string name="timer_reset_all">Reseteaza toate cronometrele</string>
-  <!-- Jocular content that user may append when sharing the lap times -->
-  <string-array name="sw_share_strings" translatable="true">
-    <item>Ești chiar demonul vitezei.</item>
-    <item>Bucură-te de roadele muncii tale.</item>
-    <item>Androizii sunt vestiţi pentru rapiditate, dar nu sunt la fel de rapizi ca tine!</item>
-    <item>Pfiu.</item>
-    <item>De L33t ori.</item>
-    <item>O viteză uimitoare.</item>
-    <item>Să începem din nou dansul timpului.</item>
-    <item>Doar o săritură la stânga.</item>
-    <item>Ai o paletă întreagă pentru viteză.</item>
-    <item>Cu viteza luminii.</item>
-  </string-array>
-  <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
-  <string name="home_label">Acasă</string>
-  <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="cities_activity_title">Orașe</string>
-  <!-- Settings strings -->
-  <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
-  <string name="clock_settings">Ceas</string>
-  <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
-  <string name="clock_style">Stil</string>
-  <!-- Title for preference to change date & time -->
-  <string name="open_date_settings">Modifica data \u0026 ora</string>
-  <!-- Entries listed in the ListPreference when invoking the clock style
+    <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS" example="2">%d</xliff:g> au expirat</string>
+    <!-- Label associated with a notification for a Timer -->
+    <string name="timer_notification_label">Cronometru</string>
+    <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
+    <string name="timers_max_count_reached">maxim 4 cronometre</string>
+    <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
+    <string name="timer_pause">Pauză</string>
+    <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
+    <string name="timer_reset_all">Reseteaza toate cronometrele</string>
+    <!-- Jocular content that user may append when sharing the lap times -->
+    <string-array name="sw_share_strings" translatable="true">
+        <item>Ești chiar demonul vitezei.</item>
+        <item>Bucură-te de roadele muncii tale.</item>
+        <item>Androizii sunt vestiţi pentru rapiditate, dar nu sunt la fel de rapizi ca tine!</item>
+        <item>Pfiu.</item>
+        <item>De L33t ori.</item>
+        <item>O viteză uimitoare.</item>
+        <item>Să începem din nou dansul timpului.</item>
+        <item>Doar o săritură la stânga.</item>
+        <item>Ai o paletă întreagă pentru viteză.</item>
+        <item>Cu viteza luminii.</item>
+    </string-array>
+    <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
+    <string name="home_label">Acasă</string>
+    <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="cities_activity_title">Orașe</string>
+    <!-- Settings strings -->
+    <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
+    <string name="clock_settings">Ceas</string>
+    <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
+    <string name="clock_style">Stil</string>
+    <!-- Title for preference to change date & time -->
+    <string name="open_date_settings">Modifica data \u0026 ora</string>
+    <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
-  <string-array name="clock_style_entries">
-    <item>Analog</item>
-    <item>Digital</item>
-  </string-array>
-  <!-- Values that are retrieved from the ListPreference. These must match
+    <string-array name="clock_style_entries">
+        <item>Analog</item>
+        <item>Digital</item>
+    </string-array>
+    <!-- Values that are retrieved from the ListPreference. These must match
          the clock_style_entries above. -->
-  <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
-  <string name="automatic_home_clock">Ceas automat pentru ora de acasă</string>
-  <!-- Describes the functionality provided by the automatic_home_clock option -->
-  <string name="automatic_home_clock_summary">Când călătoriţi într-o zonă în care ora este diferită, adăugaţi un ceas pentru ora de acasă</string>
-  <!-- Title in the preferences change the time zone for the user's home -->
-  <string name="home_time_zone">Fus orar de acasă</string>
-  <!-- Title in a list dialog box to pick a time zone for the user's home -->
-  <string name="home_time_zone_title">Fus orar de acasă</string>
-  <!-- Textual content of the button to discard the current dialog values and close the dialog -->
-  <string name="time_picker_cancel">Anulează</string>
-  <!-- Textual content of the button to update an alarm with the current dialog values -->
-  <string name="time_picker_set">OK</string>
-  <string name="time_picker_time_seperator">:</string>
-  <!--  place holder for am/pm label when it is not set -->
-  <string name="time_picker_ampm_label">--</string>
-  <!-- add 00 as minutes to the time when pressing this button -->
-  <string name="time_picker_00_label">:00</string>
-  <!-- add 30 as minutes to the time when pressing this button -->
-  <string name="time_picker_30_label">:30</string>
-  <!--
+    <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
+    <string name="automatic_home_clock">Ceas automat pentru ora de acasă</string>
+    <!-- Describes the functionality provided by the automatic_home_clock option -->
+    <string name="automatic_home_clock_summary">Când călătoriţi într-o zonă în care ora este diferită, adăugaţi un ceas pentru ora de acasă</string>
+    <!-- Title in the preferences change the time zone for the user's home -->
+    <string name="home_time_zone">Fus orar de acasă</string>
+    <!-- Title in a list dialog box to pick a time zone for the user's home -->
+    <string name="home_time_zone_title">Fus orar de acasă</string>
+    <!-- Textual content of the button to discard the current dialog values and close the dialog -->
+    <string name="time_picker_cancel">Anulează</string>
+    <!-- Textual content of the button to update an alarm with the current dialog values -->
+    <string name="time_picker_set">OK</string>
+    <string name="time_picker_time_seperator">:</string>
+    <!--  place holder for am/pm label when it is not set -->
+    <string name="time_picker_ampm_label">--</string>
+    <!-- add 00 as minutes to the time when pressing this button -->
+    <string name="time_picker_00_label">:00</string>
+    <!-- add 30 as minutes to the time when pressing this button -->
+    <string name="time_picker_30_label">:30</string>
+    <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
     -->
-  <string name="city_checked"><xliff:g id="city_name">%s</xliff:g> bifat</string>
-  <!--
+    <string name="city_checked"><xliff:g id="city_name">%s</xliff:g> bifat</string>
+    <!--
         Accessibility string read when a city checkbox is unchecked.
         Ex. "Ann Arbor unchecked"
     -->
-  <string name="city_unchecked"><xliff:g id="city_name">%s</xliff:g> nebifat</string>
-  <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
-  <string-array name="timezone_labels">
-    <item>"Insulele Marshall"</item>
-    <item>"Insula Midway"</item>
-    <item>"Hawaii"</item>
-    <item>"Alaska"</item>
-    <item>"Ora Pacificului"</item>
-    <item>"Tijuana"</item>
-    <item>"Arizona"</item>
-    <item>"Chihuahua"</item>
-    <item>"Ora regiunii muntoase"</item>
-    <item>"America Centrală"</item>
-    <item>"Ora regiunii centrale"</item>
-    <item>"Mexico City"</item>
-    <item>"Saskatchewan"</item>
-    <item>"Bogota"</item>
-    <item>"Ora regiunii estice"</item>
-    <item>"Venezuela"</item>
-    <item>"Ora Atlanticului (Barbados)"</item>
-    <item>"Ora Atlanticului (Canada)"</item>
-    <item>"Manaus"</item>
-    <item>"Santiago"</item>
-    <item>"Newfoundland"</item>
-    <item>"Brasilia"</item>
-    <item>"Buenos Aires"</item>
-    <item>"Groenlanda"</item>
-    <item>"Montevideo"</item>
-    <item>"Atlanticul de Mijloc"</item>
-    <item>"Azore"</item>
-    <item>"Insulele Capului Verde"</item>
-    <item>"Casablanca"</item>
-    <item>"Londra, Dublin"</item>
-    <item>"Amsterdam, Berlin"</item>
-    <item>"Belgrad"</item>
-    <item>"Bruxelles"</item>
-    <item>"Sarajevo"</item>
-    <item>"Windhoek"</item>
-    <item>"Ora Africii de Vest"</item>
-    <item>"Amman, Iordania"</item>
-    <item>"Atena, Istanbul"</item>
-    <item>"Beirut, Liban"</item>
-    <item>"Cairo"</item>
-    <item>"Helsinki"</item>
-    <item>"Ierusalim"</item>
-    <item>"Minsk"</item>
-    <item>"Harare"</item>
-    <item>"Bagdad"</item>
-    <item>"Moscova"</item>
-    <item>"Kuweit"</item>
-    <item>"Nairobi"</item>
-    <item>"Teheran"</item>
-    <item>"Baku"</item>
-    <item>"Tbilisi"</item>
-    <item>"Erevan"</item>
-    <item>"Dubai"</item>
-    <item>"Kabul"</item>
-    <item>"Islamabad, Karachi"</item>
-    <item>"Ural'sk"</item>
-    <item>"Ekaterinburg"</item>
-    <item>"Kolkata"</item>
-    <item>"Sri Lanka"</item>
-    <item>"Kathmandu"</item>
-    <item>"Astana"</item>
-    <item>"Yangon"</item>
-    <item>"Krasnoyarsk"</item>
-    <item>"Bangkok"</item>
-    <item>"Beijing"</item>
-    <item>"Hong Kong"</item>
-    <item>"Irkutsk"</item>
-    <item>"Kuala Lumpur"</item>
-    <item>"Perth"</item>
-    <item>"Taipei"</item>
-    <item>"Seul"</item>
-    <item>"Tokyo, Osaka"</item>
-    <item>"Yakutsk"</item>
-    <item>"Adelaide"</item>
-    <item>"Darwin"</item>
-    <item>"Brisbane"</item>
-    <item>"Hobart"</item>
-    <item>"Sydney, Canberra"</item>
-    <item>"Vladivostok"</item>
-    <item>"Guam"</item>
-    <item>"Magadan"</item>
-    <item>"Auckland"</item>
-    <item>"Fiji"</item>
-    <item>"Tonga"</item>
-    <item>"Jakarta"</item>
-  </string-array>
-  <!-- Choices for timezones, must be kept in sync with timezone_values. -->
-  <!-- Header in the preferences settings for the section pertaining to alarms -->
-  <string name="alarm_settings">Alarme</string>
-  <!-- Describes the service that processes actions originating from timer notifications. -->
-  <string name="timer_service_desc">Procesează acțiuni de la notificări cronometru.</string>
-  <!-- Describes the service that processes actions originating from stopwatch notifications. -->
-  <string name="stopwatch_service_desc">Procesează acțiuni de la notificări cronometru.</string>
-  <!-- Description for the paused stop watch -->
-  <string name="swn_paused">Întrerupt</string>
-  <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
+    <string name="city_unchecked"><xliff:g id="city_name">%s</xliff:g> nebifat</string>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
+    <string-array name="timezone_labels">
+        <item>"Insulele Marshall"</item>
+        <item>"Insula Midway"</item>
+        <item>"Hawaii"</item>
+        <item>"Alaska"</item>
+        <item>"Ora Pacificului"</item>
+        <item>"Tijuana"</item>
+        <item>"Arizona"</item>
+        <item>"Chihuahua"</item>
+        <item>"Ora regiunii muntoase"</item>
+        <item>"America Centrală"</item>
+        <item>"Ora regiunii centrale"</item>
+        <item>"Mexico City"</item>
+        <item>"Saskatchewan"</item>
+        <item>"Bogota"</item>
+        <item>"Ora regiunii estice"</item>
+        <item>"Venezuela"</item>
+        <item>"Ora Atlanticului (Barbados)"</item>
+        <item>"Ora Atlanticului (Canada)"</item>
+        <item>"Manaus"</item>
+        <item>"Santiago"</item>
+        <item>"Newfoundland"</item>
+        <item>"Brasilia"</item>
+        <item>"Buenos Aires"</item>
+        <item>"Groenlanda"</item>
+        <item>"Montevideo"</item>
+        <item>"Atlanticul de Mijloc"</item>
+        <item>"Azore"</item>
+        <item>"Insulele Capului Verde"</item>
+        <item>"Casablanca"</item>
+        <item>"Londra, Dublin"</item>
+        <item>"Amsterdam, Berlin"</item>
+        <item>"Belgrad"</item>
+        <item>"Bruxelles"</item>
+        <item>"Sarajevo"</item>
+        <item>"Windhoek"</item>
+        <item>"Ora Africii de Vest"</item>
+        <item>"Amman, Iordania"</item>
+        <item>"Atena, Istanbul"</item>
+        <item>"Beirut, Liban"</item>
+        <item>"Cairo"</item>
+        <item>"Helsinki"</item>
+        <item>"Ierusalim"</item>
+        <item>"Minsk"</item>
+        <item>"Harare"</item>
+        <item>"Bagdad"</item>
+        <item>"Moscova"</item>
+        <item>"Kuweit"</item>
+        <item>"Nairobi"</item>
+        <item>"Teheran"</item>
+        <item>"Baku"</item>
+        <item>"Tbilisi"</item>
+        <item>"Erevan"</item>
+        <item>"Dubai"</item>
+        <item>"Kabul"</item>
+        <item>"Islamabad, Karachi"</item>
+        <item>"Ural'sk"</item>
+        <item>"Ekaterinburg"</item>
+        <item>"Kolkata"</item>
+        <item>"Sri Lanka"</item>
+        <item>"Kathmandu"</item>
+        <item>"Astana"</item>
+        <item>"Yangon"</item>
+        <item>"Krasnoyarsk"</item>
+        <item>"Bangkok"</item>
+        <item>"Beijing"</item>
+        <item>"Hong Kong"</item>
+        <item>"Irkutsk"</item>
+        <item>"Kuala Lumpur"</item>
+        <item>"Perth"</item>
+        <item>"Taipei"</item>
+        <item>"Seul"</item>
+        <item>"Tokyo, Osaka"</item>
+        <item>"Yakutsk"</item>
+        <item>"Adelaide"</item>
+        <item>"Darwin"</item>
+        <item>"Brisbane"</item>
+        <item>"Hobart"</item>
+        <item>"Sydney, Canberra"</item>
+        <item>"Vladivostok"</item>
+        <item>"Guam"</item>
+        <item>"Magadan"</item>
+        <item>"Auckland"</item>
+        <item>"Fiji"</item>
+        <item>"Tonga"</item>
+        <item>"Jakarta"</item>
+    </string-array>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. -->
+    <!-- Header in the preferences settings for the section pertaining to alarms -->
+    <string name="alarm_settings">Alarme</string>
+    <!-- Describes the service that processes actions originating from timer notifications. -->
+    <string name="timer_service_desc">Procesează acțiuni de la notificări cronometru.</string>
+    <!-- Describes the service that processes actions originating from stopwatch notifications. -->
+    <string name="stopwatch_service_desc">Procesează acțiuni de la notificări cronometru.</string>
+    <!-- Description for the paused stop watch -->
+    <string name="swn_paused">Întrerupt</string>
+    <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
          be on the right even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_right">Glisați spre dreapta pentru a închide</string>
-  <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
+    <string name="description_direction_right">Glisați spre dreapta pentru a închide</string>
+    <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_left">Glisați spre stânga pentru a amâna</string>
-  <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
+    <string name="description_direction_left">Glisați spre stânga pentru a amâna</string>
+    <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_both">Glisați spre stânga pentru a amâna sau spre dreapta pentru a închide</string>
-  <!-- Header in the preferences settings for the section pertaining to timers. -->
-  <string name="timer_settings">Cronometre</string>
-  <!-- Description for timer ringtone setting. -->
-  <string name="timer_ringtone_title">Ton alarmă cronometru</string>
-  <!-- Description when timer is stopped. -->
-  <string name="timer_stopped">Cronometru oprit</string>
-  <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
-  <string name="timer_paused">Cronometru întrerupt</string>
-  <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
-  <string name="timers_stopped">Au fost întrerupte <xliff:g id="Number">%d</xliff:g> contoare</string>
-  <!-- Notification text when multiple timers are paused. -->
-  <string name="all_timers_stopped_notif">Atingeţi pentru a vedea contoarele</string>
-  <!-- Notification title when at least one timer, of those in use, is counting down. -->
-  <string name="timers_in_use"><xliff:g id="number" example="7">%d</xliff:g> contoare</string>
-  <!-- Notification text when at least one timer, of those in use, is counting down. -->
-  <string name="next_timer_notif">Următorul temporizator: <xliff:g id="time_remaining" example="2 minutes remaining">%s</xliff:g></string>
-  <!-- screensaver settings strings -->
-  <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="screensaver_settings">Setări screensaver</string>
-  <!-- Title for check box to pick intensity of display diminuation during dream mode -->
-  <string name="night_mode_title">Mod Noapte</string>
-  <!-- Describes intensity of display diminuation during dream mode -->
-  <string name="night_mode_summary">Afişare cu luminozitate redusă (pentru camere întunecate)</string>
-  <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
-  <string name="expand_alarm">Extindeţi alarma</string>
-  <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
-  <string name="collapse_alarm">Restrângeţi alarma</string>
-  <!-- Description of the button to undo change to alarm -->
-  <string name="alarm_undo">anulează</string>
-  <!-- Toast content when an alarm was deleted  -->
-  <string name="alarm_deleted">Alarma a fost ştearsă</string>
-  <!-- Select the source of the alarm -->
-  <string name="alarm_select">Selectează alarma</string>
-  <!-- Select the ringtone as alarm -->
-  <string name="alarm_select_ringtone">Ton de apel</string>
-  <!-- Select the alarm from external device -->
-  <string name="alarm_select_external">Muzică</string>
-  <!-- Ok for selection -->
-  <string name="alarm_select_ok">OK</string>
-  <!-- Cancel for selection -->
-  <string name="alarm_select_cancel">Anulează</string>
-  <!-- slash between date and next alarm in the clock -->
-  <string name="slash"> / </string>
-  <!-- slash between date and next alarm in the clock -->
-  <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
-  <string name="next_alarm_description">Alarma următoare: <xliff:g id="alarm_time" example="Wed 8:00am">%s</xliff:g></string>
-  <!-- Displays the number of alarms selected from the list of alarms. -->
-  <string name="alarms_selected"><xliff:g id="alarms">%d</xliff:g> selectate</string>
-  <!-- message used by the talkback accessibility app to say that something was deleted -->
-  <string name="deleted_message">Ștearsă</string>
-  <!-- Alarm deletion confirmation message-->
-  <plurals name="alarm_delete_confirmation">
-    <!-- Confirmation for one alarm -->
-    <item quantity="one">Ștergeți alarma selectată?</item>
-    <item quantity="few">Ștergeți alarmele selectate?</item>
-    <!-- Confirmation more than one alarm  -->
-    <item quantity="other">Ștergeți alarmele selectate?</item>
-  </plurals>
-  <!-- Timer deletion confirmation -->
-  <string name="timer_delete_confirmation">Ștergeţi acest contor?</string>
-  <!-- world clock deletion confirmation -->
-  <string name="city_delete_confirmation">Eliminaţi acest oraş?</string>
-  <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="digital_gadget">Ceas digital</string>
-  <!-- format strings for clocks -->
-  <!-- Font size for AM/PM should match widget_label_font_size -->
-  <!-- Font size for AM/PM should match bottom_text_size -->
-  <!-- Font size for AM/PM should match label_font_size -->
-  <!-- Font size for AM/PM should match alarm_label_size -->
-  <!-- String for no alarms -->
-  <string name="no_alarms">Fără alarme</string>
-  <!-- String for no alarms set [CHAR LIMIT=24] -->
-  <string name="no_alarms_set">Fără alarme stabilite</string>
-  <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
-  <string name="no_upcoming_alarms">NU SUNT ALARME VIITOARE</string>
-  <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
+    <string name="description_direction_both">Glisați spre stânga pentru a amâna sau spre dreapta pentru a închide</string>
+    <!-- Header in the preferences settings for the section pertaining to timers. -->
+    <string name="timer_settings">Cronometre</string>
+    <!-- Description for timer ringtone setting. -->
+    <string name="timer_ringtone_title">Ton alarmă cronometru</string>
+    <!-- Description when timer is stopped. -->
+    <string name="timer_stopped">Cronometru oprit</string>
+    <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
+    <string name="timer_paused">Cronometru întrerupt</string>
+    <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
+    <string name="timers_stopped">Au fost întrerupte <xliff:g id="Number">%d</xliff:g> contoare</string>
+    <!-- Notification text when multiple timers are paused. -->
+    <string name="all_timers_stopped_notif">Atingeţi pentru a vedea contoarele</string>
+    <!-- Notification title when at least one timer, of those in use, is counting down. -->
+    <string name="timers_in_use"><xliff:g id="number" example="7">%d</xliff:g> contoare</string>
+    <!-- Notification text when at least one timer, of those in use, is counting down. -->
+    <string name="next_timer_notif">Următorul temporizator: <xliff:g id="time_remaining" example="2 minutes remaining">%s</xliff:g></string>
+    <!-- screensaver settings strings -->
+    <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="screensaver_settings">Setări screensaver</string>
+    <!-- Title for check box to pick intensity of display diminuation during dream mode -->
+    <string name="night_mode_title">Mod Noapte</string>
+    <!-- Describes intensity of display diminuation during dream mode -->
+    <string name="night_mode_summary">Afişare cu luminozitate redusă (pentru camere întunecate)</string>
+    <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
+    <string name="expand_alarm">Extindeţi alarma</string>
+    <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
+    <string name="collapse_alarm">Restrângeţi alarma</string>
+    <!-- Description of the button to undo change to alarm -->
+    <string name="alarm_undo">anulează</string>
+    <!-- Toast content when an alarm was deleted  -->
+    <string name="alarm_deleted">Alarma a fost ştearsă</string>
+    <!-- Select the source of the alarm -->
+    <string name="alarm_select">Selectează alarma</string>
+    <!-- Select the ringtone as alarm -->
+    <string name="alarm_select_ringtone">Ton de apel</string>
+    <!-- Select the alarm from external device -->
+    <string name="alarm_select_external">Muzică</string>
+    <!-- Ok for selection -->
+    <string name="alarm_select_ok">OK</string>
+    <!-- Cancel for selection -->
+    <string name="alarm_select_cancel">Anulează</string>
+    <!-- slash between date and next alarm in the clock -->
+    <string name="slash">/</string>
+    <!-- slash between date and next alarm in the clock -->
+    <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
+    <string name="next_alarm_description">Alarma următoare: <xliff:g id="alarm_time" example="Wed 8:00am">%s</xliff:g></string>
+    <!-- Displays the number of alarms selected from the list of alarms. -->
+    <string name="alarms_selected"><xliff:g id="alarms">%d</xliff:g> selectate</string>
+    <!-- message used by the talkback accessibility app to say that something was deleted -->
+    <string name="deleted_message">Ștearsă</string>
+    <!-- Alarm deletion confirmation message-->
+    <plurals name="alarm_delete_confirmation">
+        <!-- Confirmation for one alarm -->
+        <item quantity="one">Ștergeți alarma selectată?</item>
+        <item quantity="few">Ștergeți alarmele selectate?</item>
+        <!-- Confirmation more than one alarm  -->
+        <item quantity="other">Ștergeți alarmele selectate?</item>
+    </plurals>
+    <!-- Timer deletion confirmation -->
+    <string name="timer_delete_confirmation">Ștergeţi acest contor?</string>
+    <!-- world clock deletion confirmation -->
+    <string name="city_delete_confirmation">Eliminaţi acest oraş?</string>
+    <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="digital_gadget">Ceas digital</string>
+    <!-- format strings for clocks -->
+    <!-- Font size for AM/PM should match widget_label_font_size -->
+    <!-- Font size for AM/PM should match bottom_text_size -->
+    <!-- Font size for AM/PM should match label_font_size -->
+    <!-- Font size for AM/PM should match alarm_label_size -->
+    <!-- String for no alarms -->
+    <string name="no_alarms">Fără alarme</string>
+    <!-- String for no alarms set [CHAR LIMIT=24] -->
+    <string name="no_alarms_set">Fără alarme stabilite</string>
+    <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
+    <string name="no_upcoming_alarms">NU SUNT ALARME VIITOARE</string>
+    <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
      or 27:68pm.
     First %d represents hour, second %d represents minutes, %s represents am/pm,
     If no am/pm is passed in (e.g. the locale uses 24h time) only hour and minute are printed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_time">Oră nevalidă <xliff:g id="invalid_hour" example="25">%d</xliff:g>:<xliff:g id="invalid_minutes" example="63">%d</xliff:g> <xliff:g id="invalid_ampm" example="PM">%s</xliff:g></string>
-  <!-- String that represents that no alarm has been specified for a requested hour:minutes.
+    <string name="invalid_time">Oră nevalidă <xliff:g id="invalid_hour" example="25">%d</xliff:g>:<xliff:g id="invalid_minutes" example="63">%d</xliff:g> <xliff:g id="invalid_ampm" example="PM">%s</xliff:g></string>
+    <!-- String that represents that no alarm has been specified for a requested hour:minutes.
     This happens when a user sends a voice command 'dismiss my alarm at 3:00pm' but they have no
     alarms specified for that time. %s represents the time of the alarm.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_at">Nicio alarmă la <xliff:g id="Alarm_TIME_HOUR">%d</xliff:g>:<xliff:g id="Alarm_TIME_MINUTES">%d</xliff:g></string>
-  <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
+    <string name="no_alarm_at">Nicio alarmă la <xliff:g id="Alarm_TIME_HOUR">%d</xliff:g>:<xliff:g id="Alarm_TIME_MINUTES">%d</xliff:g></string>
+    <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
     a user sends a voice command 'dismiss next alarm' or 'dismiss all of my alarms' but they have
     no alarms scheduled in the app.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_scheduled_alarms">Nicio alarmă programată</string>
-  <!-- String that represents that the user specified that they want to select an alarm to
+    <string name="no_scheduled_alarms">Nicio alarmă programată</string>
+    <!-- String that represents that the user specified that they want to select an alarm to
     dismiss by specifying a 'label' but they didn't specify any labels.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_label_specified">Nicio etichetă specificată</string>
-  <!-- String that represents that no alarm has been specified for a requested label.
+    <string name="no_label_specified">Nicio etichetă specificată</string>
+    <!-- String that represents that no alarm has been specified for a requested label.
     This happens when a user sends a voice command 'dismiss my alarm with label pick up kids'
      but they have no alarms with that label.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarms_with_label">Nicio alarmă nu conține eticheta</string>
-  <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
+    <string name="no_alarms_with_label">Nicio alarmă nu conține eticheta</string>
+    <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
     'lap the stopwatch' when the stopwatch wasn't running so the command wasn't executed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_isnt_running">Cronometrul nu este pornit</string>
-  <!-- String that represents that the user has successfully sent a voice command pausing
+    <string name="stopwatch_isnt_running">Cronometrul nu este pornit</string>
+    <!-- String that represents that the user has successfully sent a voice command pausing
      the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_paused">Cronometru întrerupt</string>
-  <!-- String that represents that the user has successfully sent a voice command resetting
+    <string name="stopwatch_paused">Cronometru întrerupt</string>
+    <!-- String that represents that the user has successfully sent a voice command resetting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_reset">Cronometru resetat</string>
-  <!-- String that represents that the user has successfully sent a voice command lapping
+    <string name="stopwatch_reset">Cronometru resetat</string>
+    <!-- String that represents that the user has successfully sent a voice command lapping
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_lapped">Cronometrul a înregistrat o tură</string>
-  <!-- String that represents that the user has successfully sent a voice command starting
+    <string name="stopwatch_lapped">Cronometrul a înregistrat o tură</string>
+    <!-- String that represents that the user has successfully sent a voice command starting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_started">Cronometrul a fost pornit</string>
-  <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
+    <string name="stopwatch_started">Cronometrul a fost pornit</string>
+    <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
     there was no alarm scheduled for that time (they might have had an alarm for 3pm on the list
     but it was disabled).
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_scheduled_for_this_time">Nicio alarmă planificată pentru această oră</string>
-  <!-- String that represents that the user has dismissed an alarm through a voice action.
+    <string name="no_alarm_scheduled_for_this_time">Nicio alarmă planificată pentru această oră</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_dismissed">Alarma de la <xliff:g id="Alarm_TIME">%s</xliff:g> a fost închisă</string>
-  <!-- String that represents that the user has dismissed an alarm through a voice action.
+    <string name="alarm_is_dismissed">Alarma de la <xliff:g id="Alarm_TIME">%s</xliff:g> a fost închisă</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_set">Alarma este setată pentru <xliff:g id="Alarm_TIME">%s</xliff:g></string>
-  <!-- String that represents that the user attempted to control a timer with a voice action when
+    <string name="alarm_is_set">Alarma este setată pentru <xliff:g id="Alarm_TIME">%s</xliff:g></string>
+    <!-- String that represents that the user attempted to control a timer with a voice action when
     no timers are defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_timers_exist">Nu există cronometre</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action when
+    <string name="no_timers_exist">Nu există cronometre</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action when
     more than one timer is defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="too_many_timers_exist">Există mai multe cronometre</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action but
+    <string name="too_many_timers_exist">Există mai multe cronometre</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action but
     the timer could not be located.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_does_not_exist">Cronometrul a fost eliminat.</string>
-  <!-- String that represents that the user has successfully created a timer through a voice action.
+    <string name="timer_does_not_exist">Cronometrul a fost eliminat.</string>
+    <!-- String that represents that the user has successfully created a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_created">Cronometru creat</string>
-  <!-- String that represents that the user has successfully reset a timer through a voice action.
+    <string name="timer_created">Cronometru creat</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_was_reset">Resetare cronometru</string>
-  <!-- String that represents that the user has successfully reset a timer through a voice action
+    <string name="timer_was_reset">Resetare cronometru</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action
     that was marked as deleteAfterUse and was thus deleted instead.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_deleted">Cronometru șters</string>
-  <!-- String that represents that the user has successfully started a timer through a voice action.
+    <string name="timer_deleted">Cronometru șters</string>
+    <!-- String that represents that the user has successfully started a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_started">Cronometru pornit</string>
-  <!-- String that represents that the user attempted to start a timer through a voice action
+    <string name="timer_started">Cronometru pornit</string>
+    <!-- String that represents that the user attempted to start a timer through a voice action
     but specified invalid length.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_timer_length">Durată nevalidă pentru temporizator</string>
-  <!-- String that represents that the user attempted to add or delete a world clock through
+    <string name="invalid_timer_length">Durată nevalidă pentru temporizator</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but they didn't specify a city so no world clock was selected.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_city_selected">Niciun oraș selectat</string>
-  <!-- String that represents that the user attempted to add or delete a world clock through
+    <string name="no_city_selected">Niciun oraș selectat</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but the city they specified wasn't listed in the database.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_you_specified_is_not_available">Orașul pe care l-ați specificat nu este disponibil</string>
-  <!-- String that represents that the user attempted to add a world clock through a voice action
+    <string name="the_city_you_specified_is_not_available">Orașul pe care l-ați specificat nu este disponibil</string>
+    <!-- String that represents that the user attempted to add a world clock through a voice action
     but the city they specified is already added to the list.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_already_added">Orașul a fost adăugat deja</string>
-  <!-- String that represents that the user successfully added a world clock through a
+    <string name="the_city_already_added">Orașul a fost adăugat deja</string>
+    <!-- String that represents that the user successfully added a world clock through a
     voice action
     %s represents the name of the city they added.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_added">Orașul <xliff:g id="City_NAME">%s</xliff:g> a fost adăugat</string>
-  <!-- String that represents that the user successfully deleted a world clock through
+    <string name="city_added">Orașul <xliff:g id="City_NAME">%s</xliff:g> a fost adăugat</string>
+    <!-- String that represents that the user successfully deleted a world clock through
     a voice action
     %s represents the name of the city they deleted.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_deleted">Orașul <xliff:g id="City_NAME">%s</xliff:g> a fost șters</string>
-  <!-- String that represents that the user attempted to dismiss an alarm that is more than
+    <string name="city_deleted">Orașul <xliff:g id="City_NAME">%s</xliff:g> a fost șters</string>
+    <!-- String that represents that the user attempted to dismiss an alarm that is more than
     24 hours away
     %s represents the time of the alarm (e.g. 15:39)
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">Alarma de la <xliff:g id="Alarm_TIME">%s</xliff:g> nu poate fi închisă încă, deoarece este setată peste mai mult de 24 de ore</string>
-  <!-- String that shows up in the action bar for the Picker Activity
+    <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">Alarma de la <xliff:g id="Alarm_TIME">%s</xliff:g> nu poate fi închisă încă, deoarece este setată peste mai mult de 24 de ore</string>
+    <!-- String that shows up in the action bar for the Picker Activity
          where a use gets to pick which alarm to dismiss
    [CHAR LIMIT=NONE]
    -->
-  <string name="dismiss_alarm">Închideți alarma</string>
-  <!-- String that represents that further action is needed from the user in case their
+    <string name="dismiss_alarm">Închideți alarma</string>
+    <!-- String that represents that further action is needed from the user in case their
     voice command was ambiguous or there are more than 1 alarms that match their request.
     The user needs to choose an alarm they want to dismiss through the UI
    [CHAR LIMIT=NONE]
    -->
-  <string name="pick_alarm_to_dismiss">Alege alarma pe care dorești să o închizi</string>
-  <!-- String that represents that the user doesn't have any alarms firing at the moment.
+    <string name="pick_alarm_to_dismiss">Alege alarma pe care dorești să o închizi</string>
+    <!-- String that represents that the user doesn't have any alarms firing at the moment.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_firing_alarms">Nicio alarmă activată</string>
-  <!-- String that represents that the user has snoozed an alarm through a voice action for 10
+    <string name="no_firing_alarms">Nicio alarmă activată</string>
+    <!-- String that represents that the user has snoozed an alarm through a voice action for 10
     minutes.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_snoozed">Alarma de la <xliff:g id="Alarm_TIME">%s</xliff:g> a fost amânată cu 10 minute</string>
-  <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
-  <string name="custom_ringtone">Ton de apel personalizat</string>
-  <!-- Ringtone selection default" -->
-  <string name="ringtone_default">"Ton de apel implicit"</string>
-  <!--used for prompt to user storage permission status-->
-  <string name="have_denied_storage_permission">Ați refuzat permisiunea de stocare, dar puteți adăuga manual această permisiune în Setări</string>
+    <string name="alarm_is_snoozed">Alarma de la <xliff:g id="Alarm_TIME">%s</xliff:g> a fost amânată cu 10 minute</string>
+    <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+    <string name="custom_ringtone">Ton de apel personalizat</string>
+    <!-- Ringtone selection default" -->
+    <string name="ringtone_default">"Ton de apel implicit"</string>
+    <!--used for prompt to user storage permission status-->
+    <string name="have_denied_storage_permission">Ați refuzat permisiunea de stocare, dar puteți adăuga manual această permisiune în Setări</string>
 </resources>

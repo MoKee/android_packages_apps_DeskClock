@@ -18,108 +18,108 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- -->
-  <!-- Label shown on launcher icon -->
-  <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
-  <string name="app_label">နာရီ</string>
-  <!-- Title for AlarmClock activity -->
-  <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="alarm_list_title">နှိုးစက်များ</string>
-  <!-- Menu item on Alarm Clock screen: Add alarm -->
-  <string name="add_alarm">နှိုးစက် ထည့်ရန်</string>
-  <!-- Menu item on Alarm Clock screen: Desk clock -->
-  <string name="menu_desk_clock">စားပွဲတင် နာရီ</string>
-  <!-- Menu item on Alarm Clock screen: Edit alarm -->
-  <string name="menu_edit_alarm">နိုးစက် တည်းဖြတ်ရန်</string>
-  <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
-  <string name="delete_alarm">နှိုးစက် ဖျက်ရန်</string>
-  <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
-  <string name="enable_alarm">နှိုးစက်ကို ဖွင့်လိုက်ရန်</string>
-  <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
-  <string name="disable_alarm">နှိုးစက်ကို ပိတ်လိုက်ရန်</string>
-  <!-- Delete alarm confirmation dialog message. -->
-  <string name="delete_alarm_confirm">ဤ နှိုးစက်ကို ဖျက်ရမလား?</string>
-  <!-- Menu item on Alarm Clock screen: Show clock -->
-  <string name="show_clock">နာရီကို ပြရန်</string>
-  <!-- Menu item on Alarm Clock screen: Hide clock -->
-  <string name="hide_clock">နာရီကို ဝှက်ထားရန်</string>
-  <!-- Setting label on Set alarm screen: Label -->
-  <string name="label">အညွှန်း</string>
-  <!-- Content description for alarm on/off switch in On state -->
-  <string name="on_switch">ဖွင့်ထားသည်</string>
-  <!-- Content description for alarm on/off switch in Off state -->
-  <string name="off_switch">ပိတ်ထားသည်</string>
-  <!-- Default label to display for an alarm -->
-  <string name="default_label">နှိုးစက်</string>
-  <!-- Preference category on Alarm Settings screen: Set alarm -->
-  <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="set_alarm">နှိုးစက် သတ်မှတ်ရန်</string>
-  <!-- Setting labels on Set alarm screen: Vibration on or off -->
-  <string name="alarm_vibrate">တုန်ခါရန်</string>
-  <!-- Setting labels on Set alarm screen: Repeat -->
-  <string name="alarm_repeat">ထပ်လုပ်ရန်</string>
-  <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
-  <string name="alert">နှိုးစက် သံစဉ်</string>
-  <!-- Title of default ringtone played when a timer expires. -->
-  <string name="default_timer_ringtone_title">အချိန်ကိုက်သတ်မှတ်ချက် ပြီးဆုံးပြီ</string>
-  <!-- Title of silent ringtone played when a timer expires. -->
-  <string name="silent_timer_ringtone_title">အသံတိတ်ရန်</string>
-  <!-- Label on expanded alarm edit view. -->
-  <string name="ringtone">သံစဉ်</string>
-  <!-- Setting labels on Set alarm screen: Set time  -->
-  <string name="time">အချိန်</string>
-  <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
-  <string name="alarm_tomorrow">နက်ဖြန်</string>
-  <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
-  <string name="alarm_today">ယနေ့</string>
-  <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
-  <string name="alarm_alert_wake_up">နှိုးလာပါ!</string>
-  <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
-  <string name="alarm_alert_off_action_text">မရှိ</string>
-  <!-- Button labels on the alarm dialog: Dismiss -->
-  <string name="alarm_alert_dismiss_text">ပိတ်ရန်</string>
-  <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
-  <string name="alarm_alert_dismiss_now_text">ယခု ပိတ်ရန်</string>
-  <!-- Alarm Alert screen: this message is shown after an alarm rung
+    <!-- -->
+    <!-- Label shown on launcher icon -->
+    <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
+    <string name="app_label">နာရီ</string>
+    <!-- Title for AlarmClock activity -->
+    <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="alarm_list_title">နှိုးစက်များ</string>
+    <!-- Menu item on Alarm Clock screen: Add alarm -->
+    <string name="add_alarm">နှိုးစက် ထည့်ရန်</string>
+    <!-- Menu item on Alarm Clock screen: Desk clock -->
+    <string name="menu_desk_clock">စားပွဲတင် နာရီ</string>
+    <!-- Menu item on Alarm Clock screen: Edit alarm -->
+    <string name="menu_edit_alarm">နိုးစက် တည်းဖြတ်ရန်</string>
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="delete_alarm">နှိုးစက် ဖျက်ရန်</string>
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+    <string name="enable_alarm">နှိုးစက်ကို ဖွင့်လိုက်ရန်</string>
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+    <string name="disable_alarm">နှိုးစက်ကို ပိတ်လိုက်ရန်</string>
+    <!-- Delete alarm confirmation dialog message. -->
+    <string name="delete_alarm_confirm">ဤ နှိုးစက်ကို ဖျက်ရမလား?</string>
+    <!-- Menu item on Alarm Clock screen: Show clock -->
+    <string name="show_clock">နာရီကို ပြရန်</string>
+    <!-- Menu item on Alarm Clock screen: Hide clock -->
+    <string name="hide_clock">နာရီကို ဝှက်ထားရန်</string>
+    <!-- Setting label on Set alarm screen: Label -->
+    <string name="label">အညွှန်း</string>
+    <!-- Content description for alarm on/off switch in On state -->
+    <string name="on_switch">ဖွင့်ထားသည်</string>
+    <!-- Content description for alarm on/off switch in Off state -->
+    <string name="off_switch">ပိတ်ထားသည်</string>
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">နှိုးစက်</string>
+    <!-- Preference category on Alarm Settings screen: Set alarm -->
+    <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="set_alarm">နှိုးစက် သတ်မှတ်ရန်</string>
+    <!-- Setting labels on Set alarm screen: Vibration on or off -->
+    <string name="alarm_vibrate">တုန်ခါရန်</string>
+    <!-- Setting labels on Set alarm screen: Repeat -->
+    <string name="alarm_repeat">ထပ်လုပ်ရန်</string>
+    <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+    <string name="alert">နှိုးစက် သံစဉ်</string>
+    <!-- Title of default ringtone played when a timer expires. -->
+    <string name="default_timer_ringtone_title">အချိန်ကိုက်သတ်မှတ်ချက် ပြီးဆုံးပြီ</string>
+    <!-- Title of silent ringtone played when a timer expires. -->
+    <string name="silent_timer_ringtone_title">အသံတိတ်ရန်</string>
+    <!-- Label on expanded alarm edit view. -->
+    <string name="ringtone">သံစဉ်</string>
+    <!-- Setting labels on Set alarm screen: Set time  -->
+    <string name="time">အချိန်</string>
+    <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
+    <string name="alarm_tomorrow">နက်ဖြန်</string>
+    <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
+    <string name="alarm_today">ယနေ့</string>
+    <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
+    <string name="alarm_alert_wake_up">နှိုးလာပါ!</string>
+    <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
+    <string name="alarm_alert_off_action_text">မရှိ</string>
+    <!-- Button labels on the alarm dialog: Dismiss -->
+    <string name="alarm_alert_dismiss_text">ပိတ်ရန်</string>
+    <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+    <string name="alarm_alert_dismiss_now_text">ယခု ပိတ်ရန်</string>
+    <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
-  <string name="alarm_missed_title">လွတ်သွားသည့် နှိုးစက်</string>
-  <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+    <string name="alarm_missed_title">လွတ်သွားသည့် နှိုးစက်</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <string name="alarm_alert_snoozed_text">မှေးနေ</string>
-  <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+    <string name="alarm_alert_snoozed_text">မှေးနေ</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the word 'Snoozed' in two separate lines or example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <plurals name="alarm_alert_snooze_duration">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> မိနစ်</item>
-  </plurals>
-  <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
-  <string name="alarm_alert_off_text">နှိုးစက် ပိတ်ထား</string>
-  <!-- Button labels on the alarm dialog: Snooze -->
-  <string name="alarm_alert_snooze_text">မှေးရန်</string>
-  <!-- Toast that appears after Alarm is snoozed from the Alarm
+    <plurals name="alarm_alert_snooze_duration">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> မိနစ်</item>
+    </plurals>
+    <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
+    <string name="alarm_alert_off_text">နှိုးစက် ပိတ်ထား</string>
+    <!-- Button labels on the alarm dialog: Snooze -->
+    <string name="alarm_alert_snooze_text">မှေးရန်</string>
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
-  <plurals name="alarm_alert_snooze_set">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="MINUTES">%d</xliff:g> မိနစ်ကြာ မှေးမည်။</item>
-  </plurals>
-  <!-- Text to appear inside a notification while an alarm is snoozing. -->
-  <string name="alarm_alert_snooze_until"><xliff:g id="TIME">%s</xliff:g>အထိ မှေးရန်</string>
-  <!-- Text to appear in the notification title while an alarm is about to go off. -->
-  <string name="alarm_alert_predismiss_title">လာတော့မည့် နှိုးစက်</string>
-  <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
-  <string name="missed_alarm_has_been_deleted">သင် လွတ်သွားခဲ့သည့် နှိုးစက်ကို ဖျက်လိုက်ပြီ</string>
-  <!-- 0: nothing
+    <plurals name="alarm_alert_snooze_set">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="MINUTES">%d</xliff:g> မိနစ်ကြာ မှေးမည်။</item>
+    </plurals>
+    <!-- Text to appear inside a notification while an alarm is snoozing. -->
+    <string name="alarm_alert_snooze_until"><xliff:g id="TIME">%s</xliff:g>အထိ မှေးရန်</string>
+    <!-- Text to appear in the notification title while an alarm is about to go off. -->
+    <string name="alarm_alert_predismiss_title">လာတော့မည့် နှိုးစက်</string>
+    <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+    <string name="missed_alarm_has_been_deleted">သင် လွတ်သွားခဲ့သည့် နှိုးစက်ကို ဖျက်လိုက်ပြီ</string>
+    <!-- 0: nothing
          1: days
          2:      hours
          3: days hours
@@ -128,698 +128,698 @@
          6:      hours minutes
          7: days hours minutes
     -->
-  <!-- Timer notification: how long from now until timer goes off. -->
-  <string name="timer_notifications_less_min">ကျန်ရှိနေသည်မှာ တစ်မိနစ်ထက် နည်း</string>
-  <string name="timer_notifications_hours"><xliff:g id="HOURS">%1$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
-  <string name="timer_notifications_minutes"><xliff:g id="MINUTES">%2$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
-  <string name="timer_notifications_hours_minutes"><xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g> ကျန်ရှိနေ</string>
-  <!--
+    <!-- Timer notification: how long from now until timer goes off. -->
+    <string name="timer_notifications_less_min">ကျန်ရှိနေသည်မှာ တစ်မိနစ်ထက် နည်း</string>
+    <string name="timer_notifications_hours"><xliff:g id="HOURS">%1$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
+    <string name="timer_notifications_minutes"><xliff:g id="MINUTES">%2$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
+    <string name="timer_notifications_hours_minutes"><xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g> ကျန်ရှိနေ</string>
+    <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
     -->
-  <string name="timer_remaining_single">ကျန်ရှိနေသော</string>
-  <!--
+    <string name="timer_remaining_single">ကျန်ရှိနေသော</string>
+    <!--
         Verb inflection to use for multiple time units remaining
         Ex. "2 minutes remaining"
     -->
-  <string name="timer_remaining_multiple">ကျန်ရှိနေသော</string>
-  <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
-  <string-array name="alarm_set">
-    <item>နှိုးစက် သတ်မှတ်ချိန်မှာ ယခု အချိန်မှ ၁ မိနစ်ထက် နည်းနေသည်။</item>
-    <item>ယခု အချိန်မှ စပြီး <xliff:g id="DAYS">%1$s</xliff:g> အကြာမှာ နှိုးစက် သတ်မှတ်ထားသည်။</item>
-    <item>ယခု အချိန်မှ စပြီး <xliff:g id="HOURS">%2$s</xliff:g> အကြာမှာ နှိုးစက် သတ်မှတ်ထားသည်။</item>
-    <item>ယခု အချိန်မှ စပြီး <xliff:g id="DAYS">%1$s</xliff:g> နှင့် <xliff:g id="HOURS">%2$s</xliff:g> အကြာမှာ နှိုးစက် သတ်မှတ်ထားသည်။</item>
-    <item>ယခု အချိန်မှ စပြီး <xliff:g id="MINUTES">%3$s</xliff:g> အကြာမှာ နှိုးစက် သတ်မှတ်ထားသည်။</item>
-    <item>ယခု အချိန်မှ စပြီး <xliff:g id="DAYS">%1$s</xliff:g> နှင့် <xliff:g id="MINUTES">%3$s</xliff:g> အကြာမှာ နှိုးစက် သတ်မှတ်ထားသည်။</item>
-    <item>ယခု အချိန်မှ စပြီး <xliff:g id="HOURS">%2$s</xliff:g> နှင့် <xliff:g id="MINUTES">%3$s</xliff:g> အကြာမှာ နှိုးစက် သတ်မှတ်ထားသည်။</item>
-    <item>ယခု အချိန်မှ စပြီး <xliff:g id="DAYS">%1$s</xliff:g>၊ <xliff:g id="HOURS">%2$s</xliff:g>  နှင့် <xliff:g id="MINUTES">%3$s</xliff:g> အကြာမှာ နှိုးစက် သတ်မှတ်ထားသည်။</item>
-  </string-array>
-  <!-- Alarm confirmation toast: days -->
-  <plurals name="days">
-    <!-- Duration for one day -->
-    <!-- Duration for more than one day -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ရက်</item>
-  </plurals>
-  <!-- Alarm confirmation toast and timer notification: hours -->
-  <plurals name="hours">
-    <!-- Duration for one hour -->
-    <!-- Duration for more than one hour -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> နာရီ</item>
-  </plurals>
-  <!-- Alarm confirmation toast and timer notification: minutes -->
-  <plurals name="minutes">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> မိနစ်</item>
-  </plurals>
-  <!-- Repeat options that appear under an alarm on main Alarm Clock
+    <string name="timer_remaining_multiple">ကျန်ရှိနေသော</string>
+    <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
+    <string-array name="alarm_set">
+        <item>နှိုးစက် သတ်မှတ်ချိန်မှာ ယခု အချိန်မှ ၁ မိနစ်ထက် နည်းနေသည်။</item>
+        <item>ယခု အချိန်မှ စပြီး <xliff:g id="DAYS">%1$s</xliff:g> အကြာမှာ နှိုးစက် သတ်မှတ်ထားသည်။</item>
+        <item>ယခု အချိန်မှ စပြီး <xliff:g id="HOURS">%2$s</xliff:g> အကြာမှာ နှိုးစက် သတ်မှတ်ထားသည်။</item>
+        <item>ယခု အချိန်မှ စပြီး <xliff:g id="DAYS">%1$s</xliff:g> နှင့် <xliff:g id="HOURS">%2$s</xliff:g> အကြာမှာ နှိုးစက် သတ်မှတ်ထားသည်။</item>
+        <item>ယခု အချိန်မှ စပြီး <xliff:g id="MINUTES">%3$s</xliff:g> အကြာမှာ နှိုးစက် သတ်မှတ်ထားသည်။</item>
+        <item>ယခု အချိန်မှ စပြီး <xliff:g id="DAYS">%1$s</xliff:g> နှင့် <xliff:g id="MINUTES">%3$s</xliff:g> အကြာမှာ နှိုးစက် သတ်မှတ်ထားသည်။</item>
+        <item>ယခု အချိန်မှ စပြီး <xliff:g id="HOURS">%2$s</xliff:g> နှင့် <xliff:g id="MINUTES">%3$s</xliff:g> အကြာမှာ နှိုးစက် သတ်မှတ်ထားသည်။</item>
+        <item>ယခု အချိန်မှ စပြီး <xliff:g id="DAYS">%1$s</xliff:g>၊ <xliff:g id="HOURS">%2$s</xliff:g>  နှင့် <xliff:g id="MINUTES">%3$s</xliff:g> အကြာမှာ နှိုးစက် သတ်မှတ်ထားသည်။</item>
+    </string-array>
+    <!-- Alarm confirmation toast: days -->
+    <plurals name="days">
+        <!-- Duration for one day -->
+        <!-- Duration for more than one day -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ရက်</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: hours -->
+    <plurals name="hours">
+        <!-- Duration for one hour -->
+        <!-- Duration for more than one hour -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> နာရီ</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: minutes -->
+    <plurals name="minutes">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> မိနစ်</item>
+    </plurals>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
-  <string name="every_day">နေ့တိုင်း</string>
-  <!-- Repeat options that appear under an alarm on main Alarm Clock
+    <string name="every_day">နေ့တိုင်း</string>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
-  <!-- Appears at the top of the Clock Picker screen: Tell user to
+    <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
-  <string name="clock_instructions">နာရီ တစ်ခုကို ရွေးရန်</string>
-  <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="analog_gadget">လက်တံနာရီ</string>
-  <!-- Help activity name -->
-  <string name="help">အကူအညီ</string>
-  <!-- Settings activity name -->
-  <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="settings">ဆက်တင်များ</string>
-  <!-- Setting title for changing the snooze duration. -->
-  <string name="snooze_duration_title">မှေးစက်ကာလ</string>
-  <plurals name="snooze_duration">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> မိနစ်</item>
-  </plurals>
-  <plurals name="snooze_picker_label">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other">မိနစ်</item>
-  </plurals>
-  <!-- Setting title for changing the crescendo duration. -->
-  <string name="crescendo_duration_title">တဖြည်းဖြည်း အသံကို ချဲ့ယူပါ</string>
-  <!-- Summary value for changing the crescendo duration to 0. -->
-  <string name="no_crescendo_duration">ပိတ်ထား</string>
-  <!-- Summary value for changing the crescendo duration. -->
-  <string name="crescendo_duration"><xliff:g id="NUMBER">%s</xliff:g> စက္ကန့်</string>
-  <!-- Setting label when changing the crescendo duration. -->
-  <string name="crescendo_picker_label">စက္ကန့်</string>
-  <!-- Auto silence preference title -->
-  <string name="auto_silence_title">နှိုးစက်သံကြာချိန်</string>
-  <!-- Auto silence summary string set based on the preference value. -->
-  <plurals name="auto_silence_summary">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> မိနစ်</item>
-  </plurals>
-  <!-- Auto silence summary when turned off -->
-  <string name="auto_silence_never">ဘယ်တော့မှ</string>
-  <!-- Entries listed in the ListPreference when invoking the auto silence
+    <string name="clock_instructions">နာရီ တစ်ခုကို ရွေးရန်</string>
+    <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="analog_gadget">လက်တံနာရီ</string>
+    <!-- Help activity name -->
+    <string name="help">အကူအညီ</string>
+    <!-- Settings activity name -->
+    <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="settings">ဆက်တင်များ</string>
+    <!-- Setting title for changing the snooze duration. -->
+    <string name="snooze_duration_title">မှေးစက်ကာလ</string>
+    <plurals name="snooze_duration">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> မိနစ်</item>
+    </plurals>
+    <plurals name="snooze_picker_label">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other">မိနစ်</item>
+    </plurals>
+    <!-- Setting title for changing the crescendo duration. -->
+    <string name="crescendo_duration_title">တဖြည်းဖြည်း အသံကို ချဲ့ယူပါ</string>
+    <!-- Summary value for changing the crescendo duration to 0. -->
+    <string name="no_crescendo_duration">ပိတ်ထား</string>
+    <!-- Summary value for changing the crescendo duration. -->
+    <string name="crescendo_duration"><xliff:g id="NUMBER">%s</xliff:g> စက္ကန့်</string>
+    <!-- Setting label when changing the crescendo duration. -->
+    <string name="crescendo_picker_label">စက္ကန့်</string>
+    <!-- Auto silence preference title -->
+    <string name="auto_silence_title">နှိုးစက်သံကြာချိန်</string>
+    <!-- Auto silence summary string set based on the preference value. -->
+    <plurals name="auto_silence_summary">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> မိနစ်</item>
+    </plurals>
+    <!-- Auto silence summary when turned off -->
+    <string name="auto_silence_never">ဘယ်တော့မှ</string>
+    <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
-  <string-array name="auto_silence_entries">
-    <item>၁ မိနစ်</item>
-    <item>၅ မိနစ်</item>
-    <item>၁၀ မိနစ်</item>
-    <item>၁၅ မိနစ်</item>
-    <item>၂၀ မိနစ်</item>
-    <item>၂၅ မိနစ်</item>
-    <item>ဘယ်တော့မှ</item>
-  </string-array>
-  <!-- Values that are retrieved from the ListPreference. These must match
+    <string-array name="auto_silence_entries">
+        <item>၁ မိနစ်</item>
+        <item>၅ မိနစ်</item>
+        <item>၁၀ မိနစ်</item>
+        <item>၁၅ မိနစ်</item>
+        <item>၂၀ မိနစ်</item>
+        <item>၂၅ မိနစ်</item>
+        <item>ဘယ်တော့မှ</item>
+    </string-array>
+    <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
-  <!-- Week start day preference title. -->
-  <string name="week_start_title">ရက်သတ္တပတ် စရက်</string>
-  <!-- Entries listed in ListPreference for start day. -->
-  <string-array name="week_start_entries">
-    <item>စနေနေ့</item>
-    <item>တနင်္ဂနွေနေ့</item>
-    <item>တနင်္လာနေ့</item>
-  </string-array>
-  <!-- Values for ListPreference for start day of week. -->
-  <!-- Done button when editing an alarm. -->
-  <string name="done">လုပ်ပြီး</string>
-  <!-- Revert button when editing an alarm. -->
-  <string name="revert">ပြန်လှန်</string>
-  <!-- Delete button when editing an alarm. -->
-  <string name="delete">ဖျက်ရန်</string>
-  <!-- Setting title for changing the alarm volume. -->
-  <string name="alarm_volume_title">နှိုးစက်သံ အတိုးအကျယ်</string>
-  <!-- Title for the silent ringtone. -->
-  <string name="silent_ringtone_title">တိတ်ဆိတ်နေရန်</string>
-  <!-- Title for ringtones that cannot be located by uri. -->
-  <string name="unknown_ringtone_title">မသိရ</string>
-  <!-- Text to display in the small text of the notification -->
-  <string name="alarm_notify_text">နှိုးစက်ကို မှေးရန် သို့မဟုတ် ပိတ်ရန်။</string>
-  <!-- Text to display in the notification ticker and label -->
-  <string name="alarm_notify_snooze_label"><xliff:g id="LABEL">%s</xliff:g> (မှေးထား)</string>
-  <!-- Text to display in the notification when the alarm has been snoozed -->
-  <string name="alarm_notify_snooze_text">နှိုးစက်ကို<xliff:g id="TIME">%s</xliff:g> မှာ သတ်မှတ်ထားသည်။ ပယ်ဖျက်ရန် ထိပါ။</string>
-  <!-- Title of the setting to change hardware button behavior. This string
+    <!-- Week start day preference title. -->
+    <string name="week_start_title">ရက်သတ္တပတ် စရက်</string>
+    <!-- Entries listed in ListPreference for start day. -->
+    <string-array name="week_start_entries">
+        <item>စနေနေ့</item>
+        <item>တနင်္ဂနွေနေ့</item>
+        <item>တနင်္လာနေ့</item>
+    </string-array>
+    <!-- Values for ListPreference for start day of week. -->
+    <!-- Done button when editing an alarm. -->
+    <string name="done">လုပ်ပြီး</string>
+    <!-- Revert button when editing an alarm. -->
+    <string name="revert">ပြန်လှန်</string>
+    <!-- Delete button when editing an alarm. -->
+    <string name="delete">ဖျက်ရန်</string>
+    <!-- Setting title for changing the alarm volume. -->
+    <string name="alarm_volume_title">နှိုးစက်သံ အတိုးအကျယ်</string>
+    <!-- Title for the silent ringtone. -->
+    <string name="silent_ringtone_title">တိတ်ဆိတ်နေရန်</string>
+    <!-- Title for ringtones that cannot be located by uri. -->
+    <string name="unknown_ringtone_title">မသိရ</string>
+    <!-- Text to display in the small text of the notification -->
+    <string name="alarm_notify_text">နှိုးစက်ကို မှေးရန် သို့မဟုတ် ပိတ်ရန်။</string>
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label"><xliff:g id="LABEL">%s</xliff:g> (မှေးထား)</string>
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="alarm_notify_snooze_text">နှိုးစက်ကို<xliff:g id="TIME">%s</xliff:g> မှာ သတ်မှတ်ထားသည်။ ပယ်ဖျက်ရန် ထိပါ။</string>
+    <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
-  <string name="volume_button_setting_title">အသံခလုတ်များ</string>
-  <!-- Dialog title of the volume and power setting. -->
-  <string name="volume_button_dialog_title">ခလုတ် အကျိုးသက်ရောက်မှု</string>
-  <!-- Entries listed in the setting for the side-button action. -->
-  <string-array name="volume_button_setting_entries">
-    <item>မှေးရန်</item>
-    <item>ပယ်ရန်</item>
-    <item>ဘာမှ မလုပ်နှင့်</item>
-  </string-array>
-  <!-- Values for the side-button setting. -->
-  <!-- Title of the ringtone setting. -->
-  <string name="default_ringtone_setting_title">ပုံသေ အသံစဉ်ကို သတ်မှတ်ရန်</string>
-  <!-- Accessibility labels for Clock activity buttons -->
-  <string name="alarm_button_description">နှိုးစက်များ</string>
-  <string name="gallery_button_description">ပြခန်း</string>
-  <string name="music_button_description">ဂီတ</string>
-  <string name="nightmode_button_description">မှိန်</string>
-  <string name="home_button_description">ဖွင့်တင်စက်</string>
-  <string name="desk_clock_button_description">နာရီကို ပြသမှု</string>
-  <!-- Accessibility labels for alarm buttons -->
-  <string name="label_description">အညွှန်း</string>
-  <string name="ringtone_description">သံစဉ်</string>
-  <!-- What to show the user if the weather widget exists but fails to
+    <string name="volume_button_setting_title">အသံခလုတ်များ</string>
+    <!-- Dialog title of the volume and power setting. -->
+    <string name="volume_button_dialog_title">ခလုတ် အကျိုးသက်ရောက်မှု</string>
+    <!-- Entries listed in the setting for the side-button action. -->
+    <string-array name="volume_button_setting_entries">
+        <item>မှေးရန်</item>
+        <item>ပယ်ရန်</item>
+        <item>ဘာမှ မလုပ်နှင့်</item>
+    </string-array>
+    <!-- Values for the side-button setting. -->
+    <!-- Title of the ringtone setting. -->
+    <string name="default_ringtone_setting_title">ပုံသေ အသံစဉ်ကို သတ်မှတ်ရန်</string>
+    <!-- Accessibility labels for Clock activity buttons -->
+    <string name="alarm_button_description">နှိုးစက်များ</string>
+    <string name="gallery_button_description">ပြခန်း</string>
+    <string name="music_button_description">ဂီတ</string>
+    <string name="nightmode_button_description">မှိန်</string>
+    <string name="home_button_description">ဖွင့်တင်စက်</string>
+    <string name="desk_clock_button_description">နာရီကို ပြသမှု</string>
+    <!-- Accessibility labels for alarm buttons -->
+    <string name="label_description">အညွှန်း</string>
+    <string name="ringtone_description">သံစဉ်</string>
+    <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
          present on the device, we show nothing at all. -->
-  <string name="weather_fetch_failure">မိုးလေဝသ သတင်း လောလောဆယ်မှာ မရနိုင်ပါ။</string>
-  <!-- A description for the DeskClock alarm sound playback service.
+    <string name="weather_fetch_failure">မိုးလေဝသ သတင်း လောလောဆယ်မှာ မရနိုင်ပါ။</string>
+    <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="alarm_klaxon_service_desc">နာရီထဲမှာ သတ်မှတ်ထားသည့် နှိုးစက်များ အတွက် အသံ ဖွင့်ပေးရေး ဝန်ဆောင်မှု။</string>
-  <!-- String displayed as the alert summary while loading the alert name from
+    <string name="alarm_klaxon_service_desc">နာရီထဲမှာ သတ်မှတ်ထားသည့် နှိုးစက်များ အတွက် အသံ ဖွင့်ပေးရေး ဝန်ဆောင်မှု။</string>
+    <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
-  <string name="loading_ringtone">သံစဉ်ကို တင်နေ…</string>
-  <!-- A description for the DeskClock timer sound playback service.
+    <string name="loading_ringtone">သံစဉ်ကို တင်နေ…</string>
+    <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="timer_ring_service_desc">နာရီထဲက တိုင်မားများ အတွက် အသံကို ဖွင့်ပြမည်။</string>
-  <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
-  <string name="control_set_alarm">နှိုးစက် သတ်မှတ်ရန်</string>
-  <!--  ActionBar strings -->
-  <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
-  <string name="menu_alarm">နှိုးစက်</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
-  <string name="menu_timer">အချိန်ကိုက်စနစ်</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
-  <string name="menu_clock">နာရီ</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
-  <string name="menu_stopwatch">အချိန်ဖမ်းနာရီ</string>
-  <!-- Clock view buttons strings-->
-  <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
-  <string name="button_alarms">နှိုးစက် ထည့်ရန်</string>
-  <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
-  <string name="button_cities">မြို့များ</string>
-  <!-- Describes the purpose of the button which pops up a menu of setting choices -->
-  <string name="button_menu">နောက်ထပ် ရွေးစရာများ</string>
-  <!-- Menu item on most screens to get to more settings -->
-  <string name="menu_item_settings">ဆက်တင်များ</string>
-  <!-- Menu item on most screens to get to the help information -->
-  <string name="menu_item_help">အကူအညီ</string>
-  <!-- Menu item on clock screen to add world city. -->
-  <!-- Menu item on clock screen to enter night mode. -->
-  <string name="menu_item_night_mode">ညသုံး မုဒ်</string>
-  <!-- Menu item on Cities screen to sort by GMT offset -->
-  <string name="menu_item_sort_by_gmt_offset">အချိန်အလိုက် စီရန်</string>
-  <!-- Menu item on Cities screen to sort by alphabetical order -->
-  <string name="menu_item_sort_by_name">အမည်အလိုက် စီရန်</string>
-  <!-- Label for selected cities in Cities list view -->
-  <string name="selected_cities_label">ရွေးထားသည့် မြို့များ</string>
-  <!-- Stopwatch and Timer shared strings -->
-  <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
-  <string name="sw_resume_button">ပြန်ဆက်လုပ်ရန်</string>
-  <!--
+    <string name="timer_ring_service_desc">နာရီထဲက တိုင်မားများ အတွက် အသံကို ဖွင့်ပြမည်။</string>
+    <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm">နှိုးစက် သတ်မှတ်ရန်</string>
+    <!--  ActionBar strings -->
+    <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
+    <string name="menu_alarm">နှိုးစက်</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
+    <string name="menu_timer">အချိန်ကိုက်စနစ်</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
+    <string name="menu_clock">နာရီ</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
+    <string name="menu_stopwatch">အချိန်ဖမ်းနာရီ</string>
+    <!-- Clock view buttons strings-->
+    <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+    <string name="button_alarms">နှိုးစက် ထည့်ရန်</string>
+    <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
+    <string name="button_cities">မြို့များ</string>
+    <!-- Describes the purpose of the button which pops up a menu of setting choices -->
+    <string name="button_menu">နောက်ထပ် ရွေးစရာများ</string>
+    <!-- Menu item on most screens to get to more settings -->
+    <string name="menu_item_settings">ဆက်တင်များ</string>
+    <!-- Menu item on most screens to get to the help information -->
+    <string name="menu_item_help">အကူအညီ</string>
+    <!-- Menu item on clock screen to add world city. -->
+    <!-- Menu item on clock screen to enter night mode. -->
+    <string name="menu_item_night_mode">ညသုံး မုဒ်</string>
+    <!-- Menu item on Cities screen to sort by GMT offset -->
+    <string name="menu_item_sort_by_gmt_offset">အချိန်အလိုက် စီရန်</string>
+    <!-- Menu item on Cities screen to sort by alphabetical order -->
+    <string name="menu_item_sort_by_name">အမည်အလိုက် စီရန်</string>
+    <!-- Label for selected cities in Cities list view -->
+    <string name="selected_cities_label">ရွေးထားသည့် မြို့များ</string>
+    <!-- Stopwatch and Timer shared strings -->
+    <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
+    <string name="sw_resume_button">ပြန်ဆက်လုပ်ရန်</string>
+    <!--
         Describes the purpose of the button
             for stopwatch: return stopwatch to zero and remove the lap times.
             for timer: return timer to originally set duration.
         [CHAR LIMIT=15]
     -->
-  <string name="sw_reset_button">ပြန်ညှိရန်</string>
-  <!-- Stopwatch strings -->
-  <!-- Describes the purpose of the button to begin running a stopwatch -->
-  <string name="sw_start_button">စတင်ရန်</string>
-  <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">ခဏရပ်ပါ</string>
-  <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
-  <string name="sw_lap_button">တာတစ်ပတ်</string>
-  <!-- Describes the purpose of the button to share the stopwatch value.
+    <string name="sw_reset_button">ပြန်ညှိရန်</string>
+    <!-- Stopwatch strings -->
+    <!-- Describes the purpose of the button to begin running a stopwatch -->
+    <string name="sw_start_button">စတင်ရန်</string>
+    <!-- Describes the purpose of the button to pause a stopwatch. -->
+    <string name="sw_pause_button">ခဏရပ်ပါ</string>
+    <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
+    <string name="sw_lap_button">တာတစ်ပတ်</string>
+    <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
-  <string name="sw_share_button">မျှဝေရန်</string>
-  <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
-  <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
-  <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
-  <!-- Accessibility strings -->
-  <string name="hours_label_description">နာရီ</string>
-  <string name="minutes_label_description">မိနစ်</string>
-  <string name="seconds_label_description">စက္ကန့်</string>
-  <string name="zero">၀</string>
-  <!--  Stopwatch share strings -->
-  <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
-  <string name="sw_share_main">ကျွန်ုပ်၏ အချိန်မှာ <xliff:g id="TIME">%s</xliff:g></string>
-  <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
-  <string name="sw_share_laps">တာ အချိန်များ:</string>
-  <!-- Label to enumerate the number of laps in the notification the user has counted -->
-  <string name="sw_notification_lap_number">တာ<xliff:g id="NUMBER">%d</xliff:g></string>
-  <!-- Stopwatch accessibility strings -->
-  <plurals name="Nhours_description">
-    <!-- 1 hour -->
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> နာရီ</item>
-  </plurals>
-  <plurals name="Nminutes_description">
-    <!-- 1 minute -->
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> မိနစ်</item>
-  </plurals>
-  <plurals name="Nseconds_description">
-    <!-- 1 second -->
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> စက္ကန့်</item>
-  </plurals>
-  <!-- timer strings -->
-  <!-- Describes the purpose of the button to add a new timer -->
-  <string name="timer_add_timer">အချိန်ကိုက်စနစ် ထည့်ရန်</string>
-  <!-- Describes the purpose of the button to begin or continue running a timer -->
-  <string name="timer_start">စတင်ရန်</string>
-  <!-- Describes the purpose of the button to delete a timer. -->
-  <string name="timer_delete">ဖျက်ရန်</string>
-  <!-- Talkback description for deleting a number. -->
-  <string name="timer_descriptive_delete"><xliff:g id="NUMBER_STRING">%s</xliff:g> ကို ဖျက်မယ်</string>
-  <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
-  <string name="timer_plus_one">၁ မိနစ် ထည့်ရန်</string>
-  <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
-  <string name="timer_plus_1_min">၁ မိနစ် ထည့်ရန်</string>
-  <!-- Describes the purpose of the button to stop the timer. -->
-  <string name="timer_stop">ရပ်တန့်ရန်</string>
-  <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
-  <string name="timer_stop_all">အချိန်တိုင်းကိရိယာများအားလုံး ရပ်ရန်</string>
-  <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
-  <string name="timer_reset">ပြန်ညှိရန်</string>
-  <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
-  <string name="timer_cancel">မလုပ်တော့</string>
-  <!-- Accessibility announcement when a timer is canceled. -->
-  <string name="timer_canceled">အချိန်ကိုက်စနစ် ဖျက်သိမ်းလိုက်ပြီ</string>
-  <!-- Notification content shown when a timer has completed and has no more time remaining -->
-  <string name="timer_times_up">အချိန်ပြည့်သွားပါပြီ</string>
-  <!--
+    <string name="sw_share_button">မျှဝေရန်</string>
+    <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+    <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+    <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+    <!-- Accessibility strings -->
+    <string name="hours_label_description">နာရီ</string>
+    <string name="minutes_label_description">မိနစ်</string>
+    <string name="seconds_label_description">စက္ကန့်</string>
+    <string name="zero">၀</string>
+    <!--  Stopwatch share strings -->
+    <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
+    <string name="sw_share_main">ကျွန်ုပ်၏ အချိန်မှာ <xliff:g id="TIME">%s</xliff:g></string>
+    <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
+    <string name="sw_share_laps">တာ အချိန်များ:</string>
+    <!-- Label to enumerate the number of laps in the notification the user has counted -->
+    <string name="sw_notification_lap_number">တာ<xliff:g id="NUMBER">%d</xliff:g></string>
+    <!-- Stopwatch accessibility strings -->
+    <plurals name="Nhours_description">
+        <!-- 1 hour -->
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> နာရီ</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <!-- 1 minute -->
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> မိနစ်</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <!-- 1 second -->
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> စက္ကန့်</item>
+    </plurals>
+    <!-- timer strings -->
+    <!-- Describes the purpose of the button to add a new timer -->
+    <string name="timer_add_timer">အချိန်ကိုက်စနစ် ထည့်ရန်</string>
+    <!-- Describes the purpose of the button to begin or continue running a timer -->
+    <string name="timer_start">စတင်ရန်</string>
+    <!-- Describes the purpose of the button to delete a timer. -->
+    <string name="timer_delete">ဖျက်ရန်</string>
+    <!-- Talkback description for deleting a number. -->
+    <string name="timer_descriptive_delete"><xliff:g id="NUMBER_STRING">%s</xliff:g> ကို ဖျက်မယ်</string>
+    <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
+    <string name="timer_plus_one">၁ မိနစ် ထည့်ရန်</string>
+    <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
+    <string name="timer_plus_1_min">၁ မိနစ် ထည့်ရန်</string>
+    <!-- Describes the purpose of the button to stop the timer. -->
+    <string name="timer_stop">ရပ်တန့်ရန်</string>
+    <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
+    <string name="timer_stop_all">အချိန်တိုင်းကိရိယာများအားလုံး ရပ်ရန်</string>
+    <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
+    <string name="timer_reset">ပြန်ညှိရန်</string>
+    <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
+    <string name="timer_cancel">မလုပ်တော့</string>
+    <!-- Accessibility announcement when a timer is canceled. -->
+    <string name="timer_canceled">အချိန်ကိုက်စနစ် ဖျက်သိမ်းလိုက်ပြီ</string>
+    <!-- Notification content shown when a timer has completed and has no more time remaining -->
+    <string name="timer_times_up">အချိန်ပြည့်သွားပါပြီ</string>
+    <!--
         Notification content shown when multiple timers have completed and have no more time
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
-  <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS">%d</xliff:g> အချိန်တိုင်းကိရိယာ သက်တမ်းကုန်ပါပြီ</string>
-  <!-- Label associated with a notification for a Timer -->
-  <string name="timer_notification_label">အချိန်ကိုက်စနစ်</string>
-  <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
-  <string name="timers_max_count_reached">အချိန်ကိုက်စနစ် အများဆုံး ၄ ခု</string>
-  <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
-  <string name="timer_pause">ရပ်တန့်ရန်</string>
-  <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
-  <string name="timer_reset_all">အချိန်ကိုက်စနစ် အားလုံး ပြန်ညှိရန်</string>
-  <!-- Jocular content that user may append when sharing the lap times -->
-  <string-array name="sw_share_strings" translatable="true">
-    <item>သင်၏ အတော့်ကို နှုန်း မြန်လွန်းနေသည်။</item>
-    <item>သင် ကြိုးစားခဲ့မှု အသီးအပွင့်များကို ခံစားနိုင်ပါပြီ။</item>
-    <item>Android များ မြန်ဆန်ခြင်းကို အားလုံးသိကြပေမည့်၊ သင့်လို မမြန်လှပါ!</item>
-    <item>ဝှူး။</item>
-    <item>L33t အချိန်များ</item>
-    <item>သိပ်ကို များလွန်းနေသည့် အရှိန်အဟုန်။</item>
-    <item>အချိန် မူမမှန်မှုများကို ပြန်ပြီး လုပ်ကိုင်ကြရအောင်။</item>
-    <item>ဘယ်ဘက်ကို ခုန်လိုက်ရုံပါပဲ။</item>
-    <item>သင့်ဆီမှာ ရွေးစရာ တစ်ပုံကြီးပဲ။</item>
-    <item>အလင်း၏ အမြန်နှုန်း။</item>
-  </string-array>
-  <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
-  <string name="home_label">ပင်မ​</string>
-  <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="cities_activity_title">မြို့များ</string>
-  <!-- Settings strings -->
-  <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
-  <string name="clock_settings">နာရီ</string>
-  <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
-  <string name="clock_style">ပုံစံ</string>
-  <!-- Title for preference to change date & time -->
-  <string name="open_date_settings">ရက်စွဲနှင့် အချိန် ပြောင်းရန်</string>
-  <!-- Entries listed in the ListPreference when invoking the clock style
+    <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS">%d</xliff:g> အချိန်တိုင်းကိရိယာ သက်တမ်းကုန်ပါပြီ</string>
+    <!-- Label associated with a notification for a Timer -->
+    <string name="timer_notification_label">အချိန်ကိုက်စနစ်</string>
+    <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
+    <string name="timers_max_count_reached">အချိန်ကိုက်စနစ် အများဆုံး ၄ ခု</string>
+    <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
+    <string name="timer_pause">ရပ်တန့်ရန်</string>
+    <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
+    <string name="timer_reset_all">အချိန်ကိုက်စနစ် အားလုံး ပြန်ညှိရန်</string>
+    <!-- Jocular content that user may append when sharing the lap times -->
+    <string-array name="sw_share_strings" translatable="true">
+        <item>သင်၏ အတော့်ကို နှုန်း မြန်လွန်းနေသည်။</item>
+        <item>သင် ကြိုးစားခဲ့မှု အသီးအပွင့်များကို ခံစားနိုင်ပါပြီ။</item>
+        <item>Android များ မြန်ဆန်ခြင်းကို အားလုံးသိကြပေမည့်၊ သင့်လို မမြန်လှပါ!</item>
+        <item>ဝှူး။</item>
+        <item>L33t အချိန်များ</item>
+        <item>သိပ်ကို များလွန်းနေသည့် အရှိန်အဟုန်။</item>
+        <item>အချိန် မူမမှန်မှုများကို ပြန်ပြီး လုပ်ကိုင်ကြရအောင်။</item>
+        <item>ဘယ်ဘက်ကို ခုန်လိုက်ရုံပါပဲ။</item>
+        <item>သင့်ဆီမှာ ရွေးစရာ တစ်ပုံကြီးပဲ။</item>
+        <item>အလင်း၏ အမြန်နှုန်း။</item>
+    </string-array>
+    <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
+    <string name="home_label">ပင်မ​</string>
+    <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="cities_activity_title">မြို့များ</string>
+    <!-- Settings strings -->
+    <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
+    <string name="clock_settings">နာရီ</string>
+    <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
+    <string name="clock_style">ပုံစံ</string>
+    <!-- Title for preference to change date & time -->
+    <string name="open_date_settings">ရက်စွဲနှင့် အချိန် ပြောင်းရန်</string>
+    <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
-  <string-array name="clock_style_entries">
-    <item>လက်တံနာရီ</item>
-    <item>ဒီဂျစ်တယ်</item>
-  </string-array>
-  <!-- Values that are retrieved from the ListPreference. These must match
+    <string-array name="clock_style_entries">
+        <item>လက်တံနာရီ</item>
+        <item>ဒီဂျစ်တယ်</item>
+    </string-array>
+    <!-- Values that are retrieved from the ListPreference. These must match
          the clock_style_entries above. -->
-  <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
-  <string name="automatic_home_clock">အလိုအလျောက် အိမ် နာရီ</string>
-  <!-- Describes the functionality provided by the automatic_home_clock option -->
-  <string name="automatic_home_clock_summary">အချိန်မတူသည့် ဒေသမှာ ခရီးထွက်နေစဉ်၊ အိမ်အတွက် နာရီကို ထည့်ပါ</string>
-  <!-- Title in the preferences change the time zone for the user's home -->
-  <string name="home_time_zone">အိမ်၏ အချိန်ဇုန်</string>
-  <!-- Title in a list dialog box to pick a time zone for the user's home -->
-  <string name="home_time_zone_title">အိမ်၏ အချိန် ဇုန်</string>
-  <!-- Textual content of the button to discard the current dialog values and close the dialog -->
-  <string name="time_picker_cancel">မလုပ်တော့</string>
-  <!-- Textual content of the button to update an alarm with the current dialog values -->
-  <string name="time_picker_set">အိုကေ</string>
-  <!--  place holder for am/pm label when it is not set -->
-  <!-- add 00 as minutes to the time when pressing this button -->
-  <string name="time_picker_00_label">:၀၀</string>
-  <!-- add 30 as minutes to the time when pressing this button -->
-  <string name="time_picker_30_label">:၃၀</string>
-  <!--
+    <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
+    <string name="automatic_home_clock">အလိုအလျောက် အိမ် နာရီ</string>
+    <!-- Describes the functionality provided by the automatic_home_clock option -->
+    <string name="automatic_home_clock_summary">အချိန်မတူသည့် ဒေသမှာ ခရီးထွက်နေစဉ်၊ အိမ်အတွက် နာရီကို ထည့်ပါ</string>
+    <!-- Title in the preferences change the time zone for the user's home -->
+    <string name="home_time_zone">အိမ်၏ အချိန်ဇုန်</string>
+    <!-- Title in a list dialog box to pick a time zone for the user's home -->
+    <string name="home_time_zone_title">အိမ်၏ အချိန် ဇုန်</string>
+    <!-- Textual content of the button to discard the current dialog values and close the dialog -->
+    <string name="time_picker_cancel">မလုပ်တော့</string>
+    <!-- Textual content of the button to update an alarm with the current dialog values -->
+    <string name="time_picker_set">အိုကေ</string>
+    <!--  place holder for am/pm label when it is not set -->
+    <!-- add 00 as minutes to the time when pressing this button -->
+    <string name="time_picker_00_label">:၀၀</string>
+    <!-- add 30 as minutes to the time when pressing this button -->
+    <string name="time_picker_30_label">:၃၀</string>
+    <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
     -->
-  <string name="city_checked"><xliff:g id="CITY_NAME">%s</xliff:g> ကို ခြစ်ထားသည်</string>
-  <!--
+    <string name="city_checked"><xliff:g id="CITY_NAME">%s</xliff:g> ကို ခြစ်ထားသည်</string>
+    <!--
         Accessibility string read when a city checkbox is unchecked.
         Ex. "Ann Arbor unchecked"
     -->
-  <string name="city_unchecked"><xliff:g id="CITY_NAME">%s</xliff:g> ခြစ်မထား</string>
-  <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
-  <string-array name="timezone_labels">
-    <item>"မာရှယ်ကျွန်းစု"</item>
-    <item>"မီးဒ်ဝေးကျွန်းစု"</item>
-    <item>"ဟာဝါယီ"</item>
-    <item>"အလာစ်ကာ"</item>
-    <item>"ပစိဖိတ် အချိန်"</item>
-    <item>"တီယူအာနာ"</item>
-    <item>"အရီဇိုနား"</item>
-    <item>"ချီဝါဝါ"</item>
-    <item>"မောင်တိန်း အချိန်"</item>
-    <item>"အမေရိက ဗဟို"</item>
-    <item>"ဗဟို အချိန်"</item>
-    <item>"မက်ဆီကိုစီးတီး"</item>
-    <item>"စာစကာချဲဝန်"</item>
-    <item>"ဘိုဂိုတာ"</item>
-    <item>"အရှေ့ပိုင်း အချိန်"</item>
-    <item>"ဗီနီဇွဲလား"</item>
-    <item>"အတ္တလန္တိတ် အချိန် (ဘားဘာဒိုးစ်)"</item>
-    <item>"အတ္တလန္တိတ် အချိန် (ကနေဒါ)"</item>
-    <item>"မာနောက်စ်"</item>
-    <item>"စန်တီယာဂို"</item>
-    <item>"နယူးဖောင်လန်"</item>
-    <item>"ဘရာဇီးလီယား"</item>
-    <item>"ဗျူနိုအေရီစ်"</item>
-    <item>"ဂရင်လန်"</item>
-    <item>"မွန်တီဗီဒီယို"</item>
-    <item>"အတ္တလန္တိတ်လယ်"</item>
-    <item>"အာ့ဇိုရီစ်"</item>
-    <item>"ကိပ်ဗားဒီးကျွန်းစု"</item>
-    <item>"ကာဆာဘလန်ကာ"</item>
-    <item>"လန်ဒန်၊ ဒဗ်လင်"</item>
-    <item>"အမ်စတာဒမ်၊ ဘာလင်"</item>
-    <item>"ဘယ်ဂရိတ်"</item>
-    <item>"ဘရပ်ဆဲလ်"</item>
-    <item>"စာရာယဲဗို"</item>
-    <item>"ဝင်းဒို့ခ်"</item>
-    <item>"အနောက် အာဖရိက အချိန်"</item>
-    <item>"အမာန်၊ ဂျော်ဒန်"</item>
-    <item>"အေသင်၊ အစ္စတန်ဘူးလ်"</item>
-    <item>"ဘေးရွတ်၊ လက်ဘာနွံ"</item>
-    <item>"ကိုင်ရို"</item>
-    <item>"ဟယ်ဆင်ကီး"</item>
-    <item>"ဂျေရုဆလင်"</item>
-    <item>"မင့်စ်က်"</item>
-    <item>"ဟာရာရဲ"</item>
-    <item>"ဘဂ္ဂဒတ်"</item>
-    <item>"မော်စကို"</item>
-    <item>"ကူးဝိတ်"</item>
-    <item>"နိုင်ရိုဘီ"</item>
-    <item>"တီဟီရန်"</item>
-    <item>"ဘာကူ"</item>
-    <item>"တဘီလီစီ"</item>
-    <item>"ယဲရဲဗန်"</item>
-    <item>"ဒူဘိုင်း"</item>
-    <item>"ကဘူးလ်"</item>
-    <item>"အစ္စလမ်မာဘတ်၊ ကရာချီ"</item>
-    <item>"ယူရာလ်စ်က်"</item>
-    <item>"ယဲကာတဲရင်းဘတ်"</item>
-    <item>"ကိုလ်ကာတာ"</item>
-    <item>"သီရိလင်္ကါ"</item>
-    <item>"ခတ္ထမန္ဒူ"</item>
-    <item>"အာစ်တားနား"</item>
-    <item>"ရန်ကုန်"</item>
-    <item>"ကရာစ်နိုယားစ်က်"</item>
-    <item>"ဘန်ကောက်"</item>
-    <item>"ပေဂျင်း"</item>
-    <item>"ဟောင်ကောင်"</item>
-    <item>"အီရ်ကူးစ်က်"</item>
-    <item>"ကွာလာလမ်ပူ"</item>
-    <item>"ပါ့သ်"</item>
-    <item>"တိုင်ပေ"</item>
-    <item>"ဆိုးလ်"</item>
-    <item>"တိုကျို၊ အိုစာကာ"</item>
-    <item>"ယာကူးစ်က်"</item>
-    <item>"အာဒေလိပ်ဒ်"</item>
-    <item>"ဒါဝင်"</item>
-    <item>"ဘရီးစ်ဘိန်း"</item>
-    <item>"ဟိုဘားတ်"</item>
-    <item>"ဆစ်ဒနီ၊ ကန်ဘေရား"</item>
-    <item>"ဗလာဒီဗာစ်တော့"</item>
-    <item>"ဂူအာမ်"</item>
-    <item>"မာဂါဒန်"</item>
-    <item>"အော့ခ်လန်"</item>
-    <item>"ဖီဂျီ"</item>
-    <item>"တွန်ဂါ"</item>
-    <item>"ဂျာကာတာ"</item>
-  </string-array>
-  <!-- Choices for timezones, must be kept in sync with timezone_values. -->
-  <!-- Header in the preferences settings for the section pertaining to alarms -->
-  <string name="alarm_settings">နှိုးစက်များ</string>
-  <!-- Describes the service that processes actions originating from timer notifications. -->
-  <string name="timer_service_desc">အချိန်ကိုက်နာရီ အသိပေးချက်မှ လုပ်ဆောင်ချက်များကို လုပ်ဆောင်ပါ</string>
-  <!-- Describes the service that processes actions originating from stopwatch notifications. -->
-  <string name="stopwatch_service_desc">အချိန်ရပ်နာရီ အသိပေးချက်များမှ လုပ်ဆောင်ချက်များကို လုပ်ဆောင်ပါ</string>
-  <!-- Description for the paused stop watch -->
-  <string name="swn_paused">ဆိုင်းငံ့ထား</string>
-  <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
+    <string name="city_unchecked"><xliff:g id="CITY_NAME">%s</xliff:g> ခြစ်မထား</string>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
+    <string-array name="timezone_labels">
+        <item>"မာရှယ်ကျွန်းစု"</item>
+        <item>"မီးဒ်ဝေးကျွန်းစု"</item>
+        <item>"ဟာဝါယီ"</item>
+        <item>"အလာစ်ကာ"</item>
+        <item>"ပစိဖိတ် အချိန်"</item>
+        <item>"တီယူအာနာ"</item>
+        <item>"အရီဇိုနား"</item>
+        <item>"ချီဝါဝါ"</item>
+        <item>"မောင်တိန်း အချိန်"</item>
+        <item>"အမေရိက ဗဟို"</item>
+        <item>"ဗဟို အချိန်"</item>
+        <item>"မက်ဆီကိုစီးတီး"</item>
+        <item>"စာစကာချဲဝန်"</item>
+        <item>"ဘိုဂိုတာ"</item>
+        <item>"အရှေ့ပိုင်း အချိန်"</item>
+        <item>"ဗီနီဇွဲလား"</item>
+        <item>"အတ္တလန္တိတ် အချိန် (ဘားဘာဒိုးစ်)"</item>
+        <item>"အတ္တလန္တိတ် အချိန် (ကနေဒါ)"</item>
+        <item>"မာနောက်စ်"</item>
+        <item>"စန်တီယာဂို"</item>
+        <item>"နယူးဖောင်လန်"</item>
+        <item>"ဘရာဇီးလီယား"</item>
+        <item>"ဗျူနိုအေရီစ်"</item>
+        <item>"ဂရင်လန်"</item>
+        <item>"မွန်တီဗီဒီယို"</item>
+        <item>"အတ္တလန္တိတ်လယ်"</item>
+        <item>"အာ့ဇိုရီစ်"</item>
+        <item>"ကိပ်ဗားဒီးကျွန်းစု"</item>
+        <item>"ကာဆာဘလန်ကာ"</item>
+        <item>"လန်ဒန်၊ ဒဗ်လင်"</item>
+        <item>"အမ်စတာဒမ်၊ ဘာလင်"</item>
+        <item>"ဘယ်ဂရိတ်"</item>
+        <item>"ဘရပ်ဆဲလ်"</item>
+        <item>"စာရာယဲဗို"</item>
+        <item>"ဝင်းဒို့ခ်"</item>
+        <item>"အနောက် အာဖရိက အချိန်"</item>
+        <item>"အမာန်၊ ဂျော်ဒန်"</item>
+        <item>"အေသင်၊ အစ္စတန်ဘူးလ်"</item>
+        <item>"ဘေးရွတ်၊ လက်ဘာနွံ"</item>
+        <item>"ကိုင်ရို"</item>
+        <item>"ဟယ်ဆင်ကီး"</item>
+        <item>"ဂျေရုဆလင်"</item>
+        <item>"မင့်စ်က်"</item>
+        <item>"ဟာရာရဲ"</item>
+        <item>"ဘဂ္ဂဒတ်"</item>
+        <item>"မော်စကို"</item>
+        <item>"ကူးဝိတ်"</item>
+        <item>"နိုင်ရိုဘီ"</item>
+        <item>"တီဟီရန်"</item>
+        <item>"ဘာကူ"</item>
+        <item>"တဘီလီစီ"</item>
+        <item>"ယဲရဲဗန်"</item>
+        <item>"ဒူဘိုင်း"</item>
+        <item>"ကဘူးလ်"</item>
+        <item>"အစ္စလမ်မာဘတ်၊ ကရာချီ"</item>
+        <item>"ယူရာလ်စ်က်"</item>
+        <item>"ယဲကာတဲရင်းဘတ်"</item>
+        <item>"ကိုလ်ကာတာ"</item>
+        <item>"သီရိလင်္ကါ"</item>
+        <item>"ခတ္ထမန္ဒူ"</item>
+        <item>"အာစ်တားနား"</item>
+        <item>"ရန်ကုန်"</item>
+        <item>"ကရာစ်နိုယားစ်က်"</item>
+        <item>"ဘန်ကောက်"</item>
+        <item>"ပေဂျင်း"</item>
+        <item>"ဟောင်ကောင်"</item>
+        <item>"အီရ်ကူးစ်က်"</item>
+        <item>"ကွာလာလမ်ပူ"</item>
+        <item>"ပါ့သ်"</item>
+        <item>"တိုင်ပေ"</item>
+        <item>"ဆိုးလ်"</item>
+        <item>"တိုကျို၊ အိုစာကာ"</item>
+        <item>"ယာကူးစ်က်"</item>
+        <item>"အာဒေလိပ်ဒ်"</item>
+        <item>"ဒါဝင်"</item>
+        <item>"ဘရီးစ်ဘိန်း"</item>
+        <item>"ဟိုဘားတ်"</item>
+        <item>"ဆစ်ဒနီ၊ ကန်ဘေရား"</item>
+        <item>"ဗလာဒီဗာစ်တော့"</item>
+        <item>"ဂူအာမ်"</item>
+        <item>"မာဂါဒန်"</item>
+        <item>"အော့ခ်လန်"</item>
+        <item>"ဖီဂျီ"</item>
+        <item>"တွန်ဂါ"</item>
+        <item>"ဂျာကာတာ"</item>
+    </string-array>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. -->
+    <!-- Header in the preferences settings for the section pertaining to alarms -->
+    <string name="alarm_settings">နှိုးစက်များ</string>
+    <!-- Describes the service that processes actions originating from timer notifications. -->
+    <string name="timer_service_desc">အချိန်ကိုက်နာရီ အသိပေးချက်မှ လုပ်ဆောင်ချက်များကို လုပ်ဆောင်ပါ</string>
+    <!-- Describes the service that processes actions originating from stopwatch notifications. -->
+    <string name="stopwatch_service_desc">အချိန်ရပ်နာရီ အသိပေးချက်များမှ လုပ်ဆောင်ချက်များကို လုပ်ဆောင်ပါ</string>
+    <!-- Description for the paused stop watch -->
+    <string name="swn_paused">ဆိုင်းငံ့ထား</string>
+    <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
          be on the right even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_right">ပိတ်ရန် ညာဘက်သို့ ပွတ်ဆွဲပါ</string>
-  <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
+    <string name="description_direction_right">ပိတ်ရန် ညာဘက်သို့ ပွတ်ဆွဲပါ</string>
+    <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_left">တစ်မှေးအိပ်ရန် ဘယ်ဘက်သို့ ပွတ်ဆွဲပါ</string>
-  <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
+    <string name="description_direction_left">တစ်မှေးအိပ်ရန် ဘယ်ဘက်သို့ ပွတ်ဆွဲပါ</string>
+    <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_both">ပြန်မှေးရန် ဘယ်ဘက်နှင့် ပိတ်ရန် ညာဘက်သို့ ပွတ်ဆွဲပါ။</string>
-  <!-- Header in the preferences settings for the section pertaining to timers. -->
-  <string name="timer_settings">အချိန်တိုင်းစက်များ</string>
-  <!-- Description for timer ringtone setting. -->
-  <string name="timer_ringtone_title">အချိန်ကိုက်စနစ် မြည်သံ</string>
-  <!-- Description when timer is stopped. -->
-  <string name="timer_stopped">အချိန်ကိုက်စနစ် ရပ်ထားပြီ</string>
-  <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
-  <string name="timer_paused">အချိန်ကိုက်စနစ် ရပ်တန့်ထား</string>
-  <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
-  <string name="timers_stopped">အချိန်ကိုက်စနစ် <xliff:g id="NUMBER">%d</xliff:g> ကြိမ် ရပ်တန့်ခဲ့</string>
-  <!-- Notification text when multiple timers are paused. -->
-  <string name="all_timers_stopped_notif">သင်၏ တိုင်မားများကို ကြည့်ရန် ထိပါ</string>
-  <!-- Notification title when at least one timer, of those in use, is counting down. -->
-  <string name="timers_in_use">အချိန်ကိုက်စနစ် <xliff:g id="NUMBER">%d</xliff:g></string>
-  <!-- Notification text when at least one timer, of those in use, is counting down. -->
-  <string name="next_timer_notif">နောက် အချိန်ကိုက်စနစ် တစ်ခု: <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
-  <!-- screensaver settings strings -->
-  <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="screensaver_settings">အိပ်မက် ဆက်တင်များ</string>
-  <!-- Title for check box to pick intensity of display diminuation during dream mode -->
-  <string name="night_mode_title">ညသုံး မုဒ်</string>
-  <!-- Describes intensity of display diminuation during dream mode -->
-  <string name="night_mode_summary">ခပ်မှိန်မှိန် ပြသမှု (မှောင်နေသည့် အခန်းများအတွက်)</string>
-  <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
-  <string name="expand_alarm">နှိုးစက်ကို တိုးချဲ့ရန်</string>
-  <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
-  <string name="collapse_alarm">နှိုးစက်ကို ခေါက်သိမ်းပါ</string>
-  <!-- Description of the button to undo change to alarm -->
-  <string name="alarm_undo">မလုပ်တော့ရန်</string>
-  <!-- Toast content when an alarm was deleted  -->
-  <string name="alarm_deleted">နိုးစက်ဖျက်လိုက်ပြီ</string>
-  <!-- Select the source of the alarm -->
-  <!-- Select the ringtone as alarm -->
-  <!-- Select the alarm from external device -->
-  <string name="alarm_select_external">ဂီတ</string>
-  <!-- Ok for selection -->
-  <string name="alarm_select_ok">အိုကေ</string>
-  <!-- Cancel for selection -->
-  <string name="alarm_select_cancel">မလုပ်တော့</string>
-  <!-- slash between date and next alarm in the clock -->
-  <string name="slash">/</string>
-  <!-- slash between date and next alarm in the clock -->
-  <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
-  <string name="next_alarm_description">နောက် နှိုးစက် တစ်ခု: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
-  <!-- Displays the number of alarms selected from the list of alarms. -->
-  <string name="alarms_selected"><xliff:g id="ALARMS">%d</xliff:g> ရွေးထား</string>
-  <!-- message used by the talkback accessibility app to say that something was deleted -->
-  <string name="deleted_message">ဖျက်ပြီး</string>
-  <!-- Alarm deletion confirmation message-->
-  <plurals name="alarm_delete_confirmation">
-    <!-- Confirmation for one alarm -->
-    <!-- Confirmation more than one alarm  -->
-    <item quantity="other">ရွေးထားသော နှိုးစက်ချိန်များ ဖျက်မည်လား?</item>
-  </plurals>
-  <!-- Timer deletion confirmation -->
-  <string name="timer_delete_confirmation">ဤတိုင်မားကို ဖျက်မလား?</string>
-  <!-- world clock deletion confirmation -->
-  <string name="city_delete_confirmation">ဤမြို့ကို ဖယ်ရှားရမလား?</string>
-  <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="digital_gadget">ဒီဂျစ်တယ်နာရီ</string>
-  <!-- format strings for clocks -->
-  <!-- Font size for AM/PM should match widget_label_font_size -->
-  <!-- Font size for AM/PM should match bottom_text_size -->
-  <!-- Font size for AM/PM should match label_font_size -->
-  <!-- Font size for AM/PM should match alarm_label_size -->
-  <!-- String for no alarms -->
-  <string name="no_alarms">နှိုးစက် မရှိ</string>
-  <!-- String for no alarms set [CHAR LIMIT=24] -->
-  <string name="no_alarms_set">နှိုးစက်များ သတ်မှတ် မထား</string>
-  <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
-  <string name="no_upcoming_alarms">လာမည့် နှိုးစက်များ မရှိပါ</string>
-  <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
+    <string name="description_direction_both">ပြန်မှေးရန် ဘယ်ဘက်နှင့် ပိတ်ရန် ညာဘက်သို့ ပွတ်ဆွဲပါ။</string>
+    <!-- Header in the preferences settings for the section pertaining to timers. -->
+    <string name="timer_settings">အချိန်တိုင်းစက်များ</string>
+    <!-- Description for timer ringtone setting. -->
+    <string name="timer_ringtone_title">အချိန်ကိုက်စနစ် မြည်သံ</string>
+    <!-- Description when timer is stopped. -->
+    <string name="timer_stopped">အချိန်ကိုက်စနစ် ရပ်ထားပြီ</string>
+    <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
+    <string name="timer_paused">အချိန်ကိုက်စနစ် ရပ်တန့်ထား</string>
+    <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
+    <string name="timers_stopped">အချိန်ကိုက်စနစ် <xliff:g id="NUMBER">%d</xliff:g> ကြိမ် ရပ်တန့်ခဲ့</string>
+    <!-- Notification text when multiple timers are paused. -->
+    <string name="all_timers_stopped_notif">သင်၏ တိုင်မားများကို ကြည့်ရန် ထိပါ</string>
+    <!-- Notification title when at least one timer, of those in use, is counting down. -->
+    <string name="timers_in_use">အချိန်ကိုက်စနစ် <xliff:g id="NUMBER">%d</xliff:g></string>
+    <!-- Notification text when at least one timer, of those in use, is counting down. -->
+    <string name="next_timer_notif">နောက် အချိန်ကိုက်စနစ် တစ်ခု: <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
+    <!-- screensaver settings strings -->
+    <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="screensaver_settings">အိပ်မက် ဆက်တင်များ</string>
+    <!-- Title for check box to pick intensity of display diminuation during dream mode -->
+    <string name="night_mode_title">ညသုံး မုဒ်</string>
+    <!-- Describes intensity of display diminuation during dream mode -->
+    <string name="night_mode_summary">ခပ်မှိန်မှိန် ပြသမှု (မှောင်နေသည့် အခန်းများအတွက်)</string>
+    <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
+    <string name="expand_alarm">နှိုးစက်ကို တိုးချဲ့ရန်</string>
+    <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
+    <string name="collapse_alarm">နှိုးစက်ကို ခေါက်သိမ်းပါ</string>
+    <!-- Description of the button to undo change to alarm -->
+    <string name="alarm_undo">မလုပ်တော့ရန်</string>
+    <!-- Toast content when an alarm was deleted  -->
+    <string name="alarm_deleted">နိုးစက်ဖျက်လိုက်ပြီ</string>
+    <!-- Select the source of the alarm -->
+    <!-- Select the ringtone as alarm -->
+    <!-- Select the alarm from external device -->
+    <string name="alarm_select_external">ဂီတ</string>
+    <!-- Ok for selection -->
+    <string name="alarm_select_ok">အိုကေ</string>
+    <!-- Cancel for selection -->
+    <string name="alarm_select_cancel">မလုပ်တော့</string>
+    <!-- slash between date and next alarm in the clock -->
+    <string name="slash">/</string>
+    <!-- slash between date and next alarm in the clock -->
+    <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
+    <string name="next_alarm_description">နောက် နှိုးစက် တစ်ခု: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
+    <!-- Displays the number of alarms selected from the list of alarms. -->
+    <string name="alarms_selected"><xliff:g id="ALARMS">%d</xliff:g> ရွေးထား</string>
+    <!-- message used by the talkback accessibility app to say that something was deleted -->
+    <string name="deleted_message">ဖျက်ပြီး</string>
+    <!-- Alarm deletion confirmation message-->
+    <plurals name="alarm_delete_confirmation">
+        <!-- Confirmation for one alarm -->
+        <!-- Confirmation more than one alarm  -->
+        <item quantity="other">ရွေးထားသော နှိုးစက်ချိန်များ ဖျက်မည်လား?</item>
+    </plurals>
+    <!-- Timer deletion confirmation -->
+    <string name="timer_delete_confirmation">ဤတိုင်မားကို ဖျက်မလား?</string>
+    <!-- world clock deletion confirmation -->
+    <string name="city_delete_confirmation">ဤမြို့ကို ဖယ်ရှားရမလား?</string>
+    <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="digital_gadget">ဒီဂျစ်တယ်နာရီ</string>
+    <!-- format strings for clocks -->
+    <!-- Font size for AM/PM should match widget_label_font_size -->
+    <!-- Font size for AM/PM should match bottom_text_size -->
+    <!-- Font size for AM/PM should match label_font_size -->
+    <!-- Font size for AM/PM should match alarm_label_size -->
+    <!-- String for no alarms -->
+    <string name="no_alarms">နှိုးစက် မရှိ</string>
+    <!-- String for no alarms set [CHAR LIMIT=24] -->
+    <string name="no_alarms_set">နှိုးစက်များ သတ်မှတ် မထား</string>
+    <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
+    <string name="no_upcoming_alarms">လာမည့် နှိုးစက်များ မရှိပါ</string>
+    <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
      or 27:68pm.
     First %d represents hour, second %d represents minutes, %s represents am/pm,
     If no am/pm is passed in (e.g. the locale uses 24h time) only hour and minute are printed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_time">မမှန်ကန်သည့် အချိန် <xliff:g id="INVALID_HOUR">%d</xliff:g> : <xliff:g id="INVALID_MINUTES">%d</xliff:g><xliff:g id="INVALID_AMPM">%s</xliff:g></string>
-  <!-- String that represents that no alarm has been specified for a requested hour:minutes.
+    <string name="invalid_time">မမှန်ကန်သည့် အချိန် <xliff:g id="INVALID_HOUR">%d</xliff:g> : <xliff:g id="INVALID_MINUTES">%d</xliff:g><xliff:g id="INVALID_AMPM">%s</xliff:g></string>
+    <!-- String that represents that no alarm has been specified for a requested hour:minutes.
     This happens when a user sends a voice command 'dismiss my alarm at 3:00pm' but they have no
     alarms specified for that time. %s represents the time of the alarm.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_at"><xliff:g id="ALARM_TIME_HOUR">%d</xliff:g>:<xliff:g id="ALARM_TIME_MINUTES">%d</xliff:g> တွင် နှိုးစက် မရှိပါ</string>
-  <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
+    <string name="no_alarm_at"><xliff:g id="ALARM_TIME_HOUR">%d</xliff:g>:<xliff:g id="ALARM_TIME_MINUTES">%d</xliff:g> တွင် နှိုးစက် မရှိပါ</string>
+    <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
     a user sends a voice command 'dismiss next alarm' or 'dismiss all of my alarms' but they have
     no alarms scheduled in the app.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_scheduled_alarms">စီစဉ်ထားသည့် နိုးစက်မရှိပါ</string>
-  <!-- String that represents that the user specified that they want to select an alarm to
+    <string name="no_scheduled_alarms">စီစဉ်ထားသည့် နိုးစက်မရှိပါ</string>
+    <!-- String that represents that the user specified that they want to select an alarm to
     dismiss by specifying a 'label' but they didn't specify any labels.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_label_specified">ခေါင်းစဉ်ခွဲအားဖော်ပြထားခြင်းမရှိပါ</string>
-  <!-- String that represents that no alarm has been specified for a requested label.
+    <string name="no_label_specified">ခေါင်းစဉ်ခွဲအားဖော်ပြထားခြင်းမရှိပါ</string>
+    <!-- String that represents that no alarm has been specified for a requested label.
     This happens when a user sends a voice command 'dismiss my alarm with label pick up kids'
      but they have no alarms with that label.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarms_with_label">မည်သည့် နှိုးစက်တွင်မဆို ခေါင်းစဉ်ခွဲမပါပါ</string>
-  <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
+    <string name="no_alarms_with_label">မည်သည့် နှိုးစက်တွင်မဆို ခေါင်းစဉ်ခွဲမပါပါ</string>
+    <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
     'lap the stopwatch' when the stopwatch wasn't running so the command wasn't executed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_isnt_running">အချိန်မှတ်နာရီ မဖွင့်ထားပါ</string>
-  <!-- String that represents that the user has successfully sent a voice command pausing
+    <string name="stopwatch_isnt_running">အချိန်မှတ်နာရီ မဖွင့်ထားပါ</string>
+    <!-- String that represents that the user has successfully sent a voice command pausing
      the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_paused">စံချိန်ယူနာရီ ခေတ္တရပ်ထားသည်</string>
-  <!-- String that represents that the user has successfully sent a voice command resetting
+    <string name="stopwatch_paused">စံချိန်ယူနာရီ ခေတ္တရပ်ထားသည်</string>
+    <!-- String that represents that the user has successfully sent a voice command resetting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_reset">ချိန်ကိုက်နာရီကို အစမှပြန်ချိန်ခြင်း</string>
-  <!-- String that represents that the user has successfully sent a voice command lapping
+    <string name="stopwatch_reset">ချိန်ကိုက်နာရီကို အစမှပြန်ချိန်ခြင်း</string>
+    <!-- String that represents that the user has successfully sent a voice command lapping
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_lapped">ချိန်ကိုက်နာရီ စေ့ပြီ</string>
-  <!-- String that represents that the user has successfully sent a voice command starting
+    <string name="stopwatch_lapped">ချိန်ကိုက်နာရီ စေ့ပြီ</string>
+    <!-- String that represents that the user has successfully sent a voice command starting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_started">ချိန်ကိုင်နာရီအားစတင်ခဲ့</string>
-  <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
+    <string name="stopwatch_started">ချိန်ကိုင်နာရီအားစတင်ခဲ့</string>
+    <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
     there was no alarm scheduled for that time (they might have had an alarm for 3pm on the list
     but it was disabled).
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_scheduled_for_this_time">ဤအချိန်အတွက် နိုးစက်မစီစဉ်ထားပါ</string>
-  <!-- String that represents that the user has dismissed an alarm through a voice action.
+    <string name="no_alarm_scheduled_for_this_time">ဤအချိန်အတွက် နိုးစက်မစီစဉ်ထားပါ</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_dismissed"><xliff:g id="ALARM_TIME">%s</xliff:g> နိုးစက် ဖျက်လိုက်ပြီ</string>
-  <!-- String that represents that the user has dismissed an alarm through a voice action.
+    <string name="alarm_is_dismissed"><xliff:g id="ALARM_TIME">%s</xliff:g> နိုးစက် ဖျက်လိုက်ပြီ</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_set">နိုးစက်ပေးထားသော အချိန်<xliff:g id="ALARM_TIME">%s</xliff:g></string>
-  <!-- String that represents that the user attempted to control a timer with a voice action when
+    <string name="alarm_is_set">နိုးစက်ပေးထားသော အချိန်<xliff:g id="ALARM_TIME">%s</xliff:g></string>
+    <!-- String that represents that the user attempted to control a timer with a voice action when
     no timers are defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_timers_exist">အချိန်ကိုက်စနစ် မရှိပါ</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action when
+    <string name="no_timers_exist">အချိန်ကိုက်စနစ် မရှိပါ</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action when
     more than one timer is defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="too_many_timers_exist">အချိန်ကိုက်စနစ် တစ်ခုမက ရှိနေသည်</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action but
+    <string name="too_many_timers_exist">အချိန်ကိုက်စနစ် တစ်ခုမက ရှိနေသည်</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action but
     the timer could not be located.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_does_not_exist">တိုင်မားကို ဖယ်ရှားခဲ့သည်။</string>
-  <!-- String that represents that the user has successfully created a timer through a voice action.
+    <string name="timer_does_not_exist">တိုင်မားကို ဖယ်ရှားခဲ့သည်။</string>
+    <!-- String that represents that the user has successfully created a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_created">အချိန်ကိုက်ကိရိယာ ဖန်တီးလိုက်ပါပြီ</string>
-  <!-- String that represents that the user has successfully reset a timer through a voice action.
+    <string name="timer_created">အချိန်ကိုက်ကိရိယာ ဖန်တီးလိုက်ပါပြီ</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_was_reset">အချိန်သတ်မှတ်ခြင်း ပြန်လည်သတ်မှတ်လိုက်ပါပြီ</string>
-  <!-- String that represents that the user has successfully reset a timer through a voice action
+    <string name="timer_was_reset">အချိန်သတ်မှတ်ခြင်း ပြန်လည်သတ်မှတ်လိုက်ပါပြီ</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action
     that was marked as deleteAfterUse and was thus deleted instead.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_deleted">အချိန်သတ်မှတ်ခြင်း ဖျက်လိုက်ပါပြီ</string>
-  <!-- String that represents that the user has successfully started a timer through a voice action.
+    <string name="timer_deleted">အချိန်သတ်မှတ်ခြင်း ဖျက်လိုက်ပါပြီ</string>
+    <!-- String that represents that the user has successfully started a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_started">တိုင်မားစတင်ပါပြီ</string>
-  <!-- String that represents that the user attempted to start a timer through a voice action
+    <string name="timer_started">တိုင်မားစတင်ပါပြီ</string>
+    <!-- String that represents that the user attempted to start a timer through a voice action
     but specified invalid length.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_timer_length">မမှန်ကန်သည့် အချိန်ကိုက် အလျား</string>
-  <!-- String that represents that the user attempted to add or delete a world clock through
+    <string name="invalid_timer_length">မမှန်ကန်သည့် အချိန်ကိုက် အလျား</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but they didn't specify a city so no world clock was selected.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_city_selected">မြို့မရွေးချယ်ထားပါ</string>
-  <!-- String that represents that the user attempted to add or delete a world clock through
+    <string name="no_city_selected">မြို့မရွေးချယ်ထားပါ</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but the city they specified wasn't listed in the database.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_you_specified_is_not_available">သင်သတ်မှတ်သည့် မြို့တော် မရှိသေးပါ</string>
-  <!-- String that represents that the user attempted to add a world clock through a voice action
+    <string name="the_city_you_specified_is_not_available">သင်သတ်မှတ်သည့် မြို့တော် မရှိသေးပါ</string>
+    <!-- String that represents that the user attempted to add a world clock through a voice action
     but the city they specified is already added to the list.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_already_added">၎င်းမြို့တော်ကို ပေါင်းထည့်ပြီးပါပြီ</string>
-  <!-- String that represents that the user successfully added a world clock through a
+    <string name="the_city_already_added">၎င်းမြို့တော်ကို ပေါင်းထည့်ပြီးပါပြီ</string>
+    <!-- String that represents that the user successfully added a world clock through a
     voice action
     %s represents the name of the city they added.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_added"><xliff:g id="CITY_NAME">%s</xliff:g> ပေါင်းထည့်ပြီးပြီ</string>
-  <!-- String that represents that the user successfully deleted a world clock through
+    <string name="city_added"><xliff:g id="CITY_NAME">%s</xliff:g> ပေါင်းထည့်ပြီးပြီ</string>
+    <!-- String that represents that the user successfully deleted a world clock through
     a voice action
     %s represents the name of the city they deleted.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_deleted"><xliff:g id="CITY_NAME">%s</xliff:g> ဖျက်လိုက်ပါပြီ</string>
-  <!-- String that represents that the user attempted to dismiss an alarm that is more than
+    <string name="city_deleted"><xliff:g id="CITY_NAME">%s</xliff:g> ဖျက်လိုက်ပါပြီ</string>
+    <!-- String that represents that the user attempted to dismiss an alarm that is more than
     24 hours away
     %s represents the time of the alarm (e.g. 15:39)
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away"><xliff:g id="ALARM_TIME">%s</xliff:g> နိုးစက်ကို ဖျက်၍မရသေးပါ၊ 24 နာရီကျော်ကျန်သေးသည်</string>
-  <!-- String that shows up in the action bar for the Picker Activity
+    <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away"><xliff:g id="ALARM_TIME">%s</xliff:g> နိုးစက်ကို ဖျက်၍မရသေးပါ၊ 24 နာရီကျော်ကျန်သေးသည်</string>
+    <!-- String that shows up in the action bar for the Picker Activity
          where a use gets to pick which alarm to dismiss
    [CHAR LIMIT=NONE]
    -->
-  <string name="dismiss_alarm">နှိုးစက်အား ပိတ်ရန်</string>
-  <!-- String that represents that further action is needed from the user in case their
+    <string name="dismiss_alarm">နှိုးစက်အား ပိတ်ရန်</string>
+    <!-- String that represents that further action is needed from the user in case their
     voice command was ambiguous or there are more than 1 alarms that match their request.
     The user needs to choose an alarm they want to dismiss through the UI
    [CHAR LIMIT=NONE]
    -->
-  <string name="pick_alarm_to_dismiss">ပိတ်ထားလိုသည့် နှိုးစက်အချိန်များကို ရွေးပါ</string>
-  <!-- String that represents that the user doesn't have any alarms firing at the moment.
+    <string name="pick_alarm_to_dismiss">ပိတ်ထားလိုသည့် နှိုးစက်အချိန်များကို ရွေးပါ</string>
+    <!-- String that represents that the user doesn't have any alarms firing at the moment.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_firing_alarms">ဖွင့်ရန်နိုးစက် မရှိပါ</string>
-  <!-- String that represents that the user has snoozed an alarm through a voice action for 10
+    <string name="no_firing_alarms">ဖွင့်ရန်နိုးစက် မရှိပါ</string>
+    <!-- String that represents that the user has snoozed an alarm through a voice action for 10
     minutes.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_snoozed"><xliff:g id="ALARM_TIME">%s</xliff:g> နိုးစက်ကို 10 မိနစ် တစ်မှေအိပ်မည်</string>
-  <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
-  <!-- Ringtone selection default" -->
-  <!--used for prompt to user storage permission status-->
+    <string name="alarm_is_snoozed"><xliff:g id="ALARM_TIME">%s</xliff:g> နိုးစက်ကို 10 မိနစ် တစ်မှေအိပ်မည်</string>
+    <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+    <!-- Ringtone selection default" -->
+    <!--used for prompt to user storage permission status-->
 </resources>

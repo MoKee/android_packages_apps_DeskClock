@@ -18,108 +18,108 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- -->
-  <!-- Label shown on launcher icon -->
-  <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
-  <string name="app_label">Jam</string>
-  <!-- Title for AlarmClock activity -->
-  <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="alarm_list_title">Alarm</string>
-  <!-- Menu item on Alarm Clock screen: Add alarm -->
-  <string name="add_alarm">Tambah alarm</string>
-  <!-- Menu item on Alarm Clock screen: Desk clock -->
-  <string name="menu_desk_clock">Jam</string>
-  <!-- Menu item on Alarm Clock screen: Edit alarm -->
-  <string name="menu_edit_alarm">Atur Alarm</string>
-  <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
-  <string name="delete_alarm">Hapus alarm</string>
-  <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
-  <string name="enable_alarm">Hidupkan alarm</string>
-  <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
-  <string name="disable_alarm">Matikan alarm</string>
-  <!-- Delete alarm confirmation dialog message. -->
-  <string name="delete_alarm_confirm">Hapus alarm ini?</string>
-  <!-- Menu item on Alarm Clock screen: Show clock -->
-  <string name="show_clock">Tampilkan jam</string>
-  <!-- Menu item on Alarm Clock screen: Hide clock -->
-  <string name="hide_clock">Sembunyikan jam</string>
-  <!-- Setting label on Set alarm screen: Label -->
-  <string name="label">Label</string>
-  <!-- Content description for alarm on/off switch in On state -->
-  <string name="on_switch">Hidup</string>
-  <!-- Content description for alarm on/off switch in Off state -->
-  <string name="off_switch">Mati</string>
-  <!-- Default label to display for an alarm -->
-  <string name="default_label">Alarm</string>
-  <!-- Preference category on Alarm Settings screen: Set alarm -->
-  <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="set_alarm">Setel alarm</string>
-  <!-- Setting labels on Set alarm screen: Vibration on or off -->
-  <string name="alarm_vibrate">Getar</string>
-  <!-- Setting labels on Set alarm screen: Repeat -->
-  <string name="alarm_repeat">Ulangi</string>
-  <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
-  <string name="alert">Nada Dering Alarm</string>
-  <!-- Title of default ringtone played when a timer expires. -->
-  <string name="default_timer_ringtone_title">Timer Berakhir</string>
-  <!-- Title of silent ringtone played when a timer expires. -->
-  <string name="silent_timer_ringtone_title">Senyap</string>
-  <!-- Label on expanded alarm edit view. -->
-  <string name="ringtone">Nada Dering</string>
-  <!-- Setting labels on Set alarm screen: Set time  -->
-  <string name="time">Waktu</string>
-  <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
-  <string name="alarm_tomorrow">Besok</string>
-  <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
-  <string name="alarm_today">Hari ini</string>
-  <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
-  <string name="alarm_alert_wake_up">Bangun!</string>
-  <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
-  <string name="alarm_alert_off_action_text">Mati</string>
-  <!-- Button labels on the alarm dialog: Dismiss -->
-  <string name="alarm_alert_dismiss_text">Abaikan</string>
-  <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
-  <string name="alarm_alert_dismiss_now_text">Abaikan Sekarang</string>
-  <!-- Alarm Alert screen: this message is shown after an alarm rung
+    <!-- -->
+    <!-- Label shown on launcher icon -->
+    <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
+    <string name="app_label">Jam</string>
+    <!-- Title for AlarmClock activity -->
+    <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="alarm_list_title">Alarm</string>
+    <!-- Menu item on Alarm Clock screen: Add alarm -->
+    <string name="add_alarm">Tambah alarm</string>
+    <!-- Menu item on Alarm Clock screen: Desk clock -->
+    <string name="menu_desk_clock">Jam</string>
+    <!-- Menu item on Alarm Clock screen: Edit alarm -->
+    <string name="menu_edit_alarm">Atur Alarm</string>
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="delete_alarm">Hapus alarm</string>
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+    <string name="enable_alarm">Hidupkan alarm</string>
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+    <string name="disable_alarm">Matikan alarm</string>
+    <!-- Delete alarm confirmation dialog message. -->
+    <string name="delete_alarm_confirm">Hapus alarm ini?</string>
+    <!-- Menu item on Alarm Clock screen: Show clock -->
+    <string name="show_clock">Tampilkan jam</string>
+    <!-- Menu item on Alarm Clock screen: Hide clock -->
+    <string name="hide_clock">Sembunyikan jam</string>
+    <!-- Setting label on Set alarm screen: Label -->
+    <string name="label">Label</string>
+    <!-- Content description for alarm on/off switch in On state -->
+    <string name="on_switch">Hidup</string>
+    <!-- Content description for alarm on/off switch in Off state -->
+    <string name="off_switch">Mati</string>
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">Alarm</string>
+    <!-- Preference category on Alarm Settings screen: Set alarm -->
+    <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="set_alarm">Setel alarm</string>
+    <!-- Setting labels on Set alarm screen: Vibration on or off -->
+    <string name="alarm_vibrate">Getar</string>
+    <!-- Setting labels on Set alarm screen: Repeat -->
+    <string name="alarm_repeat">Ulangi</string>
+    <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+    <string name="alert">Nada Dering Alarm</string>
+    <!-- Title of default ringtone played when a timer expires. -->
+    <string name="default_timer_ringtone_title">Timer Berakhir</string>
+    <!-- Title of silent ringtone played when a timer expires. -->
+    <string name="silent_timer_ringtone_title">Senyap</string>
+    <!-- Label on expanded alarm edit view. -->
+    <string name="ringtone">Nada Dering</string>
+    <!-- Setting labels on Set alarm screen: Set time  -->
+    <string name="time">Waktu</string>
+    <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
+    <string name="alarm_tomorrow">Besok</string>
+    <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
+    <string name="alarm_today">Hari ini</string>
+    <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
+    <string name="alarm_alert_wake_up">Bangun!</string>
+    <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
+    <string name="alarm_alert_off_action_text">Mati</string>
+    <!-- Button labels on the alarm dialog: Dismiss -->
+    <string name="alarm_alert_dismiss_text">Abaikan</string>
+    <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+    <string name="alarm_alert_dismiss_now_text">Abaikan Sekarang</string>
+    <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
-  <string name="alarm_missed_title">Alarm terlewatkan</string>
-  <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+    <string name="alarm_missed_title">Alarm terlewatkan</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <string name="alarm_alert_snoozed_text">Ditunda</string>
-  <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+    <string name="alarm_alert_snoozed_text">Ditunda</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the word 'Snoozed' in two separate lines or example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <plurals name="alarm_alert_snooze_duration">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="Number">%d</xliff:g> menit</item>
-  </plurals>
-  <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
-  <string name="alarm_alert_off_text">Alarm mati</string>
-  <!-- Button labels on the alarm dialog: Snooze -->
-  <string name="alarm_alert_snooze_text">Tunda</string>
-  <!-- Toast that appears after Alarm is snoozed from the Alarm
+    <plurals name="alarm_alert_snooze_duration">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="Number">%d</xliff:g> menit</item>
+    </plurals>
+    <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
+    <string name="alarm_alert_off_text">Alarm mati</string>
+    <!-- Button labels on the alarm dialog: Snooze -->
+    <string name="alarm_alert_snooze_text">Tunda</string>
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
-  <plurals name="alarm_alert_snooze_set">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other">Ditunda selama <xliff:g id="MINUTES">%d</xliff:g> menit.</item>
-  </plurals>
-  <!-- Text to appear inside a notification while an alarm is snoozing. -->
-  <string name="alarm_alert_snooze_until">Menunda hingga <xliff:g id="TIME">%s</xliff:g></string>
-  <!-- Text to appear in the notification title while an alarm is about to go off. -->
-  <string name="alarm_alert_predismiss_title">Alarm mendatang</string>
-  <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
-  <string name="missed_alarm_has_been_deleted">Alarm yang terlewatkan telah dihapus</string>
-  <!-- 0: nothing
+    <plurals name="alarm_alert_snooze_set">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other">Ditunda selama <xliff:g id="MINUTES">%d</xliff:g> menit.</item>
+    </plurals>
+    <!-- Text to appear inside a notification while an alarm is snoozing. -->
+    <string name="alarm_alert_snooze_until">Menunda hingga <xliff:g id="TIME">%s</xliff:g></string>
+    <!-- Text to appear in the notification title while an alarm is about to go off. -->
+    <string name="alarm_alert_predismiss_title">Alarm mendatang</string>
+    <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+    <string name="missed_alarm_has_been_deleted">Alarm yang terlewatkan telah dihapus</string>
+    <!-- 0: nothing
          1: days
          2:      hours
          3: days hours
@@ -128,724 +128,724 @@
          6:      hours minutes
          7: days hours minutes
     -->
-  <!-- Timer notification: how long from now until timer goes off. -->
-  <string name="timer_notifications_less_min">Sisa kurang dari satu menit</string>
-  <string name="timer_notifications_hours"><xliff:g id="HOURS">%1$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
-  <string name="timer_notifications_minutes"><xliff:g id="MINUTES">%2$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
-  <string name="timer_notifications_hours_minutes">Sisa <xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g></string>
-  <!--
+    <!-- Timer notification: how long from now until timer goes off. -->
+    <string name="timer_notifications_less_min">Sisa kurang dari satu menit</string>
+    <string name="timer_notifications_hours"><xliff:g id="HOURS">%1$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
+    <string name="timer_notifications_minutes"><xliff:g id="MINUTES">%2$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
+    <string name="timer_notifications_hours_minutes">Sisa <xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g></string>
+    <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
     -->
-  <string name="timer_remaining_single">tersisa</string>
-  <!--
+    <string name="timer_remaining_single">tersisa</string>
+    <!--
         Verb inflection to use for multiple time units remaining
         Ex. "2 minutes remaining"
     -->
-  <string name="timer_remaining_multiple">tersisa</string>
-  <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
-  <string-array name="alarm_set">
-    <item>Alarm disetel untuk kurang dari 1 menit dari sekarang.</item>
-    <item>Alarm disetel untuk <xliff:g id="DAYS">%1$s</xliff:g> dari sekarang.</item>
-    <item>Alarm disetel untuk <xliff:g id="HOURS">%2$s</xliff:g> dari sekarang.</item>
-    <item>Alarm disetel untuk <xliff:g id="DAYS">%1$s</xliff:g> dan <xliff:g id="HOURS">%2$s</xliff:g> dari sekarang.</item>
-    <item>Alarm disetel untuk <xliff:g id="MINUTES">%3$s</xliff:g> dari sekarang.</item>
-    <item>Alarm disetel untuk <xliff:g id="DAYS">%1$s</xliff:g> dan <xliff:g id="MINUTES">%3$s</xliff:g> dari sekarang.</item>
-    <item>Alarm disetel untuk <xliff:g id="HOURS">%2$s</xliff:g> dan <xliff:g id="MINUTES">%3$s</xliff:g> dari sekarang.</item>
-    <item>Alarm disetel untuk <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g>, dan <xliff:g id="MINUTES">%3$s</xliff:g> dari sekarang.</item>
-  </string-array>
-  <!-- Alarm confirmation toast: days -->
-  <plurals name="days">
-    <!-- Duration for one day -->
-    <!-- Duration for more than one day -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> hari</item>
-  </plurals>
-  <!-- Alarm confirmation toast and timer notification: hours -->
-  <plurals name="hours">
-    <!-- Duration for one hour -->
-    <!-- Duration for more than one hour -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> jam</item>
-  </plurals>
-  <!-- Alarm confirmation toast and timer notification: minutes -->
-  <plurals name="minutes">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> menit</item>
-  </plurals>
-  <!-- Repeat options that appear under an alarm on main Alarm Clock
+    <string name="timer_remaining_multiple">tersisa</string>
+    <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
+    <string-array name="alarm_set">
+        <item>Alarm disetel untuk kurang dari 1 menit dari sekarang.</item>
+        <item>Alarm disetel untuk <xliff:g id="DAYS">%1$s</xliff:g> dari sekarang.</item>
+        <item>Alarm disetel untuk <xliff:g id="HOURS">%2$s</xliff:g> dari sekarang.</item>
+        <item>Alarm disetel untuk <xliff:g id="DAYS">%1$s</xliff:g> dan <xliff:g id="HOURS">%2$s</xliff:g> dari sekarang.</item>
+        <item>Alarm disetel untuk <xliff:g id="MINUTES">%3$s</xliff:g> dari sekarang.</item>
+        <item>Alarm disetel untuk <xliff:g id="DAYS">%1$s</xliff:g> dan <xliff:g id="MINUTES">%3$s</xliff:g> dari sekarang.</item>
+        <item>Alarm disetel untuk <xliff:g id="HOURS">%2$s</xliff:g> dan <xliff:g id="MINUTES">%3$s</xliff:g> dari sekarang.</item>
+        <item>Alarm disetel untuk <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g>, dan <xliff:g id="MINUTES">%3$s</xliff:g> dari sekarang.</item>
+    </string-array>
+    <!-- Alarm confirmation toast: days -->
+    <plurals name="days">
+        <!-- Duration for one day -->
+        <!-- Duration for more than one day -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> hari</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: hours -->
+    <plurals name="hours">
+        <!-- Duration for one hour -->
+        <!-- Duration for more than one hour -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> jam</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: minutes -->
+    <plurals name="minutes">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> menit</item>
+    </plurals>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
-  <string name="every_day">Setiap hari</string>
-  <!-- Repeat options that appear under an alarm on main Alarm Clock
+    <string name="every_day">Setiap hari</string>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
-  <string name="day_concat">", "</string>
-  <!-- Appears at the top of the Clock Picker screen: Tell user to
+    <string name="day_concat">", "</string>
+    <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
-  <string name="clock_instructions">Pilih jam</string>
-  <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="analog_gadget">Jam analog</string>
-  <!-- Help activity name -->
-  <string name="help">bantuan</string>
-  <!-- Settings activity name -->
-  <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="settings">Setelan</string>
-  <!-- Setting title for changing the snooze duration. -->
-  <string name="snooze_duration_title">Lama penundaan</string>
-  <plurals name="snooze_duration">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> menit</item>
-  </plurals>
-  <plurals name="snooze_picker_label">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other">menit</item>
-  </plurals>
-  <!-- Setting title for changing the crescendo duration. -->
-  <string name="crescendo_duration_title">Keraskan volume secara bertahap</string>
-  <!-- Summary value for changing the crescendo duration to 0. -->
-  <string name="no_crescendo_duration">Mati</string>
-  <!-- Summary value for changing the crescendo duration. -->
-  <string name="crescendo_duration"><xliff:g id="NUMBER">%s</xliff:g> detik</string>
-  <!-- Setting label when changing the crescendo duration. -->
-  <string name="crescendo_picker_label">detik</string>
-  <!-- Auto silence preference title -->
-  <string name="auto_silence_title">Senyapkan setelah</string>
-  <!-- Auto silence summary string set based on the preference value. -->
-  <plurals name="auto_silence_summary">
-    <!-- Duration for one minute -->
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> menit</item>
-  </plurals>
-  <!-- Auto silence summary when turned off -->
-  <string name="auto_silence_never">Tidak Pernah</string>
-  <string name="default_auto_silence_value">10</string>
-  <!-- Entries listed in the ListPreference when invoking the auto silence
+    <string name="clock_instructions">Pilih jam</string>
+    <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="analog_gadget">Jam analog</string>
+    <!-- Help activity name -->
+    <string name="help">bantuan</string>
+    <!-- Settings activity name -->
+    <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="settings">Setelan</string>
+    <!-- Setting title for changing the snooze duration. -->
+    <string name="snooze_duration_title">Lama penundaan</string>
+    <plurals name="snooze_duration">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> menit</item>
+    </plurals>
+    <plurals name="snooze_picker_label">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other">menit</item>
+    </plurals>
+    <!-- Setting title for changing the crescendo duration. -->
+    <string name="crescendo_duration_title">Keraskan volume secara bertahap</string>
+    <!-- Summary value for changing the crescendo duration to 0. -->
+    <string name="no_crescendo_duration">Mati</string>
+    <!-- Summary value for changing the crescendo duration. -->
+    <string name="crescendo_duration"><xliff:g id="NUMBER">%s</xliff:g> detik</string>
+    <!-- Setting label when changing the crescendo duration. -->
+    <string name="crescendo_picker_label">detik</string>
+    <!-- Auto silence preference title -->
+    <string name="auto_silence_title">Senyapkan setelah</string>
+    <!-- Auto silence summary string set based on the preference value. -->
+    <plurals name="auto_silence_summary">
+        <!-- Duration for one minute -->
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> menit</item>
+    </plurals>
+    <!-- Auto silence summary when turned off -->
+    <string name="auto_silence_never">Tidak Pernah</string>
+    <string name="default_auto_silence_value">10</string>
+    <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
-  <string-array name="auto_silence_entries">
-    <item>1 menit</item>
-    <item>5 menit</item>
-    <item>10 menit</item>
-    <item>15 menit</item>
-    <item>20 menit</item>
-    <item>25 menit</item>
-    <item>Tidak Pernah</item>
-  </string-array>
-  <!-- Values that are retrieved from the ListPreference. These must match
+    <string-array name="auto_silence_entries">
+        <item>1 menit</item>
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>15 menit</item>
+        <item>20 menit</item>
+        <item>25 menit</item>
+        <item>Tidak Pernah</item>
+    </string-array>
+    <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
-  <!-- Week start day preference title. -->
-  <string name="week_start_title">Hari pertama</string>
-  <!-- Entries listed in ListPreference for start day. -->
-  <string-array name="week_start_entries">
-    <item>Sabtu</item>
-    <item>Minggu</item>
-    <item>Senin</item>
-  </string-array>
-  <!-- Values for ListPreference for start day of week. -->
-  <!-- Done button when editing an alarm. -->
-  <string name="done">Selesai</string>
-  <!-- Revert button when editing an alarm. -->
-  <string name="revert">Kembalikan</string>
-  <!-- Delete button when editing an alarm. -->
-  <string name="delete">Hapus</string>
-  <!-- Setting title for changing the alarm volume. -->
-  <string name="alarm_volume_title">Volume alarm</string>
-  <!-- Title for the silent ringtone. -->
-  <string name="silent_ringtone_title">Senyap</string>
-  <!-- Title for ringtones that cannot be located by uri. -->
-  <string name="unknown_ringtone_title">Tidak diketahui</string>
-  <!-- Text to display in the small text of the notification -->
-  <string name="alarm_notify_text">Tunda atau tutup alarm.</string>
-  <!-- Text to display in the notification ticker and label -->
-  <string name="alarm_notify_snooze_label"><xliff:g id="LABEL">%s</xliff:g> (ditunda)</string>
-  <!-- Text to display in the notification when the alarm has been snoozed -->
-  <string name="alarm_notify_snooze_text">Alarm disetel untuk <xliff:g id="TIME">%s</xliff:g>. Sentuh untuk membatalkan.</string>
-  <!-- Title of the setting to change hardware button behavior. This string
+    <!-- Week start day preference title. -->
+    <string name="week_start_title">Hari pertama</string>
+    <!-- Entries listed in ListPreference for start day. -->
+    <string-array name="week_start_entries">
+        <item>Sabtu</item>
+        <item>Minggu</item>
+        <item>Senin</item>
+    </string-array>
+    <!-- Values for ListPreference for start day of week. -->
+    <!-- Done button when editing an alarm. -->
+    <string name="done">Selesai</string>
+    <!-- Revert button when editing an alarm. -->
+    <string name="revert">Kembalikan</string>
+    <!-- Delete button when editing an alarm. -->
+    <string name="delete">Hapus</string>
+    <!-- Setting title for changing the alarm volume. -->
+    <string name="alarm_volume_title">Volume alarm</string>
+    <!-- Title for the silent ringtone. -->
+    <string name="silent_ringtone_title">Senyap</string>
+    <!-- Title for ringtones that cannot be located by uri. -->
+    <string name="unknown_ringtone_title">Tidak diketahui</string>
+    <!-- Text to display in the small text of the notification -->
+    <string name="alarm_notify_text">Tunda atau tutup alarm.</string>
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label"><xliff:g id="LABEL">%s</xliff:g> (ditunda)</string>
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="alarm_notify_snooze_text">Alarm disetel untuk <xliff:g id="TIME">%s</xliff:g>. Sentuh untuk membatalkan.</string>
+    <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
-  <string name="volume_button_setting_title">Tombol volume</string>
-  <!-- Dialog title of the volume and power setting. -->
-  <string name="volume_button_dialog_title">Efek tombol</string>
-  <!-- Entries listed in the setting for the side-button action. -->
-  <string-array name="volume_button_setting_entries">
-    <item>Tunda</item>
-    <item>Tutup</item>
-    <item>Tidak melakukan apa-apa</item>
-  </string-array>
-  <!-- Values for the side-button setting. -->
-  <!-- Title of the ringtone setting. -->
-  <string name="default_ringtone_setting_title">Setel nada dering bawaan</string>
-  <!-- Accessibility labels for Clock activity buttons -->
-  <string name="alarm_button_description">Alarm</string>
-  <string name="gallery_button_description">Galeri</string>
-  <string name="music_button_description">Musik</string>
-  <string name="nightmode_button_description">Redup</string>
-  <string name="home_button_description">Peluncur</string>
-  <string name="desk_clock_button_description">Tampilan jam</string>
-  <!-- Accessibility labels for alarm buttons -->
-  <string name="label_description">Label</string>
-  <string name="ringtone_description">Nada Dering</string>
-  <!-- What to show the user if the weather widget exists but fails to
+    <string name="volume_button_setting_title">Tombol volume</string>
+    <!-- Dialog title of the volume and power setting. -->
+    <string name="volume_button_dialog_title">Efek tombol</string>
+    <!-- Entries listed in the setting for the side-button action. -->
+    <string-array name="volume_button_setting_entries">
+        <item>Tunda</item>
+        <item>Tutup</item>
+        <item>Tidak melakukan apa-apa</item>
+    </string-array>
+    <!-- Values for the side-button setting. -->
+    <!-- Title of the ringtone setting. -->
+    <string name="default_ringtone_setting_title">Setel nada dering bawaan</string>
+    <!-- Accessibility labels for Clock activity buttons -->
+    <string name="alarm_button_description">Alarm</string>
+    <string name="gallery_button_description">Galeri</string>
+    <string name="music_button_description">Musik</string>
+    <string name="nightmode_button_description">Redup</string>
+    <string name="home_button_description">Peluncur</string>
+    <string name="desk_clock_button_description">Tampilan jam</string>
+    <!-- Accessibility labels for alarm buttons -->
+    <string name="label_description">Label</string>
+    <string name="ringtone_description">Nada Dering</string>
+    <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
          present on the device, we show nothing at all. -->
-  <string name="weather_fetch_failure">Saat ini informasi cuaca tidak tersedia.</string>
-  <!-- A description for the DeskClock alarm sound playback service.
+    <string name="weather_fetch_failure">Saat ini informasi cuaca tidak tersedia.</string>
+    <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="alarm_klaxon_service_desc">Layanan pemutaran suara untuk alarm yang disetel di Clock.</string>
-  <!-- String displayed as the alert summary while loading the alert name from
+    <string name="alarm_klaxon_service_desc">Layanan pemutaran suara untuk alarm yang disetel di Clock.</string>
+    <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
-  <string name="loading_ringtone">Memuat nada dering…</string>
-  <!-- A description for the DeskClock timer sound playback service.
+    <string name="loading_ringtone">Memuat nada dering…</string>
+    <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="timer_ring_service_desc">Layanan pemutaran suara untuk pewaktu yang disetel di Clock.</string>
-  <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
-  <string name="control_set_alarm">Setel alarm</string>
-  <!--  ActionBar strings -->
-  <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
-  <string name="menu_alarm">Alarm</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
-  <string name="menu_timer">Penghitung waktu</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
-  <string name="menu_clock">Jam</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
-  <string name="menu_stopwatch">Stopwatch</string>
-  <!-- Clock view buttons strings-->
-  <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
-  <string name="button_alarms">Tambah alarm</string>
-  <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
-  <string name="button_cities">Kota</string>
-  <!-- Describes the purpose of the button which pops up a menu of setting choices -->
-  <string name="button_menu">Opsi lainnya</string>
-  <!-- Menu item on most screens to get to more settings -->
-  <string name="menu_item_settings">Setelan</string>
-  <!-- Menu item on most screens to get to the help information -->
-  <string name="menu_item_help">Bantuan</string>
-  <!-- Menu item on clock screen to add world city. -->
-  <string name="menu_item_add">Tambah</string>
-  <!-- Menu item on clock screen to enter night mode. -->
-  <string name="menu_item_night_mode">Mode malam</string>
-  <!-- Menu item on Cities screen to sort by GMT offset -->
-  <string name="menu_item_sort_by_gmt_offset">Urutkan menurut waktu</string>
-  <!-- Menu item on Cities screen to sort by alphabetical order -->
-  <string name="menu_item_sort_by_name">Urutkan menurut nama</string>
-  <string name="cities_add_gps_no_results">Permintaan GPS tidak menampilkan hasil lokasi</string>
-  <string name="cities_add_gps_not_available">GPS tidak tersedia</string>
-  <string name="cities_add_searching">Mencari\u2026</string>
-  <string name="cities_add_city_title">Tambah kota</string>
-  <string name="cities_add_city_gps_cd">Ketuk untuk menempatkan kota anda saat ini</string>
-  <string name="cities_add_loading">Memuat\u2026</string>
-  <string name="cities_add_city_city">Kota:</string>
-  <string name="cities_add_city_timezone">Zona Waktu:</string>
-  <string name="cities_add_already_exists">Kota sudah ada di dalam database</string>
-  <string name="cities_add_city_failed">Tidak dapat membuat kota</string>
-  <string name="cities_delete_city_failed">Tidak dapat menghapus kota</string>
-  <string name="cities_delete_city_msg">Apakah anda ingin menghapus <xliff:g id="city">%s </xliff:g>?    </string>
-  <string name="cities_delete_city_title">Hapus kota</string>
-  <!-- Label for selected cities in Cities list view -->
-  <string name="selected_cities_label">Kota yang dipilih</string>
-  <!-- Stopwatch and Timer shared strings -->
-  <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
-  <string name="sw_resume_button">Lanjutkan</string>
-  <!--
+    <string name="timer_ring_service_desc">Layanan pemutaran suara untuk pewaktu yang disetel di Clock.</string>
+    <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm">Setel alarm</string>
+    <!--  ActionBar strings -->
+    <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
+    <string name="menu_alarm">Alarm</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
+    <string name="menu_timer">Penghitung waktu</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
+    <string name="menu_clock">Jam</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
+    <string name="menu_stopwatch">Stopwatch</string>
+    <!-- Clock view buttons strings-->
+    <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+    <string name="button_alarms">Tambah alarm</string>
+    <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
+    <string name="button_cities">Kota</string>
+    <!-- Describes the purpose of the button which pops up a menu of setting choices -->
+    <string name="button_menu">Opsi lainnya</string>
+    <!-- Menu item on most screens to get to more settings -->
+    <string name="menu_item_settings">Setelan</string>
+    <!-- Menu item on most screens to get to the help information -->
+    <string name="menu_item_help">Bantuan</string>
+    <!-- Menu item on clock screen to add world city. -->
+    <string name="menu_item_add">Tambah</string>
+    <!-- Menu item on clock screen to enter night mode. -->
+    <string name="menu_item_night_mode">Mode malam</string>
+    <!-- Menu item on Cities screen to sort by GMT offset -->
+    <string name="menu_item_sort_by_gmt_offset">Urutkan menurut waktu</string>
+    <!-- Menu item on Cities screen to sort by alphabetical order -->
+    <string name="menu_item_sort_by_name">Urutkan menurut nama</string>
+    <string name="cities_add_gps_no_results">Permintaan GPS tidak menampilkan hasil lokasi</string>
+    <string name="cities_add_gps_not_available">GPS tidak tersedia</string>
+    <string name="cities_add_searching">Mencari\u2026</string>
+    <string name="cities_add_city_title">Tambah kota</string>
+    <string name="cities_add_city_gps_cd">Ketuk untuk menempatkan kota anda saat ini</string>
+    <string name="cities_add_loading">Memuat\u2026</string>
+    <string name="cities_add_city_city">Kota:</string>
+    <string name="cities_add_city_timezone">Zona Waktu:</string>
+    <string name="cities_add_already_exists">Kota sudah ada di dalam database</string>
+    <string name="cities_add_city_failed">Tidak dapat membuat kota</string>
+    <string name="cities_delete_city_failed">Tidak dapat menghapus kota</string>
+    <string name="cities_delete_city_msg">Apakah anda ingin menghapus <xliff:g id="city">%s </xliff:g>?</string>
+    <string name="cities_delete_city_title">Hapus kota</string>
+    <!-- Label for selected cities in Cities list view -->
+    <string name="selected_cities_label">Kota yang dipilih</string>
+    <!-- Stopwatch and Timer shared strings -->
+    <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
+    <string name="sw_resume_button">Lanjutkan</string>
+    <!--
         Describes the purpose of the button
             for stopwatch: return stopwatch to zero and remove the lap times.
             for timer: return timer to originally set duration.
         [CHAR LIMIT=15]
     -->
-  <string name="sw_reset_button">Setel ulang</string>
-  <!-- Stopwatch strings -->
-  <!-- Describes the purpose of the button to begin running a stopwatch -->
-  <string name="sw_start_button">Mulai</string>
-  <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">Jeda</string>
-  <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
-  <string name="sw_lap_button">Putaran</string>
-  <!-- Describes the purpose of the button to share the stopwatch value.
+    <string name="sw_reset_button">Setel ulang</string>
+    <!-- Stopwatch strings -->
+    <!-- Describes the purpose of the button to begin running a stopwatch -->
+    <string name="sw_start_button">Mulai</string>
+    <!-- Describes the purpose of the button to pause a stopwatch. -->
+    <string name="sw_pause_button">Jeda</string>
+    <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
+    <string name="sw_lap_button">Putaran</string>
+    <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
-  <string name="sw_share_button">Bagikan</string>
-  <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
-  <string name="hours_label">j</string>
-  <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
-  <string name="minutes_label">m</string>
-  <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
-  <string name="seconds_label">d</string>
-  <!-- Accessibility strings -->
-  <string name="hours_label_description">jam</string>
-  <string name="minutes_label_description">menit</string>
-  <string name="seconds_label_description">detik</string>
-  <string name="zero">0</string>
-  <!--  Stopwatch share strings -->
-  <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
-  <string name="sw_share_main">Waktu saya adalah <xliff:g id="TIME">%s</xliff:g></string>
-  <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
-  <string name="sw_share_laps">Waktu putaran:</string>
-  <!-- Label to enumerate the number of laps in the notification the user has counted -->
-  <string name="sw_notification_lap_number">Putaran <xliff:g id="NUMBER">%d</xliff:g></string>
-  <!-- Stopwatch accessibility strings -->
-  <plurals name="Nhours_description">
-    <!-- 1 hour -->
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> jam</item>
-  </plurals>
-  <plurals name="Nminutes_description">
-    <!-- 1 minute -->
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> menit</item>
-  </plurals>
-  <plurals name="Nseconds_description">
-    <!-- 1 second -->
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> detik</item>
-  </plurals>
-  <!-- timer strings -->
-  <!-- Describes the purpose of the button to add a new timer -->
-  <string name="timer_add_timer">Tambah timer</string>
-  <!-- Describes the purpose of the button to begin or continue running a timer -->
-  <string name="timer_start">Mulai</string>
-  <!-- Describes the purpose of the button to delete a timer. -->
-  <string name="timer_delete">Hapus</string>
-  <!-- Talkback description for deleting a number. -->
-  <string name="timer_descriptive_delete">Hapus <xliff:g id="NUMBER_STRING">%s</xliff:g></string>
-  <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
-  <string name="timer_plus_one">Tambah 1 menit</string>
-  <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
-  <string name="timer_plus_1_min">Tambah 1 menit</string>
-  <!-- Describes the purpose of the button to stop the timer. -->
-  <string name="timer_stop">Hentikan</string>
-  <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
-  <string name="timer_stop_all">Hentikan semua pewaktu</string>
-  <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
-  <string name="timer_reset">Setel ulang</string>
-  <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
-  <string name="timer_cancel">Batal</string>
-  <!-- Accessibility announcement when a timer is canceled. -->
-  <string name="timer_canceled">Pewaktu dibatalkan</string>
-  <!-- Notification content shown when a timer has completed and has no more time remaining -->
-  <string name="timer_times_up">Waktu habis</string>
-  <!--
+    <string name="sw_share_button">Bagikan</string>
+    <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+    <string name="hours_label">j</string>
+    <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+    <string name="minutes_label">m</string>
+    <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+    <string name="seconds_label">d</string>
+    <!-- Accessibility strings -->
+    <string name="hours_label_description">jam</string>
+    <string name="minutes_label_description">menit</string>
+    <string name="seconds_label_description">detik</string>
+    <string name="zero">0</string>
+    <!--  Stopwatch share strings -->
+    <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
+    <string name="sw_share_main">Waktu saya adalah <xliff:g id="TIME">%s</xliff:g></string>
+    <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
+    <string name="sw_share_laps">Waktu putaran:</string>
+    <!-- Label to enumerate the number of laps in the notification the user has counted -->
+    <string name="sw_notification_lap_number">Putaran <xliff:g id="NUMBER">%d</xliff:g></string>
+    <!-- Stopwatch accessibility strings -->
+    <plurals name="Nhours_description">
+        <!-- 1 hour -->
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> jam</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <!-- 1 minute -->
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> menit</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <!-- 1 second -->
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> detik</item>
+    </plurals>
+    <!-- timer strings -->
+    <!-- Describes the purpose of the button to add a new timer -->
+    <string name="timer_add_timer">Tambah timer</string>
+    <!-- Describes the purpose of the button to begin or continue running a timer -->
+    <string name="timer_start">Mulai</string>
+    <!-- Describes the purpose of the button to delete a timer. -->
+    <string name="timer_delete">Hapus</string>
+    <!-- Talkback description for deleting a number. -->
+    <string name="timer_descriptive_delete">Hapus <xliff:g id="NUMBER_STRING">%s</xliff:g></string>
+    <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
+    <string name="timer_plus_one">Tambah 1 menit</string>
+    <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
+    <string name="timer_plus_1_min">Tambah 1 menit</string>
+    <!-- Describes the purpose of the button to stop the timer. -->
+    <string name="timer_stop">Hentikan</string>
+    <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
+    <string name="timer_stop_all">Hentikan semua pewaktu</string>
+    <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
+    <string name="timer_reset">Setel ulang</string>
+    <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
+    <string name="timer_cancel">Batal</string>
+    <!-- Accessibility announcement when a timer is canceled. -->
+    <string name="timer_canceled">Pewaktu dibatalkan</string>
+    <!-- Notification content shown when a timer has completed and has no more time remaining -->
+    <string name="timer_times_up">Waktu habis</string>
+    <!--
         Notification content shown when multiple timers have completed and have no more time
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
-  <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS">%d</xliff:g> pewaktu telah berakhir</string>
-  <!-- Label associated with a notification for a Timer -->
-  <string name="timer_notification_label">Penghitung waktu</string>
-  <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
-  <string name="timers_max_count_reached">maksimum 4 pewaktu</string>
-  <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
-  <string name="timer_pause">Jeda</string>
-  <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
-  <string name="timer_reset_all">Setel ulang semua pewaktu</string>
-  <!-- Jocular content that user may append when sharing the lap times -->
-  <string-array name="sw_share_strings" translatable="true">
-    <item>Anda benar-benar cepat.</item>
-    <item>Nikmati hasil kerja keras Anda.</item>
-    <item>Android terkenal cepat, namun tidak secepat Anda!</item>
-    <item>Fiuh.</item>
-    <item>Waktu l33t.</item>
-    <item>Kecepatan yang luar biasa.</item>
-    <item>Mari kita lakukan lengkung waktu sekali lagi.</item>
-    <item>Lompat saja ke kiri.</item>
-    <item>Anda memiliki palet untuk mempercepat.</item>
-    <item>Kecepatan foton.</item>
-  </string-array>
-  <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
-  <string name="home_label">Rumah</string>
-  <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="cities_activity_title">Kota</string>
-  <!-- Settings strings -->
-  <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
-  <string name="clock_settings">Jam</string>
-  <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
-  <string name="clock_style">Gaya</string>
-  <!-- Title for preference to change date & time -->
-  <string name="open_date_settings">Ubah Tanggal &amp; waktu</string>
-  <!-- Entries listed in the ListPreference when invoking the clock style
+    <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS">%d</xliff:g> pewaktu telah berakhir</string>
+    <!-- Label associated with a notification for a Timer -->
+    <string name="timer_notification_label">Penghitung waktu</string>
+    <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
+    <string name="timers_max_count_reached">maksimum 4 pewaktu</string>
+    <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
+    <string name="timer_pause">Jeda</string>
+    <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
+    <string name="timer_reset_all">Setel ulang semua pewaktu</string>
+    <!-- Jocular content that user may append when sharing the lap times -->
+    <string-array name="sw_share_strings" translatable="true">
+        <item>Anda benar-benar cepat.</item>
+        <item>Nikmati hasil kerja keras Anda.</item>
+        <item>Android terkenal cepat, namun tidak secepat Anda!</item>
+        <item>Fiuh.</item>
+        <item>Waktu l33t.</item>
+        <item>Kecepatan yang luar biasa.</item>
+        <item>Mari kita lakukan lengkung waktu sekali lagi.</item>
+        <item>Lompat saja ke kiri.</item>
+        <item>Anda memiliki palet untuk mempercepat.</item>
+        <item>Kecepatan foton.</item>
+    </string-array>
+    <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
+    <string name="home_label">Rumah</string>
+    <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="cities_activity_title">Kota</string>
+    <!-- Settings strings -->
+    <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
+    <string name="clock_settings">Jam</string>
+    <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
+    <string name="clock_style">Gaya</string>
+    <!-- Title for preference to change date & time -->
+    <string name="open_date_settings">Ubah Tanggal &amp; waktu</string>
+    <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
-  <string-array name="clock_style_entries">
-    <item>Analog</item>
-    <item>Digital</item>
-  </string-array>
-  <!-- Values that are retrieved from the ListPreference. These must match
+    <string-array name="clock_style_entries">
+        <item>Analog</item>
+        <item>Digital</item>
+    </string-array>
+    <!-- Values that are retrieved from the ListPreference. These must match
          the clock_style_entries above. -->
-  <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
-  <string name="automatic_home_clock">Jam domestik otomatis</string>
-  <!-- Describes the functionality provided by the automatic_home_clock option -->
-  <string name="automatic_home_clock_summary">Saat bepergian di wilayah dengan waktu yang berbeda, tambahkan jam untuk rumah</string>
-  <!-- Title in the preferences change the time zone for the user's home -->
-  <string name="home_time_zone">Zona waktu domestik</string>
-  <!-- Title in a list dialog box to pick a time zone for the user's home -->
-  <string name="home_time_zone_title">Zona waktu domestik</string>
-  <!-- Textual content of the button to discard the current dialog values and close the dialog -->
-  <string name="time_picker_cancel">Batal</string>
-  <!-- Textual content of the button to update an alarm with the current dialog values -->
-  <string name="time_picker_set">Oke</string>
-  <string name="time_picker_time_seperator">:</string>
-  <!--  place holder for am/pm label when it is not set -->
-  <string name="time_picker_ampm_label">--</string>
-  <!-- add 00 as minutes to the time when pressing this button -->
-  <string name="time_picker_00_label">:00</string>
-  <!-- add 30 as minutes to the time when pressing this button -->
-  <string name="time_picker_30_label">:30</string>
-  <!--
+    <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
+    <string name="automatic_home_clock">Jam domestik otomatis</string>
+    <!-- Describes the functionality provided by the automatic_home_clock option -->
+    <string name="automatic_home_clock_summary">Saat bepergian di wilayah dengan waktu yang berbeda, tambahkan jam untuk rumah</string>
+    <!-- Title in the preferences change the time zone for the user's home -->
+    <string name="home_time_zone">Zona waktu domestik</string>
+    <!-- Title in a list dialog box to pick a time zone for the user's home -->
+    <string name="home_time_zone_title">Zona waktu domestik</string>
+    <!-- Textual content of the button to discard the current dialog values and close the dialog -->
+    <string name="time_picker_cancel">Batal</string>
+    <!-- Textual content of the button to update an alarm with the current dialog values -->
+    <string name="time_picker_set">Oke</string>
+    <string name="time_picker_time_seperator">:</string>
+    <!--  place holder for am/pm label when it is not set -->
+    <string name="time_picker_ampm_label">--</string>
+    <!-- add 00 as minutes to the time when pressing this button -->
+    <string name="time_picker_00_label">:00</string>
+    <!-- add 30 as minutes to the time when pressing this button -->
+    <string name="time_picker_30_label">:30</string>
+    <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
     -->
-  <string name="city_checked"><xliff:g id="City_NAME">%s</xliff:g> terpilih</string>
-  <!--
+    <string name="city_checked"><xliff:g id="City_NAME">%s</xliff:g> terpilih</string>
+    <!--
         Accessibility string read when a city checkbox is unchecked.
         Ex. "Ann Arbor unchecked"
     -->
-  <string name="city_unchecked"><xliff:g id="CITY_NAME">%s</xliff:g> dihapus centangnya</string>
-  <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
-  <string-array name="timezone_labels">
-    <item>"Pulau Marshall"</item>
-    <item>"Pulau Midway"</item>
-    <item>"Hawai"</item>
-    <item>"Alaska"</item>
-    <item>"Waktu Pasifik"</item>
-    <item>"Tijuana"</item>
-    <item>"Arizona"</item>
-    <item>"Chihuahua"</item>
-    <item>"Waktu Pegunungan"</item>
-    <item>"Amerika Tengah"</item>
-    <item>"Waktu Bagian Tengah"</item>
-    <item>"Kota Meksiko"</item>
-    <item>"Saskatchewan"</item>
-    <item>"Bogota"</item>
-    <item>"Waktu Bagian Timur"</item>
-    <item>"Venezuela"</item>
-    <item>"Waktu Atlantik (Barbados)"</item>
-    <item>"Waktu Atlantik (Kanada)"</item>
-    <item>"Manaus"</item>
-    <item>"Santiago"</item>
-    <item>"Newfoundland"</item>
-    <item>"Brasilia"</item>
-    <item>"Buenos Aires"</item>
-    <item>"Grinlandia"</item>
-    <item>"Montevideo"</item>
-    <item>"Atlantik Tengah"</item>
-    <item>"Azores"</item>
-    <item>"Kepulauan Cape Verde"</item>
-    <item>"Casablanca"</item>
-    <item>"London, Dublin"</item>
-    <item>"Amsterdam, Berlin"</item>
-    <item>"Belgrade"</item>
-    <item>"Brussels"</item>
-    <item>"Sarajevo"</item>
-    <item>"Windhoek"</item>
-    <item>"Waktu Afrika Barat"</item>
-    <item>"Amman, Yordania"</item>
-    <item>"Athena, Istanbul"</item>
-    <item>"Beirut, Lebanon"</item>
-    <item>"Kairo"</item>
-    <item>"Helsinki"</item>
-    <item>"Yerusalem"</item>
-    <item>"Minsk"</item>
-    <item>"Harare"</item>
-    <item>"Bagdad"</item>
-    <item>"Moskow"</item>
-    <item>"Kuwait"</item>
-    <item>"Nairobi"</item>
-    <item>"Teheran"</item>
-    <item>"Baku"</item>
-    <item>"Tbilisi"</item>
-    <item>"Yerevan"</item>
-    <item>"Dubai"</item>
-    <item>"Kabul"</item>
-    <item>"Islamabad, Karachi"</item>
-    <item>"Ural'sk"</item>
-    <item>"Yekaterinburg"</item>
-    <item>"Kolkata"</item>
-    <item>"Srilanka"</item>
-    <item>"Kathmandu"</item>
-    <item>"Astana"</item>
-    <item>"Yangon"</item>
-    <item>"Krasnoyarsk"</item>
-    <item>"Bangkok"</item>
-    <item>"Beijing"</item>
-    <item>"Hongkong"</item>
-    <item>"Irkutsk"</item>
-    <item>"Kuala Lumpur"</item>
-    <item>"Perth"</item>
-    <item>"Taipei"</item>
-    <item>"Seoul"</item>
-    <item>"Tokyo, Osaka"</item>
-    <item>"Yakutsk"</item>
-    <item>"Adelaide"</item>
-    <item>"Darwin"</item>
-    <item>"Brisbane"</item>
-    <item>"Hobart"</item>
-    <item>"Sydney, Canberra"</item>
-    <item>"Vladivostok"</item>
-    <item>"Guam"</item>
-    <item>"Magadan"</item>
-    <item>"Auckland"</item>
-    <item>"Fiji"</item>
-    <item>"Tonga"</item>
-    <item>"Jakarta"</item>
-  </string-array>
-  <!-- Choices for timezones, must be kept in sync with timezone_values. -->
-  <!-- Header in the preferences settings for the section pertaining to alarms -->
-  <string name="alarm_settings">Alarm</string>
-  <!-- Describes the service that processes actions originating from timer notifications. -->
-  <string name="timer_service_desc">Memproses tindakan dari notifikasi pewaktu.</string>
-  <!-- Describes the service that processes actions originating from stopwatch notifications. -->
-  <string name="stopwatch_service_desc">Memproses tindakan dari notifikasi stopwatch.</string>
-  <!-- Description for the paused stop watch -->
-  <string name="swn_paused">Dijeda</string>
-  <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
+    <string name="city_unchecked"><xliff:g id="CITY_NAME">%s</xliff:g> dihapus centangnya</string>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
+    <string-array name="timezone_labels">
+        <item>"Pulau Marshall"</item>
+        <item>"Pulau Midway"</item>
+        <item>"Hawai"</item>
+        <item>"Alaska"</item>
+        <item>"Waktu Pasifik"</item>
+        <item>"Tijuana"</item>
+        <item>"Arizona"</item>
+        <item>"Chihuahua"</item>
+        <item>"Waktu Pegunungan"</item>
+        <item>"Amerika Tengah"</item>
+        <item>"Waktu Bagian Tengah"</item>
+        <item>"Kota Meksiko"</item>
+        <item>"Saskatchewan"</item>
+        <item>"Bogota"</item>
+        <item>"Waktu Bagian Timur"</item>
+        <item>"Venezuela"</item>
+        <item>"Waktu Atlantik (Barbados)"</item>
+        <item>"Waktu Atlantik (Kanada)"</item>
+        <item>"Manaus"</item>
+        <item>"Santiago"</item>
+        <item>"Newfoundland"</item>
+        <item>"Brasilia"</item>
+        <item>"Buenos Aires"</item>
+        <item>"Grinlandia"</item>
+        <item>"Montevideo"</item>
+        <item>"Atlantik Tengah"</item>
+        <item>"Azores"</item>
+        <item>"Kepulauan Cape Verde"</item>
+        <item>"Casablanca"</item>
+        <item>"London, Dublin"</item>
+        <item>"Amsterdam, Berlin"</item>
+        <item>"Belgrade"</item>
+        <item>"Brussels"</item>
+        <item>"Sarajevo"</item>
+        <item>"Windhoek"</item>
+        <item>"Waktu Afrika Barat"</item>
+        <item>"Amman, Yordania"</item>
+        <item>"Athena, Istanbul"</item>
+        <item>"Beirut, Lebanon"</item>
+        <item>"Kairo"</item>
+        <item>"Helsinki"</item>
+        <item>"Yerusalem"</item>
+        <item>"Minsk"</item>
+        <item>"Harare"</item>
+        <item>"Bagdad"</item>
+        <item>"Moskow"</item>
+        <item>"Kuwait"</item>
+        <item>"Nairobi"</item>
+        <item>"Teheran"</item>
+        <item>"Baku"</item>
+        <item>"Tbilisi"</item>
+        <item>"Yerevan"</item>
+        <item>"Dubai"</item>
+        <item>"Kabul"</item>
+        <item>"Islamabad, Karachi"</item>
+        <item>"Ural'sk"</item>
+        <item>"Yekaterinburg"</item>
+        <item>"Kolkata"</item>
+        <item>"Srilanka"</item>
+        <item>"Kathmandu"</item>
+        <item>"Astana"</item>
+        <item>"Yangon"</item>
+        <item>"Krasnoyarsk"</item>
+        <item>"Bangkok"</item>
+        <item>"Beijing"</item>
+        <item>"Hongkong"</item>
+        <item>"Irkutsk"</item>
+        <item>"Kuala Lumpur"</item>
+        <item>"Perth"</item>
+        <item>"Taipei"</item>
+        <item>"Seoul"</item>
+        <item>"Tokyo, Osaka"</item>
+        <item>"Yakutsk"</item>
+        <item>"Adelaide"</item>
+        <item>"Darwin"</item>
+        <item>"Brisbane"</item>
+        <item>"Hobart"</item>
+        <item>"Sydney, Canberra"</item>
+        <item>"Vladivostok"</item>
+        <item>"Guam"</item>
+        <item>"Magadan"</item>
+        <item>"Auckland"</item>
+        <item>"Fiji"</item>
+        <item>"Tonga"</item>
+        <item>"Jakarta"</item>
+    </string-array>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. -->
+    <!-- Header in the preferences settings for the section pertaining to alarms -->
+    <string name="alarm_settings">Alarm</string>
+    <!-- Describes the service that processes actions originating from timer notifications. -->
+    <string name="timer_service_desc">Memproses tindakan dari notifikasi pewaktu.</string>
+    <!-- Describes the service that processes actions originating from stopwatch notifications. -->
+    <string name="stopwatch_service_desc">Memproses tindakan dari notifikasi stopwatch.</string>
+    <!-- Description for the paused stop watch -->
+    <string name="swn_paused">Dijeda</string>
+    <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
          be on the right even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_right">Geser ke kanan untuk menutup</string>
-  <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
+    <string name="description_direction_right">Geser ke kanan untuk menutup</string>
+    <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_left">Geser ke kiri untuk menunda</string>
-  <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
+    <string name="description_direction_left">Geser ke kiri untuk menunda</string>
+    <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_both">Gesek ke kiri untuk menunda atau ke kanan untuk menutup</string>
-  <!-- Header in the preferences settings for the section pertaining to timers. -->
-  <string name="timer_settings">Timer</string>
-  <!-- Description for timer ringtone setting. -->
-  <string name="timer_ringtone_title">Nada dering pewaktu</string>
-  <!-- Description when timer is stopped. -->
-  <string name="timer_stopped">Pewaktu dihentikan</string>
-  <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
-  <string name="timer_paused">Pewaktu dijeda</string>
-  <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
-  <string name="timers_stopped"><xliff:g id="NUMBER">%d</xliff:g> pewaktu dijeda</string>
-  <!-- Notification text when multiple timers are paused. -->
-  <string name="all_timers_stopped_notif">Sentuh untuk melihat pewaktu Anda</string>
-  <!-- Notification title when at least one timer, of those in use, is counting down. -->
-  <string name="timers_in_use"><xliff:g id="NUMBER">%d</xliff:g> timer</string>
-  <!-- Notification text when at least one timer, of those in use, is counting down. -->
-  <string name="next_timer_notif">Pewaktu berikutnya: <xliff:g id="Time_REMAINING">%s</xliff:g></string>
-  <!-- screensaver settings strings -->
-  <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="screensaver_settings">Setelan Screen Saver</string>
-  <!-- Title for check box to pick intensity of display diminuation during dream mode -->
-  <string name="night_mode_title">Mode malam</string>
-  <!-- Describes intensity of display diminuation during dream mode -->
-  <string name="night_mode_summary">Tampilan yang sangat redup (untuk ruangan gelap)</string>
-  <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
-  <string name="expand_alarm">Luaskan alarm</string>
-  <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
-  <string name="collapse_alarm">Ciutkan alarm</string>
-  <!-- Description of the button to undo change to alarm -->
-  <string name="alarm_undo">urungkan</string>
-  <!-- Toast content when an alarm was deleted  -->
-  <string name="alarm_deleted">Alarm dihapus</string>
-  <!-- Select the source of the alarm -->
-  <string name="alarm_select">Pilih Alarm</string>
-  <!-- Select the ringtone as alarm -->
-  <string name="alarm_select_ringtone">Nada dering</string>
-  <!-- Select the alarm from external device -->
-  <string name="alarm_select_external">Musik</string>
-  <!-- Ok for selection -->
-  <string name="alarm_select_ok">Oke</string>
-  <!-- Cancel for selection -->
-  <string name="alarm_select_cancel">Batal</string>
-  <!-- slash between date and next alarm in the clock -->
-  <string name="slash">/</string>
-  <!-- slash between date and next alarm in the clock -->
-  <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
-  <string name="next_alarm_description">Alarm berikutnya: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
-  <!-- Displays the number of alarms selected from the list of alarms. -->
-  <string name="alarms_selected"><xliff:g id="ALARMS">%d</xliff:g> dipilih</string>
-  <!-- message used by the talkback accessibility app to say that something was deleted -->
-  <string name="deleted_message">Dihapus</string>
-  <!-- Alarm deletion confirmation message-->
-  <plurals name="alarm_delete_confirmation">
-    <!-- Confirmation for one alarm -->
-    <!-- Confirmation more than one alarm  -->
-    <item quantity="other">Hapus alarm yang dipilih?</item>
-  </plurals>
-  <!-- Timer deletion confirmation -->
-  <string name="timer_delete_confirmation">Hapus pewaktu ini?</string>
-  <!-- world clock deletion confirmation -->
-  <string name="city_delete_confirmation">Hapus kota ini?</string>
-  <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="digital_gadget">Jam digital</string>
-  <!-- format strings for clocks -->
-  <!-- Font size for AM/PM should match widget_label_font_size -->
-  <!-- Font size for AM/PM should match bottom_text_size -->
-  <!-- Font size for AM/PM should match label_font_size -->
-  <!-- Font size for AM/PM should match alarm_label_size -->
-  <!-- String for no alarms -->
-  <string name="no_alarms">Tidak Ada Alarm</string>
-  <!-- String for no alarms set [CHAR LIMIT=24] -->
-  <string name="no_alarms_set">Tak ada alarm</string>
-  <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
-  <string name="no_upcoming_alarms">TIDAK ADA ALARM MENDATANG</string>
-  <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
+    <string name="description_direction_both">Gesek ke kiri untuk menunda atau ke kanan untuk menutup</string>
+    <!-- Header in the preferences settings for the section pertaining to timers. -->
+    <string name="timer_settings">Timer</string>
+    <!-- Description for timer ringtone setting. -->
+    <string name="timer_ringtone_title">Nada dering pewaktu</string>
+    <!-- Description when timer is stopped. -->
+    <string name="timer_stopped">Pewaktu dihentikan</string>
+    <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
+    <string name="timer_paused">Pewaktu dijeda</string>
+    <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
+    <string name="timers_stopped"><xliff:g id="NUMBER">%d</xliff:g> pewaktu dijeda</string>
+    <!-- Notification text when multiple timers are paused. -->
+    <string name="all_timers_stopped_notif">Sentuh untuk melihat pewaktu Anda</string>
+    <!-- Notification title when at least one timer, of those in use, is counting down. -->
+    <string name="timers_in_use"><xliff:g id="NUMBER">%d</xliff:g> timer</string>
+    <!-- Notification text when at least one timer, of those in use, is counting down. -->
+    <string name="next_timer_notif">Pewaktu berikutnya: <xliff:g id="Time_REMAINING">%s</xliff:g></string>
+    <!-- screensaver settings strings -->
+    <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="screensaver_settings">Setelan Screen Saver</string>
+    <!-- Title for check box to pick intensity of display diminuation during dream mode -->
+    <string name="night_mode_title">Mode malam</string>
+    <!-- Describes intensity of display diminuation during dream mode -->
+    <string name="night_mode_summary">Tampilan yang sangat redup (untuk ruangan gelap)</string>
+    <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
+    <string name="expand_alarm">Luaskan alarm</string>
+    <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
+    <string name="collapse_alarm">Ciutkan alarm</string>
+    <!-- Description of the button to undo change to alarm -->
+    <string name="alarm_undo">urungkan</string>
+    <!-- Toast content when an alarm was deleted  -->
+    <string name="alarm_deleted">Alarm dihapus</string>
+    <!-- Select the source of the alarm -->
+    <string name="alarm_select">Pilih Alarm</string>
+    <!-- Select the ringtone as alarm -->
+    <string name="alarm_select_ringtone">Nada dering</string>
+    <!-- Select the alarm from external device -->
+    <string name="alarm_select_external">Musik</string>
+    <!-- Ok for selection -->
+    <string name="alarm_select_ok">Oke</string>
+    <!-- Cancel for selection -->
+    <string name="alarm_select_cancel">Batal</string>
+    <!-- slash between date and next alarm in the clock -->
+    <string name="slash">/</string>
+    <!-- slash between date and next alarm in the clock -->
+    <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
+    <string name="next_alarm_description">Alarm berikutnya: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
+    <!-- Displays the number of alarms selected from the list of alarms. -->
+    <string name="alarms_selected"><xliff:g id="ALARMS">%d</xliff:g> dipilih</string>
+    <!-- message used by the talkback accessibility app to say that something was deleted -->
+    <string name="deleted_message">Dihapus</string>
+    <!-- Alarm deletion confirmation message-->
+    <plurals name="alarm_delete_confirmation">
+        <!-- Confirmation for one alarm -->
+        <!-- Confirmation more than one alarm  -->
+        <item quantity="other">Hapus alarm yang dipilih?</item>
+    </plurals>
+    <!-- Timer deletion confirmation -->
+    <string name="timer_delete_confirmation">Hapus pewaktu ini?</string>
+    <!-- world clock deletion confirmation -->
+    <string name="city_delete_confirmation">Hapus kota ini?</string>
+    <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="digital_gadget">Jam digital</string>
+    <!-- format strings for clocks -->
+    <!-- Font size for AM/PM should match widget_label_font_size -->
+    <!-- Font size for AM/PM should match bottom_text_size -->
+    <!-- Font size for AM/PM should match label_font_size -->
+    <!-- Font size for AM/PM should match alarm_label_size -->
+    <!-- String for no alarms -->
+    <string name="no_alarms">Tidak Ada Alarm</string>
+    <!-- String for no alarms set [CHAR LIMIT=24] -->
+    <string name="no_alarms_set">Tak ada alarm</string>
+    <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
+    <string name="no_upcoming_alarms">TIDAK ADA ALARM MENDATANG</string>
+    <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
      or 27:68pm.
     First %d represents hour, second %d represents minutes, %s represents am/pm,
     If no am/pm is passed in (e.g. the locale uses 24h time) only hour and minute are printed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_time">Waktu tidak benar <xliff:g id="INVALID_HOUR">%d</xliff:g>.<xliff:g id="INVALID_MINUTES">%d</xliff:g> <xliff:g id="INVALID_AMPM">%s</xliff:g></string>
-  <!-- String that represents that no alarm has been specified for a requested hour:minutes.
+    <string name="invalid_time">Waktu tidak benar <xliff:g id="INVALID_HOUR">%d</xliff:g>.<xliff:g id="INVALID_MINUTES">%d</xliff:g> <xliff:g id="INVALID_AMPM">%s</xliff:g></string>
+    <!-- String that represents that no alarm has been specified for a requested hour:minutes.
     This happens when a user sends a voice command 'dismiss my alarm at 3:00pm' but they have no
     alarms specified for that time. %s represents the time of the alarm.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_at">Tidak ada alarm pukul <xliff:g id="ALARM_TIME_HOUR">%d</xliff:g>.<xliff:g id="ALARM_TIME_MINUTES">%d</xliff:g></string>
-  <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
+    <string name="no_alarm_at">Tidak ada alarm pukul <xliff:g id="ALARM_TIME_HOUR">%d</xliff:g>.<xliff:g id="ALARM_TIME_MINUTES">%d</xliff:g></string>
+    <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
     a user sends a voice command 'dismiss next alarm' or 'dismiss all of my alarms' but they have
     no alarms scheduled in the app.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_scheduled_alarms">Tidak ada jadwal alarm</string>
-  <!-- String that represents that the user specified that they want to select an alarm to
+    <string name="no_scheduled_alarms">Tidak ada jadwal alarm</string>
+    <!-- String that represents that the user specified that they want to select an alarm to
     dismiss by specifying a 'label' but they didn't specify any labels.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_label_specified">Tidak ada label ditentukan</string>
-  <!-- String that represents that no alarm has been specified for a requested label.
+    <string name="no_label_specified">Tidak ada label ditentukan</string>
+    <!-- String that represents that no alarm has been specified for a requested label.
     This happens when a user sends a voice command 'dismiss my alarm with label pick up kids'
      but they have no alarms with that label.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarms_with_label">Tidak ada alarm yang berisi label tersebut</string>
-  <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
+    <string name="no_alarms_with_label">Tidak ada alarm yang berisi label tersebut</string>
+    <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
     'lap the stopwatch' when the stopwatch wasn't running so the command wasn't executed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_isnt_running">Stopwatch tidak berjalan</string>
-  <!-- String that represents that the user has successfully sent a voice command pausing
+    <string name="stopwatch_isnt_running">Stopwatch tidak berjalan</string>
+    <!-- String that represents that the user has successfully sent a voice command pausing
      the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_paused">Stopwatch dijeda</string>
-  <!-- String that represents that the user has successfully sent a voice command resetting
+    <string name="stopwatch_paused">Stopwatch dijeda</string>
+    <!-- String that represents that the user has successfully sent a voice command resetting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_reset">Stopwatch disetel ulang</string>
-  <!-- String that represents that the user has successfully sent a voice command lapping
+    <string name="stopwatch_reset">Stopwatch disetel ulang</string>
+    <!-- String that represents that the user has successfully sent a voice command lapping
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_lapped">Stopwatch diputar</string>
-  <!-- String that represents that the user has successfully sent a voice command starting
+    <string name="stopwatch_lapped">Stopwatch diputar</string>
+    <!-- String that represents that the user has successfully sent a voice command starting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_started">Stopwatch dimulai</string>
-  <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
+    <string name="stopwatch_started">Stopwatch dimulai</string>
+    <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
     there was no alarm scheduled for that time (they might have had an alarm for 3pm on the list
     but it was disabled).
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_scheduled_for_this_time">Tidak ada jadwal alarm untuk waktu ini</string>
-  <!-- String that represents that the user has dismissed an alarm through a voice action.
+    <string name="no_alarm_scheduled_for_this_time">Tidak ada jadwal alarm untuk waktu ini</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_dismissed">Alarm pukul <xliff:g id="ALARM_TIME">%s</xliff:g> ditutup</string>
-  <!-- String that represents that the user has dismissed an alarm through a voice action.
+    <string name="alarm_is_dismissed">Alarm pukul <xliff:g id="ALARM_TIME">%s</xliff:g> ditutup</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_set">Alarm disetel untuk <xliff:g id="ALARM_TIME">%s</xliff:g></string>
-  <!-- String that represents that the user attempted to control a timer with a voice action when
+    <string name="alarm_is_set">Alarm disetel untuk <xliff:g id="ALARM_TIME">%s</xliff:g></string>
+    <!-- String that represents that the user attempted to control a timer with a voice action when
     no timers are defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_timers_exist">Tidak ada pewaktu</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action when
+    <string name="no_timers_exist">Tidak ada pewaktu</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action when
     more than one timer is defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="too_many_timers_exist">Ada lebih dari satu pewaktu</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action but
+    <string name="too_many_timers_exist">Ada lebih dari satu pewaktu</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action but
     the timer could not be located.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_does_not_exist">Pewaktu telah dihapus.</string>
-  <!-- String that represents that the user has successfully created a timer through a voice action.
+    <string name="timer_does_not_exist">Pewaktu telah dihapus.</string>
+    <!-- String that represents that the user has successfully created a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_created">Pewaktu telah dibuat</string>
-  <!-- String that represents that the user has successfully reset a timer through a voice action.
+    <string name="timer_created">Pewaktu telah dibuat</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_was_reset">Pewaktu disetel ulang</string>
-  <!-- String that represents that the user has successfully reset a timer through a voice action
+    <string name="timer_was_reset">Pewaktu disetel ulang</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action
     that was marked as deleteAfterUse and was thus deleted instead.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_deleted">Pewaktu dihapus</string>
-  <!-- String that represents that the user has successfully started a timer through a voice action.
+    <string name="timer_deleted">Pewaktu dihapus</string>
+    <!-- String that represents that the user has successfully started a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_started">Pewaktu dimulai</string>
-  <!-- String that represents that the user attempted to start a timer through a voice action
+    <string name="timer_started">Pewaktu dimulai</string>
+    <!-- String that represents that the user attempted to start a timer through a voice action
     but specified invalid length.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_timer_length">Lamanya pewaktu tidak valid</string>
-  <!-- String that represents that the user attempted to add or delete a world clock through
+    <string name="invalid_timer_length">Lamanya pewaktu tidak valid</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but they didn't specify a city so no world clock was selected.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_city_selected">Tidak ada kota yang dipilih</string>
-  <!-- String that represents that the user attempted to add or delete a world clock through
+    <string name="no_city_selected">Tidak ada kota yang dipilih</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but the city they specified wasn't listed in the database.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_you_specified_is_not_available">Kota yang Anda sebutkan tidak tersedia</string>
-  <!-- String that represents that the user attempted to add a world clock through a voice action
+    <string name="the_city_you_specified_is_not_available">Kota yang Anda sebutkan tidak tersedia</string>
+    <!-- String that represents that the user attempted to add a world clock through a voice action
     but the city they specified is already added to the list.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_already_added">Kota tersebut telah ditambahkan</string>
-  <!-- String that represents that the user successfully added a world clock through a
+    <string name="the_city_already_added">Kota tersebut telah ditambahkan</string>
+    <!-- String that represents that the user successfully added a world clock through a
     voice action
     %s represents the name of the city they added.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_added"><xliff:g id="CITY_NAME">%s</xliff:g> ditambahkan</string>
-  <!-- String that represents that the user successfully deleted a world clock through
+    <string name="city_added"><xliff:g id="CITY_NAME">%s</xliff:g> ditambahkan</string>
+    <!-- String that represents that the user successfully deleted a world clock through
     a voice action
     %s represents the name of the city they deleted.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_deleted"><xliff:g id="CITY_NAME">%s</xliff:g> dihapus</string>
-  <!-- String that represents that the user attempted to dismiss an alarm that is more than
+    <string name="city_deleted"><xliff:g id="CITY_NAME">%s</xliff:g> dihapus</string>
+    <!-- String that represents that the user attempted to dismiss an alarm that is more than
     24 hours away
     %s represents the time of the alarm (e.g. 15:39)
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">Alarm pukul <xliff:g id="ALARM_TIME">%s</xliff:g> belum dapat ditutup, masih 24 jam lagi</string>
-  <!-- String that shows up in the action bar for the Picker Activity
+    <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">Alarm pukul <xliff:g id="ALARM_TIME">%s</xliff:g> belum dapat ditutup, masih 24 jam lagi</string>
+    <!-- String that shows up in the action bar for the Picker Activity
          where a use gets to pick which alarm to dismiss
    [CHAR LIMIT=NONE]
    -->
-  <string name="dismiss_alarm">Tutup alarm</string>
-  <!-- String that represents that further action is needed from the user in case their
+    <string name="dismiss_alarm">Tutup alarm</string>
+    <!-- String that represents that further action is needed from the user in case their
     voice command was ambiguous or there are more than 1 alarms that match their request.
     The user needs to choose an alarm they want to dismiss through the UI
    [CHAR LIMIT=NONE]
    -->
-  <string name="pick_alarm_to_dismiss">Pilih alarm mana yang harus ditutup</string>
-  <!-- String that represents that the user doesn't have any alarms firing at the moment.
+    <string name="pick_alarm_to_dismiss">Pilih alarm mana yang harus ditutup</string>
+    <!-- String that represents that the user doesn't have any alarms firing at the moment.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_firing_alarms">Tidak ada alarm yang aktif</string>
-  <!-- String that represents that the user has snoozed an alarm through a voice action for 10
+    <string name="no_firing_alarms">Tidak ada alarm yang aktif</string>
+    <!-- String that represents that the user has snoozed an alarm through a voice action for 10
     minutes.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_snoozed">Alarm pukul <xliff:g id="ALARM_TIME">%s</xliff:g> ditunda selama 10 menit</string>
-  <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
-  <string name="custom_ringtone">Nada dering khusus</string>
-  <!-- Ringtone selection default" -->
-  <string name="ringtone_default">"Nada dering bawaan"</string>
-  <!--used for prompt to user storage permission status-->
-  <string name="have_denied_storage_permission">Anda telah menolak izin penyimpanan, dan dapat menambahkan izin ini secara manual lagi di setelan aplikasi</string>
+    <string name="alarm_is_snoozed">Alarm pukul <xliff:g id="ALARM_TIME">%s</xliff:g> ditunda selama 10 menit</string>
+    <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+    <string name="custom_ringtone">Nada dering khusus</string>
+    <!-- Ringtone selection default" -->
+    <string name="ringtone_default">"Nada dering bawaan"</string>
+    <!--used for prompt to user storage permission status-->
+    <string name="have_denied_storage_permission">Anda telah menolak izin penyimpanan, dan dapat menambahkan izin ini secara manual lagi di setelan aplikasi</string>
 </resources>

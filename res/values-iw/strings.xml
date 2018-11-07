@@ -18,114 +18,114 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- -->
-  <!-- Label shown on launcher icon -->
-  <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
-  <string name="app_label">שעון</string>
-  <!-- Title for AlarmClock activity -->
-  <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="alarm_list_title">התראות</string>
-  <!-- Menu item on Alarm Clock screen: Add alarm -->
-  <string name="add_alarm">הוסף צלצול</string>
-  <!-- Menu item on Alarm Clock screen: Desk clock -->
-  <string name="menu_desk_clock">שעון שולחני</string>
-  <!-- Menu item on Alarm Clock screen: Edit alarm -->
-  <string name="menu_edit_alarm">ערוך התראה</string>
-  <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
-  <string name="delete_alarm">מחק התראה</string>
-  <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
-  <string name="enable_alarm">הפעל התראה</string>
-  <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
-  <string name="disable_alarm">כבה את ההתראה</string>
-  <!-- Delete alarm confirmation dialog message. -->
-  <string name="delete_alarm_confirm">למחוק צלצול זה?</string>
-  <!-- Menu item on Alarm Clock screen: Show clock -->
-  <string name="show_clock">הצג שעון</string>
-  <!-- Menu item on Alarm Clock screen: Hide clock -->
-  <string name="hide_clock">הסתר שעון</string>
-  <!-- Setting label on Set alarm screen: Label -->
-  <string name="label">תווית</string>
-  <!-- Content description for alarm on/off switch in On state -->
-  <string name="on_switch">פועל</string>
-  <!-- Content description for alarm on/off switch in Off state -->
-  <string name="off_switch">כבוי</string>
-  <!-- Default label to display for an alarm -->
-  <string name="default_label">שעון מעורר</string>
-  <!-- Preference category on Alarm Settings screen: Set alarm -->
-  <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="set_alarm">הגדר צלצול</string>
-  <!-- Setting labels on Set alarm screen: Vibration on or off -->
-  <string name="alarm_vibrate">רטט</string>
-  <!-- Setting labels on Set alarm screen: Repeat -->
-  <string name="alarm_repeat">חוזר</string>
-  <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
-  <string name="alert">צלצול שעון מעורר</string>
-  <!-- Title of default ringtone played when a timer expires. -->
-  <string name="default_timer_ringtone_title">הטיימר סיים</string>
-  <!-- Title of silent ringtone played when a timer expires. -->
-  <string name="silent_timer_ringtone_title">שקט</string>
-  <!-- Label on expanded alarm edit view. -->
-  <string name="ringtone">רינגטון</string>
-  <!-- Setting labels on Set alarm screen: Set time  -->
-  <string name="time">שעה</string>
-  <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
-  <string name="alarm_tomorrow">מחר</string>
-  <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
-  <string name="alarm_today">היום</string>
-  <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
-  <string name="alarm_alert_wake_up">תתעורר!</string>
-  <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
-  <string name="alarm_alert_off_action_text">כבוי</string>
-  <!-- Button labels on the alarm dialog: Dismiss -->
-  <string name="alarm_alert_dismiss_text">דחה</string>
-  <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
-  <string name="alarm_alert_dismiss_now_text">סגור כעת</string>
-  <!-- Alarm Alert screen: this message is shown after an alarm rung
+    <!-- -->
+    <!-- Label shown on launcher icon -->
+    <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
+    <string name="app_label">שעון</string>
+    <!-- Title for AlarmClock activity -->
+    <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="alarm_list_title">התראות</string>
+    <!-- Menu item on Alarm Clock screen: Add alarm -->
+    <string name="add_alarm">הוסף צלצול</string>
+    <!-- Menu item on Alarm Clock screen: Desk clock -->
+    <string name="menu_desk_clock">שעון שולחני</string>
+    <!-- Menu item on Alarm Clock screen: Edit alarm -->
+    <string name="menu_edit_alarm">ערוך התראה</string>
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="delete_alarm">מחק התראה</string>
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+    <string name="enable_alarm">הפעל התראה</string>
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+    <string name="disable_alarm">כבה את ההתראה</string>
+    <!-- Delete alarm confirmation dialog message. -->
+    <string name="delete_alarm_confirm">למחוק צלצול זה?</string>
+    <!-- Menu item on Alarm Clock screen: Show clock -->
+    <string name="show_clock">הצג שעון</string>
+    <!-- Menu item on Alarm Clock screen: Hide clock -->
+    <string name="hide_clock">הסתר שעון</string>
+    <!-- Setting label on Set alarm screen: Label -->
+    <string name="label">תווית</string>
+    <!-- Content description for alarm on/off switch in On state -->
+    <string name="on_switch">פועל</string>
+    <!-- Content description for alarm on/off switch in Off state -->
+    <string name="off_switch">כבוי</string>
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">שעון מעורר</string>
+    <!-- Preference category on Alarm Settings screen: Set alarm -->
+    <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="set_alarm">הגדר צלצול</string>
+    <!-- Setting labels on Set alarm screen: Vibration on or off -->
+    <string name="alarm_vibrate">רטט</string>
+    <!-- Setting labels on Set alarm screen: Repeat -->
+    <string name="alarm_repeat">חוזר</string>
+    <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+    <string name="alert">צלצול שעון מעורר</string>
+    <!-- Title of default ringtone played when a timer expires. -->
+    <string name="default_timer_ringtone_title">הטיימר סיים</string>
+    <!-- Title of silent ringtone played when a timer expires. -->
+    <string name="silent_timer_ringtone_title">שקט</string>
+    <!-- Label on expanded alarm edit view. -->
+    <string name="ringtone">רינגטון</string>
+    <!-- Setting labels on Set alarm screen: Set time  -->
+    <string name="time">שעה</string>
+    <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
+    <string name="alarm_tomorrow">מחר</string>
+    <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
+    <string name="alarm_today">היום</string>
+    <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
+    <string name="alarm_alert_wake_up">תתעורר!</string>
+    <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
+    <string name="alarm_alert_off_action_text">כבוי</string>
+    <!-- Button labels on the alarm dialog: Dismiss -->
+    <string name="alarm_alert_dismiss_text">דחה</string>
+    <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+    <string name="alarm_alert_dismiss_now_text">סגור כעת</string>
+    <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
-  <string name="alarm_missed_title">החמצת התראה</string>
-  <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+    <string name="alarm_missed_title">החמצת התראה</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <string name="alarm_alert_snoozed_text">מושהית</string>
-  <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+    <string name="alarm_alert_snoozed_text">מושהית</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the word 'Snoozed' in two separate lines or example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <plurals name="alarm_alert_snooze_duration">
-    <!-- Duration for one minute -->
-    <item quantity="one">דקה אחת</item>
-    <item quantity="two"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
-    <item quantity="many"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
-  </plurals>
-  <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
-  <string name="alarm_alert_off_text">ההתראה כבויה</string>
-  <!-- Button labels on the alarm dialog: Snooze -->
-  <string name="alarm_alert_snooze_text">נודניק</string>
-  <!-- Toast that appears after Alarm is snoozed from the Alarm
+    <plurals name="alarm_alert_snooze_duration">
+        <!-- Duration for one minute -->
+        <item quantity="one">דקה אחת</item>
+        <item quantity="two"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
+        <item quantity="many"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
+    </plurals>
+    <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
+    <string name="alarm_alert_off_text">ההתראה כבויה</string>
+    <!-- Button labels on the alarm dialog: Snooze -->
+    <string name="alarm_alert_snooze_text">נודניק</string>
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
-  <plurals name="alarm_alert_snooze_set">
-    <!-- Duration for one minute -->
-    <item quantity="one">עובר למצב נודניק למשך דקה אחת.</item>
-    <item quantity="two">עובר למצב נודניק למשך <xliff:g id="MINUTES">%d</xliff:g> דקות.</item>
-    <item quantity="many">עובר למצב נודניק למשך <xliff:g id="MINUTES">%d</xliff:g> דקות.</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other">עובר למצב נודניק למשך <xliff:g id="MINUTES">%d</xliff:g> דקות.</item>
-  </plurals>
-  <!-- Text to appear inside a notification while an alarm is snoozing. -->
-  <string name="alarm_alert_snooze_until">מצב נמנום עד <xliff:g id="TIME">%s</xliff:g></string>
-  <!-- Text to appear in the notification title while an alarm is about to go off. -->
-  <string name="alarm_alert_predismiss_title">התראה קרובה</string>
-  <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
-  <string name="missed_alarm_has_been_deleted">ההתראה שהחמצת נמחקה</string>
-  <!-- 0: nothing
+    <plurals name="alarm_alert_snooze_set">
+        <!-- Duration for one minute -->
+        <item quantity="one">עובר למצב נודניק למשך דקה אחת.</item>
+        <item quantity="two">עובר למצב נודניק למשך <xliff:g id="MINUTES">%d</xliff:g> דקות.</item>
+        <item quantity="many">עובר למצב נודניק למשך <xliff:g id="MINUTES">%d</xliff:g> דקות.</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">עובר למצב נודניק למשך <xliff:g id="MINUTES">%d</xliff:g> דקות.</item>
+    </plurals>
+    <!-- Text to appear inside a notification while an alarm is snoozing. -->
+    <string name="alarm_alert_snooze_until">מצב נמנום עד <xliff:g id="TIME">%s</xliff:g></string>
+    <!-- Text to appear in the notification title while an alarm is about to go off. -->
+    <string name="alarm_alert_predismiss_title">התראה קרובה</string>
+    <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+    <string name="missed_alarm_has_been_deleted">ההתראה שהחמצת נמחקה</string>
+    <!-- 0: nothing
          1: days
          2:      hours
          3: days hours
@@ -134,731 +134,731 @@
          6:      hours minutes
          7: days hours minutes
     -->
-  <!-- Timer notification: how long from now until timer goes off. -->
-  <string name="timer_notifications_less_min">נותרה פחות מדקה</string>
-  <string name="timer_notifications_hours">נותרו <xliff:g id="HOURS">%1$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
-  <string name="timer_notifications_minutes">נותרו <xliff:g id="MINUTES">%2$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
-  <string name="timer_notifications_hours_minutes">נותרו <xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g></string>
-  <!--
+    <!-- Timer notification: how long from now until timer goes off. -->
+    <string name="timer_notifications_less_min">נותרה פחות מדקה</string>
+    <string name="timer_notifications_hours">נותרו <xliff:g id="HOURS">%1$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
+    <string name="timer_notifications_minutes">נותרו <xliff:g id="MINUTES">%2$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
+    <string name="timer_notifications_hours_minutes">נותרו <xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g></string>
+    <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
     -->
-  <string name="timer_remaining_single">נותרה</string>
-  <!--
+    <string name="timer_remaining_single">נותרה</string>
+    <!--
         Verb inflection to use for multiple time units remaining
         Ex. "2 minutes remaining"
     -->
-  <string name="timer_remaining_multiple">נותרו</string>
-  <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
-  <string-array name="alarm_set">
-    <item>ההתראה הוגדרה לעוד פחות מדקה מעכשיו.</item>
-    <item>ההתראה הוגדרה לעוד <xliff:g id="DAYS">%1$s</xliff:g> מעכשיו.</item>
-    <item>ההתראה הוגדרה לעוד <xliff:g id="HOURS">%2$s</xliff:g> מעכשיו.</item>
-    <item>ההתראה הוגדרה לעוד <xliff:g id="DAYS">%1$s</xliff:g> ו-<xliff:g id="HOURS">%2$s</xliff:g> מעכשיו.</item>
-    <item>הוגדרה התראה לעוד <xliff:g id="MINUTES">%3$s</xliff:g> מעכשיו.</item>
-    <item>ההתראה הוגדרה לעוד <xliff:g id="DAYS">%1$s</xliff:g> ו-<xliff:g id="MINUTES">%3$s</xliff:g> מעכשיו.</item>
-    <item>ההתראה הוגדרה לעוד <xliff:g id="HOURS">%2$s</xliff:g> ו-<xliff:g id="MINUTES">%3$s</xliff:g> מעכשיו.</item>
-    <item>ההתראה הוגדרה לעוד <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> ו-<xliff:g id="MINUTES">%3$s</xliff:g> מעכשיו.</item>
-  </string-array>
-  <!-- Alarm confirmation toast: days -->
-  <plurals name="days">
-    <!-- Duration for one day -->
-    <item quantity="one">יום אחד</item>
-    <item quantity="two"><xliff:g id="NUMBER">%s</xliff:g> ימים</item>
-    <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> ימים</item>
-    <!-- Duration for more than one day -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ימים</item>
-  </plurals>
-  <!-- Alarm confirmation toast and timer notification: hours -->
-  <plurals name="hours">
-    <!-- Duration for one hour -->
-    <item quantity="one">שעה אחת</item>
-    <item quantity="two"><xliff:g id="NUMBER">%s</xliff:g> שעות</item>
-    <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> שעות</item>
-    <!-- Duration for more than one hour -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> שעות</item>
-  </plurals>
-  <!-- Alarm confirmation toast and timer notification: minutes -->
-  <plurals name="minutes">
-    <!-- Duration for one minute -->
-    <item quantity="one">דקה אחת</item>
-    <item quantity="two"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
-    <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
-  </plurals>
-  <!-- Repeat options that appear under an alarm on main Alarm Clock
+    <string name="timer_remaining_multiple">נותרו</string>
+    <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
+    <string-array name="alarm_set">
+        <item>ההתראה הוגדרה לעוד פחות מדקה מעכשיו.</item>
+        <item>ההתראה הוגדרה לעוד <xliff:g id="DAYS">%1$s</xliff:g> מעכשיו.</item>
+        <item>ההתראה הוגדרה לעוד <xliff:g id="HOURS">%2$s</xliff:g> מעכשיו.</item>
+        <item>ההתראה הוגדרה לעוד <xliff:g id="DAYS">%1$s</xliff:g> ו-<xliff:g id="HOURS">%2$s</xliff:g> מעכשיו.</item>
+        <item>הוגדרה התראה לעוד <xliff:g id="MINUTES">%3$s</xliff:g> מעכשיו.</item>
+        <item>ההתראה הוגדרה לעוד <xliff:g id="DAYS">%1$s</xliff:g> ו-<xliff:g id="MINUTES">%3$s</xliff:g> מעכשיו.</item>
+        <item>ההתראה הוגדרה לעוד <xliff:g id="HOURS">%2$s</xliff:g> ו-<xliff:g id="MINUTES">%3$s</xliff:g> מעכשיו.</item>
+        <item>ההתראה הוגדרה לעוד <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> ו-<xliff:g id="MINUTES">%3$s</xliff:g> מעכשיו.</item>
+    </string-array>
+    <!-- Alarm confirmation toast: days -->
+    <plurals name="days">
+        <!-- Duration for one day -->
+        <item quantity="one">יום אחד</item>
+        <item quantity="two"><xliff:g id="NUMBER">%s</xliff:g> ימים</item>
+        <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> ימים</item>
+        <!-- Duration for more than one day -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ימים</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: hours -->
+    <plurals name="hours">
+        <!-- Duration for one hour -->
+        <item quantity="one">שעה אחת</item>
+        <item quantity="two"><xliff:g id="NUMBER">%s</xliff:g> שעות</item>
+        <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> שעות</item>
+        <!-- Duration for more than one hour -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> שעות</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: minutes -->
+    <plurals name="minutes">
+        <!-- Duration for one minute -->
+        <item quantity="one">דקה אחת</item>
+        <item quantity="two"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
+        <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
+    </plurals>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
-  <string name="every_day">מדי יום</string>
-  <!-- Repeat options that appear under an alarm on main Alarm Clock
+    <string name="every_day">מדי יום</string>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
-  <!-- Appears at the top of the Clock Picker screen: Tell user to
+    <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
-  <string name="clock_instructions">בחר שעון</string>
-  <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="analog_gadget">שעון אנלוגי</string>
-  <!-- Help activity name -->
-  <string name="help">עזרה</string>
-  <!-- Settings activity name -->
-  <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="settings">הגדרות</string>
-  <!-- Setting title for changing the snooze duration. -->
-  <string name="snooze_duration_title">משך הנדנוד</string>
-  <plurals name="snooze_duration">
-    <!-- Duration for one minute -->
-    <item quantity="one">דקה אחת</item>
-    <item quantity="two"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
-    <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
-  </plurals>
-  <plurals name="snooze_picker_label">
-    <!-- Duration for one minute -->
-    <item quantity="one">דקה</item>
-    <item quantity="two">דקות</item>
-    <item quantity="many">דקות</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other">דקות</item>
-  </plurals>
-  <!-- Setting title for changing the crescendo duration. -->
-  <string name="crescendo_duration_title">הגבר בהדרגה את עוצמת הקול</string>
-  <!-- Summary value for changing the crescendo duration to 0. -->
-  <string name="no_crescendo_duration">כבוי</string>
-  <!-- Summary value for changing the crescendo duration. -->
-  <string name="crescendo_duration"><xliff:g id="NUMBER">%s</xliff:g> שניות</string>
-  <!-- Setting label when changing the crescendo duration. -->
-  <string name="crescendo_picker_label">שניות</string>
-  <!-- Auto silence preference title -->
-  <string name="auto_silence_title">השתק לאחר</string>
-  <!-- Auto silence summary string set based on the preference value. -->
-  <plurals name="auto_silence_summary">
-    <!-- Duration for one minute -->
-    <item quantity="one">דקה אחת</item>
-    <item quantity="two"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> דקות</item>
-    <item quantity="many"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> דקות</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> דקות</item>
-  </plurals>
-  <!-- Auto silence summary when turned off -->
-  <string name="auto_silence_never">לעולם לא</string>
-  <!-- Entries listed in the ListPreference when invoking the auto silence
+    <string name="clock_instructions">בחר שעון</string>
+    <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="analog_gadget">שעון אנלוגי</string>
+    <!-- Help activity name -->
+    <string name="help">עזרה</string>
+    <!-- Settings activity name -->
+    <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="settings">הגדרות</string>
+    <!-- Setting title for changing the snooze duration. -->
+    <string name="snooze_duration_title">משך הנדנוד</string>
+    <plurals name="snooze_duration">
+        <!-- Duration for one minute -->
+        <item quantity="one">דקה אחת</item>
+        <item quantity="two"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
+        <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
+    </plurals>
+    <plurals name="snooze_picker_label">
+        <!-- Duration for one minute -->
+        <item quantity="one">דקה</item>
+        <item quantity="two">דקות</item>
+        <item quantity="many">דקות</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">דקות</item>
+    </plurals>
+    <!-- Setting title for changing the crescendo duration. -->
+    <string name="crescendo_duration_title">הגבר בהדרגה את עוצמת הקול</string>
+    <!-- Summary value for changing the crescendo duration to 0. -->
+    <string name="no_crescendo_duration">כבוי</string>
+    <!-- Summary value for changing the crescendo duration. -->
+    <string name="crescendo_duration"><xliff:g id="NUMBER">%s</xliff:g> שניות</string>
+    <!-- Setting label when changing the crescendo duration. -->
+    <string name="crescendo_picker_label">שניות</string>
+    <!-- Auto silence preference title -->
+    <string name="auto_silence_title">השתק לאחר</string>
+    <!-- Auto silence summary string set based on the preference value. -->
+    <plurals name="auto_silence_summary">
+        <!-- Duration for one minute -->
+        <item quantity="one">דקה אחת</item>
+        <item quantity="two"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> דקות</item>
+        <item quantity="many"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> דקות</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> דקות</item>
+    </plurals>
+    <!-- Auto silence summary when turned off -->
+    <string name="auto_silence_never">לעולם לא</string>
+    <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
-  <string-array name="auto_silence_entries">
-    <item>דקה</item>
-    <item>5 דקות</item>
-    <item>10 דקות</item>
-    <item>15 דקות</item>
-    <item>20 דקות</item>
-    <item>25 דקות</item>
-    <item>לעולם לא</item>
-  </string-array>
-  <!-- Values that are retrieved from the ListPreference. These must match
+    <string-array name="auto_silence_entries">
+        <item>דקה</item>
+        <item>5 דקות</item>
+        <item>10 דקות</item>
+        <item>15 דקות</item>
+        <item>20 דקות</item>
+        <item>25 דקות</item>
+        <item>לעולם לא</item>
+    </string-array>
+    <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
-  <!-- Week start day preference title. -->
-  <string name="week_start_title">השבוע מתחיל ב-</string>
-  <!-- Entries listed in ListPreference for start day. -->
-  <string-array name="week_start_entries">
-    <item>שבת</item>
-    <item>ראשון</item>
-    <item>שני</item>
-  </string-array>
-  <!-- Values for ListPreference for start day of week. -->
-  <!-- Done button when editing an alarm. -->
-  <string name="done">סיום</string>
-  <!-- Revert button when editing an alarm. -->
-  <string name="revert">חזור למצב קודם</string>
-  <!-- Delete button when editing an alarm. -->
-  <string name="delete">מחק</string>
-  <!-- Setting title for changing the alarm volume. -->
-  <string name="alarm_volume_title">עוצמת קול של התראה</string>
-  <!-- Title for the silent ringtone. -->
-  <string name="silent_ringtone_title">שקט</string>
-  <!-- Title for ringtones that cannot be located by uri. -->
-  <string name="unknown_ringtone_title">לא ידוע</string>
-  <!-- Text to display in the small text of the notification -->
-  <string name="alarm_notify_text">נודניק או ביטול ההתראה.</string>
-  <!-- Text to display in the notification ticker and label -->
-  <string name="alarm_notify_snooze_label"><xliff:g id="LABEL">%s</xliff:g> (מצב נמנום)</string>
-  <!-- Text to display in the notification when the alarm has been snoozed -->
-  <string name="alarm_notify_snooze_text">ההתראה מכוונת לשעה <xliff:g id="TIME">%s</xliff:g>. גע כדי לבטל.</string>
-  <!-- Title of the setting to change hardware button behavior. This string
+    <!-- Week start day preference title. -->
+    <string name="week_start_title">השבוע מתחיל ב-</string>
+    <!-- Entries listed in ListPreference for start day. -->
+    <string-array name="week_start_entries">
+        <item>שבת</item>
+        <item>ראשון</item>
+        <item>שני</item>
+    </string-array>
+    <!-- Values for ListPreference for start day of week. -->
+    <!-- Done button when editing an alarm. -->
+    <string name="done">סיום</string>
+    <!-- Revert button when editing an alarm. -->
+    <string name="revert">חזור למצב קודם</string>
+    <!-- Delete button when editing an alarm. -->
+    <string name="delete">מחק</string>
+    <!-- Setting title for changing the alarm volume. -->
+    <string name="alarm_volume_title">עוצמת קול של התראה</string>
+    <!-- Title for the silent ringtone. -->
+    <string name="silent_ringtone_title">שקט</string>
+    <!-- Title for ringtones that cannot be located by uri. -->
+    <string name="unknown_ringtone_title">לא ידוע</string>
+    <!-- Text to display in the small text of the notification -->
+    <string name="alarm_notify_text">נודניק או ביטול ההתראה.</string>
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label"><xliff:g id="LABEL">%s</xliff:g> (מצב נמנום)</string>
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="alarm_notify_snooze_text">ההתראה מכוונת לשעה <xliff:g id="TIME">%s</xliff:g>. גע כדי לבטל.</string>
+    <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
-  <string name="volume_button_setting_title">לחצני עוצמת קול</string>
-  <!-- Dialog title of the volume and power setting. -->
-  <string name="volume_button_dialog_title">פעולת הלחצן</string>
-  <!-- Entries listed in the setting for the side-button action. -->
-  <string-array name="volume_button_setting_entries">
-    <item>נודניק</item>
-    <item>דחה</item>
-    <item>אל תעשה דבר</item>
-  </string-array>
-  <!-- Values for the side-button setting. -->
-  <!-- Title of the ringtone setting. -->
-  <string name="default_ringtone_setting_title">צליל ברירת מחדל</string>
-  <!-- Accessibility labels for Clock activity buttons -->
-  <string name="alarm_button_description">התראות</string>
-  <string name="gallery_button_description">גלריה</string>
-  <string name="music_button_description">מוזיקה</string>
-  <string name="nightmode_button_description">עמעם</string>
-  <string name="home_button_description">מפעיל</string>
-  <string name="desk_clock_button_description">תצוגת שעון</string>
-  <!-- Accessibility labels for alarm buttons -->
-  <string name="label_description">תווית</string>
-  <string name="ringtone_description">רינגטון</string>
-  <!-- What to show the user if the weather widget exists but fails to
+    <string name="volume_button_setting_title">לחצני עוצמת קול</string>
+    <!-- Dialog title of the volume and power setting. -->
+    <string name="volume_button_dialog_title">פעולת הלחצן</string>
+    <!-- Entries listed in the setting for the side-button action. -->
+    <string-array name="volume_button_setting_entries">
+        <item>נודניק</item>
+        <item>דחה</item>
+        <item>אל תעשה דבר</item>
+    </string-array>
+    <!-- Values for the side-button setting. -->
+    <!-- Title of the ringtone setting. -->
+    <string name="default_ringtone_setting_title">צליל ברירת מחדל</string>
+    <!-- Accessibility labels for Clock activity buttons -->
+    <string name="alarm_button_description">התראות</string>
+    <string name="gallery_button_description">גלריה</string>
+    <string name="music_button_description">מוזיקה</string>
+    <string name="nightmode_button_description">עמעם</string>
+    <string name="home_button_description">מפעיל</string>
+    <string name="desk_clock_button_description">תצוגת שעון</string>
+    <!-- Accessibility labels for alarm buttons -->
+    <string name="label_description">תווית</string>
+    <string name="ringtone_description">רינגטון</string>
+    <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
          present on the device, we show nothing at all. -->
-  <string name="weather_fetch_failure">לא זמינים כרגע נתונים על מזג האוויר.</string>
-  <!-- A description for the DeskClock alarm sound playback service.
+    <string name="weather_fetch_failure">לא זמינים כרגע נתונים על מזג האוויר.</string>
+    <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="alarm_klaxon_service_desc">‏שירות השמעת צלילים עבור התראות נקבע ב-Clock.</string>
-  <!-- String displayed as the alert summary while loading the alert name from
+    <string name="alarm_klaxon_service_desc">‏שירות השמעת צלילים עבור התראות נקבע ב-Clock.</string>
+    <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
-  <string name="loading_ringtone">טוען צלצול...</string>
-  <!-- A description for the DeskClock timer sound playback service.
+    <string name="loading_ringtone">טוען צלצול...</string>
+    <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="timer_ring_service_desc">שירות השמעת צלילים עבור טיימרים שהוגדרו ב\'שעון\'.</string>
-  <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
-  <string name="control_set_alarm">הגדר צלצול</string>
-  <!--  ActionBar strings -->
-  <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
-  <string name="menu_alarm">שעון מעורר</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
-  <string name="menu_timer">טיימר</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
-  <string name="menu_clock">שעון</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
-  <string name="menu_stopwatch">שעון עצר</string>
-  <!-- Clock view buttons strings-->
-  <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
-  <string name="button_alarms">הוסף התראה</string>
-  <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
-  <string name="button_cities">ערים</string>
-  <!-- Describes the purpose of the button which pops up a menu of setting choices -->
-  <string name="button_menu">אפשרויות נוספות</string>
-  <!-- Menu item on most screens to get to more settings -->
-  <string name="menu_item_settings">הגדרות</string>
-  <!-- Menu item on most screens to get to the help information -->
-  <string name="menu_item_help">עזרה</string>
-  <!-- Menu item on clock screen to add world city. -->
-  <!-- Menu item on clock screen to enter night mode. -->
-  <string name="menu_item_night_mode">מצב לילה</string>
-  <!-- Menu item on Cities screen to sort by GMT offset -->
-  <string name="menu_item_sort_by_gmt_offset">מיין לפי שעה</string>
-  <!-- Menu item on Cities screen to sort by alphabetical order -->
-  <string name="menu_item_sort_by_name">מיין לפי שם</string>
-  <string name="cities_add_loading">טוען\u2026</string>
-  <!-- Label for selected cities in Cities list view -->
-  <string name="selected_cities_label">ערים נבחרות</string>
-  <!-- Stopwatch and Timer shared strings -->
-  <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
-  <string name="sw_resume_button">המשך</string>
-  <!--
+    <string name="timer_ring_service_desc">שירות השמעת צלילים עבור טיימרים שהוגדרו ב\'שעון\'.</string>
+    <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm">הגדר צלצול</string>
+    <!--  ActionBar strings -->
+    <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
+    <string name="menu_alarm">שעון מעורר</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
+    <string name="menu_timer">טיימר</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
+    <string name="menu_clock">שעון</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
+    <string name="menu_stopwatch">שעון עצר</string>
+    <!-- Clock view buttons strings-->
+    <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+    <string name="button_alarms">הוסף התראה</string>
+    <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
+    <string name="button_cities">ערים</string>
+    <!-- Describes the purpose of the button which pops up a menu of setting choices -->
+    <string name="button_menu">אפשרויות נוספות</string>
+    <!-- Menu item on most screens to get to more settings -->
+    <string name="menu_item_settings">הגדרות</string>
+    <!-- Menu item on most screens to get to the help information -->
+    <string name="menu_item_help">עזרה</string>
+    <!-- Menu item on clock screen to add world city. -->
+    <!-- Menu item on clock screen to enter night mode. -->
+    <string name="menu_item_night_mode">מצב לילה</string>
+    <!-- Menu item on Cities screen to sort by GMT offset -->
+    <string name="menu_item_sort_by_gmt_offset">מיין לפי שעה</string>
+    <!-- Menu item on Cities screen to sort by alphabetical order -->
+    <string name="menu_item_sort_by_name">מיין לפי שם</string>
+    <string name="cities_add_loading">טוען\u2026</string>
+    <!-- Label for selected cities in Cities list view -->
+    <string name="selected_cities_label">ערים נבחרות</string>
+    <!-- Stopwatch and Timer shared strings -->
+    <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
+    <string name="sw_resume_button">המשך</string>
+    <!--
         Describes the purpose of the button
             for stopwatch: return stopwatch to zero and remove the lap times.
             for timer: return timer to originally set duration.
         [CHAR LIMIT=15]
     -->
-  <string name="sw_reset_button">אפס</string>
-  <!-- Stopwatch strings -->
-  <!-- Describes the purpose of the button to begin running a stopwatch -->
-  <string name="sw_start_button">התחל</string>
-  <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">השהה</string>
-  <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
-  <string name="sw_lap_button">הקפה</string>
-  <!-- Describes the purpose of the button to share the stopwatch value.
+    <string name="sw_reset_button">אפס</string>
+    <!-- Stopwatch strings -->
+    <!-- Describes the purpose of the button to begin running a stopwatch -->
+    <string name="sw_start_button">התחל</string>
+    <!-- Describes the purpose of the button to pause a stopwatch. -->
+    <string name="sw_pause_button">השהה</string>
+    <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
+    <string name="sw_lap_button">הקפה</string>
+    <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
-  <string name="sw_share_button">שתף</string>
-  <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
-  <string name="hours_label">ש\'</string>
-  <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
-  <string name="minutes_label">ד\'</string>
-  <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
-  <string name="seconds_label">שנ\'</string>
-  <!-- Accessibility strings -->
-  <string name="hours_label_description">שעות</string>
-  <string name="minutes_label_description">דקות</string>
-  <string name="seconds_label_description">שניות</string>
-  <!--  Stopwatch share strings -->
-  <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
-  <string name="sw_share_main">הזמן שלי הוא <xliff:g id="TIME">%s</xliff:g></string>
-  <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
-  <string name="sw_share_laps">זמני הקפה:</string>
-  <!-- Label to enumerate the number of laps in the notification the user has counted -->
-  <string name="sw_notification_lap_number">הקפה <xliff:g id="NUMBER">%d</xliff:g></string>
-  <!-- Stopwatch accessibility strings -->
-  <plurals name="Nhours_description">
-    <!-- 1 hour -->
-    <item quantity="one">שעה אחת</item>
-    <item quantity="two"><xliff:g id="NUMBER">%d</xliff:g> שעות</item>
-    <item quantity="many"><xliff:g id="NUMBER">%d</xliff:g> שעות</item>
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> שעות</item>
-  </plurals>
-  <plurals name="Nminutes_description">
-    <!-- 1 minute -->
-    <item quantity="one">דקה אחת</item>
-    <item quantity="two"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
-    <item quantity="many"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
-  </plurals>
-  <plurals name="Nseconds_description">
-    <!-- 1 second -->
-    <item quantity="one">שנייה אחת</item>
-    <item quantity="two"><xliff:g id="NUMBER">%d</xliff:g> שניות</item>
-    <item quantity="many"><xliff:g id="NUMBER">%d</xliff:g> שניות</item>
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> שניות</item>
-  </plurals>
-  <!-- timer strings -->
-  <!-- Describes the purpose of the button to add a new timer -->
-  <string name="timer_add_timer">הוסף טיימר</string>
-  <!-- Describes the purpose of the button to begin or continue running a timer -->
-  <string name="timer_start">התחל</string>
-  <!-- Describes the purpose of the button to delete a timer. -->
-  <string name="timer_delete">מחק</string>
-  <!-- Talkback description for deleting a number. -->
-  <string name="timer_descriptive_delete">מחק את <xliff:g id="NUMBER_STRING">%s</xliff:g></string>
-  <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
-  <string name="timer_plus_one">הוסף דקה</string>
-  <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
-  <string name="timer_plus_1_min">הוסף דקה</string>
-  <!-- Describes the purpose of the button to stop the timer. -->
-  <string name="timer_stop">עצור</string>
-  <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
-  <string name="timer_stop_all">הפסק את כל הטיימרים</string>
-  <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
-  <string name="timer_reset">אפס</string>
-  <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
-  <string name="timer_cancel">בטל</string>
-  <!-- Accessibility announcement when a timer is canceled. -->
-  <string name="timer_canceled">הטיימר בוטל</string>
-  <!-- Notification content shown when a timer has completed and has no more time remaining -->
-  <string name="timer_times_up">נגמר הזמן</string>
-  <!--
+    <string name="sw_share_button">שתף</string>
+    <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+    <string name="hours_label">ש\'</string>
+    <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+    <string name="minutes_label">ד\'</string>
+    <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+    <string name="seconds_label">שנ\'</string>
+    <!-- Accessibility strings -->
+    <string name="hours_label_description">שעות</string>
+    <string name="minutes_label_description">דקות</string>
+    <string name="seconds_label_description">שניות</string>
+    <!--  Stopwatch share strings -->
+    <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
+    <string name="sw_share_main">הזמן שלי הוא <xliff:g id="TIME">%s</xliff:g></string>
+    <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
+    <string name="sw_share_laps">זמני הקפה:</string>
+    <!-- Label to enumerate the number of laps in the notification the user has counted -->
+    <string name="sw_notification_lap_number">הקפה <xliff:g id="NUMBER">%d</xliff:g></string>
+    <!-- Stopwatch accessibility strings -->
+    <plurals name="Nhours_description">
+        <!-- 1 hour -->
+        <item quantity="one">שעה אחת</item>
+        <item quantity="two"><xliff:g id="NUMBER">%d</xliff:g> שעות</item>
+        <item quantity="many"><xliff:g id="NUMBER">%d</xliff:g> שעות</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> שעות</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <!-- 1 minute -->
+        <item quantity="one">דקה אחת</item>
+        <item quantity="two"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
+        <item quantity="many"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> דקות</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <!-- 1 second -->
+        <item quantity="one">שנייה אחת</item>
+        <item quantity="two"><xliff:g id="NUMBER">%d</xliff:g> שניות</item>
+        <item quantity="many"><xliff:g id="NUMBER">%d</xliff:g> שניות</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> שניות</item>
+    </plurals>
+    <!-- timer strings -->
+    <!-- Describes the purpose of the button to add a new timer -->
+    <string name="timer_add_timer">הוסף טיימר</string>
+    <!-- Describes the purpose of the button to begin or continue running a timer -->
+    <string name="timer_start">התחל</string>
+    <!-- Describes the purpose of the button to delete a timer. -->
+    <string name="timer_delete">מחק</string>
+    <!-- Talkback description for deleting a number. -->
+    <string name="timer_descriptive_delete">מחק את <xliff:g id="NUMBER_STRING">%s</xliff:g></string>
+    <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
+    <string name="timer_plus_one">הוסף דקה</string>
+    <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
+    <string name="timer_plus_1_min">הוסף דקה</string>
+    <!-- Describes the purpose of the button to stop the timer. -->
+    <string name="timer_stop">עצור</string>
+    <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
+    <string name="timer_stop_all">הפסק את כל הטיימרים</string>
+    <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
+    <string name="timer_reset">אפס</string>
+    <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
+    <string name="timer_cancel">בטל</string>
+    <!-- Accessibility announcement when a timer is canceled. -->
+    <string name="timer_canceled">הטיימר בוטל</string>
+    <!-- Notification content shown when a timer has completed and has no more time remaining -->
+    <string name="timer_times_up">נגמר הזמן</string>
+    <!--
         Notification content shown when multiple timers have completed and have no more time
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
-  <string name="timer_multi_times_up">הפעולה של <xliff:g id="NUM_TIMERS">%d</xliff:g> טיימרים הושלמה</string>
-  <!-- Label associated with a notification for a Timer -->
-  <string name="timer_notification_label">טיימר</string>
-  <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
-  <string name="timers_max_count_reached">4 טיימרים לכל היותר</string>
-  <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
-  <string name="timer_pause">השהה</string>
-  <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
-  <string name="timer_reset_all">אפס את הטיימרים</string>
-  <!-- Jocular content that user may append when sharing the lap times -->
-  <string-array name="sw_share_strings" translatable="true">
-    <item>אתה מהיר כשד משחת.</item>
-    <item>תיהנה מפירות עמלך.</item>
-    <item>ידוע שאנדרואידים מהירים, אבל לא מהירים כמוך!</item>
-    <item>אוף.</item>
-    <item>‏זמני L33t.</item>
-    <item>איזו מהירות עצומה.</item>
-    <item>Let\'s do the time warp again.</item>
-    <item>Just a jump to the left.</item>
-    <item>יש לך תאבון לחיפזון.</item>
-    <item>מהירות פוטונית.</item>
-  </string-array>
-  <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
-  <string name="home_label">מקומי</string>
-  <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="cities_activity_title">ערים</string>
-  <!-- Settings strings -->
-  <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
-  <string name="clock_settings">שעון</string>
-  <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
-  <string name="clock_style">סגנון</string>
-  <!-- Title for preference to change date & time -->
-  <string name="open_date_settings">שנה תאריך ושעה</string>
-  <!-- Entries listed in the ListPreference when invoking the clock style
+    <string name="timer_multi_times_up">הפעולה של <xliff:g id="NUM_TIMERS">%d</xliff:g> טיימרים הושלמה</string>
+    <!-- Label associated with a notification for a Timer -->
+    <string name="timer_notification_label">טיימר</string>
+    <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
+    <string name="timers_max_count_reached">4 טיימרים לכל היותר</string>
+    <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
+    <string name="timer_pause">השהה</string>
+    <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
+    <string name="timer_reset_all">אפס את הטיימרים</string>
+    <!-- Jocular content that user may append when sharing the lap times -->
+    <string-array name="sw_share_strings" translatable="true">
+        <item>אתה מהיר כשד משחת.</item>
+        <item>תיהנה מפירות עמלך.</item>
+        <item>ידוע שאנדרואידים מהירים, אבל לא מהירים כמוך!</item>
+        <item>אוף.</item>
+        <item>‏זמני L33t.</item>
+        <item>איזו מהירות עצומה.</item>
+        <item>Let\'s do the time warp again.</item>
+        <item>Just a jump to the left.</item>
+        <item>יש לך תאבון לחיפזון.</item>
+        <item>מהירות פוטונית.</item>
+    </string-array>
+    <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
+    <string name="home_label">מקומי</string>
+    <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="cities_activity_title">ערים</string>
+    <!-- Settings strings -->
+    <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
+    <string name="clock_settings">שעון</string>
+    <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
+    <string name="clock_style">סגנון</string>
+    <!-- Title for preference to change date & time -->
+    <string name="open_date_settings">שנה תאריך ושעה</string>
+    <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
-  <string-array name="clock_style_entries">
-    <item>אנלוגי</item>
-    <item>דיגיטלי</item>
-  </string-array>
-  <!-- Values that are retrieved from the ListPreference. These must match
+    <string-array name="clock_style_entries">
+        <item>אנלוגי</item>
+        <item>דיגיטלי</item>
+    </string-array>
+    <!-- Values that are retrieved from the ListPreference. These must match
          the clock_style_entries above. -->
-  <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
-  <string name="automatic_home_clock">שעון בית אוטומטי</string>
-  <!-- Describes the functionality provided by the automatic_home_clock option -->
-  <string name="automatic_home_clock_summary">בעת שהייה באזור זמן שונה, הוסף שעון להצגת הזמן בבית</string>
-  <!-- Title in the preferences change the time zone for the user's home -->
-  <string name="home_time_zone">אזור זמן מקומי</string>
-  <!-- Title in a list dialog box to pick a time zone for the user's home -->
-  <string name="home_time_zone_title">אזור זמן מקומי</string>
-  <!-- Textual content of the button to discard the current dialog values and close the dialog -->
-  <string name="time_picker_cancel">בטל</string>
-  <!-- Textual content of the button to update an alarm with the current dialog values -->
-  <string name="time_picker_set">אישור</string>
-  <!--  place holder for am/pm label when it is not set -->
-  <!-- add 00 as minutes to the time when pressing this button -->
-  <string name="time_picker_00_label">00:</string>
-  <!-- add 30 as minutes to the time when pressing this button -->
-  <string name="time_picker_30_label">30:</string>
-  <!--
+    <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
+    <string name="automatic_home_clock">שעון בית אוטומטי</string>
+    <!-- Describes the functionality provided by the automatic_home_clock option -->
+    <string name="automatic_home_clock_summary">בעת שהייה באזור זמן שונה, הוסף שעון להצגת הזמן בבית</string>
+    <!-- Title in the preferences change the time zone for the user's home -->
+    <string name="home_time_zone">אזור זמן מקומי</string>
+    <!-- Title in a list dialog box to pick a time zone for the user's home -->
+    <string name="home_time_zone_title">אזור זמן מקומי</string>
+    <!-- Textual content of the button to discard the current dialog values and close the dialog -->
+    <string name="time_picker_cancel">בטל</string>
+    <!-- Textual content of the button to update an alarm with the current dialog values -->
+    <string name="time_picker_set">אישור</string>
+    <!--  place holder for am/pm label when it is not set -->
+    <!-- add 00 as minutes to the time when pressing this button -->
+    <string name="time_picker_00_label">00:</string>
+    <!-- add 30 as minutes to the time when pressing this button -->
+    <string name="time_picker_30_label">30:</string>
+    <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
     -->
-  <string name="city_checked"><xliff:g id="CITY_NAME">%s</xliff:g> מסומנת</string>
-  <!--
+    <string name="city_checked"><xliff:g id="CITY_NAME">%s</xliff:g> מסומנת</string>
+    <!--
         Accessibility string read when a city checkbox is unchecked.
         Ex. "Ann Arbor unchecked"
     -->
-  <string name="city_unchecked"><xliff:g id="CITY_NAME">%s</xliff:g> לא מסומנת</string>
-  <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
-  <string-array name="timezone_labels">
-    <item>"איי מרשל"</item>
-    <item>"האי מידוויי"</item>
-    <item>"הוואי"</item>
-    <item>"אלסקה"</item>
-    <item>"אזור זמן פסיפי"</item>
-    <item>"טיחואנה"</item>
-    <item>"אריזונה"</item>
-    <item>"צ'יוואווה"</item>
-    <item>"זמן הרים"</item>
-    <item>"מרכז אמריקה"</item>
-    <item>"אזור זמן מרכז"</item>
-    <item>"מקסיקו סיטי"</item>
-    <item>"ססקאצ'וון"</item>
-    <item>"בוגוטה"</item>
-    <item>"אזור זמן מזרח"</item>
-    <item>"ונצואלה"</item>
-    <item>"אזור זמן אטלנטי (ברבדוס)"</item>
-    <item>"אזור זמן אטלנטי (קנדה)"</item>
-    <item>"מנאוס"</item>
-    <item>"סנטיאגו"</item>
-    <item>"ניופאונדלנד"</item>
-    <item>"ברזיליה"</item>
-    <item>"בואנוס איירס"</item>
-    <item>"גרינלנד"</item>
-    <item>"מונטווידאו"</item>
-    <item>"מרכז-אטלנטי"</item>
-    <item>"האיים האזורים"</item>
-    <item>"איי כף ורדה"</item>
-    <item>"קזבלנקה"</item>
-    <item>"לונדון, דבלין"</item>
-    <item>"אמסטרדם, ברלין"</item>
-    <item>"בלגרד"</item>
-    <item>"בריסל"</item>
-    <item>"סרייבו"</item>
-    <item>"ווינדהוק"</item>
-    <item>"אזור זמן מערב אפריקה"</item>
-    <item>"עמאן, ירדן"</item>
-    <item>"אתונה, איסטנבול"</item>
-    <item>"ביירות, לבנון"</item>
-    <item>"קהיר"</item>
-    <item>"הלסינקי"</item>
-    <item>"ירושלים"</item>
-    <item>"מינסק"</item>
-    <item>"הררה"</item>
-    <item>"בגדד"</item>
-    <item>"מוסקבה"</item>
-    <item>"כוויית"</item>
-    <item>"ניירובי"</item>
-    <item>"טהרן"</item>
-    <item>"באקו"</item>
-    <item>"טביליסי"</item>
-    <item>"ירבאן"</item>
-    <item>"דובאי"</item>
-    <item>"קאבול"</item>
-    <item>"איסלמבאד, קאראצ'י"</item>
-    <item>"אורל"</item>
-    <item>"יקטרינבורג"</item>
-    <item>"כלכותה"</item>
-    <item>"סרי לנקה"</item>
-    <item>"קטמנדו"</item>
-    <item>"אסטנה"</item>
-    <item>"יאנגון"</item>
-    <item>"קרסנויארסק"</item>
-    <item>"בנגקוק"</item>
-    <item>"בייג'ינג"</item>
-    <item>"הונג קונג"</item>
-    <item>"אירקוטסק"</item>
-    <item>"קואלה לומפור"</item>
-    <item>"פרת'"</item>
-    <item>"טאיפה"</item>
-    <item>"סיאול"</item>
-    <item>"טוקיו, אוסקה"</item>
-    <item>"יקוטסק"</item>
-    <item>"אדלייד"</item>
-    <item>"דארווין"</item>
-    <item>"בריסביין"</item>
-    <item>"הובארט"</item>
-    <item>"סידני, קנברה"</item>
-    <item>"ולדיווסטוק"</item>
-    <item>"גואם"</item>
-    <item>"מגדן"</item>
-    <item>"אוקלנד"</item>
-    <item>"פיג'י"</item>
-    <item>"טונגה"</item>
-    <item>"ג'אקארטה"</item>
-  </string-array>
-  <!-- Choices for timezones, must be kept in sync with timezone_values. -->
-  <!-- Header in the preferences settings for the section pertaining to alarms -->
-  <string name="alarm_settings">התראות</string>
-  <!-- Describes the service that processes actions originating from timer notifications. -->
-  <string name="timer_service_desc">מעבד פעולות מההודעות של הטיימר.</string>
-  <!-- Describes the service that processes actions originating from stopwatch notifications. -->
-  <string name="stopwatch_service_desc">מעבד פעולות מההודעות של שעון העצר.</string>
-  <!-- Description for the paused stop watch -->
-  <string name="swn_paused">מושהה</string>
-  <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
+    <string name="city_unchecked"><xliff:g id="CITY_NAME">%s</xliff:g> לא מסומנת</string>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
+    <string-array name="timezone_labels">
+        <item>"איי מרשל"</item>
+        <item>"האי מידוויי"</item>
+        <item>"הוואי"</item>
+        <item>"אלסקה"</item>
+        <item>"אזור זמן פסיפי"</item>
+        <item>"טיחואנה"</item>
+        <item>"אריזונה"</item>
+        <item>"צ'יוואווה"</item>
+        <item>"זמן הרים"</item>
+        <item>"מרכז אמריקה"</item>
+        <item>"אזור זמן מרכז"</item>
+        <item>"מקסיקו סיטי"</item>
+        <item>"ססקאצ'וון"</item>
+        <item>"בוגוטה"</item>
+        <item>"אזור זמן מזרח"</item>
+        <item>"ונצואלה"</item>
+        <item>"אזור זמן אטלנטי (ברבדוס)"</item>
+        <item>"אזור זמן אטלנטי (קנדה)"</item>
+        <item>"מנאוס"</item>
+        <item>"סנטיאגו"</item>
+        <item>"ניופאונדלנד"</item>
+        <item>"ברזיליה"</item>
+        <item>"בואנוס איירס"</item>
+        <item>"גרינלנד"</item>
+        <item>"מונטווידאו"</item>
+        <item>"מרכז-אטלנטי"</item>
+        <item>"האיים האזורים"</item>
+        <item>"איי כף ורדה"</item>
+        <item>"קזבלנקה"</item>
+        <item>"לונדון, דבלין"</item>
+        <item>"אמסטרדם, ברלין"</item>
+        <item>"בלגרד"</item>
+        <item>"בריסל"</item>
+        <item>"סרייבו"</item>
+        <item>"ווינדהוק"</item>
+        <item>"אזור זמן מערב אפריקה"</item>
+        <item>"עמאן, ירדן"</item>
+        <item>"אתונה, איסטנבול"</item>
+        <item>"ביירות, לבנון"</item>
+        <item>"קהיר"</item>
+        <item>"הלסינקי"</item>
+        <item>"ירושלים"</item>
+        <item>"מינסק"</item>
+        <item>"הררה"</item>
+        <item>"בגדד"</item>
+        <item>"מוסקבה"</item>
+        <item>"כוויית"</item>
+        <item>"ניירובי"</item>
+        <item>"טהרן"</item>
+        <item>"באקו"</item>
+        <item>"טביליסי"</item>
+        <item>"ירבאן"</item>
+        <item>"דובאי"</item>
+        <item>"קאבול"</item>
+        <item>"איסלמבאד, קאראצ'י"</item>
+        <item>"אורל"</item>
+        <item>"יקטרינבורג"</item>
+        <item>"כלכותה"</item>
+        <item>"סרי לנקה"</item>
+        <item>"קטמנדו"</item>
+        <item>"אסטנה"</item>
+        <item>"יאנגון"</item>
+        <item>"קרסנויארסק"</item>
+        <item>"בנגקוק"</item>
+        <item>"בייג'ינג"</item>
+        <item>"הונג קונג"</item>
+        <item>"אירקוטסק"</item>
+        <item>"קואלה לומפור"</item>
+        <item>"פרת'"</item>
+        <item>"טאיפה"</item>
+        <item>"סיאול"</item>
+        <item>"טוקיו, אוסקה"</item>
+        <item>"יקוטסק"</item>
+        <item>"אדלייד"</item>
+        <item>"דארווין"</item>
+        <item>"בריסביין"</item>
+        <item>"הובארט"</item>
+        <item>"סידני, קנברה"</item>
+        <item>"ולדיווסטוק"</item>
+        <item>"גואם"</item>
+        <item>"מגדן"</item>
+        <item>"אוקלנד"</item>
+        <item>"פיג'י"</item>
+        <item>"טונגה"</item>
+        <item>"ג'אקארטה"</item>
+    </string-array>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. -->
+    <!-- Header in the preferences settings for the section pertaining to alarms -->
+    <string name="alarm_settings">התראות</string>
+    <!-- Describes the service that processes actions originating from timer notifications. -->
+    <string name="timer_service_desc">מעבד פעולות מההודעות של הטיימר.</string>
+    <!-- Describes the service that processes actions originating from stopwatch notifications. -->
+    <string name="stopwatch_service_desc">מעבד פעולות מההודעות של שעון העצר.</string>
+    <!-- Description for the paused stop watch -->
+    <string name="swn_paused">מושהה</string>
+    <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
          be on the right even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_right">החלק ימינה כדי לבטל</string>
-  <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
+    <string name="description_direction_right">החלק ימינה כדי לבטל</string>
+    <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_left">החלק שמאלה כדי להפעיל נודניק</string>
-  <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
+    <string name="description_direction_left">החלק שמאלה כדי להפעיל נודניק</string>
+    <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_both">החלק שמאלה כדי להעביר למצב נודניק או ימינה כדי לסגור</string>
-  <!-- Header in the preferences settings for the section pertaining to timers. -->
-  <string name="timer_settings">טיימרים</string>
-  <!-- Description for timer ringtone setting. -->
-  <string name="timer_ringtone_title">רינגטון של טיימר</string>
-  <!-- Description when timer is stopped. -->
-  <string name="timer_stopped">טיימר נעצר</string>
-  <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
-  <string name="timer_paused">הטיימר מושהה</string>
-  <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
-  <string name="timers_stopped"><xliff:g id="NUMBER">%d</xliff:g> טיימרים הושהו</string>
-  <!-- Notification text when multiple timers are paused. -->
-  <string name="all_timers_stopped_notif">גע כדי לראות את הטיימרים שלך</string>
-  <!-- Notification title when at least one timer, of those in use, is counting down. -->
-  <string name="timers_in_use"><xliff:g id="NUMBER">%d</xliff:g> טיימרים</string>
-  <!-- Notification text when at least one timer, of those in use, is counting down. -->
-  <string name="next_timer_notif">הטיימר הבא: <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
-  <!-- screensaver settings strings -->
-  <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="screensaver_settings">הגדרות חלום בהקיץ</string>
-  <!-- Title for check box to pick intensity of display diminuation during dream mode -->
-  <string name="night_mode_title">מצב לילה</string>
-  <!-- Describes intensity of display diminuation during dream mode -->
-  <string name="night_mode_summary">תצוגה עמומה מאוד (לחדרים חשוכים)</string>
-  <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
-  <string name="expand_alarm">הרחב התראה</string>
-  <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
-  <string name="collapse_alarm">כווץ התראה</string>
-  <!-- Description of the button to undo change to alarm -->
-  <string name="alarm_undo">בטל</string>
-  <!-- Toast content when an alarm was deleted  -->
-  <string name="alarm_deleted">ההתראה נמחקה</string>
-  <!-- Select the source of the alarm -->
-  <!-- Select the ringtone as alarm -->
-  <!-- Select the alarm from external device -->
-  <string name="alarm_select_external">מוזיקה</string>
-  <!-- Ok for selection -->
-  <string name="alarm_select_ok">אישור</string>
-  <!-- Cancel for selection -->
-  <string name="alarm_select_cancel">ביטול</string>
-  <!-- slash between date and next alarm in the clock -->
-  <string name="slash">/</string>
-  <!-- slash between date and next alarm in the clock -->
-  <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
-  <string name="next_alarm_description">ההתראה הבאה: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
-  <!-- Displays the number of alarms selected from the list of alarms. -->
-  <string name="alarms_selected"><xliff:g id="ALARMS">%d</xliff:g> נבחרו</string>
-  <!-- message used by the talkback accessibility app to say that something was deleted -->
-  <string name="deleted_message">נמחק</string>
-  <!-- Alarm deletion confirmation message-->
-  <plurals name="alarm_delete_confirmation">
-    <!-- Confirmation for one alarm -->
-    <item quantity="one">האם למחוק את ההתראה שנבחרה?</item>
-    <item quantity="two">האם למחוק את ההתראות שנבחרו?</item>
-    <item quantity="many">האם למחוק את ההתראות שנבחרו?</item>
-    <!-- Confirmation more than one alarm  -->
-    <item quantity="other">האם למחוק את ההתראות שנבחרו?</item>
-  </plurals>
-  <!-- Timer deletion confirmation -->
-  <string name="timer_delete_confirmation">האם למחוק את הטיימר הזה?</string>
-  <!-- world clock deletion confirmation -->
-  <string name="city_delete_confirmation">האם להסיר את העיר הזאת?</string>
-  <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="digital_gadget">שעון דיגיטלי</string>
-  <!-- format strings for clocks -->
-  <!-- Font size for AM/PM should match widget_label_font_size -->
-  <!-- Font size for AM/PM should match bottom_text_size -->
-  <!-- Font size for AM/PM should match label_font_size -->
-  <!-- Font size for AM/PM should match alarm_label_size -->
-  <!-- String for no alarms -->
-  <string name="no_alarms">ללא התראות</string>
-  <!-- String for no alarms set [CHAR LIMIT=24] -->
-  <string name="no_alarms_set">לא הוגדרו התראות</string>
-  <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
-  <string name="no_upcoming_alarms">אין התראות קרובות</string>
-  <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
+    <string name="description_direction_both">החלק שמאלה כדי להעביר למצב נודניק או ימינה כדי לסגור</string>
+    <!-- Header in the preferences settings for the section pertaining to timers. -->
+    <string name="timer_settings">טיימרים</string>
+    <!-- Description for timer ringtone setting. -->
+    <string name="timer_ringtone_title">רינגטון של טיימר</string>
+    <!-- Description when timer is stopped. -->
+    <string name="timer_stopped">טיימר נעצר</string>
+    <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
+    <string name="timer_paused">הטיימר מושהה</string>
+    <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
+    <string name="timers_stopped"><xliff:g id="NUMBER">%d</xliff:g> טיימרים הושהו</string>
+    <!-- Notification text when multiple timers are paused. -->
+    <string name="all_timers_stopped_notif">גע כדי לראות את הטיימרים שלך</string>
+    <!-- Notification title when at least one timer, of those in use, is counting down. -->
+    <string name="timers_in_use"><xliff:g id="NUMBER">%d</xliff:g> טיימרים</string>
+    <!-- Notification text when at least one timer, of those in use, is counting down. -->
+    <string name="next_timer_notif">הטיימר הבא: <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
+    <!-- screensaver settings strings -->
+    <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="screensaver_settings">הגדרות חלום בהקיץ</string>
+    <!-- Title for check box to pick intensity of display diminuation during dream mode -->
+    <string name="night_mode_title">מצב לילה</string>
+    <!-- Describes intensity of display diminuation during dream mode -->
+    <string name="night_mode_summary">תצוגה עמומה מאוד (לחדרים חשוכים)</string>
+    <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
+    <string name="expand_alarm">הרחב התראה</string>
+    <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
+    <string name="collapse_alarm">כווץ התראה</string>
+    <!-- Description of the button to undo change to alarm -->
+    <string name="alarm_undo">בטל</string>
+    <!-- Toast content when an alarm was deleted  -->
+    <string name="alarm_deleted">ההתראה נמחקה</string>
+    <!-- Select the source of the alarm -->
+    <!-- Select the ringtone as alarm -->
+    <!-- Select the alarm from external device -->
+    <string name="alarm_select_external">מוזיקה</string>
+    <!-- Ok for selection -->
+    <string name="alarm_select_ok">אישור</string>
+    <!-- Cancel for selection -->
+    <string name="alarm_select_cancel">ביטול</string>
+    <!-- slash between date and next alarm in the clock -->
+    <string name="slash">/</string>
+    <!-- slash between date and next alarm in the clock -->
+    <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
+    <string name="next_alarm_description">ההתראה הבאה: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
+    <!-- Displays the number of alarms selected from the list of alarms. -->
+    <string name="alarms_selected"><xliff:g id="ALARMS">%d</xliff:g> נבחרו</string>
+    <!-- message used by the talkback accessibility app to say that something was deleted -->
+    <string name="deleted_message">נמחק</string>
+    <!-- Alarm deletion confirmation message-->
+    <plurals name="alarm_delete_confirmation">
+        <!-- Confirmation for one alarm -->
+        <item quantity="one">האם למחוק את ההתראה שנבחרה?</item>
+        <item quantity="two">האם למחוק את ההתראות שנבחרו?</item>
+        <item quantity="many">האם למחוק את ההתראות שנבחרו?</item>
+        <!-- Confirmation more than one alarm  -->
+        <item quantity="other">האם למחוק את ההתראות שנבחרו?</item>
+    </plurals>
+    <!-- Timer deletion confirmation -->
+    <string name="timer_delete_confirmation">האם למחוק את הטיימר הזה?</string>
+    <!-- world clock deletion confirmation -->
+    <string name="city_delete_confirmation">האם להסיר את העיר הזאת?</string>
+    <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="digital_gadget">שעון דיגיטלי</string>
+    <!-- format strings for clocks -->
+    <!-- Font size for AM/PM should match widget_label_font_size -->
+    <!-- Font size for AM/PM should match bottom_text_size -->
+    <!-- Font size for AM/PM should match label_font_size -->
+    <!-- Font size for AM/PM should match alarm_label_size -->
+    <!-- String for no alarms -->
+    <string name="no_alarms">ללא התראות</string>
+    <!-- String for no alarms set [CHAR LIMIT=24] -->
+    <string name="no_alarms_set">לא הוגדרו התראות</string>
+    <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
+    <string name="no_upcoming_alarms">אין התראות קרובות</string>
+    <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
      or 27:68pm.
     First %d represents hour, second %d represents minutes, %s represents am/pm,
     If no am/pm is passed in (e.g. the locale uses 24h time) only hour and minute are printed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_time">‏שעה לא חוקית ‎<xliff:g id="INVALID_HOUR">%d</xliff:g>:<xliff:g id="INVALID_MINUTES">%d</xliff:g> <xliff:g id="INVALID_AMPM">%s</xliff:g>‎</string>
-  <!-- String that represents that no alarm has been specified for a requested hour:minutes.
+    <string name="invalid_time">‏שעה לא חוקית ‎<xliff:g id="INVALID_HOUR">%d</xliff:g>:<xliff:g id="INVALID_MINUTES">%d</xliff:g> <xliff:g id="INVALID_AMPM">%s</xliff:g>‎</string>
+    <!-- String that represents that no alarm has been specified for a requested hour:minutes.
     This happens when a user sends a voice command 'dismiss my alarm at 3:00pm' but they have no
     alarms specified for that time. %s represents the time of the alarm.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_at">‏אין התראה ב-‎<xliff:g id="ALARM_TIME_HOUR">%d</xliff:g>:<xliff:g id="ALARM_TIME_MINUTES">%d</xliff:g>‎</string>
-  <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
+    <string name="no_alarm_at">‏אין התראה ב-‎<xliff:g id="ALARM_TIME_HOUR">%d</xliff:g>:<xliff:g id="ALARM_TIME_MINUTES">%d</xliff:g>‎</string>
+    <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
     a user sends a voice command 'dismiss next alarm' or 'dismiss all of my alarms' but they have
     no alarms scheduled in the app.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_scheduled_alarms">לא נקבעו התראות</string>
-  <!-- String that represents that the user specified that they want to select an alarm to
+    <string name="no_scheduled_alarms">לא נקבעו התראות</string>
+    <!-- String that represents that the user specified that they want to select an alarm to
     dismiss by specifying a 'label' but they didn't specify any labels.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_label_specified">לא צוינה תווית</string>
-  <!-- String that represents that no alarm has been specified for a requested label.
+    <string name="no_label_specified">לא צוינה תווית</string>
+    <!-- String that represents that no alarm has been specified for a requested label.
     This happens when a user sends a voice command 'dismiss my alarm with label pick up kids'
      but they have no alarms with that label.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarms_with_label">אין התראות הכוללות את התווית</string>
-  <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
+    <string name="no_alarms_with_label">אין התראות הכוללות את התווית</string>
+    <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
     'lap the stopwatch' when the stopwatch wasn't running so the command wasn't executed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_isnt_running">שעון העצר אינו פועל</string>
-  <!-- String that represents that the user has successfully sent a voice command pausing
+    <string name="stopwatch_isnt_running">שעון העצר אינו פועל</string>
+    <!-- String that represents that the user has successfully sent a voice command pausing
      the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_paused">שעון העצר מושהה</string>
-  <!-- String that represents that the user has successfully sent a voice command resetting
+    <string name="stopwatch_paused">שעון העצר מושהה</string>
+    <!-- String that represents that the user has successfully sent a voice command resetting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_reset">שעון העצר אופס</string>
-  <!-- String that represents that the user has successfully sent a voice command lapping
+    <string name="stopwatch_reset">שעון העצר אופס</string>
+    <!-- String that represents that the user has successfully sent a voice command lapping
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_lapped">שעון העצר סיים סיבוב</string>
-  <!-- String that represents that the user has successfully sent a voice command starting
+    <string name="stopwatch_lapped">שעון העצר סיים סיבוב</string>
+    <!-- String that represents that the user has successfully sent a voice command starting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_started">שעון העצר הופעל</string>
-  <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
+    <string name="stopwatch_started">שעון העצר הופעל</string>
+    <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
     there was no alarm scheduled for that time (they might have had an alarm for 3pm on the list
     but it was disabled).
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_scheduled_for_this_time">לא נקבעה התראה לשעה הזו</string>
-  <!-- String that represents that the user has dismissed an alarm through a voice action.
+    <string name="no_alarm_scheduled_for_this_time">לא נקבעה התראה לשעה הזו</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_dismissed">ההתראה של <xliff:g id="ALARM_TIME">%s</xliff:g> נסגרה</string>
-  <!-- String that represents that the user has dismissed an alarm through a voice action.
+    <string name="alarm_is_dismissed">ההתראה של <xliff:g id="ALARM_TIME">%s</xliff:g> נסגרה</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_set">הוגדרה התראה לשעה <xliff:g id="ALARM_TIME">%s</xliff:g></string>
-  <!-- String that represents that the user attempted to control a timer with a voice action when
+    <string name="alarm_is_set">הוגדרה התראה לשעה <xliff:g id="ALARM_TIME">%s</xliff:g></string>
+    <!-- String that represents that the user attempted to control a timer with a voice action when
     no timers are defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_timers_exist">לא קיימים טיימרים</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action when
+    <string name="no_timers_exist">לא קיימים טיימרים</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action when
     more than one timer is defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="too_many_timers_exist">קיים יותר מטיימר אחד</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action but
+    <string name="too_many_timers_exist">קיים יותר מטיימר אחד</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action but
     the timer could not be located.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_does_not_exist">הטיימר הוסר.</string>
-  <!-- String that represents that the user has successfully created a timer through a voice action.
+    <string name="timer_does_not_exist">הטיימר הוסר.</string>
+    <!-- String that represents that the user has successfully created a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_created">הטיימר נוצר</string>
-  <!-- String that represents that the user has successfully reset a timer through a voice action.
+    <string name="timer_created">הטיימר נוצר</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_was_reset">הטיימר אופס</string>
-  <!-- String that represents that the user has successfully reset a timer through a voice action
+    <string name="timer_was_reset">הטיימר אופס</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action
     that was marked as deleteAfterUse and was thus deleted instead.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_deleted">הטיימר נמחק</string>
-  <!-- String that represents that the user has successfully started a timer through a voice action.
+    <string name="timer_deleted">הטיימר נמחק</string>
+    <!-- String that represents that the user has successfully started a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_started">הטיימר הופעל</string>
-  <!-- String that represents that the user attempted to start a timer through a voice action
+    <string name="timer_started">הטיימר הופעל</string>
+    <!-- String that represents that the user attempted to start a timer through a voice action
     but specified invalid length.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_timer_length">משך טיימר לא חוקי</string>
-  <!-- String that represents that the user attempted to add or delete a world clock through
+    <string name="invalid_timer_length">משך טיימר לא חוקי</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but they didn't specify a city so no world clock was selected.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_city_selected">לא נבחרה עיר</string>
-  <!-- String that represents that the user attempted to add or delete a world clock through
+    <string name="no_city_selected">לא נבחרה עיר</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but the city they specified wasn't listed in the database.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_you_specified_is_not_available">העיר שציינת אינה זמינה</string>
-  <!-- String that represents that the user attempted to add a world clock through a voice action
+    <string name="the_city_you_specified_is_not_available">העיר שציינת אינה זמינה</string>
+    <!-- String that represents that the user attempted to add a world clock through a voice action
     but the city they specified is already added to the list.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_already_added">העיר הזו כבר נוספה</string>
-  <!-- String that represents that the user successfully added a world clock through a
+    <string name="the_city_already_added">העיר הזו כבר נוספה</string>
+    <!-- String that represents that the user successfully added a world clock through a
     voice action
     %s represents the name of the city they added.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_added"><xliff:g id="CITY_NAME">%s</xliff:g> נוספה</string>
-  <!-- String that represents that the user successfully deleted a world clock through
+    <string name="city_added"><xliff:g id="CITY_NAME">%s</xliff:g> נוספה</string>
+    <!-- String that represents that the user successfully deleted a world clock through
     a voice action
     %s represents the name of the city they deleted.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_deleted"><xliff:g id="CITY_NAME">%s</xliff:g> נמחקה</string>
-  <!-- String that represents that the user attempted to dismiss an alarm that is more than
+    <string name="city_deleted"><xliff:g id="CITY_NAME">%s</xliff:g> נמחקה</string>
+    <!-- String that represents that the user attempted to dismiss an alarm that is more than
     24 hours away
     %s represents the time of the alarm (e.g. 15:39)
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">לא ניתן לסגור עדיין את ההתראה של <xliff:g id="ALARM_TIME">%s</xliff:g>, נותרו יותר מ-24 שעות</string>
-  <!-- String that shows up in the action bar for the Picker Activity
+    <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">לא ניתן לסגור עדיין את ההתראה של <xliff:g id="ALARM_TIME">%s</xliff:g>, נותרו יותר מ-24 שעות</string>
+    <!-- String that shows up in the action bar for the Picker Activity
          where a use gets to pick which alarm to dismiss
    [CHAR LIMIT=NONE]
    -->
-  <string name="dismiss_alarm">דחה את ההתראה</string>
-  <!-- String that represents that further action is needed from the user in case their
+    <string name="dismiss_alarm">דחה את ההתראה</string>
+    <!-- String that represents that further action is needed from the user in case their
     voice command was ambiguous or there are more than 1 alarms that match their request.
     The user needs to choose an alarm they want to dismiss through the UI
    [CHAR LIMIT=NONE]
    -->
-  <string name="pick_alarm_to_dismiss">בחר איזו התראה לדחות</string>
-  <!-- String that represents that the user doesn't have any alarms firing at the moment.
+    <string name="pick_alarm_to_dismiss">בחר איזו התראה לדחות</string>
+    <!-- String that represents that the user doesn't have any alarms firing at the moment.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_firing_alarms">אין התראות הפועלות כעת</string>
-  <!-- String that represents that the user has snoozed an alarm through a voice action for 10
+    <string name="no_firing_alarms">אין התראות הפועלות כעת</string>
+    <!-- String that represents that the user has snoozed an alarm through a voice action for 10
     minutes.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_snoozed">ההתראה של <xliff:g id="ALARM_TIME">%s</xliff:g> הועברה למצב נודניק למשך עשר דקות</string>
-  <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
-  <!-- Ringtone selection default" -->
-  <!--used for prompt to user storage permission status-->
+    <string name="alarm_is_snoozed">ההתראה של <xliff:g id="ALARM_TIME">%s</xliff:g> הועברה למצב נודניק למשך עשר דקות</string>
+    <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+    <!-- Ringtone selection default" -->
+    <!--used for prompt to user storage permission status-->
 </resources>

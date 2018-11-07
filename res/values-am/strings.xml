@@ -18,110 +18,110 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- -->
-  <!-- Label shown on launcher icon -->
-  <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
-  <string name="app_label">ሰዓት</string>
-  <!-- Title for AlarmClock activity -->
-  <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="alarm_list_title">ማንቂያ ደወሎች</string>
-  <!-- Menu item on Alarm Clock screen: Add alarm -->
-  <string name="add_alarm">የማንቂያ ደወልአክል</string>
-  <!-- Menu item on Alarm Clock screen: Desk clock -->
-  <string name="menu_desk_clock">የጠረጴዛ ሰዓት</string>
-  <!-- Menu item on Alarm Clock screen: Edit alarm -->
-  <string name="menu_edit_alarm">ማንቂያ ደወል አርትዕ</string>
-  <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
-  <string name="delete_alarm">ማንቂያ ደወል ሰርዝ</string>
-  <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
-  <string name="enable_alarm">የማንቂያ ደወል አብራ</string>
-  <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
-  <string name="disable_alarm">የማንቂያ ደወል አጥፋ</string>
-  <!-- Delete alarm confirmation dialog message. -->
-  <string name="delete_alarm_confirm">ይህንን ማንቂያ ሰርዝ?</string>
-  <!-- Menu item on Alarm Clock screen: Show clock -->
-  <string name="show_clock">ሰዓትአሳይ</string>
-  <!-- Menu item on Alarm Clock screen: Hide clock -->
-  <string name="hide_clock">ሰዓት ደብቅ</string>
-  <!-- Setting label on Set alarm screen: Label -->
-  <string name="label">መለያ ስም</string>
-  <!-- Content description for alarm on/off switch in On state -->
-  <string name="on_switch">በርቷል</string>
-  <!-- Content description for alarm on/off switch in Off state -->
-  <string name="off_switch">ጠፍቷል</string>
-  <!-- Default label to display for an alarm -->
-  <string name="default_label">ማንቂያ</string>
-  <!-- Preference category on Alarm Settings screen: Set alarm -->
-  <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="set_alarm">የማንቂያ ደወልአዘጋጅ</string>
-  <!-- Setting labels on Set alarm screen: Vibration on or off -->
-  <string name="alarm_vibrate">ንዘር</string>
-  <!-- Setting labels on Set alarm screen: Repeat -->
-  <string name="alarm_repeat">ድገም</string>
-  <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
-  <string name="alert">የማንቂያ ደውል ቅላጼ</string>
-  <!-- Title of default ringtone played when a timer expires. -->
-  <string name="default_timer_ringtone_title">ሰዓት ቆጣሪው ጊዜው አልፏል</string>
-  <!-- Title of silent ringtone played when a timer expires. -->
-  <string name="silent_timer_ringtone_title">ፀጥ ያለ</string>
-  <!-- Label on expanded alarm edit view. -->
-  <string name="ringtone">የደወል ቅላጼ</string>
-  <!-- Setting labels on Set alarm screen: Set time  -->
-  <string name="time">ጊዜ</string>
-  <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
-  <string name="alarm_tomorrow">ነገ</string>
-  <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
-  <string name="alarm_today">ዛሬ</string>
-  <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
-  <string name="alarm_alert_wake_up">ይንቁ!</string>
-  <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
-  <string name="alarm_alert_off_action_text">ጠፍቷል</string>
-  <!-- Button labels on the alarm dialog: Dismiss -->
-  <string name="alarm_alert_dismiss_text">አሰናብት</string>
-  <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
-  <string name="alarm_alert_dismiss_now_text">አሁን አሰናብት</string>
-  <!-- Alarm Alert screen: this message is shown after an alarm rung
+    <!-- -->
+    <!-- Label shown on launcher icon -->
+    <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
+    <string name="app_label">ሰዓት</string>
+    <!-- Title for AlarmClock activity -->
+    <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="alarm_list_title">ማንቂያ ደወሎች</string>
+    <!-- Menu item on Alarm Clock screen: Add alarm -->
+    <string name="add_alarm">የማንቂያ ደወልአክል</string>
+    <!-- Menu item on Alarm Clock screen: Desk clock -->
+    <string name="menu_desk_clock">የጠረጴዛ ሰዓት</string>
+    <!-- Menu item on Alarm Clock screen: Edit alarm -->
+    <string name="menu_edit_alarm">ማንቂያ ደወል አርትዕ</string>
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="delete_alarm">ማንቂያ ደወል ሰርዝ</string>
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+    <string name="enable_alarm">የማንቂያ ደወል አብራ</string>
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+    <string name="disable_alarm">የማንቂያ ደወል አጥፋ</string>
+    <!-- Delete alarm confirmation dialog message. -->
+    <string name="delete_alarm_confirm">ይህንን ማንቂያ ሰርዝ?</string>
+    <!-- Menu item on Alarm Clock screen: Show clock -->
+    <string name="show_clock">ሰዓትአሳይ</string>
+    <!-- Menu item on Alarm Clock screen: Hide clock -->
+    <string name="hide_clock">ሰዓት ደብቅ</string>
+    <!-- Setting label on Set alarm screen: Label -->
+    <string name="label">መለያ ስም</string>
+    <!-- Content description for alarm on/off switch in On state -->
+    <string name="on_switch">በርቷል</string>
+    <!-- Content description for alarm on/off switch in Off state -->
+    <string name="off_switch">ጠፍቷል</string>
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">ማንቂያ</string>
+    <!-- Preference category on Alarm Settings screen: Set alarm -->
+    <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="set_alarm">የማንቂያ ደወልአዘጋጅ</string>
+    <!-- Setting labels on Set alarm screen: Vibration on or off -->
+    <string name="alarm_vibrate">ንዘር</string>
+    <!-- Setting labels on Set alarm screen: Repeat -->
+    <string name="alarm_repeat">ድገም</string>
+    <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+    <string name="alert">የማንቂያ ደውል ቅላጼ</string>
+    <!-- Title of default ringtone played when a timer expires. -->
+    <string name="default_timer_ringtone_title">ሰዓት ቆጣሪው ጊዜው አልፏል</string>
+    <!-- Title of silent ringtone played when a timer expires. -->
+    <string name="silent_timer_ringtone_title">ፀጥ ያለ</string>
+    <!-- Label on expanded alarm edit view. -->
+    <string name="ringtone">የደወል ቅላጼ</string>
+    <!-- Setting labels on Set alarm screen: Set time  -->
+    <string name="time">ጊዜ</string>
+    <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
+    <string name="alarm_tomorrow">ነገ</string>
+    <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
+    <string name="alarm_today">ዛሬ</string>
+    <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
+    <string name="alarm_alert_wake_up">ይንቁ!</string>
+    <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
+    <string name="alarm_alert_off_action_text">ጠፍቷል</string>
+    <!-- Button labels on the alarm dialog: Dismiss -->
+    <string name="alarm_alert_dismiss_text">አሰናብት</string>
+    <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+    <string name="alarm_alert_dismiss_now_text">አሁን አሰናብት</string>
+    <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
-  <string name="alarm_missed_title">ያመለጠ ማንቂያ</string>
-  <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+    <string name="alarm_missed_title">ያመለጠ ማንቂያ</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the number of minutes in two separate lines. For example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <string name="alarm_alert_snoozed_text">አንቀላፍቷል</string>
-  <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+    <string name="alarm_alert_snoozed_text">አንቀላፍቷል</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
          together with the word 'Snoozed' in two separate lines or example:
              Snoozed
              10 min
          [CHAR LIMIT=10]
     -->
-  <plurals name="alarm_alert_snooze_duration">
-    <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> ደቂቃ</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> ደቂቃ</item>
-  </plurals>
-  <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
-  <string name="alarm_alert_off_text">ማንቂያ ጠፍቷል</string>
-  <!-- Button labels on the alarm dialog: Snooze -->
-  <string name="alarm_alert_snooze_text">አሸልብ</string>
-  <!-- Toast that appears after Alarm is snoozed from the Alarm
+    <plurals name="alarm_alert_snooze_duration">
+        <!-- Duration for one minute -->
+        <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> ደቂቃ</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> ደቂቃ</item>
+    </plurals>
+    <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
+    <string name="alarm_alert_off_text">ማንቂያ ጠፍቷል</string>
+    <!-- Button labels on the alarm dialog: Snooze -->
+    <string name="alarm_alert_snooze_text">አሸልብ</string>
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
-  <plurals name="alarm_alert_snooze_set">
-    <!-- Duration for one minute -->
-    <item quantity="one">ለ<xliff:g id="MINUTES">%d</xliff:g> ደቂቃዎች በማሸለብ ላይ</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other">ለ<xliff:g id="MINUTES">%d</xliff:g> ደቂቃዎች በማሸለብ ላይ</item>
-  </plurals>
-  <!-- Text to appear inside a notification while an alarm is snoozing. -->
-  <string name="alarm_alert_snooze_until">እስከ <xliff:g id="TIME">%s</xliff:g> ድረስ በማሸለብ ላይ</string>
-  <!-- Text to appear in the notification title while an alarm is about to go off. -->
-  <string name="alarm_alert_predismiss_title">በቅርብ ጊዜ የሚሆን ማንቂያ</string>
-  <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
-  <string name="missed_alarm_has_been_deleted">የእርስዎ ያልታየ ማንቂያ ተሰርዟል</string>
-  <!-- 0: nothing
+    <plurals name="alarm_alert_snooze_set">
+        <!-- Duration for one minute -->
+        <item quantity="one">ለ<xliff:g id="MINUTES">%d</xliff:g> ደቂቃዎች በማሸለብ ላይ</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">ለ<xliff:g id="MINUTES">%d</xliff:g> ደቂቃዎች በማሸለብ ላይ</item>
+    </plurals>
+    <!-- Text to appear inside a notification while an alarm is snoozing. -->
+    <string name="alarm_alert_snooze_until">እስከ <xliff:g id="TIME">%s</xliff:g> ድረስ በማሸለብ ላይ</string>
+    <!-- Text to appear in the notification title while an alarm is about to go off. -->
+    <string name="alarm_alert_predismiss_title">በቅርብ ጊዜ የሚሆን ማንቂያ</string>
+    <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+    <string name="missed_alarm_has_been_deleted">የእርስዎ ያልታየ ማንቂያ ተሰርዟል</string>
+    <!-- 0: nothing
          1: days
          2:      hours
          3: days hours
@@ -130,706 +130,706 @@
          6:      hours minutes
          7: days hours minutes
     -->
-  <!-- Timer notification: how long from now until timer goes off. -->
-  <string name="timer_notifications_less_min">ከአንድ ደቂቃ በታች ይቀራል</string>
-  <string name="timer_notifications_hours"><xliff:g id="HOURS">%1$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
-  <string name="timer_notifications_minutes"><xliff:g id="MINUTES">%2$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
-  <string name="timer_notifications_hours_minutes"><xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g> ይቀራል</string>
-  <!--
+    <!-- Timer notification: how long from now until timer goes off. -->
+    <string name="timer_notifications_less_min">ከአንድ ደቂቃ በታች ይቀራል</string>
+    <string name="timer_notifications_hours"><xliff:g id="HOURS">%1$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
+    <string name="timer_notifications_minutes"><xliff:g id="MINUTES">%2$s</xliff:g><xliff:g id="REMAINING"> %3$s</xliff:g></string>
+    <string name="timer_notifications_hours_minutes"><xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g> ይቀራል</string>
+    <!--
         Verb inflection to use for single time units remaining
         Ex. "1 minute remaining"
     -->
-  <string name="timer_remaining_single">ቀሪ</string>
-  <!--
+    <string name="timer_remaining_single">ቀሪ</string>
+    <!--
         Verb inflection to use for multiple time units remaining
         Ex. "2 minutes remaining"
     -->
-  <string name="timer_remaining_multiple">ቀሪ</string>
-  <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
-  <string-array name="alarm_set">
-    <item>ማንቂያ ከአሁን ወዲያ ከ1 ደቂቃ በታች  የተዘጋጀ ነው፡፡</item>
-    <item> ማንቂያ ከአሁን ጀምሮ ለ<xliff:g id="DAYS">%1$s</xliff:g> የተዘጋጀ ነው።</item>
-    <item> ማንቂያ ከአሁን ጀምሮ ለ<xliff:g id="HOURS">%2$s</xliff:g> የተዘጋጀ ነው።</item>
-    <item> ማንቂያ ከአሁን ጀምሮ ለ <xliff:g id="DAYS">%1$s</xliff:g> እና <xliff:g id="HOURS">%2$s</xliff:g> የተዘጋጀ ነው።</item>
-    <item>ማንቂያ ከአሁን ጀምሮ ለ<xliff:g id="MINUTES">%3$s</xliff:g> የተዘጋጀ ነው።</item>
-    <item> ማንቂያ ከአሁን ጀምሮ ለ <xliff:g id="DAYS">%1$s</xliff:g> እና <xliff:g id="MINUTES">%3$s</xliff:g> የተዘጋጀ ነው።</item>
-    <item> ማንቂያ ከአሁን ጀምሮ ለ <xliff:g id="HOURS">%2$s</xliff:g> እና <xliff:g id="MINUTES">%3$s</xliff:g> የተዘጋጀ ነው።</item>
-    <item>ይህ ማንቂያ ከአሁን ጀምሮ ለ<xliff:g id="DAYS">%1$s</xliff:g><xliff:g id="HOURS">%2$s</xliff:g><xliff:g id="MINUTES">%3$s</xliff:g>  የተዘጋጀ ነው።</item>
-  </string-array>
-  <!-- Alarm confirmation toast: days -->
-  <plurals name="days">
-    <!-- Duration for one day -->
-    <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> ቀኖች</item>
-    <!-- Duration for more than one day -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ቀኖች</item>
-  </plurals>
-  <!-- Alarm confirmation toast and timer notification: hours -->
-  <plurals name="hours">
-    <!-- Duration for one hour -->
-    <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> ሰዓቶች</item>
-    <!-- Duration for more than one hour -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ሰዓቶች</item>
-  </plurals>
-  <!-- Alarm confirmation toast and timer notification: minutes -->
-  <plurals name="minutes">
-    <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> ደቂቃዎች</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ደቂቃዎች</item>
-  </plurals>
-  <!-- Repeat options that appear under an alarm on main Alarm Clock
+    <string name="timer_remaining_multiple">ቀሪ</string>
+    <!-- Alarm confirmation toast: Describes how long from now until alarm fires -->
+    <string-array name="alarm_set">
+        <item>ማንቂያ ከአሁን ወዲያ ከ1 ደቂቃ በታች  የተዘጋጀ ነው፡፡</item>
+        <item>ማንቂያ ከአሁን ጀምሮ ለ<xliff:g id="DAYS">%1$s</xliff:g> የተዘጋጀ ነው።</item>
+        <item>ማንቂያ ከአሁን ጀምሮ ለ<xliff:g id="HOURS">%2$s</xliff:g> የተዘጋጀ ነው።</item>
+        <item>ማንቂያ ከአሁን ጀምሮ ለ <xliff:g id="DAYS">%1$s</xliff:g> እና <xliff:g id="HOURS">%2$s</xliff:g> የተዘጋጀ ነው።</item>
+        <item>ማንቂያ ከአሁን ጀምሮ ለ<xliff:g id="MINUTES">%3$s</xliff:g> የተዘጋጀ ነው።</item>
+        <item>ማንቂያ ከአሁን ጀምሮ ለ <xliff:g id="DAYS">%1$s</xliff:g> እና <xliff:g id="MINUTES">%3$s</xliff:g> የተዘጋጀ ነው።</item>
+        <item>ማንቂያ ከአሁን ጀምሮ ለ <xliff:g id="HOURS">%2$s</xliff:g> እና <xliff:g id="MINUTES">%3$s</xliff:g> የተዘጋጀ ነው።</item>
+        <item>ይህ ማንቂያ ከአሁን ጀምሮ ለ<xliff:g id="DAYS">%1$s</xliff:g><xliff:g id="HOURS">%2$s</xliff:g><xliff:g id="MINUTES">%3$s</xliff:g>  የተዘጋጀ ነው።</item>
+    </string-array>
+    <!-- Alarm confirmation toast: days -->
+    <plurals name="days">
+        <!-- Duration for one day -->
+        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> ቀኖች</item>
+        <!-- Duration for more than one day -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ቀኖች</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: hours -->
+    <plurals name="hours">
+        <!-- Duration for one hour -->
+        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> ሰዓቶች</item>
+        <!-- Duration for more than one hour -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ሰዓቶች</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: minutes -->
+    <plurals name="minutes">
+        <!-- Duration for one minute -->
+        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> ደቂቃዎች</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ደቂቃዎች</item>
+    </plurals>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
-  <string name="every_day">በየቀኑ</string>
-  <!-- Repeat options that appear under an alarm on main Alarm Clock
+    <string name="every_day">በየቀኑ</string>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
-  <!-- Appears at the top of the Clock Picker screen: Tell user to
+    <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
-  <string name="clock_instructions">ሰዓት ምረጥ</string>
-  <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="analog_gadget">አናሎግ ሰዓት</string>
-  <!-- Help activity name -->
-  <string name="help">እገዛ</string>
-  <!-- Settings activity name -->
-  <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="settings">ቅንብሮች</string>
-  <!-- Setting title for changing the snooze duration. -->
-  <string name="snooze_duration_title">የአሸልብ ርዝመት</string>
-  <plurals name="snooze_duration">
-    <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> ደቂቃዎች</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ደቂቃዎች</item>
-  </plurals>
-  <plurals name="snooze_picker_label">
-    <!-- Duration for one minute -->
-    <item quantity="one">ደቂቃዎች</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other">ደቂቃዎች</item>
-  </plurals>
-  <!-- Setting title for changing the crescendo duration. -->
-  <string name="crescendo_duration_title">ቀስ በቀስ ድምጽ ጨምር</string>
-  <!-- Summary value for changing the crescendo duration to 0. -->
-  <string name="no_crescendo_duration">ጠፍቷል</string>
-  <!-- Summary value for changing the crescendo duration. -->
-  <string name="crescendo_duration"><xliff:g id="NUMBER">%s</xliff:g> ሰከንዶች</string>
-  <!-- Setting label when changing the crescendo duration. -->
-  <string name="crescendo_picker_label">ስከንዶች</string>
-  <!-- Auto silence preference title -->
-  <string name="auto_silence_title">ጸጥታ ከዚህ በኋላ፦</string>
-  <!-- Auto silence summary string set based on the preference value. -->
-  <plurals name="auto_silence_summary">
-    <!-- Duration for one minute -->
-    <item quantity="one"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> ደቂቃዎች</item>
-    <!-- Duration for more than one minute -->
-    <item quantity="other"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> ደቂቃዎች</item>
-  </plurals>
-  <!-- Auto silence summary when turned off -->
-  <string name="auto_silence_never">በጭራሽ</string>
-  <!-- Entries listed in the ListPreference when invoking the auto silence
+    <string name="clock_instructions">ሰዓት ምረጥ</string>
+    <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="analog_gadget">አናሎግ ሰዓት</string>
+    <!-- Help activity name -->
+    <string name="help">እገዛ</string>
+    <!-- Settings activity name -->
+    <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="settings">ቅንብሮች</string>
+    <!-- Setting title for changing the snooze duration. -->
+    <string name="snooze_duration_title">የአሸልብ ርዝመት</string>
+    <plurals name="snooze_duration">
+        <!-- Duration for one minute -->
+        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> ደቂቃዎች</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ደቂቃዎች</item>
+    </plurals>
+    <plurals name="snooze_picker_label">
+        <!-- Duration for one minute -->
+        <item quantity="one">ደቂቃዎች</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">ደቂቃዎች</item>
+    </plurals>
+    <!-- Setting title for changing the crescendo duration. -->
+    <string name="crescendo_duration_title">ቀስ በቀስ ድምጽ ጨምር</string>
+    <!-- Summary value for changing the crescendo duration to 0. -->
+    <string name="no_crescendo_duration">ጠፍቷል</string>
+    <!-- Summary value for changing the crescendo duration. -->
+    <string name="crescendo_duration"><xliff:g id="NUMBER">%s</xliff:g> ሰከንዶች</string>
+    <!-- Setting label when changing the crescendo duration. -->
+    <string name="crescendo_picker_label">ስከንዶች</string>
+    <!-- Auto silence preference title -->
+    <string name="auto_silence_title">ጸጥታ ከዚህ በኋላ፦</string>
+    <!-- Auto silence summary string set based on the preference value. -->
+    <plurals name="auto_silence_summary">
+        <!-- Duration for one minute -->
+        <item quantity="one"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> ደቂቃዎች</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> ደቂቃዎች</item>
+    </plurals>
+    <!-- Auto silence summary when turned off -->
+    <string name="auto_silence_never">በጭራሽ</string>
+    <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
-  <string-array name="auto_silence_entries">
-    <item>1 ደቂቃ</item>
-    <item>5 ደቂቃዎች</item>
-    <item>10 ደቂቃዎች</item>
-    <item>15 ደቂቃዎች</item>
-    <item>20 ደቂቃዎች</item>
-    <item>25 ደቂቃዎች</item>
-    <item>በጭራሽ</item>
-  </string-array>
-  <!-- Values that are retrieved from the ListPreference. These must match
+    <string-array name="auto_silence_entries">
+        <item>1 ደቂቃ</item>
+        <item>5 ደቂቃዎች</item>
+        <item>10 ደቂቃዎች</item>
+        <item>15 ደቂቃዎች</item>
+        <item>20 ደቂቃዎች</item>
+        <item>25 ደቂቃዎች</item>
+        <item>በጭራሽ</item>
+    </string-array>
+    <!-- Values that are retrieved from the ListPreference. These must match
          the auto_silence_entries above. -->
-  <!-- Week start day preference title. -->
-  <string name="week_start_title">ሳምንት በዚህ ጀምር፦</string>
-  <!-- Entries listed in ListPreference for start day. -->
-  <string-array name="week_start_entries">
-    <item>ቅዳሜ</item>
-    <item>እሁድ</item>
-    <item>ሰኞ</item>
-  </string-array>
-  <!-- Values for ListPreference for start day of week. -->
-  <!-- Done button when editing an alarm. -->
-  <string name="done">ተከናውኗል</string>
-  <!-- Revert button when editing an alarm. -->
-  <string name="revert">አድህር</string>
-  <!-- Delete button when editing an alarm. -->
-  <string name="delete">ሰርዝ</string>
-  <!-- Setting title for changing the alarm volume. -->
-  <string name="alarm_volume_title">የማንቂያ ድምፅ መጠን</string>
-  <!-- Title for the silent ringtone. -->
-  <string name="silent_ringtone_title">ፀጥ ያለ</string>
-  <!-- Title for ringtones that cannot be located by uri. -->
-  <string name="unknown_ringtone_title">ያልታወቀ</string>
-  <!-- Text to display in the small text of the notification -->
-  <string name="alarm_notify_text">ማንቂያ አሸልብ ወይም አሰናብት።</string>
-  <!-- Text to display in the notification ticker and label -->
-  <string name="alarm_notify_snooze_label"><xliff:g id="LABEL">%s</xliff:g>(ቆይቷል)</string>
-  <!-- Text to display in the notification when the alarm has been snoozed -->
-  <string name="alarm_notify_snooze_text">ማንቂያ ለ<xliff:g id="TIME">%s</xliff:g> ተዘጋጅቷል።ይቅር ለማለት ይምረጡ።</string>
-  <!-- Title of the setting to change hardware button behavior. This string
+    <!-- Week start day preference title. -->
+    <string name="week_start_title">ሳምንት በዚህ ጀምር፦</string>
+    <!-- Entries listed in ListPreference for start day. -->
+    <string-array name="week_start_entries">
+        <item>ቅዳሜ</item>
+        <item>እሁድ</item>
+        <item>ሰኞ</item>
+    </string-array>
+    <!-- Values for ListPreference for start day of week. -->
+    <!-- Done button when editing an alarm. -->
+    <string name="done">ተከናውኗል</string>
+    <!-- Revert button when editing an alarm. -->
+    <string name="revert">አድህር</string>
+    <!-- Delete button when editing an alarm. -->
+    <string name="delete">ሰርዝ</string>
+    <!-- Setting title for changing the alarm volume. -->
+    <string name="alarm_volume_title">የማንቂያ ድምፅ መጠን</string>
+    <!-- Title for the silent ringtone. -->
+    <string name="silent_ringtone_title">ፀጥ ያለ</string>
+    <!-- Title for ringtones that cannot be located by uri. -->
+    <string name="unknown_ringtone_title">ያልታወቀ</string>
+    <!-- Text to display in the small text of the notification -->
+    <string name="alarm_notify_text">ማንቂያ አሸልብ ወይም አሰናብት።</string>
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label"><xliff:g id="LABEL">%s</xliff:g>(ቆይቷል)</string>
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="alarm_notify_snooze_text">ማንቂያ ለ<xliff:g id="TIME">%s</xliff:g> ተዘጋጅቷል።ይቅር ለማለት ይምረጡ።</string>
+    <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
-  <string name="volume_button_setting_title">የድምፅ አዝራሮች</string>
-  <!-- Dialog title of the volume and power setting. -->
-  <string name="volume_button_dialog_title">የአዝራር ተጽዕኖ</string>
-  <!-- Entries listed in the setting for the side-button action. -->
-  <string-array name="volume_button_setting_entries">
-    <item>አሸልብ</item>
-    <item>አሰናብት</item>
-    <item>ምንም አትስራ</item>
-  </string-array>
-  <!-- Values for the side-button setting. -->
-  <!-- Title of the ringtone setting. -->
-  <string name="default_ringtone_setting_title">ነባሪ የድምፅ ጥሪ አዘጋጅ</string>
-  <!-- Accessibility labels for Clock activity buttons -->
-  <string name="alarm_button_description">ማንቂያ ደወሎች</string>
-  <string name="gallery_button_description">የሥነ ጥበብ ማዕከል</string>
-  <string name="music_button_description">ሙዚቃ</string>
-  <string name="nightmode_button_description">ደብዛዛ ብርሃን</string>
-  <string name="home_button_description">አስነሺ</string>
-  <string name="desk_clock_button_description">ሰዓት ማሳያ</string>
-  <!-- Accessibility labels for alarm buttons -->
-  <string name="label_description">መለያ ስም</string>
-  <string name="ringtone_description">የደወል ቅላጼ</string>
-  <!-- What to show the user if the weather widget exists but fails to
+    <string name="volume_button_setting_title">የድምፅ አዝራሮች</string>
+    <!-- Dialog title of the volume and power setting. -->
+    <string name="volume_button_dialog_title">የአዝራር ተጽዕኖ</string>
+    <!-- Entries listed in the setting for the side-button action. -->
+    <string-array name="volume_button_setting_entries">
+        <item>አሸልብ</item>
+        <item>አሰናብት</item>
+        <item>ምንም አትስራ</item>
+    </string-array>
+    <!-- Values for the side-button setting. -->
+    <!-- Title of the ringtone setting. -->
+    <string name="default_ringtone_setting_title">ነባሪ የድምፅ ጥሪ አዘጋጅ</string>
+    <!-- Accessibility labels for Clock activity buttons -->
+    <string name="alarm_button_description">ማንቂያ ደወሎች</string>
+    <string name="gallery_button_description">የሥነ ጥበብ ማዕከል</string>
+    <string name="music_button_description">ሙዚቃ</string>
+    <string name="nightmode_button_description">ደብዛዛ ብርሃን</string>
+    <string name="home_button_description">አስነሺ</string>
+    <string name="desk_clock_button_description">ሰዓት ማሳያ</string>
+    <!-- Accessibility labels for alarm buttons -->
+    <string name="label_description">መለያ ስም</string>
+    <string name="ringtone_description">የደወል ቅላጼ</string>
+    <!-- What to show the user if the weather widget exists but fails to
          respond. This is a sign of an error; if the weather widget is not
          present on the device, we show nothing at all. -->
-  <string name="weather_fetch_failure">የአየር ጠባይ መረጃ አሁን አይገኝም፡፡</string>
-  <!-- A description for the DeskClock alarm sound playback service.
+    <string name="weather_fetch_failure">የአየር ጠባይ መረጃ አሁን አይገኝም፡፡</string>
+    <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="alarm_klaxon_service_desc">በጠረጴዛ ሰዓት ለተዘጋጁ ማንቂያ ደውሎች የዳግም አጫዋት አገልግሎት ድምፅ አሰማ።</string>
-  <!-- String displayed as the alert summary while loading the alert name from
+    <string name="alarm_klaxon_service_desc">በጠረጴዛ ሰዓት ለተዘጋጁ ማንቂያ ደውሎች የዳግም አጫዋት አገልግሎት ድምፅ አሰማ።</string>
+    <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
-  <string name="loading_ringtone">የስልክ ጥሪ ድምፅ በመስቀል ላይ....</string>
-  <!-- A description for the DeskClock timer sound playback service.
+    <string name="loading_ringtone">የስልክ ጥሪ ድምፅ በመስቀል ላይ....</string>
+    <!-- A description for the DeskClock timer sound playback service.
          [CHAR LIMIT=NONE] -->
-  <string name="timer_ring_service_desc">ድምጽ መልሶ የማጫወት አገልግሎት በሰዓት ውስጥ ለተዘጋጁ የሰዓት ቆጣሪዎች።</string>
-  <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
-  <string name="control_set_alarm">የማንቂያ ደወልአዘጋጅ</string>
-  <!--  ActionBar strings -->
-  <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
-  <string name="menu_alarm">ማንቂያ</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
-  <string name="menu_timer">ሰዓት ቆጣሪ</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
-  <string name="menu_clock">ሰዓት</string>
-  <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
-  <string name="menu_stopwatch">የሩጫ ሰዓት</string>
-  <!-- Clock view buttons strings-->
-  <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
-  <string name="button_alarms">የማንቂያ ደውል አክል</string>
-  <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
-  <string name="button_cities">ከተማዎች</string>
-  <!-- Describes the purpose of the button which pops up a menu of setting choices -->
-  <string name="button_menu">ተጨማሪ አማራጮች</string>
-  <!-- Menu item on most screens to get to more settings -->
-  <string name="menu_item_settings">ቅንብሮች</string>
-  <!-- Menu item on most screens to get to the help information -->
-  <string name="menu_item_help">እገዛ</string>
-  <!-- Menu item on clock screen to add world city. -->
-  <!-- Menu item on clock screen to enter night mode. -->
-  <string name="menu_item_night_mode">የማታ ሁነታ</string>
-  <!-- Menu item on Cities screen to sort by GMT offset -->
-  <string name="menu_item_sort_by_gmt_offset">በጊዜ ደርድር</string>
-  <!-- Menu item on Cities screen to sort by alphabetical order -->
-  <string name="menu_item_sort_by_name">በስም ደርድር</string>
-  <!-- Label for selected cities in Cities list view -->
-  <string name="selected_cities_label">የተመረጡ ከተማዎች</string>
-  <!-- Stopwatch and Timer shared strings -->
-  <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
-  <string name="sw_resume_button">ከቆመብት ቀጥል</string>
-  <!--
+    <string name="timer_ring_service_desc">ድምጽ መልሶ የማጫወት አገልግሎት በሰዓት ውስጥ ለተዘጋጁ የሰዓት ቆጣሪዎች።</string>
+    <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm">የማንቂያ ደወልአዘጋጅ</string>
+    <!--  ActionBar strings -->
+    <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
+    <string name="menu_alarm">ማንቂያ</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
+    <string name="menu_timer">ሰዓት ቆጣሪ</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
+    <string name="menu_clock">ሰዓት</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
+    <string name="menu_stopwatch">የሩጫ ሰዓት</string>
+    <!-- Clock view buttons strings-->
+    <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+    <string name="button_alarms">የማንቂያ ደውል አክል</string>
+    <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
+    <string name="button_cities">ከተማዎች</string>
+    <!-- Describes the purpose of the button which pops up a menu of setting choices -->
+    <string name="button_menu">ተጨማሪ አማራጮች</string>
+    <!-- Menu item on most screens to get to more settings -->
+    <string name="menu_item_settings">ቅንብሮች</string>
+    <!-- Menu item on most screens to get to the help information -->
+    <string name="menu_item_help">እገዛ</string>
+    <!-- Menu item on clock screen to add world city. -->
+    <!-- Menu item on clock screen to enter night mode. -->
+    <string name="menu_item_night_mode">የማታ ሁነታ</string>
+    <!-- Menu item on Cities screen to sort by GMT offset -->
+    <string name="menu_item_sort_by_gmt_offset">በጊዜ ደርድር</string>
+    <!-- Menu item on Cities screen to sort by alphabetical order -->
+    <string name="menu_item_sort_by_name">በስም ደርድር</string>
+    <!-- Label for selected cities in Cities list view -->
+    <string name="selected_cities_label">የተመረጡ ከተማዎች</string>
+    <!-- Stopwatch and Timer shared strings -->
+    <!-- Describes the purpose of the button to resume running timer. [CHAR LIMIT=15] -->
+    <string name="sw_resume_button">ከቆመብት ቀጥል</string>
+    <!--
         Describes the purpose of the button
             for stopwatch: return stopwatch to zero and remove the lap times.
             for timer: return timer to originally set duration.
         [CHAR LIMIT=15]
     -->
-  <string name="sw_reset_button">ዳግም አስጀምር</string>
-  <!-- Stopwatch strings -->
-  <!-- Describes the purpose of the button to begin running a stopwatch -->
-  <string name="sw_start_button">ጀምር</string>
-  <!-- Describes the purpose of the button to pause a stopwatch. -->
-  <string name="sw_pause_button">ለአፍታ አቁም</string>
-  <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
-  <string name="sw_lap_button">ዙር</string>
-  <!-- Describes the purpose of the button to share the stopwatch value.
+    <string name="sw_reset_button">ዳግም አስጀምር</string>
+    <!-- Stopwatch strings -->
+    <!-- Describes the purpose of the button to begin running a stopwatch -->
+    <string name="sw_start_button">ጀምር</string>
+    <!-- Describes the purpose of the button to pause a stopwatch. -->
+    <string name="sw_pause_button">ለአፍታ አቁም</string>
+    <!-- Describes the purpose of the button to record current the stopwatch value into the collection of lap times. -->
+    <string name="sw_lap_button">ዙር</string>
+    <!-- Describes the purpose of the button to share the stopwatch value.
          Also used as title for chooser when sharing stopwatch results. -->
-  <string name="sw_share_button">አጋራ</string>
-  <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
-  <string name="hours_label">ሰ</string>
-  <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
-  <string name="minutes_label">ደ</string>
-  <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
-  <string name="seconds_label">ሴ</string>
-  <!-- Accessibility strings -->
-  <string name="hours_label_description">ሰዓቶች</string>
-  <string name="minutes_label_description">ደቂቃዎች</string>
-  <string name="seconds_label_description">ሰከንዶች</string>
-  <!--  Stopwatch share strings -->
-  <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
-  <string name="sw_share_main">የእኔ ሰዓት <xliff:g id="TIME">%s</xliff:g> ነው</string>
-  <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
-  <string name="sw_share_laps">የዙር ሰዓት፦</string>
-  <!-- Label to enumerate the number of laps in the notification the user has counted -->
-  <string name="sw_notification_lap_number">ዙር <xliff:g id="NUMBER">%d</xliff:g></string>
-  <!-- Stopwatch accessibility strings -->
-  <plurals name="Nhours_description">
-    <!-- 1 hour -->
-    <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> ሰዓቶች</item>
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> ሰዓቶች</item>
-  </plurals>
-  <plurals name="Nminutes_description">
-    <!-- 1 minute -->
-    <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> ደቂቃዎች</item>
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> ደቂቃዎች</item>
-  </plurals>
-  <plurals name="Nseconds_description">
-    <!-- 1 second -->
-    <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> ሰከንዶች</item>
-    <!-- more -->
-    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> ሰከንዶች</item>
-  </plurals>
-  <!-- timer strings -->
-  <!-- Describes the purpose of the button to add a new timer -->
-  <string name="timer_add_timer">ጊዜ ቆጣሪን አክል</string>
-  <!-- Describes the purpose of the button to begin or continue running a timer -->
-  <string name="timer_start">ጀምር</string>
-  <!-- Describes the purpose of the button to delete a timer. -->
-  <string name="timer_delete">ሰርዝ</string>
-  <!-- Talkback description for deleting a number. -->
-  <string name="timer_descriptive_delete"><xliff:g id="NUMBER_STRING">%s</xliff:g>ን ሰርዝ</string>
-  <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
-  <string name="timer_plus_one">1 ደቂቃ አክል</string>
-  <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
-  <string name="timer_plus_1_min">1 ደቂቃ ያክሉ</string>
-  <!-- Describes the purpose of the button to stop the timer. -->
-  <string name="timer_stop">አቁም</string>
-  <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
-  <string name="timer_stop_all">ሁሉንም ሰዓት ቆጣሪዎች አቁም</string>
-  <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
-  <string name="timer_reset">ዳግም አስጀምር</string>
-  <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
-  <string name="timer_cancel">ይቅር</string>
-  <!-- Accessibility announcement when a timer is canceled. -->
-  <string name="timer_canceled">የሰዓት ቆጣሪ ተሰርዟል</string>
-  <!-- Notification content shown when a timer has completed and has no more time remaining -->
-  <string name="timer_times_up">ጊዜው አብቅቷል</string>
-  <!--
+    <string name="sw_share_button">አጋራ</string>
+    <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+    <string name="hours_label">ሰ</string>
+    <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+    <string name="minutes_label">ደ</string>
+    <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+    <string name="seconds_label">ሴ</string>
+    <!-- Accessibility strings -->
+    <string name="hours_label_description">ሰዓቶች</string>
+    <string name="minutes_label_description">ደቂቃዎች</string>
+    <string name="seconds_label_description">ሰከንዶች</string>
+    <!--  Stopwatch share strings -->
+    <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
+    <string name="sw_share_main">የእኔ ሰዓት <xliff:g id="TIME">%s</xliff:g> ነው</string>
+    <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
+    <string name="sw_share_laps">የዙር ሰዓት፦</string>
+    <!-- Label to enumerate the number of laps in the notification the user has counted -->
+    <string name="sw_notification_lap_number">ዙር <xliff:g id="NUMBER">%d</xliff:g></string>
+    <!-- Stopwatch accessibility strings -->
+    <plurals name="Nhours_description">
+        <!-- 1 hour -->
+        <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> ሰዓቶች</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> ሰዓቶች</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <!-- 1 minute -->
+        <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> ደቂቃዎች</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> ደቂቃዎች</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <!-- 1 second -->
+        <item quantity="one"><xliff:g id="NUMBER">%d</xliff:g> ሰከንዶች</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> ሰከንዶች</item>
+    </plurals>
+    <!-- timer strings -->
+    <!-- Describes the purpose of the button to add a new timer -->
+    <string name="timer_add_timer">ጊዜ ቆጣሪን አክል</string>
+    <!-- Describes the purpose of the button to begin or continue running a timer -->
+    <string name="timer_start">ጀምር</string>
+    <!-- Describes the purpose of the button to delete a timer. -->
+    <string name="timer_delete">ሰርዝ</string>
+    <!-- Talkback description for deleting a number. -->
+    <string name="timer_descriptive_delete"><xliff:g id="NUMBER_STRING">%s</xliff:g>ን ሰርዝ</string>
+    <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
+    <string name="timer_plus_one">1 ደቂቃ አክል</string>
+    <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
+    <string name="timer_plus_1_min">1 ደቂቃ ያክሉ</string>
+    <!-- Describes the purpose of the button to stop the timer. -->
+    <string name="timer_stop">አቁም</string>
+    <!-- Describes the purpose of the button to stop all currently firing timers. [CHAR LIMIT=25] -->
+    <string name="timer_stop_all">ሁሉንም ሰዓት ቆጣሪዎች አቁም</string>
+    <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
+    <string name="timer_reset">ዳግም አስጀምር</string>
+    <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
+    <string name="timer_cancel">ይቅር</string>
+    <!-- Accessibility announcement when a timer is canceled. -->
+    <string name="timer_canceled">የሰዓት ቆጣሪ ተሰርዟል</string>
+    <!-- Notification content shown when a timer has completed and has no more time remaining -->
+    <string name="timer_times_up">ጊዜው አብቅቷል</string>
+    <!--
         Notification content shown when multiple timers have completed and have no more time
         remaining. Arg is the number of timers. [CHAR LIMIT=25]
     -->
-  <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS">%d</xliff:g> ሰዓት ቆጣሪዎች ጊዜያቸው አልፎባቸዋል</string>
-  <!-- Label associated with a notification for a Timer -->
-  <string name="timer_notification_label">የሰዓት ቆጣሪ</string>
-  <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
-  <string name="timers_max_count_reached">4 ጊዜ መቁጠሪያዎች ቢበዛ</string>
-  <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
-  <string name="timer_pause">ለአፍታ አቁም</string>
-  <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
-  <string name="timer_reset_all">ሁሉንም ሰዓት ቆጣሪዎች ዳግም አስጀምር</string>
-  <!-- Jocular content that user may append when sharing the lap times -->
-  <string-array name="sw_share_strings" translatable="true">
-    <item>ፈጣን ነዎት።</item>
-    <item>በልፋትዎ ውጤት ይደሰቱ።</item>
-    <item>Androidዎች ፈጣን በመሆን ይታወቃሉ፣ ግን የእርስዎን ያህል ፈጣን አይደሉም!</item>
-    <item>ኡፎይ።</item>
-    <item>L33t ጊዜ።</item>
-    <item>እንደዚህ ያለ እጅግ በጣም ከፍተኛ ፍጥነት።</item>
-    <item>የጊዜ ዋርፕ እንድገመው።</item>
-    <item>ወደ ግራ ዘለል ማለት ብቻ ነው።</item>
-    <item>የመጣደፍ ተሰጥዖ አለዎት</item>
-    <item>የብርሃን ፍጥነት።</item>
-  </string-array>
-  <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
-  <string name="home_label">መነሻ</string>
-  <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="cities_activity_title">ከተማዎች</string>
-  <!-- Settings strings -->
-  <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
-  <string name="clock_settings">ሰዓት</string>
-  <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
-  <string name="clock_style">ቅጥ</string>
-  <!-- Title for preference to change date & time -->
-  <string name="open_date_settings">ቀን እና ሰዓት ለውጥ</string>
-  <!-- Entries listed in the ListPreference when invoking the clock style
+    <string name="timer_multi_times_up"><xliff:g id="NUM_TIMERS">%d</xliff:g> ሰዓት ቆጣሪዎች ጊዜያቸው አልፎባቸዋል</string>
+    <!-- Label associated with a notification for a Timer -->
+    <string name="timer_notification_label">የሰዓት ቆጣሪ</string>
+    <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
+    <string name="timers_max_count_reached">4 ጊዜ መቁጠሪያዎች ቢበዛ</string>
+    <!-- Describes the purpose of the notification button to pause the timer. [CHAR LIMIT=15] -->
+    <string name="timer_pause">ለአፍታ አቁም</string>
+    <!-- Describes the purpose of the notification button to reset all running timers. [CHAR LIMIT=31] -->
+    <string name="timer_reset_all">ሁሉንም ሰዓት ቆጣሪዎች ዳግም አስጀምር</string>
+    <!-- Jocular content that user may append when sharing the lap times -->
+    <string-array name="sw_share_strings" translatable="true">
+        <item>ፈጣን ነዎት።</item>
+        <item>በልፋትዎ ውጤት ይደሰቱ።</item>
+        <item>Androidዎች ፈጣን በመሆን ይታወቃሉ፣ ግን የእርስዎን ያህል ፈጣን አይደሉም!</item>
+        <item>ኡፎይ።</item>
+        <item>L33t ጊዜ።</item>
+        <item>እንደዚህ ያለ እጅግ በጣም ከፍተኛ ፍጥነት።</item>
+        <item>የጊዜ ዋርፕ እንድገመው።</item>
+        <item>ወደ ግራ ዘለል ማለት ብቻ ነው።</item>
+        <item>የመጣደፍ ተሰጥዖ አለዎት</item>
+        <item>የብርሃን ፍጥነት።</item>
+    </string-array>
+    <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
+    <string name="home_label">መነሻ</string>
+    <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="cities_activity_title">ከተማዎች</string>
+    <!-- Settings strings -->
+    <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
+    <string name="clock_settings">ሰዓት</string>
+    <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
+    <string name="clock_style">ቅጥ</string>
+    <!-- Title for preference to change date & time -->
+    <string name="open_date_settings">ቀን እና ሰዓት ለውጥ</string>
+    <!-- Entries listed in the ListPreference when invoking the clock style
          preference. -->
-  <string-array name="clock_style_entries">
-    <item>አናሎግ</item>
-    <item>ዲጂታል</item>
-  </string-array>
-  <!-- Values that are retrieved from the ListPreference. These must match
+    <string-array name="clock_style_entries">
+        <item>አናሎግ</item>
+        <item>ዲጂታል</item>
+    </string-array>
+    <!-- Values that are retrieved from the ListPreference. These must match
          the clock_style_entries above. -->
-  <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
-  <string name="automatic_home_clock">ራስ-ሰር የቤት ሰዓት</string>
-  <!-- Describes the functionality provided by the automatic_home_clock option -->
-  <string name="automatic_home_clock_summary">ጊዜው የተለየ በሆነበት አካባቢ ውስጥ በሚጓዙበት ጊዜ የቤት ሰዓት ያክሉ</string>
-  <!-- Title in the preferences change the time zone for the user's home -->
-  <string name="home_time_zone">የቤት ሰዓት ሰቅ</string>
-  <!-- Title in a list dialog box to pick a time zone for the user's home -->
-  <string name="home_time_zone_title">የቤት ሰዓት ሰቅ</string>
-  <!-- Textual content of the button to discard the current dialog values and close the dialog -->
-  <string name="time_picker_cancel">ይቅር</string>
-  <!-- Textual content of the button to update an alarm with the current dialog values -->
-  <string name="time_picker_set">እሺ</string>
-  <!--  place holder for am/pm label when it is not set -->
-  <!-- add 00 as minutes to the time when pressing this button -->
-  <!-- add 30 as minutes to the time when pressing this button -->
-  <!--
+    <!-- Title for an option that will automatically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
+    <string name="automatic_home_clock">ራስ-ሰር የቤት ሰዓት</string>
+    <!-- Describes the functionality provided by the automatic_home_clock option -->
+    <string name="automatic_home_clock_summary">ጊዜው የተለየ በሆነበት አካባቢ ውስጥ በሚጓዙበት ጊዜ የቤት ሰዓት ያክሉ</string>
+    <!-- Title in the preferences change the time zone for the user's home -->
+    <string name="home_time_zone">የቤት ሰዓት ሰቅ</string>
+    <!-- Title in a list dialog box to pick a time zone for the user's home -->
+    <string name="home_time_zone_title">የቤት ሰዓት ሰቅ</string>
+    <!-- Textual content of the button to discard the current dialog values and close the dialog -->
+    <string name="time_picker_cancel">ይቅር</string>
+    <!-- Textual content of the button to update an alarm with the current dialog values -->
+    <string name="time_picker_set">እሺ</string>
+    <!--  place holder for am/pm label when it is not set -->
+    <!-- add 00 as minutes to the time when pressing this button -->
+    <!-- add 30 as minutes to the time when pressing this button -->
+    <!--
         Accessibility string read when a city checkbox is checked.
         Ex. "Ann Arbor checked"
     -->
-  <string name="city_checked"><xliff:g id="CITY_NAME">%s</xliff:g> ምልክት ተደርጎበታል</string>
-  <!--
+    <string name="city_checked"><xliff:g id="CITY_NAME">%s</xliff:g> ምልክት ተደርጎበታል</string>
+    <!--
         Accessibility string read when a city checkbox is unchecked.
         Ex. "Ann Arbor unchecked"
     -->
-  <string name="city_unchecked"><xliff:g id="CITY_NAME">%s</xliff:g> ምልክቱ ተነስቷል</string>
-  <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
-  <string-array name="timezone_labels">
-    <item>"የማርሻል ደሴቶች"</item>
-    <item>"የሚድዌይ ደሴት"</item>
-    <item>"ሀዋይ"</item>
-    <item>"አላስካ"</item>
-    <item>"ፓሰፊክ ሰዓት"</item>
-    <item>"ቲጇና"</item>
-    <item>"አሪዞና"</item>
-    <item>"ቺዋዋ"</item>
-    <item>"የተራራ ሰዓት"</item>
-    <item>"መካከለኛው አሜሪካ"</item>
-    <item>"የመካከለኛው ሰዓት"</item>
-    <item>"ሜክሲኮ ከተማ"</item>
-    <item>"ሳስካታቸዋን"</item>
-    <item>"ቦጎታ"</item>
-    <item>"ምስራቃዊ ሰዓት"</item>
-    <item>"ቬኔዝዌላ"</item>
-    <item>"የአትላንቲክ ሰዓት (ባርባዶስ)"</item>
-    <item>"የአትላንቲክ ሰዓት (ካናዳ)"</item>
-    <item>"ማናኡስ"</item>
-    <item>"ሳንቲያጎ"</item>
-    <item>"ኒውፋውንድላንድ"</item>
-    <item>"ብራሲሊያ"</item>
-    <item>"ቦነስ አይረስ"</item>
-    <item>"ግሪንላንድ"</item>
-    <item>"ሞንተቪዴዮ"</item>
-    <item>"ማዕከላዊ-አትላንቲክ"</item>
-    <item>"አዞረስ"</item>
-    <item>"ኬፕ ቨርዴ ደሴቶች"</item>
-    <item>"ካዛብላንካ"</item>
-    <item>"ለንደን፣ ደብሊን"</item>
-    <item>"አምስተርዳም፣ በርሊን"</item>
-    <item>"ቤልግሬድ"</item>
-    <item>"ብራስልስ"</item>
-    <item>"ሳራየቮ"</item>
-    <item>"ዊንድሆዌክ"</item>
-    <item>"የምዕራብ አፍሪካ ሰዓት"</item>
-    <item>"አማን፣ ዮርዳኖስ"</item>
-    <item>"አቴንስ፣ ኢስታንቡል"</item>
-    <item>"ቤሩት፣ ሊባኖስ"</item>
-    <item>"ካይሮ"</item>
-    <item>"ሄልሲንኪ"</item>
-    <item>"እየሩሳሌም"</item>
-    <item>"ሚንስክ"</item>
-    <item>"ሀራሬ"</item>
-    <item>"ባግዳድ"</item>
-    <item>"ሞስኮ"</item>
-    <item>"ኩዌት"</item>
-    <item>"ናይሮቢ"</item>
-    <item>"ቴህራን"</item>
-    <item>"ባኩ"</item>
-    <item>"ትብሊሲ"</item>
-    <item>"የረቫን"</item>
-    <item>"ዱባይ"</item>
-    <item>"ካቡል"</item>
-    <item>"ኢስላማባድ፣ ካራቺ"</item>
-    <item>"ኡራልስክ"</item>
-    <item>"የካተሪንበርግ"</item>
-    <item>"ኮልካታ"</item>
-    <item>"ሽሪላንካ"</item>
-    <item>"ካትማንዱ"</item>
-    <item>"አስታና"</item>
-    <item>"ያንጎን"</item>
-    <item>"ክራስኖያርስክ"</item>
-    <item>"ባንግኮክ"</item>
-    <item>"ቤጂንግ"</item>
-    <item>"ሆንግ ኮንግ"</item>
-    <item>"ኢርኩትስክ"</item>
-    <item>"ኳላ ላምፑር"</item>
-    <item>"ፐርዝ"</item>
-    <item>"ታይፔይ"</item>
-    <item>"ሴኦል"</item>
-    <item>"ቶኪዮ፣ ኦሳካ"</item>
-    <item>"ያኩትስክ"</item>
-    <item>"አዴላይድ"</item>
-    <item>"ዳርዊን"</item>
-    <item>"ብሪስቤን"</item>
-    <item>"ሆባርት"</item>
-    <item>"ሲድኒ፣ ካንቤራ"</item>
-    <item>"ቭላዲቮስቶክ"</item>
-    <item>"ጉዋም"</item>
-    <item>"ማጋዳን"</item>
-    <item>"ኦክላንድ"</item>
-    <item>"ፊጂ"</item>
-    <item>"ቶንጋ"</item>
-    <item>"ጃካርታ"</item>
-  </string-array>
-  <!-- Choices for timezones, must be kept in sync with timezone_values. -->
-  <!-- Header in the preferences settings for the section pertaining to alarms -->
-  <string name="alarm_settings">ማንቂያዎች</string>
-  <!-- Describes the service that processes actions originating from timer notifications. -->
-  <string name="timer_service_desc">ከጊዜ ቆጣሪ ማሳወቂያዎች እርምጃዎችን ያስኬዳል።</string>
-  <!-- Describes the service that processes actions originating from stopwatch notifications. -->
-  <string name="stopwatch_service_desc">ከቆጥሮ የሚቆም ሰዓት ማሳወቂያዎች እርምጃዎችን ያስኬዳል።</string>
-  <!-- Description for the paused stop watch -->
-  <string name="swn_paused">ለአፍታ ቆሟል</string>
-  <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
+    <string name="city_unchecked"><xliff:g id="CITY_NAME">%s</xliff:g> ምልክቱ ተነስቷል</string>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
+    <string-array name="timezone_labels">
+        <item>"የማርሻል ደሴቶች"</item>
+        <item>"የሚድዌይ ደሴት"</item>
+        <item>"ሀዋይ"</item>
+        <item>"አላስካ"</item>
+        <item>"ፓሰፊክ ሰዓት"</item>
+        <item>"ቲጇና"</item>
+        <item>"አሪዞና"</item>
+        <item>"ቺዋዋ"</item>
+        <item>"የተራራ ሰዓት"</item>
+        <item>"መካከለኛው አሜሪካ"</item>
+        <item>"የመካከለኛው ሰዓት"</item>
+        <item>"ሜክሲኮ ከተማ"</item>
+        <item>"ሳስካታቸዋን"</item>
+        <item>"ቦጎታ"</item>
+        <item>"ምስራቃዊ ሰዓት"</item>
+        <item>"ቬኔዝዌላ"</item>
+        <item>"የአትላንቲክ ሰዓት (ባርባዶስ)"</item>
+        <item>"የአትላንቲክ ሰዓት (ካናዳ)"</item>
+        <item>"ማናኡስ"</item>
+        <item>"ሳንቲያጎ"</item>
+        <item>"ኒውፋውንድላንድ"</item>
+        <item>"ብራሲሊያ"</item>
+        <item>"ቦነስ አይረስ"</item>
+        <item>"ግሪንላንድ"</item>
+        <item>"ሞንተቪዴዮ"</item>
+        <item>"ማዕከላዊ-አትላንቲክ"</item>
+        <item>"አዞረስ"</item>
+        <item>"ኬፕ ቨርዴ ደሴቶች"</item>
+        <item>"ካዛብላንካ"</item>
+        <item>"ለንደን፣ ደብሊን"</item>
+        <item>"አምስተርዳም፣ በርሊን"</item>
+        <item>"ቤልግሬድ"</item>
+        <item>"ብራስልስ"</item>
+        <item>"ሳራየቮ"</item>
+        <item>"ዊንድሆዌክ"</item>
+        <item>"የምዕራብ አፍሪካ ሰዓት"</item>
+        <item>"አማን፣ ዮርዳኖስ"</item>
+        <item>"አቴንስ፣ ኢስታንቡል"</item>
+        <item>"ቤሩት፣ ሊባኖስ"</item>
+        <item>"ካይሮ"</item>
+        <item>"ሄልሲንኪ"</item>
+        <item>"እየሩሳሌም"</item>
+        <item>"ሚንስክ"</item>
+        <item>"ሀራሬ"</item>
+        <item>"ባግዳድ"</item>
+        <item>"ሞስኮ"</item>
+        <item>"ኩዌት"</item>
+        <item>"ናይሮቢ"</item>
+        <item>"ቴህራን"</item>
+        <item>"ባኩ"</item>
+        <item>"ትብሊሲ"</item>
+        <item>"የረቫን"</item>
+        <item>"ዱባይ"</item>
+        <item>"ካቡል"</item>
+        <item>"ኢስላማባድ፣ ካራቺ"</item>
+        <item>"ኡራልስክ"</item>
+        <item>"የካተሪንበርግ"</item>
+        <item>"ኮልካታ"</item>
+        <item>"ሽሪላንካ"</item>
+        <item>"ካትማንዱ"</item>
+        <item>"አስታና"</item>
+        <item>"ያንጎን"</item>
+        <item>"ክራስኖያርስክ"</item>
+        <item>"ባንግኮክ"</item>
+        <item>"ቤጂንግ"</item>
+        <item>"ሆንግ ኮንግ"</item>
+        <item>"ኢርኩትስክ"</item>
+        <item>"ኳላ ላምፑር"</item>
+        <item>"ፐርዝ"</item>
+        <item>"ታይፔይ"</item>
+        <item>"ሴኦል"</item>
+        <item>"ቶኪዮ፣ ኦሳካ"</item>
+        <item>"ያኩትስክ"</item>
+        <item>"አዴላይድ"</item>
+        <item>"ዳርዊን"</item>
+        <item>"ብሪስቤን"</item>
+        <item>"ሆባርት"</item>
+        <item>"ሲድኒ፣ ካንቤራ"</item>
+        <item>"ቭላዲቮስቶክ"</item>
+        <item>"ጉዋም"</item>
+        <item>"ማጋዳን"</item>
+        <item>"ኦክላንድ"</item>
+        <item>"ፊጂ"</item>
+        <item>"ቶንጋ"</item>
+        <item>"ጃካርታ"</item>
+    </string-array>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. -->
+    <!-- Header in the preferences settings for the section pertaining to alarms -->
+    <string name="alarm_settings">ማንቂያዎች</string>
+    <!-- Describes the service that processes actions originating from timer notifications. -->
+    <string name="timer_service_desc">ከጊዜ ቆጣሪ ማሳወቂያዎች እርምጃዎችን ያስኬዳል።</string>
+    <!-- Describes the service that processes actions originating from stopwatch notifications. -->
+    <string name="stopwatch_service_desc">ከቆጥሮ የሚቆም ሰዓት ማሳወቂያዎች እርምጃዎችን ያስኬዳል።</string>
+    <!-- Description for the paused stop watch -->
+    <string name="swn_paused">ለአፍታ ቆሟል</string>
+    <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
          be on the right even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_right">ለማሰናበት ወደ ቀኝ ያንሸራትቱ</string>
-  <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
+    <string name="description_direction_right">ለማሰናበት ወደ ቀኝ ያንሸራትቱ</string>
+    <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_left">ለማሸለብ ወደ ግራ ያንሸራትቱ</string>
-  <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
+    <string name="description_direction_left">ለማሸለብ ወደ ግራ ያንሸራትቱ</string>
+    <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
          be on the left even on RTL languages so please do not reverse this during
          translation. -->
-  <string name="description_direction_both">ለማሸለብ ወደ ቀኝ ወይም ለማሰናበት ወደ ግራ ጠረግ ያድርጉ</string>
-  <!-- Header in the preferences settings for the section pertaining to timers. -->
-  <string name="timer_settings">የሰዓት ቆጣሪዎች</string>
-  <!-- Description for timer ringtone setting. -->
-  <string name="timer_ringtone_title">የሰዓት ቆጣሪ የጥሪ ቅላጼ</string>
-  <!-- Description when timer is stopped. -->
-  <string name="timer_stopped">የሰዓት ቆጣሪ ቆሟል</string>
-  <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
-  <string name="timer_paused">ጊዜ ቆጣሪ ለአፍታ ቆሟል</string>
-  <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
-  <string name="timers_stopped"><xliff:g id="NUMBER">%d</xliff:g> ሰዓት ቆጣሪዎች ለአፍታ ቆመዋል</string>
-  <!-- Notification text when multiple timers are paused. -->
-  <string name="all_timers_stopped_notif">የሰዓት ቆጣሪዎችዎን ለማየት ይንኩ</string>
-  <!-- Notification title when at least one timer, of those in use, is counting down. -->
-  <string name="timers_in_use"><xliff:g id="NUMBER">%d</xliff:g> ሰዓት ቆጣሪዎች</string>
-  <!-- Notification text when at least one timer, of those in use, is counting down. -->
-  <string name="next_timer_notif">ቀጣዩ የሰዓት ቆጣሪ፦ <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
-  <!-- screensaver settings strings -->
-  <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
-  <string name="screensaver_settings">የህልም ቅንብሮች</string>
-  <!-- Title for check box to pick intensity of display diminuation during dream mode -->
-  <string name="night_mode_title">የማታ ሁነታ</string>
-  <!-- Describes intensity of display diminuation during dream mode -->
-  <string name="night_mode_summary">ብርሃኑ በጣም የፈዘዘ ማሳያ (ለጨለሙ ክፍሎች)</string>
-  <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
-  <string name="expand_alarm">ማንቂያ ዘርጋ</string>
-  <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
-  <string name="collapse_alarm">ማንቂያ ሰብስብ</string>
-  <!-- Description of the button to undo change to alarm -->
-  <string name="alarm_undo">ቀልብስ</string>
-  <!-- Toast content when an alarm was deleted  -->
-  <string name="alarm_deleted">ማንቂያ ተሰርዟል</string>
-  <!-- Select the source of the alarm -->
-  <!-- Select the ringtone as alarm -->
-  <!-- Select the alarm from external device -->
-  <string name="alarm_select_external">ሙዚቃ</string>
-  <!-- Ok for selection -->
-  <!-- Cancel for selection -->
-  <!-- slash between date and next alarm in the clock -->
-  <string name="slash">/</string>
-  <!-- slash between date and next alarm in the clock -->
-  <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
-  <string name="next_alarm_description">ቀጣዩ ማንቂያ፦ <xliff:g id="ALARM_TIME">%s</xliff:g></string>
-  <!-- Displays the number of alarms selected from the list of alarms. -->
-  <string name="alarms_selected"><xliff:g id="ALARMS">%d</xliff:g> ተመርጠዋል</string>
-  <!-- message used by the talkback accessibility app to say that something was deleted -->
-  <string name="deleted_message">ተሰርዟል</string>
-  <!-- Alarm deletion confirmation message-->
-  <plurals name="alarm_delete_confirmation">
-    <!-- Confirmation for one alarm -->
-    <item quantity="one">የተመረጡ ማንቂያዎች ይሰረዙ?</item>
-    <!-- Confirmation more than one alarm  -->
-    <item quantity="other">የተመረጡ ማንቂያዎች ይሰረዙ?</item>
-  </plurals>
-  <!-- Timer deletion confirmation -->
-  <string name="timer_delete_confirmation">ይህ የሰዓት ቆጣሪ ይሰረዝ?</string>
-  <!-- world clock deletion confirmation -->
-  <string name="city_delete_confirmation">ይህ ከተማ ይወገድ?</string>
-  <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
-  <string name="digital_gadget">ዲጂታል ሰዓት</string>
-  <!-- format strings for clocks -->
-  <!-- Font size for AM/PM should match widget_label_font_size -->
-  <!-- Font size for AM/PM should match bottom_text_size -->
-  <!-- Font size for AM/PM should match label_font_size -->
-  <!-- Font size for AM/PM should match alarm_label_size -->
-  <!-- String for no alarms -->
-  <string name="no_alarms">ማንቂያ የለም</string>
-  <!-- String for no alarms set [CHAR LIMIT=24] -->
-  <string name="no_alarms_set">ምንም ማንቂያ አልተዘጋጀም</string>
-  <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
-  <string name="no_upcoming_alarms">ምንም በቅርብ ጊዜ የሚሆኑ ማንቂያዎች የሉም</string>
-  <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
+    <string name="description_direction_both">ለማሸለብ ወደ ቀኝ ወይም ለማሰናበት ወደ ግራ ጠረግ ያድርጉ</string>
+    <!-- Header in the preferences settings for the section pertaining to timers. -->
+    <string name="timer_settings">የሰዓት ቆጣሪዎች</string>
+    <!-- Description for timer ringtone setting. -->
+    <string name="timer_ringtone_title">የሰዓት ቆጣሪ የጥሪ ቅላጼ</string>
+    <!-- Description when timer is stopped. -->
+    <string name="timer_stopped">የሰዓት ቆጣሪ ቆሟል</string>
+    <!-- Notification title when timer is paused. [CHAR LIMIT=25] -->
+    <string name="timer_paused">ጊዜ ቆጣሪ ለአፍታ ቆሟል</string>
+    <!-- Notification title when multiple timers are paused. [CHAR LIMIT = 30] -->
+    <string name="timers_stopped"><xliff:g id="NUMBER">%d</xliff:g> ሰዓት ቆጣሪዎች ለአፍታ ቆመዋል</string>
+    <!-- Notification text when multiple timers are paused. -->
+    <string name="all_timers_stopped_notif">የሰዓት ቆጣሪዎችዎን ለማየት ይንኩ</string>
+    <!-- Notification title when at least one timer, of those in use, is counting down. -->
+    <string name="timers_in_use"><xliff:g id="NUMBER">%d</xliff:g> ሰዓት ቆጣሪዎች</string>
+    <!-- Notification text when at least one timer, of those in use, is counting down. -->
+    <string name="next_timer_notif">ቀጣዩ የሰዓት ቆጣሪ፦ <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
+    <!-- screensaver settings strings -->
+    <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="screensaver_settings">የህልም ቅንብሮች</string>
+    <!-- Title for check box to pick intensity of display diminuation during dream mode -->
+    <string name="night_mode_title">የማታ ሁነታ</string>
+    <!-- Describes intensity of display diminuation during dream mode -->
+    <string name="night_mode_summary">ብርሃኑ በጣም የፈዘዘ ማሳያ (ለጨለሙ ክፍሎች)</string>
+    <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
+    <string name="expand_alarm">ማንቂያ ዘርጋ</string>
+    <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
+    <string name="collapse_alarm">ማንቂያ ሰብስብ</string>
+    <!-- Description of the button to undo change to alarm -->
+    <string name="alarm_undo">ቀልብስ</string>
+    <!-- Toast content when an alarm was deleted  -->
+    <string name="alarm_deleted">ማንቂያ ተሰርዟል</string>
+    <!-- Select the source of the alarm -->
+    <!-- Select the ringtone as alarm -->
+    <!-- Select the alarm from external device -->
+    <string name="alarm_select_external">ሙዚቃ</string>
+    <!-- Ok for selection -->
+    <!-- Cancel for selection -->
+    <!-- slash between date and next alarm in the clock -->
+    <string name="slash">/</string>
+    <!-- slash between date and next alarm in the clock -->
+    <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
+    <string name="next_alarm_description">ቀጣዩ ማንቂያ፦ <xliff:g id="ALARM_TIME">%s</xliff:g></string>
+    <!-- Displays the number of alarms selected from the list of alarms. -->
+    <string name="alarms_selected"><xliff:g id="ALARMS">%d</xliff:g> ተመርጠዋል</string>
+    <!-- message used by the talkback accessibility app to say that something was deleted -->
+    <string name="deleted_message">ተሰርዟል</string>
+    <!-- Alarm deletion confirmation message-->
+    <plurals name="alarm_delete_confirmation">
+        <!-- Confirmation for one alarm -->
+        <item quantity="one">የተመረጡ ማንቂያዎች ይሰረዙ?</item>
+        <!-- Confirmation more than one alarm  -->
+        <item quantity="other">የተመረጡ ማንቂያዎች ይሰረዙ?</item>
+    </plurals>
+    <!-- Timer deletion confirmation -->
+    <string name="timer_delete_confirmation">ይህ የሰዓት ቆጣሪ ይሰረዝ?</string>
+    <!-- world clock deletion confirmation -->
+    <string name="city_delete_confirmation">ይህ ከተማ ይወገድ?</string>
+    <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="digital_gadget">ዲጂታል ሰዓት</string>
+    <!-- format strings for clocks -->
+    <!-- Font size for AM/PM should match widget_label_font_size -->
+    <!-- Font size for AM/PM should match bottom_text_size -->
+    <!-- Font size for AM/PM should match label_font_size -->
+    <!-- Font size for AM/PM should match alarm_label_size -->
+    <!-- String for no alarms -->
+    <string name="no_alarms">ማንቂያ የለም</string>
+    <!-- String for no alarms set [CHAR LIMIT=24] -->
+    <string name="no_alarms_set">ምንም ማንቂያ አልተዘጋጀም</string>
+    <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
+    <string name="no_upcoming_alarms">ምንም በቅርብ ጊዜ የሚሆኑ ማንቂያዎች የሉም</string>
+    <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
      or 27:68pm.
     First %d represents hour, second %d represents minutes, %s represents am/pm,
     If no am/pm is passed in (e.g. the locale uses 24h time) only hour and minute are printed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_time">ልክ ያልሆነ ሰዓት <xliff:g id="INVALID_HOUR">%d</xliff:g>:<xliff:g id="INVALID_MINUTES">%d</xliff:g> <xliff:g id="INVALID_AMPM">%s</xliff:g></string>
-  <!-- String that represents that no alarm has been specified for a requested hour:minutes.
+    <string name="invalid_time">ልክ ያልሆነ ሰዓት <xliff:g id="INVALID_HOUR">%d</xliff:g>:<xliff:g id="INVALID_MINUTES">%d</xliff:g> <xliff:g id="INVALID_AMPM">%s</xliff:g></string>
+    <!-- String that represents that no alarm has been specified for a requested hour:minutes.
     This happens when a user sends a voice command 'dismiss my alarm at 3:00pm' but they have no
     alarms specified for that time. %s represents the time of the alarm.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_at"><xliff:g id="ALARM_TIME_HOUR">%d</xliff:g>:<xliff:g id="ALARM_TIME_MINUTES">%d</xliff:g> ላይ ማንቂያ ደወል የለም</string>
-  <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
+    <string name="no_alarm_at"><xliff:g id="ALARM_TIME_HOUR">%d</xliff:g>:<xliff:g id="ALARM_TIME_MINUTES">%d</xliff:g> ላይ ማንቂያ ደወል የለም</string>
+    <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
     a user sends a voice command 'dismiss next alarm' or 'dismiss all of my alarms' but they have
     no alarms scheduled in the app.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_scheduled_alarms">ምንም መርሐግብር የተያዘላቸው ማንቂያ ደወሎች የሉም</string>
-  <!-- String that represents that the user specified that they want to select an alarm to
+    <string name="no_scheduled_alarms">ምንም መርሐግብር የተያዘላቸው ማንቂያ ደወሎች የሉም</string>
+    <!-- String that represents that the user specified that they want to select an alarm to
     dismiss by specifying a 'label' but they didn't specify any labels.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_label_specified">ምንም መለያ አልተገለጸም</string>
-  <!-- String that represents that no alarm has been specified for a requested label.
+    <string name="no_label_specified">ምንም መለያ አልተገለጸም</string>
+    <!-- String that represents that no alarm has been specified for a requested label.
     This happens when a user sends a voice command 'dismiss my alarm with label pick up kids'
      but they have no alarms with that label.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarms_with_label">መለያው ያላቸው ምንም ማንቂያዎች የሉም</string>
-  <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
+    <string name="no_alarms_with_label">መለያው ያላቸው ምንም ማንቂያዎች የሉም</string>
+    <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
     'lap the stopwatch' when the stopwatch wasn't running so the command wasn't executed.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_isnt_running">የሩጫ ሰዓት እየሰራ አይደለም</string>
-  <!-- String that represents that the user has successfully sent a voice command pausing
+    <string name="stopwatch_isnt_running">የሩጫ ሰዓት እየሰራ አይደለም</string>
+    <!-- String that represents that the user has successfully sent a voice command pausing
      the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_paused">የሩጫ ሰዓት ለአፍታ ቆሟል</string>
-  <!-- String that represents that the user has successfully sent a voice command resetting
+    <string name="stopwatch_paused">የሩጫ ሰዓት ለአፍታ ቆሟል</string>
+    <!-- String that represents that the user has successfully sent a voice command resetting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_reset">የሩጫ ሰዓት ዳግም ማስጀመር</string>
-  <!-- String that represents that the user has successfully sent a voice command lapping
+    <string name="stopwatch_reset">የሩጫ ሰዓት ዳግም ማስጀመር</string>
+    <!-- String that represents that the user has successfully sent a voice command lapping
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_lapped">የሩጫ ሰዓት የመዞሪያ ሰዓቱን ይዟል</string>
-  <!-- String that represents that the user has successfully sent a voice command starting
+    <string name="stopwatch_lapped">የሩጫ ሰዓት የመዞሪያ ሰዓቱን ይዟል</string>
+    <!-- String that represents that the user has successfully sent a voice command starting
     the stopwatch.
     [CHAR LIMIT=NONE]
     -->
-  <string name="stopwatch_started">የሩጫ ሰዓት ተጀምሯል</string>
-  <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
+    <string name="stopwatch_started">የሩጫ ሰዓት ተጀምሯል</string>
+    <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
     there was no alarm scheduled for that time (they might have had an alarm for 3pm on the list
     but it was disabled).
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_alarm_scheduled_for_this_time">ለዚህ ጊዜ ምንም ማንቂያ ደወል መርሐግብር አልተያዘለትም</string>
-  <!-- String that represents that the user has dismissed an alarm through a voice action.
+    <string name="no_alarm_scheduled_for_this_time">ለዚህ ጊዜ ምንም ማንቂያ ደወል መርሐግብር አልተያዘለትም</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_dismissed"><xliff:g id="ALARM_TIME">%s</xliff:g> ማንቂያ ደወል ተሰናብቷል</string>
-  <!-- String that represents that the user has dismissed an alarm through a voice action.
+    <string name="alarm_is_dismissed"><xliff:g id="ALARM_TIME">%s</xliff:g> ማንቂያ ደወል ተሰናብቷል</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_set">ማንቂያ ደወል ለ<xliff:g id="ALARM_TIME">%s</xliff:g> ተዘጋጅቷል</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action when
+    <string name="alarm_is_set">ማንቂያ ደወል ለ<xliff:g id="ALARM_TIME">%s</xliff:g> ተዘጋጅቷል</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action when
     no timers are defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_timers_exist">ምንም ሰዓት ቆጣሪዎች የሉም</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action when
+    <string name="no_timers_exist">ምንም ሰዓት ቆጣሪዎች የሉም</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action when
     more than one timer is defined.
     [CHAR LIMIT=NONE]
     -->
-  <string name="too_many_timers_exist">ከአንድ በላይ የሰዓት ቆጣሪ አለ</string>
-  <!-- String that represents that the user attempted to control a timer with a voice action but
+    <string name="too_many_timers_exist">ከአንድ በላይ የሰዓት ቆጣሪ አለ</string>
+    <!-- String that represents that the user attempted to control a timer with a voice action but
     the timer could not be located.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_does_not_exist">ሰዓት ቆጣሪው ተወግዷል።</string>
-  <!-- String that represents that the user has successfully created a timer through a voice action.
+    <string name="timer_does_not_exist">ሰዓት ቆጣሪው ተወግዷል።</string>
+    <!-- String that represents that the user has successfully created a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_created">የሰዓት ቆጣሪ ተፈጥሯል</string>
-  <!-- String that represents that the user has successfully reset a timer through a voice action.
+    <string name="timer_created">የሰዓት ቆጣሪ ተፈጥሯል</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_was_reset">ሰዓት ቆጣሪ ዳግም ተዘጋጅቷል</string>
-  <!-- String that represents that the user has successfully reset a timer through a voice action
+    <string name="timer_was_reset">ሰዓት ቆጣሪ ዳግም ተዘጋጅቷል</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action
     that was marked as deleteAfterUse and was thus deleted instead.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_deleted">ሰዓት ቆጣሪ ተሰርዟል</string>
-  <!-- String that represents that the user has successfully started a timer through a voice action.
+    <string name="timer_deleted">ሰዓት ቆጣሪ ተሰርዟል</string>
+    <!-- String that represents that the user has successfully started a timer through a voice action.
     [CHAR LIMIT=NONE]
     -->
-  <string name="timer_started">ሰዓት ቆጣሪ ተጀምሯል</string>
-  <!-- String that represents that the user attempted to start a timer through a voice action
+    <string name="timer_started">ሰዓት ቆጣሪ ተጀምሯል</string>
+    <!-- String that represents that the user attempted to start a timer through a voice action
     but specified invalid length.
     [CHAR LIMIT=NONE]
     -->
-  <string name="invalid_timer_length">ልክ ያልሆነ የሰዓት ቆጣሪ ርዝመት</string>
-  <!-- String that represents that the user attempted to add or delete a world clock through
+    <string name="invalid_timer_length">ልክ ያልሆነ የሰዓት ቆጣሪ ርዝመት</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but they didn't specify a city so no world clock was selected.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_city_selected">ምንም ከተማ አልተመረጠም</string>
-  <!-- String that represents that the user attempted to add or delete a world clock through
+    <string name="no_city_selected">ምንም ከተማ አልተመረጠም</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
     a voice action
     but the city they specified wasn't listed in the database.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_you_specified_is_not_available">የጠቀሱት ከተማ አይገኝም</string>
-  <!-- String that represents that the user attempted to add a world clock through a voice action
+    <string name="the_city_you_specified_is_not_available">የጠቀሱት ከተማ አይገኝም</string>
+    <!-- String that represents that the user attempted to add a world clock through a voice action
     but the city they specified is already added to the list.
     [CHAR LIMIT=NONE]
     -->
-  <string name="the_city_already_added">ይሄ ከተማ አስቀድሞ ታክሏል</string>
-  <!-- String that represents that the user successfully added a world clock through a
+    <string name="the_city_already_added">ይሄ ከተማ አስቀድሞ ታክሏል</string>
+    <!-- String that represents that the user successfully added a world clock through a
     voice action
     %s represents the name of the city they added.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_added"><xliff:g id="CITY_NAME">%s</xliff:g> ታክሏል</string>
-  <!-- String that represents that the user successfully deleted a world clock through
+    <string name="city_added"><xliff:g id="CITY_NAME">%s</xliff:g> ታክሏል</string>
+    <!-- String that represents that the user successfully deleted a world clock through
     a voice action
     %s represents the name of the city they deleted.
     [CHAR LIMIT=NONE]
     -->
-  <string name="city_deleted"><xliff:g id="CITY_NAME">%s</xliff:g> ተሰርዟል</string>
-  <!-- String that represents that the user attempted to dismiss an alarm that is more than
+    <string name="city_deleted"><xliff:g id="CITY_NAME">%s</xliff:g> ተሰርዟል</string>
+    <!-- String that represents that the user attempted to dismiss an alarm that is more than
     24 hours away
     %s represents the time of the alarm (e.g. 15:39)
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">የ<xliff:g id="ALARM_TIME">%s</xliff:g> ማንቂያ ደውል ገና ሊሰናበት አይችልም፣ አሁንም ገና ከ24 ሰዓቶች በላይ ይቀራሉ</string>
-  <!-- String that shows up in the action bar for the Picker Activity
+    <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">የ<xliff:g id="ALARM_TIME">%s</xliff:g> ማንቂያ ደውል ገና ሊሰናበት አይችልም፣ አሁንም ገና ከ24 ሰዓቶች በላይ ይቀራሉ</string>
+    <!-- String that shows up in the action bar for the Picker Activity
          where a use gets to pick which alarm to dismiss
    [CHAR LIMIT=NONE]
    -->
-  <string name="dismiss_alarm">ማንቂያ ሰርዝ</string>
-  <!-- String that represents that further action is needed from the user in case their
+    <string name="dismiss_alarm">ማንቂያ ሰርዝ</string>
+    <!-- String that represents that further action is needed from the user in case their
     voice command was ambiguous or there are more than 1 alarms that match their request.
     The user needs to choose an alarm they want to dismiss through the UI
    [CHAR LIMIT=NONE]
    -->
-  <string name="pick_alarm_to_dismiss">የትኛዎቹ ማንቂያ ደወሎች እንደሚሰናበቱ ይምረጡ</string>
-  <!-- String that represents that the user doesn't have any alarms firing at the moment.
+    <string name="pick_alarm_to_dismiss">የትኛዎቹ ማንቂያ ደወሎች እንደሚሰናበቱ ይምረጡ</string>
+    <!-- String that represents that the user doesn't have any alarms firing at the moment.
     [CHAR LIMIT=NONE]
     -->
-  <string name="no_firing_alarms">ምንም ተኳሽ ማንቂያ ደወሎች የሉም</string>
-  <!-- String that represents that the user has snoozed an alarm through a voice action for 10
+    <string name="no_firing_alarms">ምንም ተኳሽ ማንቂያ ደወሎች የሉም</string>
+    <!-- String that represents that the user has snoozed an alarm through a voice action for 10
     minutes.
     %s represents alarm time, e.g. 14:20
     [CHAR LIMIT=NONE]
     -->
-  <string name="alarm_is_snoozed">የ<xliff:g id="ALARM_TIME">%s</xliff:g> ማንቂያ ደወል ለ10 ደቂቃዎች አሸልቧል</string>
-  <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
-  <!-- Ringtone selection default" -->
-  <!--used for prompt to user storage permission status-->
+    <string name="alarm_is_snoozed">የ<xliff:g id="ALARM_TIME">%s</xliff:g> ማንቂያ ደወል ለ10 ደቂቃዎች አሸልቧል</string>
+    <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+    <!-- Ringtone selection default" -->
+    <!--used for prompt to user storage permission status-->
 </resources>
