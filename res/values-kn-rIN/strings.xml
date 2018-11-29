@@ -683,7 +683,6 @@
     If no am/pm is passed in (e.g. the locale uses 24h time) only hour and minute are printed.
     [CHAR LIMIT=NONE]
     -->
-    <string name="invalid_time">ಮಾನ್ಯವಲ್ಲದ ಸಮಯ<xliff:g id="ಮಾನ್ಯವಲ್ಲದ_ಗಂಟೆ" ಉದಾಹರಣೆ="25">%d</xliff:g>:<xliff:g id="ಮಾನ್ಯವಲ್ಲದ_ನಿಮಿಷಗಳು" example="63">%d</xliff:g><xliff:g id="ಮಾನ್ಯವಲ್ಲದ_ampm" ುುಉದಾಹರಣೆ="PM">%s</xliff:g></string>
     <!-- String that represents that no alarm has been specified for a requested hour:minutes.
     This happens when a user sends a voice command 'dismiss my alarm at 3:00pm' but they have no
     alarms specified for that time. %s represents the time of the alarm.
