@@ -339,7 +339,7 @@
     <string name="cities_add_already_exists">Kota sudah ada di dalam database</string>
     <string name="cities_add_city_failed">Tidak dapat membuat kota</string>
     <string name="cities_delete_city_failed">Tidak dapat menghapus kota</string>
-    <string name="cities_delete_city_msg">Apakah anda ingin menghapus <xliff:g id="city">%s </xliff:g>?</string>
+    <string name="cities_delete_city_msg">Apakah anda ingin menghapus <xliff:g id="city">%s </xliff:g>?    </string>
     <string name="cities_delete_city_title">Hapus kota</string>
     <!-- Label for selected cities in Cities list view -->
     <string name="selected_cities_label">Kota yang dipilih</string>

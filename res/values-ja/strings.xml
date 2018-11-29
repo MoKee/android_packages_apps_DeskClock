@@ -339,7 +339,8 @@
     <string name="cities_add_already_exists">その都市はデータベースに既に存在しています</string>
     <string name="cities_add_city_failed">都市を作成できません</string>
     <string name="cities_delete_city_failed">都市を削除できません</string>
-    <string name="cities_delete_city_msg"><xliff:g id="city">%s</xliff:g>を削除しますか？</string>
+    <string name="cities_delete_city_msg"><xliff:g id="city">%s</xliff:g>を削除しますか？
+    </string>
     <string name="cities_delete_city_title">都市を削除</string>
     <!-- Label for selected cities in Cities list view -->
     <string name="selected_cities_label">選択した都市</string>

@@ -149,46 +149,23 @@
     <string-array name="alarm_set">
         <item>La alarma sonará en menos de un minuto.</item>
         <item>La alarma sonará en <xliff:g id="DAYS">%1$s</xliff:g>.</item>
-        <item>
-            Alarm set for
-            <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>
-            from now.
-        </item>
-        <item>
-            Alarm set for
-            <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>
-            and
-            <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>
-            from now.
-        </item>
-        <item>
-            Alarm set for
-            <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>
-            from now.
-        </item>
-        <item>
-            Alarm set for
-            <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>
-            and
-            <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>
-            from now.
-        </item>
-        <item>
-            Alarm set for
-            <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>
-            and
-            <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>
-            from now.
-        </item>
-        <item>
-            Alarm set for
-            <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>
-            ,
-            <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>
-            , and
-            <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>
-            from now.
-        </item>
+        <item>Alarm set for 
+            <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> from now.</item>
+        <item>Alarm set for 
+            <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and 
+            <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> from now.</item>
+        <item>Alarm set for 
+            <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+        <item>Alarm set for 
+            <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and 
+            <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+        <item>Alarm set for 
+            <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> and 
+            <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+        <item>Alarm set for 
+            <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, 
+            <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, and 
+            <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
     </string-array>
     <!-- Alarm confirmation toast: days -->
     <!-- Alarm confirmation toast and timer notification: hours -->
@@ -663,7 +640,7 @@
     <!-- Cancel for selection -->
     <string name="alarm_select_cancel">Cancelar</string>
     <!-- slash between date and next alarm in the clock -->
-    <string name="slash">/</string>
+    <string name="slash"> / </string>
     <!-- slash between date and next alarm in the clock -->
     <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
     <!-- Displays the number of alarms selected from the list of alarms. -->

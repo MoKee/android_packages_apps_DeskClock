@@ -348,7 +348,8 @@
     <string name="cities_add_city_failed">Nem lehet létrehozni a várost</string>
     <string name="cities_delete_city_failed">Nem lehet törölni a várost</string>
     <string name="cities_delete_city_msg">Biztosan törli a következőt:
-        <xliff:g id="city">%s</xliff:g>?</string>
+        <xliff:g id="city">%s</xliff:g>?
+    </string>
     <string name="cities_delete_city_title">Város törlése</string>
     <!-- Label for selected cities in Cities list view -->
     <string name="selected_cities_label">Kiválasztott városok</string>

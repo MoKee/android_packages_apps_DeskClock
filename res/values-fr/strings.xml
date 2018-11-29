@@ -347,7 +347,7 @@
     <string name="cities_add_already_exists">La ville éxiste déjà dans les données</string>
     <string name="cities_add_city_failed">Impossible d\'ajouter la ville</string>
     <string name="cities_delete_city_failed">Impossible de supprimer la ville</string>
-    <string name="cities_delete_city_msg">Voulez-vous supprimer   <xliff:g id="city">%s</xliff:g>?</string>
+    <string name="cities_delete_city_msg">Voulez-vous supprimer   <xliff:g id="city">%s</xliff:g>?    </string>
     <string name="cities_delete_city_title">Supprimer la ville</string>
     <!-- Label for selected cities in Cities list view -->
     <string name="selected_cities_label">Villes sélectionnées</string>
@@ -658,7 +658,7 @@
     <!-- Cancel for selection -->
     <string name="alarm_select_cancel">Annuler</string>
     <!-- slash between date and next alarm in the clock -->
-    <string name="slash">/</string>
+    <string name="slash"> / </string>
     <!-- slash between date and next alarm in the clock -->
     <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
     <string name="next_alarm_description">Prochaine alarme : <xliff:g id="ALARM_TIME">%s</xliff:g></string>

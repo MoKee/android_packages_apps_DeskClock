@@ -347,7 +347,7 @@
     <string name="cities_add_already_exists">De stad bestaat al in de database</string>
     <string name="cities_add_city_failed">Kan de stad niet aanmaken</string>
     <string name="cities_delete_city_failed">Kan de stad niet verwijderen</string>
-    <string name="cities_delete_city_msg">Weet u zeker dat u <xliff:g id="city">%s</xliff:g> wilt verwijderen?</string>
+    <string name="cities_delete_city_msg">Weet u zeker dat u <xliff:g id="city">%s</xliff:g> wilt verwijderen?    </string>
     <string name="cities_delete_city_title">Stad verwijderen</string>
     <!-- Label for selected cities in Cities list view -->
     <string name="selected_cities_label">Geselecteerde plaatsen</string>

@@ -222,7 +222,8 @@
     <string name="cities_add_city_failed">Nun pue crease la ciudá</string>
     <string name="cities_delete_city_failed">Nun pue desaniciase la ciudá</string>
     <string name="cities_delete_city_msg">¿Quies desaniciar
-        <xliff:g id="city">%s</xliff:g>?</string>
+        <xliff:g id="city">%s</xliff:g>?
+    </string>
     <string name="cities_delete_city_title">Desaniciar ciudá</string>
     <!-- Label for selected cities in Cities list view -->
     <!-- Stopwatch and Timer shared strings -->

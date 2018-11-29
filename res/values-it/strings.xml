@@ -348,7 +348,8 @@
     <string name="cities_add_city_failed">Impossibile aggiungere la città</string>
     <string name="cities_delete_city_failed">Impossibile cancellare la città</string>
     <string name="cities_delete_city_msg">Vuoi cancellare
-        <xliff:g id="city">%s</xliff:g>?</string>
+        <xliff:g id="city">%s</xliff:g>?
+    </string>
     <string name="cities_delete_city_title">Elimina città</string>
     <!-- Label for selected cities in Cities list view -->
     <string name="selected_cities_label">Città selezionate</string>

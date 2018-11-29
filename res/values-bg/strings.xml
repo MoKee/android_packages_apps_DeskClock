@@ -205,9 +205,9 @@
     </plurals>
     <plurals name="snooze_picker_label">
         <!-- Duration for one minute -->
-        <item quantity="one">минута</item>
+        <item quantity="one"> минута</item>
         <!-- Duration for more than one minute -->
-        <item quantity="other">минути</item>
+        <item quantity="other"> минути</item>
     </plurals>
     <!-- Setting title for changing the crescendo duration. -->
     <string name="crescendo_duration_title">Постепенно увеличаване на силата на звука</string>
@@ -347,7 +347,7 @@
     <string name="cities_add_already_exists">Градът вече съществува в базата данни</string>
     <string name="cities_add_city_failed">Не може да се създаде града</string>
     <string name="cities_delete_city_failed">Не може да се изтрие града</string>
-    <string name="cities_delete_city_msg">Искате ли да изтриете <xliff:g id="city">%s</xliff:g>?</string>
+    <string name="cities_delete_city_msg">Искате ли да изтриете <xliff:g id="city">%s</xliff:g>?    </string>
     <string name="cities_delete_city_title">Изтрий град</string>
     <!-- Label for selected cities in Cities list view -->
     <string name="selected_cities_label">Избрани градове</string>

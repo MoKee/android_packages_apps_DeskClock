@@ -28,9 +28,12 @@
     <!-- Menu item on Alarm Clock screen: Edit alarm -->
     <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
     <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+    <string name="enable_alarm"></string>
     <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+    <string name="disable_alarm">Turn alarm off</string>
     <!-- Delete alarm confirmation dialog message. -->
     <!-- Menu item on Alarm Clock screen: Show clock -->
+    <string name="show_clock">แสดงนาฬิกา</string>
     <!-- Menu item on Alarm Clock screen: Hide clock -->
     <!-- Setting label on Set alarm screen: Label -->
     <!-- Content description for alarm on/off switch in On state -->

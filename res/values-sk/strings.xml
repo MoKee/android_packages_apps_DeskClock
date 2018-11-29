@@ -363,7 +363,7 @@
     <string name="cities_add_already_exists">Mesto už existuje v databáze</string>
     <string name="cities_add_city_failed">Nemožno pridať mesto</string>
     <string name="cities_delete_city_failed">Nemožno vymazať mesto</string>
-    <string name="cities_delete_city_msg">Chcete vymazať mesto „<xliff:g id="city">%s</xliff:g>“?</string>
+    <string name="cities_delete_city_msg">Chcete vymazať mesto „<xliff:g id="city">%s</xliff:g>“?    </string>
     <string name="cities_delete_city_title">Vymazať mesto</string>
     <!-- Label for selected cities in Cities list view -->
     <string name="selected_cities_label">Vybrané mestá</string>
@@ -680,7 +680,7 @@
     <!-- Cancel for selection -->
     <string name="alarm_select_cancel">Zrušiť</string>
     <!-- slash between date and next alarm in the clock -->
-    <string name="slash">/</string>
+    <string name="slash"> / </string>
     <!-- slash between date and next alarm in the clock -->
     <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
     <string name="next_alarm_description">Další budík: <xliff:g id="alarm_time" example="Wed 8:00am">%s</xliff:g></string>

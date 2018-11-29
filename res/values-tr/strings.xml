@@ -347,7 +347,7 @@
     <string name="cities_add_already_exists">Şehir veritabanında zaten mevcut</string>
     <string name="cities_add_city_failed">Şehir oluşturulamıyor</string>
     <string name="cities_delete_city_failed">Şehir silinemiyor</string>
-    <string name="cities_delete_city_msg"><xliff:g id="city">%s</xliff:g> şehrini silmek istiyor musunuz?</string>
+    <string name="cities_delete_city_msg"><xliff:g id="city">%s</xliff:g> şehrini silmek istiyor musunuz?    </string>
     <string name="cities_delete_city_title">Şehri sil</string>
     <!-- Label for selected cities in Cities list view -->
     <string name="selected_cities_label">Seçilen Şehirler</string>
@@ -658,7 +658,7 @@
     <!-- Cancel for selection -->
     <string name="alarm_select_cancel">İptal</string>
     <!-- slash between date and next alarm in the clock -->
-    <string name="slash">/</string>
+    <string name="slash"> / </string>
     <!-- slash between date and next alarm in the clock -->
     <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
     <string name="next_alarm_description">Sonraki alarm: <xliff:g id="alarm_time" example="Wed 8:00am">%s</xliff:g></string>

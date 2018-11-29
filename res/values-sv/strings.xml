@@ -551,7 +551,7 @@
     <!-- Cancel for selection -->
     <string name="alarm_select_cancel">Avbryt</string>
     <!-- slash between date and next alarm in the clock -->
-    <string name="slash">/</string>
+    <string name="slash"> / </string>
     <!-- slash between date and next alarm in the clock -->
     <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
     <!-- Displays the number of alarms selected from the list of alarms. -->

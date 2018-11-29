@@ -348,7 +348,8 @@
     <string name="cities_add_city_failed">No se puede crear la ciudad</string>
     <string name="cities_delete_city_failed">No se puede eliminar la ciudad</string>
     <string name="cities_delete_city_msg">¿Confirmas que deseas eliminar
-        <xliff:g id="city">%s</xliff:g>?</string>
+        <xliff:g id="city">%s</xliff:g>?   
+    </string>
     <string name="cities_delete_city_title">Eliminar ciudad</string>
     <!-- Label for selected cities in Cities list view -->
     <string name="selected_cities_label">Ciudades seleccionadas</string>
@@ -659,7 +660,7 @@
     <!-- Cancel for selection -->
     <string name="alarm_select_cancel">Cancelar</string>
     <!-- slash between date and next alarm in the clock -->
-    <string name="slash">/</string>
+    <string name="slash"> / </string>
     <!-- slash between date and next alarm in the clock -->
     <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
     <string name="next_alarm_description">Próxima alarma: <xliff:g id="alarm_time" example="Wed 8:00am">%s</xliff:g></string>

@@ -347,7 +347,7 @@
     <string name="cities_add_already_exists">Die Stadt existiert bereits in der Datenbank</string>
     <string name="cities_add_city_failed">Stadt konnte nicht angelegt werden</string>
     <string name="cities_delete_city_failed">Stadt konnte nicht gelöscht werden</string>
-    <string name="cities_delete_city_msg">Möchtest du <xliff:g id="city">%s</xliff:g> löschen?</string>
+    <string name="cities_delete_city_msg">Möchtest du <xliff:g id="city">%s</xliff:g> löschen?    </string>
     <string name="cities_delete_city_title">Stadt löschen</string>
     <!-- Label for selected cities in Cities list view -->
     <string name="selected_cities_label">Ausgewählte Städte</string>
