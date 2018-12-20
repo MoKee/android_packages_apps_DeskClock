@@ -23,6 +23,11 @@
     <!-- Setting title for the shake action setting. -->
     <string name="shake_action_title">Aición al ximelgar</string>
     <!-- Entries listed in the setting flip and shake. -->
+    <string-array name="action_setting_entries">
+        <item>Snooze</item>
+        <item>Escartar</item>
+        <item>Nothing</item>
+    </string-array>
     <!-- Setting title for accessing the cLock widget settings -->
     <string name="menu_item_widget_settings">Axustes de Widgets</string>
 </resources>
