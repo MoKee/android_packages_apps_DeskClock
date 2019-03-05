@@ -18,15 +18,11 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Setting title for the flip action setting. -->
     <string name="flip_action_title">Pagbaliktad ng aksyon</string>
-    <!-- Setting title for the shake action setting. -->
     <string name="shake_action_title">I-alog ang aksyon</string>
-    <!-- Entries listed in the setting flip and shake. -->
     <string-array name="action_setting_entries">
         <item>I-snooze</item>
         <item>Alisin</item>
         <item>Nothing</item>
     </string-array>
-    <!-- Setting title for accessing the cLock widget settings -->
 </resources>
