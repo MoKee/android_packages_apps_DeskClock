@@ -25,5 +25,5 @@
         <item>Odrzuć</item>
         <item>Nic nie rób</item>
     </string-array>
-    <string name="menu_item_widget_settings">Ustawienia widżetów</string>
+    <string name="menu_item_widget_settings">Ustawienia Widżetów</string>
 </resources>

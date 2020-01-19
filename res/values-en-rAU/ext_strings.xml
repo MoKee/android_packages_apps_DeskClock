@@ -25,5 +25,4 @@
         <item>Dismiss</item>
         <item>Nothing</item>
     </string-array>
-    <string name="menu_item_widget_settings">Widget settings</string>
 </resources>

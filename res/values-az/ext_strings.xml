@@ -25,5 +25,5 @@
         <item>Rədd et</item>
         <item>Heç biri</item>
     </string-array>
-    <string name="menu_item_widget_settings">Vidget tənzimləmələri</string>
+    <string name="menu_item_widget_settings">Widget tənzimləmələri</string>
 </resources>

@@ -25,5 +25,5 @@
         <item>Выключить</item>
         <item>Ничего</item>
     </string-array>
-    <string name="menu_item_widget_settings">Настройки виджетов</string>
+    <string name="menu_item_widget_settings">Настройки виджета</string>
 </resources>

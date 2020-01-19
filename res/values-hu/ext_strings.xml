@@ -25,5 +25,5 @@
         <item>Elvetés</item>
         <item>Semmi</item>
     </string-array>
-    <string name="menu_item_widget_settings">Modul beállítások</string>
+    <string name="menu_item_widget_settings">Kisalkalmazás-beállítások</string>
 </resources>
