@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2012-2019 The MoKee Open Source Project
      Copyright (C) 2012-2016 The CyanogenMod Project
      Copyright (C) 2017-2018 The LineageOS Project
 
@@ -17,12 +16,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="flip_action_title">ಸಾಧನ ಫ್ಲಿಪ್ ಕ್ರಿಯೆ</string>
-    <string name="shake_action_title">ಸಾಧನ ಕುಲುಕು ಕ್ರಿಯೆ</string>
+    <string name="flip_action_title">ಸಾಧನದ ಮಗುಚು ಕ್ರಿಯೆ</string>
+    <string name="shake_action_title">ಸಾಧನದ ಕುಲುಕು ಕ್ರಿಯೆ</string>
     <string-array name="action_setting_entries">
-        <item>ಲಘು ನಿದ್ದೆ</item>
-        <item>ವಜಾ ಮಾಡು</item>
-        <item>Nothing</item>
+        <item>ಲಘುನಿದ್ದೆ</item>
+        <item>ವಜಾಮಾಡು</item>
+        <item>ಏನಿಲ್ಲ</item>
     </string-array>
-    <string name="menu_item_widget_settings">ಉಪಕರಣ ಸಂಯೋಜನೆಗಳು</string>
+    <string name="menu_item_widget_settings">ವಿಜೆಟ್ ಸೆಟ್ಟಿಂಗ್ಸ್</string>
 </resources>
