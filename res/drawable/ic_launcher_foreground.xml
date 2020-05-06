@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 The MoKee Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="1080">
+  <path
+      android:pathData="M535.86,345L544.14,345A18.86,18.86 0,0 1,563 363.86L563,532.16A18.86,18.86 0,0 1,544.14 551.02L535.86,551.02A18.86,18.86 0,0 1,517 532.16L517,363.86A18.86,18.86 0,0 1,535.86 345z"
+      android:fillColor="#fff"/>
+  <path
+      android:pathData="M717.73,660.86L713.41,667.07A13.81,13.81 79.8,0 1,694.19 670.52L545.81,567.38A13.81,13.81 79.8,0 1,542.35 548.16L546.67,541.95A13.81,13.81 79.8,0 1,565.89 538.49L714.27,641.64A13.81,13.81 79.8,0 1,717.73 660.86z"
+      android:fillColor="#fff"/>
+  <path
+      android:pathData="M639.12,469.13L640.48,471.1A12.37,12.37 100.37,0 1,637.33 488.31L349.68,686.97A12.37,12.37 100.37,0 1,332.47 683.82L331.11,681.85A12.37,12.37 100.37,0 1,334.26 664.65L621.91,465.98A12.37,12.37 100.37,0 1,639.12 469.13z"
+      android:fillColor="#d1235a"/>
+  <path
+      android:pathData="M541.25,538.18m-42.55,0a42.55,42.55 0,1 1,85.1 0a42.55,42.55 0,1 1,-85.1 0"
+      android:fillColor="#d1235a"/>
+</vector>
