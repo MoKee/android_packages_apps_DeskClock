@@ -16,9 +16,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="flip_action_title">მოქმედება მოწყობილობის შეტრიალებისას</string>
     <string-array name="action_setting_entries">
-        <item>ჩაჩუმება</item>
-        <item>Dismiss</item>
-        <item>Nothing</item>
+        <item>გადადება</item>
+        <item>გაუქმება</item>
+        <item>არაფერი</item>
     </string-array>
 </resources>

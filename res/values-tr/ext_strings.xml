@@ -23,4 +23,10 @@
         <item>Reddet</item>
         <item>Hiçbiri</item>
     </string-array>
+    <string name="firing_alarms_timers_channel">Alarmı ve zamanlayıcıları tetikler</string>
+    <string name="alarm_missed_channel">Alarmlar kaçırıldı</string>
+    <string name="alarm_snooze_channel">Alarmları ertele</string>
+    <string name="alarm_upcoming_channel">Yaklaşan alarmlar</string>
+    <string name="stopwatch_channel">Kronometre</string>
+    <string name="timer_channel">Zamanlayıcı</string>
 </resources>
