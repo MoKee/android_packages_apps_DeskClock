@@ -23,4 +23,9 @@
         <item>Verwerfen</item>
         <item>Keine Aktion</item>
     </string-array>
+    <string name="alarm_missed_channel">Entgangene Weckrufe</string>
+    <string name="alarm_snooze_channel">Schlummernde Weckrufe</string>
+    <string name="alarm_upcoming_channel">Anstehende Weckrufe</string>
+    <string name="stopwatch_channel">Stoppuhr</string>
+    <string name="timer_channel">Timer</string>
 </resources>
