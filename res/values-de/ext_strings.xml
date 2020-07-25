@@ -23,6 +23,7 @@
         <item>Verwerfen</item>
         <item>Keine Aktion</item>
     </string-array>
+    <string name="firing_alarms_timers_channel">Alarm &amp; Timer auslösen</string>
     <string name="alarm_missed_channel">Entgangene Weckrufe</string>
     <string name="alarm_snooze_channel">Schlummernde Weckrufe</string>
     <string name="alarm_upcoming_channel">Anstehende Weckrufe</string>
