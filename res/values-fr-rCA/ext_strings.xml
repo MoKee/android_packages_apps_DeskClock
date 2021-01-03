@@ -23,4 +23,10 @@
         <item>Refuser</item>
         <item>Rien</item>
     </string-array>
+    <string name="firing_alarms_timers_channel">Déclenchement des alarmes &amp; des minuteurs</string>
+    <string name="alarm_missed_channel">Alarmes manquées</string>
+    <string name="alarm_snooze_channel">Alarmes répétées</string>
+    <string name="alarm_upcoming_channel">Alarmes imminentes</string>
+    <string name="stopwatch_channel">Chronomètre</string>
+    <string name="timer_channel">Minuteur</string>
 </resources>
