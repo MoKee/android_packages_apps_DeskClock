@@ -24,5 +24,5 @@
         <item>Zrušiť</item>
         <item>Nič</item>
     </string-array>
-    <string name="menu_item_widget_settings">Nastavenie widgetu</string>
+    <string name="menu_item_widget_settings">Nastavenia widgetu</string>
 </resources>
