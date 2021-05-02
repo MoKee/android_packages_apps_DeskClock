@@ -24,5 +24,5 @@
         <item>דחה</item>
         <item>שום דבר</item>
     </string-array>
-    <string name="menu_item_widget_settings">הגדרות ווידג\'ט</string>
+    <string name="menu_item_widget_settings">הגדרות יישומון</string>
 </resources>
