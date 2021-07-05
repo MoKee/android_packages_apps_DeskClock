@@ -504,7 +504,7 @@ public class AlarmActivity extends BaseActivity
                 R.plurals.alarm_alert_snooze_set, snoozeMinutes, snoozeMinutes);
 
         getAlertAnimator(mSnoozeButton, R.string.alarm_alert_snoozed_text, infoText,
-                accessibilityText, colorAccent, colorAccent).start();
+                accessibilityText, Color.DKGRAY, mCurrentHourColor).start();
 
         AlarmStateManager.setSnoozeState(this, mAlarmInstance, false /* showToast */);
 
@@ -525,7 +525,7 @@ public class AlarmActivity extends BaseActivity
 
         getAlertAnimator(mDismissButton, R.string.alarm_alert_off_text, null /* infoText */,
                 getString(R.string.alarm_alert_off_text) /* accessibilityText */,
-                Color.WHITE, mCurrentHourColor).start();
+                Color.DKGRAY, mCurrentHourColor).start();
 
         AlarmStateManager.deleteInstanceAndUpdateParent(this, mAlarmInstance);
 
